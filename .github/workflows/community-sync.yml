@@ -82,6 +82,18 @@ jobs:
 
           LOG_PRETTY: "1"
 
+      - name: Checkout public opportunities
+        if: steps.calendar.outputs.should_run == 'true'
+        uses: actions/checkout@v6
+        with:
+          repository: Donkey0322/JobRadar-AI
+          ref: main
+          path: upstream
+          sparse-checkout: data
+          sparse-checkout-cone-mode: true
+          fetch-depth: 1
+          persist-credentials: false
+
       # ✅ Run community sync pipeline
       - name: Run community sync pipeline
         if: steps.calendar.outputs.should_run == 'true'
@@ -90,8 +102,8 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           PAT: ${{ secrets.PAT }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
-
           LOG_PRETTY: "1"
+          UPSTREAM_DATA_PATH: ${{ github.workspace }}/upstream/data
         run: |
           pnpm jobctl sync
 

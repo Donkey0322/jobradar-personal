@@ -19,6 +19,7 @@ preview.html
 *.local
 .DS_Store
 data/jd/
+/upstream/
 data/profile.json
 data/background.md
 data/resume.pdf

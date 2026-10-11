@@ -6,7 +6,7 @@ function makePosting(dates: string[] = []) {
   return Posting.from(
     {
       company: "Acme",
-      role: "Software Engineer Intern",
+      role: "Junior Software Engineer",
       link: "https://job-boards.greenhouse.io/acme/jobs/123",
       location: "Remote",
     },
@@ -20,7 +20,7 @@ describe("Posting", () => {
 
     expect(posting.toJob()).toEqual({
       company: "Acme",
-      role: "Software Engineer Intern",
+      role: "Junior Software Engineer",
       link: "https://job-boards.greenhouse.io/acme/jobs/123",
       location: "Remote",
     });

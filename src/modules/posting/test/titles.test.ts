@@ -186,7 +186,7 @@ describe("isTarget", () => {
     expect(isUnspecifiedTechLevel(`Software Engineer, ${word}`)).toBe(true);
     expect(isTechEntryLevel(`Junior Software Engineer, ${word}`)).toBe(true);
     expect(isTechIntern(`Software Engineer Intern, ${word}`)).toBe(true);
-    expect(isTarget("Software Engineering Intern – AI Tools for Hardware Engineering")).toBe(true);
+    expect(isTarget("Software Engineering Intern – AI Tools for Hardware Engineering")).toBe(false);
     expect(isTechIntern("Software Engineering Intern – AI Tools for Hardware Engineering")).toBe(
       true
     );

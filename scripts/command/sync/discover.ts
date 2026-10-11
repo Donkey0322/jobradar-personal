@@ -1,30 +1,29 @@
 import "dotenv/config";
 import { ALLOWED_COUNTRIES } from "@/constants";
 
+import {
+  classifyUnknownJobs,
+  loadUpstreamOpportunities,
+  takeUpstreamWork,
+} from "./shared/upstream";
 import discoverJobs from "./discover-jobs";
 import { createSyncContext, processJobs } from "./shared";
 
-import { classifyLocations } from "@/modules/postings/location";
 import { logger } from "@/utils/logger";
 
 export default async function syncDiscover() {
   logger.info({ AI_MODE: process.env.AI_MODE }, "🔍 Discovering jobs...");
 
   const context = await createSyncContext();
+  const upstream = await loadUpstreamOpportunities();
+  const inherited = await takeUpstreamWork(context, upstream);
 
   const jobs = await discoverJobs();
-  const locations = await classifyLocations(jobs);
-
-  for (let index = 0; index < jobs.length; index++) {
-    const country = locations[index];
-
-    if (country) {
-      jobs[index]!.country = country;
-    }
-  }
+  await classifyUnknownJobs(jobs, upstream);
 
   await processJobs({
-    jobs,
+    jobs: [...inherited, ...jobs],
+    upstream,
     ...context,
 
     filter(job) {

@@ -7,6 +7,7 @@ import { getSeasonYears } from "@/constants/season";
 import type { JD, Opportunity } from "@/types/jobs";
 import type { Config } from "@/validation/config";
 
+import { isTarget } from "@/modules/posting/titles";
 import { loadOpportunities } from "@/utils/data";
 import { escapeHtml } from "@/utils/html";
 import { getJobKey } from "@/utils/job-key";
@@ -87,6 +88,7 @@ async function main() {
 
   const targetOpportunities = opportunities
     .filter((job) => isRenderableOpportunity(job))
+    .filter((job) => isTarget(job.role))
     .filter((job) => {
       const country = normalizeCountry(job.jd?.country);
       return country ? allowedCountries.has(country) : false;

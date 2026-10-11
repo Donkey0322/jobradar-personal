@@ -7,6 +7,7 @@ import type * as DataUtils from "@/utils/data";
 
 import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
+import { getJobKey } from "@/utils/job-key";
 import { JobCategory } from "@/validation/config";
 
 const dataMocks = vi.hoisted(() => ({
@@ -302,5 +303,76 @@ describe("processJobs", () => {
     expect(dataMocks.saveJob).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, role: job.role, jd: usaJd }),
     ]);
+  });
+
+  it("reuses a public JD without calling AI", async () => {
+    const job = makeJob("public");
+    const upstream = new Map([
+      [getJobKey(job.link), { ...job, country: "USA" as const, jd: usaJd }],
+    ]);
+
+    const result = await processJobs({ jobs: [job], upstream, ...emptyContext() });
+
+    expect(getJDMock).not.toHaveBeenCalled();
+    expect(result.count).toBe(1);
+    expect(result.totalCost).toBe(0);
+    expect(result.jobs[0]).toMatchObject({ jd: usaJd, id: 1 });
+  });
+
+  it("waits on a USA listing the public repo has not parsed", async () => {
+    const job = makeJob("usa");
+    job.country = "USA";
+
+    const result = await processJobs({
+      jobs: [job],
+      upstream: new Map(),
+      ...emptyContext(),
+    });
+
+    expect(getJDMock).not.toHaveBeenCalled();
+    expect(enqueueBatchJobsMock).not.toHaveBeenCalled();
+    expect(result.count).toBe(0);
+    expect(result.skipped).toBe(1);
+    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith([
+      expect.objectContaining({ link: job.link, country: "USA" }),
+    ]);
+    expect(dataMocks.saveOpportunities.mock.calls[0]?.[0]?.[0]).not.toHaveProperty("jd");
+  });
+
+  it("analyzes Singapore listings the public repo left without a JD", async () => {
+    const job = makeJob("sg");
+    job.country = "Singapore";
+    job.location = "Singapore";
+    getJDMock.mockResolvedValue({
+      jd: { ...usaJd, country: "Singapore" },
+      rawJD: "raw",
+      cost: 0.01,
+      error: JD_FETCH_OK,
+    });
+
+    const result = await processJobs({
+      jobs: [job],
+      upstream: new Map(),
+      ...emptyContext(),
+    });
+
+    expect(getJDMock).toHaveBeenCalledOnce();
+    expect(result.count).toBe(1);
+    expect(result.jobs[0]?.jd).toMatchObject({ country: "Singapore" });
+  });
+
+  it("does not record a listing that still has no country", async () => {
+    const job = makeJob("unknown");
+
+    const result = await processJobs({
+      jobs: [job],
+      upstream: new Map(),
+      ...emptyContext(),
+    });
+
+    expect(getJDMock).not.toHaveBeenCalled();
+    expect(result.count).toBe(0);
+    expect(result.skipped).toBe(0);
+    expect(dataMocks.saveOpportunities).not.toHaveBeenCalled();
   });
 });

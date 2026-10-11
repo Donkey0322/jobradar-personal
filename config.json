@@ -1,8 +1,7 @@
 {
   "target": {
-    "intern": ["summer intern", "off-season intern"],
     "full-time": ["entry level"],
-    "countries": ["USA"],
+    "countries": ["USA", "Singapore", "Taiwan"],
     "filter": {
       "USA": {
         "allow_citizenship_required": false,
@@ -26,22 +25,9 @@
       "web",
       "app",
       "apps",
-      "mobile",
-      "ios",
-      "android",
       "data",
       "ai",
-      "ml",
-      "machine learning",
       "cloud",
-      "infra",
-      "infrastructure",
-      "sre",
-      "site reliability",
-      "devops",
-      "devsecops",
-      "security",
-      "cybersecurity",
       "ui",
       "ux"
     ],
@@ -70,7 +56,10 @@
       "technician",
       "civil",
       "chemical",
-      "biomedical"
+      "biomedical",
+      "phd",
+      "research",
+      "researcher"
     ]
   },
   "ai": {
@@ -85,9 +74,6 @@
     "email": "donkey@ntu.im"
   },
   "receiver": {
-    "emails": ["ntuimb09705004@ntu.im"]
-  },
-  "dashboard": {
-    "batchOnly": true
+    "emails": ["donkey.leelee@gmail.com"]
   }
 }

@@ -6,8 +6,11 @@ import type { OpportunityLedger } from "@/modules/postings/seen";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
+import { isSelfAnalyzedCountry } from "./upstream";
+
 import { buildCompanyList } from "@/modules/employer/build";
 import { Posting } from "@/modules/posting";
+import { JD_FETCH_OK } from "@/modules/posting/jd";
 import { enqueueBatchJobs } from "@/modules/postings/batch";
 import {
   createOpportunityLedger,
@@ -44,6 +47,12 @@ interface ProcessJobsOptions {
   keys: Set<string>;
 
   currentId: number;
+
+  /**
+   * Public opportunities, keyed by job link. When present, a stored JD is reused
+   * and only Singapore or Taiwan listings are analyzed here.
+   */
+  upstream?: ReadonlyMap<string, Job>;
 
   /**
    * Filter out jobs that don't match the criteria.
@@ -85,6 +94,7 @@ export async function processJobs({
   urls,
   keys,
   currentId,
+  upstream,
   filter,
   softDeadlineMs = DEFAULT_SOFT_DEADLINE_MS,
 }: ProcessJobsOptions) {
@@ -150,11 +160,43 @@ export async function processJobs({
           };
         }
 
+        const cached = upstream?.get(key);
+        const parsed = cached?.jd ?? job.jd;
+
+        if (parsed) {
+          if (!job.country && cached?.country) job.country = cached.country;
+          job.setJD(parsed);
+
+          return {
+            type: "processed" as const,
+            job,
+            jd: parsed,
+            rawJD: "",
+            cost: 0,
+            error: JD_FETCH_OK,
+          };
+        }
+
         if (filter && (await filter(job))) {
           return {
             type: "skip" as const,
             job,
-            reason: "filter",
+            reason: "filter" as const,
+          };
+        }
+
+        if (upstream && !isSelfAnalyzedCountry(job.country ?? cached?.country)) {
+          if (!(job.country ?? cached?.country)) {
+            return {
+              type: "defer" as const,
+              job,
+            };
+          }
+
+          return {
+            type: "skip" as const,
+            job,
+            reason: "upstream" as const,
           };
         }
 
@@ -205,6 +247,18 @@ export async function processJobs({
       continue;
     }
 
+    if (result.type === "defer") {
+      logger.info(
+        {
+          company: result.job.company,
+          role: result.job.role,
+          url: result.job.link,
+        },
+        "⏸️ Left unclassified job for the next run"
+      );
+      continue;
+    }
+
     if (result.type === "skip") {
       if (result.reason === "idempotent") {
         skipped += 1;
@@ -217,6 +271,19 @@ export async function processJobs({
             reason: "Idempotent job check",
           },
           "⏭️ Skipped by idempotent job check"
+        );
+      } else if (result.reason === "upstream") {
+        markAsSeen(result.job);
+        skipped += 1;
+
+        logger.info(
+          {
+            company: result.job.company,
+            role: result.job.role,
+            url: result.job.link,
+            country: result.job.country,
+          },
+          "⏭️ Waiting for the public JD"
         );
       } else {
         markAsSeen(result.job);

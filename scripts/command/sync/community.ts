@@ -2,6 +2,11 @@ import { SOURCES } from "@/constants";
 
 import type { Job } from "@/types";
 
+import {
+  classifyUnknownJobs,
+  loadUpstreamOpportunities,
+  takeUpstreamWork,
+} from "./shared/upstream";
 import { createSyncContext, processJobs } from "./shared";
 
 import { Posting } from "@/modules/posting";
@@ -12,6 +17,8 @@ export default async function syncCommunity() {
   logger.info("🔍 Syncing community...");
 
   const context = await createSyncContext();
+  const upstream = await loadUpstreamOpportunities();
+  const inherited = await takeUpstreamWork(context, upstream);
 
   const jobs: Job[] = [];
 
@@ -31,8 +38,11 @@ export default async function syncCommunity() {
     jobs.push(...matched);
   }
 
+  await classifyUnknownJobs(jobs, upstream);
+
   await processJobs({
-    jobs,
+    jobs: [...inherited, ...jobs],
+    upstream,
     ...context,
   });
 }
