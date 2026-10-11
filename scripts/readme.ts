@@ -24,12 +24,6 @@ const README_PATH = path.join(ROOT, "README.md");
 const JOB_POSTINGS_DIR = path.join(ROOT, "job-postings");
 const FEATURED_BADGES_DIR = path.join(ROOT, "assets", "featured-badges");
 
-const REPO_OWNER = "Donkey0322";
-const REPO_NAME = "JobRadar-AI";
-const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
-const TEMPLATE_URL = `https://github.com/new?template_name=${REPO_NAME}&template_owner=${REPO_OWNER}`;
-const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
-
 const MAX_JOBS_PER_README_SECTION = 30;
 const MAX_JOBS_PER_CATEGORY_PAGE = 300;
 
@@ -167,99 +161,36 @@ function buildReadme(input: {
   const { config, targetOpportunities, grouped, generatedAt } = input;
 
   const generatedDate = generatedAt.toISOString().slice(0, 10);
-
-  const aiParser = formatAiParser(config);
-  const countries = formatCountries(config);
+  const countries = config.target.countries.join(" · ");
+  const count = targetOpportunities.length.toLocaleString();
 
   const lines: string[] = [];
 
-  lines.push(`# JobRadar AI 🚀`);
+  lines.push(`# JobRadar 🚀`);
   lines.push("");
   lines.push(
     `<p align="center">`,
-    `  <b>Fresh tech opportunities from ATS APIs, community lists, and AI-parsed job descriptions.</b>`,
-    `</p>`,
-    ``,
-    `<p align="center">`,
-    `  <img src="${formatBadgeUrl("AI Parsed", aiParser, "blue")}" />`,
+    `  <img src="${formatBadgeUrl("Roles", count, "blue")}" />`,
     `  <img src="${formatBadgeUrl("Countries", countries, "green")}" />`,
     `  <img src="${formatBadgeUrl("Updated", generatedDate, "orange")}" />`,
-    `  <img src="${formatBadgeUrl("License", "MIT", "yellow")}" />`,
     `</p>`
   );
-
   lines.push("");
-  lines.push(`---`);
-  lines.push("");
-
-  lines.push(
-    `<div align="center">`,
-    `  <h2>Find better opportunities before everyone else does.</h2>`,
-    `  <p>`,
-    `    JobRadar AI tracks software, data, AI, infrastructure, security, product, and other tech roles`,
-    `    directly from company career systems and community job boards.`,
-    `  </p>`,
-    `  <p>`,
-    `    Instead of being just another manually curated link list, it combines scheduled ATS discovery,`,
-    `    community-source sync, job-description crawling, and AI signal parsing into one structured opportunity board.`,
-    `  </p>`,
-    `</div>`
-  );
-
-  lines.push("");
-  lines.push(
-    `<p align="center">`,
-    `  <b>✨ Use the board below — or generate your own personalized tracker.</b>`,
-    `</p>`,
-    `<p align="center">`,
-    `  Bring your own targets, email notifications, schedule, and AI model. Follow`,
-    `  <a href="./installation.md"><b>installation.md</b></a> to set it up, or browse the public board below.`,
-    `</p>`
-  );
-
-  lines.push("");
-  lines.push(
-    `<p align="center">`,
-    `  <a href="${TEMPLATE_URL}">`,
-    `    <img alt="Use this template" src="https://img.shields.io/badge/Use%20this%20template-f43f5e?style=for-the-badge" />`,
-    `  </a>`,
-    `  <a href="./installation.md">`,
-    `    <img alt="Setup guide" src="https://img.shields.io/badge/Setup%20guide-f97316?style=for-the-badge" />`,
-    `  </a>`,
-    `  <a href="./config.json">`,
-    `    <img alt="Customize config" src="https://img.shields.io/badge/Customize%20config-f59e0b?style=for-the-badge" />`,
-    `  </a>`,
-    `  <a href="${ISSUE_TEMPLATE_URL}">`,
-    `    <img alt="Contribute a job" src="https://img.shields.io/badge/Contribute%20a%20job-fb7185?style=for-the-badge" />`,
-    `  </a>`,
-    `</p>`
-  );
-
-  lines.push("");
-  lines.push(`---`);
-  lines.push("");
-
-  lines.push(`## Why JobRadar AI is different`);
-  lines.push("");
-  lines.push(...buildFeatureGrid());
-  lines.push("");
-
   lines.push(`## Browse jobs by category`);
   lines.push("");
   lines.push(
-    `Each category page shows up to ${MAX_JOBS_PER_CATEGORY_PAGE.toLocaleString()} of the latest opportunities.`
+    `Each category page shows up to ${MAX_JOBS_PER_CATEGORY_PAGE.toLocaleString()} of the latest roles.`
   );
   lines.push("");
   lines.push(...buildCategoryPageLinks(grouped));
   lines.push("");
-
   lines.push(`## The List 🚴‍♂️`);
   lines.push("");
   lines.push(`<!-- TABLE_START -->`);
   lines.push("");
 
   if (targetOpportunities.length === 0) {
-    lines.push(`No opportunities matched the current target categories.`);
+    lines.push(`No matching roles.`);
     lines.push("");
   } else {
     lines.push(...buildCategorySections(grouped));
@@ -318,7 +249,7 @@ function buildLimitedOpportunityTable(
 
   if (jobs.length > limit) {
     lines.push(
-      `<p><sub>Showing ${limit.toLocaleString()} of ${jobs.length.toLocaleString()} opportunities in this section.</sub></p>`
+      `<p><sub>Showing ${limit.toLocaleString()} of ${jobs.length.toLocaleString()}.</sub></p>`
     );
   }
 
@@ -330,7 +261,7 @@ function buildCategoryPageLinks(grouped: Map<string, Opportunity[]>): string[] {
     ([category, jobs]) =>
       `- [${formatCategoryTitle(category)}](./job-postings/${categoryFileName(
         category
-      )}) — ${jobs.length.toLocaleString()} opportunities`
+      )}) — ${jobs.length.toLocaleString()}`
   );
 }
 
@@ -360,16 +291,13 @@ async function writeCategoryPages(
 function buildCategoryPage(category: string, jobs: Opportunity[], generatedAt: Date): string {
   const title = formatCategoryTitle(category);
   const lines = [
-    `# ${title} jobs`,
+    `# ${title}`,
     ``,
-    `[← Back to the main job board](../README.md)`,
+    `[← Back to the list](../README.md)`,
     ``,
     ...buildLimitedOpportunityTable(jobs, MAX_JOBS_PER_CATEGORY_PAGE, ".."),
     ``,
-    `---`,
-    ``,
-    `<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>${generatedAt.toISOString()}</code></sub>`,
-    ``,
+    ...buildFooter(generatedAt),
   ];
 
   return lines.join("\n");
@@ -385,56 +313,11 @@ function categoryFileName(category: string): string {
   return `${slug || "other"}.md`;
 }
 
-function buildFeatureGrid(): string[] {
-  return [
-    `<table>`,
-    `  <tr>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>🔎 Closer to the source</h3>`,
-    `      <p>Discovers roles from original ATS and company career APIs, not only reposted or manually submitted links.</p>`,
-    `    </td>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>⏱️ Built for freshness</h3>`,
-    `      <p>Runs on a schedule to keep tracking newly opened opportunities as they appear.</p>`,
-    `    </td>`,
-    `  </tr>`,
-    `  <tr>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>🌐 Broader coverage</h3>`,
-    `      <p>Combines community lists with Workday, Greenhouse, Ashby, iCIMS, Lever, Oracle Cloud, SmartRecruiters, and more.</p>`,
-    `    </td>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>🏢 Custom company sources</h3>`,
-    `      <p>Adds dedicated sources for high-signal companies like Google, Amazon, Netflix, Apple, Meta, Microsoft, TikTok, and more.</p>`,
-    `    </td>`,
-    `  </tr>`,
-    `  <tr>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>🧠 JD-level intelligence</h3>`,
-    `      <p>Crawls job descriptions and parses signals like category, country, sponsorship, citizenship, qualifications, and season.</p>`,
-    `    </td>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>⚙️ Config-driven setup</h3>`,
-    `      <p>Tune countries, role targets, email delivery, workflow schedules, and AI model settings through <code>config.json</code>.</p>`,
-    `    </td>`,
-    `  </tr>`,
-    `</table>`,
-  ];
-}
-
 function buildFooter(generatedAt: Date): string[] {
   return [
     `---`,
     ``,
     `<div align="center">`,
-    `  <p>`,
-    `    <a href="./PRIVACY.md"><b>🛡️ Privacy</b></a>`,
-    `    &nbsp;·&nbsp;`,
-    `    <a href="./SECURITY.md"><b>🔐 Security</b></a>`,
-    `    &nbsp;·&nbsp;`,
-    `    <a href="./LICENSE"><b>📄 License</b></a>`,
-    `  </p>`,
-    ``,
     `  <p>`,
     `    <span style="color:#374151;">`,
     `      📦 Generated from <code>opportunities.ndjson</code>`,
@@ -622,23 +505,6 @@ function buildHtmlTable(headers: TableRow, rows: TableRow[]): string[] {
   lines.push(`</table>`);
 
   return lines;
-}
-
-function formatAiParser(config: Config): string {
-  if (!config.ai?.enabled) return "disabled";
-
-  const provider = config.ai.provider;
-  const model = config.ai.model;
-
-  if (provider && model) {
-    return `${provider} / ${model}`;
-  }
-
-  return "enabled";
-}
-
-function formatCountries(config: Config): string {
-  return config.target.countries.join(" · ") || "configured";
 }
 
 function formatBadgeUrl(label: string, message: string, color: string): string {
