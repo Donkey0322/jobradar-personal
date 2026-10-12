@@ -2,6 +2,7 @@ import path from "node:path";
 
 import type { Job } from "@/types";
 
+import { withinDays } from "@/modules/posting/titles";
 import { classifyLocations } from "@/modules/postings/location";
 import { loadOpportunities } from "@/utils/data";
 import { getJobKey } from "@/utils/job-key";
@@ -33,9 +34,17 @@ export function indexJobs(jobs: readonly Job[]): Map<string, Job> {
   return index;
 }
 
+function publicPostedAt(job: Job): string | undefined {
+  const postedAt = (job as Job & { postedAt?: unknown }).postedAt;
+
+  return typeof postedAt === "string" ? postedAt : undefined;
+}
+
 /**
  * Public rows this repo still needs to apply.
  * Parsed JDs are reused. Singapore and Taiwan without a JD are analyzed here.
+ * Only rows written inside the discovery lookback are eligible, so a local
+ * clean cannot pull the public archive back in.
  */
 export function selectUpstreamWork(
   upstream: Iterable<Job>,
@@ -45,6 +54,7 @@ export function selectUpstreamWork(
 
   for (const job of upstream) {
     if (localParsedKeys.has(getJobKey(job.link))) continue;
+    if (!withinDays(publicPostedAt(job))) continue;
 
     if (job.jd || isSelfAnalyzedCountry(job.country)) {
       work.push(job);

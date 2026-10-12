@@ -1,7 +1,7 @@
 import { mkdtemp, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 
 import type { JD, Job } from "@/types";
 
@@ -26,12 +26,16 @@ const jd: JD = {
   season: "None",
 };
 
-function job(id: string, extras: Partial<Job> = {}): Job {
+function job(
+  id: string,
+  extras: Partial<Job> & { postedAt?: string } = {}
+): Job & { postedAt?: string } {
   return {
     company: "Acme",
     role: "Junior Software Engineer",
     link: `https://job-boards.greenhouse.io/acme/jobs/${id}`,
     location: "Austin, TX",
+    postedAt: new Date().toISOString(),
     ...extras,
   };
 }
@@ -53,6 +57,37 @@ describe("selectUpstreamWork", () => {
     const ready = job("ready", { jd, country: "USA" });
 
     expect(selectUpstreamWork([ready], new Set())).toEqual([ready]);
+  });
+
+  it("leaves a public JD written before the lookback", () => {
+    const stale = job("stale", {
+      jd,
+      country: "USA",
+      postedAt: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString(),
+    });
+    const undated = job("undated", { jd, country: "USA", postedAt: undefined });
+
+    expect(selectUpstreamWork([stale, undated], new Set())).toEqual([]);
+  });
+
+  it("uses the Monday discovery lookback for a weekend public JD", () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-08-17T07:17:00.000Z"));
+
+    const saturday = job("weekend", {
+      jd,
+      country: "USA",
+      postedAt: "2026-08-15T07:00:00.000Z",
+    });
+
+    vi.stubEnv("DISCOVERY_LOOKBACK_DAYS", "1");
+    expect(selectUpstreamWork([saturday], new Set())).toEqual([]);
+
+    vi.stubEnv("DISCOVERY_LOOKBACK_DAYS", "3");
+    expect(selectUpstreamWork([saturday], new Set())).toEqual([saturday]);
+
+    vi.useRealTimers();
+    vi.unstubAllEnvs();
   });
 });
 
