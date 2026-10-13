@@ -1,26 +1,4 @@
 {
-  "commit": "c47e2271cfb4defcd5399c22a5fee8b151717231",
-  "jobs": [
-    {
-      "company": "Microsoft",
-      "role": "Software Engineer",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557023170?domain=microsoft.com&8fold_id=1970393557023170",
-      "location": "United States, Washington, Redmond",
-      "country": "USA"
-    },
-    {
-      "company": "Microsoft",
-      "role": "Software Engineering",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393556999878?domain=microsoft.com&8fold_id=1970393556999878",
-      "location": "United States, Washington, Redmond",
-      "country": "USA"
-    },
-    {
-      "company": "Salesforce",
-      "role": "Technical Support Engineer - Commerce Cloud",
-      "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Technical-Support-Engineer---Commerce-Cloud_JR353944-1",
-      "location": "2 Locations",
-      "country": "Unsure"
-    }
-  ]
+  "commit": "9e2e1caf16a71bc2bd7e14db19f30cc1febe1c4e",
+  "jobs": []
 }
