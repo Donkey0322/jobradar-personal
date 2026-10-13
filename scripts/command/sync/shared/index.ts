@@ -17,6 +17,7 @@ import {
   recordSeenOpportunity,
   seenOpportunitiesToWrite,
 } from "@/modules/postings/seen";
+import { enqueueUpstreamWait } from "@/modules/postings/upstream-queue";
 import { loadJobs, loadOpportunities, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
@@ -123,11 +124,13 @@ export async function processJobs({
 
   const jobs: Job[] = [];
   const batchedJobs: Job[] = [];
+  const upstreamJobs: Job[] = [];
 
   let totalCost = 0;
   let skipped = 0;
   let failed = 0;
   let batched = 0;
+  let waiting = 0;
   let forceStopped = false;
 
   const limit = pLimit(AI_CONCURRENCY);
@@ -194,9 +197,8 @@ export async function processJobs({
           }
 
           return {
-            type: "skip" as const,
+            type: "upstream" as const,
             job,
-            reason: "upstream" as const,
           };
         }
 
@@ -272,23 +274,28 @@ export async function processJobs({
           },
           "⏭️ Skipped by idempotent job check"
         );
-      } else if (result.reason === "upstream") {
-        markAsSeen(result.job);
-        skipped += 1;
-
-        logger.info(
-          {
-            company: result.job.company,
-            role: result.job.role,
-            url: result.job.link,
-            country: result.job.country,
-          },
-          "⏭️ Waiting for the public JD"
-        );
       } else {
         markAsSeen(result.job);
         skipped += 1;
       }
+
+      continue;
+    }
+
+    if (result.type === "upstream") {
+      markAsSeen(result.job);
+      upstreamJobs.push(result.job.toJob());
+      waiting += 1;
+
+      logger.info(
+        {
+          company: result.job.company,
+          role: result.job.role,
+          url: result.job.link,
+          country: result.job.country,
+        },
+        "⏭️ Waiting for the public JD"
+      );
 
       continue;
     }
@@ -373,6 +380,10 @@ export async function processJobs({
     await enqueueBatchJobs(batchedJobs);
   }
 
+  for (const job of upstreamJobs) {
+    await enqueueUpstreamWait(job);
+  }
+
   await saveUrls(urls);
   await saveJob(jobs);
   await saveSeenOpportunities(opportunities);
@@ -392,12 +403,12 @@ export async function processJobs({
 
   if (jobs.length > 0) {
     logger.info(
-      { cost: totalCost, skipped, failed, batched },
+      { cost: totalCost, skipped, failed, batched, waiting },
       `💰 Processed jobs!!! We found ${jobs.length} jobs that match your criteria`
     );
   } else {
     logger.info(
-      { cost: totalCost, skipped, failed, batched },
+      { cost: totalCost, skipped, failed, batched, waiting },
       "💰 Currently no newly found jobs that match your criteria"
     );
   }
@@ -408,6 +419,7 @@ export async function processJobs({
     skipped,
     failed,
     batched,
+    waiting,
     totalCost,
     forceStopped,
   };

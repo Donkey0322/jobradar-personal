@@ -4,6 +4,7 @@ import type { Job } from "@/types";
 
 import { withinDays } from "@/modules/posting/titles";
 import { classifyLocations } from "@/modules/postings/location";
+import { loadUpstreamQueue, waitingKeys } from "@/modules/postings/upstream-queue";
 import { loadOpportunities } from "@/utils/data";
 import { getJobKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
@@ -84,12 +85,16 @@ export async function takeUpstreamWork(
     if (opportunity.jd) parsed.add(getJobKey(opportunity.link));
   }
 
-  const work = selectUpstreamWork(upstream.values(), parsed);
+  const waiting = waitingKeys(await loadUpstreamQueue());
+  const work = selectUpstreamWork(upstream.values(), parsed).filter(
+    (job) => !waiting.has(getJobKey(job.link))
+  );
   releaseSeenLinks(context.urls, context.keys, work);
 
   logger.info(
     {
       upstream: upstream.size,
+      waiting: waiting.size,
       reuse: work.filter((job) => job.jd).length,
       analyze: work.filter((job) => !job.jd).length,
     },

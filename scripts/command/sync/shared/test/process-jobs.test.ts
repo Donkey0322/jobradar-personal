@@ -21,6 +21,7 @@ const dataMocks = vi.hoisted(() => ({
 
 const getJDMock = vi.hoisted(() => vi.fn());
 const enqueueBatchJobsMock = vi.hoisted(() => vi.fn().mockResolvedValue(undefined));
+const enqueueUpstreamWaitMock = vi.hoisted(() => vi.fn().mockResolvedValue(undefined));
 const shouldBatchAnalyzeMock = vi.hoisted(() => vi.fn().mockReturnValue(false));
 const buildCompanyListMock = vi.hoisted(() => vi.fn().mockResolvedValue(undefined));
 const loggerMocks = vi.hoisted(() => ({
@@ -39,6 +40,10 @@ vi.mock("@/utils/data", async (importOriginal) => {
 
 vi.mock("@/modules/postings/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
+}));
+
+vi.mock("@/modules/postings/upstream-queue", () => ({
+  enqueueUpstreamWait: enqueueUpstreamWaitMock,
 }));
 
 vi.mock("@/modules/posting/titles", async (importOriginal) => {
@@ -103,6 +108,7 @@ describe("processJobs", () => {
       return result;
     });
     enqueueBatchJobsMock.mockReset().mockResolvedValue(undefined);
+    enqueueUpstreamWaitMock.mockReset().mockResolvedValue(undefined);
     shouldBatchAnalyzeMock.mockReset().mockReturnValue(false);
     buildCompanyListMock.mockReset().mockResolvedValue(undefined);
     loggerMocks.info.mockReset();
@@ -332,11 +338,16 @@ describe("processJobs", () => {
     expect(getJDMock).not.toHaveBeenCalled();
     expect(enqueueBatchJobsMock).not.toHaveBeenCalled();
     expect(result.count).toBe(0);
-    expect(result.skipped).toBe(1);
+    expect(result.skipped).toBe(0);
+    expect(result.waiting).toBe(1);
     expect(dataMocks.saveOpportunities).toHaveBeenCalledWith([
-      expect.objectContaining({ link: job.link, country: "USA" }),
+      expect.objectContaining({ link: job.link, country: "USA", expired: false }),
     ]);
     expect(dataMocks.saveOpportunities.mock.calls[0]?.[0]?.[0]).not.toHaveProperty("jd");
+    expect(dataMocks.saveUrls).toHaveBeenCalledWith(new Set([job.link]));
+    expect(enqueueUpstreamWaitMock).toHaveBeenCalledWith(
+      expect.objectContaining({ link: job.link, country: "USA" })
+    );
   });
 
   it("analyzes Singapore listings the public repo left without a JD", async () => {

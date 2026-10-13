@@ -51,6 +51,17 @@ notify
   });
 
 program
+  .command("upstream")
+  .description("Apply public JDs to jobs waiting in data/upstream/queue.json")
+  .action(async () => {
+    const { default: checkConfig } = await import("./setup/checkConfig");
+    await checkConfig();
+
+    const { default: applyUpstreamQueue } = await import("./upstream");
+    await applyUpstreamQueue();
+  });
+
+program
   .command("batch")
   .description("Submit and collect cheaper batch analysis for queued jobs")
   .option("--submit-only", "Submit queued jobs, then exit without waiting for results")

@@ -1,0 +1,169 @@
+name: Public JD Sync
+run-name: 📥 Public JD Sync
+
+on:
+  push:
+    paths:
+      - "data/upstream/queue.json"
+  schedule:
+    # Safety net for jobs still waiting after the public repo moves.
+    - cron: "17 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: job-data-sync
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    # Applying JDs rewrites queue.json. That push must not start another sync.
+    if: "${{ github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore(upstream):') }}"
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      due: ${{ steps.check.outputs.due }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.PAT }}
+
+      - name: Check whether queued jobs are waiting
+        id: check
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "due=true" >> "$GITHUB_OUTPUT"
+            echo "Manual run; skipping idle gate."
+            exit 0
+          fi
+
+          python3 <<'PY'
+          import json
+          import os
+
+          path = "data/upstream/queue.json"
+          due = False
+
+          if os.path.exists(path):
+              payload = json.load(open(path, encoding="utf-8"))
+              jobs = payload.get("jobs") if isinstance(payload, dict) else None
+              due = isinstance(jobs, list) and len(jobs) > 0
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"due={'true' if due else 'false'}\n")
+
+          print("Public JD jobs are waiting." if due else "No jobs waiting for a public JD.")
+          PY
+
+  sync:
+    needs: gate
+    if: needs.gate.outputs.due == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.PAT }}
+
+      - name: Compare public commit
+        id: public
+        run: |
+          sha="$(git ls-remote https://github.com/Donkey0322/JobRadar-AI.git refs/heads/main | awk '{print $1}')"
+          stored="$(node -e "const fs=require('fs'); const path='data/upstream/queue.json'; if(!fs.existsSync(path)) process.exit(0); const payload=JSON.parse(fs.readFileSync(path,'utf8')); process.stdout.write(payload.commit||'')")"
+
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+
+          if [[ -n "$sha" && "$sha" == "$stored" ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Public snapshot $sha was already checked."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Public snapshot changed: ${stored:-<none>} -> $sha"
+          fi
+
+      - name: Checkout public opportunities
+        if: steps.public.outputs.changed == 'true'
+        uses: actions/checkout@v6
+        with:
+          repository: Donkey0322/JobRadar-AI
+          ref: main
+          path: upstream
+          sparse-checkout: data
+          sparse-checkout-cone-mode: true
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Setup pnpm
+        if: steps.public.outputs.changed == 'true'
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11.7.0
+
+      - name: Setup Node.js
+        if: steps.public.outputs.changed == 'true'
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        if: steps.public.outputs.changed == 'true'
+        run: pnpm install --frozen-lockfile
+
+      - name: Check configuration
+        if: steps.public.outputs.changed == 'true'
+        run: pnpm jobctl setup check-config
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+          LOG_PRETTY: "1"
+
+      - name: Apply queued public JDs
+        id: apply
+        if: steps.public.outputs.changed == 'true'
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+          LOG_PRETTY: "1"
+          UPSTREAM_DATA_PATH: ${{ github.workspace }}/upstream/data
+          UPSTREAM_COMMIT: ${{ steps.public.outputs.sha }}
+        run: |
+          pnpm jobctl upstream
+
+          if [[ -n "$(git status --porcelain data/ 2>/dev/null)" ]]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No queued public JDs to apply."
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit applied JDs
+        if: steps.public.outputs.changed == 'true' && steps.apply.outputs.has_changes == 'true'
+        run: |
+          git config user.name "actions-bot"
+          git config user.email "actions@github.com"
+
+          git add data/
+          git commit -m "chore(upstream): apply public job descriptions"
+
+      - name: Push applied JDs
+        if: steps.public.outputs.changed == 'true' && steps.apply.outputs.has_changes == 'true'
+        uses: ./.github/actions/rebase-push
+        with:
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}
