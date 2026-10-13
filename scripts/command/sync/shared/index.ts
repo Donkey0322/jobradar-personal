@@ -12,12 +12,12 @@ import { outcomeAfterAnalysis, resolveJob } from "./outcome";
 import { buildCompanyList } from "@/modules/employer/build";
 import { Posting } from "@/modules/posting";
 import { enqueueBatchJobs } from "@/modules/postings/batch";
-import { enqueueUpstreamWait } from "@/modules/postings/upstream-queue";
 import {
   createOpportunityLedger,
   recordSeenOpportunity,
   seenOpportunitiesToWrite,
 } from "@/modules/postings/seen";
+import { enqueueUpstreamWait } from "@/modules/postings/upstream-queue";
 import {
   loadJobs,
   loadOpportunities,
