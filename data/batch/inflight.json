@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "name": "batches/4rmv8frxmlm7emqpjzny69y14nznzem3u482",
+    "submittedAt": "2026-10-13T17:11:36.405Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "NICE",
+        "role": "Software Engineer (Actimize)",
+        "link": "https://boards.eu.greenhouse.io/nice/jobs/4977020101?gh_jid=4977020101",
+        "location": "Singapore - Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Thales",
+        "role": "Software Engineer (Android)",
+        "link": "https://thales.wd3.myworkdayjobs.com/careers/job/Singapore/Software-Engineer--Android-_R0337965",
+        "location": "Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
