@@ -7,7 +7,7 @@ import { getSeasonYears } from "@/constants/season";
 import type { JD, Opportunity } from "@/types/jobs";
 import type { Config } from "@/validation/config";
 
-import { isTarget } from "@/modules/posting/titles";
+import { Posting } from "@/modules/posting";
 import { loadOpportunities } from "@/utils/data";
 import { escapeHtml } from "@/utils/html";
 import { getJobKey } from "@/utils/job-key";
@@ -75,19 +75,12 @@ async function main() {
   const opportunities = await loadOpportunities();
   reopenedJobKeys = detectReopenedKeys(opportunities);
 
-  const allowedCountries = new Set(CONFIG.target.countries.map(normalizeCountry));
   const categoryOrder = buildTargetCategories(CONFIG);
-  const targetCategories = new Set(categoryOrder);
   const generatedAt = new Date();
 
   const targetOpportunities = opportunities
     .filter((job) => isRenderableOpportunity(job))
-    .filter((job) => isTarget(job.role))
-    .filter((job) => {
-      const country = normalizeCountry(job.jd?.country);
-      return country ? allowedCountries.has(country) : false;
-    })
-    .filter((job) => targetCategories.has(getDisplayCategory(job)))
+    .filter((job) => Posting.from(job).decideNotification().action === "notify")
     .sort(comparePostedAtDesc);
 
   const grouped = groupByCategory(targetOpportunities, categoryOrder);
@@ -523,10 +516,6 @@ function normalizeCategory(value?: string | null): string {
   if (!normalized) return "None";
 
   return normalized.toLowerCase();
-}
-
-function normalizeCountry(value?: string | null): string {
-  return value?.trim() ?? "";
 }
 
 function normalizeCompany(value: string): string {
