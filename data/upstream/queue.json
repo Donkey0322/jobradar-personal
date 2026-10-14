@@ -1,5 +1,5 @@
 {
-  "commit": "c5b54a0f68aba4c7876cfaa900965378ea046063",
+  "commit": "018d53e9681b716276f1e2701cdf5a2f4bbb10cd",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -30,53 +30,11 @@
       "country": "USA"
     },
     {
-      "company": "Microsoft",
-      "role": "Digital Cloud & AI Solution Engineer - Azure Platform",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557040185?domain=microsoft.com&8fold_id=1970393557040185",
-      "location": "United States, Multiple Locations, Multiple Locations",
-      "country": "USA"
-    },
-    {
       "company": "Qualcomm",
       "role": "#Software Engineer",
       "link": "https://qualcomm.eightfold.ai/careers/job/446721477857?domain=qualcomm.com&8fold_id=446721477857",
       "location": "San Diego, California, United States of America",
       "country": "USA"
-    },
-    {
-      "company": "Microsoft",
-      "role": "Applied AI Engineer",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557040326?domain=microsoft.com&8fold_id=1970393557040326",
-      "location": "United States, Washington, Redmond, United States, Georgia, Atlanta",
-      "country": "USA"
-    },
-    {
-      "company": "Ag",
-      "role": "MRTT Communication System Designer Engineer",
-      "link": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/MRTT-Communication-System-Designer-Engineer_JR10431483-1",
-      "location": "Getafe Area",
-      "country": "Unsure"
-    },
-    {
-      "company": "Citi",
-      "role": "Java Fullstack Developer",
-      "link": "https://citi.wd5.myworkdayjobs.com/2/job/DLF-CYBERCITY-12B/Java-Fullstack-Developer_26998680",
-      "location": "DLF CYBERCITY 12B",
-      "country": "Unsure"
-    },
-    {
-      "company": "Google",
-      "role": "Customer Engineer, Cloud AI, Google Cloud",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/118230424722776774-customer-engineer-cloud-ai-google-cloud?sort_by=date&page=1",
-      "location": "New York, NY, USA; Cambridge, MA, USA; +3 more; +2 more",
-      "country": "USA"
-    },
-    {
-      "company": "Nvidia",
-      "role": "System Software Engineer - Infrastructure",
-      "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer---Infrastructure_JR2027703",
-      "location": "2 Locations",
-      "country": "Unsure"
     }
   ]
 }
