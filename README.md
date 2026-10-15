@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Roles-1%2C155-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--10--14-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--10--15-orange" />
 </p>
 
 ## Browse jobs by category
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-14T23:20:13.084Z</code>
+      🕒 Last updated <code>2026-10-15T00:13:23.636Z</code>
     </span>
   </p>
 </div>
