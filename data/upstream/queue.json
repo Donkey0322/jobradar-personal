@@ -1,5 +1,5 @@
 {
-  "commit": "95f116d4c461f0e690adb67da5667f318cb0e4c0",
+  "commit": "83f598c5e4168acc92666c7980489786d98287c7",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -62,76 +62,6 @@
       "role": "Security Software Engineer I",
       "link": "https://aurora.tech/careers/8137861002",
       "location": "Mountain View, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Amazon",
-      "role": "Data Scientist I, PXT Central Science",
-      "link": "https://amazon.jobs/en/jobs/10579474",
-      "location": "US, VA, Arlington",
-      "country": "USA"
-    },
-    {
-      "company": "Bdx",
-      "role": "Operational Technology Systems Engineer",
-      "link": "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-GA---Covington-BMD/Operational-Technology-Systems-Engineer_R-557466-1",
-      "location": "2 Locations",
-      "country": "Unsure"
-    },
-    {
-      "company": "Cisco",
-      "role": "Software Engineering Technical Leader (Hybrid)",
-      "link": "https://careers.cisco.com/global/en/job/2025219?ph_id=2025219",
-      "location": "Research Triangle Park, North Carolina, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "HPE",
-      "role": "Graduate Cloud Developer",
-      "link": "https://careers.hpe.com/us/en/job/1214989?ph_id=1214989",
-      "location": "San Jose, California, 95002",
-      "country": "USA"
-    },
-    {
-      "company": "L3harris",
-      "role": "Associate, Software Engineer Engineering|New, Grads Mason, OH",
-      "link": "https://careers.l3harris.com/job/mason/associate-software-engineer/4832/101971810576",
-      "location": "Mason, OH",
-      "country": "USA"
-    },
-    {
-      "company": "L3harris",
-      "role": "Specialist, Systems Engineer Engineering Canoga Park, CA",
-      "link": "https://careers.l3harris.com/job/canoga-park/specialist-systems-engineer/4832/101971810496",
-      "location": "Canoga Park, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer (Technical Leadership) - Central Growth",
-      "link": "https://www.metacareers.com/profile/job_details/2386855915053811",
-      "location": "Menlo Park, CA, New York, NY, Remote, US",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Data Center Capacity Engineer",
-      "link": "https://www.metacareers.com/profile/job_details/4539253743016608",
-      "location": "Rayville, LA, Montgomery, AL, Jeffersonville, IN, Beaver Dam, WI, Lebanon, IN, Bowling Green, OH, New Albany, OH",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Data Scientist, Meta Superintelligence Labs (Safety)",
-      "link": "https://www.metacareers.com/profile/job_details/4639028663082379",
-      "location": "Menlo Park, CA, San Francisco, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer, Databases",
-      "link": "https://www.metacareers.com/profile/job_details/2342974003201767",
-      "location": "Bellevue, WA, Menlo Park, CA",
       "country": "USA"
     },
     {
@@ -223,20 +153,6 @@
       "role": "Software Engineer, Camera Systems",
       "link": "https://www.metacareers.com/profile/job_details/2436192886889791",
       "location": "Sunnyvale, CA, Burlingame, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Rsm",
-      "role": "Supervisor, D365 CE & Power Platform Engineering",
-      "link": "https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/Chicago/Manager--Power-Platform---Modern-Front-End-Engineering_JR120646-1",
-      "location": "6 Locations",
-      "country": "Unsure"
-    },
-    {
-      "company": "SirenOpt",
-      "role": "Metrology Data Scientist",
-      "link": "https://job-boards.greenhouse.io/sirenopt/jobs/4430491009",
-      "location": "San Leandro, California, United States",
       "country": "USA"
     },
     {
