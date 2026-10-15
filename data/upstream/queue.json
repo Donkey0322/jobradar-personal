@@ -1,5 +1,5 @@
 {
-  "commit": "20cfc6f03327baf445a6136d8c03bf5d256c3007",
+  "commit": "95f116d4c461f0e690adb67da5667f318cb0e4c0",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -62,13 +62,6 @@
       "role": "Security Software Engineer I",
       "link": "https://aurora.tech/careers/8137861002",
       "location": "Mountain View, CA",
-      "country": "USA"
-    },
-    {
-      "company": "SirenOpt",
-      "role": "Software Engineer - Early Career - C++ & Systems",
-      "link": "https://job-boards.greenhouse.io/sirenopt/jobs/4452002009",
-      "location": "San Leandro, CA",
       "country": "USA"
     },
     {
