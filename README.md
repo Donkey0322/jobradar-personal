@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C157-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C127-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--15-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,157
+- [Entry Level](./job-postings/entry-level.md) — 1,127
 
 ## The List 🚴‍♂️
 
@@ -194,7 +194,7 @@ Each category page shows up to 300 of the latest roles.
       <td width="180" align="left" valign="top">Selinc</td>
       <td width="420" align="left" valign="top">Associate Software Engineer- Go, Typescript, C#</td>
       <td width="180" align="left" valign="top">Boise, ID</td>
-      <td width="120" align="left" valign="top"><a href="https://selinc.wd1.myworkdayjobs.com/SEL/job/Idaho---Boise/Associate-Software-Engineer--Go--Typescript--C-_2026-23482"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 12</td>
     </tr>
     <tr>
@@ -227,9 +227,9 @@ Each category page shows up to 300 of the latest roles.
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Centene</td>
-      <td width="420" align="left" valign="top">Data Center Engineer I<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Data Center Engineer I</td>
       <td width="180" align="left" valign="top">Columbus, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://centene.wd5.myworkdayjobs.com/centene_external/job/Columbus-OH---4349-Easton-Way-Ste-200-10012-BHP/Data-Center-Engineer-I_1663938"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 12</td>
     </tr>
     <tr>
@@ -241,7 +241,7 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,157.</sub></p>
+<p><sub>Showing 30 of 1,127.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-15T02:47:58.004Z</code>
+      🕒 Last updated <code>2026-10-15T04:37:36.742Z</code>
     </span>
   </p>
 </div>
