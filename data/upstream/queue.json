@@ -238,6 +238,20 @@
       "link": "https://job-boards.greenhouse.io/sirenopt/jobs/4430491009",
       "location": "San Leandro, California, United States",
       "country": "USA"
+    },
+    {
+      "company": "Citi",
+      "role": "Application Support Analyst - SQL and Data Warehousing",
+      "link": "https://citi.wd5.myworkdayjobs.com/2/job/DLF-CYBERCITY-12B/Application-Support-Analyst---SQL-and-Data-Warehousing_26998514-1",
+      "location": "DLF CYBERCITY 12B",
+      "country": "Unsure"
+    },
+    {
+      "company": "Microsoft",
+      "role": "Software Engineer",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557026652?domain=microsoft.com&8fold_id=1970393557026652",
+      "location": "United States, Washington, Redmond",
+      "country": "USA"
     }
   ]
 }
