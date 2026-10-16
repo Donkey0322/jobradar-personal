@@ -203,6 +203,62 @@
       "link": "https://careers.hpe.com/us/en/job/1216934?ph_id=1216934",
       "location": "Aguadilla, N/A",
       "country": "Unsure"
+    },
+    {
+      "company": "Tesla",
+      "role": "Frontend Software Engineer, Energy Charging",
+      "link": "https://www.tesla.com/careers/search/job/253464",
+      "location": "Fremont, CA",
+      "country": "USA"
+    },
+    {
+      "company": "Taro",
+      "role": "Founding Software Engineer 🇺🇸",
+      "link": "https://www.workatastartup.com/jobs/83287",
+      "location": "Palo Alto, CA",
+      "country": "USA"
+    },
+    {
+      "company": "StarSling (X25)",
+      "role": "New Grad: Full-Stack Software Engineer 🇺🇸",
+      "link": "https://www.workatastartup.com/jobs/83356",
+      "location": "<details><summary>**5 locations**</summary>San Francisco, CA</br>San Mateo, CA</br>Palo Alto, CA</br>Menlo Park, CA</br>Redwood City, CA</details>",
+      "country": "USA"
+    },
+    {
+      "company": "Stamp",
+      "role": "Founding Full Stack Engineer 🇺🇸",
+      "link": "https://www.workatastartup.com/jobs/82876",
+      "location": "San Francisco, CA",
+      "country": "USA"
+    },
+    {
+      "company": "Shopify",
+      "role": "Software Engineer - Monorepo Systems (Rust & Nix)",
+      "link": "https://www.shopify.com/careers/software-engineer-monorepo-systems-rust-nix_95aac134-c21a-456d-b8b3-a9aac6aa6118",
+      "location": "Remote",
+      "country": "Remote"
+    },
+    {
+      "company": "Maitai",
+      "role": "Full-Stack Engineer - Agent Marketplace (In-Person RWC Only)",
+      "link": "https://www.workatastartup.com/jobs/82935",
+      "location": "Redwood City, CA",
+      "country": "USA"
+    },
+    {
+      "company": "Corgi",
+      "role": "Full Stack Engineer",
+      "link": "https://www.workatastartup.com/jobs/83025",
+      "location": "Atlanta, GA",
+      "country": "USA"
+    },
+    {
+      "company": "Apten",
+      "role": "Software Engineer (Full Stack) 🇺🇸",
+      "link": "https://www.workatastartup.com/jobs/83503",
+      "location": "San Francisco, CA",
+      "country": "USA"
     }
   ]
 }
