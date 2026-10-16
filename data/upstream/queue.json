@@ -399,6 +399,69 @@
       "link": "https://jobs.smartrecruiters.com/WellmarkInc/744000155868139",
       "location": "Des Moines, IA, United States",
       "country": "USA"
+    },
+    {
+      "company": "Amazon",
+      "role": "Embedded Software Development Engineer, Amazon Leo Optical Inter-Satellite Link ",
+      "link": "https://amazon.jobs/en/jobs/10581073",
+      "location": "US, WA, Redmond",
+      "country": "USA"
+    },
+    {
+      "company": "Apple",
+      "role": "Machine Learning Engineer, System Experience - Proactive",
+      "link": "https://jobs.apple.com/en-us/details/200689638-0836/machine-learning-engineer-system-experience-proactive?team=MLAI",
+      "location": "",
+      "country": "Unsure"
+    },
+    {
+      "company": "Apple",
+      "role": "Machine Learning Engineer, System Experience - Proactive",
+      "link": "https://jobs.apple.com/en-us/details/200689638-3337/machine-learning-engineer-system-experience-proactive?team=MLAI",
+      "location": "",
+      "country": "Unsure"
+    },
+    {
+      "company": "Applied",
+      "role": "Software Integration Engineer - Customer Onsite",
+      "link": "https://jobs.ashbyhq.com/applied/d6560e7d-473a-4f4f-b53d-a92aa7c6c6dc",
+      "location": "Ann Arbor",
+      "country": "USA"
+    },
+    {
+      "company": "Cardinalhealth",
+      "role": "Sr Analyst, Software/Info Platform",
+      "link": "https://cardinalhealth.wd1.myworkdayjobs.com/ext/job/OH-Ohio-Work-from-Home/Sr-Analyst--Software-Info-Platform_20188972",
+      "location": "OH-Ohio-Work from Home",
+      "country": "USA"
+    },
+    {
+      "company": "HPE",
+      "role": "Data Analyst – Supply Chain",
+      "link": "https://careers.hpe.com/us/en/job/1216934?ph_id=1216934",
+      "location": "Aguadilla, N/A",
+      "country": "Unsure"
+    },
+    {
+      "company": "Ngc",
+      "role": "Space Vehicle Systems Engineer – Level 5",
+      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Space-Vehicle-Systems-Engineer---Level-5_R10256277",
+      "location": "United States-California-Redondo Beach",
+      "country": "USA"
+    },
+    {
+      "company": "SpaceX",
+      "role": "Security Engineer (Software)",
+      "link": "https://boards.greenhouse.io/spacex/jobs/8893741002?gh_jid=8893741002",
+      "location": "Bastrop, TX",
+      "country": "USA"
+    },
+    {
+      "company": "SpaceX",
+      "role": "Security Engineer (Software)",
+      "link": "https://boards.greenhouse.io/spacex/jobs/8893740002?gh_jid=8893740002",
+      "location": "Starbase, TX",
+      "country": "USA"
     }
   ]
 }
