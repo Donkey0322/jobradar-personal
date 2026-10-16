@@ -1,5 +1,5 @@
 {
-  "commit": "88264e0c534e80cfdb7231a156524ea0f9aaf138",
+  "commit": "13dcb76c5461d7291bb582f00a6facdaacac62d5",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -203,48 +203,6 @@
       "link": "https://careers.hpe.com/us/en/job/1216934?ph_id=1216934",
       "location": "Aguadilla, N/A",
       "country": "Unsure"
-    },
-    {
-      "company": "Capitalone",
-      "role": "Data Engineer 4, Auto Data Platforms",
-      "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Data-Engineer-4--Auto-Data-Platforms_R1003878-1",
-      "location": "Plano, TX",
-      "country": "USA"
-    },
-    {
-      "company": "Dxctechnology",
-      "role": "AI Engineer",
-      "link": "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/POL---MZ---WARSAW/AI-Engineer_51584805-1",
-      "location": "2 Locations",
-      "country": "Unsure"
-    },
-    {
-      "company": "Dxctechnology",
-      "role": "Data Engineer with German",
-      "link": "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/POL---MZ---WARSAW/Data-Engineer-with-German_51589660",
-      "location": "4 Locations",
-      "country": "Unsure"
-    },
-    {
-      "company": "GuideWell",
-      "role": "Cybersecurity Analyst (AI Focus)",
-      "link": "http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/42220",
-      "location": "United States",
-      "country": "USA"
-    },
-    {
-      "company": "Rtx",
-      "role": "Information Systems Engineer",
-      "link": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-AZ-TUCSON-801--1151-E-Hermans-Rd--BLDG-801-External-Site/Information-Systems-Engineer_01882684",
-      "location": "US-AZ-TUCSON-801 ~ 1151 E Hermans Rd ~ BLDG 801 (External Site)",
-      "country": "USA"
-    },
-    {
-      "company": "STR",
-      "role": "Software Engineer",
-      "link": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4717545006",
-      "location": "Woburn, MA",
-      "country": "USA"
     }
   ]
 }
