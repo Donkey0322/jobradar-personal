@@ -5625,18 +5625,18 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/asteraearlycareer2027/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4724488005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4727602005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4729021005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731586005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731587005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731588005",
       "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731598005",
       "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731636005",
       "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731637005",
       "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731994005",
       "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4738127005",
-      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4743021005",
-      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4727602005",
-      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731587005",
-      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731586005",
-      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731588005",
-      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4724488005",
-      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4729021005"
+      "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4743021005"
     ]
   },
   {
@@ -27284,7 +27284,11 @@
       "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/GB---Luton---Cap-Green-300/Software-Test-Engineers_R0021417",
       "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/GB---Southampton/Chief-Systems-Engineer_R0031438",
       "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/IT---Pomezia/Avionic-Software-Engineer_R0027699",
-      "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/IT---Varese---Cascina-Costa/ELI---Avionic-Systems-Engineer_R0032661-1"
+      "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/IT---Varese---Cascina-Costa/ELI---Avionic-Systems-Engineer_R0032661-1",
+      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Summer-Placement-Software-Engineer_R0033869-1",
+      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Basildon/Summer-Placement-Software-Engineer_R0034282",
+      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Industrial-Placement-Test-Systems-Engineer_R0034207",
+      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Newcastle/Summer-Placement-Software-Engineer_R0033874"
     ]
   },
   {
@@ -27978,11 +27982,11 @@
       "https://app.careerpuck.com/job-board/lyft/job/8888403002?gh_jid=8888403002",
       "https://app.careerpuck.com/job-board/lyft/job/8894909002?gh_jid=8894909002",
       "https://app.careerpuck.com/job-board/lyft/job/8896654002?gh_jid=8896654002",
+      "https://app.careerpuck.com/job-board/lyft/job/8896666002?gh_jid=8896666002",
       "https://app.careerpuck.com/job-board/lyft/job/8896671002?gh_jid=8896671002",
       "https://app.careerpuck.com/job-board/lyft/job/8896675002?gh_jid=8896675002",
       "https://app.careerpuck.com/job-board/lyft/job/8896679002?gh_jid=8896679002",
-      "https://app.careerpuck.com/job-board/lyft/job/8896685002?gh_jid=8896685002",
-      "https://app.careerpuck.com/job-board/lyft/job/8896666002?gh_jid=8896666002"
+      "https://app.careerpuck.com/job-board/lyft/job/8896685002?gh_jid=8896685002"
     ]
   },
   {
@@ -31859,6 +31863,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Intellectual-Property-Security-Engineer_JR2021915",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ML-and-AI-Physical-Design-Methodology-Engineer_JR2027645",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Engineer--AI-Safety_JR2021784-1",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Engineer--GeForce-G-Assist_JR2027676-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
@@ -31900,8 +31905,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/India-Pune/System-Software-Engineer---GPU-Profiling_JR2020625",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Yokneam/Software-Security-Researcher_JR2010818",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Singapore-Pasir-Panjang/Research-Scientist---AI_JR2020802",
-      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684",
-      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Engineer--GeForce-G-Assist_JR2027676-1"
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684"
     ]
   },
   {
@@ -37661,7 +37665,8 @@
     "page": "",
     "urls": [
       "https://www.shopify.com/careers/canada-engineering-internships-winter-2026_04cf2b87-6660-45c7-95f2-e734b7844612",
-      "https://www.shopify.com/careers/software-engineer-monorepo-systems-rust-nix_95aac134-c21a-456d-b8b3-a9aac6aa6118"
+      "https://www.shopify.com/careers/software-engineer-monorepo-systems-rust-nix_95aac134-c21a-456d-b8b3-a9aac6aa6118",
+      "https://www.shopify.com/careers/demo-engineer-software-development_a6126bad-c0ba-4d02-94fb-7c5e21bef9f5"
     ]
   },
   {
@@ -40455,7 +40460,10 @@
     "domain": "https://www.tesla.com",
     "page": "",
     "urls": [
-      "https://www.tesla.com/careers/search/job/253464"
+      "https://www.tesla.com/careers/search/job/253464",
+      "https://www.tesla.com/careers/search/job/253636",
+      "https://www.tesla.com/careers/search/job/253673",
+      "https://www.tesla.com/careers/search/job/253715"
     ]
   },
   {
