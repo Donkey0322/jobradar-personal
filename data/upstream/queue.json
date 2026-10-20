@@ -1,5 +1,5 @@
 {
-  "commit": "b53630c6a2208889354034c615817f8bf2489b10",
+  "commit": "9cffd0bb6b29745290dca3545931b10b2094cb6c",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -471,13 +471,6 @@
       "country": "USA"
     },
     {
-      "company": "Rocket Lab Corporation",
-      "role": "Flight Software Engineer I",
-      "link": "https://job-boards.greenhouse.io/rocketlab/jobs/8038139003",
-      "location": "Littleton, CO",
-      "country": "USA"
-    },
-    {
       "company": "Vast",
       "role": "Build Reliability Engineer - Fluid Systems",
       "link": "https://boards.greenhouse.io/vast/jobs/4723050006?gh_jid=4723050006",
@@ -490,34 +483,6 @@
       "link": "https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/Portland-ME/Software-Development-Engineer-1_R23233",
       "location": "2 Locations",
       "country": "Unsure"
-    },
-    {
-      "company": "Electronic Arts",
-      "role": "Software Engineer 1",
-      "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-I/216357",
-      "location": "Orlando, FL",
-      "country": "USA"
-    },
-    {
-      "company": "Bloom & Wild Group",
-      "role": "Junior Full Stack Engineer",
-      "link": "https://jobs.lever.co/bloomon/7f832927-5c83-4fe9-9e7a-52de0fea57dd/apply",
-      "location": "London, UKNetherlands",
-      "country": "Unsure"
-    },
-    {
-      "company": "Johns Hopkins Applied Physics Laboratory",
-      "role": "Cybersecurity Software Engineer New Grad - Cyber Concepts",
-      "link": "https://careers.jhuapl.edu/jobs/60116?icims=1",
-      "location": "Laurel, MD",
-      "country": "USA"
-    },
-    {
-      "company": "Applied Materials",
-      "role": "Software Engineer New Grad",
-      "link": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer--Bachelors-Degree--New-College-Grad--Santa-Clara-_R2630683",
-      "location": "Santa Clara, CA",
-      "country": "USA"
     },
     {
       "company": "Node.Digital",
