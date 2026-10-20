@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "name": "batches/f6tk85slx1audz3pshnnihart77fiqhttqru",
+    "submittedAt": "2026-10-20T10:04:43.692Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Asml",
+        "role": "D&E - YieldStar C# Software Engineer - Linkou",
+        "link": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Linkou-Taiwan/D-E---YieldStar-C--Software-Engineer---Linkou_J-00354282",
+        "location": "Linkou, Taiwan",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Equinix",
+        "role": "Data Center Critical Facilities Engineer IV",
+        "link": "https://equinix.wd1.myworkdayjobs.com/external/job/Singapore/Data-Center-Critical-Facilities-Engineer-IV_JR-164114",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Equinix",
+        "role": "Data Center Critical Facilities Engineer (Shift)",
+        "link": "https://equinix.wd1.myworkdayjobs.com/external/job/Singapore/Data-Center-Critical-Facilities-Engineer--Shift-_JR-164113",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer, Safe Coding Team",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/136646789221491398-software-engineer-safe-coding-team?sort_by=date&page=3",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "Customer Engineer, High Performance Computing, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/85761391088018118-customer-engineer-high-performance-computing-google-cloud?sort_by=date&page=3",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Hp",
+        "role": "Decision Support Data Scientist",
+        "link": "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Singapore-South-West-Singapore/Decision-Support-Data-Scientist_3169851",
+        "location": "Singapore, South West, Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
