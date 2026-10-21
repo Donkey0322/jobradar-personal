@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Etsy</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Marketplace Makers</td>
+      <td width="180" align="left" valign="top">Brooklyn, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://etsy.wd5.myworkdayjobs.com/etsy_careers/job/Brooklyn-New-York/Software-Engineer-I--Marketplace-Makers_JR6037-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Google" src="../assets/featured-badges/google.svg" /></td>
       <td width="420" align="left" valign="top">Forward Deployed Engineer, GenAI (Mandarin, English)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Singapore</td>
@@ -25,6 +32,13 @@
       <td width="420" align="left" valign="top">Wireless Systems Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Austin, TX</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200650502-3543/wireless-systems-engineer?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Akamai</td>
+      <td width="420" align="left" valign="top">Software Engineer</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4237"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 21</td>
     </tr>
     <tr>
@@ -2099,23 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://www.pinterestcareers.com/jobs/?gh_jid=7838591"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Esri</td>
-      <td width="420" align="left" valign="top">Software Development Engineer in Test I (SDET) – ArcGIS Enterprise </td>
-      <td width="180" align="left" valign="top">Redlands, CA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cisco</td>
-      <td width="420" align="left" valign="top">Software Consulting Engineer I (Full Time) United States</td>
-      <td width="180" align="left" valign="top">Research Triangle Park, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2025887?ph_id=2025887"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,200.</sub></p>
+<p><sub>Showing 300 of 1,202.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-21T18:47:39.788Z</code>
+      🕒 Last updated <code>2026-10-21T18:49:50.992Z</code>
     </span>
   </p>
 </div>

@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C200-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C202-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--21-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,200
+- [Entry Level](./job-postings/entry-level.md) — 1,202
 
 ## The List 🚴‍♂️
 
@@ -30,6 +30,13 @@ Each category page shows up to 300 of the latest roles.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Etsy</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Marketplace Makers</td>
+      <td width="180" align="left" valign="top">Brooklyn, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://etsy.wd5.myworkdayjobs.com/etsy_careers/job/Brooklyn-New-York/Software-Engineer-I--Marketplace-Makers_JR6037-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Google" src="./assets/featured-badges/google.svg" /></td>
       <td width="420" align="left" valign="top">Forward Deployed Engineer, GenAI (Mandarin, English)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Singapore</td>
@@ -41,6 +48,13 @@ Each category page shows up to 300 of the latest roles.
       <td width="420" align="left" valign="top">Wireless Systems Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Austin, TX</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200650502-3543/wireless-systems-engineer?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Akamai</td>
+      <td width="420" align="left" valign="top">Software Engineer</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4237"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 21</td>
     </tr>
     <tr>
@@ -225,23 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-ML-Systems-Engineer--2027-New-College-Graduate-_JR-2604163"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 19</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Kla</td>
-      <td width="420" align="left" valign="top">Engr, Software 1</td>
-      <td width="180" align="left" valign="top">Remote</td>
-      <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/ur/job/USA-NY-Remote-US03K/Engr--Software-1_2642693-3"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Otter.ai</td>
-      <td width="420" align="left" valign="top">Software Engineer, Backend (New Grad) </td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://otter.ai/careers?gh_jid=7798264003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,200.</sub></p>
+<p><sub>Showing 30 of 1,202.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-21T18:47:39.788Z</code>
+      🕒 Last updated <code>2026-10-21T18:49:50.992Z</code>
     </span>
   </p>
 </div>
