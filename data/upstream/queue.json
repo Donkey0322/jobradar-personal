@@ -819,6 +819,20 @@
       "link": "https://job-boards.greenhouse.io/xai/jobs/5271372007",
       "location": "Memphis, TN",
       "country": "USA"
+    },
+    {
+      "company": "Spot & Tango",
+      "role": "Jr. Software Engineer",
+      "link": "https://www.spotandtango.com/careers?gh_jid=4620638005",
+      "location": "New York, NY",
+      "country": "USA"
+    },
+    {
+      "company": "SMX",
+      "role": "Junior Data Scientist",
+      "link": "https://www.smxtech.com/careers/?gh_jid=7498313003",
+      "location": "Patuxent River, MD",
+      "country": "USA"
     }
   ]
 }
