@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C227-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C229-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--23-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,227
+- [Entry Level](./job-postings/entry-level.md) — 1,229
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,20 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Torc Robotics</td>
+      <td width="420" align="left" valign="top">Commissioning - Systems Engineer I</td>
+      <td width="180" align="left" valign="top">Ann Arbor, MI</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/torcrobotics/jobs/8881987002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Verisk Careers | Verisk</td>
+      <td width="420" align="left" valign="top">Cloud FinOps Engineer</td>
+      <td width="180" align="left" valign="top">Holmdel, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/5031"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 23</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
       <td width="420" align="left" valign="top">IT Systems Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
@@ -225,23 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://vizient.wd1.myworkdayjobs.com/vizient_careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer_35366R"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Disney</td>
-      <td width="420" align="left" valign="top">Product Software Engineer I Disney Entertainment and ESPN Product &amp; Technology New York, New York Oct. 21, 2026</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/new-york/product-software-engineer-i/391/102261826624"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Affirm</td>
-      <td width="420" align="left" valign="top">Analyst, Early Career (Full Stack)</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/affirm/jobs/8039471003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,227.</sub></p>
+<p><sub>Showing 30 of 1,229.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-23T22:14:04.797Z</code>
+      🕒 Last updated <code>2026-10-23T22:19:42.006Z</code>
     </span>
   </p>
 </div>

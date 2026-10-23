@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Torc Robotics</td>
+      <td width="420" align="left" valign="top">Commissioning - Systems Engineer I</td>
+      <td width="180" align="left" valign="top">Ann Arbor, MI</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/torcrobotics/jobs/8881987002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Verisk Careers | Verisk</td>
+      <td width="420" align="left" valign="top">Cloud FinOps Engineer</td>
+      <td width="180" align="left" valign="top">Holmdel, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/5031"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 23</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
       <td width="420" align="left" valign="top">IT Systems Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Columbus, IN</td>
@@ -2099,23 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LinkedIn3/744000153600155"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 5</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Mastercard</td>
-      <td width="420" align="left" valign="top">Software Engineer I</td>
-      <td width="180" align="left" valign="top">O&#39;Fallon, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/OFallon-Missouri/Software-Engineer-I_R-291661"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Nuro</td>
-      <td width="420" align="left" valign="top">New Grad Software Engineer, Routing</td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://nuro.ai/careersitem?gh_jid=8248317"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 5</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,227.</sub></p>
+<p><sub>Showing 300 of 1,229.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-23T22:14:04.797Z</code>
+      🕒 Last updated <code>2026-10-23T22:19:42.006Z</code>
     </span>
   </p>
 </div>
