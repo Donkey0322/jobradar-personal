@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-23T01:34:41.369Z</code>
+      🕒 Last updated <code>2026-10-23T02:06:56.599Z</code>
     </span>
   </p>
 </div>
