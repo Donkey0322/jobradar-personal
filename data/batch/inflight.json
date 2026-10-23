@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "batches/a1a4xcsb64ulpb2bw0ide9e766lucxaancry",
+    "submittedAt": "2026-10-23T10:06:02.114Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Micron",
+        "role": "Engineer, HIG HBM Product & System Engineering (Media Health Reliability Coding)",
+        "link": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Engineer--HIG-HBM-Product---System-Engineering--Media-Health-Reliability-Coding-_JR82295",
+        "location": "Fab 10A, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Micron",
+        "role": "Product Engineer (Advance Data Analytics),  Heterogeneous Integration Group (HIG), High Bandwidth Memory (HBM) Product Engineering",
+        "link": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Snr-Product-Engineer--Advance-Data-Analytics----Heterogeneous-Integration-Group--HIG---High-Bandwidth-Memory--HBM--Product-Engineering_JR88305",
+        "location": "Fab 10A, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Thales",
+        "role": "Data Engineer",
+        "link": "https://thales.wd3.myworkdayjobs.com/careers/job/Singapore/Data-Engineer_R0345297",
+        "location": "Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
