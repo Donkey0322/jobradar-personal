@@ -5543,6 +5543,7 @@
       "https://jobs.apple.com/en-us/details/200690641-1052/software-engineer-agent-development?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200690683-0157/software-engineering-ai-ml-retail-and-marcom-engineering?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200690683-3956/software-engineering-ai-ml-retail-and-marcom-engineering?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200690706-3337/security-site-reliability-engineer-apple-service-engineering?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200690733-0157/site-reliability-engineer-apple-data-platform-adp?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200690747-0157/software-engineer-soc-level-validation-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200690747-0505/software-engineer-soc-level-validation-engineer?team=HRDWR",
@@ -5576,9 +5577,8 @@
       "https://jobs.apple.com/en-us/details/200691109-0836/systems-engineer-evaluation-engineering?team=MLAI",
       "https://jobs.apple.com/en-us/details/200691141-2926/sr-machine-learning-engineer-ml-systems-engineering-proactive?team=MLAI",
       "https://jobs.apple.com/en-us/details/200691161-0351/machine-learning-engineer-foundation-models?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200691391-0836/software-engineer-evaluation?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200691355-0365/acoustics-ml-dsp-engineer?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200690706-3337/security-site-reliability-engineer-apple-service-engineering?team=SFTWR"
+      "https://jobs.apple.com/en-us/details/200691391-0836/software-engineer-evaluation?team=SFTWR"
     ]
   },
   {
@@ -6090,6 +6090,7 @@
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/System-Integration-and-Test-Engineer---2nd-Shift_J-00352284",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Application-Software-QA-Engineer_J-00354565",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Software-Engineer-In-Test--MOD-_J-00354568",
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Principle-Software-Engineer---Systems-software_J-00348662",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Sr-System-Integration---Test-Engineer_J-00348396",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Shenzhen-China/Software-Testing-Intern_J-00340135-2",
@@ -6104,8 +6105,7 @@
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/System-Integration-and-Test-Engineer-Back-End-Nights---6-00-PM---6-00-AM--Wednesday--Thursday--Friday--and-every-other-Saturday-_J-00353212",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Vaccum-Systems-Engineer_J-00351740",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Vacuum-System-Engineer_J-00349793",
-      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Vacuum-System-Engineer_J-00353209",
-      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558"
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Vacuum-System-Engineer_J-00353209"
     ]
   },
   {
@@ -12643,11 +12643,11 @@
       "https://www.capitalonecareers.com/job/san-jose/full-stack-engineer-4-machine-learning-experiences-mlx/1732/102350015136",
       "https://www.capitalonecareers.com/job/san-jose/full-stack-engineer-5-cyber-identity/1732/101923347984",
       "https://www.capitalonecareers.com/job/san-jose/machine-learning-engineer-4-ic/1732/101318745904",
+      "https://www.capitalonecareers.com/job/san-jose/machine-learning-engineer-4-machine-learning-experiences-mlx/1732/102350015184",
+      "https://www.capitalonecareers.com/job/san-jose/machine-learning-engineer-4-machine-learning-foundations-mlx/1732/102350014944",
       "https://www.capitalonecareers.com/job/wilmington/data-engineer-4/1732/101912134768",
       "https://www.capitalonecareers.com/job/wilmington/data-engineer-5/1732/101318746032",
-      "https://www.capitalonecareers.com/job/wilmington/mobile-engineer-4/1732/101107273440",
-      "https://www.capitalonecareers.com/job/san-jose/machine-learning-engineer-4-machine-learning-experiences-mlx/1732/102350015184",
-      "https://www.capitalonecareers.com/job/san-jose/machine-learning-engineer-4-machine-learning-foundations-mlx/1732/102350014944"
+      "https://www.capitalonecareers.com/job/wilmington/mobile-engineer-4/1732/101107273440"
     ]
   },
   {
@@ -13524,6 +13524,7 @@
       "https://careers.cisco.com/global/en/job/2026915?ph_id=2026915",
       "https://careers.cisco.com/global/en/job/2026920?ph_id=2026920",
       "https://careers.cisco.com/global/en/job/2026923?ph_id=2026923",
+      "https://careers.cisco.com/global/en/job/2026934?ph_id=2026934",
       "https://careers.cisco.com/global/en/job/2027038?ph_id=2027038",
       "https://careers.cisco.com/global/en/job/2027194?ph_id=2027194",
       "https://careers.cisco.com/global/en/job/2027195?ph_id=2027195",
@@ -13578,8 +13579,7 @@
       "https://careers.cisco.com/global/en/job/2028928?ph_id=2028928",
       "https://careers.cisco.com/global/en/job/2029031?ph_id=2029031",
       "https://careers.cisco.com/global/en/job/2029183?ph_id=2029183",
-      "https://careers.cisco.com/global/en/job/2029701?ph_id=2029701",
-      "https://careers.cisco.com/global/en/job/2026934?ph_id=2026934"
+      "https://careers.cisco.com/global/en/job/2029701?ph_id=2029701"
     ]
   },
   {
@@ -13994,6 +13994,7 @@
       "https://careers.hpe.com/us/en/job/1215862?ph_id=1215862",
       "https://careers.hpe.com/us/en/job/1215895?ph_id=1215895",
       "https://careers.hpe.com/us/en/job/1215899?ph_id=1215899",
+      "https://careers.hpe.com/us/en/job/1216080?ph_id=1216080",
       "https://careers.hpe.com/us/en/job/1216130?ph_id=1216130",
       "https://careers.hpe.com/us/en/job/1216224?ph_id=1216224",
       "https://careers.hpe.com/us/en/job/1216229?ph_id=1216229",
@@ -14009,8 +14010,7 @@
       "https://careers.hpe.com/us/en/job/1216894?ph_id=1216894",
       "https://careers.hpe.com/us/en/job/1216934?ph_id=1216934",
       "https://careers.hpe.com/us/en/job/1217486?ph_id=1217486",
-      "https://careers.hpe.com/us/en/job/1217809?ph_id=1217809",
-      "https://careers.hpe.com/us/en/job/1216080?ph_id=1216080"
+      "https://careers.hpe.com/us/en/job/1217809?ph_id=1217809"
     ]
   },
   {
@@ -19440,27 +19440,6 @@
     "urls": []
   },
   {
-    "name": "ejta.fa.us6.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "ejta.fa.us6.oraclecloud.com",
-    "domain": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
-    "page": "https://ejta.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_2001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10240",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10303",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10438",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10542",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10605",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10662",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10748",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10881",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10930",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10977",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/11077",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9727"
-    ]
-  },
-  {
     "name": "ekgn.fa.us6.oraclecloud.com",
     "ats": "oraclecloud",
     "identifier": "ekgn.fa.us6.oraclecloud.com",
@@ -21676,6 +21655,27 @@
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24755",
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24756",
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24758"
+    ]
+  },
+  {
+    "name": "Fortive Careers",
+    "ats": "oraclecloud",
+    "identifier": "ejta.fa.us6.oraclecloud.com",
+    "domain": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
+    "page": "https://ejta.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_2001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10240",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10303",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10438",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10542",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10605",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10662",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10748",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10881",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10930",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10977",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/11077",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9727"
     ]
   },
   {
@@ -35151,7 +35151,9 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/344616",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/344982",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/345665",
-      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/346303"
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/346303",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/345728",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/345729"
     ]
   },
   {
@@ -39326,7 +39328,8 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Warminster-Wiltshire/AI-Solution-Engineer_01865103",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Systems-Engineer_01877067",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Training-Data-Analyst_01882121",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/XX-XX-UNDISCLOSED/System-Engineer_01875338"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/XX-XX-UNDISCLOSED/System-Engineer_01875338",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Engineer-I--Software-Engineer---Test-Engineering--Onsite-_01883521"
     ]
   },
   {
