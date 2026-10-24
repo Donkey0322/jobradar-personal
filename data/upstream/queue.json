@@ -1,5 +1,5 @@
 {
-  "commit": "2f62ce2af9cebd33cf08e49bd099029a4fd7ef50",
+  "commit": "599e8bc857402a7cc5eda297aec53b71e147f8b7",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -699,20 +699,6 @@
       "role": "Software Engineering IC2",
       "link": "https://apply.careers.microsoft.com/careers/job/1970393557044842?domain=microsoft.com&8fold_id=1970393557044842",
       "location": "United States, Washington, Redmond",
-      "country": "USA"
-    },
-    {
-      "company": "Lmi",
-      "role": "Data Engineer | VA Claims Modernization",
-      "link": "https://careers-lmi.icims.com/jobs/14777/data-engineer-%7c-va-claims-modernization/job",
-      "location": "Unsure",
-      "country": "Unsure"
-    },
-    {
-      "company": "Rtx",
-      "role": "Engineer I, Software Engineer - Test Engineering (Onsite)",
-      "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Engineer-I--Software-Engineer---Test-Engineering--Onsite-_01883521",
-      "location": "US-MN-BURNSVILLE-WEST ~ 14300 Judicial Rd ~ WEST BLDG",
       "country": "USA"
     }
   ]
