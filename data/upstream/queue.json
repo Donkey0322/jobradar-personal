@@ -37,62 +37,6 @@
       "country": "USA"
     },
     {
-      "company": "Lambda",
-      "role": "Cloud Support Engineer I (Support Response) 🛂",
-      "link": "https://jobs.ashbyhq.com/lambda/1b1cac37-a29c-46b2-ad1a-a946d1e87d41",
-      "location": "Remote in USA",
-      "country": "USA"
-    },
-    {
-      "company": "Aurora Innovation",
-      "role": "Software Engineer 1",
-      "link": "https://aurora.tech/jobs/8209480002?gh_jid=8209480002",
-      "location": "Pittsburgh, PA",
-      "country": "USA"
-    },
-    {
-      "company": "Aurora Innovation",
-      "role": "Software Engineer 1",
-      "link": "https://aurora.tech/jobs/8191750002?gh_jid=8191750002",
-      "location": "Mountain View, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Aurora",
-      "role": "Security Software Engineer I",
-      "link": "https://aurora.tech/careers/8137861002",
-      "location": "Mountain View, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer, Simulation",
-      "link": "https://www.metacareers.com/profile/job_details/1979100652803899",
-      "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer, Recommendation Systems",
-      "link": "https://www.metacareers.com/profile/job_details/1974446943267892",
-      "location": "Menlo Park, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer, Databases (Technical Leadership)",
-      "link": "https://www.metacareers.com/profile/job_details/2036491263900209",
-      "location": "Bellevue, WA, Menlo Park, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer, Systems ML - Compilers / Backend",
-      "link": "https://www.metacareers.com/profile/job_details/1974850966499630",
-      "location": "Sunnyvale, CA, Redmond, WA, Austin, TX, New York, NY",
-      "country": "USA"
-    },
-    {
       "company": "Accenture",
       "role": "AI Software Engineer (GenAI, Virtual Agent, MS Copilot)",
       "link": "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Assago-Via-del-Mulino-11a/AI-Software-Engineer--GenAI--Virtual-Agent--MS-Copilot-_R00338277-1",
@@ -121,13 +65,6 @@
       "country": "Unsure"
     },
     {
-      "company": "The MITRE Corporation",
-      "role": "Associate Data Scientist",
-      "link": "https://careers.mitre.org/us/en/job/R117791?ph_id=R117791",
-      "location": "Bridgeport, West Virginia, United States of America",
-      "country": "USA"
-    },
-    {
       "company": "Hpe",
       "role": "Data Analyst – Supply Chain",
       "link": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Aguadilla-Puerto-Rico/Data-Analyst---Supply-Chain_1216934-1",
@@ -140,62 +77,6 @@
       "link": "https://careers.hpe.com/us/en/job/1216934?ph_id=1216934",
       "location": "Aguadilla, N/A",
       "country": "Unsure"
-    },
-    {
-      "company": "Tesla",
-      "role": "Frontend Software Engineer, Energy Charging",
-      "link": "https://www.tesla.com/careers/search/job/253464",
-      "location": "Fremont, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Taro",
-      "role": "Founding Software Engineer 🇺🇸",
-      "link": "https://www.workatastartup.com/jobs/83287",
-      "location": "Palo Alto, CA",
-      "country": "USA"
-    },
-    {
-      "company": "StarSling (X25)",
-      "role": "New Grad: Full-Stack Software Engineer 🇺🇸",
-      "link": "https://www.workatastartup.com/jobs/83356",
-      "location": "<details><summary>**5 locations**</summary>San Francisco, CA</br>San Mateo, CA</br>Palo Alto, CA</br>Menlo Park, CA</br>Redwood City, CA</details>",
-      "country": "USA"
-    },
-    {
-      "company": "Stamp",
-      "role": "Founding Full Stack Engineer 🇺🇸",
-      "link": "https://www.workatastartup.com/jobs/82876",
-      "location": "San Francisco, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Shopify",
-      "role": "Software Engineer - Monorepo Systems (Rust & Nix)",
-      "link": "https://www.shopify.com/careers/software-engineer-monorepo-systems-rust-nix_95aac134-c21a-456d-b8b3-a9aac6aa6118",
-      "location": "Remote",
-      "country": "Remote"
-    },
-    {
-      "company": "Maitai",
-      "role": "Full-Stack Engineer - Agent Marketplace (In-Person RWC Only)",
-      "link": "https://www.workatastartup.com/jobs/82935",
-      "location": "Redwood City, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Corgi",
-      "role": "Full Stack Engineer",
-      "link": "https://www.workatastartup.com/jobs/83025",
-      "location": "Atlanta, GA",
-      "country": "USA"
-    },
-    {
-      "company": "Apten",
-      "role": "Software Engineer (Full Stack) 🇺🇸",
-      "link": "https://www.workatastartup.com/jobs/83503",
-      "location": "San Francisco, CA",
-      "country": "USA"
     },
     {
       "company": "Ag",
@@ -247,34 +128,6 @@
       "country": "USA"
     },
     {
-      "company": "Tesla",
-      "role": "Software Security Engineer, Energy Product Software",
-      "link": "https://www.tesla.com/careers/search/job/253636",
-      "location": "Palo Alto, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Tesla",
-      "role": "Backend Software Engineer, IT Data & Analytics",
-      "link": "https://www.tesla.com/careers/search/job/253673",
-      "location": "Fremont, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Tesla",
-      "role": "Backend Software Engineer, Optimus & Robotaxi",
-      "link": "https://www.tesla.com/careers/search/job/253715",
-      "location": "Palo Alto, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Shopify",
-      "role": "Demo Engineer, Software Development",
-      "link": "https://www.shopify.com/careers/demo-engineer-software-development_a6126bad-c0ba-4d02-94fb-7c5e21bef9f5",
-      "location": "Remote",
-      "country": "Remote"
-    },
-    {
       "company": "Amazon",
       "role": "Software Development Engineer (ML), EU International Technologies",
       "link": "https://amazon.jobs/en/jobs/10566721",
@@ -293,13 +146,6 @@
       "role": "Data Engineer I FTC, Payfort",
       "link": "https://amazon.jobs/en/jobs/10506499",
       "location": "IN, TN, Chennai",
-      "country": "USA"
-    },
-    {
-      "company": "Amazon",
-      "role": "System Development Engineer, Network Core",
-      "link": "https://amazon.jobs/en/jobs/10582193",
-      "location": "AU, VIC, Melbourne",
       "country": "USA"
     },
     {
@@ -328,13 +174,6 @@
       "role": "Full Stack Engineer",
       "link": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000122687",
       "location": "Pune, Gera Commerzone SEZ",
-      "country": "USA"
-    },
-    {
-      "company": "Boeing",
-      "role": "Project/Systems Engineer",
-      "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IRL---Dublin-Ireland/Project-Systems-Engineer_JR2026525604-1",
-      "location": "IRL - Dublin, Ireland",
       "country": "USA"
     },
     {
@@ -387,13 +226,6 @@
       "country": "USA"
     },
     {
-      "company": "Node.Digital",
-      "role": "Junior AI/ML Engineer",
-      "link": "https://apply.workable.com/node/j/2E183FDDB9/apply",
-      "location": "Herndon, VA",
-      "country": "USA"
-    },
-    {
       "company": "Apple",
       "role": "Software Development Engineer - Core OS",
       "link": "https://jobs.apple.com/en-us/details/200689475-2611/software-development-engineer-core-os?team=SFTWR",
@@ -415,20 +247,6 @@
       "country": "USA"
     },
     {
-      "company": "Apple",
-      "role": "Software Engineer, Xcode Intelligence Experience",
-      "link": "https://jobs.apple.com/en-us/details/200626941-0836/software-engineer-xcode-intelligence-experience",
-      "location": "Cupertino, CA",
-      "country": "USA"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "Associate AI and Decision Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R117848?ph_id=R117848",
-      "location": "McLean, Virginia, United States of America",
-      "country": "USA"
-    },
-    {
       "company": "The MITRE Corporation",
       "role": "Associate Generative AI Engineer",
       "link": "https://careers.mitre.org/us/en/job/R117797?ph_id=R117797",
@@ -443,45 +261,10 @@
       "country": "Unsure"
     },
     {
-      "company": "The MITRE Corporation",
-      "role": "Associate Embedded Software Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R117857?ph_id=R117857",
-      "location": "Bedford, Massachusetts, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "Jci",
-      "role": "Data Platform Engineer",
-      "link": "https://jci.wd5.myworkdayjobs.com/jci/job/Pune-Maharashtra-India/Data-Platform-Engineer_WD30283123",
-      "location": "Pune-Maharashtra-India",
-      "country": "Unsure"
-    },
-    {
-      "company": "Jci",
-      "role": "Data Platform Engineer",
-      "link": "https://jci.wd5.myworkdayjobs.com/jci/job/Pune-Maharashtra-India/Data-Platform-Engineer_WD30283124",
-      "location": "Pune-Maharashtra-India",
-      "country": "Unsure"
-    },
-    {
       "company": "Man Group",
       "role": "Python Data Engineer",
       "link": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5011118101",
       "location": "London",
-      "country": "Unsure"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer, Systems ML - Frameworks / Compilers / Kernels | Ingénieur logiciel, Systèmes ML, cadres/Compilateurs/Noyaux",
-      "link": "https://www.metacareers.com/profile/job_details/1849835952851802",
-      "location": "Toronto, Canada",
-      "country": "Unsure"
-    },
-    {
-      "company": "Microsoft",
-      "role": "Solution Engineer Cloud & AI Infrastructure",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557041167?domain=microsoft.com&8fold_id=1970393557041167",
-      "location": "Canada, Québec, Quebec City, Canada, Ontario, Greater Toronto",
       "country": "Unsure"
     },
     {
@@ -562,13 +345,6 @@
       "country": "Unsure"
     },
     {
-      "company": "Rockwellautomation",
-      "role": "Agentic AI Engineer",
-      "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Medellin-Antioquia-Colombia/Agentic-AI-Operations-Engineer_R26-4572",
-      "location": "Medellin, Antioquia, Colombia",
-      "country": "Unsure"
-    },
-    {
       "company": "Amazon",
       "role": " Embedded Software Engineer, Annapurna Labs",
       "link": "https://amazon.jobs/en/jobs/10586170",
@@ -576,38 +352,10 @@
       "country": "Unsure"
     },
     {
-      "company": "The MITRE Corporation",
-      "role": "Associate Data Scientist",
-      "link": "https://careers.mitre.org/us/en/job/R117872?ph_id=R117872",
-      "location": "McLean, Virginia, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "UX/UI Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R117873?ph_id=R117873",
-      "location": "Bedford, Massachusetts, United States of America",
-      "country": "USA"
-    },
-    {
       "company": "Hpe",
       "role": "Systems Engineer- Linux/ Yocto",
       "link": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Juan-Puerto-Rico-Puerto-Rico/Systems-Engineer--Linux--Yocto_1212261-1",
       "location": "San Juan, Puerto Rico, Puerto Rico",
-      "country": "USA"
-    },
-    {
-      "company": "Rokt",
-      "role": "Junior Software Engineer Resident",
-      "link": "https://apply.workable.com/rokt/j/616F2D0286/apply",
-      "location": "NYC",
-      "country": "USA"
-    },
-    {
-      "company": "Thorlabs",
-      "role": "Data Analyst 1",
-      "link": "https://apply.workable.com/thorlabs/j/B3CD05F790/apply",
-      "location": "Newton, NJ",
       "country": "USA"
     },
     {
@@ -622,20 +370,6 @@
       "role": "Data Engineer (L6) - Ads (Signals and Measurement)",
       "link": "https://explore.jobs.netflix.net/careers/job/790315176866",
       "location": "Remote, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Microsoft",
-      "role": "Software Engineer",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557045536?domain=microsoft.com&8fold_id=1970393557045536",
-      "location": "United States, Washington, Redmond",
-      "country": "USA"
-    },
-    {
-      "company": "Microsoft",
-      "role": "Software Engineering IC2",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557044842?domain=microsoft.com&8fold_id=1970393557044842",
-      "location": "United States, Washington, Redmond",
       "country": "USA"
     }
   ]
