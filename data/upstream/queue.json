@@ -1,5 +1,5 @@
 {
-  "commit": "0d34fc42267b80a2a24211ea1a5ce0cdd8860ffb",
+  "commit": "6df859ce3b078297d112eaf211e52766732ac519",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -66,34 +66,6 @@
     },
     {
       "company": "Meta",
-      "role": "Software Engineer, AI Specialist - Wearables AI (Technical Leadership)",
-      "link": "https://www.metacareers.com/profile/job_details/2611092992640353",
-      "location": "Burlingame, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer, Recommendation Systems",
-      "link": "https://www.metacareers.com/profile/job_details/1655658162184700",
-      "location": "Sunnyvale, CA, Bellevue, WA, New York, NY",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Robotics Backend & ML Integration Engineer, Site Services",
-      "link": "https://www.metacareers.com/profile/job_details/2033115780677034",
-      "location": "Fremont, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer (Technical Leadership)",
-      "link": "https://www.metacareers.com/profile/job_details/2022384618363288",
-      "location": "Sunnyvale, CA, Bellevue, WA, Menlo Park, CA, New York, NY",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
       "role": "Software Engineer, Simulation",
       "link": "https://www.metacareers.com/profile/job_details/1979100652803899",
       "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
@@ -108,20 +80,6 @@
     },
     {
       "company": "Meta",
-      "role": "Production Systems Engineer, AI Systems",
-      "link": "https://www.metacareers.com/profile/job_details/1692628531801921",
-      "location": "Austin, TX, Menlo Park, CA, Seattle, WA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer",
-      "link": "https://www.metacareers.com/profile/job_details/990953733995858",
-      "location": "Menlo Park, CA, Seattle, WA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
       "role": "Software Engineer, Databases (Technical Leadership)",
       "link": "https://www.metacareers.com/profile/job_details/2036491263900209",
       "location": "Bellevue, WA, Menlo Park, CA",
@@ -132,27 +90,6 @@
       "role": "Software Engineer, Systems ML - Compilers / Backend",
       "link": "https://www.metacareers.com/profile/job_details/1974850966499630",
       "location": "Sunnyvale, CA, Redmond, WA, Austin, TX, New York, NY",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "AI Software Engineer, Systems ML - Wearables AI",
-      "link": "https://www.metacareers.com/profile/job_details/2236774387100356",
-      "location": "Seattle, WA",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Compiler Engineer, MTIA Software (Technical Leadership)",
-      "link": "https://www.metacareers.com/profile/job_details/1618611489618646",
-      "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
-      "country": "USA"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer, Camera Systems",
-      "link": "https://www.metacareers.com/profile/job_details/2436192886889791",
-      "location": "Sunnyvale, CA, Burlingame, CA",
       "country": "USA"
     },
     {
