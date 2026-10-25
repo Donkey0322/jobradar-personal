@@ -42,9 +42,13 @@ vi.mock("@/modules/postings/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
 }));
 
-vi.mock("@/modules/postings/upstream-queue", () => ({
-  enqueueUpstreamWait: enqueueUpstreamWaitMock,
-}));
+vi.mock("@/modules/postings/upstream-queue", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("@/modules/postings/upstream-queue")>();
+  return {
+    ...actual,
+    enqueueUpstreamWait: enqueueUpstreamWaitMock,
+  };
+});
 
 vi.mock("@/modules/posting/titles", async (importOriginal) => {
   const actual = await importOriginal<typeof PostingTitles>();
@@ -348,6 +352,27 @@ describe("processJobs", () => {
     expect(enqueueUpstreamWaitMock).toHaveBeenCalledWith(
       expect.objectContaining({ link: job.link, country: "USA" })
     );
+  });
+
+  it("records the public country and does not wait when that country will not get a JD", async () => {
+    const job = makeJob("india");
+    job.country = "USA";
+    job.location = "India - Hyderabad";
+    const upstream = new Map([[getJobKey(job.link), { ...job, country: "India" as const }]]);
+
+    const result = await processJobs({
+      jobs: [job],
+      upstream,
+      ...emptyContext(),
+    });
+
+    expect(getJDMock).not.toHaveBeenCalled();
+    expect(enqueueUpstreamWaitMock).not.toHaveBeenCalled();
+    expect(result.waiting).toBe(0);
+    expect(result.skipped).toBe(1);
+    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith([
+      expect.objectContaining({ link: job.link, country: "India", expired: false }),
+    ]);
   });
 
   it("analyzes Singapore listings the public repo left without a JD", async () => {

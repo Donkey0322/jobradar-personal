@@ -4,6 +4,8 @@ import type { Job } from "@/types";
 
 import { isSelfAnalyzedCountry } from "./upstream";
 
+import { awaitsPublicJd } from "@/modules/postings/upstream-queue";
+
 export type SkipKind = "idempotent" | "filter" | "ineligible" | "dashboard";
 
 interface DeadlineOutcome {
@@ -160,6 +162,15 @@ export async function resolveJob(job: Posting, gates: ResolveJobGates): Promise<
     if (!job.country && cached?.country) job.country = cached.country;
     job.setJD(parsed);
     return outcomeAfterAnalysis(job, 0);
+  }
+
+  if (
+    cached?.country &&
+    !awaitsPublicJd(cached.country) &&
+    !isSelfAnalyzedCountry(cached.country)
+  ) {
+    job.country = cached.country;
+    return Outcome.skip(job, "filter");
   }
 
   if (gates.filter && (await gates.filter(job))) {

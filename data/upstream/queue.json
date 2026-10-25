@@ -16,20 +16,6 @@
       "country": "USA"
     },
     {
-      "company": "Gehc",
-      "role": "System Engineer",
-      "link": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Herlev/System-Engineer_R4047565",
-      "location": "Herlev",
-      "country": "Unsure"
-    },
-    {
-      "company": "Usertesting",
-      "role": "AI Systems Engineer",
-      "link": "https://usertesting.wd12.myworkdayjobs.com/usertesting/job/Remote---US/IT-System-Administrator---AI_R-101222",
-      "location": "Remote - US",
-      "country": "USA"
-    },
-    {
       "company": "Qualcomm",
       "role": "#Software Engineer",
       "link": "https://qualcomm.eightfold.ai/careers/job/446721477857?domain=qualcomm.com&8fold_id=446721477857",
@@ -44,69 +30,6 @@
       "country": "Unsure"
     },
     {
-      "company": "Ag",
-      "role": "Earth Observation Satellite System Engineer",
-      "link": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/Earth-Observation-Satellite-System-Engineer_JR10423783",
-      "location": "Getafe Area",
-      "country": "Unsure"
-    },
-    {
-      "company": "Ag",
-      "role": "SCOF Systems Engineer",
-      "link": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Chippenham-Area/SCOF-Systems-Engineer_JR10388329-1",
-      "location": "Chippenham Area",
-      "country": "Unsure"
-    },
-    {
-      "company": "Ag",
-      "role": "Elec. System Install. Design Engineering",
-      "link": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Albacete/Elec-System-Install-Design-Engineering_JR10451049-1",
-      "location": "Albacete",
-      "country": "Unsure"
-    },
-    {
-      "company": "Hpe",
-      "role": "Data Analyst – Supply Chain",
-      "link": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Aguadilla-Puerto-Rico/Data-Analyst---Supply-Chain_1216934-1",
-      "location": "Aguadilla, Puerto Rico",
-      "country": "USA"
-    },
-    {
-      "company": "HPE",
-      "role": "Data Analyst – Supply Chain",
-      "link": "https://careers.hpe.com/us/en/job/1216934?ph_id=1216934",
-      "location": "Aguadilla, N/A",
-      "country": "Unsure"
-    },
-    {
-      "company": "Ag",
-      "role": "Eurofighter ESCAN & DASS - EW System Engineer",
-      "link": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/Eurofighter-ESCAN---DASS---EW-System-Engineer_JR10405659-1",
-      "location": "Getafe Area",
-      "country": "USA"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, AI Runtime",
-      "link": "https://amazon.jobs/en/jobs/10581459",
-      "location": "IN, MH, Pune",
-      "country": "USA"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer",
-      "link": "https://amazon.jobs/en/jobs/10581425",
-      "location": "ZA, Cape Town",
-      "country": "USA"
-    },
-    {
-      "company": "Bosch group",
-      "role": "Software Engineer - AI (f/m/div.)",
-      "link": "https://jobs.smartrecruiters.com/BoschGroup/744000155993379",
-      "location": "Lisboa, Lisboa, Portugal",
-      "country": "USA"
-    },
-    {
       "company": "The MITRE Corporation",
       "role": "IC Full Stack Engineer",
       "link": "https://careers.mitre.org/us/en/job/R117821?ph_id=R117821",
@@ -119,76 +42,6 @@
       "link": "https://careers.mitre.org/us/en/job/R117820?ph_id=R117820",
       "location": "McLean, Virginia, United States of America",
       "country": "USA"
-    },
-    {
-      "company": "Netflix",
-      "role": "Distributed Systems Engineer (L4) - Data Platform",
-      "link": "https://explore.jobs.netflix.net/careers/job/790298021069",
-      "location": "Remote, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer (ML), EU International Technologies",
-      "link": "https://amazon.jobs/en/jobs/10566721",
-      "location": "LU, Luxembourg",
-      "country": "Unsure"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, Customer Experience and Business Trends",
-      "link": "https://amazon.jobs/en/jobs/10582077",
-      "location": "IN, KA, Bengaluru",
-      "country": "Unsure"
-    },
-    {
-      "company": "Amazon",
-      "role": "Data Engineer I FTC, Payfort",
-      "link": "https://amazon.jobs/en/jobs/10506499",
-      "location": "IN, TN, Chennai",
-      "country": "USA"
-    },
-    {
-      "company": "Amgen",
-      "role": "Sr Associate Software Engineer",
-      "link": "https://amgen.wd1.myworkdayjobs.com/careers/job/India---Hyderabad/Sr-Associate-Software-Engineer_R-258000",
-      "location": "India - Hyderabad",
-      "country": "USA"
-    },
-    {
-      "company": "Asml",
-      "role": "EUV International System Install Engineer",
-      "link": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Leixlip-Ireland/EUV-International-System-Install-Engineer_J-00355646",
-      "location": "Leixlip, Ireland",
-      "country": "USA"
-    },
-    {
-      "company": "Barclays",
-      "role": "Data Integration Developer",
-      "link": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Gemini-Building-A-Prague/Data-Integration-Developer_JR-0000129099",
-      "location": "Gemini Building A, Prague",
-      "country": "Unsure"
-    },
-    {
-      "company": "Barclays",
-      "role": "Full Stack Engineer",
-      "link": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000122687",
-      "location": "Pune, Gera Commerzone SEZ",
-      "country": "USA"
-    },
-    {
-      "company": "Bosch group",
-      "role": "[EHV] Embedded Software Engineer - Basic Software (BSW)",
-      "link": "https://jobs.smartrecruiters.com/BoschGroup/744000156236004",
-      "location": "Ho Chi Minh, , Vietnam",
-      "country": "USA"
-    },
-    {
-      "company": "Roche",
-      "role": "Business & Systems Analyst",
-      "link": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Petaling-Jaya/Business---Systems-Analyst_202610-125901",
-      "location": "Petaling Jaya",
-      "country": "Unsure"
     },
     {
       "company": "The MITRE Corporation",
@@ -212,32 +65,11 @@
       "country": "USA"
     },
     {
-      "company": "Onehealthineers",
-      "role": "Software Development Engineer - DevOps",
-      "link": "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/WAP-C/Software-Development-Engineer---DevOps_R-31512",
-      "location": "WAP C",
-      "country": "Unsure"
-    },
-    {
       "company": "Caci",
       "role": "Systems Engineer",
       "link": "https://searchcareers.caci.com/careers/job/1443154049064?domain=caci.com&8fold_id=1443154049064",
       "location": "Aberdeen Proving Ground, MD, US",
       "country": "USA"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Development Engineer - Core OS",
-      "link": "https://jobs.apple.com/en-us/details/200689475-2611/software-development-engineer-core-os?team=SFTWR",
-      "location": "",
-      "country": "Unsure"
-    },
-    {
-      "company": "Apple",
-      "role": "iPhone System HW Validation Engineer",
-      "link": "https://jobs.apple.com/en-us/details/200690080-3715/iphone-system-hw-validation-engineer?team=HRDWR",
-      "location": "",
-      "country": "Unsure"
     },
     {
       "company": "Twitch Interactive, Inc.",
@@ -258,111 +90,6 @@
       "role": "Databricks Data Engineer",
       "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ebene/Databricks-Data-Engineer_R00336962",
       "location": "",
-      "country": "Unsure"
-    },
-    {
-      "company": "Man Group",
-      "role": "Python Data Engineer",
-      "link": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5011118101",
-      "location": "London",
-      "country": "Unsure"
-    },
-    {
-      "company": "Motorolasolutions",
-      "role": "Junior Software QA Engineer",
-      "link": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Brazil-Remote-Work/Junior-Software-QA-Engineer_R69183",
-      "location": "Brazil Remote Work",
-      "country": "Unsure"
-    },
-    {
-      "company": "Msd",
-      "role": "Associate Specialist - Quality Engineering (Veeva Platform)",
-      "link": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Associate-Specialist---Quality-Engineering--Veeva-Platform-_R422028-1",
-      "location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
-      "country": "Unsure"
-    },
-    {
-      "company": "Nxp",
-      "role": "Software Engineer",
-      "link": "https://nxp.wd3.myworkdayjobs.com/careers/job/Guadalajara/Software-Engineer_R-10067400",
-      "location": "Guadalajara",
-      "country": "Unsure"
-    },
-    {
-      "company": "Nxp",
-      "role": "Software Engineer",
-      "link": "https://nxp.wd3.myworkdayjobs.com/careers/job/Guadalajara/Software-Engineer_R-10067398",
-      "location": "Guadalajara",
-      "country": "Unsure"
-    },
-    {
-      "company": "Nxp",
-      "role": "Software Engineer",
-      "link": "https://nxp.wd3.myworkdayjobs.com/careers/job/Guadalajara/Software-Engineer_R-10067399",
-      "location": "Guadalajara",
-      "country": "Unsure"
-    },
-    {
-      "company": "Onehealthineers",
-      "role": "Quality Systems Engineer",
-      "link": "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/AUS-S/Quality-Systems-Engineer_R-31417-1",
-      "location": "AUS S",
-      "country": "Unsure"
-    },
-    {
-      "company": "Oracle",
-      "role": "Cloud Solution Engineer 4",
-      "link": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/337744",
-      "location": "SAO PAULO, SP, Brazil",
-      "country": "Unsure"
-    },
-    {
-      "company": "Renesas electronics",
-      "role": "Cloud DevOps Engineer (AWS, Terraform, K8S, Automation)",
-      "link": "https://jobs.smartrecruiters.com/RenesasElectronics/744000156843569",
-      "location": "Lisbon, Lisbon, Portugal",
-      "country": "Unsure"
-    },
-    {
-      "company": "Renesas electronics",
-      "role": "Cloud DevOps Engineer (AWS, Terraform, K8S, Automation)",
-      "link": "https://jobs.smartrecruiters.com/RenesasElectronics/744000156843260",
-      "location": "Katowice, Silesian Voivodeship, Poland",
-      "country": "Unsure"
-    },
-    {
-      "company": "Renesas electronics",
-      "role": "Cloud DevOps Engineer (AWS, Terraform, K8S, Automation)",
-      "link": "https://jobs.smartrecruiters.com/RenesasElectronics/744000156842949",
-      "location": "Wrocław, Lower Silesian Voivodeship, Poland",
-      "country": "Unsure"
-    },
-    {
-      "company": "Renesas electronics",
-      "role": "Cloud DevOps Engineer (AWS, Terraform, K8S, Automation)",
-      "link": "https://jobs.smartrecruiters.com/RenesasElectronics/744000156842719",
-      "location": "Belgrade, , Serbia",
-      "country": "Unsure"
-    },
-    {
-      "company": "Amazon",
-      "role": " Embedded Software Engineer, Annapurna Labs",
-      "link": "https://amazon.jobs/en/jobs/10586170",
-      "location": "IL, Tel Aviv",
-      "country": "Unsure"
-    },
-    {
-      "company": "Hpe",
-      "role": "Systems Engineer- Linux/ Yocto",
-      "link": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Juan-Puerto-Rico-Puerto-Rico/Systems-Engineer--Linux--Yocto_1212261-1",
-      "location": "San Juan, Puerto Rico, Puerto Rico",
-      "country": "USA"
-    },
-    {
-      "company": "Statestreet",
-      "role": "Corporate Audit Integrated Data Analyst, Officer",
-      "link": "https://statestreet.wd1.myworkdayjobs.com/global/job/Bangalore-India/Corporate-Audit-Integrated-Data-Analyst--Officer_R-786717",
-      "location": "2 Locations",
       "country": "Unsure"
     },
     {

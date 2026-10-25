@@ -17,24 +17,37 @@ export function emptyUpstreamQueue(): UpstreamQueue {
   return { commit: null, jobs: [] };
 }
 
+/**
+ * Countries the public repo still fetches a JD for. Any other country on a
+ * public row will not gain a JD, so a queued job can stop waiting.
+ */
+const PUBLIC_JD_COUNTRIES = new Set<NonNullable<Job["country"]>>(["USA", "Unsure"]);
+
+export function awaitsPublicJd(country: Job["country"]): boolean {
+  return country != null && PUBLIC_JD_COUNTRIES.has(country);
+}
+
 export function matchUpstreamWaits(
   jobs: readonly Job[],
   upstream: ReadonlyMap<string, Job>
-): { ready: Job[]; pending: Job[] } {
+): { ready: Job[]; pending: Job[]; released: Job[] } {
   const ready: Job[] = [];
   const pending: Job[] = [];
+  const released: Job[] = [];
 
   for (const job of jobs) {
     const cached = upstream.get(getJobKey(job.link));
 
     if (cached?.jd) {
       ready.push(job);
+    } else if (cached?.country && !awaitsPublicJd(cached.country)) {
+      released.push(job);
     } else {
       pending.push(job);
     }
   }
 
-  return { ready, pending };
+  return { ready, pending, released };
 }
 
 export async function loadUpstreamQueue(): Promise<UpstreamQueue> {

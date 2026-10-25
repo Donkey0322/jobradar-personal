@@ -12,7 +12,7 @@ import { loadNdjsonPartitions } from "@/utils/ndjson-archive";
 
 /**
  * Countries the public repo drops before JD analysis. This repo analyzes those
- * itself. USA and every other country wait for the public JD.
+ * itself. USA and Unsure wait for the public JD. Any other public country is final.
  */
 const SELF_ANALYZED_COUNTRIES = new Set<NonNullable<Job["country"]>>(["Singapore", "Taiwan"]);
 

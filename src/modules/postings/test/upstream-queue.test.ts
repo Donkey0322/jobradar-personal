@@ -17,13 +17,13 @@ const jd: JD = {
   season: "None",
 };
 
-function job(id: string): Job {
+function job(id: string, country: Job["country"] = "USA"): Job {
   return {
     company: "Acme",
     role: "Junior Software Engineer",
     link: `https://job-boards.greenhouse.io/acme/jobs/${id}`,
     location: "Austin, TX",
-    country: "USA",
+    country,
   };
 }
 
@@ -39,6 +39,23 @@ describe("matchUpstreamWaits", () => {
     expect(matchUpstreamWaits([waiting, ready], upstream)).toEqual({
       ready: [ready],
       pending: [waiting],
+      released: [],
+    });
+  });
+
+  it("releases a queued job when the public country will not get a JD", () => {
+    const india = job("1", "USA");
+    const unsure = job("2", "USA");
+    const missing = job("3");
+    const upstream = new Map<string, Job>([
+      [getJobKey(india.link), { ...india, country: "India" }],
+      [getJobKey(unsure.link), { ...unsure, country: "Unsure" }],
+    ]);
+
+    expect(matchUpstreamWaits([india, unsure, missing], upstream)).toEqual({
+      ready: [],
+      pending: [unsure, missing],
+      released: [india],
     });
   });
 });
