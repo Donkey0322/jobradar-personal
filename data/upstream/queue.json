@@ -1,5 +1,5 @@
 {
-  "commit": "9fe5f427652b2b6944cd2c87c811fe7d0778ee8f",
+  "commit": "88d1fd1d2b940d5a6b5ef7984b480e7476a0c215",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -111,13 +111,6 @@
       "role": "Associate Software Engineer",
       "link": "https://go.vansh.nyc/BI?s=A",
       "location": "Santa Clara, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Anduril Industries",
-      "role": "Early Career Software Engineer, Battlespace Awareness",
-      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5275431007?gh_jid=5275431007",
-      "location": "Broomfield, Colorado, United States; Fort Collins, Colorado, United States",
       "country": "USA"
     },
     {
