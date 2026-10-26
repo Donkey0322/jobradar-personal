@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C184-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C190-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--26-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,184
+- [Entry Level](./job-postings/entry-level.md) — 1,190
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,48 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Mpc</td>
+      <td width="420" align="left" valign="top">Data Analyst</td>
+      <td width="180" align="left" valign="top">Findlay, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://mpc.wd1.myworkdayjobs.com/mpccareers/job/Findlay-Ohio/Data-Analyst_00024833-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 26</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ciena</td>
+      <td width="420" align="left" valign="top">Software Engineer (Security) - New Grad</td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/Software-Engineer--Security----New-Grad_R031979-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 26</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="420" align="left" valign="top">Electronic Systems Engineer - Software</td>
+      <td width="180" align="left" valign="top">Columbus, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2427178"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 26</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aep</td>
+      <td width="420" align="left" valign="top">Data Scientist</td>
+      <td width="180" align="left" valign="top">Tulsa, OK</td>
+      <td width="120" align="left" valign="top"><a href="https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Tulsa-OK/Data-Scientist_R20444"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 26</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Data Engineer I</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10588977"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 26</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aquatic Capital Management</td>
+      <td width="420" align="left" valign="top">Software Engineer, Early Career</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 26</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Ciena</td>
       <td width="420" align="left" valign="top">Software Engineer (Security)</td>
@@ -197,51 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 22</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Autostore</td>
-      <td width="420" align="left" valign="top">Software Engineer</td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Centific</td>
-      <td width="420" align="left" valign="top">C# Backend Development Engineer-5</td>
-      <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Fortinet</td>
-      <td width="420" align="left" valign="top">Jr. Software QA Engineer</td>
-      <td width="180" align="left" valign="top">Union City, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24747"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">ASM</td>
-      <td width="420" align="left" valign="top">Engineer, Software Engineering</td>
-      <td width="180" align="left" valign="top">Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://www.asm.com/open-vacancies/?gh_jid=5000751101"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Sierraspace</td>
-      <td width="420" align="left" valign="top">Systems Engineer I - Velocity Satellite Ground Systems</td>
-      <td width="180" align="left" valign="top">Centennial, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://sierraspace.wd1.myworkdayjobs.com/Sierra_Space_External_Career_Site/job/Centennial-CO/Systems-Engineer-I---Velocity-Satellite-Ground-Systems_R26457-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="./assets/featured-badges/databricks.svg" /></td>
-      <td width="420" align="left" valign="top">Associate Forward Deployed Engineer</td>
-      <td width="180" align="left" valign="top">New York City, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,184.</sub></p>
+<p><sub>Showing 30 of 1,190.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-26T20:04:15.941Z</code>
+      🕒 Last updated <code>2026-10-26T20:37:25.077Z</code>
     </span>
   </p>
 </div>
