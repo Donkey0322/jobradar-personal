@@ -1,5 +1,5 @@
 {
-  "commit": "e290c884f0d40a7902b19739b5ddca06d58915d0",
+  "commit": "fd4ea7edf197d347b93ae8b61707df37138581ee",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -1115,24 +1115,10 @@
       "country": "USA"
     },
     {
-      "company": "Salesforce",
-      "role": "Systems Engineer",
-      "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Texas---Dallas/Systems-Engineer_JR363166",
-      "location": "2 Locations",
-      "country": "Unsure"
-    },
-    {
       "company": "Schwab",
       "role": "AI Site Reliability Engineer, AI.x San Francisco, CA Requisition ID: 2026-127832 Application deadline: 2026-11-03 Save for Later",
       "link": "https://www.schwabjobs.com/job/san-francisco/ai-site-reliability-engineer-ai-x/33727/102473090848",
       "location": "San Francisco, CA",
-      "country": "USA"
-    },
-    {
-      "company": "SMX",
-      "role": "JAVA Software Engineer (5775) (Boulder, CO) (TS/SCI)",
-      "link": "https://www.smxtech.com/careers/?gh_jid=8044711003",
-      "location": "Boulder, CO",
       "country": "USA"
     },
     {
