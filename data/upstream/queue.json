@@ -651,6 +651,48 @@
       "link": "https://wgu.wd5.myworkdayjobs.com/external/job/Salt-Lake-City-UT/IAR-Data-Analyst_JR-026205",
       "location": "Salt Lake City, UT",
       "country": "USA"
+    },
+    {
+      "company": "Broadridge",
+      "role": "Sr Software Engineer-Java",
+      "link": "https://broadridge.wd5.myworkdayjobs.com/careers/job/Pittsburgh-PA/Sr-Software-Engineer-Java_JR1086922",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Dtna",
+      "role": "AI Developer",
+      "link": "https://dtna.wd5.myworkdayjobs.com/dtna_external/job/Portland-OR-US/AI-Developer_DT-20367",
+      "location": "Portland, OR US",
+      "country": "USA"
+    },
+    {
+      "company": "Gdms",
+      "role": "Systems Engineer Multiple Levels (cleared)",
+      "link": "https://careers-gdms.icims.com/jobs/76107/systems-engineer-multiple-levels-%28cleared%29/job",
+      "location": "Unsure",
+      "country": "Unsure"
+    },
+    {
+      "company": "Ngc",
+      "role": "Associate Systems Engineer - Colorado Springs",
+      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Associate-Systems-Engineer---Colorado-Springs_R10257921",
+      "location": "United States-Colorado-Colorado Springs",
+      "country": "USA"
+    },
+    {
+      "company": "Visa",
+      "role": "Cybersecurity Engineer - AI Agent - Local Candidate",
+      "link": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Cybersecurity-Engineer---Product-Development_REF088499W",
+      "location": "US - Austin, TX",
+      "country": "USA"
+    },
+    {
+      "company": "SpaceXSI",
+      "role": "Software Engineer, RL Inference",
+      "link": "https://job-boards.greenhouse.io/xai/jobs/5180223007",
+      "location": " Palo Alto, CA",
+      "country": "USA"
     }
   ]
 }
