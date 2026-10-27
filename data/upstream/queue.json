@@ -1,5 +1,5 @@
 {
-  "commit": "9d3c56bdf1665f50ee642a8da73e94f2407e125f",
+  "commit": "c2f983ceda45ac2bfde8994129b561391c62c746",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -126,20 +126,6 @@
       "link": "https://careers.itw.com/us/en/job/JR10828?ph_id=JR10828",
       "location": "Troy, Ohio, United States of America",
       "country": "USA"
-    },
-    {
-      "company": "Google",
-      "role": "Business Data Scientist, Google Customer Solutions",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/109568172276753094-business-data-scientist-google-customer-solutions?sort_by=date&page=1",
-      "location": "Mountain View, CA, USA; New York, NY, USA; +2 more; +1 more",
-      "country": "USA"
-    },
-    {
-      "company": "Rockwellautomation",
-      "role": "Power Platform Developer",
-      "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Pune-India/Power-Platform-Developer_R26-7843",
-      "location": "2 Locations",
-      "country": "Unsure"
     }
   ]
 }
