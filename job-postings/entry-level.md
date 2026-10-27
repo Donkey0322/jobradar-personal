@@ -2115,7 +2115,7 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,200.</sub></p>
+<p><sub>Showing 300 of 1,199.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-27T19:23:39.289Z</code>
+      🕒 Last updated <code>2026-10-27T20:09:14.004Z</code>
     </span>
   </p>
 </div>
