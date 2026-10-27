@@ -126,6 +126,272 @@
       "link": "https://careers.itw.com/us/en/job/JR10828?ph_id=JR10828",
       "location": "Troy, Ohio, United States of America",
       "country": "USA"
+    },
+    {
+      "company": "Aep",
+      "role": "Functional System Analyst",
+      "link": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Victoria-TX/Functional-System-Analyst_R20521",
+      "location": "Victoria, TX",
+      "country": "USA"
+    },
+    {
+      "company": "Aero",
+      "role": "Classified Technical and Cloud Computing Engineer",
+      "link": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/Classified-Technical-and-Cloud-Computing-Engineer_R017033",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Aero",
+      "role": "Enterprise Systems Engineer",
+      "link": "https://aero.wd5.myworkdayjobs.com/external/job/Huntsville-AL/Enterprise-Systems-Engineer_R016995",
+      "location": "Huntsville, AL",
+      "country": "USA"
+    },
+    {
+      "company": "Aero",
+      "role": "Space Systems Engineer",
+      "link": "https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/Space-Systems-Engineer_R017026",
+      "location": "Chantilly, VA",
+      "country": "USA"
+    },
+    {
+      "company": "Amazon",
+      "role": "System Development Engineer, Lambda/Serverless",
+      "link": "https://amazon.jobs/en/jobs/10589807",
+      "location": "US, WA, Seattle",
+      "country": "USA"
+    },
+    {
+      "company": "Amazon",
+      "role": "Salesforce Developer, Amazon Web Services (AWS) ",
+      "link": "https://amazon.jobs/en/jobs/10556206",
+      "location": "US, WA, Seattle",
+      "country": "USA"
+    },
+    {
+      "company": "Amazon",
+      "role": "Data Center Controls Engineer, Data Center Capacity Delivery - Controls ",
+      "link": "https://amazon.jobs/en/jobs/10440388",
+      "location": "US, MD, Frederick",
+      "country": "USA"
+    },
+    {
+      "company": "Amazon",
+      "role": "Systems Engineer, Controls Fleet, DC Capacity Delivery",
+      "link": "https://amazon.jobs/en/jobs/10589762",
+      "location": "US, VA, Herndon",
+      "country": "USA"
+    },
+    {
+      "company": "Bah",
+      "role": "Digital Signal Processing Software Engineer",
+      "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Digital-Signal-Processing-Software-Engineer_R0252372",
+      "location": "McLean, VA",
+      "country": "USA"
+    },
+    {
+      "company": "Bah",
+      "role": "Data Scientist, Mid",
+      "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Jacksonville-NC/Data-Scientist--Mid_R0252367",
+      "location": "Jacksonville, NC",
+      "country": "USA"
+    },
+    {
+      "company": "Bah",
+      "role": "Data Scientist, Mid",
+      "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Jacksonville-NC/Data-Scientist--Mid_R0252366",
+      "location": "Jacksonville, NC",
+      "country": "USA"
+    },
+    {
+      "company": "Base-power",
+      "role": "Embedded Software Engineer",
+      "link": "https://jobs.ashbyhq.com/base-power/85775865-f676-47b5-85e4-a7b4237f837c",
+      "location": "Austin, TX",
+      "country": "USA"
+    },
+    {
+      "company": "Capitalone",
+      "role": "Full-stack Engineer 4",
+      "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1004498-1",
+      "location": "3 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Capitalone",
+      "role": "102505620464 10/27/2026 Full-stack Engineer 4 McLean, VA",
+      "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/102505620464",
+      "location": "McLean, VA",
+      "country": "USA"
+    },
+    {
+      "company": "ICF",
+      "role": "Data Scientist",
+      "link": "https://careers.icf.com/us/en/job/R2603671?ph_id=R2603671",
+      "location": "Sacramento, California, United States of America",
+      "country": "USA"
+    },
+    {
+      "company": "The MITRE Corporation",
+      "role": "Associate Systems Engineer",
+      "link": "https://careers.mitre.org/us/en/job/R117898?ph_id=R117898",
+      "location": "Huntsville, Alabama, United States of America",
+      "country": "USA"
+    },
+    {
+      "company": "Chathamfinancial",
+      "role": "Data Engineer",
+      "link": "https://chathamfinancial.wd501.myworkdayjobs.com/chathamfinancial/job/Kennett-Square/Data-Engineer_R-100347",
+      "location": "Kennett Square",
+      "country": "Unsure"
+    },
+    {
+      "company": "Gdms",
+      "role": "Sr Advanced Systems Engineer",
+      "link": "https://careers-gdms.icims.com/jobs/75655/sr-advanced-systems-engineer/job",
+      "location": "Unsure",
+      "country": "Unsure"
+    },
+    {
+      "company": "Geaerospace",
+      "role": "Engineer - Propulsion and Power Systems",
+      "link": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Niskayuna/Engineer---Propulsion-and-Power-Systems_R5042346-1",
+      "location": "Niskayuna",
+      "country": "Unsure"
+    },
+    {
+      "company": "Google",
+      "role": "Software Engineer, Expert Intelligence, Search",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/85959939641483974-software-engineer-expert-intelligence-search?sort_by=date&page=1",
+      "location": "Mountain View, CA, USA",
+      "country": "USA"
+    },
+    {
+      "company": "Google",
+      "role": "Field Application Engineer, Cloud AI Infrastructure",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/73286762461307590-field-application-engineer-cloud-ai-infrastructure?sort_by=date&page=1",
+      "location": "Kirkland, WA, USA",
+      "country": "USA"
+    },
+    {
+      "company": "Google",
+      "role": "Hardware/Software Codesign and Performance Engineer, Inference",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/81182500683948742-hardwaresoftware-codesign-and-performance-engineer-inference?sort_by=date&page=1",
+      "location": "Sunnyvale, CA, USA",
+      "country": "USA"
+    },
+    {
+      "company": "Highmarkhealth",
+      "role": "Epic Systems Analyst - Ambulatory",
+      "link": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Epic-Systems-Analyst---Ambulatory_J290166",
+      "location": "51 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Jda",
+      "role": "Sr Support Engineer - Data Scientist, Machine Learning, Python, NLP, SQL",
+      "link": "https://jda.wd5.myworkdayjobs.com/jda_careers/job/IND---Coimbatore-708/Sr-Support-Engineer---Data-Scientist--Machine-Learning--Python--NLP--SQL_263181",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "BAE Systems",
+      "role": "Software Engineer - Systems Integration",
+      "link": "https://jobs.baesystems.com/global/en/job/131999BR?ph_id=131999BR",
+      "location": "Nashua, New Hampshire, United States",
+      "country": "USA"
+    },
+    {
+      "company": "Manulife",
+      "role": "Full-Stack Software Engineer - React",
+      "link": "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Full-Stack-Software-Engineer---React_JR26091836",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Ngc",
+      "role": "2027 Associate Systems Safety Engineer - Huntsville AL",
+      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Associate-Systems-Safety-Engineer---Huntsville-AL_R10257791",
+      "location": "United States-Alabama-Huntsville",
+      "country": "USA"
+    },
+    {
+      "company": "Ngc",
+      "role": "2027 Associate Software Engineer / Software Engineer - Colorado Springs CO",
+      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Associate-Software-Engineer---Software-Engineer---Colorado-Springs-CO_R10257768",
+      "location": "United States-Colorado-Colorado Springs",
+      "country": "USA"
+    },
+    {
+      "company": "Onehealthineers",
+      "role": "Systems Verification Engineer",
+      "link": "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/DWL-T/Systems-Verification-Engineer_R-31378-2",
+      "location": "DWL T",
+      "country": "Unsure"
+    },
+    {
+      "company": "Peraton",
+      "role": "Systems Engineer",
+      "link": "https://careers-peraton.icims.com/jobs/172824/systems-engineer/job",
+      "location": "Unsure",
+      "country": "Unsure"
+    },
+    {
+      "company": "Peraton",
+      "role": "Process Optimization Systems Engineer",
+      "link": "https://careers-peraton.icims.com/jobs/172757/process-optimization-systems-engineer/job",
+      "location": "Unsure",
+      "country": "Unsure"
+    },
+    {
+      "company": "Rtx",
+      "role": "Data Engineer",
+      "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-DC-REMOTE/Data-Engineer_01884748",
+      "location": "US-DC-REMOTE",
+      "country": "USA"
+    },
+    {
+      "company": "SAIC",
+      "role": "Tactical Data Link Analyst",
+      "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618247",
+      "location": "Little Rock, AR, United States",
+      "country": "USA"
+    },
+    {
+      "company": "Sas",
+      "role": "Sr Software Developer",
+      "link": "https://careers-sas.icims.com/jobs/42659/sr-software-developer/job",
+      "location": "Unsure",
+      "country": "Unsure"
+    },
+    {
+      "company": "Sas",
+      "role": "Sr Software Development Engineer in Test (SDET)",
+      "link": "https://careers-sas.icims.com/jobs/42586/sr-software-development-engineer-in-test-%28sdet%29/job",
+      "location": "Unsure",
+      "country": "Unsure"
+    },
+    {
+      "company": "Sas",
+      "role": "Sr Associate Data Scientist",
+      "link": "https://careers-sas.icims.com/jobs/43025/sr-associate-data-scientist/job",
+      "location": "Unsure",
+      "country": "Unsure"
+    },
+    {
+      "company": "Westernunion",
+      "role": "Software Engineer, AI & Cloud Applications",
+      "link": "https://westernunion.wd5.myworkdayjobs.com/westernunionjobs/job/USA-TX---Austin---11902-Burnet-Rd/Software-Engineer--AI---Cloud-Applications_JR0131525",
+      "location": "USA TX - Austin - 11902 Burnet Rd",
+      "country": "USA"
+    },
+    {
+      "company": "Zebra",
+      "role": "Firmware/Software Engineer, Advanced",
+      "link": "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Lincolnshire-Illinois/Firmware-Software-Engineer--Advanced_JR103696",
+      "location": "Lincolnshire, Illinois",
+      "country": "USA"
     }
   ]
 }
