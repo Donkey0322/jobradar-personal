@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "name": "batches/n5cqak8k0hwaxo89k1bklc85wc5owrk61kji",
+    "submittedAt": "2026-10-27T05:02:20.836Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, Ring AI",
+        "link": "https://amazon.jobs/en/jobs/10589556",
+        "location": "TW, TPE, Taipei",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Hp",
+        "role": "Large Format Writing System Engineer (NPDI)",
+        "link": "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Singapore-South-West-Singapore/Large-Format-Writing-System-Engineer--NPDI-_3169438",
+        "location": "Singapore, South West, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Micron",
+        "role": "Engineer - Process Control System",
+        "link": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Engineer---Process-Control-System_JR116083",
+        "location": "Fab 10A, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Solution Engineer - AI Workforce Solution",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557045639?domain=microsoft.com&8fold_id=1970393557045639",
+        "location": "Singapore, Singapore, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "OKX",
+        "role": "Software Engineer, Mobile (Android)",
+        "link": "https://job-boards.greenhouse.io/okx/jobs/8045415003",
+        "location": "Singapore, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "TikTok",
+        "role": "Full Stack Engineer - Global E-Commerce Governance Business",
+        "link": "https://lifeattiktok.com/search/7698600454915950853",
+        "location": "Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
