@@ -1,5 +1,5 @@
 {
-  "commit": "5eac8fa76f9baa9e50a11b00c4cb65910ff45c5e",
+  "commit": "9d3c56bdf1665f50ee642a8da73e94f2407e125f",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -133,13 +133,6 @@
       "link": "https://www.google.com/about/careers/applications/jobs/results/109568172276753094-business-data-scientist-google-customer-solutions?sort_by=date&page=1",
       "location": "Mountain View, CA, USA; New York, NY, USA; +2 more; +1 more",
       "country": "USA"
-    },
-    {
-      "company": "Cardinalhealth",
-      "role": "Analyst, Application Dev & Maintenace Full Stack Java",
-      "link": "https://cardinalhealth.wd1.myworkdayjobs.com/ext/job/IND07/Analyst--Application-Dev---Maintenace-Full-Stack-Java_20189406",
-      "location": "IND07",
-      "country": "Unsure"
     },
     {
       "company": "Rockwellautomation",
