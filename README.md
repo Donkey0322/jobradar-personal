@@ -1,16 +1,16 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C191-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C192-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--10--26-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--10--27-orange" />
 </p>
 
 ## Browse jobs by category
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,191
+- [Entry Level](./job-postings/entry-level.md) — 1,192
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,13 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Reply</td>
+      <td width="420" align="left" valign="top">Edge AI/Computer Vision Engineer</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/reply/790c1fc7-d76c-4603-b879-922e61fc7a90"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 26</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">American Electric Power</td>
       <td width="420" align="left" valign="top">Data Scientist</td>
@@ -232,16 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://itron.wd5.myworkdayjobs.com/early_careers/job/United-States-of-America-Washington-Liberty-Lake/Software-Quality-Assurance-Engineer_JR102923"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 22</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Thermofisher</td>
-      <td width="420" align="left" valign="top">Data Engineer</td>
-      <td width="180" align="left" valign="top">Pittsburgh, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Pittsburgh-Pennsylvania-USA/Data-Engineer_R-01372756"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,191.</sub></p>
+<p><sub>Showing 30 of 1,192.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-26T23:56:07.699Z</code>
+      🕒 Last updated <code>2026-10-27T00:34:37.595Z</code>
     </span>
   </p>
 </div>

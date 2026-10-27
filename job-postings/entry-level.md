@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Reply</td>
+      <td width="420" align="left" valign="top">Edge AI/Computer Vision Engineer</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/reply/790c1fc7-d76c-4603-b879-922e61fc7a90"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 26</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">American Electric Power</td>
       <td width="420" align="left" valign="top">Data Scientist</td>
       <td width="180" align="left" valign="top">Tulsa, OK</td>
@@ -2106,16 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/affirm/jobs/8010617003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Whoop</td>
-      <td width="420" align="left" valign="top">Software Engineer 1 - Backend</td>
-      <td width="180" align="left" valign="top">Boston, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/whoop/0623a9e9-d7bb-4ee5-8100-51c68df81133/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,191.</sub></p>
+<p><sub>Showing 300 of 1,192.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-26T23:56:07.699Z</code>
+      🕒 Last updated <code>2026-10-27T00:34:37.595Z</code>
     </span>
   </p>
 </div>
