@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="../assets/featured-badges/databricks.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer - New Grad, Distributed Data Systems (2027 Start)</td>
+      <td width="180" align="left" valign="top">Bellevue, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
+      <td width="420" align="left" valign="top">Business Data Analyst Graduate (Account, Search, And Interaction Safety) - 2027 Start</td>
+      <td width="180" align="left" valign="top">Singapore</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7699008371693816069"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 27</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Rilla</td>
       <td width="420" align="left" valign="top">New Grad: Software Engineer</td>
       <td width="180" align="left" valign="top">Brooklyn, New York</td>
@@ -2099,23 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://careers-daddario.icims.com/jobs/2680/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Everpure</td>
-      <td width="420" align="left" valign="top">Software Engineer Grad 2027</td>
-      <td width="180" align="left" valign="top">Santa Clara, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/purestorage/jobs/8249851"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rubrik Job Board</td>
-      <td width="420" align="left" valign="top">Software Engineer - Product Platform Security</td>
-      <td width="180" align="left" valign="top">Palo Alto, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.rubrik.com/company/careers/departments/job.8243737?gh_jid=8243737"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,199.</sub></p>
+<p><sub>Showing 300 of 1,201.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-27T20:09:14.004Z</code>
+      🕒 Last updated <code>2026-10-27T20:55:24.755Z</code>
     </span>
   </p>
 </div>

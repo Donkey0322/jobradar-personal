@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C199-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C201-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--27-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,199
+- [Entry Level](./job-postings/entry-level.md) — 1,201
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,20 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="./assets/featured-badges/databricks.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer - New Grad, Distributed Data Systems (2027 Start)</td>
+      <td width="180" align="left" valign="top">Bellevue, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
+      <td width="420" align="left" valign="top">Business Data Analyst Graduate (Account, Search, And Interaction Safety) - 2027 Start</td>
+      <td width="180" align="left" valign="top">Singapore</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7699008371693816069"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 27</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Rilla</td>
       <td width="420" align="left" valign="top">New Grad: Software Engineer</td>
@@ -225,23 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://draftkings.wd1.myworkdayjobs.com/campus_career_portal/job/Boston-MA/Data-Science-Engineer--December-2026-and-May-2027-Grads-_JR14959"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="./assets/featured-badges/databricks.svg" /></td>
-      <td width="420" align="left" valign="top">Associate Forward Deployed Engineer</td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 23</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Applied Materials</td>
-      <td width="420" align="left" valign="top">New Grad 2027: Software Engineer</td>
-      <td width="180" align="left" valign="top">Gloucester, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://amat.wd1.myworkdayjobs.com/en-US/external/job/GloucesterMA/XMLNAME-2027-Software-Engineer-New-College-Grad--Bachelor-s----Gloucester--MA_R2625914"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 23</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,199.</sub></p>
+<p><sub>Showing 30 of 1,201.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-27T20:09:14.004Z</code>
+      🕒 Last updated <code>2026-10-27T20:55:24.755Z</code>
     </span>
   </p>
 </div>
