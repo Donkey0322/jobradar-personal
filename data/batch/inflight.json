@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "batches/0taz3th71b9psqzlz53muxo6orvpumzogo3w",
+    "submittedAt": "2026-10-27T11:03:14.137Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Jabil",
+        "role": "Quality Systems Engineer",
+        "link": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Taichung/_J2464656",
+        "location": "Taichung",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, Ring AI (Edge AI), RBKS AI",
+        "link": "https://amazon.jobs/en/jobs/10501919",
+        "location": "TW, TPE, Taipei",
+        "country": "Taiwan"
+      },
+      {
+        "company": "ByteDance",
+        "role": "Software Engineer (Payment Network) - Global Payment - Singapore Open - Global Payment",
+        "link": "https://joinbytedance.com/search/7699050394758613253",
+        "location": "Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
