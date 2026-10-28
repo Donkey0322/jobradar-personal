@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C208-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C207-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--28-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,208
+- [Entry Level](./job-postings/entry-level.md) — 1,207
 
 ## The List 🚴‍♂️
 
@@ -241,7 +241,7 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,208.</sub></p>
+<p><sub>Showing 30 of 1,207.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-28T19:23:41.210Z</code>
+      🕒 Last updated <code>2026-10-28T20:43:32.685Z</code>
     </span>
   </p>
 </div>
