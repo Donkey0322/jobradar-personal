@@ -147,6 +147,83 @@
       "link": "https://www.google.com/about/careers/applications/jobs/results/106254587828019910-security-engineer-ai-protection?sort_by=date&page=1",
       "location": "Seattle, WA, USA",
       "country": "USA"
+    },
+    {
+      "company": "Accenture",
+      "role": "AI SDLC Forward Deployed Engineer - Consultant",
+      "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Management-Consultant---Comms--Media--Technology_R00354604",
+      "location": "",
+      "country": "Unsure"
+    },
+    {
+      "company": "Apple",
+      "role": "iOS Software Engineer",
+      "link": "https://jobs.apple.com/en-us/details/200692106-0836/ios-software-engineer?team=SFTWR",
+      "location": "Cupertino",
+      "country": "USA"
+    },
+    {
+      "company": "ByteDance",
+      "role": "Software Engineer, Payment Risk - Global Payment - Global Payment",
+      "link": "https://joinbytedance.com/search/7694175737054923061",
+      "location": "San Jose",
+      "country": "USA"
+    },
+    {
+      "company": "Cat",
+      "role": "Software Engineer - Data Engineering",
+      "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Bangalore-Karnataka/Software-Engineer---Data-Engineering_R0000402291",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Cat",
+      "role": " Embedded Cybersecurity Engineer（Platform Security）",
+      "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/XMLNAME--Embedded-Cybersecurity-Engineer-Platform-Security-_R0000387402",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Netflix",
+      "role": "Software Engineer 6 - Ads Signals & Targeting",
+      "link": "https://explore.jobs.netflix.net/careers/job/790313577447",
+      "location": "New York,New York,United States of America",
+      "country": "USA"
+    },
+    {
+      "company": "Ngc",
+      "role": "2027 Associate Software Engineer / Software Engineer - Huntsville AL",
+      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Associate-Software-Engineer---Software-Engineer---Huntsville-AL_R10257986",
+      "location": "United States-Alabama-Huntsville",
+      "country": "USA"
+    },
+    {
+      "company": "Psu",
+      "role": "Data Engineer",
+      "link": "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Data-Engineer_REQ_0000083430-2",
+      "location": "Penn State University Park",
+      "country": "USA"
+    },
+    {
+      "company": "Statestreet",
+      "role": "Junior Software Engineer - SA",
+      "link": "https://statestreet.wd1.myworkdayjobs.com/global/job/Gdansk-Poland/Junior-Software-Engineer---SA_R-799312-1",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Uline",
+      "role": "Business Systems Analyst",
+      "link": "https://uline.wd1.myworkdayjobs.com/uline_careers/job/Pleasant-Prairie-WI/Business-Systems-Analyst_R268702-1",
+      "location": "5 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Usaa",
+      "role": "Software Engineer - Entry Level",
+      "link": "https://usaa.wd1.myworkdayjobs.com/USAAJOBSWD/job/San-Antonio-Home-Office-I/Software-Engineer---Entry-Level_R0121057-1",
+      "location": "2 Locations",
+      "country": "Unsure"
     }
   ]
 }
