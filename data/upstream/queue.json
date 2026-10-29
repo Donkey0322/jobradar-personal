@@ -1,5 +1,5 @@
 {
-  "commit": "7a8d7aabfdd4f400e5d6bde7730ad867743fe974",
+  "commit": "ddb4860ee25f8d8f9522033c32200251e85c2816",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -167,13 +167,6 @@
       "role": "HPC Systems Engineer",
       "link": "https://boards.greenhouse.io/andurilindustries/jobs/5278381007?gh_jid=5278381007",
       "location": "Costa Mesa, California, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Neon",
-      "role": "New Grad 2027: Software Engineer, Distributed Data Systems",
-      "link": "https://go.vansh.nyc/YI?s=A",
-      "location": "Mountain View, CA</br>Bellevue, WA",
       "country": "USA"
     },
     {
