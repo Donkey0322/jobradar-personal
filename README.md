@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C204-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C211-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--29-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,204
+- [Entry Level](./job-postings/entry-level.md) — 1,211
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,55 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Wustl</td>
+      <td width="420" align="left" valign="top">Statistical Data Analyst (Hybrid) - Infectious Diseases</td>
+      <td width="180" align="left" valign="top">Saint Louis, MO</td>
+      <td width="120" align="left" valign="top"><a href="https://wustl.wd1.myworkdayjobs.com/external/job/Washington-University-Medical-Campus/Statistical-Data-Analyst--Hybrid----Infectious-Diseases_JR98343"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Axon</td>
+      <td width="420" align="left" valign="top">Unity Software Engineer I - Internal Tools</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/axon/jobs/8040053003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cisco</td>
+      <td width="420" align="left" valign="top">Software QA Engineer I (Full Time) - United States</td>
+      <td width="180" align="left" valign="top">Richardson, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2030253?ph_id=2030253"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">CLEAR - Corporate</td>
+      <td width="420" align="left" valign="top">Forward Deployed AI Engineer I</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/clear/jobs/8259786"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Coherent Corp. US</td>
+      <td width="420" align="left" valign="top">Data Analyst - Project Management Support</td>
+      <td width="180" align="left" valign="top">Budd Lake, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2015589"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Draftkings</td>
+      <td width="420" align="left" valign="top">Software Engineer (December 2026 Grads)</td>
+      <td width="180" align="left" valign="top">Boston, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://draftkings.wd1.myworkdayjobs.com/campus_career_portal/job/Boston-MA/Software-Engineer--December-2026-Grads-_JR15389"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Software Development Engineer</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10592066"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">SOSi</td>
       <td width="420" align="left" valign="top">Entry-Level PeopleSoft Software Developer 🇺🇸</td>
@@ -190,58 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://thales.wd3.myworkdayjobs.com/careers/job/Singapore/Junior-Software-Engineer-AIR-Lab-_R0346374"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">SambaNova</td>
-      <td width="420" align="left" valign="top">Cloud Platform Engineer - New Grad</td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://sambanova.ai/sambanova-available-positions/?gh_jid=6224940004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="./assets/featured-badges/databricks.svg" /></td>
-      <td width="420" align="left" valign="top">New Grad 2027: Software Engineer, Distributed Data Systems</td>
-      <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/WB?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">AT&amp;T</td>
-      <td width="420" align="left" valign="top">AI-Native Software Engineer Analyst - Full-Stack Python</td>
-      <td width="180" align="left" valign="top">Dallas, TX</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="./assets/featured-badges/databricks.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer - New Grad, Distributed Data Systems (2027 Start)</td>
-      <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
-      <td width="420" align="left" valign="top">Business Data Analyst Graduate (Account, Search, And Interaction Safety) - 2027 Start</td>
-      <td width="180" align="left" valign="top">Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7699008371693816069"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Generalmotors</td>
-      <td width="420" align="left" valign="top">Software Verification Engineer, AV Platform (Early Career)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Milford, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Milford-Michigan-United-States-of-America/Software-Verification-Engineer--AV-Platform--Early-Career-_JR-202611592"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="./assets/featured-badges/databricks.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer - New Grad (2027 Start)</td>
-      <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=6865698002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,204.</sub></p>
+<p><sub>Showing 30 of 1,211.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-29T21:13:16.614Z</code>
+      🕒 Last updated <code>2026-10-29T21:16:46.077Z</code>
     </span>
   </p>
 </div>

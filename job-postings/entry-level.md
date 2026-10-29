@@ -14,6 +14,55 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Wustl</td>
+      <td width="420" align="left" valign="top">Statistical Data Analyst (Hybrid) - Infectious Diseases</td>
+      <td width="180" align="left" valign="top">Saint Louis, MO</td>
+      <td width="120" align="left" valign="top"><a href="https://wustl.wd1.myworkdayjobs.com/external/job/Washington-University-Medical-Campus/Statistical-Data-Analyst--Hybrid----Infectious-Diseases_JR98343"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Axon</td>
+      <td width="420" align="left" valign="top">Unity Software Engineer I - Internal Tools</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/axon/jobs/8040053003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cisco</td>
+      <td width="420" align="left" valign="top">Software QA Engineer I (Full Time) - United States</td>
+      <td width="180" align="left" valign="top">Richardson, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2030253?ph_id=2030253"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">CLEAR - Corporate</td>
+      <td width="420" align="left" valign="top">Forward Deployed AI Engineer I</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/clear/jobs/8259786"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Coherent Corp. US</td>
+      <td width="420" align="left" valign="top">Data Analyst - Project Management Support</td>
+      <td width="180" align="left" valign="top">Budd Lake, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2015589"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Draftkings</td>
+      <td width="420" align="left" valign="top">Software Engineer (December 2026 Grads)</td>
+      <td width="180" align="left" valign="top">Boston, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://draftkings.wd1.myworkdayjobs.com/campus_career_portal/job/Boston-MA/Software-Engineer--December-2026-Grads-_JR15389"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Software Development Engineer</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10592066"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">SOSi</td>
       <td width="420" align="left" valign="top">Entry-Level PeopleSoft Software Developer 🇺🇸</td>
       <td width="180" align="left" valign="top">Charleston, SC</td>
@@ -2064,58 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7671160649137588485"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Twitch</td>
-      <td width="420" align="left" valign="top">Software Engineer I</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/twitch/jobs/8879673002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Micron</td>
-      <td width="420" align="left" valign="top">AI Engineer</td>
-      <td width="180" align="left" valign="top">Boise, ID</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Stifel</td>
-      <td width="420" align="left" valign="top">IT Analyst-ITSM Platform Support</td>
-      <td width="180" align="left" valign="top">Saint Louis, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-stifel.icims.com/jobs/10036/it-analyst-itsm-platform-support/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bmo</td>
-      <td width="420" align="left" valign="top">Software Developer ( Early Career )-15</td>
-      <td width="180" align="left" valign="top">Irving, TX</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bot Auto</td>
-      <td width="420" align="left" valign="top">Software Engineer, Core Platforms</td>
-      <td width="180" align="left" valign="top">Houston, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/botauto/jobs/5448119008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Brain Corp</td>
-      <td width="420" align="left" valign="top">Software Engineer I, Firmware</td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.braincorp.com/open-positions?gh_jid=8879726002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cadence</td>
-      <td width="420" align="left" valign="top">CST Application Engineer - Physical Systems</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LIVONIA-01/CST-Application-Engineer---Physical-Systems_R56675-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,204.</sub></p>
+<p><sub>Showing 300 of 1,211.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-29T21:13:16.614Z</code>
+      🕒 Last updated <code>2026-10-29T21:16:46.077Z</code>
     </span>
   </p>
 </div>
