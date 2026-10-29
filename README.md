@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C221-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C197-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--29-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,221
+- [Entry Level](./job-postings/entry-level.md) — 1,197
 
 ## The List 🚴‍♂️
 
@@ -159,7 +159,7 @@ Each category page shows up to 300 of the latest roles.
       <td width="180" align="left" valign="top">AT&amp;T</td>
       <td width="420" align="left" valign="top">AI-Native Software Engineer Analyst - Full-Stack Python</td>
       <td width="180" align="left" valign="top">Dallas, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/WI?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 27</td>
     </tr>
     <tr>
@@ -241,7 +241,7 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,221.</sub></p>
+<p><sub>Showing 30 of 1,197.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-29T03:54:50.483Z</code>
+      🕒 Last updated <code>2026-10-29T05:50:57.399Z</code>
     </span>
   </p>
 </div>
