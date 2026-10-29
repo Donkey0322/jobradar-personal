@@ -175,6 +175,48 @@
       "link": "https://go.vansh.nyc/YI?s=A",
       "location": "Mountain View, CA</br>Bellevue, WA",
       "country": "USA"
+    },
+    {
+      "company": "Asml",
+      "role": "AI Engineer",
+      "link": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/AI-Engineer_J-00355214-1",
+      "location": "San Diego, CA, USA",
+      "country": "USA"
+    },
+    {
+      "company": "Nationwide",
+      "role": "Specialist, Software Engineer - Salesforce",
+      "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Specialist--Software-Engineer---Salesforce_100962",
+      "location": "",
+      "country": "Unsure"
+    },
+    {
+      "company": "Salesforce",
+      "role": "Software Engineering AMTS",
+      "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-AMTS_JR307116",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Salesforce",
+      "role": "Software Engineering SMTS",
+      "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-SMTS_JR365940",
+      "location": "California - San Francisco",
+      "country": "USA"
+    },
+    {
+      "company": "Tmobile",
+      "role": "Sr AI Engineer",
+      "link": "https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Sr-AI-Engineer_REQ379874",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "SpaceXSI",
+      "role": "Software Engineer, Post-Training & RL",
+      "link": "https://job-boards.greenhouse.io/xai/jobs/5114737007",
+      "location": " Palo Alto, CA",
+      "country": "USA"
     }
   ]
 }
