@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C211-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C216-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--29-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,211
+- [Entry Level](./job-postings/entry-level.md) — 1,216
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,41 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Wash U</td>
+      <td width="420" align="left" valign="top">Statistical Data Analyst, Infectious Diseases</td>
+      <td width="180" align="left" valign="top">Saint Louis, MO</td>
+      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/ZO?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Morningstar</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer, Central Tech AI</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/10c?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer, Central Tech AI</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/10f?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hitachi</td>
+      <td width="420" align="left" valign="top">Data Analyst</td>
+      <td width="180" align="left" valign="top">Norman, OK</td>
+      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/ZN?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">DraftKings</td>
+      <td width="420" align="left" valign="top">Software Engineer</td>
+      <td width="180" align="left" valign="top">Boston, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/10e?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Wustl</td>
       <td width="420" align="left" valign="top">Statistical Data Analyst (Hybrid) - Infectious Diseases</td>
@@ -204,44 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://mmc.wd1.myworkdayjobs.com/MMC/job/Louisville---West-Market/Data-Analyst_R_366564-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Shield AI</td>
-      <td width="420" align="left" valign="top">New Grad: Engineer I, Software Test and Automation</td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/XO?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Glean</td>
-      <td width="420" align="left" valign="top">Software Engineer</td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/XJ?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">StarTree</td>
-      <td width="420" align="left" valign="top">Software Engineer 1</td>
-      <td width="180" align="left" valign="top">Remote in USA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/startree/jobs/6235909004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Borgwarner</td>
-      <td width="420" align="left" valign="top">Controls Engineer - Battery Energy Systems (Seneca, SC)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Seneca, SC</td>
-      <td width="120" align="left" valign="top"><a href="https://borgwarner.wd5.myworkdayjobs.com/borgwarner_careers/job/Seneca---South-Carolina---USA/Controls-Engineer---Battery-Energy-Systems--Seneca--SC-_R2026-3917"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Thales</td>
-      <td width="420" align="left" valign="top">Junior Software Engineer(AIR Lab)</td>
-      <td width="180" align="left" valign="top">Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://thales.wd3.myworkdayjobs.com/careers/job/Singapore/Junior-Software-Engineer-AIR-Lab-_R0346374"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,211.</sub></p>
+<p><sub>Showing 30 of 1,216.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-29T22:08:23.543Z</code>
+      🕒 Last updated <code>2026-10-29T23:37:23.585Z</code>
     </span>
   </p>
 </div>
