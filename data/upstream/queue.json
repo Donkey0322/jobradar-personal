@@ -1,5 +1,5 @@
 {
-  "commit": "e67971c74a272f73d8717d8545b08e244ccbdeeb",
+  "commit": "12bc7c8e8b19f735225b0a15b99967315441f6d5",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -464,13 +464,6 @@
       "country": "USA"
     },
     {
-      "company": "Caci",
-      "role": "Cloud DevSecOps Engineer - SOCEUR",
-      "link": "https://searchcareers.caci.com/careers/job/1443152602181?domain=caci.com&8fold_id=1443152602181",
-      "location": "Remote (Any State)",
-      "country": "USA"
-    },
-    {
       "company": "Capitalone",
       "role": "Full-stack Engineer 4",
       "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Full-stack-Engineer-4_R1003297-2",
@@ -553,13 +546,6 @@
       "link": "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Work-from-home/Software-Engineer--NET-Python-_R1084915",
       "location": "RI - Work from home",
       "country": "USA"
-    },
-    {
-      "company": "D2L",
-      "role": "Software Test Developer",
-      "link": "https://www.d2l.com/careers/jobs/?job_id=1273753&gh_jid=1273753",
-      "location": "Kitchener",
-      "country": "Unsure"
     },
     {
       "company": "Dfwairport",
@@ -889,13 +875,6 @@
       "link": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Minneapolis-MN/Data-Analyst_2026-0033891",
       "location": "3 Locations",
       "country": "Unsure"
-    },
-    {
-      "company": "Voleon",
-      "role": "Software Engineer, Platform Team",
-      "link": "https://jobs.ashbyhq.com/voleon/5bd49d48-7a84-478f-82de-6d302c705613",
-      "location": "Remote, United States",
-      "country": "USA"
     },
     {
       "company": "Wf",
