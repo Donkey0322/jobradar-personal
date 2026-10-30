@@ -35,6 +35,20 @@
       <td width="120" align="left" valign="top">Oct 30</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Entegris</td>
+      <td width="420" align="left" valign="top">Laboratory Systems Engineering</td>
+      <td width="180" align="left" valign="top">Burnet, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Austin-TX/Systems-Engineering-Technician_REQ-15145"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Built Technologies</td>
+      <td width="420" align="left" valign="top">Innovation Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Nashville, TN</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/getbuilt/jobs/4749545005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">BodySpec</td>
       <td width="420" align="left" valign="top">Junior Software Engineer</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
@@ -2099,23 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7686733097398290693"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Machine Learning Backend Engineer Graduate (AML MLDev) - 2027 Start</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7669791940490168629"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Production System Engineer Graduate (Server Management) - 2027 Start</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7667619805899966725"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,224.</sub></p>
+<p><sub>Showing 300 of 1,226.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-30T23:49:11.138Z</code>
+      🕒 Last updated <code>2026-10-30T23:50:40.487Z</code>
     </span>
   </p>
 </div>
