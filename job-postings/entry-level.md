@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Verizon</td>
+      <td width="420" align="left" valign="top">Engineer I-Systems Engineering</td>
+      <td width="180" align="left" valign="top">Temple Terrace, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Temple-Terrace-Florida/Engineer-I-Systems-Engineering_R-1103177-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hitachi</td>
+      <td width="420" align="left" valign="top">Data Analyst</td>
+      <td width="180" align="left" valign="top">Norman, OK</td>
+      <td width="120" align="left" valign="top"><a href="https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Norman-Oklahoma-United-States/Data-Analyst_R0150190"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cvshealth</td>
+      <td width="420" align="left" valign="top">Associate Software Development Engineer (Conversion)</td>
+      <td width="180" align="left" valign="top">Remote, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Intern_Conversion_ONLY/job/IL---Work-from-home/Associate-Software-Development-Engineer--Conversion-_R1077672"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Wash U</td>
       <td width="420" align="left" valign="top">Statistical Data Analyst, Infectious Diseases</td>
       <td width="180" align="left" valign="top">Saint Louis, MO</td>
@@ -2092,30 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7668270065815030021"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">AI Agent Algorithm Engineer Graduate (Global E-Commerce, Conversational AI) - 2027 Start</td>
-      <td width="180" align="left" valign="top">Singapore, Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7665936042150955269"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
-      <td width="420" align="left" valign="top">Robotics Systems Engineer I, Tech Deployment</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="ByteDance" src="../assets/featured-badges/bytedance.svg" /></td>
-      <td width="420" align="left" valign="top">Multi-Cloud CDN Scheduling Platform Engineer Graduate (CDN Platform) - 2027 Start</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7673626147481291061"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,216.</sub></p>
+<p><sub>Showing 300 of 1,219.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-30T05:48:17.513Z</code>
+      🕒 Last updated <code>2026-10-30T07:18:01.114Z</code>
     </span>
   </p>
 </div>

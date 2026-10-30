@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C216-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C219-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--30-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,216
+- [Entry Level](./job-postings/entry-level.md) — 1,219
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,27 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Verizon</td>
+      <td width="420" align="left" valign="top">Engineer I-Systems Engineering</td>
+      <td width="180" align="left" valign="top">Temple Terrace, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Temple-Terrace-Florida/Engineer-I-Systems-Engineering_R-1103177-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hitachi</td>
+      <td width="420" align="left" valign="top">Data Analyst</td>
+      <td width="180" align="left" valign="top">Norman, OK</td>
+      <td width="120" align="left" valign="top"><a href="https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Norman-Oklahoma-United-States/Data-Analyst_R0150190"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cvshealth</td>
+      <td width="420" align="left" valign="top">Associate Software Development Engineer (Conversion)</td>
+      <td width="180" align="left" valign="top">Remote, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Intern_Conversion_ONLY/job/IL---Work-from-home/Associate-Software-Development-Engineer--Conversion-_R1077672"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 29</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Wash U</td>
       <td width="420" align="left" valign="top">Statistical Data Analyst, Infectious Diseases</td>
@@ -218,30 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/gleanwork/jobs/4748567005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ipipeline</td>
-      <td width="420" align="left" valign="top">Java Software Developer (entry level)</td>
-      <td width="180" align="left" valign="top">Wayne, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-ipipeline.icims.com/jobs/1741/java-software-developer-%28entry-level%29/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lnw</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer</td>
-      <td width="180" align="left" valign="top">Las Vegas, NV</td>
-      <td width="120" align="left" valign="top"><a href="https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Las-Vegas-NV/Associate-Software-Engineer_R322981"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Mmc</td>
-      <td width="420" align="left" valign="top">Data Analyst</td>
-      <td width="180" align="left" valign="top">Louisville, KY</td>
-      <td width="120" align="left" valign="top"><a href="https://mmc.wd1.myworkdayjobs.com/MMC/job/Louisville---West-Market/Data-Analyst_R_366564-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,216.</sub></p>
+<p><sub>Showing 30 of 1,219.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-30T05:48:17.513Z</code>
+      🕒 Last updated <code>2026-10-30T07:18:01.114Z</code>
     </span>
   </p>
 </div>
