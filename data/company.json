@@ -2835,6 +2835,7 @@
       "https://amazon.jobs/en/jobs/10574560",
       "https://amazon.jobs/en/jobs/10574564",
       "https://amazon.jobs/en/jobs/10574627",
+      "https://amazon.jobs/en/jobs/10574705",
       "https://amazon.jobs/en/jobs/10574713",
       "https://amazon.jobs/en/jobs/10574731",
       "https://amazon.jobs/en/jobs/10574732",
@@ -3328,6 +3329,7 @@
       "https://amazon.jobs/en/jobs/10593896",
       "https://amazon.jobs/en/jobs/10593902",
       "https://amazon.jobs/en/jobs/10593916",
+      "https://amazon.jobs/en/jobs/10593929",
       "https://amazon.jobs/en/jobs/3062273",
       "https://amazon.jobs/en/jobs/3110595",
       "https://amazon.jobs/en/jobs/3111761/software-engineer-i",
@@ -3367,9 +3369,7 @@
       "https://amazon.jobs/en/jobs/3203794",
       "https://amazon.jobs/en/jobs/3205224",
       "https://amazon.jobs/en/jobs/3206077",
-      "https://amazon.jobs/en/jobs/3207720",
-      "https://amazon.jobs/en/jobs/10593929",
-      "https://amazon.jobs/en/jobs/10574705"
+      "https://amazon.jobs/en/jobs/3207720"
     ]
   },
   {
@@ -5322,7 +5322,10 @@
       "https://jobs.apple.com/en-us/details/200692644-3337/machine-learning-research-engineer?team=MLAI",
       "https://jobs.apple.com/en-us/details/200692658-3337/software-engineer-traffic-envoy?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200692680-0836/wireless-systems-engineer?team=HRDWR",
-      "https://jobs.apple.com/en-us/details/200692697-3350/software-engineer-xcode-cloud?team=SFTWR"
+      "https://jobs.apple.com/en-us/details/200692697-3350/software-engineer-xcode-cloud?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200662761-2459/ios-engineer-wallet?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200662761-3543/ios-engineer-wallet?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200662761-0836/ios-engineer-wallet?team=SFTWR"
     ]
   },
   {
@@ -10887,10 +10890,10 @@
       "https://searchcareers.caci.com/careers/job/1443154285808?domain=caci.com&8fold_id=1443154285808",
       "https://searchcareers.caci.com/careers/job/1443154286127?domain=caci.com&8fold_id=1443154286127",
       "https://searchcareers.caci.com/careers/job/1443154286841?domain=caci.com&8fold_id=1443154286841",
+      "https://searchcareers.caci.com/careers/job/1443154286977?domain=caci.com&8fold_id=1443154286977",
       "https://searchcareers.caci.com/careers/job/1443154287574?domain=caci.com&8fold_id=1443154287574",
       "https://searchcareers.caci.com/careers/job/1443154287925?domain=caci.com&8fold_id=1443154287925",
-      "https://searchcareers.caci.com/careers/job/1443154290326?domain=caci.com&8fold_id=1443154290326",
-      "https://searchcareers.caci.com/careers/job/1443154286977?domain=caci.com&8fold_id=1443154286977"
+      "https://searchcareers.caci.com/careers/job/1443154290326?domain=caci.com&8fold_id=1443154290326"
     ]
   },
   {
@@ -15299,6 +15302,8 @@
       "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/BANAMEX---Apps-Dev-Intmd-Programmer-Analyst--Ab-Initio--Java--Data-Ware-House-_261001333",
       "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/BANAMEX-Applications-Development-Programmer-NET-Analyst_261003070",
       "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/BANAMEX-Apps-Dev-Intmd-Programmer-NET-Analyst---C11---CIUDAD-DE-MEXICO_261003062",
+      "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/Banamex--Data-Science-Intmd-Analyst---C11_26999330",
+      "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/Data-Quality-Intermediate-Analyst---C11---CIUDAD-DE-MEXICO_261001573",
       "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/Design-System-Developer---Angular_26983612",
       "https://citi.wd5.myworkdayjobs.com/2/job/DLF-CYBERCITY-12B/Application-Support-Analyst---SQL-and-Data-Warehousing_26998514-1",
       "https://citi.wd5.myworkdayjobs.com/2/job/DLF-CYBERCITY-12B/Big-Data-Developer-and-spark_261000054",
@@ -15397,9 +15402,7 @@
       "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Security-and-Derivatives-Intermediate-Associate-Analyst_261000639",
       "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Full-Stack-Engineer_261001843",
       "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Technology---Cyber-Security--Summer-Analyst--Warsaw-2027_26999062",
-      "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Technology---Infrastructure--Summer-Analyst--Warsaw-2027_26999106",
-      "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/Banamex--Data-Science-Intmd-Analyst---C11_26999330",
-      "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/Data-Quality-Intermediate-Analyst---C11---CIUDAD-DE-MEXICO_261001573"
+      "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Technology---Infrastructure--Summer-Analyst--Warsaw-2027_26999106"
     ]
   },
   {
@@ -15433,6 +15436,8 @@
       "https://jobs.citi.com/job/ciudad-de-mexico/banamex-apps-dev-intmd-programmer-analyst-ab-initio-java-data-ware-house/287/102161084176",
       "https://jobs.citi.com/job/ciudad-de-mexico/banamex-apps-dev-intmd-programmer-analyst-java-full-stack-c11/287/102161077936",
       "https://jobs.citi.com/job/ciudad-de-mexico/banamex-apps-dev-intmd-programmer-net-analyst-c11-ciudad-de-mexico/287/102639546464",
+      "https://jobs.citi.com/job/ciudad-de-mexico/banamex-data-quality-intermediate-analyst-c11-ciudad-de-mexico/287/102659523568",
+      "https://jobs.citi.com/job/ciudad-de-mexico/banamex-data-science-intmd-analyst-c11/287/102663976736",
       "https://jobs.citi.com/job/getzville/reference-data-services-intermediate-associate-analyst/287/102516842672",
       "https://jobs.citi.com/job/haryana/data-analyst-with-sql-python-data-visualization/287/102455431024",
       "https://jobs.citi.com/job/haryana/data-analyst-with-sql-python-data-visualization/287/102455431184",
@@ -15470,9 +15475,7 @@
       "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11/287/102602560176",
       "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-officer/287/102584402928",
       "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-officer/287/102584403024",
-      "https://jobs.citi.com/job/warsaw/full-stack-engineer/287/102333954448",
-      "https://jobs.citi.com/job/ciudad-de-mexico/banamex-data-science-intmd-analyst-c11/287/102663976736",
-      "https://jobs.citi.com/job/ciudad-de-mexico/banamex-data-quality-intermediate-analyst-c11-ciudad-de-mexico/287/102659523568"
+      "https://jobs.citi.com/job/warsaw/full-stack-engineer/287/102333954448"
     ]
   },
   {
@@ -17465,10 +17468,10 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/dexmate",
     "urls": [
+      "https://jobs.ashbyhq.com/dexmate/0f4bae60-f99e-4573-a231-4beeb971a619",
       "https://jobs.ashbyhq.com/dexmate/8b03f42a-37da-4934-9d32-6f9650081e9b",
       "https://jobs.ashbyhq.com/dexmate/8d24ff24-0109-40bb-86b3-0161c913a539",
-      "https://jobs.ashbyhq.com/dexmate/d180f4c3-d13a-4fe2-aa84-d4991ea4d0e0",
-      "https://jobs.ashbyhq.com/dexmate/0f4bae60-f99e-4573-a231-4beeb971a619"
+      "https://jobs.ashbyhq.com/dexmate/d180f4c3-d13a-4fe2-aa84-d4991ea4d0e0"
     ]
   },
   {
@@ -17645,6 +17648,7 @@
       "https://www.disneycareers.com/job/buenos-aires/software-engineer-backend/391/102163333072",
       "https://www.disneycareers.com/job/burbank/software-data-engineer/391/101011577104",
       "https://www.disneycareers.com/job/burbank/walt-disney-animation-studios-full-stack-web-development-intern-summer-2027/391/102557876496",
+      "https://www.disneycareers.com/job/celebration/mgr-software-engineering/391/102661458384",
       "https://www.disneycareers.com/job/glendale/product-and-technology-software-engineering-intern-summer-2027/391/102343795584",
       "https://www.disneycareers.com/job/glendale/sr-data-engineer-ph/391/102476347376",
       "https://www.disneycareers.com/job/glendale/sr-product-software-engineer-avails-management/391/100634904640",
@@ -17675,8 +17679,7 @@
       "https://www.disneycareers.com/job/santa-monica/sr-product-software-engineer-android/391/97099217168",
       "https://www.disneycareers.com/job/santa-monica/sr-product-software-engineer/391/102515372848",
       "https://www.disneycareers.com/job/santa-monica/sr-software-engineer/391/100720373248",
-      "https://www.disneycareers.com/job/seattle/sr-product-software-engineer/391/100441807936",
-      "https://www.disneycareers.com/job/celebration/mgr-software-engineering/391/102661458384"
+      "https://www.disneycareers.com/job/seattle/sr-product-software-engineer/391/100441807936"
     ]
   },
   {
@@ -22363,6 +22366,7 @@
       "https://go.vansh.nyc/11i?s=A",
       "https://go.vansh.nyc/11r?s=A",
       "https://go.vansh.nyc/11w?s=z",
+      "https://go.vansh.nyc/125?s=y",
       "https://go.vansh.nyc/BD?s=z",
       "https://go.vansh.nyc/BE?s=z",
       "https://go.vansh.nyc/BF?s=z",
@@ -22483,7 +22487,8 @@
       "https://go.vansh.nyc/Zv?s=A",
       "https://go.vansh.nyc/Zy?s=y",
       "https://go.vansh.nyc/wL?s=A",
-      "https://go.vansh.nyc/125?s=y"
+      "https://go.vansh.nyc/12g?s=y",
+      "https://go.vansh.nyc/11G?s=A"
     ]
   },
   {
@@ -27903,6 +27908,7 @@
       "https://careers.l3harris.com/job/brisbane/software-engineer/4832/101888170464",
       "https://careers.l3harris.com/job/brisbane/systems-engineer/4832/101895015072",
       "https://careers.l3harris.com/job/bristol/software-engineering-intern/4832/100436665344",
+      "https://careers.l3harris.com/job/camden/embedded-software-engineer/4832/102661685296",
       "https://careers.l3harris.com/job/camden/embedded-software-engineer/4832/98493173088",
       "https://careers.l3harris.com/job/camden/software-engineer-mes/4832/102003368416",
       "https://careers.l3harris.com/job/canada/full-stack-developer-co-op-1/4832/100667892784",
@@ -28104,8 +28110,7 @@
       "https://careers.l3harris.com/job/yorba-linda/specialist-software-engineer-application-infrastructure-and-embedded-systems/4832/102173096144",
       "https://careers.l3harris.com/job/yorba-linda/specialist-software-engineering-real-time-embedded-gps/4832/102557684752",
       "https://careers.l3harris.com/job/yorba-linda/specialist-systems-engineer-software-defined-radio/4832/100769332640",
-      "https://careers.l3harris.com/job/yorba-linda/specialist-systems-engrg/4832/102339204288",
-      "https://careers.l3harris.com/job/camden/embedded-software-engineer/4832/102661685296"
+      "https://careers.l3harris.com/job/yorba-linda/specialist-systems-engrg/4832/102339204288"
     ]
   },
   {
@@ -31344,6 +31349,7 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/London-UK/Software-Engineer--Frontend--TypeScript-_R65530",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/London-UK/Software-Engineer--Frontend--TypeScript-_R65770",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/Data-Engineer_R69924",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/Embedded-Software-Engineer_R70322",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/Machine-Learning-Engineer_R68214",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/Software-Test-Engineer_R66627",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/Software-Test-Engineer_R69645",
@@ -31435,8 +31441,7 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Penang-Malaysia/Software-Engineer-Intern_R66328",
       "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Penang-Malaysia/Software-System-Test-Engineer--Automation-_R66279",
       "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/PhoenixMesaScottsdale-Metro/Systems-Engineer---Land-Mobile-Radio_R66223",
-      "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/United-Kingdom-Offsite-ZUK99/Software-Engineer_R62991",
-      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/Embedded-Software-Engineer_R70322"
+      "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/United-Kingdom-Offsite-ZUK99/Software-Engineer_R62991"
     ]
   },
   {
@@ -32031,6 +32036,7 @@
     "domain": "https://explore.jobs.netflix.net",
     "page": "https://explore.jobs.netflix.net/api/apply/v2/jobs",
     "urls": [
+      "https://explore.jobs.netflix.net/careers/job/790298020874",
       "https://explore.jobs.netflix.net/careers/job/790298021069",
       "https://explore.jobs.netflix.net/careers/job/790300350307",
       "https://explore.jobs.netflix.net/careers/job/790302428910",
@@ -32167,8 +32173,7 @@
       "https://explore.jobs.netflix.net/careers/job/790319088862",
       "https://explore.jobs.netflix.net/careers/job/790319146642",
       "https://explore.jobs.netflix.net/careers/job/790319186617",
-      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5",
-      "https://explore.jobs.netflix.net/careers/job/790298020874"
+      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5"
     ]
   },
   {
@@ -32477,6 +32482,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/XMLNAME-2027-Associate-Systems-Engineer---Baltimore-MD_R10257575",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Elkridge/Classified-Cybersecurity-Analyst_R10256895",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Elkridge/Computer-Systems-Analyst---Windows_R10256887-1",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Hollywood/Associate-Software-Engineer---Hollywood--MD-_R10258018",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Hollywood/Software-Engineer---Principal-Software-Engineer_R10254398",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Patuxent-River/System-Test-Engineer_R10212036",
@@ -32542,7 +32548,7 @@
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel---Human-System-Integration-Engineer--T03-T04----17919-_R10233601",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel---Systems-Safety-Engineer---17910-_R10230724",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel-Software-Configuration-Analyst---18000_R10237177",
-      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Hollywood/Associate-Software-Engineer---Hollywood--MD-_R10258018"
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679"
     ]
   },
   {
@@ -37814,6 +37820,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Radar-Systems-Engineer-I--On-Site-_01857088",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Radar-Systems-Test-Engineer_01885070",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Software-Engineer-I--Gen4-Airborne-Radar_01877039",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Sr-Software-Engineer---Airborne-Radar-Systems--Onsite_01885987",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Sr-Software-Engineer---Gen4-Radar---F18-Software-Development---Integration_01873624",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-FULLERTON-676--1801-Hughes-Dr--BLDG-676/Radar-Systems-Engineer--P2-_01879900",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-FULLERTON-676--1801-Hughes-Dr--BLDG-676/Systems-Engineer---Algorithms--ONSITE-_01848116",
@@ -38001,8 +38008,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Systems-Engineer---Athena-Control-Systems--ONSITE-_01882406",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Warminster-Wiltshire/AI-Solution-Engineer_01865103",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Training-Data-Analyst_01882121",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/XX-XX-UNDISCLOSED/System-Engineer_01875338",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Sr-Software-Engineer---Airborne-Radar-Systems--Onsite_01885987"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/XX-XX-UNDISCLOSED/System-Engineer_01875338"
     ]
   },
   {
@@ -38786,12 +38792,12 @@
       "https://www.schwabjobs.com/job/southlake/full-stack-angular-software-development-engineer/33727/102568886544",
       "https://www.schwabjobs.com/job/southlake/full-stack-java-developer/33727/99801393664",
       "https://www.schwabjobs.com/job/southlake/machine-learning-ops-data-engineer/33727/98187448448",
+      "https://www.schwabjobs.com/job/southlake/production-support-data-engineer/33727/102659321504",
       "https://www.schwabjobs.com/job/southlake/site-reliability-engineer/33727/102559109600",
       "https://www.schwabjobs.com/job/southlake/software-developer/33727/100363971072",
       "https://www.schwabjobs.com/job/southlake/specialist-software-development-and-engineering/33727/102529752176",
       "https://www.schwabjobs.com/job/southlake/systems-engineer-splunk/33727/102189907824",
-      "https://www.schwabjobs.com/job/westlake/sr-specialist-software-development-and-engineering/33727/102592011136",
-      "https://www.schwabjobs.com/job/southlake/production-support-data-engineer/33727/102659321504"
+      "https://www.schwabjobs.com/job/westlake/sr-specialist-software-development-and-engineering/33727/102592011136"
     ]
   },
   {
