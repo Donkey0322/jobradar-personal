@@ -1,5 +1,5 @@
 {
-  "commit": "2adeb56db325fe16f172189928eb0a9718ab1365",
+  "commit": "e863ce24be13c49d633aee805ab226f6fde9a8aa",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -209,27 +209,6 @@
       "role": "Software Engineer",
       "link": "https://careers.itw.com/us/en/job/JR10913?ph_id=JR10913",
       "location": "Lake Bluff, Illinois, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "NVIDIA",
-      "role": "Applied Systems Engineering Rotation Engineer",
-      "link": "https://go.vansh.nyc/11r?s=A",
-      "location": "Santa Clara, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Amazon.com Services LLC",
-      "role": "New Grad 2027: Software Development Engineer (Database)",
-      "link": "https://go.vansh.nyc/11D?s=A",
-      "location": "Seattle, WA",
-      "country": "USA"
-    },
-    {
-      "company": "Amazon",
-      "role": "New Grad 2027: Software Development Engineer, Database",
-      "link": "https://go.vansh.nyc/11i?s=A",
-      "location": "<details><summary>**5 locations**</summary>Boston, MA</br>Seattle, WA</br>Austin, TX</br>Redmond, WA</br>East Palo Alto, CA</details>",
       "country": "USA"
     }
   ]
