@@ -5981,14 +5981,6 @@
     ]
   },
   {
-    "name": "aurora",
-    "ats": "greenhouse",
-    "identifier": "aurora",
-    "domain": "https://aurora.tech",
-    "page": "https://boards-api.greenhouse.io/v1/boards/aurora/jobs",
-    "urls": []
-  },
-  {
     "name": "aurora.tech",
     "ats": "custom",
     "identifier": "aurora.tech",
@@ -9206,14 +9198,6 @@
     ]
   },
   {
-    "name": "breezeairways",
-    "ats": "greenhouse",
-    "identifier": "breezeairways",
-    "domain": "https://job-boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/breezeairways/jobs",
-    "urls": []
-  },
-  {
     "name": "brevanhoward",
     "ats": "workday",
     "identifier": "brevanhoward-bh_externalcareers",
@@ -11752,16 +11736,6 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/carbon-robotics",
     "urls": [
       "https://jobs.ashbyhq.com/carbon-robotics/d39314a1-329b-4a82-b5f5-4cd67938805a?jr_id=6ad81dfa54bbabbab07054f8"
-    ]
-  },
-  {
-    "name": "carbonrobotics",
-    "ats": "greenhouse",
-    "identifier": "carbonrobotics",
-    "domain": "https://carbonrobotics.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/carbonrobotics/jobs",
-    "urls": [
-      "https://carbonrobotics.com/job-openings?gh_jid=4721558006"
     ]
   },
   {
@@ -23268,22 +23242,6 @@
     ]
   },
   {
-    "name": "hudsonrivertrading",
-    "ats": "greenhouse",
-    "identifier": "hudsonrivertrading",
-    "domain": "https://www.hudsonrivertrading.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hudsonrivertrading/jobs",
-    "urls": []
-  },
-  {
-    "name": "hudsonrivertrading.com",
-    "ats": "custom",
-    "identifier": "hudsonrivertrading.com",
-    "domain": "https://www.hudsonrivertrading.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "humana",
     "ats": "workday",
     "identifier": "humana-humana_external_career_site",
@@ -24892,14 +24850,6 @@
       "https://jobdetails.nestle.com/job/New-York-Nespresso-Web-Development-Intern-(AI-Engineering)-NY-10001/1269204701/?ats=successfactors",
       "https://jobdetails.nestle.com/job/North-York-Applications-Web-Developer-Intern-ON/1258794601/?ats=successfactors"
     ]
-  },
-  {
-    "name": "jobs",
-    "ats": "greenhouse",
-    "identifier": "jobs",
-    "domain": "https://jobs.dropbox.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/jobs/jobs",
-    "urls": []
   },
   {
     "name": "Jobs @ Carmeuse",
@@ -32033,18 +31983,6 @@
     ]
   },
   {
-    "name": "oldmissioncapital",
-    "ats": "greenhouse",
-    "identifier": "oldmissioncapital",
-    "domain": "https://www.oldmissioncapital.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs",
-    "urls": [
-      "https://www.oldmissioncapital.com/careers/?gh_jid=5607344003",
-      "https://www.oldmissioncapital.com/careers/?gh_jid=6107903003",
-      "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003"
-    ]
-  },
-  {
     "name": "olix",
     "ats": "ashby",
     "identifier": "olix",
@@ -34906,14 +34844,6 @@
     "identifier": "rbc-externalprivatepostingstudents",
     "domain": "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents",
     "page": "https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/ExternalPrivatePostingStudents/jobs",
-    "urls": []
-  },
-  {
-    "name": "rdccareers",
-    "ats": "greenhouse",
-    "identifier": "rdccareers",
-    "domain": "https://boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/rdccareers/jobs",
     "urls": []
   },
   {
@@ -39423,14 +39353,6 @@
     ]
   },
   {
-    "name": "stepstonegroup",
-    "ats": "greenhouse",
-    "identifier": "stepstonegroup",
-    "domain": "https://www.stepstonegroup.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/stepstonegroup/jobs",
-    "urls": []
-  },
-  {
     "name": "stewart",
     "ats": "workday",
     "identifier": "stewart-external",
@@ -43878,14 +43800,6 @@
     "urls": [
       "https://jobs.ashbyhq.com/visier/0cc19ea3-f36f-467d-ab45-ecac0c322505?jr_id=6ad186a89c2b265c6799a5cd"
     ]
-  },
-  {
-    "name": "visiersolutionsinc",
-    "ats": "greenhouse",
-    "identifier": "visiersolutionsinc",
-    "domain": "https://job-boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/visiersolutionsinc/jobs",
-    "urls": []
   },
   {
     "name": "vital-lyfe",
