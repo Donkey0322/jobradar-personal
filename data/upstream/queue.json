@@ -1,5 +1,5 @@
 {
-  "commit": "8b79525e3c8037ea0e372e6a525acd39b6865996",
+  "commit": "5db4c4c324310f4b5a00af5034fcb5c29acd43b7",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -202,20 +202,6 @@
       "role": "Software Engineer",
       "link": "https://careers.itw.com/us/en/job/JR10913?ph_id=JR10913",
       "location": "Lake Bluff, Illinois, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "Hp",
-      "role": "Software Systems Engineer",
-      "link": "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Vancouver-Washington-United-States-of-America/Software-Systems-Engineer_3162972",
-      "location": "Vancouver, Washington, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "Make-rain",
-      "role": "Vehicle Software Engineer",
-      "link": "https://jobs.lever.co/make-rain/e9b0adfa-0874-4105-aac7-af1dfb3da847",
-      "location": "El Segundo, CA",
       "country": "USA"
     }
   ]
