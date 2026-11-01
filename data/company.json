@@ -4021,14 +4021,6 @@
     ]
   },
   {
-    "name": "aofl",
-    "ats": "lever",
-    "identifier": "aofl",
-    "domain": "https://jobs.lever.co",
-    "page": "https://api.lever.co/v0/postings/aofl?mode=json",
-    "urls": []
-  },
-  {
     "name": "aoins",
     "ats": "workday",
     "identifier": "aoins-autoowners",
@@ -10602,14 +10594,6 @@
     "identifier": "calix-external",
     "domain": "https://calix.wd1.myworkdayjobs.com/external",
     "page": "https://calix.wd1.myworkdayjobs.com/wday/cxs/calix/external/jobs",
-    "urls": []
-  },
-  {
-    "name": "calstart",
-    "ats": "lever",
-    "identifier": "calstart",
-    "domain": "https://jobs.lever.co",
-    "page": "https://api.lever.co/v0/postings/calstart?mode=json",
     "urls": []
   },
   {
@@ -36772,14 +36756,6 @@
     ]
   },
   {
-    "name": "saronic",
-    "ats": "lever",
-    "identifier": "saronic",
-    "domain": "https://jobs.lever.co",
-    "page": "https://api.lever.co/v0/postings/saronic?mode=json",
-    "urls": []
-  },
-  {
     "name": "sartorius",
     "ats": "workday",
     "identifier": "sartorius-sartoriuscareers",
@@ -38965,14 +38941,6 @@
     "urls": [
       "https://jobs.ashbyhq.com/sprinter-health/edab5e91-7286-4a22-a1f7-d26520600a09?jr_id=6a571be8f7517b519ad5926e"
     ]
-  },
-  {
-    "name": "SprinterHealth",
-    "ats": "lever",
-    "identifier": "SprinterHealth",
-    "domain": "https://jobs.lever.co",
-    "page": "https://api.lever.co/v0/postings/SprinterHealth?mode=json",
-    "urls": []
   },
   {
     "name": "spruceid",
