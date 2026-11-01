@@ -1,5 +1,5 @@
 {
-  "commit": "5db4c4c324310f4b5a00af5034fcb5c29acd43b7",
+  "commit": "23eb9ffd8b0e3612a689dca65bb741e65cddf580",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -205,25 +205,11 @@
       "country": "USA"
     },
     {
-      "company": "Careers.huntingtoningalls.com",
-      "role": "Software Engineer 1 🇺🇸",
-      "link": "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1446380900/?ats=successfactors",
-      "location": "Newport News, VA",
-      "country": "USA"
-    },
-    {
       "company": "Meta",
       "role": "Data Engineer, Analytics",
       "link": "https://www.metacareers.com/jobs/2578176955882259",
       "location": "New York, NY",
       "country": "USA"
-    },
-    {
-      "company": "Clipboard Health",
-      "role": "Software Engineer, Backend",
-      "link": "https://jobs.ashbyhq.com/clipboard/b83ea62e-f143-4673-a741-3e98e7e083bd",
-      "location": "Remote",
-      "country": "Remote"
     }
   ]
 }
