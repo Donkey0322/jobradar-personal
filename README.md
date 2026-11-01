@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C209-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C210-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--11--01-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,209
+- [Entry Level](./job-postings/entry-level.md) — 1,210
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,13 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Hudson River Trading</td>
+      <td width="420" align="left" valign="top">Software Engineer (C++ or Python) – 2027 Grads</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052122"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 1</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="NVIDIA" src="./assets/featured-badges/nvidia.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer, Hardware Tools and Methodology (Master&#39;s)</td>
@@ -232,16 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Software-Engineer---Distributed-Computing_2642720"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Neon</td>
-      <td width="420" align="left" valign="top">New Grad 2027: Software Engineer, Distributed Data Systems</td>
-      <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.databricks.com/company/careers/university-recruiting---engineering/software-engineer---new-grad-distributed-data-systems-2027-start-6865704002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,209.</sub></p>
+<p><sub>Showing 30 of 1,210.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-01T12:07:37.222Z</code>
+      🕒 Last updated <code>2026-11-01T13:12:10.501Z</code>
     </span>
   </p>
 </div>
