@@ -182,3 +182,21 @@
 2026-10-11T12:11:01.794Z Workday: jci - 429 - Too Many Requests
 2026-10-11T12:11:26.602Z Workday: liveramp - 403 - Forbidden
 2026-10-11T12:14:04.998Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-11-01T11:03:15.736Z Workday: acehardware - 500 - Internal Server Error
+2026-11-01T11:19:25.898Z Workday: labcorp - 429 - Too Many Requests
+2026-11-01T11:19:25.905Z Workday: kcura - 429 - Too Many Requests
+2026-11-01T11:19:26.147Z Workday: kla - 429 - Too Many Requests
+2026-11-01T11:19:31.101Z Workday: littelfuse - 429 - Too Many Requests
+2026-11-01T11:19:32.571Z Workday: liveramp - 403 - Forbidden
+2026-11-01T11:19:39.728Z Workday: levistraussandco - 429 - Too Many Requests
+2026-11-01T11:19:39.735Z Workday: leidos - 429 - Too Many Requests
+2026-11-01T11:19:40.316Z Workday: lkqcorp - 429 - Too Many Requests
+2026-11-01T11:19:40.526Z Workday: lowes - 429 - Too Many Requests
+2026-11-01T11:19:40.537Z Workday: kbr - 429 - Too Many Requests
+2026-11-01T11:19:40.578Z Workday: lumentum - 429 - Too Many Requests
+2026-11-01T11:19:40.597Z Workday: manh - 429 - Too Many Requests
+2026-11-01T11:19:49.323Z Workday: maxar - 429 - Too Many Requests
+2026-11-01T11:19:49.383Z Workday: marvell - 429 - Too Many Requests
+2026-11-01T11:19:49.432Z Workday: medtronic - 429 - Too Many Requests
+2026-11-01T11:22:14.375Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-11-01T11:24:00.442Z Workday: sallie-mae - 422 - Unprocessable Entity
