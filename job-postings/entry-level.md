@@ -122,7 +122,7 @@
       <td width="180" align="left" valign="top">Hitachi</td>
       <td width="420" align="left" valign="top">Data Analyst</td>
       <td width="180" align="left" valign="top">Norman, OK</td>
-      <td width="120" align="left" valign="top"><a href="https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Norman-Oklahoma-United-States/Data-Analyst_R0150190"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
@@ -157,7 +157,7 @@
       <td width="180" align="left" valign="top">Hitachi</td>
       <td width="420" align="left" valign="top">Data Analyst</td>
       <td width="180" align="left" valign="top">Norman, OK</td>
-      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/ZN?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
@@ -288,9 +288,9 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Crusoe</td>
-      <td width="420" align="left" valign="top">Software Engineer I, Network<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Software Engineer I, Network</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Crusoe/9a5223c4-9eb7-4fdb-b97c-f43525df35ed"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
@@ -332,7 +332,7 @@
       <td width="180" align="left" valign="top">Lnw</td>
       <td width="420" align="left" valign="top">Associate Software Engineer</td>
       <td width="180" align="left" valign="top">Las Vegas, NV</td>
-      <td width="120" align="left" valign="top"><a href="https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Las-Vegas-NV/Associate-Software-Engineer_R322981"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
@@ -346,7 +346,7 @@
       <td width="180" align="left" valign="top">Shield AI</td>
       <td width="420" align="left" valign="top">New Grad: Engineer I, Software Test and Automation</td>
       <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://go.vansh.nyc/XO?s=A"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
@@ -365,9 +365,9 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Borgwarner</td>
-      <td width="420" align="left" valign="top">Controls Engineer - Battery Energy Systems (Seneca, SC)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Controls Engineer - Battery Energy Systems (Seneca, SC)</td>
       <td width="180" align="left" valign="top">Seneca, SC</td>
-      <td width="120" align="left" valign="top"><a href="https://borgwarner.wd5.myworkdayjobs.com/borgwarner_careers/job/Seneca---South-Carolina---USA/Controls-Engineer---Battery-Energy-Systems--Seneca--SC-_R2026-3917"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
@@ -414,9 +414,9 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Generalmotors</td>
-      <td width="420" align="left" valign="top">Software Verification Engineer, AV Platform (Early Career)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Software Verification Engineer, AV Platform (Early Career)</td>
       <td width="180" align="left" valign="top">Milford, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Milford-Michigan-United-States-of-America/Software-Verification-Engineer--AV-Platform--Early-Career-_JR-202611592"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 27</td>
     </tr>
     <tr>
@@ -456,9 +456,9 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Schwab</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer Austin, TX Requisition ID: 2026-127949 Application deadline: 2026-10-29 Save for Later<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Associate Software Engineer Austin, TX Requisition ID: 2026-127949 Application deadline: 2026-10-29 Save for Later</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://www.schwabjobs.com/job/austin/associate-software-engineer/33727/101977388560"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 27</td>
     </tr>
     <tr>
@@ -472,7 +472,7 @@
       <td width="180" align="left" valign="top">Pru</td>
       <td width="420" align="left" valign="top">PGIM Real Estate – Analyst/Associate, Data Analytics &amp; Governance</td>
       <td width="180" align="left" valign="top">Newark, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://pru.wd5.myworkdayjobs.com/careers/job/Newark-NJ-USA/PGIM-Real-Estate---Analyst-Associate--Data-Analytics---Governance_R-125266-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 27</td>
     </tr>
     <tr>
@@ -521,7 +521,7 @@
       <td width="180" align="left" valign="top">Mpc</td>
       <td width="420" align="left" valign="top">Data Analyst</td>
       <td width="180" align="left" valign="top">Findlay, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://mpc.wd1.myworkdayjobs.com/mpccareers/job/Findlay-Ohio/Data-Analyst_00024833-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 26</td>
     </tr>
     <tr>
@@ -617,9 +617,9 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
-      <td width="420" align="left" valign="top">IT Systems Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">IT Systems Engineer</td>
       <td width="180" align="left" valign="top">Columbus, IN</td>
-      <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2431706"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 23</td>
     </tr>
     <tr>
@@ -815,7 +815,7 @@
       <td width="180" align="left" valign="top">Disney</td>
       <td width="420" align="left" valign="top">Product Software Engineer I Disney Entertainment and ESPN Product &amp; Technology New York, New York Oct. 21, 2026</td>
       <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/new-york/product-software-engineer-i/391/102261826624"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 21</td>
     </tr>
     <tr>
@@ -1368,7 +1368,7 @@
       <td width="180" align="left" valign="top">Usbank</td>
       <td width="420" align="left" valign="top">Software Engineer 1 – Full-stack, Generative AI, Cloud</td>
       <td width="180" align="left" valign="top">Hopkins, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Hopkins-MN/Software-Engineer-1---Full-stack--Generative-AI--Cloud_2026-0032031"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 15</td>
     </tr>
     <tr>
@@ -1389,7 +1389,7 @@
       <td width="180" align="left" valign="top">U.S. Bank</td>
       <td width="420" align="left" valign="top">Software Engineer 1 – Full-stack, Generative AI, Cloud</td>
       <td width="180" align="left" valign="top">Hopkins, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.usbank.com/global/en/job/2026-0032031?ph_id=2026-0032031"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 14</td>
     </tr>
     <tr>
@@ -1424,7 +1424,7 @@
       <td width="180" align="left" valign="top">Twitch</td>
       <td width="420" align="left" valign="top">Software Engineer I</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/twitch/jobs/8887222002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 14</td>
     </tr>
     <tr>
@@ -1641,7 +1641,7 @@
       <td width="180" align="left" valign="top">Shieldai</td>
       <td width="420" align="left" valign="top">Engineer I, Software Test and Automation (R6216)</td>
       <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/shieldai/d80f9bad-a014-475a-a018-a676eb6fbad7"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 9</td>
     </tr>
     <tr>
@@ -1746,7 +1746,7 @@
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Software Engineer Embedded Systems I (Full Time) - United States</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2024231?ph_id=2024231"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
     <tr>
@@ -1774,7 +1774,7 @@
       <td width="180" align="left" valign="top">Cencora</td>
       <td width="420" align="left" valign="top">Engineer 1 - Systems Software Engineering</td>
       <td width="180" align="left" valign="top">Remote, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-Pennsylvania/Engineer-I--Systems-Software-Engineering_R2614401"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
     <tr>
@@ -2115,7 +2115,7 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,232.</sub></p>
+<p><sub>Showing 300 of 1,222.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-01T00:46:24.220Z</code>
+      🕒 Last updated <code>2026-11-01T05:51:41.252Z</code>
     </span>
   </p>
 </div>
