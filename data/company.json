@@ -6681,6 +6681,7 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/University---2027-Summer-Games-Software-Developer-Intern---Dayton--OH_R0252345",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Detroit-MI/Data-Scientist_R0249703",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Detroit-MI/University---2027-Summer-Games--Systems-Engineer-Intern---Royal-Oaks--MI_R0252341",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Detroit-MI/University---2027-Summer-Games-Data-Scientist-Intern---Royal-Oak--MI_R0252783",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Detroit-MI/University---2027-Summer-Games-Software-Developer-Intern---Royal-Oaks--MI_R0252340",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Doral-FL/Data-Governance-and-Metadata-Scientist_R0245985",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Doral-FL/Data-Governance-and-Metadata-Scientist_R0248208",
@@ -14838,6 +14839,7 @@
     "domain": "https://cmu.wd115.myworkdayjobs.com/CMU",
     "page": "https://cmu.wd115.myworkdayjobs.com/wday/cxs/cmu/CMU/jobs",
     "urls": [
+      "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cybersecurity-Engineer_2025155-2",
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-1"
     ]
   },
@@ -17599,6 +17601,16 @@
     ]
   },
   {
+    "name": "elementsolutions",
+    "ats": "lever",
+    "identifier": "elementsolutions",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/elementsolutions?mode=json",
+    "urls": [
+      "https://jobs.lever.co/elementsolutions/88f248fb-459a-4d4e-8f6a-80e1671bf86e/apply"
+    ]
+  },
+  {
     "name": "elevancehealth",
     "ats": "workday",
     "identifier": "elevancehealth-elv-et",
@@ -18074,6 +18086,16 @@
       "https://equifax.wd5.myworkdayjobs.com/external/job/USA---Missouri---St-Louis---Lackland/Software-Engineer---Intermediate_J00176451",
       "https://equifax.wd5.myworkdayjobs.com/external/job/USA---Missouri---St-Louis---Lackland/Software-Engineer_J00178792",
       "https://equifax.wd5.myworkdayjobs.com/external/job/USA-GA-Alpharetta-JVW3/Red-Team-Operator_J00178503"
+    ]
+  },
+  {
+    "name": "equifax",
+    "ats": "workday",
+    "identifier": "equifax-ur_external",
+    "domain": "https://equifax.wd5.myworkdayjobs.com/UR_External",
+    "page": "https://equifax.wd5.myworkdayjobs.com/wday/cxs/equifax/UR_External/jobs",
+    "urls": [
+      "https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/Data-Analytics-Rotational-Development-Associate_J00178985-2"
     ]
   },
   {
@@ -20914,6 +20936,7 @@
       "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/BI-Data-Analyst_R26_0000027053",
       "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133",
       "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135",
+      "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/DevOps-Engineer-I_R26_0000035844",
       "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/Inventory-Data-Analyst_R26_0000025998",
       "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/Inventory-Data-Analyst_R26_0000032349-1",
       "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141",
@@ -23443,7 +23466,8 @@
       "https://careers-i3-corps.icims.com/jobs/5289/tactical-data-link-engineer/job",
       "https://careers-i3-corps.icims.com/jobs/5307/data-analyst-%28junior-associate%29/job",
       "https://careers-i3-corps.icims.com/jobs/5309/systems-engineer---euas/job",
-      "https://careers-i3-corps.icims.com/jobs/5383/security-research-engineer/job"
+      "https://careers-i3-corps.icims.com/jobs/5383/security-research-engineer/job",
+      "https://careers-i3-corps.icims.com/jobs/5417/junior-machine-learning-engineer/job"
     ]
   },
   {
@@ -26075,7 +26099,8 @@
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineering-Intern_2641581",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineering-Intern_2642189",
-      "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Software-Engineer---Distributed-Computing_2642720"
+      "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Software-Engineer---Distributed-Computing_2642720",
+      "https://kla.wd1.myworkdayjobs.com/ur/job/Totowa-NJ/Software-Engineer-Intern_2642151"
     ]
   },
   {
@@ -28864,6 +28889,7 @@
       "https://www.metacareers.com/profile/job_details/28584828864517265",
       "https://www.metacareers.com/profile/job_details/2887906508264541",
       "https://www.metacareers.com/profile/job_details/2889145938130511",
+      "https://www.metacareers.com/profile/job_details/2922422108141088",
       "https://www.metacareers.com/profile/job_details/2947322545617694",
       "https://www.metacareers.com/profile/job_details/29581947484724918",
       "https://www.metacareers.com/profile/job_details/3017015768637502",
@@ -29318,7 +29344,8 @@
       "https://apply.careers.microsoft.com/careers/job/1970393557046987?domain=microsoft.com&8fold_id=1970393557046987",
       "https://apply.careers.microsoft.com/careers/job/1970393557047450?domain=microsoft.com&8fold_id=1970393557047450",
       "https://apply.careers.microsoft.com/careers/job/1970393557047506?domain=microsoft.com&8fold_id=1970393557047506",
-      "https://apply.careers.microsoft.com/careers/job/1970393557048316?domain=microsoft.com&8fold_id=1970393557048316"
+      "https://apply.careers.microsoft.com/careers/job/1970393557048316?domain=microsoft.com&8fold_id=1970393557048316",
+      "https://apply.careers.microsoft.com/careers/job/1970393557050639"
     ]
   },
   {
@@ -31919,6 +31946,16 @@
     ]
   },
   {
+    "name": "ocadogroup",
+    "ats": "greenhouse",
+    "identifier": "ocadogroup",
+    "domain": "https://careers.ocadogroup.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/ocadogroup/jobs",
+    "urls": [
+      "https://careers.ocadogroup.com/jobs/details?gh_jid=5018802101&gh_jid=5018802101"
+    ]
+  },
+  {
     "name": "oceanus",
     "ats": "ashby",
     "identifier": "oceanus",
@@ -33328,7 +33365,9 @@
       "https://careers-peraton.icims.com/jobs/172981/sitec---cyber-endpoint-security-systems-engineer---macdill-afb/job",
       "https://careers-peraton.icims.com/jobs/172986/cobol-software-developer/job",
       "https://careers-peraton.icims.com/jobs/172987/ui-ux-solutions-developer/job",
-      "https://careers-peraton.icims.com/jobs/173017/program-analyst-%e2%80%93-program-reporting%2c-radar-system-replacement-%28rsr%29/job"
+      "https://careers-peraton.icims.com/jobs/173017/program-analyst-%e2%80%93-program-reporting%2c-radar-system-replacement-%28rsr%29/job",
+      "https://careers-peraton.icims.com/jobs/173027/junior-devsecops---ci-cd-engineer/job",
+      "https://careers-peraton.icims.com/jobs/173028/devsecops---ci-cd-engineer/job"
     ]
   },
   {
@@ -36576,7 +36615,8 @@
       "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618579",
       "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618632",
       "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618639",
-      "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618643"
+      "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618643",
+      "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618660"
     ]
   },
   {
@@ -37150,6 +37190,7 @@
       "https://www.schwabjobs.com/job/southlake/data-engineer/33727/101625328992",
       "https://www.schwabjobs.com/job/southlake/etl-developer-data-engineer/33727/95734216864",
       "https://www.schwabjobs.com/job/southlake/full-stack-angular-software-development-engineer/33727/102568886544",
+      "https://www.schwabjobs.com/job/southlake/infrastructure-engineer/33727/102770319264",
       "https://www.schwabjobs.com/job/southlake/production-support-data-engineer/33727/102659321504",
       "https://www.schwabjobs.com/job/southlake/site-reliability-engineer/33727/102559109600",
       "https://www.schwabjobs.com/job/southlake/software-developer/33727/100363971072",
@@ -42132,12 +42173,14 @@
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Frisco-Texas/Platform-Engineer_REQ361405-1",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Frisco-Texas/Sr-Engineer--Commercial-AI-Forward-Deployment_REQ373530",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/New-York-New-York/Front-End-Developer--Dynamic-Ad-Creative_REQ368337",
+      "https://tmobile.wd1.myworkdayjobs.com/external/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Software-Engineer--Billing-Platform_REQ361398",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Sr-Engineer--Cybersecurity---SOC-Process-and-AI-Enablement_REQ363187-1",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Sr-Software-Engineer--Android_REQ350330-1",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380492",
-      "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441"
+      "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441",
+      "https://tmobile.wd1.myworkdayjobs.com/external/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882"
     ]
   },
   {
@@ -43817,7 +43860,8 @@
       "https://job-boards.greenhouse.io/verkada/jobs/5213881007",
       "https://job-boards.greenhouse.io/verkada/jobs/5219131007",
       "https://job-boards.greenhouse.io/verkada/jobs/5233101007",
-      "https://job-boards.greenhouse.io/verkada/jobs/5233102007"
+      "https://job-boards.greenhouse.io/verkada/jobs/5233102007",
+      "https://job-boards.greenhouse.io/verkada/jobs/5280545007"
     ]
   },
   {
@@ -45512,6 +45556,7 @@
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Colombo-Sri-Lanka/XMLNAME-2026-6-months--Internship-Sri-Lanka---Software-Engineering_JR102701",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Gliwice-Poland/Platform-SW-FW-Engineer--Advanced_JR102890",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Holtsville-New-York/Software-Engineer--Professional-I_JR103835",
+      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Lincolnshire-Illinois/Cloud-Engineering--Advanced_JR101889",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Lincolnshire-Illinois/Cloud-Security-Engineer---Advanced_JR103172",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Lincolnshire-Illinois/Firmware-Software-Engineer--Advanced_JR103696",
