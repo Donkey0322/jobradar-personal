@@ -16571,14 +16571,6 @@
     "urls": []
   },
   {
-    "name": "dell",
-    "ats": "workday",
-    "identifier": "dell-external",
-    "domain": "https://dell.wd1.myworkdayjobs.com/external",
-    "page": "https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/external/jobs",
-    "urls": []
-  },
-  {
     "name": "Dell",
     "ats": "oraclecloud",
     "identifier": "iawmqy.fa.ocs.oraclecloud.com",
