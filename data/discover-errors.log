@@ -225,3 +225,8 @@
 2026-11-02T13:52:33.206Z Workday: vhr-genband - 422 - Unprocessable Entity
 2026-11-02T13:52:33.285Z Workday: vhr-otsuka - 422 - Unprocessable Entity
 2026-11-02T13:52:37.423Z Greenhouse: withwaymo - 404 - Not Found
+2026-11-02T14:09:43.955Z Workday: costar - 502 - Bad Gateway
+2026-11-02T14:09:45.021Z Greenhouse: equipmentshare - 404 - Not Found
+2026-11-02T14:10:00.483Z Greenhouse: hubspot - 404 - Not Found
+2026-11-02T14:10:27.732Z Eightfold: microsoft - 429 - Too Many Requests
+2026-11-02T14:10:30.889Z Workday: medtronic - 502 - Bad Gateway

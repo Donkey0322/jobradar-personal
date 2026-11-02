@@ -16888,14 +16888,6 @@
     ]
   },
   {
-    "name": "disney",
-    "ats": "radancy",
-    "identifier": "jobs.disneycareers.com",
-    "domain": "https://jobs.disneycareers.com",
-    "page": "https://jobs.disneycareers.com/search-jobs/resultspost",
-    "urls": []
-  },
-  {
     "name": "ditto",
     "ats": "ashby",
     "identifier": "ditto",
@@ -20528,7 +20520,8 @@
       "https://careers-gdms.icims.com/jobs/76776/systems-engineer/job",
       "https://careers-gdms.icims.com/jobs/76784/entry-level-engineer---%28systems%2c-software%2c-electrical%2c-mechanical%2c-manufacturing%2c-other%29/job",
       "https://careers-gdms.icims.com/jobs/76785/intern-engineer---%28systems%2c-software%2c-electrical%2c-mechanical%2c-manufacturing%2c-other%29/job",
-      "https://careers-gdms.icims.com/jobs/76786/engineer---%28systems%2c-software%2c-electrical%2c-mechanical%2c-manufacturing%2c-other%29/job"
+      "https://careers-gdms.icims.com/jobs/76786/engineer---%28systems%2c-software%2c-electrical%2c-mechanical%2c-manufacturing%2c-other%29/job",
+      "https://careers-gdms.icims.com/jobs/76962/torpedo-systems-release-train-engineer/job"
     ]
   },
   {
@@ -24929,6 +24922,7 @@
     "domain": "https://jj.wd5.myworkdayjobs.com/JJ",
     "page": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/jobs",
     "urls": [
+      "https://jj.wd5.myworkdayjobs.com/JJ/job/Boston-Massachusetts-United-States-of-America/R-D-Systems-Engineer_R-108169-1",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/AIC-Systems-Test-Engineering-Co-Op_R-099094",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Impella-Pump-Systems-Test-Engineering-Co-Op_R-099097",
@@ -27575,6 +27569,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477578345?domain=lockheedmartin.com&8fold_id=996477578345",
       "https://lockheedmartin.eightfold.ai/careers/job/996477614539?domain=lockheedmartin.com&8fold_id=996477614539",
       "https://lockheedmartin.eightfold.ai/careers/job/996477643928?domain=lockheedmartin.com&8fold_id=996477643928",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477659941?domain=lockheedmartin.com&8fold_id=996477659941",
       "https://lockheedmartin.eightfold.ai/careers/job/996477662263?domain=lockheedmartin.com&8fold_id=996477662263",
       "https://lockheedmartin.eightfold.ai/careers/job/996477672574?domain=lockheedmartin.com&8fold_id=996477672574",
       "https://lockheedmartin.eightfold.ai/careers/job/996477676855?domain=lockheedmartin.com&8fold_id=996477676855",
@@ -40991,6 +40986,7 @@
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Birmingham-United-Kingdom/Engineer-I--Systems-Design_R-01372004-1",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Bremen-Germany/Scientific-Software---Research-Platform-Engineer--m-f-d-_R-01368480",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Brno-Czechia/C---Software-Engineer_R-01370276",
+      "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Brno-Czechia/C--Software-Engineer-_R-01373314",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Brno-Czechia/Embedded-Software-Developer---Python-Linux_R-01370247",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Brno-Czechia/Embedded-Software-Developer_R-01353331",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Brno-Czechia/Job-Posting-Title-C--C---Engineer---Backend-Development_R-01369524",
@@ -42872,6 +42868,7 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/uipath",
     "urls": [
+      "https://jobs.ashbyhq.com/uipath/9a27e0cc-ad53-4b7d-8bee-9d3ba1e7ce50",
       "https://jobs.ashbyhq.com/uipath/a6ed0fbe-3505-46ab-9ec5-469d8356f8d8"
     ]
   },
@@ -43126,6 +43123,7 @@
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Chennai-India/Associate-Software-Engineer_2026-0017256",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Chennai-India/Software-Engineer_2026-0017228",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Chennai-India/Software-Engineer_2026-0017316-1",
+      "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Chennai-India/Software-Engineer_2026-0017388",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Chicago-IL/Full-Stack-Developer--Agile-AI-ML-Software-Developer---multiple-positions--in-Chicago--IL_2026-0033976",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Cincinnati-OH/Information-Security-Engineer---Cyber-Threat-Intelligence_2026-0033015-1",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Dallas-TX/BTIG--Investment-Banking--Investment-Banker--Analyst--Energy---Infrastructure-_2026-0033965",
@@ -43835,7 +43833,8 @@
     "domain": "https://vhr-genband.wd1.myworkdayjobs.com/ribboncareers",
     "page": "https://vhr-genband.wd1.myworkdayjobs.com/wday/cxs/vhr_genband/ribboncareers/jobs",
     "urls": [
-      "https://vhr-genband.wd1.myworkdayjobs.com/en-US/ribboncareers/job/Verification-Engineering-Lead-Analyst_REQ-2026-3059"
+      "https://vhr-genband.wd1.myworkdayjobs.com/en-US/ribboncareers/job/Verification-Engineering-Lead-Analyst_REQ-2026-3059",
+      "https://vhr-genband.wd1.myworkdayjobs.com/ribboncareers/job/Canada-Ontario-Ottawa/Data-Path-Engineer_REQ-2026-3067"
     ]
   },
   {
