@@ -21924,14 +21924,6 @@
     "urls": []
   },
   {
-    "name": "gtsgbu",
-    "ats": "workday",
-    "identifier": "gtsgbu-careers",
-    "domain": "https://gtsgbu.wd3.myworkdayjobs.com/careers",
-    "page": "https://gtsgbu.wd3.myworkdayjobs.com/wday/cxs/gtsgbu/careers/jobs",
-    "urls": []
-  },
-  {
     "name": "guardianlife",
     "ats": "workday",
     "identifier": "guardianlife-guardian-life-careers",
@@ -23571,14 +23563,6 @@
       "https://idexcorp.wd5.myworkdayjobs.com/idex_careers/job/Mansfield-Ohio/CMM-Programmer---Measurement-Systems-Specialist_R-10167",
       "https://idexcorp.wd5.myworkdayjobs.com/idex_careers/job/Wheeling-Illinois/Software-Engineer_R-09759"
     ]
-  },
-  {
-    "name": "idexx",
-    "ats": "workday",
-    "identifier": "idexx-idexx",
-    "domain": "https://idexx.wd1.myworkdayjobs.com/idexx",
-    "page": "https://idexx.wd1.myworkdayjobs.com/wday/cxs/idexx/idexx/jobs",
-    "urls": []
   },
   {
     "name": "idmeuniversityrecruiting",
@@ -25892,14 +25876,6 @@
     ]
   },
   {
-    "name": "kar",
-    "ats": "workday",
-    "identifier": "kar-openlane_careers",
-    "domain": "https://kar.wd1.myworkdayjobs.com/openlane_careers",
-    "page": "https://kar.wd1.myworkdayjobs.com/wday/cxs/kar/openlane_careers/jobs",
-    "urls": []
-  },
-  {
     "name": "kastle",
     "ats": "ashby",
     "identifier": "kastle",
@@ -27245,14 +27221,6 @@
     "identifier": "liveoakbancshares-live_oak",
     "domain": "https://liveoakbancshares.wd1.myworkdayjobs.com/Live_Oak",
     "page": "https://liveoakbancshares.wd1.myworkdayjobs.com/wday/cxs/liveoakbancshares/Live_Oak/jobs",
-    "urls": []
-  },
-  {
-    "name": "liveramp",
-    "ats": "workday",
-    "identifier": "liveramp-liverampcareers",
-    "domain": "https://liveramp.wd5.myworkdayjobs.com/liverampcareers",
-    "page": "https://liveramp.wd5.myworkdayjobs.com/wday/cxs/liveramp/liverampcareers/jobs",
     "urls": []
   },
   {
