@@ -200,3 +200,19 @@
 2026-11-01T11:19:49.432Z Workday: medtronic - 429 - Too Many Requests
 2026-11-01T11:22:14.375Z Workday: osv-rubicon - 422 - Unprocessable Entity
 2026-11-01T11:24:00.442Z Workday: sallie-mae - 422 - Unprocessable Entity
+2026-11-02T13:07:48.219Z Ashby: arch.co - 404 - Not Found
+2026-11-02T13:07:54.335Z Ashby: beaconsoftware - 404 - Not Found
+2026-11-02T13:08:20.223Z Radancy: disney - 303 - See Other - /global/en
+2026-11-02T13:08:23.531Z Greenhouse: equipmentshare - 404 - Not Found
+2026-11-02T13:08:27.858Z Ashby: firetiger - 404 - Not Found
+2026-11-02T13:08:40.309Z Greenhouse: hubspot - 404 - Not Found
+2026-11-02T13:08:51.401Z Ashby: luma-ai - 404 - Not Found
+2026-11-02T13:08:54.139Z Ashby: maximor - 404 - Not Found
+2026-11-02T13:08:56.403Z Eightfold: microsoft - 429 - Too Many Requests
+2026-11-02T13:09:09.242Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-11-02T13:09:09.413Z Workday: otis - 422 - Unprocessable Entity
+2026-11-02T13:09:17.562Z Eightfold: qualcomm - 429 - TOO MANY REQUESTS
+2026-11-02T13:09:49.266Z Ashby: tilderesearch - 404 - Not Found
+2026-11-02T13:09:56.111Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-11-02T13:09:56.323Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-11-02T13:10:00.194Z Greenhouse: withwaymo - 404 - Not Found
