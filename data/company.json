@@ -502,14 +502,6 @@
     ]
   },
   {
-    "name": "accenture.com",
-    "ats": "custom",
-    "identifier": "accenture.com",
-    "domain": "https://www.accenture.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "ace",
     "ats": "workday",
     "identifier": "ace-careers",
@@ -4105,14 +4097,6 @@
     ]
   },
   {
-    "name": "app.dover.com",
-    "ats": "custom",
-    "identifier": "app.dover.com",
-    "domain": "https://app.dover.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "app.ripplematch.com",
     "ats": "custom",
     "identifier": "app.ripplematch.com",
@@ -5227,14 +5211,6 @@
     "urls": [
       "https://apply.edisoncareers.com/job/Chino-2027-Summer-Internship-SoftwareData-Engineering-(Chino)-CA-91710/1424663800/?ats=successfactors"
     ]
-  },
-  {
-    "name": "apply.workable.com",
-    "ats": "custom",
-    "identifier": "apply.workable.com",
-    "domain": "https://apply.workable.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "apptronik",
