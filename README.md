@@ -226,7 +226,7 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Coherent corp. us</td>
+      <td width="180" align="left" valign="top">Coherent Corp. US</td>
       <td width="420" align="left" valign="top">Data Analyst - Project Management Support</td>
       <td width="180" align="left" valign="top">Budd Lake, NJ</td>
       <td width="120" align="left" valign="top"><a href="https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2015589"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-02T10:22:45.711Z</code>
+      🕒 Last updated <code>2026-11-02T11:03:11.480Z</code>
     </span>
   </p>
 </div>
