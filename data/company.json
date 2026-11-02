@@ -6395,16 +6395,6 @@
     ]
   },
   {
-    "name": "baesystems.taleo.net",
-    "ats": "custom",
-    "identifier": "baesystems.taleo.net",
-    "domain": "https://baesystems.taleo.net",
-    "page": "",
-    "urls": [
-      "https://baesystems.taleo.net/careersection/2/jobdetail.ftl?job=00136162"
-    ]
-  },
-  {
     "name": "bah",
     "ats": "workday",
     "identifier": "bah-bah_jobs",
