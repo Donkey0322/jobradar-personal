@@ -31259,14 +31259,6 @@
     "urls": []
   },
   {
-    "name": "nio",
-    "ats": "workday",
-    "identifier": "nio-nio_careers",
-    "domain": "https://nio.wd3.myworkdayjobs.com/NIO_Careers",
-    "page": "https://nio.wd3.myworkdayjobs.com/wday/cxs/nio/NIO_Careers/jobs",
-    "urls": []
-  },
-  {
     "name": "nisc",
     "ats": "greenhouse",
     "identifier": "nisc",
