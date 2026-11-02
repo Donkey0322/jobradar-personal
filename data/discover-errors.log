@@ -216,3 +216,12 @@
 2026-11-02T13:09:56.111Z Workday: vhr-genband - 422 - Unprocessable Entity
 2026-11-02T13:09:56.323Z Workday: vhr-otsuka - 422 - Unprocessable Entity
 2026-11-02T13:10:00.194Z Greenhouse: withwaymo - 404 - Not Found
+2026-11-02T13:51:03.674Z Radancy: disney - 303 - See Other - /global/en
+2026-11-02T13:51:06.757Z Greenhouse: equipmentshare - 404 - Not Found
+2026-11-02T13:51:16.343Z Lever: firemon - 500 - Internal Server Error
+2026-11-02T13:51:23.831Z Greenhouse: hubspot - 404 - Not Found
+2026-11-02T13:51:33.917Z Eightfold: lockheedmartin - 429 - TOO MANY REQUESTS
+2026-11-02T13:51:46.716Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-11-02T13:52:33.206Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-11-02T13:52:33.285Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-11-02T13:52:37.423Z Greenhouse: withwaymo - 404 - Not Found

@@ -217,6 +217,55 @@
       "link": "https://careers.staples.com/en/job/framingham/sr-software-engineer-i-observability-platform/44412/102762131072",
       "location": "Framingham, MA",
       "country": "USA"
+    },
+    {
+      "company": "Capitalone",
+      "role": "102763448624 11/02/2026 Software Engineer - Stack (AWS, Java, JavaScript, TypeScript) McLean, VA",
+      "link": "https://www.capitalonecareers.com/job/mclean/software-engineer-stack-aws-java-javascript-typescript/1732/102763448624",
+      "location": "McLean, VA",
+      "country": "USA"
+    },
+    {
+      "company": "Jabil",
+      "role": "Sr Automation Engineer – Warehouse Automation Software, Integration & Digital Twin",
+      "link": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Sr-Automation-Engineer---Warehouse-Automation-Software--Integration---Digital-Twin_J2470718",
+      "location": "St. Petersburg/Tampa, FL",
+      "country": "USA"
+    },
+    {
+      "company": "Resmed",
+      "role": "Engineer, Software Engineering",
+      "link": "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/US-Field-Non-Sales-Remote-Workforce/Engineer--Software-Engineering_JR_054680",
+      "location": "US Field Non-Sales (Remote Workforce)",
+      "country": "USA"
+    },
+    {
+      "company": "Roche",
+      "role": "Software Engineering Expert",
+      "link": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/Software-Engineering-Expert_202610-125899",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "SAIC",
+      "role": "SIGINT Systems Engineer",
+      "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2613824",
+      "location": "Chantilly, VA, United States",
+      "country": "USA"
+    },
+    {
+      "company": "SAIC",
+      "role": "GEOINT Ground Software Systems Engineer",
+      "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2617002",
+      "location": "Chantilly, VA, United States",
+      "country": "USA"
+    },
+    {
+      "company": "Spgi",
+      "role": "Sr Platform Engineer",
+      "link": "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/Hyderabad-Telangana/Sr-Platform-Engineer_332498-1",
+      "location": "2 Locations",
+      "country": "Unsure"
     }
   ]
 }
