@@ -44,7 +44,7 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top">Nov 1</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SuperApp</td>
+      <td width="180" align="left" valign="top">Superapp</td>
       <td width="420" align="left" valign="top">New Grad 2027: Software Engineer</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/superapp/jobs/8813982002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -58,7 +58,7 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top">Oct 31</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">LiveFlow</td>
+      <td width="180" align="left" valign="top">Liveflow</td>
       <td width="420" align="left" valign="top">Graduate Engineer - AI Agents</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/liveflow/93a4d132-b68c-42d7-ace0-7975661130ba"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -142,7 +142,7 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top">Oct 30</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">BodySpec</td>
+      <td width="180" align="left" valign="top">Bodyspec.applytojob.com</td>
       <td width="420" align="left" valign="top">Junior Software Engineer</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
       <td width="120" align="left" valign="top"><a href="https://bodyspec.applytojob.com/apply/YsrsS9yEg7/Junior-Developer"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -226,7 +226,7 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Coherent Corp. US</td>
+      <td width="180" align="left" valign="top">Coherent corp. us</td>
       <td width="420" align="left" valign="top">Data Analyst - Project Management Support</td>
       <td width="180" align="left" valign="top">Budd Lake, NJ</td>
       <td width="120" align="left" valign="top"><a href="https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2015589"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-02T01:51:45.124Z</code>
+      🕒 Last updated <code>2026-11-02T10:22:45.711Z</code>
     </span>
   </p>
 </div>

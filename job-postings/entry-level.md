@@ -28,7 +28,7 @@
       <td width="120" align="left" valign="top">Nov 1</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SuperApp</td>
+      <td width="180" align="left" valign="top">Superapp</td>
       <td width="420" align="left" valign="top">New Grad 2027: Software Engineer</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/superapp/jobs/8813982002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -42,7 +42,7 @@
       <td width="120" align="left" valign="top">Oct 31</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">LiveFlow</td>
+      <td width="180" align="left" valign="top">Liveflow</td>
       <td width="420" align="left" valign="top">Graduate Engineer - AI Agents</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/liveflow/93a4d132-b68c-42d7-ace0-7975661130ba"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -126,7 +126,7 @@
       <td width="120" align="left" valign="top">Oct 30</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">BodySpec</td>
+      <td width="180" align="left" valign="top">Bodyspec.applytojob.com</td>
       <td width="420" align="left" valign="top">Junior Software Engineer</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
       <td width="120" align="left" valign="top"><a href="https://bodyspec.applytojob.com/apply/YsrsS9yEg7/Junior-Developer"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -210,7 +210,7 @@
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Coherent Corp. US</td>
+      <td width="180" align="left" valign="top">Coherent corp. us</td>
       <td width="420" align="left" valign="top">Data Analyst - Project Management Support</td>
       <td width="180" align="left" valign="top">Budd Lake, NJ</td>
       <td width="120" align="left" valign="top"><a href="https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2015589"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -350,7 +350,7 @@
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">StarTree</td>
+      <td width="180" align="left" valign="top">Startree</td>
       <td width="420" align="left" valign="top">Software Engineer 1</td>
       <td width="180" align="left" valign="top">Remote in USA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/startree/jobs/6235909004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -462,7 +462,7 @@
       <td width="120" align="left" valign="top">Oct 27</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="180" align="left" valign="top">Cummins talent acquisition</td>
       <td width="420" align="left" valign="top">Thermal and Fluid Systems Engineer</td>
       <td width="180" align="left" valign="top">Columbus, IN</td>
       <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2437920"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -511,7 +511,7 @@
       <td width="120" align="left" valign="top">Oct 26</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="180" align="left" valign="top">Cummins talent acquisition</td>
       <td width="420" align="left" valign="top">Electronic Systems Engineer - Software</td>
       <td width="180" align="left" valign="top">Columbus, IN</td>
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
@@ -581,14 +581,14 @@
       <td width="120" align="left" valign="top">Oct 23</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Verisk Careers | Verisk</td>
+      <td width="180" align="left" valign="top">Verisk careers | verisk</td>
       <td width="420" align="left" valign="top">Cloud FinOps Engineer</td>
       <td width="180" align="left" valign="top">Holmdel, NJ</td>
       <td width="120" align="left" valign="top"><a href="https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/5031"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 23</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="180" align="left" valign="top">Cummins talent acquisition</td>
       <td width="420" align="left" valign="top">IT Systems Engineer</td>
       <td width="180" align="left" valign="top">Columbus, IN</td>
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
@@ -910,7 +910,7 @@
       <td width="120" align="left" valign="top">Oct 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="180" align="left" valign="top">Cummins talent acquisition</td>
       <td width="420" align="left" valign="top">Structural and Dynamic Systems Engineer - Analytical</td>
       <td width="180" align="left" valign="top">Seymour, IN</td>
       <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2433949"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1085,7 +1085,7 @@
       <td width="120" align="left" valign="top">Oct 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Iawmqy.fa.ocs.oraclecloud.com</td>
+      <td width="180" align="left" valign="top">Dell</td>
       <td width="420" align="left" valign="top">2027 Software Engineer Campus Hire</td>
       <td width="180" align="left" valign="top">Taiwan</td>
       <td width="120" align="left" valign="top"><a href="https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299350"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1106,7 +1106,7 @@
       <td width="120" align="left" valign="top">Oct 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="180" align="left" valign="top">Cummins talent acquisition</td>
       <td width="420" align="left" valign="top">Combustion and Emissions Systems Engineer</td>
       <td width="180" align="left" valign="top">Columbus, IN</td>
       <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2434615"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1211,7 +1211,7 @@
       <td width="120" align="left" valign="top">Oct 16</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Iawmqy.fa.ocs.oraclecloud.com</td>
+      <td width="180" align="left" valign="top">Dell</td>
       <td width="420" align="left" valign="top">Software Quality Engineer 1</td>
       <td width="180" align="left" valign="top">Singapore</td>
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
@@ -1351,7 +1351,7 @@
       <td width="120" align="left" valign="top">Oct 14</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SirenOpt</td>
+      <td width="180" align="left" valign="top">Sirenopt</td>
       <td width="420" align="left" valign="top">Software Engineer - Early Career - C++ &amp; Systems</td>
       <td width="180" align="left" valign="top">San Leandro, CA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/sirenopt/jobs/4452002009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1442,7 +1442,7 @@
       <td width="120" align="left" valign="top">Oct 13</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TaxRise</td>
+      <td width="180" align="left" valign="top">Taxrise</td>
       <td width="420" align="left" valign="top">Junior Software Developer</td>
       <td width="180" align="left" valign="top">Irvine, CA</td>
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
@@ -1680,7 +1680,7 @@
       <td width="120" align="left" valign="top">Oct 9</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="180" align="left" valign="top">Cummins talent acquisition</td>
       <td width="420" align="left" valign="top">Combustion and Emissions Systems Engineer</td>
       <td width="180" align="left" valign="top">Seymour, IN</td>
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-02T01:51:45.124Z</code>
+      🕒 Last updated <code>2026-11-02T10:22:45.711Z</code>
     </span>
   </p>
 </div>
