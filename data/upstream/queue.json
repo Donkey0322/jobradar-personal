@@ -1,5 +1,5 @@
 {
-  "commit": "cfa5413022f56b1bf3c6201d6e8bf0fd971f3dd2",
+  "commit": "dbc1dfd990becb22a79309b7400c17acba14a18c",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -667,13 +667,6 @@
       "country": "Unsure"
     },
     {
-      "company": "Cvshealth",
-      "role": "Software Development Engineer",
-      "link": "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/IL---Work-from-home/Software-Development-Engineer_R1081535",
-      "location": "IL - Work from home",
-      "country": "USA"
-    },
-    {
       "company": "Dmainc",
       "role": "Data Engineer",
       "link": "https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Data-Engineer_REQ779",
@@ -688,31 +681,10 @@
       "country": "USA"
     },
     {
-      "company": "Dxctechnology",
-      "role": "Full Stack Java Developer",
-      "link": "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---TX---FORT-WORTH/Full-Stack-Java-Developer_51589706",
-      "location": "USA - TX - FORT WORTH",
-      "country": "USA"
-    },
-    {
       "company": "Evercommerce",
       "role": "EverPro - CX Business Systems Analyst (Remote, US)",
       "link": "https://evercommerce.wd1.myworkdayjobs.com/evercommerce_careers/job/Remote--US/EverPro---CX-Business-Systems-Analyst--Remote--US-_R-106592",
       "location": "Remote- US",
-      "country": "USA"
-    },
-    {
-      "company": "Exegy",
-      "role": "System Engineer",
-      "link": "https://jobs.ashbyhq.com/exegy/ecba4089-becd-4cd2-b484-068e3a7845ce",
-      "location": "St. Louis",
-      "country": "USA"
-    },
-    {
-      "company": "Freddiemac",
-      "role": "Software Engineering Professional",
-      "link": "https://freddiemac.wd5.myworkdayjobs.com/external/job/McLean-VA/Software-Engineering-Professional_JR17779",
-      "location": "McLean, VA",
       "country": "USA"
     },
     {
