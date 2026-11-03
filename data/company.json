@@ -3396,7 +3396,8 @@
       "https://amazon.jobs/en/jobs/3203794",
       "https://amazon.jobs/en/jobs/3205224",
       "https://amazon.jobs/en/jobs/3206077",
-      "https://amazon.jobs/en/jobs/3207720"
+      "https://amazon.jobs/en/jobs/3207720",
+      "https://www.amazon.jobs/en/jobs/10595839/software-development-engineer-embedded-systems-early-career-2027-us"
     ]
   },
   {
@@ -3508,6 +3509,7 @@
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015465",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015501",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015552",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015722",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015735",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015813"
     ]
@@ -5333,6 +5335,7 @@
       "https://jobs.apple.com/en-us/details/200692907-3543/cellular-power-optimization-software-engineer-wireless-technologies-ecosystems?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200692940-0157/frontend-engineer-ai-experiences-retail-and-marcom-engineering?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200693053-3956/ios-application-developer-health-software?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200693064-0836/machine-learning-engineer-siri-speech?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200693087-3337/software-engineer-visual-intelligence?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200693131-0865/software-engineer-tools-infrastructure-q?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200693135-0865/devops-engineer-for-embedded-systems-q?team=SFTWR"
@@ -5399,6 +5402,16 @@
     "domain": "https://apply.deloitte.com",
     "page": "",
     "urls": []
+  },
+  {
+    "name": "apply.workable.com",
+    "ats": "none",
+    "identifier": "apply.workable.com",
+    "domain": "https://apply.workable.com",
+    "page": "",
+    "urls": [
+      "https://apply.workable.com/amax-1/j/C8FD3B365F"
+    ]
   },
   {
     "name": "apptronik",
@@ -10709,6 +10722,7 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/Norco-CA-US/Data-Engineering-Analytics-Support_332939",
       "https://caci.wd1.myworkdayjobs.com/external/job/Norco-CA-US/Tableau-Data-Engineer_334516",
       "https://caci.wd1.myworkdayjobs.com/external/job/Norfolk-VA-US/Lead-Data-Analyst_331921",
+      "https://caci.wd1.myworkdayjobs.com/external/job/North-Charleston-SC-US/Software-Developer_334460",
       "https://caci.wd1.myworkdayjobs.com/external/job/Oklahoma-City-OK-US/Data-Engineer_333248",
       "https://caci.wd1.myworkdayjobs.com/external/job/Oklahoma-City-OK-US/SAP-Business-Systems-Analyst_328095",
       "https://caci.wd1.myworkdayjobs.com/external/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085",
@@ -11853,6 +11867,7 @@
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Machine-Learning-Engineer-4--Python--AWS--SQL--GenAI---Enterprise-Platforms-Technology-_R1001517-1",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Machine-Learning-Engineer-4--Python--AWS--SQL--GenAI---Enterprise-Platforms-Technology-_R1001520-1",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Machine-Learning-Engineer-4_R1003405-1",
+      "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Machine-Learning-Engineer-5_R1001829-1",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Nottingham--Eng/Data-Scientist---Model-Developer---Statistician_R249737",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Data-Engineer-4--Auto-Data-Platforms_R1003878-1",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Data-Engineer-4--Real-time-Data-Platform_R1003879-1",
@@ -21510,6 +21525,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/101696716188590790-search-ads-research-data-scientist?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/101711965469975238-research-scientist-humanai-interaction-deepmind?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/102217635592053446-customer-engineer-platform-federal-financials-google-public-sector?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/102684804285113030-research-data-scientist-ads-insights?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/102783864753005254-customer-engineer-platform-startups-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/102986499162546886-software-engineer-infrastructure-search-platforms?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/103235350372983494-cloud-engineer-data-and-ai-google-cloud?sort_by=date&page=4",
@@ -23504,7 +23520,8 @@
       "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Kentucky/Cloud-Solutions-Engineer_R-434477",
       "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Kentucky/Cloud-Solutions-Engineer_R-434482",
       "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Kentucky/Site-Reliability-Engineer_R-432803",
-      "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Kentucky/Software-Engineer_R-434202-1"
+      "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Kentucky/Software-Engineer_R-434202-1",
+      "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Nationwide/Sr-Technical-Security-Product-Owner--DevSecOps-Engineering-_R-433124"
     ]
   },
   {
@@ -24971,6 +24988,7 @@
     "urls": [
       "https://www.janestreet.com/join-jane-street/apply/4274288002?gh_jid=4274288002",
       "https://www.janestreet.com/join-jane-street/apply/4274814002?gh_jid=4274814002",
+      "https://www.janestreet.com/join-jane-street/apply/4276720002?gh_jid=4276720002",
       "https://www.janestreet.com/join-jane-street/apply/4756741002?gh_jid=4756741002",
       "https://www.janestreet.com/join-jane-street/apply/5002846002?gh_jid=5002846002",
       "https://www.janestreet.com/join-jane-street/apply/5791948002?gh_jid=5791948002",
@@ -24978,15 +24996,27 @@
       "https://www.janestreet.com/join-jane-street/apply/6184529002?gh_jid=6184529002",
       "https://www.janestreet.com/join-jane-street/apply/6236002002?gh_jid=6236002002",
       "https://www.janestreet.com/join-jane-street/apply/6300684002?gh_jid=6300684002",
+      "https://www.janestreet.com/join-jane-street/apply/6485460002?gh_jid=6485460002",
       "https://www.janestreet.com/join-jane-street/apply/6558007002?gh_jid=6558007002",
       "https://www.janestreet.com/join-jane-street/apply/7229633002?gh_jid=7229633002",
+      "https://www.janestreet.com/join-jane-street/apply/7449077002?gh_jid=7449077002",
       "https://www.janestreet.com/join-jane-street/apply/7604415002?gh_jid=7604415002",
+      "https://www.janestreet.com/join-jane-street/apply/7642974002?gh_jid=7642974002",
       "https://www.janestreet.com/join-jane-street/apply/7668113002?gh_jid=7668113002",
+      "https://www.janestreet.com/join-jane-street/apply/8057314002?gh_jid=8057314002",
+      "https://www.janestreet.com/join-jane-street/apply/8121906002?gh_jid=8121906002",
+      "https://www.janestreet.com/join-jane-street/apply/8155302002?gh_jid=8155302002",
       "https://www.janestreet.com/join-jane-street/apply/8464007002?gh_jid=8464007002",
+      "https://www.janestreet.com/join-jane-street/apply/8480752002?gh_jid=8480752002",
+      "https://www.janestreet.com/join-jane-street/apply/8515327002?gh_jid=8515327002",
+      "https://www.janestreet.com/join-jane-street/apply/8576928002?gh_jid=8576928002",
       "https://www.janestreet.com/join-jane-street/apply/8589868002?gh_jid=8589868002",
       "https://www.janestreet.com/join-jane-street/apply/8594541002?gh_jid=8594541002",
+      "https://www.janestreet.com/join-jane-street/apply/8596433002?gh_jid=8596433002",
+      "https://www.janestreet.com/join-jane-street/apply/8613910002?gh_jid=8613910002",
       "https://www.janestreet.com/join-jane-street/apply/8617298002?gh_jid=8617298002",
       "https://www.janestreet.com/join-jane-street/apply/8632392002?gh_jid=8632392002",
+      "https://www.janestreet.com/join-jane-street/apply/8632723002?gh_jid=8632723002",
       "https://www.janestreet.com/join-jane-street/apply/8637960002?gh_jid=8637960002",
       "https://www.janestreet.com/join-jane-street/apply/8646746002?gh_jid=8646746002",
       "https://www.janestreet.com/join-jane-street/apply/8647260002?gh_jid=8647260002",
@@ -29296,6 +29326,16 @@
   },
   {
     "name": "micron",
+    "ats": "eightfold",
+    "identifier": "micron",
+    "domain": "micron.com",
+    "page": "https://micron.eightfold.ai/api/pcsx/search?domain=micron.com",
+    "urls": [
+      "https://micron.eightfold.ai/careers/job/45284309"
+    ]
+  },
+  {
+    "name": "micron",
     "ats": "workday",
     "identifier": "micron-external",
     "domain": "https://micron.wd1.myworkdayjobs.com/External",
@@ -31362,6 +31402,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Beavercreek/Engineer-Embedded-Software_R10251968",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Beavercreek/Software-Engineer--AHT-_R10257086",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Beavercreek/XMLNAME-2027-Associate-Embedded-Software-Engineer-Beavercreek-Ohio_R10256623",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/Classified-Cybersecurity-Analyst_R10258980",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/Cyber-Software-Engineer_R10242662",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/Cyber-Software-Engineer_R10247383",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/Cyber-Software-Test-Engineer_R10255011",
@@ -35726,6 +35767,7 @@
     "domain": "https://regions.wd5.myworkdayjobs.com/regions_careers",
     "page": "https://regions.wd5.myworkdayjobs.com/wday/cxs/regions/regions_careers/jobs",
     "urls": [
+      "https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/Cyber-Security-Analyst_R106696",
       "https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/Data-and-Analytics-Developer_R106997-1",
       "https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/Software-Engineer---Mainframe-COBOL_R105440"
     ]
@@ -36637,6 +36679,16 @@
     "urls": [
       "https://jobs.lever.co/rosaiclabs/740b53d3-dd36-41fb-b49c-ab7f97505aa8",
       "https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab"
+    ]
+  },
+  {
+    "name": "rotheramarketsllc",
+    "ats": "greenhouse",
+    "identifier": "rotheramarketsllc",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/rotheramarketsllc/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/rotheramarketsllc/jobs/4401091009"
     ]
   },
   {
@@ -37797,7 +37849,8 @@
       "https://careers-scires.icims.com/jobs/11664/sr-software-developer/job",
       "https://careers-scires.icims.com/jobs/11678/data-analyst/job",
       "https://careers-scires.icims.com/jobs/11726/full-stack-developer/job",
-      "https://careers-scires.icims.com/jobs/11737/ai-ml-developer/job"
+      "https://careers-scires.icims.com/jobs/11737/ai-ml-developer/job",
+      "https://careers-scires.icims.com/jobs/11748/security-engineer/job"
     ]
   },
   {
@@ -38341,6 +38394,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/shield",
     "urls": [
+      "https://jobs.ashbyhq.com/shield/986a26e9-0597-4402-85ee-0f05a6012902",
+      "https://jobs.ashbyhq.com/shield/c0735824-2b3c-46a2-a888-99e7376a9606",
       "https://jobs.ashbyhq.com/shield/db04c516-d21a-449c-8bfd-1cf830eafb5a"
     ]
   },
@@ -41676,7 +41731,8 @@
       "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4706625005",
       "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4724459005",
       "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4744538005",
-      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4748483005"
+      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4748483005",
+      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4750496005"
     ]
   },
   {
