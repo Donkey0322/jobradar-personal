@@ -14,6 +14,55 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Medpace</td>
+      <td width="420" align="left" valign="top">Business Intelligence Analyst - Data Engineering</td>
+      <td width="180" align="left" valign="top">Cincinnati, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12564?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">TRC Companies</td>
+      <td width="420" align="left" valign="top">System Protection Engineer I</td>
+      <td width="180" align="left" valign="top">Augusta, ME</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.trccompanies.com/jobs/27382?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Medpace</td>
+      <td width="420" align="left" valign="top">Junior Software Engineer</td>
+      <td width="180" align="left" valign="top">Cincinnati, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12385?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Junior Data Engineer</td>
+      <td width="180" align="left" valign="top">Cincinnati, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12454?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Associate, Software Engineering</td>
+      <td width="180" align="left" valign="top">Waco, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Waco-Associate%2C-Software-Engineering-TX-76705/1422532000/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Associate, Software Engineering</td>
+      <td width="180" align="left" valign="top">Clifton, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Clifton-Associate%2C-Software-Engineering-NJ-07014/1428597700/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Micron</td>
+      <td width="420" align="left" valign="top">New College Grad: Engineer, Edge Systems Architecture</td>
+      <td width="180" align="left" valign="top">Boise, ID</td>
+      <td width="120" align="left" valign="top"><a href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/New-College-Grad--Engineer--Edge-Systems-Architecture_JR116433"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Centene</td>
       <td width="420" align="left" valign="top">Cloud Platform Engineer I</td>
       <td width="180" align="left" valign="top">Remote, USA</td>
@@ -404,13 +453,6 @@
       <td width="180" align="left" valign="top">Milpitas, CA</td>
       <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Software-Engineer---Distributed-Computing_2642720"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Neon</td>
-      <td width="420" align="left" valign="top">New Grad 2027: Software Engineer, Distributed Data Systems</td>
-      <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.databricks.com/company/careers/university-recruiting---engineering/software-engineer---new-grad-distributed-data-systems-2027-start-6865704002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Rubrik Job Board</td>
@@ -2071,51 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7668221440984811829"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer - AI Agent Infra Graduate (Security Engineering) - 2027 Start</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7667976924430633269"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Development Engineer-AI/LLM Network-Global Frontier Tech Research Program-2027 Start (PhD)</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7631372899367340293"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Test Software Engineer Graduate (Douyin Research and Development Middle Platform) - 2027 Start</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7664894974764828981"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Data Center Site Acquisition Specialist Graduate (Data Center Development) - 2027 Start</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7667265475348924725"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer Graduate (Global Payment-Payment Product and Solution) - 2027 Start</td>
-      <td width="180" align="left" valign="top">Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7668651000437180677"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">LLM Backend Engineer Graduate (Applied Machine Learning) - 2027 Start</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7667730992538585349"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,232.</sub></p>
+<p><sub>Showing 300 of 1,236.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-03T13:25:59.821Z</code>
+      🕒 Last updated <code>2026-11-03T13:44:48.554Z</code>
     </span>
   </p>
 </div>

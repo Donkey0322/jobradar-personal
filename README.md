@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C232-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C236-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--11--03-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,232
+- [Entry Level](./job-postings/entry-level.md) — 1,236
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,55 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Medpace</td>
+      <td width="420" align="left" valign="top">Business Intelligence Analyst - Data Engineering</td>
+      <td width="180" align="left" valign="top">Cincinnati, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12564?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">TRC Companies</td>
+      <td width="420" align="left" valign="top">System Protection Engineer I</td>
+      <td width="180" align="left" valign="top">Augusta, ME</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.trccompanies.com/jobs/27382?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Medpace</td>
+      <td width="420" align="left" valign="top">Junior Software Engineer</td>
+      <td width="180" align="left" valign="top">Cincinnati, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12385?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Junior Data Engineer</td>
+      <td width="180" align="left" valign="top">Cincinnati, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12454?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Associate, Software Engineering</td>
+      <td width="180" align="left" valign="top">Waco, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Waco-Associate%2C-Software-Engineering-TX-76705/1422532000/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Associate, Software Engineering</td>
+      <td width="180" align="left" valign="top">Clifton, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Clifton-Associate%2C-Software-Engineering-NJ-07014/1428597700/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Micron</td>
+      <td width="420" align="left" valign="top">New College Grad: Engineer, Edge Systems Architecture</td>
+      <td width="180" align="left" valign="top">Boise, ID</td>
+      <td width="120" align="left" valign="top"><a href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/New-College-Grad--Engineer--Edge-Systems-Architecture_JR116433"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Centene</td>
       <td width="420" align="left" valign="top">Cloud Platform Engineer I</td>
@@ -190,58 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/superapp/jobs/8813982002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Relling</td>
-      <td width="420" align="left" valign="top">New Grad: Robotics Software Engineer</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/relling/a31f91ae-30f9-4e36-b9d2-2cb74c398d2e"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Liveflow</td>
-      <td width="420" align="left" valign="top">Graduate Engineer - AI Agents</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/liveflow/93a4d132-b68c-42d7-ace0-7975661130ba"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Goaly</td>
-      <td width="420" align="left" valign="top">Applied AI Engineer</td>
-      <td width="180" align="left" valign="top">Palo Alto, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/goaly/ff6ec280-f5c6-4151-8bfd-e75ff8004c89"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">endeavorai.com</td>
-      <td width="420" align="left" valign="top">Forward Deployed Engineer</td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/endeavorai/e397ddef-2102-40e5-82e8-cd1e126f9da8"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="NVIDIA" src="./assets/featured-badges/nvidia.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer, Hardware Tools and Methodology (Master&#39;s)</td>
-      <td width="180" align="left" valign="top">Santa Clara, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Visa</td>
-      <td width="420" align="left" valign="top">Software Development Engineer- Product Reliability Engineering<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Development-Engineer--Product-Reliability-Engineering_REF081637W"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 30</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Thermofisher</td>
-      <td width="420" align="left" valign="top">Systems Design Engineer - Bioengineering</td>
-      <td width="180" align="left" valign="top">Pleasanton, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Pleasanton-California-USA/Eng-III--Systems-Design---Bioengineering--MS-PhD-_R-01372562"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 30</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,232.</sub></p>
+<p><sub>Showing 30 of 1,236.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-03T13:25:59.821Z</code>
+      🕒 Last updated <code>2026-11-03T13:44:48.554Z</code>
     </span>
   </p>
 </div>
