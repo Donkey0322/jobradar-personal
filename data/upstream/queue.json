@@ -1,5 +1,5 @@
 {
-  "commit": "d91cd7d6bc0f1fe9a46f659d2344a60cecab99aa",
+  "commit": "f828878dbc85a471e76d34b54ad8d614603e679a",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -245,13 +245,6 @@
       "link": "https://www.capitalonecareers.com/job/chicago/full-stack-engineer-4/1732/102806228640",
       "location": "Chicago, IL",
       "country": "USA"
-    },
-    {
-      "company": "Cardinalhealth",
-      "role": "Analyst, Data Engineering",
-      "link": "https://cardinalhealth.wd1.myworkdayjobs.com/ext/job/IND07/Analyst--Data-Engineering_20189397",
-      "location": "IND07",
-      "country": "Unsure"
     },
     {
       "company": "Impulse Space",
@@ -681,38 +674,10 @@
       "country": "USA"
     },
     {
-      "company": "Peraton",
-      "role": "Systems Engineer – Aviation Weather & NAS Integration",
-      "link": "https://careers-peraton.icims.com/jobs/173093/systems-engineer-%e2%80%93-aviation-weather-%26-nas-integration/job",
-      "location": "Unsure",
-      "country": "Unsure"
-    },
-    {
       "company": "SAIC",
       "role": "Digital Engineer Software",
       "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618726",
       "location": "San Diego, CA, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Trinzic",
-      "role": "Model Based Systems Engineer (MBSE)",
-      "link": "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Beavercreek-Ohio/Model-Based-Systems-Engineer--MBSE-_R3001170",
-      "location": "Beavercreek, Ohio",
-      "country": "USA"
-    },
-    {
-      "company": "Unitedhealthgroup",
-      "role": "Software Engineer 2390176 | Eden Prairie, Minnesota | Remote",
-      "link": "https://careers.unitedhealthgroup.com/job/eden-prairie/software-engineer/34088/102787386720",
-      "location": "Eden Prairie, Minnesota",
-      "country": "USA"
-    },
-    {
-      "company": "Unitedhealthgroup",
-      "role": "Sr Bus Systems Analyst 2388413 | San Antonio, Texas | Remote",
-      "link": "https://careers.unitedhealthgroup.com/job/san-antonio/sr-bus-systems-analyst/34088/101749061696",
-      "location": "San Antonio, Texas",
       "country": "USA"
     },
     {
