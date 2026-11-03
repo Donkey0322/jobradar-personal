@@ -28,6 +28,13 @@
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">BCG</td>
+      <td width="420" align="left" valign="top">Forward Deployed AI Scientist (For 2027 intake)</td>
+      <td width="180" align="left" valign="top">Singapore</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.bcg.com/global/en/job/59185?ph_id=59185"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Medpace</td>
       <td width="420" align="left" valign="top">Junior Software Engineer</td>
       <td width="180" align="left" valign="top">Cincinnati, OH</td>
@@ -2106,16 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7667839080812136709"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Front-end Development Software Engineer Graduate (BytePlus) - 2027 Start</td>
-      <td width="180" align="left" valign="top">Singapore, Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7668221440984811829"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,236.</sub></p>
+<p><sub>Showing 300 of 1,237.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-03T13:44:48.554Z</code>
+      🕒 Last updated <code>2026-11-03T13:52:38.440Z</code>
     </span>
   </p>
 </div>

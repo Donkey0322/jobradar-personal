@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C236-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C237-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--11--03-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,236
+- [Entry Level](./job-postings/entry-level.md) — 1,237
 
 ## The List 🚴‍♂️
 
@@ -41,6 +41,13 @@ Each category page shows up to 300 of the latest roles.
       <td width="420" align="left" valign="top">System Protection Engineer I</td>
       <td width="180" align="left" valign="top">Augusta, ME</td>
       <td width="120" align="left" valign="top"><a href="https://careers.trccompanies.com/jobs/27382?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">BCG</td>
+      <td width="420" align="left" valign="top">Forward Deployed AI Scientist (For 2027 intake)</td>
+      <td width="180" align="left" valign="top">Singapore</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.bcg.com/global/en/job/59185?ph_id=59185"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
     <tr>
@@ -232,16 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052122"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Superapp</td>
-      <td width="420" align="left" valign="top">New Grad 2027: Software Engineer</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/superapp/jobs/8813982002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,236.</sub></p>
+<p><sub>Showing 30 of 1,237.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-03T13:44:48.554Z</code>
+      🕒 Last updated <code>2026-11-03T13:52:38.440Z</code>
     </span>
   </p>
 </div>
