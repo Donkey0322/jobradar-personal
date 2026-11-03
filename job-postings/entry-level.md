@@ -266,7 +266,7 @@
       <td width="120" align="left" valign="top">Oct 30</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Bodyspec.applytojob.com</td>
+      <td width="180" align="left" valign="top">BodySpec</td>
       <td width="420" align="left" valign="top">Junior Software Engineer</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
       <td width="120" align="left" valign="top"><a href="https://bodyspec.applytojob.com/apply/YsrsS9yEg7/Junior-Developer"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-03T07:22:35.847Z</code>
+      🕒 Last updated <code>2026-11-03T13:25:59.821Z</code>
     </span>
   </p>
 </div>
