@@ -4229,14 +4229,6 @@
     ]
   },
   {
-    "name": "app.ripplematch.com",
-    "ats": "none",
-    "identifier": "app.ripplematch.com",
-    "domain": "https://app.ripplematch.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "appian",
     "ats": "greenhouse",
     "identifier": "appian",
@@ -6021,6 +6013,14 @@
     "urls": []
   },
   {
+    "name": "Atlas Copco Group",
+    "ats": "successfactors",
+    "identifier": "jobs.atlascopcogroup.com",
+    "domain": "https://www.jobs.atlascopcogroup.com",
+    "page": "https://www.jobs.atlascopcogroup.com/services/rss/job/?locale=en_US",
+    "urls": []
+  },
+  {
     "name": "atlassand",
     "ats": "greenhouse",
     "identifier": "atlassand",
@@ -6142,14 +6142,6 @@
     "urls": [
       "https://jobs.ashbyhq.com/aurora-operations-inc/184a9c82-e6a2-4f8a-b288-f82ab2a53d2a"
     ]
-  },
-  {
-    "name": "aurora.tech",
-    "ats": "none",
-    "identifier": "aurora.tech",
-    "domain": "https://aurora.tech",
-    "page": "",
-    "urls": []
   },
   {
     "name": "authenticinsurance",
@@ -8151,6 +8143,14 @@
     "identifier": "bmo-privileged",
     "domain": "https://bmo.wd3.myworkdayjobs.com/privileged",
     "page": "https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/privileged/jobs",
+    "urls": []
+  },
+  {
+    "name": "BMW Group",
+    "ats": "successfactors",
+    "identifier": "jobs.bmwgroup.com",
+    "domain": "https://jobs.bmwgroup.com",
+    "page": "https://jobs.bmwgroup.com/services/rss/job/?locale=en_US",
     "urls": []
   },
   {
@@ -12033,43 +12033,11 @@
     "urls": []
   },
   {
-    "name": "career.innovativesystems.com",
-    "ats": "none",
-    "identifier": "career.innovativesystems.com",
-    "domain": "https://career.innovativesystems.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "career4.successfactors.com",
-    "ats": "none",
-    "identifier": "career4.successfactors.com",
-    "domain": "https://career4.successfactors.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "career41.sapsf.com",
-    "ats": "none",
-    "identifier": "career41.sapsf.com",
-    "domain": "https://career41.sapsf.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "Careers at Atlantic Health System",
     "ats": "oraclecloud",
     "identifier": "erqh.fa.us2.oraclecloud.com",
     "domain": "https://erqh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job",
     "page": "https://erqh.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": []
-  },
-  {
-    "name": "careers.adobe.com",
-    "ats": "none",
-    "identifier": "careers.adobe.com",
-    "domain": "https://careers.adobe.com",
-    "page": "",
     "urls": []
   },
   {
@@ -12540,6 +12508,14 @@
     "urls": []
   },
   {
+    "name": "careers.docusign.com",
+    "ats": "icims",
+    "identifier": "careers.docusign.com",
+    "domain": "https://careers.docusign.com",
+    "page": "https://careers.docusign.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "careers.freddiemac.com",
     "ats": "phenom",
     "identifier": "careers.freddiemac.com",
@@ -12564,14 +12540,6 @@
     "identifier": "careers.hellofresh.com",
     "domain": "https://careers.hellofresh.com",
     "page": "https://careers.hellofresh.com",
-    "urls": []
-  },
-  {
-    "name": "careers.homeofindustrialideas.com",
-    "ats": "none",
-    "identifier": "careers.homeofindustrialideas.com",
-    "domain": "https://www.careers.homeofindustrialideas.com",
-    "page": "",
     "urls": []
   },
   {
@@ -12946,14 +12914,6 @@
     "urls": []
   },
   {
-    "name": "careers.nintendo.com",
-    "ats": "none",
-    "identifier": "careers.nintendo.com",
-    "domain": "https://careers.nintendo.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.oshkoshcorp.com",
     "ats": "phenom",
     "identifier": "careers.oshkoshcorp.com",
@@ -13022,16 +12982,6 @@
     "page": "https://careers.qualitestgroup.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://careers.qualitestgroup.com/job/Santa-Clara-Digital-Engineering-CoE-Intern-CA-95054/54914944/?ats=successfactors"
-    ]
-  },
-  {
-    "name": "careers.skyworksinc.com",
-    "ats": "none",
-    "identifier": "careers.skyworksinc.com",
-    "domain": "https://careers.skyworksinc.com",
-    "page": "",
-    "urls": [
-      "https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100"
     ]
   },
   {
@@ -13149,14 +13099,6 @@
     "urls": [
       "https://careers.zimmerbiomet.com/us/en/job/13309"
     ]
-  },
-  {
-    "name": "careers.zurich.com",
-    "ats": "none",
-    "identifier": "careers.zurich.com",
-    "domain": "https://www.careers.zurich.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "careersen-mackenzieinvestments",
@@ -17716,14 +17658,6 @@
     ]
   },
   {
-    "name": "ensono.com",
-    "ats": "none",
-    "identifier": "ensono.com",
-    "domain": "https://www.ensono.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "entegris",
     "ats": "workday",
     "identifier": "entegris-entegriscareers",
@@ -20867,6 +20801,14 @@
     "urls": []
   },
   {
+    "name": "GeoSpectrum Technologies, Inc",
+    "ats": "bamboohr",
+    "identifier": "geospectrum",
+    "domain": "https://geospectrum.bamboohr.com",
+    "page": "https://geospectrum.bamboohr.com/careers/list",
+    "urls": []
+  },
+  {
     "name": "getbuilt",
     "ats": "greenhouse",
     "identifier": "getbuilt",
@@ -20978,6 +20920,14 @@
       "https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375",
       "https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Transportation-Routing--_R-58374"
     ]
+  },
+  {
+    "name": "ghr",
+    "ats": "workday",
+    "identifier": "ghr-lateral-us",
+    "domain": "https://ghr.wd1.myworkdayjobs.com/Lateral-US",
+    "page": "https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs",
+    "urls": []
   },
   {
     "name": "ghr",
@@ -21813,14 +21763,6 @@
     "urls": [
       "https://jobs.ashbyhq.com/gritt/46af6e69-40fc-4e53-940e-a99757137523"
     ]
-  },
-  {
-    "name": "grnh.se",
-    "ats": "none",
-    "identifier": "grnh.se",
-    "domain": "https://grnh.se",
-    "page": "",
-    "urls": []
   },
   {
     "name": "group.bnpparibas",
@@ -23241,9 +23183,9 @@
   {
     "name": "hubspot",
     "ats": "greenhouse",
-    "identifier": "hubspot",
+    "identifier": "hubspotjobs",
     "domain": "https://www.hubspot.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hubspot/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hubspotjobs/jobs",
     "urls": []
   },
   {
@@ -23650,7 +23592,7 @@
     ]
   },
   {
-    "name": "imc",
+    "name": "IMC",
     "ats": "greenhouse",
     "identifier": "imc",
     "domain": "https://job-boards.eu.greenhouse.io",
@@ -23935,9 +23877,9 @@
   {
     "name": "Innovative Systems",
     "ats": "jazzhr",
-    "identifier": "innovativesystems.applytojob.com",
-    "domain": "http://innovativesystems.applytojob.com",
-    "page": "http://innovativesystems.applytojob.com/apply/jobs",
+    "identifier": "career.innovativesystems.com",
+    "domain": "https://career.innovativesystems.com",
+    "page": "https://career.innovativesystems.com/apply/jobs",
     "urls": []
   },
   {
@@ -24181,8 +24123,8 @@
     "name": "IntelliGenesis",
     "ats": "jazzhr",
     "identifier": "intelligenesis.applytojob.com",
-    "domain": "http://intelligenesis.applytojob.com",
-    "page": "http://intelligenesis.applytojob.com/apply/jobs",
+    "domain": "https://intelligenesis.applytojob.com",
+    "page": "https://intelligenesis.applytojob.com/apply/jobs",
     "urls": []
   },
   {
@@ -24196,11 +24138,11 @@
     ]
   },
   {
-    "name": "Interact Software",
-    "ats": "pinpoint",
-    "identifier": "interactsoftware",
-    "domain": "https://interactsoftware.pinpointhq.com",
-    "page": "https://interactsoftware.pinpointhq.com/postings.json",
+    "name": "interactsoftware",
+    "ats": "workday",
+    "identifier": "interactsoftware-external",
+    "domain": "https://interactsoftware.wd502.myworkdayjobs.com/External",
+    "page": "https://interactsoftware.wd502.myworkdayjobs.com/wday/cxs/interactsoftware/External/jobs",
     "urls": []
   },
   {
@@ -25043,14 +24985,6 @@
     ]
   },
   {
-    "name": "jobs.bmwgroup.com",
-    "ats": "none",
-    "identifier": "jobs.bmwgroup.com",
-    "domain": "https://jobs.bmwgroup.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "jobs.coxenterprises.com",
     "ats": "none",
     "identifier": "jobs.coxenterprises.com",
@@ -25084,14 +25018,6 @@
       "https://jobs.danaher.com/global/en/job/R1320726?ph_id=R1320726",
       "https://jobs.danaher.com/global/en/job/R1321955?ph_id=R1321955"
     ]
-  },
-  {
-    "name": "jobs.dayforcehcm.com",
-    "ats": "none",
-    "identifier": "jobs.dayforcehcm.com",
-    "domain": "https://jobs.dayforcehcm.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "jobs.ea.com",
@@ -25192,16 +25118,6 @@
     "domain": "https://jobs.sap.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "jobs.sick.com",
-    "ats": "none",
-    "identifier": "jobs.sick.com",
-    "domain": "https://jobs.sick.com",
-    "page": "",
-    "urls": [
-      "https://jobs.sick.com/usa/job/Canton-Software-Engineering-Internship-(AIML)-MA-02021/37406-en_US/"
-    ]
   },
   {
     "name": "jobs.siemens.com",
@@ -27362,14 +27278,6 @@
     ]
   },
   {
-    "name": "lockheedmartinjobs.com",
-    "ats": "none",
-    "identifier": "lockheedmartinjobs.com",
-    "domain": "https://www.lockheedmartinjobs.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "locusrobotics",
     "ats": "greenhouse",
     "identifier": "locusrobotics",
@@ -27508,6 +27416,14 @@
     ]
   },
   {
+    "name": "lumafield",
+    "ats": "lever",
+    "identifier": "lumafield",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/lumafield?mode=json",
+    "urls": []
+  },
+  {
     "name": "lumafield.com",
     "ats": "none",
     "identifier": "lumafield.com",
@@ -27517,6 +27433,14 @@
       "https://www.lumafield.com/careers/job?id=f4301925-6a92-458c-961e-f9560f058df8",
       "https://www.lumafield.com/careers/job?id=fcef5035-421a-4c2e-a79a-b687401a1efe"
     ]
+  },
+  {
+    "name": "lumen",
+    "ats": "eightfold",
+    "identifier": "lumen",
+    "domain": "lumen.com",
+    "page": "https://careers.lumen.com/api/pcsx/search?domain=lumen.com",
+    "urls": []
   },
   {
     "name": "Lumen Technologies",
@@ -30103,14 +30027,6 @@
     ]
   },
   {
-    "name": "myjobs.adp.com",
-    "ats": "none",
-    "identifier": "myjobs.adp.com",
-    "domain": "https://myjobs.adp.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "myview",
     "ats": "workday",
     "identifier": "myview-paradox_careers",
@@ -31159,6 +31075,14 @@
     "identifier": "ninjatrader",
     "domain": "https://ninjatrader.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/ninjatrader/jobs",
+    "urls": []
+  },
+  {
+    "name": "nintendo",
+    "ats": "greenhouse",
+    "identifier": "nintendo",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/nintendo/jobs",
     "urls": []
   },
   {
@@ -32384,6 +32308,14 @@
     ]
   },
   {
+    "name": "optiver",
+    "ats": "greenhouse",
+    "identifier": "optiverus",
+    "domain": "https://www.optiver.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/optiverus/jobs",
+    "urls": []
+  },
+  {
     "name": "optiverprivate",
     "ats": "greenhouse",
     "identifier": "optiverprivate",
@@ -32393,14 +32325,6 @@
       "https://job-boards.greenhouse.io/optiverprivate/jobs/6916879002",
       "https://job-boards.greenhouse.io/optiverprivate/jobs/7038301002"
     ]
-  },
-  {
-    "name": "optiverus",
-    "ats": "greenhouse",
-    "identifier": "optiverus",
-    "domain": "https://optiver.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/optiverus/jobs",
-    "urls": []
   },
   {
     "name": "Oracle",
@@ -33132,14 +33056,6 @@
     ]
   },
   {
-    "name": "paycomonline.net",
-    "ats": "none",
-    "identifier": "paycomonline.net",
-    "domain": "https://www.paycomonline.net",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "paypal",
     "ats": "eightfold",
     "identifier": "paypal",
@@ -33198,6 +33114,14 @@
       "https://job-boards.greenhouse.io/pdtpartners/jobs/8083292",
       "https://job-boards.greenhouse.io/pdtpartners/jobs/8237144"
     ]
+  },
+  {
+    "name": "peak6",
+    "ats": "workday",
+    "identifier": "peak6group-peak6",
+    "domain": "https://peak6group.wd1.myworkdayjobs.com/PEAK6",
+    "page": "https://peak6group.wd1.myworkdayjobs.com/wday/cxs/peak6group/PEAK6/jobs",
+    "urls": []
   },
   {
     "name": "peak6group",
@@ -33709,6 +33633,14 @@
       "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/27309",
       "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/27310"
     ]
+  },
+  {
+    "name": "physicalreasoning.ai",
+    "ats": "none",
+    "identifier": "physicalreasoning.ai",
+    "domain": "https://physicalreasoning.ai",
+    "page": "",
+    "urls": []
   },
   {
     "name": "pimco",
@@ -35703,14 +35635,6 @@
       "https://jobs.ashbyhq.com/revel/f080b27d-92c7-4e1f-a85f-b4a7c166d738",
       "https://jobs.ashbyhq.com/revel/f8eec1fd-da28-47ce-bca4-2fbe9c48a889"
     ]
-  },
-  {
-    "name": "revolutioncompany",
-    "ats": "icims",
-    "identifier": "revolutioncompany",
-    "domain": "https://careers-revolutioncompany.icims.com",
-    "page": "https://careers-revolutioncompany.icims.com/jobs/search",
-    "urls": []
   },
   {
     "name": "revvity",
@@ -37866,11 +37790,11 @@
     ]
   },
   {
-    "name": "sharpusa",
-    "ats": "icims",
-    "identifier": "sharpusa",
-    "domain": "https://careers-sharpusa.icims.com",
-    "page": "https://careers-sharpusa.icims.com/jobs/search",
+    "name": "sharpelectronics",
+    "ats": "greenhouse",
+    "identifier": "sharpelectronics",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/sharpelectronics/jobs",
     "urls": []
   },
   {
@@ -37966,6 +37890,16 @@
     "urls": [
       "https://jobs.lever.co/shyftlabs/4547a228-9cd7-4af6-9588-5cd4c8ae1612",
       "https://jobs.lever.co/shyftlabs/4f389ea7-9b98-4ed0-99c2-b25ea8cc2dcd/apply"
+    ]
+  },
+  {
+    "name": "SICK",
+    "ats": "successfactors",
+    "identifier": "jobs.sick.com",
+    "domain": "https://jobs.sick.com",
+    "page": "https://jobs.sick.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.sick.com/usa/job/Canton-Software-Engineering-Internship-(AIML)-MA-02021/37406-en_US/"
     ]
   },
   {
@@ -38200,14 +38134,6 @@
     ]
   },
   {
-    "name": "simplify.jobs",
-    "ats": "none",
-    "identifier": "simplify.jobs",
-    "domain": "https://simplify.jobs",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "simplisafe",
     "ats": "greenhouse",
     "identifier": "simplisafe",
@@ -38348,6 +38274,16 @@
       "https://jobs.smartrecruiters.com/Skyward1/744000107535692",
       "https://jobs.smartrecruiters.com/Skyward1/744000147320799",
       "https://jobs.smartrecruiters.com/Skyward1/744000147336520"
+    ]
+  },
+  {
+    "name": "Skyworks",
+    "ats": "successfactors",
+    "identifier": "careers.skyworksinc.com",
+    "domain": "https://careers.skyworksinc.com",
+    "page": "https://careers.skyworksinc.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100"
     ]
   },
   {
@@ -39405,10 +39341,10 @@
   },
   {
     "name": "spscommerce",
-    "ats": "icims",
-    "identifier": "spscommerce",
-    "domain": "https://careers-spscommerce.icims.com",
-    "page": "https://careers-spscommerce.icims.com/jobs/search",
+    "ats": "workday",
+    "identifier": "spscommerce-sps",
+    "domain": "https://spscommerce.wd108.myworkdayjobs.com/SPS",
+    "page": "https://spscommerce.wd108.myworkdayjobs.com/wday/cxs/spscommerce/SPS/jobs",
     "urls": []
   },
   {
@@ -45406,14 +45342,6 @@
     "urls": []
   },
   {
-    "name": "workatastartup.com",
-    "ats": "none",
-    "identifier": "workatastartup.com",
-    "domain": "https://www.workatastartup.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "workday",
     "ats": "workday",
     "identifier": "workday-workday_early_career",
@@ -45676,11 +45604,11 @@
     ]
   },
   {
-    "name": "xantium.com",
-    "ats": "none",
-    "identifier": "xantium.com",
-    "domain": "https://www.xantium.com",
-    "page": "",
+    "name": "xantium",
+    "ats": "greenhouse",
+    "identifier": "xantium",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/xantium/jobs",
     "urls": []
   },
   {
@@ -45831,7 +45759,7 @@
     "ats": "eightfold",
     "identifier": "zebra",
     "domain": "zebra.com",
-    "page": "https://careers.zebra.com/api/apply/v2/jobs?domain=zebra.com",
+    "page": "https://zebra.eightfold.ai/api/apply/v2/jobs?domain=zebra.com",
     "urls": []
   },
   {
@@ -46059,6 +45987,14 @@
       "https://job-boards.greenhouse.io/zscaler/jobs/5261571007",
       "https://job-boards.greenhouse.io/zscaler/jobs/5269094007"
     ]
+  },
+  {
+    "name": "Zurich Insurance Company Ltd.",
+    "ats": "successfactors",
+    "identifier": "careers.zurich.com",
+    "domain": "https://www.careers.zurich.com",
+    "page": "https://www.careers.zurich.com/services/rss/job/?locale=en_US",
+    "urls": []
   },
   {
     "name": "zushealth",
