@@ -10774,6 +10774,16 @@
     ]
   },
   {
+    "name": "cambridgeconsultantslimited",
+    "ats": "greenhouse",
+    "identifier": "cambridgeconsultantslimited",
+    "domain": "https://job-boards.eu.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/cambridgeconsultantslimited/jobs",
+    "urls": [
+      "https://job-boards.eu.greenhouse.io/cambridgeconsultantslimited/jobs/4995820101"
+    ]
+  },
+  {
     "name": "campaignmonitor",
     "ats": "workday",
     "identifier": "campaignmonitor-marigold",
@@ -13252,7 +13262,10 @@
     "identifier": "careers.pnnl.gov",
     "domain": "https://careers.pnnl.gov",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://careers.pnnl.gov/jobs/12898?icims=1",
+      "https://careers.pnnl.gov/jobs/12899?icims=1"
+    ]
   },
   {
     "name": "careers.point72.com",
@@ -13525,6 +13538,16 @@
     "domain": "https://careers.zebra.com",
     "page": "",
     "urls": []
+  },
+  {
+    "name": "careers.zimmerbiomet.com",
+    "ats": "custom",
+    "identifier": "careers.zimmerbiomet.com",
+    "domain": "https://careers.zimmerbiomet.com",
+    "page": "",
+    "urls": [
+      "https://careers.zimmerbiomet.com/us/en/job/13309"
+    ]
   },
   {
     "name": "careers.zurich.com",
@@ -19003,6 +19026,16 @@
       "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32645",
       "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32743",
       "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/33120"
+    ]
+  },
+  {
+    "name": "fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com",
+    "ats": "oraclecloud",
+    "identifier": "fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com",
+    "domain": "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job",
+    "page": "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DStaplesInc%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77076"
     ]
   },
   {
@@ -29314,6 +29347,7 @@
       "https://micron.wd1.myworkdayjobs.com/External/job/Taoyuan---Fab-11-Taiwan/Sr-Data-Scientist_JR112231",
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---ID1/US-FE-Expansion-Planning-Engineer_JR95856",
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Gas-Systems-Engineer---O-M_JR109693",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469",
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Product-Development-Engineer_JR103405",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111136",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
@@ -33721,6 +33755,17 @@
     ]
   },
   {
+    "name": "phf.tbe.taleo.net",
+    "ats": "custom",
+    "identifier": "phf.tbe.taleo.net",
+    "domain": "https://phf.tbe.taleo.net",
+    "page": "",
+    "urls": [
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=10993",
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=11013"
+    ]
+  },
+  {
     "name": "phg.tbe.taleo.net",
     "ats": "custom",
     "identifier": "phg.tbe.taleo.net",
@@ -35758,6 +35803,16 @@
       "https://jobs.lever.co/reply/0dd15e42-8f9e-4baf-a149-964b48898035",
       "https://jobs.lever.co/reply/18fd9715-a8ce-4808-a87c-3058ba712a0c",
       "https://jobs.lever.co/reply/790c1fc7-d76c-4603-b879-922e61fc7a90"
+    ]
+  },
+  {
+    "name": "Resideo",
+    "ats": "oraclecloud",
+    "identifier": "ehtl.fa.us6.oraclecloud.com",
+    "domain": "https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://ehtl.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19816"
     ]
   },
   {
@@ -38033,6 +38088,16 @@
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2621324",
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2624433",
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2627162"
+    ]
+  },
+  {
+    "name": "shield",
+    "ats": "ashby",
+    "identifier": "shield",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/shield",
+    "urls": [
+      "https://jobs.ashbyhq.com/shield/db04c516-d21a-449c-8bfd-1cf830eafb5a"
     ]
   },
   {
