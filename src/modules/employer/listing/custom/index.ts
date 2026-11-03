@@ -7,7 +7,6 @@ import type { Company, Job } from "@/types";
 import { Employer } from "../../employer";
 
 import { AmazonCompany, fetchAmazon } from "./amazon";
-import { AMDCompany, fetchAMD } from "./amd";
 import { AppleCompany, fetchApple } from "./apple";
 import { ByteDanceCompany, fetchByteDance } from "./bytedance";
 import { fetchGoogle, GoogleCompany } from "./google";
@@ -16,6 +15,7 @@ import { fetchNetflix, NetflixCompany } from "./netflix";
 import { fetchTikTok, TikTokCompany } from "./tiktok";
 
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { logger } from "@/utils/logger";
 
 export {
@@ -49,8 +49,6 @@ export class CustomFetcher extends Employer<Job> {
         return TikTokCompany;
       case "bytedance":
         return ByteDanceCompany;
-      case "amd":
-        return AMDCompany;
       default: {
         identifier satisfies null;
         const fallback = this.getIdentifier(url);
@@ -131,14 +129,13 @@ export class CustomFetcher extends Employer<Job> {
         case "bytedance": {
           return await fetchByteDance(company, knownKeys, signal);
         }
-        case "amd": {
-          return await fetchAMD(company, knownKeys, signal);
-        }
         default:
           identifier satisfies null;
           return [];
       }
     } catch (error) {
+      if (await logListingFailure("Custom", company, error)) return [];
+
       logger.error(
         { err: error, company: company.name },
         `${RED_CROSS} Error fetching custom jobs`
@@ -146,7 +143,6 @@ export class CustomFetcher extends Employer<Job> {
       return [];
     }
   }
-
 }
 
 export const customFetcher = new CustomFetcher();

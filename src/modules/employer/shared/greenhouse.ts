@@ -11,19 +11,32 @@ const identifierMap: Record<string, string> = {
   "careers.dat.com": "datsolutions",
   "corporate.trustpilot.com": "trustpilot",
   "cra.com": "charlesriveranalytics90",
+  "databricks.com": "databricks",
   "digitalocean.com": "digitalocean98",
   "dltrading.io": "confidentialsportstradingfirm",
   "duolingo.com": "duolingo",
+  "epicgames.com": "epicgames",
+  "equipmentshare.com": "equipmentsharecom",
   "getfiber.ai": "clerkie",
+  "hubspot.com": "hubspotjobs",
+  "imc.com": "imc",
+  "janestreet.com": "janestreet",
   "konrad.com": "konradgroup",
   "mlb.com": "majorleaguebaseball",
+  "mongodb.com": "mongodb",
+  "nintendo.com": "nintendo",
+  "optiver.com": "optiverus",
   "pinterestcareers.com": "pinterest",
   "precisely.com": "preciselyusjobs",
   "quantbot.com": "quantbot-technologies",
   "rentptr.com": "premiertruckrental",
+  "riotgames.com": "riotgames",
+  "roblox.com": "roblox",
+  "samsara.com": "samsara",
   "solarwinds.com": "solarwinds",
   "squarepoint-capital.com": "squarepointcapital",
   "tower-research.com": "towerresearchcapital",
+  "weareroku.com": "roku",
   "hudsonrivertrading.com": "wehrtyou",
   "verition.com": "veritiongroupllc",
   "withwaymo.com": "waymo",
@@ -110,14 +123,21 @@ function greenhouseBoardFromHtml(html: string): string | null {
   return boardFromJsTemplate(html);
 }
 
-/** Long requisition id at the end of a career slug, such as `...-start-6865704002`. */
+/** Long requisition id ending a career path, such as `...-start-6865704002` or `/position/5869205002/`. */
 function slugJobId(pageUrl: string): string | null {
   try {
     const slug = new URL(pageUrl).pathname.split("/").filter(Boolean).at(-1);
-    return slug?.match(/-(\d{7,})$/)?.[1] ?? null;
+    return slug?.match(/(?:^|-)(\d{7,})$/)?.[1] ?? null;
   } catch {
     return null;
   }
+}
+
+/** Job id a mapped career site puts outside the board path, e.g. `?id=243853` or `...-start-6865704002`. */
+export function greenhouseCareerSiteJobId(url: URL): string | null {
+  const id = url.searchParams.get("id");
+  if (id && /^\d+$/.test(id)) return id;
+  return slugJobId(url.href);
 }
 
 /**

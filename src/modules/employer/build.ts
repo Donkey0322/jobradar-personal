@@ -3,6 +3,7 @@ import { URL } from "url";
 
 import type { Company } from "@/types";
 
+import { aliasedCompanyKey } from "./aliases";
 import { classifyATS } from "./classifier";
 import { identityKey } from "./employer";
 import { employers } from "./registry";
@@ -17,22 +18,37 @@ export function getCompanyKey(company: Company): string {
   return identityKey(company);
 }
 
-async function resolveExistingCompany(
-  existing: Company
-): Promise<{ key: string; company: Company }> {
-  const existingKey = getCompanyKey(existing);
-  const representative = existing.urls[0];
+/**
+ * Bare domain/page URLs often omit the company slug (e.g. https://jobs.lever.co),
+ * which would form a company with an undefined name, so re-key from a job URL.
+ * The exception is a url-less custom or none row whose domain now classifies
+ * differently, e.g. a tenant board (https://mujin.bamboohr.com) of an ATS added
+ * after the row was built.
+ */
+function representativeUrl(existing: Company): URL | null {
+  try {
+    if (existing.urls[0]) return new URL(existing.urls[0]);
+    if ((existing.ats !== "custom" && existing.ats !== "none") || !existing.domain) return null;
 
-  // Bare domain/page URLs often omit the company slug (e.g. https://jobs.lever.co),
-  // which would form a company with an undefined name. Only re-key from a job URL.
-  if (!representative) {
+    const domain = new URL(existing.domain);
+    return classifyATS(domain) === existing.ats ? null : domain;
+  } catch {
+    return null;
+  }
+}
+
+async function resolveExistingCompany(stored: Company): Promise<{ key: string; company: Company }> {
+  const existing = employers[stored.ats]?.repairCompany(stored) ?? stored;
+  const existingKey = getCompanyKey(existing);
+  const url = representativeUrl(existing);
+
+  if (!url) {
     return { key: existingKey, company: existing };
   }
 
   try {
-    const url = new URL(representative);
     const fetcher = employers[classifyATS(url)];
-    const resolvedKey = fetcher.companyKeyFromUrl(url);
+    const resolvedKey = careerSiteAlias(url.href) ?? fetcher.companyKeyFromUrl(url);
 
     if (resolvedKey === existingKey) {
       return { key: existingKey, company: existing };
@@ -50,6 +66,20 @@ async function resolveExistingCompany(
   }
 }
 
+/** Company key of the ATS row an unread career-site URL belongs to, if it is aliased. */
+function careerSiteAlias(urlStr: string): string | null {
+  try {
+    const url = new URL(urlStr);
+    return classifyATS(url) === "none" ? aliasedCompanyKey(url) : null;
+  } catch {
+    return null;
+  }
+}
+
+function isAliasedSiteRow(company: Company): boolean {
+  return company.ats === "none" && Boolean(company.domain && careerSiteAlias(company.domain));
+}
+
 export function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
   const groups = new Map<string, string[]>();
 
@@ -59,7 +89,7 @@ export function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
     try {
       const url = new URL(urlStr);
       const ats = classifyATS(url);
-      key = employers[ats].companyKeyFromUrl(url);
+      key = careerSiteAlias(urlStr) ?? employers[ats].companyKeyFromUrl(url);
     } catch (err) {
       logger.warn({ url: urlStr, err }, "Failed to derive company key from URL");
       key = `unkeyed:${urlStr}`;
@@ -117,6 +147,20 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   const map = new Map<string, Company>();
 
   const groups = groupUrlsByCompanyKey(Array.from(urls));
+  const aliasedGroups = new Map<string, string[]>();
+
+  for (const [groupKey, groupUrls] of groups) {
+    const boardUrls = groupUrls.filter((url) => !careerSiteAlias(url));
+
+    if (boardUrls.length === 0) {
+      aliasedGroups.set(groupKey, groupUrls);
+      groups.delete(groupKey);
+    } else {
+      // formCompanyFromGroup forms from the first URL, which must be the board's own.
+      groups.set(groupKey, [...boardUrls, ...groupUrls.filter((url) => careerSiteAlias(url))]);
+    }
+  }
+
   const total = groups.size;
   let completed = 0;
 
@@ -158,7 +202,14 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   const resolvedExisting = await Promise.all(existingCompanies.map(resolveExistingCompany));
 
   for (const { key, company } of resolvedExisting) {
-    if (!company.name || map.has(key)) {
+    if (!company.name || isAliasedSiteRow(company)) {
+      continue;
+    }
+
+    // A stored name may be hand-edited, and a fetched one falls back to a slug when the lookup fails.
+    const formed = map.get(key);
+    if (formed) {
+      formed.name = company.name;
       continue;
     }
 
@@ -168,9 +219,23 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
     });
   }
 
+  for (const [groupKey, groupUrls] of aliasedGroups) {
+    const target = map.get(groupKey);
+
+    if (target) {
+      target.urls.push(...groupUrls);
+      continue;
+    }
+
+    const { company } = await formCompanyFromGroup(groupKey, groupUrls);
+    if (company?.name) map.set(getCompanyKey(company), company);
+  }
+
   const result = Array.from(map.values())
     .map((company) => ({ ...company, urls: [...company.urls].sort() }))
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort(
+      (a, b) => a.name.localeCompare(b.name) || getCompanyKey(a).localeCompare(getCompanyKey(b))
+    );
 
   await saveCompanies(result);
 

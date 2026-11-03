@@ -2,17 +2,23 @@ import { describe, expect, it } from "vitest";
 
 import {
   getAshbyKey,
+  getBambooHRKey,
   getCustomKey,
   getEightfoldKey,
   getGreenhouseKey,
   getIcimsKey,
+  getJazzHRKey,
   getLeverKey,
   getOracleKey,
+  getPhenomKey,
+  getPinpointKey,
   getRadancyKey,
+  getRipplingKey,
   getSmartRecruitersKey,
   getSuccessFactorsKey,
   getWorkdayKey,
 } from "../ats";
+import { getJobKey } from "..";
 
 import { CUSTOM_COMPANY_DOMAINS, parseCustomCompanyIdentifier } from "@/modules/employer/listing";
 
@@ -392,6 +398,57 @@ describe("getRadancyKey", () => {
   });
 });
 
+describe("getBambooHRKey", () => {
+  it("scopes the per-company job id by tenant", () => {
+    const page = new URL("https://mujin.bamboohr.com/careers/126");
+    const detail = new URL("https://Mujin.bamboohr.com/careers/126/detail");
+
+    expect(getBambooHRKey(page)).toBe("bamboohr:mujin:126");
+    expect(getBambooHRKey(detail)).toBe(getBambooHRKey(page));
+    expect(getBambooHRKey(new URL("https://lexical.bamboohr.com/careers/126"))).toBe(
+      "bamboohr:lexical:126"
+    );
+  });
+
+  it("returns null for the board page", () => {
+    expect(getBambooHRKey(new URL("https://mujin.bamboohr.com/careers"))).toBeNull();
+  });
+});
+
+describe("getJazzHRKey", () => {
+  it("matches the job page and the board details link for the same posting", () => {
+    const page = new URL(
+      "https://career.innovativesystems.com/apply/jA6qmBJarn/Application-Support-Analyst-EMEA"
+    );
+    const details = new URL("https://career.innovativesystems.com/apply/jobs/details/jA6qmBJarn?&");
+
+    expect(getJazzHRKey(page)).toBe("jazzhr:career.innovativesystems.com:jA6qmBJarn");
+    expect(getJazzHRKey(details)).toBe(getJazzHRKey(page));
+  });
+
+  it("returns null for the board page", () => {
+    expect(getJazzHRKey(new URL("https://neboagency.applytojob.com/apply/jobs"))).toBeNull();
+  });
+});
+
+describe("getRipplingKey", () => {
+  it("uses the posting uuid regardless of locale prefix", () => {
+    const plain = new URL(
+      "https://ats.rippling.com/moon/jobs/8B81BCA7-1A64-4377-8EA8-869AAC03080B"
+    );
+    const localized = new URL(
+      "https://ats.rippling.com/en-GB/moon/jobs/8b81bca7-1a64-4377-8ea8-869aac03080b"
+    );
+
+    expect(getRipplingKey(plain)).toBe("rippling:8b81bca7-1a64-4377-8ea8-869aac03080b");
+    expect(getRipplingKey(localized)).toBe(getRipplingKey(plain));
+  });
+
+  it("returns null without a job uuid", () => {
+    expect(getRipplingKey(new URL("https://ats.rippling.com/moon/jobs"))).toBeNull();
+  });
+});
+
 describe("getSuccessFactorsKey", () => {
   it("scopes the Career Site Builder job id to its host", () => {
     const url = new URL(
@@ -418,25 +475,56 @@ describe("getSuccessFactorsKey", () => {
 });
 
 describe("getIcimsKey", () => {
-  it("extracts icims job id from /jobs/:id", () => {
+  it("extracts icims job id from /jobs/:id scoped to the portal", () => {
     // Arrange
-    const pathname = "/jobs/123456/software-engineer-intern/job";
-    const expected = "icims:123456";
+    const url = new URL("https://careers-acme.icims.com/jobs/123456/software-engineer-intern/job");
+    const expected = "icims:careers-acme.icims.com:123456";
 
     // Act
-    const result = getIcimsKey(pathname);
+    const result = getIcimsKey(url);
 
     // Assert
     expect(result).toBe(expected);
   });
 
-  it("is case insensitive for /jobs", () => {
+  it("keeps the same job id distinct across customers", () => {
     // Arrange
-    const pathname = "/JOBS/123456/software-engineer-intern/job";
-    const expected = "icims:123456";
+    const axway = new URL("https://careers-axway.icims.com/jobs/8657/engineer/job");
+    const idemia = new URL("https://uscareers-idemia.icims.com/jobs/8657/analyst/job");
+
+    // Act / Assert
+    expect(getIcimsKey(axway)).not.toBe(getIcimsKey(idemia));
+  });
+
+  it("scopes Jibe job pages to the Jibe site", () => {
+    // Arrange
+    const url = new URL("https://www.careers.acme.com/jobs/18475?icims=1");
+    const expected = "icims:careers.acme.com:18475";
 
     // Act
-    const result = getIcimsKey(pathname);
+    const result = getIcimsKey(url);
+
+    // Assert
+    expect(result).toBe(expected);
+  });
+
+  it("matches Jibe links with and without ?icims=1", () => {
+    // Arrange
+    const bare = "https://careers.jhuapl.edu/jobs/60115";
+    const tagged = "https://careers.jhuapl.edu/jobs/60115?icims=1";
+
+    // Act / Assert
+    expect(getJobKey(bare)).toBe("icims:careers.jhuapl.edu:60115");
+    expect(getJobKey(tagged)).toBe(getJobKey(bare));
+  });
+
+  it("is case insensitive for /jobs", () => {
+    // Arrange
+    const url = new URL("https://careers-acme.icims.com/JOBS/123456/software-engineer-intern/job");
+    const expected = "icims:careers-acme.icims.com:123456";
+
+    // Act
+    const result = getIcimsKey(url);
 
     // Assert
     expect(result).toBe(expected);
@@ -444,14 +532,58 @@ describe("getIcimsKey", () => {
 
   it("returns null when /jobs/:id does not exist", () => {
     // Arrange
-    const pathname = "/job/123456/software-engineer-intern";
+    const url = new URL("https://careers-acme.icims.com/job/123456/software-engineer-intern");
     const expected = null;
 
     // Act
-    const result = getIcimsKey(pathname);
+    const result = getIcimsKey(url);
 
     // Assert
     expect(result).toBe(expected);
+  });
+});
+
+describe("getPhenomKey", () => {
+  it.each([
+    [
+      "https://careers.adobe.com/us/en/job/R160198?ph_id=R160198",
+      "phenom:careers.adobe.com:r160198",
+    ],
+    ["https://careers.adobe.com/job/R160198", "phenom:careers.adobe.com:r160198"],
+    [
+      "https://careers.idexx.com/us/en/job/R-1234/Software-Engineer?ph_id=R-1234",
+      "phenom:careers.idexx.com:r-1234",
+    ],
+    ["https://careers.bcg.com/global/en/job/59702", "phenom:careers.bcg.com:59702"],
+  ])("keys %s by site and job id", (url, expected) => {
+    expect(getPhenomKey(new URL(url))).toBe(expected);
+  });
+
+  it("keeps the same job id on different sites apart", () => {
+    expect(getJobKey("https://careers.bcg.com/global/en/job/59702")).not.toBe(
+      getJobKey("https://careers.cisco.com/global/en/job/59702?ph_id=59702")
+    );
+  });
+
+  it("returns null without a job id", () => {
+    expect(getPhenomKey(new URL("https://careers.adobe.com/us/en/search-results"))).toBeNull();
+  });
+});
+
+describe("getPinpointKey", () => {
+  it("keys a posting by its UUID, ignoring locale and tracking params", () => {
+    const id = "bca05641-f7af-494f-8b1e-dea500ca25e0";
+
+    expect(getPinpointKey(new URL(`https://idtus.pinpointhq.com/en/postings/${id}`))).toBe(
+      `pinpoint:${id}`
+    );
+    expect(getJobKey(`https://idtus.pinpointhq.com/en/postings/${id}?ats=pinpointhq`)).toBe(
+      getJobKey(`https://idtus.pinpointhq.com/postings/${id.toUpperCase()}`)
+    );
+  });
+
+  it("returns null without a posting UUID", () => {
+    expect(getPinpointKey(new URL("https://idtus.pinpointhq.com/en/postings"))).toBeNull();
   });
 });
 

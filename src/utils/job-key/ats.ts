@@ -1,6 +1,11 @@
 import { getLastPathNumber } from "./url";
 
+import { getBambooHRJobId, getBambooHRSlug } from "@/modules/employer/shared/bamboohr";
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
+import { greenhouseCareerSiteJobId } from "@/modules/employer/shared/greenhouse";
+import { getJazzHRJobId } from "@/modules/employer/shared/jazzhr";
+import { getPinpointPostingId } from "@/modules/employer/shared/pinpoint";
+import { getRipplingJobId } from "@/modules/employer/shared/rippling";
 import { getSuccessFactorsJobId } from "@/modules/employer/shared/successfactors";
 import { getHostnameWithoutWww } from "@/utils/url";
 
@@ -29,7 +34,7 @@ export function getGreenhouseKey(u: URL): string | null {
   const token = u.searchParams.get("token");
   if (token) return toATSKey("greenhouse", token);
 
-  return null;
+  return toATSKey("greenhouse", greenhouseCareerSiteJobId(u));
 }
 
 export function getWorkdayKey(url: string): string | null {
@@ -95,13 +100,34 @@ export function getEightfoldKey(url: URL): string | null {
   return toATSKey("eightfold", id);
 }
 
-export function getPhenomKey(pathname: string): string | null {
-  return getNumericRouteKey(pathname, "phenom", "job");
+export function getPhenomKey(url: URL): string | null {
+  const id = url.searchParams.get("ph_id") ?? url.pathname.match(/\/job\/([^/]+)/i)?.[1];
+  // Job IDs (e.g. R160198) are only unique within one Phenom site, and the locale path varies.
+  return toATSKey("phenom", id ? `${getHostnameWithoutWww(url)}:${id.toLowerCase()}` : null);
+}
+
+export function getPinpointKey(url: URL): string | null {
+  return toATSKey("pinpoint", getPinpointPostingId(url.pathname));
 }
 
 export function getRadancyKey(pathname: string): string | null {
   const match = pathname.match(/\/job\/[^/]+\/[^/]+\/\d+\/(\d+)(?:\/|$)/i);
   return toATSKey("radancy", match?.[1]);
+}
+
+export function getBambooHRKey(url: URL): string | null {
+  const id = getBambooHRJobId(url.pathname);
+  // Job IDs are per-company counters (24, 119, …).
+  return toATSKey("bamboohr", id ? `${getBambooHRSlug(url)}:${id}` : null);
+}
+
+export function getJazzHRKey(url: URL): string | null {
+  const id = getJazzHRJobId(url.pathname);
+  return toATSKey("jazzhr", id ? `${getHostnameWithoutWww(url)}:${id}` : null);
+}
+
+export function getRipplingKey(url: URL): string | null {
+  return toATSKey("rippling", getRipplingJobId(url));
 }
 
 export function getSuccessFactorsKey(url: URL): string | null {
@@ -110,8 +136,10 @@ export function getSuccessFactorsKey(url: URL): string | null {
   return toATSKey("successfactors", id ? `${getHostnameWithoutWww(url)}:${id}` : null);
 }
 
-export function getIcimsKey(pathname: string): string | null {
-  return getNumericRouteKey(pathname, "icims", "jobs");
+export function getIcimsKey(url: URL): string | null {
+  const id = url.pathname.match(/\/jobs\/(\d+)(?:\/|$)/i)?.[1];
+  // Job IDs are only unique within one iCIMS customer, so scope them to the portal or Jibe site.
+  return toATSKey("icims", id ? `${getHostnameWithoutWww(url)}:${id}` : null);
 }
 
 export function getCustomKey(url: string): string {

@@ -5,6 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "@/modules/employer/employer";
+import { ListingHttpError, logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -14,6 +15,7 @@ export const TRACKING_PARAM = "ph_id";
 
 const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
+const MAX_LIST_PAGES = 30;
 const RECENT_DAYS = 2;
 
 const PHENOM_USER_AGENT =
@@ -475,9 +477,7 @@ async function getPhenomSession(pageUrl: string, signal: AbortSignal): Promise<P
   });
 
   if (!response.ok || !html) {
-    throw new Error(
-      `Failed to fetch Phenom careers page: ` + `${response.status} ${response.statusText}`
-    );
+    throw ListingHttpError.from(response, `careers page ${pageUrl}`);
   }
 
   const csrfToken = extractPhenomCsrfToken(html);
@@ -571,22 +571,19 @@ async function fetchPhenomPage(
   const raw = await response.text();
 
   if (response.status >= 300 && response.status < 400) {
-    throw new Error(
-      `Phenom widgets redirected on page ${page + 1}: ` +
-        `${response.status} ${response.statusText} ` +
-        `endpoint=${session.widgetsUrl} ` +
-        `location=${response.headers.get("location") ?? ""}`
+    throw ListingHttpError.from(
+      response,
+      `widgets page ${page + 1} redirected to ${response.headers.get("location") ?? ""}`
     );
   }
 
-  if (!response.ok || isHtmlResponse(raw)) {
-    throw new Error(
-      `Phenom widgets failed on page ${page + 1}: ` +
-        `${response.status} ${response.statusText} ` +
-        `endpoint=${session.widgetsUrl} ` +
-        `baseUrl=${session.baseUrl} ` +
-        `pageUrl=${session.pageUrl} ` +
-        raw.slice(0, 300)
+  if (!response.ok) {
+    throw ListingHttpError.from(response, `widgets page ${page + 1} ${session.widgetsUrl}`);
+  }
+
+  if (isHtmlResponse(raw)) {
+    throw new ListingHttpError(
+      `widgets page ${page + 1} returned HTML instead of JSON (${session.widgetsUrl})`
     );
   }
 
@@ -658,6 +655,27 @@ export class PhenomFetcher extends Employer<PhenomJob> {
     };
   }
 
+  protected async collectListingJobs(
+    company: Company,
+    signal: AbortSignal
+  ): Promise<PhenomJob[] | null> {
+    const session = await getPhenomSession(company.page, signal);
+    const jobs: PhenomJob[] = [];
+
+    for (let page = 0; page < MAX_LIST_PAGES; page++) {
+      const rawJobs = await fetchPhenomPage(page, session, signal, (data) =>
+        this.getJobsFromResponse(data, company)
+      );
+      jobs.push(...rawJobs);
+
+      if (rawJobs.length < PAGE_SIZE) {
+        break;
+      }
+    }
+
+    return jobs;
+  }
+
   async fetch(
     company: Company,
     knownKeys: ReadonlySet<string>,
@@ -719,6 +737,8 @@ export class PhenomFetcher extends Employer<PhenomJob> {
 
       return jobs;
     } catch (error) {
+      if (await logListingFailure("Phenom", company, error)) return [];
+
       logger.error(
         {
           err: isAbortError(error) ? error.name : error,

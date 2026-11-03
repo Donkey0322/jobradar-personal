@@ -4,6 +4,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   getSuccessFactorsFeedCompanyName,
   getSuccessFactorsFeedUrl,
@@ -26,12 +27,6 @@ const FEED_HEADERS: HeadersInit = {
 
 async function fetchFeed(url: string, signal: AbortSignal): Promise<Response> {
   return fetch(url, { signal, headers: FEED_HEADERS });
-}
-
-/** Self-hosted career domains often die (expired TLS, DNS); report those in one line. */
-function connectionErrorMessage(error: unknown): string | null {
-  if (!(error instanceof TypeError) || !(error.cause instanceof Error)) return null;
-  return error.cause.message;
 }
 
 async function fetchFeedCompanyName(feedUrl: string): Promise<string | null> {
@@ -116,11 +111,7 @@ export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
         )
         .map((posting) => posting.toJob());
     } catch (error) {
-      const connectionError = connectionErrorMessage(error);
-      if (connectionError) {
-        await appendErrorLog(`SuccessFactors: ${company.name} - ${connectionError}`);
-        return [];
-      }
+      if (await logListingFailure("SuccessFactors", company, error)) return [];
 
       logger.error(
         {

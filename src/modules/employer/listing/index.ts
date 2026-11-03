@@ -6,6 +6,13 @@ export {
   type AshbyJob,
 } from "./ashby";
 export {
+  BambooHRFetcher,
+  bambooHRFetcher,
+  BambooHRJobSchema,
+  BambooHRResponseSchema,
+  type BambooHRJob,
+} from "./bamboohr";
+export {
   CustomFetcher,
   customFetcher,
   CUSTOM_COMPANY_DOMAINS,
@@ -29,6 +36,7 @@ export {
   type GreenhouseJob,
 } from "./greenhouse";
 export { IcimsFetcher, icimsFetcher, IcimsJobSchema, type IcimsJob } from "./icims";
+export { JazzHRFetcher, jazzHRFetcher, type JazzHRJob } from "./jazzhr";
 export {
   LeverFetcher,
   leverFetcher,
@@ -36,6 +44,7 @@ export {
   LeverResponseSchema,
   type LeverJob,
 } from "./lever";
+export { NoneFetcher, noneFetcher } from "./none";
 export {
   OracleCloudFetcher,
   oracleCloudFetcher,
@@ -50,6 +59,7 @@ export {
   TRACKING_PARAM as PHENOM_TRACKING_PARAM,
   type PhenomJob,
 } from "./phenom";
+export { PinpointFetcher, pinpointFetcher, type PinpointJob } from "./pinpoint";
 export {
   RadancyFetcher,
   radancyFetcher,
@@ -57,6 +67,13 @@ export {
   RadancyResponseSchema,
   type RadancyJob,
 } from "./radancy";
+export {
+  RipplingFetcher,
+  ripplingFetcher,
+  RipplingJobSchema,
+  RipplingResponseSchema,
+  type RipplingJob,
+} from "./rippling";
 export {
   SmartRecruitersFetcher,
   smartRecruitersFetcher,

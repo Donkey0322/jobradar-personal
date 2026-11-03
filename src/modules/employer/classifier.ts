@@ -1,6 +1,12 @@
 import type { ATS } from "./type";
 
+import { isBambooHRHost } from "./shared/bamboohr";
+import { parseCustomCompanyIdentifier } from "./shared/custom-identifier";
+import { isJazzHRUrl } from "./shared/jazzhr";
+import { isJibeUrl } from "./shared/jibe";
+import { isPinpointHost } from "./shared/pinpoint";
 import { isRadancyUrl } from "./shared/radancy";
+import { isRipplingHost } from "./shared/rippling";
 import { isSuccessFactorsUrl } from "./shared/successfactors";
 
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -9,7 +15,34 @@ const hostToATS: Record<string, ATS> = {
   "stripe.com": "greenhouse",
   "deere.com": "greenhouse",
   "hudsonrivertrading.com": "greenhouse",
+  "careers.duolingo.com": "greenhouse",
+  "careers.roblox.com": "greenhouse",
+  "databricks.com": "greenhouse",
+  "epicgames.com": "greenhouse",
+  "imc.com": "greenhouse",
+  "janestreet.com": "greenhouse",
+  "mongodb.com": "greenhouse",
+  "optiver.com": "greenhouse",
+  "pinterestcareers.com": "greenhouse",
+  "riotgames.com": "greenhouse",
+  "samsara.com": "greenhouse",
+  "squarepoint-capital.com": "greenhouse",
   "apply.careers.microsoft.com": "eightfold",
+  "career.mlp.com": "eightfold",
+  "careers.lumen.com": "eightfold",
+  "careers.newyorklife.com": "eightfold",
+  "careers.qualcomm.com": "eightfold",
+  "careers.zebra.com": "eightfold",
+  "jobs.ericsson.com": "eightfold",
+  "join.sephora.com": "eightfold",
+  "careers.bcg.com": "phenom",
+  "careers.cisco.com": "phenom",
+  "careers.hellofresh.com": "phenom",
+  "careers.itw.com": "phenom",
+  "careers.tranetechnologies.com": "phenom",
+  "careers.varsitybrands.com": "phenom",
+  "careers.zimmerbiomet.com": "phenom",
+  "jobs.ascension.org": "phenom",
 };
 
 export function classifyATS(url: URL): ATS {
@@ -37,6 +70,12 @@ export function classifyATS(url: URL): ATS {
     return "icims";
   } else if (host.endsWith("eightfold.ai")) {
     return "eightfold";
+  } else if (isRipplingHost(url)) {
+    return "rippling";
+  } else if (isBambooHRHost(url)) {
+    return "bamboohr";
+  } else if (isPinpointHost(url)) {
+    return "pinpoint";
   }
 
   if (url.searchParams.get("8fold_id")) return "eightfold";
@@ -45,6 +84,8 @@ export function classifyATS(url: URL): ATS {
   if (url.searchParams.get("gh_jid")) return "greenhouse";
   if (isRadancyUrl(url)) return "radancy";
   if (isSuccessFactorsUrl(url)) return "successfactors";
+  if (isJazzHRUrl(url)) return "jazzhr";
+  if (isJibeUrl(url)) return "icims";
 
-  return "custom";
+  return parseCustomCompanyIdentifier(url) ? "custom" : "none";
 }

@@ -7,24 +7,42 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { ListingHttpError, logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/employer/shared/icims";
+import {
+  findJibeRedirect,
+  getJibeApiUrl,
+  getJibeJobLink,
+  getJibeLocation,
+  isJibeApiUrl,
+  isJibeUrl,
+  JIBE_PAGE_SIZE,
+  jibeCompanyName,
+  type JibeJob,
+  parseJibeJobs,
+} from "@/modules/employer/shared/jibe";
 import { decodeHtmlEntities } from "@/utils/html";
-import { fetchHtmlResponse } from "@/utils/http";
+import { fetchHtmlResponse, isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { cleanText, formatCompanyName } from "@/utils/string";
+import { getHostnameWithoutWww } from "@/utils/url";
 
 export const IcimsJobSchema = z.object({
   title: z.string(),
   link: z.string(),
   location: z.string(),
+  postedDate: z.string().optional(),
 });
 
 export type IcimsJob = z.infer<typeof IcimsJobSchema>;
 
 const MAX_PAGES = 1;
+const MAX_JIBE_PAGES = 20;
 
 function getIcimsCompanyIdentifier(url: URL): string {
   const host = url.hostname;
+
+  if (!host.endsWith(".icims.com")) return getHostnameWithoutWww(url);
 
   const careersMatch = host.match(/^careers-([^.]+)\.icims\.com$/);
   if (careersMatch?.[1]) return careersMatch[1];
@@ -79,11 +97,49 @@ async function fetchHtml(url: string, signal: AbortSignal): Promise<string | nul
   return html;
 }
 
+async function fetchListingHtml(url: string, signal: AbortSignal): Promise<string> {
+  const { response, html } = await fetchHtmlResponse(url, {
+    signal,
+    headers: {
+      "User-Agent": "Mozilla/5.0",
+      Accept: "text/html",
+    },
+  });
+
+  if (!response.ok) {
+    throw ListingHttpError.from(response, url);
+  }
+
+  return html;
+}
+
+/**
+ * Portal search page for a row whose `page` is an iCIMS URL other than search:
+ * an expired job page (410) or the retired api.icims.com feed (404).
+ */
+function getPortalSearchPage(company: Company): string | null {
+  try {
+    const page = new URL(company.page);
+    if (!page.hostname.endsWith(".icims.com") || isIcimsUrl(page, "search")) return null;
+
+    const domain = new URL(company.domain);
+    const origin = domain.hostname.endsWith(".icims.com") ? domain.origin : page.origin;
+    return `${origin}/jobs/search`;
+  } catch {
+    return null;
+  }
+}
+
 async function resolveSearchPage(company: Company, signal: AbortSignal): Promise<string> {
   const url = new URL(company.page);
 
   if (isIcimsUrl(url, "search")) {
     return normalizeIcimsUrl(url.toString(), "search");
+  }
+
+  const portal = getPortalSearchPage(company);
+  if (portal) {
+    return normalizeIcimsUrl(portal, "search");
   }
 
   const html = await fetchHtml(company.page, signal);
@@ -137,6 +193,110 @@ function getIcimsJobsFromPage(html: string, pageUrl: URL): IcimsJob[] {
   return jobs;
 }
 
+function toIcimsJob(origin: string, job: JibeJob): IcimsJob | null {
+  const link = getJibeJobLink(origin, job);
+  if (!link) return null;
+
+  return {
+    title: cleanText(job.title),
+    link,
+    location: getJibeLocation(job),
+    postedDate: job.posted_date ?? undefined,
+  };
+}
+
+/** Null when the response is not a Jibe listing. */
+async function fetchJibeJobs(
+  origin: string,
+  page: number,
+  signal: AbortSignal,
+  limit = JIBE_PAGE_SIZE
+): Promise<JibeJob[] | null> {
+  const res = await fetch(getJibeApiUrl(origin, page, limit), {
+    signal,
+    headers: { Accept: "application/json" },
+  });
+
+  if (!res.ok) throw ListingHttpError.from(res, `${origin} page ${page}`);
+
+  let data: unknown;
+  try {
+    data = await res.json();
+  } catch (error) {
+    if (isAbortError(error)) throw error;
+    return null;
+  }
+
+  return parseJibeJobs(data);
+}
+
+/**
+ * Newest first. With `probe`, a first page that is not Jibe yields nothing
+ * instead of failing, for redirect targets that may be any career site.
+ */
+async function* listJibePages(
+  origin: string,
+  signal: AbortSignal,
+  probe = false
+): AsyncGenerator<IcimsJob[]> {
+  for (let page = 1; page <= MAX_JIBE_PAGES; page++) {
+    let jobs: JibeJob[] | null;
+    try {
+      jobs = await fetchJibeJobs(origin, page, signal);
+    } catch (error) {
+      if (probe && page === 1 && error instanceof ListingHttpError) return;
+      throw error;
+    }
+
+    if (!jobs) {
+      if (probe && page === 1) return;
+      throw new ListingHttpError(`Not a Jibe listing (${origin} page ${page})`);
+    }
+
+    yield jobs.map((job) => toIcimsJob(origin, job)).filter((job): job is IcimsJob => job !== null);
+
+    if (jobs.length < JIBE_PAGE_SIZE) return;
+  }
+}
+
+/** Throws when a page cannot be fetched so callers can tell failure from an empty board. */
+async function* listIcimsPages(company: Company, signal: AbortSignal): AsyncGenerator<IcimsJob[]> {
+  const page = new URL(company.page);
+
+  if (isJibeApiUrl(page)) {
+    yield* listJibePages(page.origin, signal);
+    return;
+  }
+
+  const searchPage = await resolveSearchPage(company, signal);
+
+  for (let pr = 0; pr < MAX_PAGES; pr++) {
+    const pageUrl = new URL(searchPage);
+    pageUrl.searchParams.set("pr", String(pr));
+
+    const html = await fetchListingHtml(pageUrl.toString(), signal);
+
+    const jobs = getIcimsJobsFromPage(html, pageUrl);
+
+    if (jobs.length === 0) {
+      const jibe = pr === 0 ? findJibeRedirect(html, pageUrl) : null;
+      if (jibe) yield* listJibePages(jibe.origin, signal, true);
+      return;
+    }
+
+    yield jobs;
+  }
+}
+
+async function fetchJibeCompanyName(origin: string): Promise<string | null> {
+  try {
+    const jobs = await fetchJibeJobs(origin, 1, AbortSignal.timeout(15_000), 1);
+    return jobs?.[0]?.hiring_organization ?? null;
+  } catch {
+    return null;
+  }
+}
+
 interface IcimsPageResponse {
   html: string;
   pageUrl: URL;
@@ -149,14 +309,30 @@ export class IcimsFetcher extends Employer<IcimsJob> {
     return this.companyKey(getIcimsCompanyIdentifier(url));
   }
 
-  formCompany(url: URL): Company {
+  repairCompany(company: Company): Company {
+    const page = getPortalSearchPage(company);
+    return page ? { ...company, page } : company;
+  }
+
+  async formCompany(url: URL): Promise<Company> {
     const identifier = getIcimsCompanyIdentifier(url);
+
+    if (isJibeUrl(url) || isJibeApiUrl(url)) {
+      return {
+        name: jibeCompanyName(await fetchJibeCompanyName(url.origin), url) ?? identifier,
+        ats: this.ats,
+        identifier,
+        domain: url.origin,
+        page: new URL("/api/jobs", url.origin).toString(),
+        urls: [],
+      };
+    }
 
     let page: string;
 
     if (isIcimsUrl(url, "search")) {
       page = normalizeIcimsUrl(url.toString(), "search");
-    } else if (url.hostname.endsWith(".icims.com") && url.hostname.startsWith("careers-")) {
+    } else if (url.hostname.endsWith(".icims.com")) {
       page = `${url.origin}/jobs/search`;
     } else {
       page = url.toString();
@@ -207,23 +383,8 @@ export class IcimsFetcher extends Employer<IcimsJob> {
     const jobs: IcimsJob[] = [];
 
     try {
-      const searchPage = await resolveSearchPage(company, signal);
-
-      for (let page = 0; page < MAX_PAGES; page++) {
-        const pageUrl = new URL(searchPage);
-        pageUrl.searchParams.set("pr", String(page));
-
-        const html = await fetchHtml(pageUrl.toString(), signal);
-        if (!html) {
-          return jobs.length > 0 ? jobs : null;
-        }
-
-        const rawJobs = this.getJobsFromResponse({ html, pageUrl });
-        if (rawJobs.length === 0) {
-          break;
-        }
-
-        jobs.push(...rawJobs);
+      for await (const page of listIcimsPages(company, signal)) {
+        jobs.push(...page);
       }
 
       return jobs;
@@ -243,23 +404,18 @@ export class IcimsFetcher extends Employer<IcimsJob> {
     const seenKeys = new Set(knownKeys);
 
     try {
-      const searchPage = await resolveSearchPage(company, signal);
+      for await (const page of listIcimsPages(company, signal)) {
+        // Jibe pages are newest first, so one stale job means the rest are stale too.
+        let reachedOldJob = false;
 
-      for (let page = 0; page < MAX_PAGES; page++) {
-        const pageUrl = new URL(searchPage);
+        const opportunities = page
+          .map((job) => this.posting(job, company, job.postedDate))
+          .filter((posting, index) => {
+            if (page[index].postedDate && !posting.isRecent()) {
+              reachedOldJob = true;
+              return false;
+            }
 
-        pageUrl.searchParams.set("pr", String(page));
-
-        const html = await fetchHtml(pageUrl.toString(), signal);
-        if (!html) break;
-
-        const rawJobs = this.getJobsFromResponse({ html, pageUrl });
-
-        if (rawJobs.length === 0) break;
-
-        const opportunities = rawJobs
-          .map((job) => this.posting(job, company))
-          .filter((posting) => {
             if (!posting.isTarget() || posting.isKnown(seenKeys)) return false;
             seenKeys.add(posting.key());
             return true;
@@ -267,9 +423,16 @@ export class IcimsFetcher extends Employer<IcimsJob> {
           .map((posting) => posting.toJob());
 
         allJobs.push(...opportunities);
+
+        if (reachedOldJob) break;
       }
-    } catch {
-      logger.error({ url: company.page }, `${RED_CROSS} Error fetching icims jobs`);
+    } catch (error) {
+      if (await logListingFailure("iCIMS", company, error)) return [];
+
+      logger.error(
+        { err: isAbortError(error) ? error.name : error, url: company.page },
+        `${RED_CROSS} Error fetching icims jobs`
+      );
       return [];
     }
 

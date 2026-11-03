@@ -1,13 +1,17 @@
 import {
   getAshbyKey,
+  getBambooHRKey,
   getCustomKey,
   getEightfoldKey,
   getGreenhouseKey,
   getIcimsKey,
+  getJazzHRKey,
   getLeverKey,
   getOracleKey,
   getPhenomKey,
+  getPinpointKey,
   getRadancyKey,
+  getRipplingKey,
   getSmartRecruitersKey,
   getSuccessFactorsKey,
   getWorkdayKey,
@@ -25,6 +29,9 @@ export function getJobKey(url: string) {
       case "ashby":
         return getAshbyKey(u) ?? `ashby:${normalizeUrl(url)}`;
 
+      case "bamboohr":
+        return getBambooHRKey(u) ?? `bamboohr:${normalizeUrl(url)}`;
+
       case "eightfold":
         return getEightfoldKey(u) ?? `eightfold:${normalizeUrl(url)}`;
 
@@ -32,7 +39,10 @@ export function getJobKey(url: string) {
         return getGreenhouseKey(u) ?? `greenhouse:${normalizeUrl(url)}`;
 
       case "icims":
-        return getIcimsKey(u.pathname) ?? `icims:${normalizeUrl(url)}`;
+        return getIcimsKey(u) ?? `icims:${normalizeUrl(url)}`;
+
+      case "jazzhr":
+        return getJazzHRKey(u) ?? `jazzhr:${normalizeUrl(url)}`;
 
       case "lever":
         return getLeverKey(u) ?? `lever:${normalizeUrl(url)}`;
@@ -41,10 +51,16 @@ export function getJobKey(url: string) {
         return getOracleKey(u.pathname) ?? `oraclecloud:${normalizeUrl(url)}`;
 
       case "phenom":
-        return getPhenomKey(u.pathname) ?? `phenom:${normalizeUrl(url)}`;
+        return getPhenomKey(u) ?? `phenom:${normalizeUrl(url)}`;
+
+      case "pinpoint":
+        return getPinpointKey(u) ?? `pinpoint:${normalizeUrl(url)}`;
 
       case "radancy":
         return getRadancyKey(u.pathname) ?? `radancy:${normalizeUrl(url)}`;
+
+      case "rippling":
+        return getRipplingKey(u) ?? `rippling:${normalizeUrl(url)}`;
 
       case "smartrecruiters":
         return getSmartRecruitersKey(u.pathname) ?? `smartrecruiters:${normalizeUrl(url)}`;
@@ -56,6 +72,7 @@ export function getJobKey(url: string) {
         return getWorkdayKey(url) ?? `workday:${normalizeUrl(url)}`;
 
       case "custom":
+      case "none":
         return getCustomKey(url);
 
       default:
