@@ -448,6 +448,90 @@
       "link": "https://boards.greenhouse.io/andurilindustries/jobs/5280683007?gh_jid=5280683007",
       "location": "Costa Mesa, California, United States",
       "country": "USA"
+    },
+    {
+      "company": "Arcfield",
+      "role": "Systems Engineer (Architecture & Solutioning)",
+      "link": "https://careers.arcfield.com/jobs/8901?icims=1",
+      "location": "Chantilly, Virginia",
+      "country": "USA"
+    },
+    {
+      "company": "Capitalone",
+      "role": "102860227856 11/04/2026 Full-stack Engineer 5 McLean, VA",
+      "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5/1732/102860227856",
+      "location": "McLean, VA",
+      "country": "USA"
+    },
+    {
+      "company": "Captivation Software",
+      "role": "Software Engineer 1 - Java/Confluence/Jira/AWS/Maven/MapReduce",
+      "link": "https://job-boards.greenhouse.io/captivation/jobs/5473266008",
+      "location": "Annapolis Junction, MD",
+      "country": "USA"
+    },
+    {
+      "company": "Captivation Software",
+      "role": "Software Engineer 1 - Python/Kotlin/Java/Terraform/Elasticsearch/Opensearch/AWS",
+      "link": "https://job-boards.greenhouse.io/captivation/jobs/5473267008",
+      "location": "Annapolis Junction, MD",
+      "country": "USA"
+    },
+    {
+      "company": "Captivation Software",
+      "role": "Software Engineer 1 - Python/PySpark/AWS",
+      "link": "https://job-boards.greenhouse.io/captivation/jobs/5473268008",
+      "location": "Annapolis Junction, MD",
+      "country": "USA"
+    },
+    {
+      "company": "Ecolab",
+      "role": "Systems Engineer Data Center Thermal & Fluid Systems",
+      "link": "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---California---San-Jose/Systems-Engineer-Data-Center-Thermal---Fluid-Systems_R00307943",
+      "location": "USA - California - San Jose",
+      "country": "USA"
+    },
+    {
+      "company": "Gdms",
+      "role": "Test and Automation Software Engineer",
+      "link": "https://careers-gdms.icims.com/jobs/76399/test-and-automation-software-engineer/job",
+      "location": "Unsure",
+      "country": "Unsure"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Software Engineer Stf - E4",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477675388?domain=lockheedmartin.com&8fold_id=996477675388",
+      "location": "Highlands Ranch, CO",
+      "country": "USA"
+    },
+    {
+      "company": "PACCAR",
+      "role": "Associate System Integration and Test Engineer",
+      "link": "https://jobs.paccar.com/job/Mount-Vernon-Associate-System-Integration-and-Test-Engineer-WA-98273-9671/1454445133/",
+      "location": "Mount Vernon, WA, US, 98273-9671",
+      "country": "USA"
+    },
+    {
+      "company": "Rtx",
+      "role": "Systems Requirements & Specification Engineer Onsite",
+      "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-RI-PORTSMOUTH-PS2--1847-W-Main-Rd--NIMITZ-SOUTH-BLDG/Systems-Requirements---Specification-Engineer-Onsite_01887418",
+      "location": "US-RI-PORTSMOUTH-PS2 ~ 1847 W Main Rd ~ NIMITZ SOUTH BLDG",
+      "country": "USA"
+    },
+    {
+      "company": "Sonyglobal",
+      "role": "Associate Data Analyst",
+      "link": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Associate-Data-Analyst_JR-119868",
+      "location": "San Diego",
+      "country": "USA"
+    },
+    {
+      "company": "Viasat",
+      "role": "Cloud Security Engineer",
+      "link": "https://careers.viasat.com/jobs/6181?icims=1",
+      "location": "Carlsbad, California; Tempe, Arizona; Reston, Virginia; Washington D. C., Washington, DC; Duluth, Georgia; Marlborough, Massachusetts",
+      "country": "USA"
     }
   ]
 }
