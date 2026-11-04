@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "name": "batches/sew454k8ltot78r8mcbwnjbl940ut9f5vod4",
+    "submittedAt": "2026-11-04T08:06:09.872Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Meta",
+        "role": "Data Scientist, Product Analytics",
+        "link": "https://www.metacareers.com/profile/job_details/2191798685107693",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Resmed",
+        "role": "Software Engineer- Devices",
+        "link": "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/Singapore-Singapore/Software-Engineer--Devices_JR_055245",
+        "location": "Singapore, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Redhat",
+        "role": "AI/ML Engineer",
+        "link": "https://redhat.wd5.myworkdayjobs.com/jobs/job/Singapore/AI-ML-Engineer_R-058068-1",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Thoughtworks",
+        "role": "Fullstack Developer (React.js, Next.js, Nest.js)",
+        "link": "https://www.thoughtworks.com/careers/jobs/8326944?gh_jid=8326944",
+        "location": "Singapore, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Thoughtworks",
+        "role": "Fullstack Developer (Vue.js, TypeScript, Node.js)",
+        "link": "https://www.thoughtworks.com/careers/jobs/8326927?gh_jid=8326927",
+        "location": "Singapore, Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
