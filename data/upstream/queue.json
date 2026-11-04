@@ -1,5 +1,5 @@
 {
-  "commit": "892160d3ccc05e5fded04d16065abc9fbcaa61c2",
+  "commit": "166f447f921207469cdb5542b3616681a93abfb2",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -433,118 +433,6 @@
       "role": "Junior System Engineer",
       "link": "https://apply.workable.com/amax-1/j/C8FD3B365F",
       "location": "Fremont, CA",
-      "country": "USA"
-    },
-    {
-      "company": "Micron",
-      "role": "MTS, AI Optimized Memory Digital Design Engineer",
-      "link": "https://micron.eightfold.ai/careers/job/43666921?domain=micron.com&8fold_id=43666921",
-      "location": "Folsom, California, United States of America, Richardson, Texas, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "AbbVie",
-      "role": "Associate DevSecOps Engineer, Platform and Tooling",
-      "link": "https://jobs.smartrecruiters.com/AbbVie/3743990016610096",
-      "location": "Mettawa, IL, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Cat",
-      "role": "AI Runtime Engineer",
-      "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/AI-Runtime-Engineer_R0000403202",
-      "location": "2 Locations",
-      "country": "Unsure"
-    },
-    {
-      "company": "Manulife",
-      "role": "Software Developer (in Test)",
-      "link": "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Lapu-Lapu-City/Senior-Quality-Engineer_JR26090318-1",
-      "location": "2 Locations",
-      "country": "Unsure"
-    },
-    {
-      "company": "Openai",
-      "role": "Data Scientist, Analytics Enablement",
-      "link": "https://jobs.ashbyhq.com/openai/5ceff3dd-3503-4ea0-9ade-eeb36b29f14e",
-      "location": "San Francisco",
-      "country": "USA"
-    },
-    {
-      "company": "Salesforce",
-      "role": "Software Engineering LMTS",
-      "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-LMTS_JR366831",
-      "location": "4 Locations",
-      "country": "Unsure"
-    },
-    {
-      "company": "Checkout.com",
-      "role": "Data Analyst - Payments Success",
-      "link": "https://jobs.ashbyhq.com/checkout.com/13c66aa4-13d1-4cda-9af6-f8d3348cb72f",
-      "location": "Atlanta",
-      "country": "USA"
-    },
-    {
-      "company": "Disney",
-      "role": "Sr Systems Engineer Disney Entertainment and ESPN Product & Technology Glendale, California / New York, New York Nov. 04, 2026",
-      "link": "https://www.disneycareers.com/en/job/glendale/sr-systems-engineer/391/102834944352",
-      "location": "Glendale, California / New York, New York",
-      "country": "USA"
-    },
-    {
-      "company": "LLNL",
-      "role": "Resilient Infrastructure Operational Systems Analyst",
-      "link": "https://jobs.smartrecruiters.com/LLNL/3743990016610466",
-      "location": "Livermore, CA, United States",
-      "country": "USA"
-    },
-    {
-      "company": "LLNL",
-      "role": "Resilient Infrastructure Systems Analyst - SI Focus",
-      "link": "https://jobs.smartrecruiters.com/LLNL/3743990016610386",
-      "location": "Livermore, CA, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Motorolasolutions",
-      "role": "Systems Software Engineer - US Remote",
-      "link": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Texas-Remote-Work/Systems-Software-Engineer---US-Remote_R69428",
-      "location": "Texas Remote Work, More...",
-      "country": "USA"
-    },
-    {
-      "company": "Ngc",
-      "role": "2027 Associate Systems Engineer – Sykesville MD",
-      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Sykesville/XMLNAME-2027-Associate-Systems-Engineer---Sykesville-MD_R10258617-1",
-      "location": "United States-Maryland-Sykesville",
-      "country": "USA"
-    },
-    {
-      "company": "Nooks",
-      "role": "Software Engineer",
-      "link": "https://jobs.ashbyhq.com/nooks/6cdc7c9c-d782-415c-91c5-12bdcc31a7b0",
-      "location": "Seattle ",
-      "country": "USA"
-    },
-    {
-      "company": "Shield",
-      "role": "Engineer I, Software Integration - New Grad - 6214",
-      "link": "https://jobs.ashbyhq.com/shield/bffebf59-65b7-4f4f-805e-a9cdf0d2b252",
-      "location": "Washington, D.C.",
-      "country": "USA"
-    },
-    {
-      "company": "Shield",
-      "role": "Engineer I, Software - Factory Team - New Grad - 6235",
-      "link": "https://jobs.ashbyhq.com/shield/6b5da15b-b34e-4771-bc6c-a05892ae87e9",
-      "location": "Washington, D.C.",
-      "country": "USA"
-    },
-    {
-      "company": "SpaceX",
-      "role": "Fluid Systems Engineer, Production (Starship) ",
-      "link": "https://boards.greenhouse.io/spacex/jobs/8906243002?gh_jid=8906243002",
-      "location": "Starbase, TX",
       "country": "USA"
     }
   ]
