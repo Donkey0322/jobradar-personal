@@ -1,5 +1,5 @@
 {
-  "commit": "564e6e3abadf42619e50eba7b3e966d14c9f6a0e",
+  "commit": "aca9c50ab3ddbeeef325ede30ccde50a00e7f059",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -436,143 +436,10 @@
       "country": "USA"
     },
     {
-      "company": "AECOM",
-      "role": "Forward Deployed Engineer, Internal Data Products",
-      "link": "https://jobs.smartrecruiters.com/AECOM2/744000159508127",
-      "location": "Phoenix, AZ, United States",
-      "country": "USA"
-    },
-    {
-      "company": "AECOM",
-      "role": "Construction Project Engineer (Data Center)",
-      "link": "https://jobs.smartrecruiters.com/AECOM2/744000159508499",
-      "location": "North Las Vegas, NV, United States",
-      "country": "USA"
-    },
-    {
-      "company": "AMD",
-      "role": "Advanced AI Workloads - Performance and Scalability Engineer",
-      "link": "https://careers.amd.com/jobs/97094?icims=1",
-      "location": "San Jose, California",
-      "country": "USA"
-    },
-    {
-      "company": "Anduril Industries",
-      "role": "Forward Deployed Software Engineer, Connected Warfare (Active Clearance)",
-      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5283460007?gh_jid=5283460007",
-      "location": "Colorado Springs, Colorado, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Anduril Industries",
-      "role": "Materials Engineer, Rocket Motor Systems",
-      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5282981007?gh_jid=5282981007",
-      "location": "McHenry, Mississippi, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Anduril Industries",
-      "role": "Software Engineer, Imaging",
-      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5283579007?gh_jid=5283579007",
-      "location": "Waltham, Massachusetts, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Apple",
-      "role": "AI Software Engineer, App Intelligence",
-      "link": "https://jobs.apple.com/en-us/details/200693199-0836/ai-software-engineer-app-intelligence?team=SFTWR",
-      "location": "Cupertino",
-      "country": "USA"
-    },
-    {
-      "company": "Asml",
-      "role": "Software Integration Engineer",
-      "link": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Software-Integration-Engineer_J-00355955-1",
-      "location": "San Diego, CA, USA",
-      "country": "USA"
-    },
-    {
-      "company": "Astrion",
-      "role": "Systems Safety Engineer",
-      "link": "https://careers.astrion.us/jobs/25466?icims=1",
-      "location": "El Segundo, California",
-      "country": "USA"
-    },
-    {
-      "company": "Avav",
-      "role": "Intermediate Missile Defense System Architecture Engineer",
-      "link": "https://avav.wd1.myworkdayjobs.com/avav/job/Arlington-VA/Intermediate-Missile-Defense-System-Architecture-Engineer_9304",
-      "location": "Arlington, VA",
-      "country": "USA"
-    },
-    {
-      "company": "Borgwarner",
-      "role": "Systems Engineer",
-      "link": "https://borgwarner.wd5.myworkdayjobs.com/borgwarner_careers/job/Kokomo-Technical-Center---Indiana---USA/Systems-Engineer_R2026-4358",
-      "location": "Kokomo Technical Center - Indiana - USA",
-      "country": "USA"
-    },
-    {
-      "company": "HPE",
-      "role": "Systems Analyst (Site Reliability Engineer) On-Site, Oakridge, TN",
-      "link": "https://careers.hpe.com/us/en/job/1214779?ph_id=1214779",
-      "location": "All, Tennessee, 00000",
-      "country": "USA"
-    },
-    {
-      "company": "HPE",
-      "role": "Systems Analyst (Site Reliability Engineer) On-Sire, Oak Ridge, TN",
-      "link": "https://careers.hpe.com/us/en/job/1190709?ph_id=1190709",
-      "location": "All, Tennessee, 00000",
-      "country": "USA"
-    },
-    {
-      "company": "Lockheedmartin",
-      "role": "Software Engineer Sr - E3",
-      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477678414?domain=lockheedmartin.com&8fold_id=996477678414",
-      "location": "Highlands Ranch, CO",
-      "country": "USA"
-    },
-    {
-      "company": "Lockheedmartin",
-      "role": "Windows - Full Stack Engineer",
-      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477724120?domain=lockheedmartin.com&8fold_id=996477724120",
-      "location": "Colorado Springs, CO",
-      "country": "USA"
-    },
-    {
-      "company": "Lockheedmartin",
-      "role": "Systems Engineer - Early Career",
-      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477457052?domain=lockheedmartin.com&8fold_id=996477457052",
-      "location": "Littleton, CO",
-      "country": "USA"
-    },
-    {
       "company": "Micron",
       "role": "MTS, AI Optimized Memory Digital Design Engineer",
       "link": "https://micron.eightfold.ai/careers/job/43666921?domain=micron.com&8fold_id=43666921",
       "location": "Folsom, California, United States of America, Richardson, Texas, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "SpaceX",
-      "role": "Propulsion Software Engineer (Falcon Engineering)",
-      "link": "https://boards.greenhouse.io/spacex/jobs/8927858002?gh_jid=8927858002",
-      "location": "Hawthorne, CA",
-      "country": "USA"
-    },
-    {
-      "company": "SpaceX",
-      "role": "Software Engineer, Full Stack (Data & Video Analysis)",
-      "link": "https://boards.greenhouse.io/spacex/jobs/8927919002?gh_jid=8927919002",
-      "location": "Hawthorne, CA",
-      "country": "USA"
-    },
-    {
-      "company": "SpaceX",
-      "role": "Software Engineer, Manufacturing",
-      "link": "https://boards.greenhouse.io/spacex/jobs/8928919002?gh_jid=8928919002",
-      "location": "Bastrop, TX",
       "country": "USA"
     },
     {
