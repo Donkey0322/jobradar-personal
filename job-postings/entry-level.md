@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Associate, Systems Engineering</td>
+      <td width="180" align="left" valign="top">Forest, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Forest-Associate%2C-Systems-Engineering-VA-24551/1418444300/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Computer Task Group</td>
+      <td width="420" align="left" valign="top">Junior Full Stack Developer</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.ctg.com/jobs/17921?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Nooks</td>
       <td width="420" align="left" valign="top">Software Engineer</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
@@ -2099,23 +2113,9 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Snowflake" src="../assets/featured-badges/snowflake.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer - Customer Experience Engineering</td>
-      <td width="180" align="left" valign="top">Menlo Park, CA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cencora</td>
-      <td width="420" align="left" valign="top">Engineer 1 - Systems Software Engineering</td>
-      <td width="180" align="left" valign="top">Remote, PA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,262.</sub></p>
+<p><sub>Showing 300 of 1,264.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-04T14:41:34.089Z</code>
+      🕒 Last updated <code>2026-11-04T14:44:43.712Z</code>
     </span>
   </p>
 </div>

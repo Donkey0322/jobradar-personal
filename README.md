@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C262-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C264-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--11--04-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,262
+- [Entry Level](./job-postings/entry-level.md) — 1,264
 
 ## The List 🚴‍♂️
 
@@ -29,6 +29,20 @@ Each category page shows up to 300 of the latest roles.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Associate, Systems Engineering</td>
+      <td width="180" align="left" valign="top">Forest, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Forest-Associate%2C-Systems-Engineering-VA-24551/1418444300/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Computer Task Group</td>
+      <td width="420" align="left" valign="top">Junior Full Stack Developer</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.ctg.com/jobs/17921?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Nooks</td>
       <td width="420" align="left" valign="top">Software Engineer</td>
@@ -225,23 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://careers.trccompanies.com/jobs/27382?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">BCG</td>
-      <td width="420" align="left" valign="top">Forward Deployed AI Scientist (For 2027 intake)</td>
-      <td width="180" align="left" valign="top">Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.bcg.com/global/en/job/59185?ph_id=59185"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Medpace</td>
-      <td width="420" align="left" valign="top">Junior Software Engineer</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12385?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,262.</sub></p>
+<p><sub>Showing 30 of 1,264.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-04T14:41:34.089Z</code>
+      🕒 Last updated <code>2026-11-04T14:44:43.712Z</code>
     </span>
   </p>
 </div>
