@@ -1,5 +1,5 @@
 {
-  "commit": "aca9c50ab3ddbeeef325ede30ccde50a00e7f059",
+  "commit": "621fdb5de6d531fa3ac617ca2c86d522f001d2e7",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -440,41 +440,6 @@
       "role": "MTS, AI Optimized Memory Digital Design Engineer",
       "link": "https://micron.eightfold.ai/careers/job/43666921?domain=micron.com&8fold_id=43666921",
       "location": "Folsom, California, United States of America, Richardson, Texas, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "Emerson",
-      "role": "Embedded Software Test Engineer",
-      "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013111",
-      "location": "Shakopee, MN, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Emerson",
-      "role": "Embedded Software Engineer",
-      "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013246",
-      "location": "Shakopee, MN, United States",
-      "country": "USA"
-    },
-    {
-      "company": "Impulse Space",
-      "role": "IT Service Delivery Analyst (AI&T)",
-      "link": "https://impulsespace.pinpointhq.com/en/postings/ec045182-976a-40b5-a901-cece2cfc4db9",
-      "location": "Redondo Beach",
-      "country": "Unsure"
-    },
-    {
-      "company": "L3harris",
-      "role": "Specialist, Software Engineer Engineering Salt Lake City, UT",
-      "link": "https://careers.l3harris.com/job/salt-lake-city/specialist-software-engineer/4832/99225353408",
-      "location": "Salt Lake City, UT",
-      "country": "USA"
-    },
-    {
-      "company": "Lockheedmartin",
-      "role": "Software Engineer Stf - E4",
-      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477565019?domain=lockheedmartin.com&8fold_id=996477565019",
-      "location": "Fort Worth, TX",
       "country": "USA"
     },
     {
