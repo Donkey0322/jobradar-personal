@@ -20424,6 +20424,16 @@
     ]
   },
   {
+    "name": "Frontgrade",
+    "ats": "oraclecloud",
+    "identifier": "exzj.fa.us8.oraclecloud.com",
+    "domain": "https://exzj.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://exzj.fa.us8.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://exzj.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/459"
+    ]
+  },
+  {
     "name": "fspco-op012325",
     "ats": "greenhouse",
     "identifier": "fspco-op012325",
@@ -24062,6 +24072,16 @@
     ]
   },
   {
+    "name": "humaninterestswe1",
+    "ats": "greenhouse",
+    "identifier": "humaninterestswe1",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/humaninterestswe1/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/humaninterestswe1/jobs/8083833"
+    ]
+  },
+  {
     "name": "humble-robotics",
     "ats": "lever",
     "identifier": "humble-robotics",
@@ -27302,6 +27322,8 @@
       "https://jobs.l3harris.com/job/Niagara-on-the-Lake-Full-Stack-Developer-Co-op-ON/1319062300/?ats=successfactors",
       "https://jobs.l3harris.com/job/Northampton-Intern,-Software-Engineer-MA-01060/1423745000/?ats=successfactors",
       "https://jobs.l3harris.com/job/Northampton-Intern,-Software-Engineer-MA-01060/1423747400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Associate,-Software-Engineer-FL-32905/1447658800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Associate,-Software-Engineer-FL-32905/1447664100/?ats=successfactors",
       "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837400/?ats=successfactors",
       "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837500/?ats=successfactors",
       "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423100800/?ats=successfactors",
@@ -32129,6 +32151,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Hollywood/Software-Engineer---Principal-Software-Engineer_R10254398",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Patuxent-River/System-Test-Engineer_R10212036",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Sykesville/XMLNAME-2027-Associate-S-W-Embedded-Engineer---Sykesville-MD_R10258626",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Sykesville/XMLNAME-2027-Associate-Systems-Engineer---Sykesville-MD_R10258617-1",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Mississippi-Iuka/Industrial-Security-Analyst_R10257429",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Mississippi-Ocean-Springs/Systems-Engineer-Level-4_R10242313",
@@ -35554,6 +35577,16 @@
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Security-Analyst---Corporate-Global-Security_JR112297",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/ROM-Bucharest-PO/Data-Warehouse-Engineer_JR111826",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Remote-USA/Cloud-Service-Engineer_JR112727"
+    ]
+  },
+  {
+    "name": "Publicis Groupe Holdings B.V",
+    "ats": "icims",
+    "identifier": "publicisgroupe.jibeapply.com",
+    "domain": "https://publicisgroupe.jibeapply.com",
+    "page": "https://publicisgroupe.jibeapply.com/api/jobs",
+    "urls": [
+      "https://publicisgroupe.jibeapply.com/jobs/179413?icims=1"
     ]
   },
   {
@@ -39186,6 +39219,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/sevenresearch/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/sevenresearch/jobs/4452682008"
+    ]
+  },
+  {
+    "name": "ShadowDragon",
+    "ats": "rippling",
+    "identifier": "shadowdragon",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/shadowdragon/jobs",
+    "urls": [
+      "https://ats.rippling.com/shadowdragon/jobs/69df1efd-5f05-4a79-9432-30925eb6db3c"
     ]
   },
   {
