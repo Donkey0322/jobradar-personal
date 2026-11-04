@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-04T06:13:03.361Z</code>
+      🕒 Last updated <code>2026-11-04T08:10:53.985Z</code>
     </span>
   </p>
 </div>
