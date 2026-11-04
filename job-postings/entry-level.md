@@ -14,10 +14,45 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Publicis Groupe Holdings B.V</td>
+      <td width="420" align="left" valign="top">Big Data Engineer</td>
+      <td width="180" align="left" valign="top">Westminster, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://publicisgroupe.jibeapply.com/jobs/166907?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Vizient</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer (Hybrid)</td>
+      <td width="180" align="left" valign="top">Irving, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://vizient.wd1.myworkdayjobs.com/vizient_careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer--Hybrid-_35731R-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Generalmotors</td>
       <td width="420" align="left" valign="top">Software Systems Engineer, Data Labeling Engineering - Early Career<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/ML-Systems-Engineer--Data-Labeling-Engineering---Early-Career_JR-202619939"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Insulet</td>
+      <td width="420" align="left" valign="top">Associate Systems Engineer, V&amp;V</td>
+      <td width="180" align="left" valign="top">Acton, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/US---Massachusetts/Associate-Systems-Engineer--V-V_REQ-2026-18881"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">NBCUniversal</td>
+      <td width="420" align="left" valign="top">Jr. Software Engineer</td>
+      <td width="180" align="left" valign="top">Universal City, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/NBCUniversal3/744000159723020"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Abbott</td>
+      <td width="420" align="left" valign="top">Software Test Engineer</td>
+      <td width="180" align="left" valign="top">Pleasanton, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---California---Pleasanton/Software-Test-Engineer_31165820-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 4</td>
     </tr>
     <tr>
@@ -39,6 +74,20 @@
       <td width="420" align="left" valign="top">Junior AI/Machine Learning Engineer</td>
       <td width="180" align="left" valign="top">Remote in USA</td>
       <td width="120" align="left" valign="top"><a href="https://ats.rippling.com/shadowdragon/jobs/69df1efd-5f05-4a79-9432-30925eb6db3c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">PACCAR</td>
+      <td width="420" align="left" valign="top">Associate System Integration and Test Engineer</td>
+      <td width="180" align="left" valign="top">Mount Vernon, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.paccar.com/job/Mount-Vernon-Associate-System-Integration-and-Test-Engineer-WA-98273-9671/1454445133/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Sonyglobal</td>
+      <td width="420" align="left" valign="top">Associate Data Analyst</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Associate-Data-Analyst_JR-119868"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 4</td>
     </tr>
     <tr>
@@ -2064,58 +2113,9 @@
       <td width="120" align="left" valign="top"><a href="https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-MD---Sparks---7-Loveton-Circle/Software-Engineer-I_R-557002-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 9</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Shieldai</td>
-      <td width="420" align="left" valign="top">Engineer I, Software Integration (R6214)</td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/shieldai/7c8aaf63-ab92-4c0f-8a54-9cf1ce07ca69"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">America&#39;s Tire</td>
-      <td width="420" align="left" valign="top">Data Engineer 1</td>
-      <td width="180" align="left" valign="top">South Bend, IN</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Circle Logistics</td>
-      <td width="420" align="left" valign="top">Entry Level Data Engineer</td>
-      <td width="180" align="left" valign="top">Fort Wayne, IN</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/CircleLogistics1/3743990016023696"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Vizient</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer</td>
-      <td width="180" align="left" valign="top">Irving, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://vizient.wd1.myworkdayjobs.com/vizient_careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer_35387R-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Xcelenergy</td>
-      <td width="420" align="left" valign="top">Associate Data Scientist</td>
-      <td width="180" align="left" valign="top">Denver, CO</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Globalfoundries</td>
-      <td width="420" align="left" valign="top">Software Engineer (2027 New College Graduate)</td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Software-Engineer--2027-New-College-Graduate-_JR-2604100"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Amtrustgroup</td>
-      <td width="420" align="left" valign="top">Software Engineer I</td>
-      <td width="180" align="left" valign="top">TBD, FL</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,271.</sub></p>
+<p><sub>Showing 300 of 1,278.</sub></p>
 
 ---
 
@@ -2124,7 +2124,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-04T22:48:07.298Z</code>
+      🕒 Last updated <code>2026-11-04T23:47:59.261Z</code>
     </span>
   </p>
 </div>

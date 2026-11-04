@@ -1,7 +1,7 @@
 # JobRadar 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Roles-1%2C271-blue" />
+  <img src="https://img.shields.io/badge/Roles-1%2C278-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
   <img src="https://img.shields.io/badge/Updated-2026--11--04-orange" />
 </p>
@@ -10,7 +10,7 @@
 
 Each category page shows up to 300 of the latest roles.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,271
+- [Entry Level](./job-postings/entry-level.md) — 1,278
 
 ## The List 🚴‍♂️
 
@@ -30,10 +30,45 @@ Each category page shows up to 300 of the latest roles.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Publicis Groupe Holdings B.V</td>
+      <td width="420" align="left" valign="top">Big Data Engineer</td>
+      <td width="180" align="left" valign="top">Westminster, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://publicisgroupe.jibeapply.com/jobs/166907?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Vizient</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer (Hybrid)</td>
+      <td width="180" align="left" valign="top">Irving, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://vizient.wd1.myworkdayjobs.com/vizient_careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer--Hybrid-_35731R-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Generalmotors</td>
       <td width="420" align="left" valign="top">Software Systems Engineer, Data Labeling Engineering - Early Career<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/ML-Systems-Engineer--Data-Labeling-Engineering---Early-Career_JR-202619939"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Insulet</td>
+      <td width="420" align="left" valign="top">Associate Systems Engineer, V&amp;V</td>
+      <td width="180" align="left" valign="top">Acton, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/US---Massachusetts/Associate-Systems-Engineer--V-V_REQ-2026-18881"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">NBCUniversal</td>
+      <td width="420" align="left" valign="top">Jr. Software Engineer</td>
+      <td width="180" align="left" valign="top">Universal City, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/NBCUniversal3/744000159723020"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Abbott</td>
+      <td width="420" align="left" valign="top">Software Test Engineer</td>
+      <td width="180" align="left" valign="top">Pleasanton, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---California---Pleasanton/Software-Test-Engineer_31165820-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 4</td>
     </tr>
     <tr>
@@ -55,6 +90,20 @@ Each category page shows up to 300 of the latest roles.
       <td width="420" align="left" valign="top">Junior AI/Machine Learning Engineer</td>
       <td width="180" align="left" valign="top">Remote in USA</td>
       <td width="120" align="left" valign="top"><a href="https://ats.rippling.com/shadowdragon/jobs/69df1efd-5f05-4a79-9432-30925eb6db3c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">PACCAR</td>
+      <td width="420" align="left" valign="top">Associate System Integration and Test Engineer</td>
+      <td width="180" align="left" valign="top">Mount Vernon, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.paccar.com/job/Mount-Vernon-Associate-System-Integration-and-Test-Engineer-WA-98273-9671/1454445133/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Sonyglobal</td>
+      <td width="420" align="left" valign="top">Associate Data Analyst</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Associate-Data-Analyst_JR-119868"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 4</td>
     </tr>
     <tr>
@@ -190,58 +239,9 @@ Each category page shows up to 300 of the latest roles.
       <td width="120" align="left" valign="top"><a href="https://www.esri.com/careers/5186832007?gh_jid=5186832007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Careers.publicisgroupe.com</td>
-      <td width="420" align="left" valign="top">Big Data Engineer</td>
-      <td width="180" align="left" valign="top">Westminster, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.publicisgroupe.com/jobs/166907?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cotiviti</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer</td>
-      <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-cotiviti.icims.com/jobs/21591/associate-software-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">First Citizens Bank</td>
-      <td width="420" align="left" valign="top">Data Engineer I - Data Platform</td>
-      <td width="180" align="left" valign="top">Raleigh, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://firstcitizens.jibeapply.com/jobs/34622?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Data Engineer I - Data Platform</td>
-      <td width="180" align="left" valign="top">Raleigh, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://firstcitizens.jibeapply.com/jobs/35893?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Micron Technology</td>
-      <td width="420" align="left" valign="top">Engineer, Edge Systems Architecture</td>
-      <td width="180" align="left" valign="top">Boise, ID</td>
-      <td width="120" align="left" valign="top"><a href="https://micron.eightfold.ai/careers/job/45284309"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
-      <td width="420" align="left" valign="top">New Grad 2027: Software Development Engineer (Embedded Systems)</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10595839/software-development-engineer-embedded-systems-early-career-2027-us"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Shield</td>
-      <td width="420" align="left" valign="top">New Grad: Software Engineer I</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/shield/986a26e9-0597-4402-85ee-0f05a6012902"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,271.</sub></p>
+<p><sub>Showing 30 of 1,278.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -252,7 +252,7 @@ Each category page shows up to 300 of the latest roles.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-04T22:48:07.298Z</code>
+      🕒 Last updated <code>2026-11-04T23:47:59.261Z</code>
     </span>
   </p>
 </div>
