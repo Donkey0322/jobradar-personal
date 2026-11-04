@@ -1,5 +1,5 @@
 {
-  "commit": "4d8cad264924fcb57d535784b31f5b805473c69b",
+  "commit": "8fb4e6c80c1970520c667eb0c8ad0a6543929382",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -450,13 +450,6 @@
       "country": "USA"
     },
     {
-      "company": "Caci",
-      "role": "Business/Systems Analyst",
-      "link": "https://searchcareers.caci.com/careers/job/1443154370004?domain=caci.com&8fold_id=1443154370004",
-      "location": "Remote (Any State)",
-      "country": "USA"
-    },
-    {
       "company": "Regions",
       "role": "Consumer Salesforce Business Systems Analyst",
       "link": "https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/Consumer-Salesforce-Business-Systems-Analyst_R107290",
@@ -476,13 +469,6 @@
       "link": "https://jobs.smartrecruiters.com/AbbVie/3743990016620546",
       "location": "North Chicago, IL, United States",
       "country": "USA"
-    },
-    {
-      "company": "Ag",
-      "role": "Radar Backend Systems Development Engineer",
-      "link": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Portsmouth/Radar-Backend-Systems-Development-Engineer_JR10446749",
-      "location": "Portsmouth",
-      "country": "Unsure"
     },
     {
       "company": "Amazon",
@@ -686,13 +672,6 @@
       "link": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Senior-Software-Engineer--Cloud-Services_3165859-1",
       "location": "San Francisco, California, United States of America",
       "country": "USA"
-    },
-    {
-      "company": "Ingrammicro",
-      "role": "Sr AWS Cloud Engineer- Remote",
-      "link": "https://ingrammicro.wd5.myworkdayjobs.com/ingrammicro/job/Field/Sr-AWS-Cloud-Engineer--Remote_R-118146",
-      "location": "Field",
-      "country": "Unsure"
     },
     {
       "company": "BAE Systems",
