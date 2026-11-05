@@ -847,6 +847,27 @@
       "link": "https://job-boards.greenhouse.io/verkada/jobs/5283644007",
       "location": "San Mateo, CA United States",
       "country": "USA"
+    },
+    {
+      "company": "Capitalone",
+      "role": "Full-stack Engineer 4",
+      "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Full-stack-Engineer-4_R1005300-2",
+      "location": "Plano, TX",
+      "country": "USA"
+    },
+    {
+      "company": "Openai",
+      "role": "Forward Deployed Engineer (FDE), Cyber- NYC",
+      "link": "https://jobs.ashbyhq.com/openai/9c1aa1f3-b4d0-48fa-814b-37d36ad0ad2e",
+      "location": "New York City",
+      "country": "USA"
+    },
+    {
+      "company": "Openai",
+      "role": "Forward Deployed Engineer (FDE), Cyber- SF",
+      "link": "https://jobs.ashbyhq.com/openai/a84e6109-142f-45ae-80e1-05811732cca1",
+      "location": "San Francisco",
+      "country": "USA"
     }
   ]
 }
