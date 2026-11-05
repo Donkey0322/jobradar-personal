@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-05T16:14:37.731Z</code>
+      🕒 Last updated <code>2026-11-05T17:00:17.526Z</code>
     </span>
   </p>
 </div>
