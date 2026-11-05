@@ -1,0 +1,149 @@
+import { describe, expect, it } from "vitest";
+
+import { ConfigSchema } from "../schema";
+
+import { createValidConfig } from "./config.test-utils";
+
+describe("ConfigSchema", () => {
+  it("should pass with valid USA filter", () => {
+    const config = createValidConfig();
+    config.target = {
+      ...config.target,
+      "full-time": ["entry level"],
+      filter: {
+        USA: {
+          allow_citizenship_required: false,
+          allow_no_sponsorship: false,
+        },
+      },
+    };
+
+    const result = ConfigSchema.safeParse(config);
+
+    expect(result.success).toBe(true);
+  });
+
+  it("should fail if filter countries does not exist in target.countries", () => {
+    const config = createValidConfig();
+    config.target = {
+      intern: ["summer intern"],
+      countries: ["Canada"],
+      filter: {
+        USA: {
+          allow_citizenship_required: false,
+        },
+      },
+    };
+
+    const result = ConfigSchema.safeParse(config);
+
+    expect(result.success).toBe(false);
+
+    if (!result.success) {
+      expect(result.error.issues[0]?.message).toContain(
+        '"USA" filter requires "USA" to exist in target.countries'
+      );
+    }
+  });
+
+  it("should fail if sender email is invalid", () => {
+    const config = createValidConfig();
+    config.sender.email = "invalid-email";
+
+    const result = ConfigSchema.safeParse(config);
+
+    expect(result.success).toBe(false);
+  });
+
+  it("should pass with multiple receiver emails", () => {
+    const result = ConfigSchema.safeParse(
+      createValidConfig({
+        receiver: {
+          emails: ["receiver@example.com", "teammate@example.com"],
+        },
+      })
+    );
+
+    expect(result.success).toBe(true);
+  });
+
+  it("should fail if receiver emails is empty", () => {
+    const config = createValidConfig();
+    config.receiver.emails = [];
+
+    const result = ConfigSchema.safeParse(config);
+
+    expect(result.success).toBe(false);
+  });
+
+  it("should fail if a receiver email is invalid", () => {
+    const config = createValidConfig();
+    config.receiver.emails = ["invalid-email"];
+
+    const result = ConfigSchema.safeParse(config);
+
+    expect(result.success).toBe(false);
+  });
+
+  it("should fail if countries is missing", () => {
+    const config = createValidConfig();
+    Reflect.deleteProperty(config.target, "countries");
+
+    const result = ConfigSchema.safeParse(config);
+
+    expect(result.success).toBe(false);
+  });
+
+  it("should fail if port is invalid", () => {
+    const config = createValidConfig();
+    config.sender.port = 99999;
+
+    const result = ConfigSchema.safeParse(config);
+
+    expect(result.success).toBe(false);
+  });
+
+  it("should allow config without filter", () => {
+    const result = ConfigSchema.safeParse(createValidConfig());
+
+    expect(result.success).toBe(true);
+  });
+
+  it("should allow optional priority keywords", () => {
+    const result = ConfigSchema.safeParse(
+      createValidConfig({
+        target: {
+          intern: ["summer intern"],
+          countries: ["USA"],
+          priorityKeywords: ["software", "swe"],
+        },
+      })
+    );
+
+    expect(result.success).toBe(true);
+  });
+
+  it("should allow optional exclude keywords", () => {
+    const result = ConfigSchema.safeParse(
+      createValidConfig({
+        target: {
+          intern: ["summer intern"],
+          countries: ["USA"],
+          excludeKeywords: ["hardware", "firmware"],
+        },
+      })
+    );
+
+    expect(result.success).toBe(true);
+  });
+
+  it("should allow optional dashboard flags", () => {
+    const result = ConfigSchema.safeParse(
+      createValidConfig({
+        dashboard: { batchOnly: true, notify: false },
+      })
+    );
+
+    expect(result.success).toBe(true);
+  });
+});

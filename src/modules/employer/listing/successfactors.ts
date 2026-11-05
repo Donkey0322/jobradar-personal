@@ -2,23 +2,22 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   getSuccessFactorsFeedCompanyName,
   getSuccessFactorsFeedUrl,
   parseSuccessFactorsFeed,
   successFactorsCompanyName,
   type SuccessFactorsJob,
-} from "@/modules/employer/shared/successfactors";
-import { appendErrorLog } from "@/utils/data";
+} from "@/modules/ats/successfactors";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
-export type { SuccessFactorsJob } from "@/modules/employer/shared/successfactors";
+export type { SuccessFactorsJob } from "@/modules/ats/successfactors";
 
 const FEED_HEADERS: HeadersInit = {
   accept: "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
@@ -43,11 +42,11 @@ async function fetchFeedCompanyName(feedUrl: string): Promise<string | null> {
  * SAP SuccessFactors Career Site Builder boards. The public RSS feed lists the
  * newest postings first and does not paginate.
  */
-export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
+export class SuccessFactorsBoard extends Board<SuccessFactorsJob> {
   readonly ats = "successfactors" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getHostnameWithoutWww(url));
+    return this.keyOf(getHostnameWithoutWww(url));
   }
 
   async formCompany(url: URL): Promise<Company> {
@@ -100,16 +99,17 @@ export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
       const res = await fetchFeed(company.page, signal);
 
       if (!res.ok) {
-        await appendErrorLog(`SuccessFactors: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("SuccessFactors", company, res);
         return [];
       }
 
-      return this.getJobsFromResponse(await res.text())
-        .map((job) => this.posting(job, company, job.postedDate))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        this.getJobsFromResponse(await res.text()).map((job) =>
+          this.posting(job, company, job.postedDate)
+        ),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("SuccessFactors", company, error)) return [];
 
@@ -127,4 +127,4 @@ export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
   }
 }
 
-export const successFactorsFetcher = new SuccessFactorsFetcher();
+export const successFactorsBoard = new SuccessFactorsBoard();

@@ -1,15 +1,15 @@
 import * as cheerio from "cheerio";
 import z from "zod";
 
-import { createJDFetchSignal } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { logListingFailure, logListingStatus } from "@/modules/employer/shared/fetch-log";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { createJDFetchSignal } from "@/modules/posting/jd/signal";
 import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
-import { cleanText } from "@/utils/string";
+import { cleanText } from "@/utils/text";
 
 const APPLE_CAREERS_URL = "https://jobs.apple.com/en-us/search";
 

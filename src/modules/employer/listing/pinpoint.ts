@@ -2,9 +2,8 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   fetchPinpointCompanyName,
   getPinpointSlug,
@@ -12,11 +11,11 @@ import {
   pinpointListingUrl,
   type PinpointPosting,
   PinpointResponseSchema,
-} from "@/modules/employer/shared/pinpoint";
-import { appendErrorLog } from "@/utils/data";
+} from "@/modules/ats/pinpoint";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 export type PinpointJob = PinpointPosting;
 
@@ -27,11 +26,11 @@ function formatLocation(job: PinpointJob): string {
 }
 
 /** The postings feed has no posting date, so new jobs are the target titles not seen before. */
-export class PinpointFetcher extends Employer<PinpointJob> {
+export class PinpointBoard extends Board<PinpointJob> {
   readonly ats = "pinpoint" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getPinpointSlug(url));
+    return this.keyOf(getPinpointSlug(url));
   }
 
   async formCompany(url: URL): Promise<Company> {
@@ -81,14 +80,14 @@ export class PinpointFetcher extends Employer<PinpointJob> {
       const res = await fetch(company.page, { signal, headers: { accept: "application/json" } });
 
       if (!res.ok) {
-        await appendErrorLog(`Pinpoint: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("Pinpoint", company, res);
         return [];
       }
 
-      return this.getJobsFromResponse(await res.json())
-        .map((job) => this.posting(job, company))
-        .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
-        .map((posting) => posting.toJob());
+      return this.screen(
+        this.getJobsFromResponse(await res.json()).map((job) => this.posting(job, company)),
+        knownKeys
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("Pinpoint", company, error)) return [];
 
@@ -106,4 +105,4 @@ export class PinpointFetcher extends Employer<PinpointJob> {
   }
 }
 
-export const pinpointFetcher = new PinpointFetcher();
+export const pinpointBoard = new PinpointBoard();

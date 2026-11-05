@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import {
   bambooHRJobUrl,
@@ -14,12 +14,12 @@ import {
   fetchBambooHRDatePosted,
   getBambooHRSlug,
   isBambooHRTenantResponse,
-} from "@/modules/employer/shared/bamboohr";
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { appendErrorLog } from "@/utils/data";
+} from "@/modules/ats/bamboohr";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { errorLog } from "@/store";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 const LocationSchema = z
   .object({
@@ -60,11 +60,11 @@ function formatLocation(job: BambooHRJob): string {
   return place ?? "";
 }
 
-export class BambooHRFetcher extends Employer<BambooHRJob> {
+export class BambooHRBoard extends Board<BambooHRJob> {
   readonly ats = "bamboohr" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getBambooHRSlug(url));
+    return this.keyOf(getBambooHRSlug(url));
   }
 
   async formCompany(url: URL): Promise<Company> {
@@ -123,24 +123,23 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
       const res = await fetch(company.page, { signal, headers: { accept: "application/json" } });
 
       if (!res.ok) {
-        await appendErrorLog(`BambooHR: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("BambooHR", company, res);
         return [];
       }
 
       if (!isBambooHRTenantResponse(res)) {
-        await appendErrorLog(`BambooHR: ${company.name} - board no longer exists`);
+        await errorLog.append(`BambooHR: ${company.name} - board no longer exists`);
         return [];
       }
 
       const rawJobs = this.getJobsFromResponse(await res.json());
       const jobs = await this.attachDatePosted(rawJobs, company, knownKeys, signal);
 
-      return jobs
-        .map((job) => this.posting(job, company, job.datePosted))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        jobs.map((job) => this.posting(job, company, job.datePosted)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("BambooHR", company, error)) return [];
 
@@ -187,7 +186,7 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
     );
 
     if (dates.size < pending.length) {
-      await appendErrorLog(
+      await errorLog.append(
         `BambooHR: ${company.name} - no posting date for ${pending.length - dates.size}/${pending.length} jobs`
       );
     }
@@ -199,4 +198,4 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
   }
 }
 
-export const bambooHRFetcher = new BambooHRFetcher();
+export const bambooHRBoard = new BambooHRBoard();

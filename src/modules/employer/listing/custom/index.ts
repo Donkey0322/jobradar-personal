@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../../employer";
+import { Board } from "../../employer";
 
 import { AmazonCompany, fetchAmazon } from "./amazon";
 import { AppleCompany, fetchApple } from "./apple";
@@ -14,21 +14,21 @@ import { fetchMeta, MetaCompany } from "./meta";
 import { fetchNetflix, NetflixCompany } from "./netflix";
 import { fetchTikTok, TikTokCompany } from "./tiktok";
 
-import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
+import { parseCustomCompanyIdentifier } from "@/modules/ats/custom";
+import { logListingFailure } from "@/modules/employer/failure";
 import { logger } from "@/utils/logger";
 
 export {
   CUSTOM_COMPANY_DOMAINS,
   parseCustomCompanyIdentifier,
   type CustomCompanyIdentifier,
-} from "@/modules/employer/shared/custom-identifier";
+} from "@/modules/ats/custom";
 
-export class CustomFetcher extends Employer<Job> {
+export class CustomBoard extends Board<Job> {
   readonly ats = "custom" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(this.getIdentifier(url));
+    return this.keyOf(this.getIdentifier(url));
   }
 
   formCompany(url: URL): Company {
@@ -145,4 +145,4 @@ export class CustomFetcher extends Employer<Job> {
   }
 }
 
-export const customFetcher = new CustomFetcher();
+export const customBoard = new CustomBoard();

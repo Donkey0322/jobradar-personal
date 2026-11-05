@@ -1,11 +1,11 @@
 import * as cheerio from "cheerio";
 
-import { createJDFetchSignal } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "./fetch";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK } from "./fetch";
+import { createJDFetchSignal } from "./signal";
 import {
   extractJobPostingFromJsonLd,
   extractRelevantJDWindow,
@@ -13,10 +13,10 @@ import {
   limitJDText,
 } from "./text";
 
-import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/employer/shared/icims";
+import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/ats/icims";
 import { fetchHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { cleanText, normalizeRawText } from "@/utils/string";
+import { cleanText, normalizeRawText } from "@/utils/text";
 
 const MIN_JD_LENGTH = 300;
 

@@ -5,12 +5,11 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { appendErrorLog } from "@/utils/data";
+import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 export const SmartRecruitersJobSchema = z.object({
   id: z.string(),
@@ -26,11 +25,11 @@ export const SmartRecruitersResponseSchema = z.object({
   content: z.array(SmartRecruitersJobSchema),
 });
 
-export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
+export class SmartRecruitersBoard extends Board<SmartRecruitersJob> {
   readonly ats = "smartrecruiters" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(this.getIdentifier(url));
+    return this.keyOf(this.getIdentifier(url));
   }
 
   formCompany(url: URL): Company {
@@ -89,51 +88,21 @@ export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
       });
 
       if (!res.ok) {
-        await appendErrorLog(
-          `Smart Recruiters: ${company.name} - ${res.status} - ${res.statusText}`
-        );
+        await logListingStatus("Smart Recruiters", company, res);
         return [];
       }
 
       const rawJobs = this.getJobsFromResponse(await res.json());
 
-      const opportunities = rawJobs
-        .map((job) => this.posting(job, company, job.releasedDate))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
-
-      return opportunities;
+      return this.screen(
+        rawJobs.map((job) => this.posting(job, company, job.releasedDate)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
-      if (await logListingFailure("Smart Recruiters", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ SmartRecruiters request aborted"
-        );
-
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-        },
-        `${RED_CROSS} Error fetching smart recruiters jobs`
-      );
-
-      return [];
+      return this.failSoft("Smart Recruiters", company, error);
     }
   }
 }
 
-export const smartRecruitersFetcher = new SmartRecruitersFetcher();
+export const smartRecruitersBoard = new SmartRecruitersBoard();

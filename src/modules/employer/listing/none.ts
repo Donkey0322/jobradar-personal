@@ -1,15 +1,15 @@
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import { getHostnameWithoutWww } from "@/utils/url";
 
 /** Career sites on an ATS JobRadar cannot read yet. Rows keep their URLs but list nothing. */
-export class NoneFetcher extends Employer<Job> {
+export class NoneBoard extends Board<Job> {
   readonly ats = "none" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getHostnameWithoutWww(url));
+    return this.keyOf(getHostnameWithoutWww(url));
   }
 
   formCompany(url: URL): Company {
@@ -42,4 +42,4 @@ export class NoneFetcher extends Employer<Job> {
   }
 }
 
-export const noneFetcher = new NoneFetcher();
+export const noneBoard = new NoneBoard();

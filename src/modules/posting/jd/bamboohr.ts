@@ -1,15 +1,14 @@
-import { createJDFetchSignal } from "@/constants";
-
 import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
+import { createJDFetchSignal } from "./signal";
 
 import {
   bambooHRDetailUrl,
   getBambooHRJobId,
   getBambooHRSlug,
   isBambooHRHost,
-} from "@/modules/employer/shared/bamboohr";
+} from "@/modules/ats/bamboohr";
 
 export async function fetchBambooHRJD(
   url: string,

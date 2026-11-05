@@ -1,10 +1,8 @@
-import { createJDFetchSignal } from "@/constants";
-
 import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
+import { createJDFetchSignal } from "../signal";
 
-import { getLastPathNumber } from "@/utils/job-key/url";
-
-const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
+import { NETFLIX_API_URL } from "@/modules/ats/custom/netflix";
+import { getLastPathNumber } from "@/modules/ats/job-key/url";
 
 export async function fetchNetflixJD(
   url: string,

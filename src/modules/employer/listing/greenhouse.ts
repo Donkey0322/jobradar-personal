@@ -5,17 +5,16 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
+
 import {
   greenhouseSyncIdentifier,
   isGreenhouseJobBoardHost,
   resolveGreenhouseIdentifier,
-} from "../shared/greenhouse";
-
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { appendErrorLog } from "@/utils/data";
+} from "@/modules/ats/greenhouse";
+import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 export const GreenhouseJobSchema = z.object({
@@ -33,14 +32,14 @@ export const GreenhouseResponseSchema = z.object({
   jobs: z.array(GreenhouseJobSchema),
 });
 
-export class GreenhouseFetcher extends Employer<GreenhouseJob> {
+export class GreenhouseBoard extends Board<GreenhouseJob> {
   readonly ats = "greenhouse" as const;
 
   companyKeyFromUrl(url: URL): string {
     const syncIdentifier = this.getSyncIdentifier(url);
 
     if (syncIdentifier) {
-      return this.companyKey(syncIdentifier);
+      return this.keyOf(syncIdentifier);
     }
 
     const parts = url.pathname.split("/").filter(Boolean);
@@ -49,10 +48,10 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
     // Provisional keys for URLs that need network to resolve the real identifier
     if (isGreenhouseJobBoardHost(host) && parts[0] === "embed" && parts[1] === "job_app") {
       const token = url.searchParams.get("token");
-      return this.companyKey(token ? `job_app:${token}` : `url:${url.href}`);
+      return this.keyOf(token ? `job_app:${token}` : `url:${url.href}`);
     }
 
-    return this.companyKey(`host:${host}`);
+    return this.keyOf(`host:${host}`);
   }
 
   async formCompany(url: URL): Promise<Company> {
@@ -104,44 +103,19 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
       const response = await fetch(company.page, { signal });
 
       if (!response.ok) {
-        await appendErrorLog(
-          `Greenhouse: ${company.name} - ${response.status} - ${response.statusText}`
-        );
+        await logListingStatus("Greenhouse", company, response);
         return [];
       }
 
-      return this.getJobsFromResponse(await response.json())
-        .map((job) => this.posting(job, company, [job.first_published, job.updated_at]))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        this.getJobsFromResponse(await response.json()).map((job) =>
+          this.posting(job, company, [job.first_published, job.updated_at])
+        ),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
-      if (await logListingFailure("Greenhouse", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ Greenhouse request aborted"
-        );
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-          url: company.page,
-        },
-        `${RED_CROSS} Error fetching greenhouse jobs`
-      );
-      return [];
+      return this.failSoft("Greenhouse", company, error);
     }
   }
 
@@ -157,7 +131,7 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
   }
 }
 
-export const greenhouseFetcher = new GreenhouseFetcher();
+export const greenhouseBoard = new GreenhouseBoard();
 
 /**
  * {

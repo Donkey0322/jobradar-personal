@@ -5,10 +5,9 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { ListingHttpError, logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/employer/shared/icims";
+import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/ats/icims";
 import {
   findJibeRedirect,
   getJibeApiUrl,
@@ -20,11 +19,13 @@ import {
   jibeCompanyName,
   type JibeJob,
   parseJibeJobs,
-} from "@/modules/employer/shared/jibe";
+} from "@/modules/ats/jibe";
+import { ListingHttpError, logListingFailure } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { cleanText, formatCompanyName } from "@/utils/string";
+import { cleanText } from "@/utils/text";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 export const IcimsJobSchema = z.object({
@@ -302,11 +303,11 @@ interface IcimsPageResponse {
   pageUrl: URL;
 }
 
-export class IcimsFetcher extends Employer<IcimsJob> {
+export class IcimsBoard extends Board<IcimsJob> {
   readonly ats = "icims" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getIcimsCompanyIdentifier(url));
+    return this.keyOf(getIcimsCompanyIdentifier(url));
   }
 
   repairCompany(company: Company): Company {
@@ -440,4 +441,4 @@ export class IcimsFetcher extends Employer<IcimsJob> {
   }
 }
 
-export const icimsFetcher = new IcimsFetcher();
+export const icimsBoard = new IcimsBoard();

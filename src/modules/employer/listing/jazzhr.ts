@@ -2,9 +2,8 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   jazzHRHostName,
   type JazzHRJob,
@@ -12,14 +11,14 @@ import {
   jazzHRListingUrl,
   parseJazzHRCompanyName,
   parseJazzHRListing,
-} from "@/modules/employer/shared/jazzhr";
-import { appendErrorLog } from "@/utils/data";
+} from "@/modules/ats/jazzhr";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
-export type { JazzHRJob } from "@/modules/employer/shared/jazzhr";
+export type { JazzHRJob } from "@/modules/ats/jazzhr";
 
 const PAGE_HEADERS: HeadersInit = {
   "user-agent": "Mozilla/5.0 (JobRadar)",
@@ -43,11 +42,11 @@ async function fetchCompanyName(listingUrl: string): Promise<string | null> {
  * JazzHR boards (`*.applytojob.com` or a company domain). `/apply/jobs` renders
  * every open job in one HTML table; there is no public JSON feed.
  */
-export class JazzHRFetcher extends Employer<JazzHRJob> {
+export class JazzHRBoard extends Board<JazzHRJob> {
   readonly ats = "jazzhr" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getHostnameWithoutWww(url));
+    return this.keyOf(getHostnameWithoutWww(url));
   }
 
   async formCompany(url: URL): Promise<Company> {
@@ -98,16 +97,17 @@ export class JazzHRFetcher extends Employer<JazzHRJob> {
       const res = await fetchListing(company.page, signal);
 
       if (!res.ok) {
-        await appendErrorLog(`JazzHR: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("JazzHR", company, res);
         return [];
       }
 
-      return this.getJobsFromResponse(await res.text())
-        .map((job) => this.posting(job, company, job.postedDate))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        this.getJobsFromResponse(await res.text()).map((job) =>
+          this.posting(job, company, job.postedDate)
+        ),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("JazzHR", company, error)) return [];
 
@@ -125,4 +125,4 @@ export class JazzHRFetcher extends Employer<JazzHRJob> {
   }
 }
 
-export const jazzHRFetcher = new JazzHRFetcher();
+export const jazzHRBoard = new JazzHRBoard();

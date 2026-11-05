@@ -4,13 +4,12 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { isWorkdayLocaleSegment } from "@/modules/employer/shared/workday";
-import { appendErrorLog } from "@/utils/data";
+import { isWorkdayLocaleSegment } from "@/modules/ats/workday";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 const PAGE_SIZE = 20;
 const MAX_PAGES = 20;
@@ -39,12 +38,12 @@ const WorkdayResponseSchema = z.object({
   jobPostings: z.array(z.unknown()),
 });
 
-export class WorkdayFetcher extends Employer<WorkdayJob> {
+export class WorkdayBoard extends Board<WorkdayJob> {
   readonly ats = "workday" as const;
 
   companyKeyFromUrl(url: URL): string {
     const { companyName, careerPage } = this.getCompanyParts(url);
-    return this.companyKey(`${companyName}-${careerPage.toLowerCase()}`);
+    return this.keyOf(`${companyName}-${careerPage.toLowerCase()}`);
   }
 
   formCompany(url: URL): Company {
@@ -171,10 +170,10 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
       return [];
     }
 
-    return results
-      .map((job) => this.posting(job, company))
-      .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
-      .map((posting) => posting.toJob());
+    return this.screen(
+      results.map((job) => this.posting(job, company)),
+      knownKeys
+    ).map((posting) => posting.toJob());
   }
 
   private async paginateJobPostings(
@@ -216,7 +215,7 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
         });
 
         if (!res.ok) {
-          await appendErrorLog(`Workday: ${company.name} - ${res.status} - ${res.statusText}`);
+          await logListingStatus("Workday", company, res);
           if (!recentOnly && results.length > 0) {
             return results;
           }
@@ -318,4 +317,4 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
   }
 }
 
-export const workdayFetcher = new WorkdayFetcher();
+export const workdayBoard = new WorkdayBoard();

@@ -1,17 +1,18 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-import { DEFAULT_JD_FETCH_TIMEOUT_MS } from "@/constants";
+import { JobCategory } from "@/constants/job-category";
 
 import type { JD, Job } from "@/types";
 
+import { DEFAULT_JD_FETCH_TIMEOUT_MS } from "../jd/signal";
+
 import { JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd/fetch";
-import { JobCategory } from "@/validation/config";
 
 const analyzePostingMock = vi.hoisted(() => vi.fn());
 const extractQualificationsMock = vi.hoisted(() => vi.fn());
 const fetchPostingJDMock = vi.hoisted(() => vi.fn());
 
-vi.mock("../analyze", () => ({
+vi.mock("../analysis/analyze", () => ({
   analyzePosting: analyzePostingMock,
   extractQualifications: extractQualificationsMock,
 }));
@@ -174,6 +175,57 @@ describe("Posting.analyze", () => {
     expect(timeout).toHaveBeenCalledWith(LINK_ANALYSIS_TIMEOUT_MS);
     expect(timeout).not.toHaveBeenCalledWith(DEFAULT_JD_FETCH_TIMEOUT_MS);
     timeout.mockRestore();
+  });
+});
+
+describe("Posting.addQualifications", () => {
+  beforeEach(() => {
+    extractQualificationsMock.mockReset();
+  });
+
+  it("merges qualifications onto the screened jd and returns their cost", async () => {
+    const posting = Posting.from(job).setJD(screened);
+    extractQualificationsMock.mockResolvedValue({
+      qualifications: ["TypeScript"],
+      cost: 0.2,
+    });
+
+    const added = await posting.addQualifications("raw");
+
+    expect(extractQualificationsMock).toHaveBeenCalledTimes(1);
+    expect(extractQualificationsMock).toHaveBeenCalledWith("raw");
+    expect(added).toEqual({ cost: 0.2 });
+    expect(posting.jd).toEqual({ ...screened, qualifications: ["TypeScript"] });
+  });
+
+  it("keeps the screened jd when extraction returns nothing", async () => {
+    const posting = Posting.from(job).setJD(screened);
+    extractQualificationsMock.mockResolvedValue({ qualifications: null, cost: 0.2 });
+
+    const added = await posting.addQualifications("raw");
+
+    expect(added).toEqual({ cost: 0.2 });
+    expect(posting.jd).toEqual(screened);
+  });
+
+  it("does not extract when qualifications are already present", async () => {
+    const posting = Posting.from(job).setJD({ ...screened, qualifications: ["Already"] });
+
+    const added = await posting.addQualifications("raw");
+
+    expect(extractQualificationsMock).not.toHaveBeenCalled();
+    expect(added).toEqual({ cost: 0 });
+    expect(posting.jd?.qualifications).toEqual(["Already"]);
+  });
+
+  it("does not extract before a jd exists", async () => {
+    const posting = Posting.from(job);
+
+    const added = await posting.addQualifications("raw");
+
+    expect(extractQualificationsMock).not.toHaveBeenCalled();
+    expect(added).toEqual({ cost: 0 });
+    expect(posting.jd).toBeUndefined();
   });
 });
 

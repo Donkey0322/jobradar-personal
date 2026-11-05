@@ -5,20 +5,20 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   fetchRipplingBoardTitle,
   fetchRipplingCreatedOn,
   getRipplingSlug,
   ripplingJobUrl,
   ripplingListingUrl,
-} from "@/modules/employer/shared/rippling";
-import { appendErrorLog } from "@/utils/data";
+} from "@/modules/ats/rippling";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { errorLog } from "@/store";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 export const RipplingJobSchema = z.object({
   uuid: z.string(),
@@ -55,11 +55,11 @@ function mergeLocations(rows: z.infer<typeof RipplingResponseSchema>): RipplingJ
   }));
 }
 
-export class RipplingFetcher extends Employer<RipplingJob> {
+export class RipplingBoard extends Board<RipplingJob> {
   readonly ats = "rippling" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getRipplingSlug(url) ?? url.hostname);
+    return this.keyOf(getRipplingSlug(url) ?? url.hostname);
   }
 
   async formCompany(url: URL): Promise<Company | null> {
@@ -109,19 +109,18 @@ export class RipplingFetcher extends Employer<RipplingJob> {
       const res = await fetch(company.page, { signal });
 
       if (!res.ok) {
-        await appendErrorLog(`Rippling: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("Rippling", company, res);
         return [];
       }
 
       const rawJobs = this.getJobsFromResponse(await res.json());
       const jobs = await this.attachCreatedOn(rawJobs, company, knownKeys, signal);
 
-      return jobs
-        .map((job) => this.posting(job, company, job.createdOn))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        jobs.map((job) => this.posting(job, company, job.createdOn)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("Rippling", company, error)) return [];
 
@@ -168,7 +167,7 @@ export class RipplingFetcher extends Employer<RipplingJob> {
     );
 
     if (dates.size < pending.length) {
-      await appendErrorLog(
+      await errorLog.append(
         `Rippling: ${company.name} - no posting date for ${pending.length - dates.size}/${pending.length} jobs`
       );
     }
@@ -180,4 +179,4 @@ export class RipplingFetcher extends Employer<RipplingJob> {
   }
 }
 
-export const ripplingFetcher = new RipplingFetcher();
+export const ripplingBoard = new RipplingBoard();

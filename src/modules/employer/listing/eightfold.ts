@@ -4,13 +4,12 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
-import { eightfoldDomain, eightfoldIdentifier } from "../shared/eightfold";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { appendErrorLog } from "@/utils/data";
+import { eightfoldDomain, eightfoldIdentifier } from "@/modules/ats/eightfold";
+import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 export const TRACKING_PARAM = "8fold_id";
 
@@ -76,11 +75,11 @@ function applyListingPage(page: string): string | null {
   return `${url.origin}/api/apply/v2/jobs?domain=${domain}`;
 }
 
-export class EightfoldFetcher extends Employer<EightfoldJob> {
+export class EightfoldBoard extends Board<EightfoldJob> {
   readonly ats = "eightfold" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(this.getIdentifier(url));
+    return this.keyOf(this.getIdentifier(url));
   }
 
   async formCompany(url: URL): Promise<Company> {
@@ -271,9 +270,7 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
         page = result.page;
 
         if (!result.response.ok) {
-          await appendErrorLog(
-            `Eightfold: ${company.name} - ${result.response.status} - ${result.response.statusText}`
-          );
+          await logListingStatus("Eightfold", company, result.response);
           break;
         }
 
@@ -281,54 +278,28 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
         if (rawJobs.length === 0) break;
 
         let reachedOldJob = false;
-        const opportunities = rawJobs
-          .map((job) => ({
-            posting: this.posting(job, company, job.postedTs),
-            hasPostedAt: Boolean(job.postedTs),
-          }))
-          .filter(({ posting, hasPostedAt }) => {
-            if (hasPostedAt && !posting.isRecent()) {
-              reachedOldJob = true;
-              return false;
-            }
+        const candidates = [];
 
-            return posting.isTarget() && !posting.isKnown(knownKeys);
-          })
-          .map(({ posting }) => posting.toJob());
+        for (const job of rawJobs) {
+          const posting = this.posting(job, company, job.postedTs);
 
-        allJobs.push(...opportunities);
+          if (job.postedTs && !posting.isRecent()) {
+            reachedOldJob = true;
+            continue;
+          }
+
+          candidates.push(posting);
+        }
+
+        allJobs.push(...this.screen(candidates, knownKeys).map((posting) => posting.toJob()));
         if (rawJobs.length < PAGE_SIZE || reachedOldJob) break;
       }
 
       return allJobs;
     } catch (error) {
-      if (await logListingFailure("Eightfold", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ Eightfold request aborted"
-        );
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-          url: company.page,
-        },
-        `${RED_CROSS} Error fetching eightfold jobs`
-      );
-      return [];
+      return this.failSoft("Eightfold", company, error);
     }
   }
 }
 
-export const eightfoldFetcher = new EightfoldFetcher();
+export const eightfoldBoard = new EightfoldBoard();

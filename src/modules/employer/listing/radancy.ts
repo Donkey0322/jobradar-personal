@@ -4,18 +4,18 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   getRadancyCompanyName,
   getRadancyResultsPostUrl,
   parseRadancyJobs,
-} from "@/modules/employer/shared/radancy";
-import { appendErrorLog } from "@/utils/data";
+} from "@/modules/ats/radancy";
+import { logListingFailure } from "@/modules/employer/failure";
+import { errorLog } from "@/store";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 export const RadancyJobSchema = z.object({
@@ -142,11 +142,11 @@ function createRadancyRequestBody(page: number) {
   };
 }
 
-export class RadancyFetcher extends Employer<RadancyJob> {
+export class RadancyBoard extends Board<RadancyJob> {
   readonly ats = "radancy" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getHostnameWithoutWww(url));
+    return this.keyOf(getHostnameWithoutWww(url));
   }
 
   formCompany(url: URL): Company {
@@ -210,7 +210,7 @@ export class RadancyFetcher extends Employer<RadancyJob> {
 
         if (!response.ok) {
           const location = response.headers.get("location");
-          await appendErrorLog(
+          await errorLog.append(
             `Radancy: ${company.name} - ${response.status} - ${response.statusText}${
               location ? ` - ${location}` : ""
             }`
@@ -254,4 +254,4 @@ export class RadancyFetcher extends Employer<RadancyJob> {
   }
 }
 
-export const radancyFetcher = new RadancyFetcher();
+export const radancyBoard = new RadancyBoard();

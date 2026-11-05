@@ -1,11 +1,10 @@
-import { createJDFetchSignal } from "@/constants";
-
 import type { JDFetchResult } from "./fetch";
 
 import { fetchJD } from "./fetch";
+import { createJDFetchSignal } from "./signal";
 
-import { eightfoldDomain } from "@/modules/employer/shared/eightfold";
-import { getLastPathNumber } from "@/utils/job-key/url";
+import { eightfoldDomain } from "@/modules/ats/eightfold";
+import { getLastPathNumber } from "@/modules/ats/job-key/url";
 
 export async function fetchEightfoldJD(
   url: string,

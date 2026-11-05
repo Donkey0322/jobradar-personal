@@ -3,20 +3,17 @@ import { URL } from "url";
 
 import type { Company } from "@/types";
 
-import { aliasedCompanyKey } from "./aliases";
-import { classifyATS } from "./classifier";
-import { identityKey } from "./employer";
-import { employers } from "./registry";
+import { companyKey } from "./employer";
+import { careerSiteAlias, companyKeyFromUrl } from "./keys";
+import { boards } from "./registry";
 
-import { loadCompanies, saveCompanies } from "@/utils/data";
-import { renderProgress, startProgress } from "@/utils/dev";
+import { classifyATS } from "@/modules/ats/classify";
+import { companies } from "@/store";
 import { logger } from "@/utils/logger";
 
 const CONCURRENCY = 10;
 
-export function getCompanyKey(company: Company): string {
-  return identityKey(company);
-}
+export { companyKey };
 
 /**
  * Bare domain/page URLs often omit the company slug (e.g. https://jobs.lever.co),
@@ -38,8 +35,8 @@ function representativeUrl(existing: Company): URL | null {
 }
 
 async function resolveExistingCompany(stored: Company): Promise<{ key: string; company: Company }> {
-  const existing = employers[stored.ats]?.repairCompany(stored) ?? stored;
-  const existingKey = getCompanyKey(existing);
+  const existing = boards[stored.ats]?.repairCompany(stored) ?? stored;
+  const existingKey = companyKey(existing);
   const url = representativeUrl(existing);
 
   if (!url) {
@@ -47,8 +44,8 @@ async function resolveExistingCompany(stored: Company): Promise<{ key: string; c
   }
 
   try {
-    const fetcher = employers[classifyATS(url)];
-    const resolvedKey = careerSiteAlias(url.href) ?? fetcher.companyKeyFromUrl(url);
+    const fetcher = boards[classifyATS(url)];
+    const resolvedKey = companyKeyFromUrl(url);
 
     if (resolvedKey === existingKey) {
       return { key: existingKey, company: existing };
@@ -60,19 +57,9 @@ async function resolveExistingCompany(stored: Company): Promise<{ key: string; c
       return { key: existingKey, company: existing };
     }
 
-    return { key: getCompanyKey(reformed), company: reformed };
+    return { key: companyKey(reformed), company: reformed };
   } catch {
     return { key: existingKey, company: existing };
-  }
-}
-
-/** Company key of the ATS row an unread career-site URL belongs to, if it is aliased. */
-function careerSiteAlias(urlStr: string): string | null {
-  try {
-    const url = new URL(urlStr);
-    return classifyATS(url) === "none" ? aliasedCompanyKey(url) : null;
-  } catch {
-    return null;
   }
 }
 
@@ -87,9 +74,7 @@ export function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
     let key: string;
 
     try {
-      const url = new URL(urlStr);
-      const ats = classifyATS(url);
-      key = careerSiteAlias(urlStr) ?? employers[ats].companyKeyFromUrl(url);
+      key = companyKeyFromUrl(new URL(urlStr));
     } catch (err) {
       logger.warn({ url: urlStr, err }, "Failed to derive company key from URL");
       key = `unkeyed:${urlStr}`;
@@ -116,7 +101,7 @@ async function formCompanyFromGroup(
   try {
     const url = new URL(representative);
     const ats = classifyATS(url);
-    const company = await employers[ats].formCompany(url);
+    const company = await boards[ats].formCompany(url);
 
     if (!company) {
       return { groupKey, company: null };
@@ -143,7 +128,13 @@ async function formCompanyFromGroup(
   }
 }
 
-export async function buildCompanyList(urls: string[] | Set<string>): Promise<Company[]> {
+/** Called with `(0, total)` before grouping work, then `(completed, total)` after each group. */
+export type BuildProgress = (current: number, total: number) => void;
+
+export async function buildCompanyList(
+  urls: string[] | Set<string>,
+  onProgress?: BuildProgress
+): Promise<Company[]> {
   const map = new Map<string, Company>();
 
   const groups = groupUrlsByCompanyKey(Array.from(urls));
@@ -166,7 +157,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
 
   const limit = pLimit(CONCURRENCY);
 
-  startProgress(total);
+  onProgress?.(0, total);
 
   const results = await Promise.all(
     Array.from(groups.entries()).map(([groupKey, groupUrls]) =>
@@ -174,7 +165,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
         const result = await formCompanyFromGroup(groupKey, groupUrls);
 
         completed++;
-        renderProgress(completed, total);
+        onProgress?.(completed, total);
 
         return result;
       })
@@ -186,7 +177,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
       continue;
     }
 
-    const key = getCompanyKey(company);
+    const key = companyKey(company);
 
     if (!map.has(key)) {
       map.set(key, company);
@@ -198,7 +189,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
 
   // Merge existing companies so companies don't disappear.
   // Re-resolve keys so identifier remaps replace stale rows instead of duplicating them.
-  const existingCompanies = await loadCompanies();
+  const existingCompanies = await companies.load();
   const resolvedExisting = await Promise.all(existingCompanies.map(resolveExistingCompany));
   const aliasedRows: Array<{ key: string; company: Company }> = [];
 
@@ -241,16 +232,16 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
     }
 
     const { company } = await formCompanyFromGroup(groupKey, groupUrls);
-    if (company?.name) map.set(getCompanyKey(company), company);
+    if (company?.name) map.set(companyKey(company), company);
   }
 
   const result = Array.from(map.values())
     .map((company) => ({ ...company, urls: [...company.urls].sort() }))
     .sort(
-      (a, b) => a.name.localeCompare(b.name) || getCompanyKey(a).localeCompare(getCompanyKey(b))
+      (a, b) => a.name.localeCompare(b.name) || companyKey(a).localeCompare(companyKey(b))
     );
 
-  await saveCompanies(result);
+  await companies.save(result);
 
   logger.info({ count: result.length }, "💰 Successfully built companies");
 

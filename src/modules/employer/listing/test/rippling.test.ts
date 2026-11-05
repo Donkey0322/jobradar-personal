@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-import type * as Titles from "@/modules/posting/titles";
+import type * as Titles from "@/modules/posting/screening";
 
-vi.mock("@/modules/posting/titles", async (importOriginal) => {
+vi.mock("@/modules/posting/screening", async (importOriginal) => {
   const actual = await importOriginal<typeof Titles>();
   return {
     ...actual,
@@ -11,14 +11,15 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
   };
 });
 
-vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
+vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import type { Company } from "@/types";
 
-import { Employer } from "../../employer";
-import { ripplingFetcher } from "../rippling";
+import { Board } from "../../employer";
+import { ripplingBoard } from "../rippling";
 
-import { toJobKeySet } from "@/utils/job-key";
+import { toJobKeySet } from "@/modules/ats/job-key";
+import { errorLog } from "@/store";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -55,12 +56,13 @@ function row(uuid: string, name: string, location: string) {
 describe("Rippling fetcher", () => {
   beforeEach(() => {
     mockFetch.mockReset();
+    vi.mocked(errorLog.append).mockReset();
     vi.stubGlobal("fetch", mockFetch);
   });
 
   it("is a stateless singleton on the common contract", () => {
-    expect(ripplingFetcher).toBeInstanceOf(Employer);
-    expect(Object.keys(ripplingFetcher)).toEqual(["ats"]);
+    expect(ripplingBoard).toBeInstanceOf(Board);
+    expect(Object.keys(ripplingBoard)).toEqual(["ats"]);
   });
 
   it("keys companies by board slug and names them from the board page", async () => {
@@ -72,8 +74,8 @@ describe("Rippling fetcher", () => {
       new Response(`<script id="__NEXT_DATA__">${JSON.stringify(data)}</script>`)
     );
 
-    expect(ripplingFetcher.companyKeyFromUrl(url)).toBe("rippling:collieraerospace");
-    await expect(ripplingFetcher.formCompany(url)).resolves.toEqual(company);
+    expect(ripplingBoard.companyKeyFromUrl(url)).toBe("rippling:collieraerospace");
+    await expect(ripplingBoard.formCompany(url)).resolves.toEqual(company);
     expect(String(mockFetch.mock.calls[0][0])).toBe(
       "https://ats.rippling.com/collieraerospace/jobs"
     );
@@ -98,7 +100,7 @@ describe("Rippling fetcher", () => {
       throw new Error(`unexpected fetch ${url}`);
     });
 
-    const jobs = await ripplingFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000));
+    const jobs = await ripplingBoard.fetch(company, knownKeys, AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -122,16 +124,46 @@ describe("Rippling fetcher", () => {
       Response.json([row(NEW_ID, "Software Engineer Intern", "Raleigh, NC")])
     );
 
-    await expect(ripplingFetcher.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(ripplingBoard.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
       new Set([`rippling:${NEW_ID}`])
     );
   });
 
   it("returns nothing when the board is missing", async () => {
-    mockFetch.mockResolvedValueOnce(new Response("", { status: 404 }));
+    mockFetch.mockResolvedValueOnce(new Response("", { status: 404, statusText: "Not Found" }));
 
     await expect(
-      ripplingFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      ripplingBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
+    expect(errorLog.append).toHaveBeenCalledWith("Rippling: Collier Aerospace - 404 - Not Found");
+  });
+
+  it("keeps the dated job when another posting date is missing", async () => {
+    mockFetch.mockImplementation(async (input) => {
+      const url = String(input);
+      if (url === company.page) {
+        return Response.json([
+          row(NEW_ID, "Software Engineer Intern", "Raleigh, NC"),
+          row(OLD_ID, "Software Engineer", "Raleigh, NC"),
+        ]);
+      }
+      if (url.endsWith(NEW_ID)) return jobPage("2026-11-02T10:00:00-07:00");
+      if (url.endsWith(OLD_ID)) return new Response("missing", { status: 404 });
+      throw new Error(`unexpected fetch ${url}`);
+    });
+
+    await expect(
+      ripplingBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([
+      {
+        company: "Collier Aerospace",
+        role: "Software Engineer Intern",
+        link: `https://ats.rippling.com/collieraerospace/jobs/${NEW_ID}`,
+        location: "Raleigh, NC",
+      },
+    ]);
+    expect(errorLog.append).toHaveBeenCalledWith(
+      "Rippling: Collier Aerospace - no posting date for 1/2 jobs"
+    );
   });
 });

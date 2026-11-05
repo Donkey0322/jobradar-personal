@@ -4,8 +4,8 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
-import { resolveAshbyIdentifier } from "@/modules/employer/shared/ashby";
-import { getAshbyJobId } from "@/utils/job-key/ats";
+import { resolveAshbyIdentifier } from "@/modules/ats/ashby";
+import { getAshbyJobId } from "@/modules/ats/job-key/ats";
 
 export async function fetchAshbyJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   const u = new URL(url);

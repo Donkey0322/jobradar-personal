@@ -6,21 +6,19 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
+
 import {
   ashbyBoardOverride,
   ashbyHostedJobUrl,
   ashbySyncIdentifier,
   fetchAshbyBoardPostings,
   fetchAshbyPublishedDate,
-  isAshbyJobBoardHost,
   resolveAshbyIdentifier,
-} from "../shared/ashby";
-
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { appendErrorLog } from "@/utils/data";
+} from "@/modules/ats/ashby";
+import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 function buildCompany(url: URL, identifier: string, name = identifier): Company {
@@ -32,14 +30,6 @@ function buildCompany(url: URL, identifier: string, name = identifier): Company 
     page: `${ASHBY_API_URL}/${identifier}`,
     urls: [],
   };
-}
-
-export function isAshbyUrl(url: URL): boolean {
-  const host = getHostnameWithoutWww(url);
-
-  return (
-    isAshbyJobBoardHost(host) || host.includes("ashbyhq.com") || url.searchParams.has("ashby_jid")
-  );
 }
 
 export const AshbyJobSchema = z.object({
@@ -58,17 +48,17 @@ export const AshbyResponseSchema = z.object({
 
 const PUBLISHED_DATE_CONCURRENCY = 8;
 
-export class AshbyFetcher extends Employer<AshbyJob> {
+export class AshbyBoard extends Board<AshbyJob> {
   readonly ats = "ashby" as const;
 
   companyKeyFromUrl(url: URL): string {
     const syncIdentifier = this.getSyncIdentifier(url);
 
     if (syncIdentifier) {
-      return this.companyKey(syncIdentifier);
+      return this.keyOf(syncIdentifier);
     }
 
-    return this.companyKey(`host:${getHostnameWithoutWww(url)}`);
+    return this.keyOf(`host:${getHostnameWithoutWww(url)}`);
   }
 
   async formCompany(url: URL): Promise<Company> {
@@ -135,7 +125,7 @@ export class AshbyFetcher extends Employer<AshbyJob> {
       }));
     }
 
-    await appendErrorLog(`Ashby: ${company.name} - ${res.status} - ${res.statusText}`);
+    await logListingStatus("Ashby", company, res);
     return null;
   }
 
@@ -150,40 +140,13 @@ export class AshbyFetcher extends Employer<AshbyJob> {
 
       const jobs = await this.attachPublishedDates(rawJobs, company, knownKeys, signal);
 
-      return jobs
-        .map((job) => this.posting(job, company, job.publishedAt))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        jobs.map((job) => this.posting(job, company, job.publishedAt)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
-      if (await logListingFailure("Ashby", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ Ashby request aborted"
-        );
-
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-          url: company.page,
-        },
-        `${RED_CROSS} Error fetching ashby jobs`
-      );
-
-      return [];
+      return this.failSoft("Ashby", company, error);
     }
   }
 
@@ -225,4 +188,4 @@ export class AshbyFetcher extends Employer<AshbyJob> {
   }
 }
 
-export const ashbyFetcher = new AshbyFetcher();
+export const ashbyBoard = new AshbyBoard();

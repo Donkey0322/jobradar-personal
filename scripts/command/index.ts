@@ -1,5 +1,10 @@
 import { Command } from "commander";
 
+import { registerBoard } from "./board";
+import { registerCompany } from "./company";
+import { registerEmail } from "./email";
+import { registerJob } from "./job";
+
 const program = new Command();
 
 program.name("jobradar");
@@ -7,19 +12,19 @@ program.name("jobradar");
 const sync = program.command("sync");
 
 sync.description("Sync jobs from community sources").action(async () => {
-  const { default: checkConfig } = await import("./setup/checkConfig");
+  const { default: checkConfig } = await import("./setup/check-config");
   await checkConfig();
 
-  const { default: syncCommunity } = await import("./sync/community");
+  const { default: syncCommunity } = await import("./sync");
   await syncCommunity();
 });
 
 const scan = program.command("scan");
 scan.description("Scan jobs from ATS patterns").action(async () => {
-  const { default: checkConfig } = await import("./setup/checkConfig");
+  const { default: checkConfig } = await import("./setup/check-config");
   await checkConfig();
 
-  const { default: syncDiscover } = await import("./sync/discover");
+  const { default: syncDiscover } = await import("./scan");
   await syncDiscover();
 });
 
@@ -54,7 +59,7 @@ program
   .command("upstream")
   .description("Apply public JDs to jobs waiting in data/upstream/queue.json")
   .action(async () => {
-    const { default: checkConfig } = await import("./setup/checkConfig");
+    const { default: checkConfig } = await import("./setup/check-config");
     await checkConfig();
 
     const { default: applyUpstreamQueue } = await import("./upstream");
@@ -66,7 +71,7 @@ program
   .description("Submit and collect cheaper batch analysis for queued jobs")
   .option("--submit-only", "Submit queued jobs, then exit without waiting for results")
   .action(async (options: { submitOnly?: boolean }) => {
-    const { default: checkConfig } = await import("./setup/checkConfig");
+    const { default: checkConfig } = await import("./setup/check-config");
     await checkConfig();
 
     const { default: runBatch } = await import("./batch");
@@ -76,13 +81,18 @@ program
 const setup = program.command("setup");
 
 setup.command("check-config").action(async () => {
-  const { default: checkConfig } = await import("./setup/checkConfig");
+  const { default: checkConfig } = await import("./setup/check-config");
   await checkConfig();
 });
 
 setup.command("get-config").action(async () => {
-  const { default: getConfig } = await import("./setup/getConfig");
+  const { default: getConfig } = await import("./setup/get-config");
   await getConfig();
 });
+
+registerJob(program);
+registerCompany(program);
+registerBoard(program);
+registerEmail(program);
 
 program.parse();

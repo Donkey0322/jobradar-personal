@@ -1,8 +1,13 @@
-import type { ATS } from "./type";
+import { RED_CROSS } from "@/constants/log";
+
+import type { ATS } from "@/modules/ats/types";
 import type { Company, Job } from "@/types";
 
+import { getJobKey, isKnownJob, toJobKeySet } from "@/modules/ats/job-key";
+import { logListingFailure } from "@/modules/employer/failure";
 import { Posting, type PostingDate } from "@/modules/posting/posting";
-import { getJobKey, isKnownJob, toJobKeySet } from "@/utils/job-key";
+import { isAbortError } from "@/utils/http";
+import { logger } from "@/utils/logger";
 
 export type CompanyResult = Company | null;
 export type MaybePromise<T> = T | Promise<T>;
@@ -10,7 +15,7 @@ export type MaybePromise<T> = T | Promise<T>;
 const FETCH_TIMEOUT = 20_000;
 const LEVER_TIMEOUT = 60_000;
 
-export function identityKey(
+export function companyKey(
   company: Pick<Company, "ats" | "identifier" | "domain" | "page">
 ): string {
   if (company.identifier) {
@@ -21,14 +26,14 @@ export function identityKey(
 }
 
 /**
- * One employer on a job board.
+ * One job board adapter. `Company` remains the stored company row.
  *
  * The subclass is the board (Greenhouse, Lever, …). A row from `company.json`
  * is constructed with that subclass so `getJobs()` uses the matching fetch.
  * URL-only helpers (`companyKeyFromUrl`, `formCompany`) stay on the
- * shared instance because no employer exists yet.
+ * shared instance because no company row exists yet.
  */
-export abstract class Employer<TJob = unknown> {
+export abstract class Board<TJob = unknown> {
   abstract readonly ats: ATS;
 
   #data?: Company;
@@ -69,16 +74,14 @@ export abstract class Employer<TJob = unknown> {
   }
 
   key(): string {
-    return identityKey(this);
+    return companyKey(this);
   }
 
   async getJobs(): Promise<Job[]> {
     const knownKeys = toJobKeySet(this.urls ?? []);
     const timeout = this.ats === "lever" ? LEVER_TIMEOUT : FETCH_TIMEOUT;
     const signal = AbortSignal.timeout(timeout);
-    const jobs = await this.fetch(this, knownKeys, signal);
-
-    return jobs.filter((job) => !isKnownJob(job.link, knownKeys));
+    return this.fetch(this, knownKeys, signal);
   }
 
   /** Job keys currently on this company's board, unfiltered. */
@@ -113,8 +116,49 @@ export abstract class Employer<TJob = unknown> {
     return isKnownJob(link, knownKeys);
   }
 
+  /**
+   * Discover filter. Order is target, then known key, then recency when requested.
+   * Each `fetch()` applies this to the link it returns. `getJobs()` does not filter again.
+   */
+  protected screen(
+    postings: readonly Posting[],
+    knownKeys: ReadonlySet<string>,
+    options: { recent?: boolean } = {}
+  ): Posting[] {
+    return postings.filter(
+      (posting) =>
+        posting.isTarget() && !posting.isKnown(knownKeys) && (!options.recent || posting.isRecent())
+    );
+  }
+
+  /** Listing failure, abort, and any other exception all return no jobs. */
+  protected async failSoft(label: string, company: Company, error: unknown): Promise<Job[]> {
+    if (await logListingFailure(label, company, error)) return [];
+
+    if (isAbortError(error)) {
+      logger.warn(
+        {
+          company: company.name,
+          url: company.page,
+        },
+        `⚠️ ${label} request aborted`
+      );
+      return [];
+    }
+
+    logger.error(
+      {
+        error,
+        company: company.name,
+        url: company.page,
+      },
+      `${RED_CROSS} Error fetching ${label.toLowerCase()} jobs`
+    );
+    return [];
+  }
+
   /** Build `${ats}:${identifier}` keys used by company list grouping. */
-  protected companyKey(identifier: string): string {
+  protected keyOf(identifier: string): string {
     return `${this.ats}:${identifier}`;
   }
 

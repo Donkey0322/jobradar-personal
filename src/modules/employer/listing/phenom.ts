@@ -4,8 +4,8 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "@/modules/employer/employer";
-import { ListingHttpError, logListingFailure } from "@/modules/employer/shared/fetch-log";
+import { Board } from "@/modules/employer/employer";
+import { ListingHttpError, logListingFailure } from "@/modules/employer/failure";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -606,11 +606,11 @@ function getPhenomJobLocation(job: PhenomJob): string {
   return job.location ?? job.cityStateCountry ?? job.cityState ?? job.city ?? "";
 }
 
-export class PhenomFetcher extends Employer<PhenomJob> {
+export class PhenomBoard extends Board<PhenomJob> {
   readonly ats = "phenom" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(url.hostname);
+    return this.keyOf(url.hostname);
   }
 
   async formCompany(url: URL): Promise<Company | null> {
@@ -714,6 +714,7 @@ export class PhenomFetcher extends Employer<PhenomJob> {
         }
 
         let reachedOldJob = false;
+        const fresh = [];
 
         for (const rawJob of rawJobs) {
           const posting = this.posting(rawJob, resolvedCompany, rawJob.postedDate);
@@ -723,12 +724,10 @@ export class PhenomFetcher extends Employer<PhenomJob> {
             break;
           }
 
-          if (!posting.isTarget() || posting.isKnown(knownKeys)) {
-            continue;
-          }
-
-          jobs.push(posting.toJob());
+          fresh.push(posting);
         }
+
+        jobs.push(...this.screen(fresh, knownKeys).map((posting) => posting.toJob()));
 
         if (reachedOldJob || rawJobs.length < PAGE_SIZE) {
           break;
@@ -753,4 +752,4 @@ export class PhenomFetcher extends Employer<PhenomJob> {
   }
 }
 
-export const phenomFetcher = new PhenomFetcher();
+export const phenomBoard = new PhenomBoard();

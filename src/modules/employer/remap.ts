@@ -1,9 +1,8 @@
 import type { Company } from "@/types";
 
-import { classifyATS } from "./classifier";
-import { employers } from "./registry";
+import { companyKeyFromUrl } from "./keys";
 
-import { formatCompanyName } from "@/utils/string";
+import { formatCompanyName } from "@/utils/company-name";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 function tenantHintFromUrl(url: URL): string | undefined {
@@ -26,7 +25,7 @@ export function knownEmployerName(
 ): string | null {
   try {
     const url = new URL(link);
-    const company = companiesByKey.get(employers[classifyATS(url)].companyKeyFromUrl(url));
+    const company = companiesByKey.get(companyKeyFromUrl(url));
     return company ? formatCompanyName(company.name) : null;
   } catch {
     return null;
@@ -44,7 +43,7 @@ export function remapStoredCompany<T extends { company: string; link: string }>(
 ): T {
   try {
     const url = new URL(record.link);
-    const company = companiesByKey.get(employers[classifyATS(url)].companyKeyFromUrl(url));
+    const company = companiesByKey.get(companyKeyFromUrl(url));
 
     if (!company) {
       return record;

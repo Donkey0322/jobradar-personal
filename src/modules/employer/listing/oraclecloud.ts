@@ -4,12 +4,11 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { appendErrorLog } from "@/utils/data";
+import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 export const OracleCloudJobSchema = z.object({
   Id: z.string(),
@@ -108,11 +107,11 @@ const composeUrl = (company: Company, id: string) => {
   return `${company.domain}/${id}`;
 };
 
-export class OracleCloudFetcher extends Employer<OracleCloudJob> {
+export class OracleCloudBoard extends Board<OracleCloudJob> {
   readonly ats = "oraclecloud" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(url.hostname.replace("www.", ""));
+    return this.keyOf(url.hostname.replace("www.", ""));
   }
 
   async formCompany(url: URL): Promise<Company> {
@@ -186,50 +185,21 @@ export class OracleCloudFetcher extends Employer<OracleCloudJob> {
       });
 
       if (!res.ok) {
-        await appendErrorLog(`Oracle Cloud: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("Oracle Cloud", company, res);
         return [];
       }
 
       const rawJobs = this.getJobsFromResponse(await res.json());
 
-      const opportunities = rawJobs
-        .map((job) => this.posting(job, company, job.PostedDate))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
-
-      return opportunities;
+      return this.screen(
+        rawJobs.map((job) => this.posting(job, company, job.PostedDate)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
-      if (await logListingFailure("Oracle Cloud", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ Oracle Cloud request aborted"
-        );
-
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-          url: company.page,
-        },
-        `${RED_CROSS} Error fetching oracle cloud jobs`
-      );
-
-      return [];
+      return this.failSoft("Oracle Cloud", company, error);
     }
   }
 }
 
-export const oracleCloudFetcher = new OracleCloudFetcher();
+export const oracleCloudBoard = new OracleCloudBoard();

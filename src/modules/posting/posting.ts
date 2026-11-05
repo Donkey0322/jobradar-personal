@@ -1,14 +1,23 @@
-import { ALLOWED_COUNTRIES, CONFIG, createJDFetchSignal } from "@/constants";
-
-import type { PostingAnalysisResult } from "./analyze";
+import type { PostingAnalysisResult } from "./analysis/analyze";
 import type { JDFetchResult } from "./jd";
 import type { JD, Job } from "@/types";
 
-import { analyzePosting, extractQualifications } from "./analyze";
+import { analyzePosting, extractQualifications } from "./analysis/analyze";
+import { createJDFetchSignal } from "./jd/signal";
 import { fetchPostingJD } from "./jd";
-import { isNotifyCandidate, isTarget, shouldBatchAnalyze, withinDays } from "./titles";
+import {
+  eligibilityFor,
+  isNotifyCandidate,
+  isTarget,
+  notificationDecision,
+  shouldBatchAnalyze,
+  withinDays,
+} from "./screening";
 
-import { getJobKey, isKnownJob } from "@/utils/job-key";
+import { CONFIG } from "@/config";
+import { getJobKey, isKnownJob } from "@/modules/ats/job-key";
+import { isAIEnabled } from "@/utils/ai/enabled";
+import { logger } from "@/utils/logger";
 
 export type PostingDate = string | number | null | undefined;
 
@@ -75,15 +84,26 @@ export class Posting implements Job {
       options.fetched ?? (await this.getRawJD(options.signal ?? createJDFetchSignal()));
     const result = await analyzePosting(this.toJob(), fetched);
     this.setJD(result.jd);
+    const added = await this.addQualifications(result.rawJD);
 
+    return {
+      ...result,
+      jd: this.jd ?? null,
+      cost: result.cost + added.cost,
+    };
+  }
+
+  /**
+   * Ask for qualifications when this screened posting still needs them.
+   * A skipped call costs nothing. A failed extraction keeps the screened JD and
+   * still returns the model cost.
+   */
+  async addQualifications(rawJD: string): Promise<{ cost: number }> {
     if (!this.jd || !this.needsQualifications()) {
-      return {
-        ...result,
-        jd: this.jd ?? null,
-      };
+      return { cost: 0 };
     }
 
-    const qualificationResult = await extractQualifications(result.rawJD);
+    const qualificationResult = await extractQualifications(rawJD);
 
     if (qualificationResult.qualifications) {
       this.setJD({
@@ -92,57 +112,11 @@ export class Posting implements Job {
       });
     }
 
-    return {
-      ...result,
-      jd: this.jd ?? null,
-      cost: result.cost + qualificationResult.cost,
-    };
+    return { cost: qualificationResult.cost };
   }
 
   isEligible(): readonly [eligible: boolean, reason: string | null] {
-    const jd = this.requireJD();
-    const filters = CONFIG.target.filter;
-
-    if (ALLOWED_COUNTRIES.size > 0 && !ALLOWED_COUNTRIES.has(jd.country)) {
-      return [false, `${jd.country} is not in the allowed countries`];
-    }
-
-    const allowedCategories = new Set([
-      ...(CONFIG.target?.intern ?? []),
-      ...(CONFIG.target?.["full-time"] ?? []),
-    ]);
-
-    if (jd.category && !allowedCategories.has(jd.category)) {
-      return [false, `${jd.category} is not in the allowed categories`];
-    }
-
-    if (!filters) {
-      return [true, null];
-    }
-
-    const rules = [];
-
-    if (jd.country === "Unsure") {
-      for (const country of CONFIG.target.countries) {
-        const rule = filters[country];
-        if (rule) rules.push(rule);
-      }
-    } else {
-      const rule = filters[jd.country];
-      if (rule) rules.push(rule);
-    }
-
-    for (const rule of rules) {
-      if (rule.allow_citizenship_required === false && jd.citizenship === true) {
-        return [false, "citizenship is required"];
-      }
-
-      if (rule.allow_no_sponsorship === false && jd.sponsorship === false) {
-        return [false, "sponsorship is not available"];
-      }
-    }
-
-    return [true, null];
+    return eligibilityFor(this.requireJD(), CONFIG);
   }
 
   needsQualifications(): boolean {
@@ -158,25 +132,7 @@ export class Posting implements Job {
   }
 
   decideNotification() {
-    const [eligible, reason] = this.isEligible();
-
-    if (!eligible) {
-      return {
-        action: "skip" as const,
-        kind: "ineligible" as const,
-        reason,
-      };
-    }
-
-    if (!isNotifyCandidate(this.role)) {
-      return {
-        action: "skip" as const,
-        kind: "dashboard" as const,
-        reason: null,
-      };
-    }
-
-    return { action: "notify" as const, kind: null, reason: null };
+    return notificationDecision({ role: this.role, jd: this.requireJD() }, CONFIG);
   }
 
   toJob(): Job {
@@ -211,6 +167,11 @@ export interface PostingAnalyzeOptions {
 }
 
 export async function analyzeLink(link: string): Promise<JD | null> {
+  if (!isAIEnabled()) {
+    logger.info({ url: link }, "⏭️ AI is disabled; skipping link analysis");
+    return null;
+  }
+
   const posting = Posting.from({
     company: "",
     role: "",

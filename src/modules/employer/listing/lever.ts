@@ -4,12 +4,11 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { appendErrorLog } from "@/utils/data";
+import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 const identifierToLeverCompany = {
   InfrastructureandCapitalProjects: "accenture",
@@ -26,11 +25,11 @@ export type LeverJob = z.infer<typeof LeverJobSchema>;
 
 export const LeverResponseSchema = z.array(LeverJobSchema);
 
-export class LeverFetcher extends Employer<LeverJob> {
+export class LeverBoard extends Board<LeverJob> {
   readonly ats = "lever" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(this.getIdentifier(url));
+    return this.keyOf(this.getIdentifier(url));
   }
 
   formCompany(url: URL): Company {
@@ -94,51 +93,21 @@ export class LeverFetcher extends Employer<LeverJob> {
       });
 
       if (!res.ok) {
-        await appendErrorLog(`Lever: ${company.name} - ${res.status} - ${res.statusText}`);
-
+        await logListingStatus("Lever", company, res);
         return [];
       }
 
       const rawJobs = this.getJobsFromResponse(await res.json());
 
-      const opportunities = rawJobs
-        .map((job) => this.posting(job, company, job.createdAt))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
-
-      return opportunities;
+      return this.screen(
+        rawJobs.map((job) => this.posting(job, company, job.createdAt)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
-      if (await logListingFailure("Lever", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ Lever request aborted"
-        );
-
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-          url: company.page,
-        },
-        `${RED_CROSS} Error fetching lever jobs`
-      );
-
-      return [];
+      return this.failSoft("Lever", company, error);
     }
   }
 }
 
-export const leverFetcher = new LeverFetcher();
+export const leverBoard = new LeverBoard();

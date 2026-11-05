@@ -1,21 +1,22 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-import type * as Titles from "@/modules/posting/titles";
+import type * as Titles from "@/modules/posting/screening";
 
-vi.mock("@/modules/posting/titles", async (importOriginal) => {
+vi.mock("@/modules/posting/screening", async (importOriginal) => {
   const actual = await importOriginal<typeof Titles>();
   return { ...actual, isTarget: vi.fn(() => true), withinDays: vi.fn(() => true) };
 });
 
-const { appendErrorLog } = vi.hoisted(() => ({ appendErrorLog: vi.fn() }));
-vi.mock("@/utils/data", () => ({ appendErrorLog }));
+const appendErrorLog = vi.hoisted(() => vi.fn());
+vi.mock("@/store", () => ({ errorLog: { append: appendErrorLog } }));
 
 import type { Company } from "@/types";
 
-import { Employer } from "../../employer";
-import { successFactorsFetcher } from "../successfactors";
+import { Board } from "../../employer";
+import { successFactorsBoard } from "../successfactors";
 
-import { toJobKeySet } from "@/utils/job-key";
+import { toJobKeySet } from "@/modules/ats/job-key";
+import { withinDays } from "@/modules/posting/screening";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -48,12 +49,14 @@ const company: Company = {
 describe("SuccessFactors fetcher", () => {
   beforeEach(() => {
     mockFetch.mockReset();
+    appendErrorLog.mockReset();
+    vi.mocked(withinDays).mockReset().mockReturnValue(true);
     vi.stubGlobal("fetch", mockFetch);
   });
 
   it("is a stateless singleton on the common contract", () => {
-    expect(successFactorsFetcher).toBeInstanceOf(Employer);
-    expect(Object.keys(successFactorsFetcher)).toEqual(["ats"]);
+    expect(successFactorsBoard).toBeInstanceOf(Board);
+    expect(Object.keys(successFactorsBoard)).toEqual(["ats"]);
   });
 
   it("forms a company from a job URL and names it from the feed", async () => {
@@ -62,8 +65,8 @@ describe("SuccessFactors fetcher", () => {
     );
     mockFetch.mockResolvedValueOnce(feed(""));
 
-    expect(successFactorsFetcher.companyKeyFromUrl(url)).toBe("successfactors:aramarkcareers.com");
-    await expect(successFactorsFetcher.formCompany(url)).resolves.toEqual(company);
+    expect(successFactorsBoard.companyKeyFromUrl(url)).toBe("successfactors:aramarkcareers.com");
+    await expect(successFactorsBoard.formCompany(url)).resolves.toEqual(company);
     expect(String(mockFetch.mock.calls[0][0])).toBe(company.page);
   });
 
@@ -71,7 +74,7 @@ describe("SuccessFactors fetcher", () => {
     mockFetch.mockRejectedValueOnce(new Error("offline"));
 
     await expect(
-      successFactorsFetcher.formCompany(
+      successFactorsBoard.formCompany(
         new URL("https://careers.qorvo.com/job/X-TX-75080/1435014200/")
       )
     ).resolves.toMatchObject({ name: "careers.qorvo.com", identifier: "careers.qorvo.com" });
@@ -94,7 +97,7 @@ describe("SuccessFactors fetcher", () => {
       )
     );
 
-    const jobs = await successFactorsFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000));
+    const jobs = await successFactorsBoard.fetch(company, knownKeys, AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -114,7 +117,7 @@ describe("SuccessFactors fetcher", () => {
     );
 
     await expect(
-      successFactorsFetcher.listJobKeys(company, AbortSignal.timeout(1000))
+      successFactorsBoard.listJobKeys(company, AbortSignal.timeout(1000))
     ).resolves.toEqual(new Set(["successfactors:aramarkcareers.com:1440000000"]));
   });
 
@@ -124,7 +127,7 @@ describe("SuccessFactors fetcher", () => {
     );
 
     await expect(
-      successFactorsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      successFactorsBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(appendErrorLog).toHaveBeenCalledWith(
       "SuccessFactors: Aramark - certificate has expired"
@@ -132,10 +135,27 @@ describe("SuccessFactors fetcher", () => {
   });
 
   it("returns nothing when the feed request fails", async () => {
-    mockFetch.mockResolvedValueOnce(new Response("", { status: 503 }));
+    mockFetch.mockResolvedValueOnce(new Response("", { status: 503, statusText: "Unavailable" }));
 
     await expect(
-      successFactorsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      successFactorsBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(appendErrorLog).toHaveBeenCalledWith("SuccessFactors: Aramark - 503 - Unavailable");
+  });
+
+  it("drops feed postings that are not recent", async () => {
+    vi.mocked(withinDays).mockReturnValue(false);
+    mockFetch.mockResolvedValueOnce(
+      feed(
+        item(
+          "Software Engineer (Philadelphia, PA, US, 19107)",
+          "/UnitedStates/job/Philadelphia-Software-Engineer-PA-19107/1446000000/"
+        )
+      )
+    );
+
+    await expect(
+      successFactorsBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
   });
 });

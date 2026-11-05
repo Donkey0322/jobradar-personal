@@ -17,6 +17,7 @@ permissions:
 concurrency:
   group: job-data-sync
   cancel-in-progress: false
+  queue: max
 
 jobs:
   gate:
@@ -46,23 +47,21 @@ jobs:
             exit 0
           fi
 
-          python3 <<'PY'
-          import json
-          import os
+          node <<'JS'
+          const { existsSync, readFileSync, appendFileSync } = require("node:fs");
 
-          path = "data/upstream/queue.json"
-          due = False
+          const queuePath = "data/upstream/queue.json";
+          let due = false;
 
-          if os.path.exists(path):
-              payload = json.load(open(path, encoding="utf-8"))
-              jobs = payload.get("jobs") if isinstance(payload, dict) else None
-              due = isinstance(jobs, list) and len(jobs) > 0
+          if (existsSync(queuePath)) {
+            const payload = JSON.parse(readFileSync(queuePath, "utf8"));
+            const jobs = payload && typeof payload === "object" ? payload.jobs : null;
+            due = Array.isArray(jobs) && jobs.length > 0;
+          }
 
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
-              output.write(f"due={'true' if due else 'false'}\n")
-
-          print("Public JD jobs are waiting." if due else "No jobs waiting for a public JD.")
-          PY
+          appendFileSync(process.env.GITHUB_OUTPUT, `due=${due ? "true" : "false"}\n`);
+          console.log(due ? "Public JD jobs are waiting." : "No jobs waiting for a public JD.");
+          JS
 
   sync:
     needs: gate
@@ -106,22 +105,9 @@ jobs:
           fetch-depth: 1
           persist-credentials: false
 
-      - name: Setup pnpm
+      - name: Setup pnpm and Node
         if: steps.public.outputs.changed == 'true'
-        uses: pnpm/action-setup@v6
-        with:
-          version: 11.7.0
-
-      - name: Setup Node.js
-        if: steps.public.outputs.changed == 'true'
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22
-          cache: pnpm
-
-      - name: Install dependencies
-        if: steps.public.outputs.changed == 'true'
-        run: pnpm install --frozen-lockfile
+        uses: ./.github/actions/setup-jobradar
 
       - name: Check configuration
         if: steps.public.outputs.changed == 'true'

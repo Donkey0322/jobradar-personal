@@ -1,8 +1,7 @@
-import { createJDFetchSignal } from "@/constants";
-
 import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
+import { createJDFetchSignal } from "./signal";
 
 import {
   getPinpointPostingId,
@@ -10,8 +9,8 @@ import {
   isPinpointHost,
   pinpointListingUrl,
   PinpointResponseSchema,
-} from "@/modules/employer/shared/pinpoint";
-import { htmlToText } from "@/utils/string";
+} from "@/modules/ats/pinpoint";
+import { htmlToText } from "@/utils/html";
 
 /** Pinpoint has no per-posting API; the JD comes from the tenant's postings feed. */
 export async function fetchPinpointJD(

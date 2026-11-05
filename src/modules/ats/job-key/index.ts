@@ -1,0 +1,143 @@
+import {
+  getAshbyKey,
+  getBambooHRKey,
+  getCustomKey,
+  getEightfoldKey,
+  getGreenhouseKey,
+  getIcimsKey,
+  getJazzHRKey,
+  getLeverKey,
+  getOracleKey,
+  getPhenomKey,
+  getPinpointKey,
+  getRadancyKey,
+  getRipplingKey,
+  getSmartRecruitersKey,
+  getSuccessFactorsKey,
+  getWorkdayKey,
+} from "./ats";
+import { normalizeUrl } from "./url";
+
+import { classifyATS } from "@/modules/ats/classify";
+
+export function getJobKey(url: string) {
+  try {
+    const u = new URL(url);
+    const ats = classifyATS(u);
+
+    switch (ats) {
+      case "ashby":
+        return getAshbyKey(u) ?? `ashby:${normalizeUrl(url)}`;
+
+      case "bamboohr":
+        return getBambooHRKey(u) ?? `bamboohr:${normalizeUrl(url)}`;
+
+      case "eightfold":
+        return getEightfoldKey(u) ?? `eightfold:${normalizeUrl(url)}`;
+
+      case "greenhouse":
+        return getGreenhouseKey(u) ?? `greenhouse:${normalizeUrl(url)}`;
+
+      case "icims":
+        return getIcimsKey(u) ?? `icims:${normalizeUrl(url)}`;
+
+      case "jazzhr":
+        return getJazzHRKey(u) ?? `jazzhr:${normalizeUrl(url)}`;
+
+      case "lever":
+        return getLeverKey(u) ?? `lever:${normalizeUrl(url)}`;
+
+      case "oraclecloud":
+        return getOracleKey(u.pathname) ?? `oraclecloud:${normalizeUrl(url)}`;
+
+      case "phenom":
+        return getPhenomKey(u) ?? `phenom:${normalizeUrl(url)}`;
+
+      case "pinpoint":
+        return getPinpointKey(u) ?? `pinpoint:${normalizeUrl(url)}`;
+
+      case "radancy":
+        return getRadancyKey(u.pathname) ?? `radancy:${normalizeUrl(url)}`;
+
+      case "rippling":
+        return getRipplingKey(u) ?? `rippling:${normalizeUrl(url)}`;
+
+      case "smartrecruiters":
+        return getSmartRecruitersKey(u.pathname) ?? `smartrecruiters:${normalizeUrl(url)}`;
+
+      case "successfactors":
+        return getSuccessFactorsKey(u) ?? `successfactors:${normalizeUrl(url)}`;
+
+      case "workday":
+        return getWorkdayKey(url) ?? `workday:${normalizeUrl(url)}`;
+
+      case "custom":
+      case "none":
+        return getCustomKey(url);
+
+      default:
+        ats satisfies never;
+        return `url:${normalizeUrl(url)}`;
+    }
+  } catch {
+    return `url:${url}`;
+  }
+}
+
+export function toJobKeySet(urls: Iterable<string>) {
+  return new Set(Array.from(urls, getJobKey));
+}
+
+export function isKnownJob(link: string, knownKeys: ReadonlySet<string>) {
+  return knownKeys.has(getJobKey(link));
+}
+
+export function deduplicateJobs<T extends { link: string }>(jobs: T[]): T[] {
+  const seen = new Set<string>();
+
+  return jobs.filter((job) => {
+    const key = getJobKey(job.link);
+
+    if (seen.has(key)) {
+      return false;
+    }
+
+    seen.add(key);
+    return true;
+  });
+}
+
+export function groupUrlsByKey(urls: string[] | Set<string>) {
+  const map = new Map<string, string[]>();
+
+  for (const url of urls) {
+    const key = getJobKey(url);
+    if (!key) {
+      continue;
+    }
+
+    if (!map.has(key)) {
+      map.set(key, []);
+    }
+
+    map.get(key)!.push(url);
+  }
+
+  return map;
+}
+
+function mapToJson(map: Map<string, string[]>) {
+  const obj: Record<string, string[]> = {};
+
+  for (const [key, urls] of map.entries()) {
+    obj[key] = urls;
+  }
+
+  return obj;
+}
+
+export function deduplicate(urls: string[] | Set<string>) {
+  const grouped = groupUrlsByKey(urls);
+  const json = mapToJson(grouped);
+  return Object.values(json).map((urls) => urls[0]);
+}
