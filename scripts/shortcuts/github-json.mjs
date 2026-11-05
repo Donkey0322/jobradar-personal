@@ -1,7 +1,13 @@
-import { readFileSync } from "node:fs";
+import { Buffer } from "node:buffer";
+import process from "node:process";
+
+const chunks = [];
+for await (const chunk of process.stdin) {
+  chunks.push(chunk);
+}
 
 const command = process.argv[2] ?? "";
-const data = JSON.parse(readFileSync(0, "utf8"));
+const data = JSON.parse(Buffer.concat(chunks).toString("utf8"));
 
 if (command === "run-id") {
   const runId = data.workflow_run_id;

@@ -1,4 +1,5 @@
 import { readFileSync } from "node:fs";
+import process from "node:process";
 
 const command = process.argv[2];
 const logPath = process.argv[3];

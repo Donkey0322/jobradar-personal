@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { appendFileSync, existsSync, readFileSync, writeFileSync } from "node:fs";
+import process from "node:process";
 
 const VALUE_FLAGS = new Set(["-X", "-d", "-H", "-w", "--connect-timeout", "--max-time"]);
 
