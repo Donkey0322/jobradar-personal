@@ -1,6 +1,6 @@
-# Entry Level
+# Entry Level jobs
 
-[← Back to the list](../README.md)
+[← Back to the main job board](../README.md)
 
 <table width="100%">
   <thead>
@@ -2115,16 +2115,8 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,285.</sub></p>
+<p><sub>Showing 300 of 1,285 opportunities in this section.</sub></p>
 
 ---
 
-<div align="center">
-  <p>
-    <span style="color:#374151;">
-      📦 Generated from <code>opportunities.ndjson</code>
-      &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-05T15:32:53.623Z</code>
-    </span>
-  </p>
-</div>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-05T16:14:37.731Z</code></sub>
