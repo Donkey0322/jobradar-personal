@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "name": "batches/icrxz4jk3qtcxbiqrmc8cnn01a2j1vhb1rj7",
+    "submittedAt": "2026-11-05T22:11:26.007Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "BCG",
+        "role": "Forward Deployed AI Engineer (For 2027 intake)",
+        "link": "https://careers.bcg.com/global/en/job/59186?ph_id=59186",
+        "location": "Singapore, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Micron",
+        "role": "IT SOFTWARE ENGINEER",
+        "link": "https://micron.eightfold.ai/careers/job/45375779?domain=micron.com&8fold_id=45375779",
+        "location": "Taichung City, Taichung City, Taiwan",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Micron",
+        "role": "SOFTWARE ENGINEER",
+        "link": "https://micron.eightfold.ai/careers/job/45376037?domain=micron.com&8fold_id=45376037",
+        "location": "Tainan City, Tainan City, Taiwan",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Micron",
+        "role": "IT SOFTWARE ENGINEER",
+        "link": "https://micron.wd1.myworkdayjobs.com/External/job/Taichung---Fab-16-Taiwan/IT-SOFTWARE-ENGINEER_JR116523",
+        "location": "Taichung - Fab 16, Taiwan",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Micron",
+        "role": "SOFTWARE ENGINEER",
+        "link": "https://micron.wd1.myworkdayjobs.com/External/job/Tainan-Taiwan/SOFTWARE-ENGINEER_JR116982",
+        "location": "Tainan, Taiwan",
+        "country": "Taiwan"
+      }
+    ]
+  }
+]
