@@ -1,5 +1,5 @@
 {
-  "commit": "9f647c59d87a43924a9926c51cae3895fbaf1d99",
+  "commit": "9bfe09b0cd72190c761ffd2ede4882e631d7729a",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -447,20 +447,6 @@
       "role": "Site Reliability Engineer (Application Software)",
       "link": "https://boards.greenhouse.io/spacex/jobs/8929638002?gh_jid=8929638002",
       "location": "Hawthorne, CA",
-      "country": "USA"
-    },
-    {
-      "company": "M&T Bank",
-      "role": "New Grad 2027: Technology Development Program - Operating Systems Engineer",
-      "link": "https://mtb.wd5.myworkdayjobs.com/en-US/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Operating-Systems-Engineer_R91770",
-      "location": "Buffalo, NY",
-      "country": "USA"
-    },
-    {
-      "company": "M&T Bank",
-      "role": "New Grad 2027: Technology Development Program - Cloud Storage & Data Protection Engineer",
-      "link": "https://mtb.wd5.myworkdayjobs.com/en-US/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Cloud-Storage---Data-Protection-Engineer_R91745",
-      "location": "Buffalo, NY",
       "country": "USA"
     }
   ]
