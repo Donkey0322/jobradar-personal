@@ -611,6 +611,8 @@
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19934",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19936",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19966",
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20001",
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20002",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20048",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20060",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20061",
@@ -3450,6 +3452,7 @@
       "https://amazon.jobs/en/jobs/10597200",
       "https://amazon.jobs/en/jobs/10597211",
       "https://amazon.jobs/en/jobs/10597212",
+      "https://amazon.jobs/en/jobs/10597215",
       "https://amazon.jobs/en/jobs/10597234",
       "https://amazon.jobs/en/jobs/10597242",
       "https://amazon.jobs/en/jobs/10597253",
@@ -5486,6 +5489,7 @@
       "https://jobs.apple.com/en-us/details/200693290-3956/cellular-software-enablement-engineer-wireless-technologies-ecosystems?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200693309-0836/software-engineering-systems?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200693310-3337/software-engineer-in-natural-language-processing-nlp-and-machine-learning-ml?team=MLAI",
+      "https://jobs.apple.com/en-us/details/200693333-0836/traffic-and-secure-services-network-sre-engineer?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200693338-3715/software-engineer-apple-pay-wallet-payments-and-commerce?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200693352-0836/software-development-engineer-in-test-sdet-web-server-find-my?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200693390-2114/devops-software-engineer?team=SFTWR",
@@ -5969,6 +5973,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/asana/jobs",
     "urls": [
       "https://www.asana.com/jobs/apply/7839280?gh_jid=7839280",
+      "https://www.asana.com/jobs/apply/7950767?gh_jid=7950767",
       "https://www.asana.com/jobs/apply/7961454?gh_jid=7961454",
       "https://www.asana.com/jobs/apply/7962306?gh_jid=7962306",
       "https://www.asana.com/jobs/apply/7962412?gh_jid=7962412",
@@ -10796,6 +10801,7 @@
       "https://searchcareers.caci.com/careers/job/1443154370004?domain=caci.com&8fold_id=1443154370004",
       "https://searchcareers.caci.com/careers/job/1443154381901?domain=caci.com&8fold_id=1443154381901",
       "https://searchcareers.caci.com/careers/job/1443154382013?domain=caci.com&8fold_id=1443154382013",
+      "https://searchcareers.caci.com/careers/job/1443154382829?domain=caci.com&8fold_id=1443154382829",
       "https://searchcareers.caci.com/careers/job/1443154383346?domain=caci.com&8fold_id=1443154383346",
       "https://searchcareers.caci.com/careers/job/1443154384071?domain=caci.com&8fold_id=1443154384071",
       "https://searchcareers.caci.com/careers/job/1443154385072?domain=caci.com&8fold_id=1443154385072"
@@ -15327,6 +15333,7 @@
     "urls": [
       "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2010466",
       "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2013418",
+      "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2014184",
       "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2015538",
       "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2015539",
       "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2015589"
@@ -23164,7 +23171,8 @@
       "https://job-boards.greenhouse.io/hearst/jobs/4466321009",
       "https://job-boards.greenhouse.io/hearst/jobs/4466333009",
       "https://job-boards.greenhouse.io/hearst/jobs/4466360009",
-      "https://job-boards.greenhouse.io/hearst/jobs/4473043009"
+      "https://job-boards.greenhouse.io/hearst/jobs/4473043009",
+      "https://job-boards.greenhouse.io/hearst/jobs/4478841009"
     ]
   },
   {
@@ -29883,6 +29891,7 @@
       "https://www.metacareers.com/profile/job_details/1160814043168431",
       "https://www.metacareers.com/profile/job_details/1163507972671947",
       "https://www.metacareers.com/profile/job_details/1165549049490227",
+      "https://www.metacareers.com/profile/job_details/1168687122556258",
       "https://www.metacareers.com/profile/job_details/1187958502273564",
       "https://www.metacareers.com/profile/job_details/1203016587809246",
       "https://www.metacareers.com/profile/job_details/1277398403727586",
@@ -29928,6 +29937,7 @@
       "https://www.metacareers.com/profile/job_details/1419173033108804",
       "https://www.metacareers.com/profile/job_details/1420264290310565",
       "https://www.metacareers.com/profile/job_details/1422856403367294",
+      "https://www.metacareers.com/profile/job_details/1428978125312655",
       "https://www.metacareers.com/profile/job_details/1430875021942291",
       "https://www.metacareers.com/profile/job_details/1434849621914402",
       "https://www.metacareers.com/profile/job_details/1436615821934863",
@@ -31348,6 +31358,10 @@
     "domain": "https://mtb.wd5.myworkdayjobs.com/Campus",
     "page": "https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs",
     "urls": [
+      "https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Cybersecurity--Encryption-Services-_R91554",
+      "https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Cybersecurity--Insider-Threat-_R91500",
+      "https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Cybersecurity--Vulnerability-Risk-Management-_R91480",
+      "https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Cybersecurity--Workforce-Identity---Access-Management-_R91458",
       "https://mtb.wd5.myworkdayjobs.com/en-US/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Cloud-Storage---Data-Protection-Engineer_R91745",
       "https://mtb.wd5.myworkdayjobs.com/en-US/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Operating-Systems-Engineer_R91770"
     ]
@@ -33184,6 +33198,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Systems-Engineering-Rotation-Engineer---New-College-Graduate-2026_JR2024713",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Critical-Facilities-Mechanical-Engineer---Data-Center_JR2029109",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Data-Application-Engineer--Enterprise-Data-Management_JR2024551",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Scientist-Intern--LLM--Multimodal-and-Agentic-AI---Summer-2027_JR2027548",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Embedded-Software-Engineer---RISCV_JR2019685",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Emulation-Front-End-Infrastructure-Engineer_JR2023066",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Field-Applications-Engineer--Embedded-Systems---NALA_JR2014493",
@@ -34639,6 +34654,11 @@
       "https://paypal.eightfold.ai/careers/job/274922972366?domain=paypal.com&8fold_id=274922972366",
       "https://paypal.eightfold.ai/careers/job/274922972416?domain=paypal.com&8fold_id=274922972416",
       "https://paypal.eightfold.ai/careers/job/274922977067?domain=paypal.com&8fold_id=274922977067",
+      "https://paypal.eightfold.ai/careers/job/274922982814?domain=paypal.com&8fold_id=274922982814",
+      "https://paypal.eightfold.ai/careers/job/274922982818?domain=paypal.com&8fold_id=274922982818",
+      "https://paypal.eightfold.ai/careers/job/274922982821?domain=paypal.com&8fold_id=274922982821",
+      "https://paypal.eightfold.ai/careers/job/274922983149?domain=paypal.com&8fold_id=274922983149",
+      "https://paypal.eightfold.ai/careers/job/274922983152?domain=paypal.com&8fold_id=274922983152",
       "https://paypal.eightfold.ai/careers/job/274922999863?domain=paypal.com&8fold_id=274922999863",
       "https://paypal.eightfold.ai/careers/job/274923067600?domain=paypal.com&8fold_id=274923067600",
       "https://paypal.eightfold.ai/careers/job/274923120550?domain=paypal.com&8fold_id=274923120550",
@@ -35662,7 +35682,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/profluent/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/profluent/jobs/5290271008",
-      "https://job-boards.greenhouse.io/profluent/jobs/5441955008"
+      "https://job-boards.greenhouse.io/profluent/jobs/5441955008",
+      "https://job-boards.greenhouse.io/profluent/jobs/5473868008"
     ]
   },
   {
@@ -38212,6 +38233,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-REMOTE/Snowflake-Data-Lake-Support-Technical-Analyst_01877224",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C07--1707-Cityline-Dr--CITYLINE-C07/Financial-System-Analyst--Hybrid-_01878253",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-Co-op--Remote-_01883545",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Infrastructure-Engineer-I--Onsite-_01887521",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Software-Engineering-Intern--Summer-2027-_01886446",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-DULLES-710--22110-Pacific-Blvd--BLDG-10/Sr-Software-Engineer--Modeling-and-Simulation-Onsite_01885260-1",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-REMOTE/Application-Engineer---DevOps---Engineering-Tools_01885527-1",
@@ -38993,6 +39015,7 @@
       "https://www.schwabjobs.com/job/southlake/infrastructure-engineer/33727/102770319264",
       "https://www.schwabjobs.com/job/southlake/java-software-engineer/33727/97762271888",
       "https://www.schwabjobs.com/job/southlake/production-support-data-engineer/33727/102659321504",
+      "https://www.schwabjobs.com/job/southlake/site-reliability-engineer/33727/100685602720",
       "https://www.schwabjobs.com/job/southlake/site-reliability-engineer/33727/102216727584",
       "https://www.schwabjobs.com/job/southlake/site-reliability-engineer/33727/102559109600",
       "https://www.schwabjobs.com/job/southlake/software-developer/33727/100363971072",
@@ -39979,6 +40002,7 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/skhynixmemorysolutionsamericainc/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4402959009",
       "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4432770009"
     ]
   },
@@ -42015,6 +42039,7 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Superhuman%20Platform%20Inc",
     "urls": [
+      "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/02c04fe5-783c-4011-b730-96d53db6f863",
       "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/05d1a089-1b49-40ba-a261-4eb157209838",
       "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/1183b091-e1b7-437a-a485-9f8c24abd4f9",
       "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/1779ef05-5a7a-4067-bd64-cbc6ab3e6b82",
@@ -46835,6 +46860,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs",
     "urls": [
       "https://careers.withwaymo.com/jobs/2027-summer-intern-bs-depot-automation-san-francisco-california-united-states?gh_jid=8234553",
+      "https://careers.withwaymo.com/jobs?gh_jid=7488508",
       "https://careers.withwaymo.com/jobs?gh_jid=8198218",
       "https://careers.withwaymo.com/jobs?gh_jid=8287385"
     ]
