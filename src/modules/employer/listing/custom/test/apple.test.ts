@@ -217,8 +217,8 @@ describe("Apple listing liveness", () => {
           appleResponse(
             appleHtml(
               [
-                appleCard("111111111", "Software Engineer Intern", recent),
-                appleCard("222222222", "Software Engineer Intern", "2020-01-01"),
+                appleCard("111111111", "Junior Software Engineer", recent),
+                appleCard("222222222", "Junior Software Engineer", "2020-01-01"),
                 appleCard("333333333", "Retail Specialist", recent),
               ].join("")
             )
@@ -227,7 +227,7 @@ describe("Apple listing liveness", () => {
       }
       if (page === "2") {
         return Promise.resolve(
-          appleResponse(appleHtml(appleCard("444444444", "Software Engineer Intern", recent)))
+          appleResponse(appleHtml(appleCard("444444444", "Junior Software Engineer", recent)))
         );
       }
       if (page === "3") return Promise.resolve(appleResponse(appleHtml("")));
