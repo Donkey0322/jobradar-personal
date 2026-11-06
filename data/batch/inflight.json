@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "name": "batches/xls2jj5iu167avi83cqph0f0fp0sd4s3k6g4",
+    "submittedAt": "2026-11-06T15:03:15.733Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "ByteDance",
+        "role": "Backend Software Engineer (Compute SRE), Cloud Infrastructure",
+        "link": "https://joinbytedance.com/search/7704611939956967685",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "AI Customer Engineer, GCP",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/132336339373695686-ai-customer-engineer-gcp?sort_by=date&page=1",
+        "location": "Bengaluru, Karnataka, India; Gurugram, Haryana, India",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "Data Center Controls Engineer, Advanced Technology and Innovation",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/101200506537288390-data-center-controls-engineer-advanced-technology-and-innovation?sort_by=date&page=3",
+        "location": "Sunnyvale, CA, USA; Atlanta, GA, USA; +6 more; +5 more",
+        "country": "Singapore"
+      },
+      {
+        "company": "Nvidia",
+        "role": "System Application Engineer",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Application-Engineer_JR2029384-1",
+        "location": "Taiwan, Taipei",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Pg",
+        "role": "Data Platform Engineer, R&D",
+        "link": "https://pg.wd5.myworkdayjobs.com/1000/job/SINGAPORE-TC-BIOPOLIS/Data-Platform-Engineer--R-D_R000159381",
+        "location": "SINGAPORE TC-BIOPOLIS",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
