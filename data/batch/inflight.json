@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "name": "batches/0xja4uz3jpjj488tuyh5k4cujpmtyusghwfq",
+    "submittedAt": "2026-11-06T15:57:54.997Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Google",
+        "role": "Customer Solutions Engineer, Compute, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/138342971396235974-customer-solutions-engineer-compute-google-cloud?sort_by=date&page=1",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "Technical Solutions Engineer, Google Cloud, Billing",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/133385136027640518-technical-solutions-engineer-google-cloud-billing?sort_by=date&page=5",
+        "location": "Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
