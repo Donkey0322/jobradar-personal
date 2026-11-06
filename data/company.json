@@ -3698,7 +3698,8 @@
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015809",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015813",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016018",
-      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016065"
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016065",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016174"
     ]
   },
   {
@@ -5676,7 +5677,8 @@
     "domain": "https://apply.workable.com",
     "page": "",
     "urls": [
-      "https://apply.workable.com/amax-1/j/C8FD3B365F"
+      "https://apply.workable.com/amax-1/j/C8FD3B365F",
+      "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3"
     ]
   },
   {
@@ -10745,7 +10747,8 @@
       "https://joinbytedance.com/search/7703907502209747205",
       "https://joinbytedance.com/search/7704089625815468293",
       "https://joinbytedance.com/search/7704164999862831413",
-      "https://joinbytedance.com/search/7704167244951603509"
+      "https://joinbytedance.com/search/7704167244951603509",
+      "https://joinbytedance.com/search/7704391868210137397"
     ]
   },
   {
@@ -12032,6 +12035,7 @@
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4/1732/101662116480",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4/1732/102568862912",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4/1732/102903951280",
+      "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4/1732/102917965328",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-5/1732/101089241008",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-5/1732/101362213360",
       "https://www.capitalonecareers.com/job/plano/full-stack-software-engineer-5-data-insights-platform-global-payment-network/1732/102815326304",
@@ -20580,6 +20584,16 @@
     ]
   },
   {
+    "name": "fnbcorp",
+    "ats": "workday",
+    "identifier": "fnbcorp-fnbcorp",
+    "domain": "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP",
+    "page": "https://fnbcorp.wd501.myworkdayjobs.com/wday/cxs/fnbcorp/FNBCORP/jobs",
+    "urls": [
+      "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Data-Analytics-Engineer-1---Pittsburgh-or-Hermitage--PA_2026-02664"
+    ]
+  },
+  {
     "name": "foresters",
     "ats": "workday",
     "identifier": "foresters-forestersfinancialcareers",
@@ -26214,6 +26228,7 @@
       "https://jci.wd5.myworkdayjobs.com/jci/job/Indianapolis-Indiana-United-States-of-America/HVAC-Building-Controls-Systems-Engineer_WD30282253",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Jakarta-Jakarta-Raya-Indonesia/Security-Engineer_WD30274834",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Knoxville-Tennessee-United-States-of-America/HVAC-Controls-Systems-Engineer-Leader_WD30281587",
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Livermore-California-United-States-of-America/Performance-Engineer---Sustainable-Infrastructure-Services_WD30282935",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Lynnfield-MA-Branch/HVAC-Building-Controls-Systems-Engineer_WD30272626",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Lynnfield-Massachusetts-United-States-of-America/Controls-Systems-Engineer_WD30276323",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Lynnfield-Massachusetts-United-States-of-America/HVAC-Building-Controls-Systems-Engineer_WD30281189",
@@ -28826,6 +28841,7 @@
       "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Bangalore-India/Sr-Data-Analyst--Global-Compensation_R323061",
       "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Chicago-IL/Associate-QA-Engineer--Software_R323051",
       "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Montreal-Canada/Front-End-Developer_R322983-1",
+      "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Reno-NV/Intern-Software-Engineering_R322885",
       "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/USA-NV-Las-Vegas-6655-Bermuda/Software-Engineer_R321117"
     ]
   },
@@ -29073,8 +29089,12 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477787318?domain=lockheedmartin.com&8fold_id=996477787318",
       "https://lockheedmartin.eightfold.ai/careers/job/996477800122?domain=lockheedmartin.com&8fold_id=996477800122",
       "https://lockheedmartin.eightfold.ai/careers/job/996477801775?domain=lockheedmartin.com&8fold_id=996477801775",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477802987?domain=lockheedmartin.com&8fold_id=996477802987",
       "https://lockheedmartin.eightfold.ai/careers/job/996477803425?domain=lockheedmartin.com&8fold_id=996477803425",
       "https://lockheedmartin.eightfold.ai/careers/job/996477804412?domain=lockheedmartin.com&8fold_id=996477804412",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477805850?domain=lockheedmartin.com&8fold_id=996477805850",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477806176?domain=lockheedmartin.com&8fold_id=996477806176",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477806702?domain=lockheedmartin.com&8fold_id=996477806702",
       "https://lockheedmartin.eightfold.ai/careers?location_radius_type=mi&location_distance_km=16&hl=en-US&start=0&pid=996477630433&sort_by=timestamp"
     ]
   },
@@ -29236,6 +29256,16 @@
     "page": "https://api.lever.co/v0/postings/lumafield?mode=json",
     "urls": [
       "https://jobs.lever.co/lumafield/6915b531-14bd-45cd-a314-88145025b8cb/apply"
+    ]
+  },
+  {
+    "name": "lumbermens",
+    "ats": "greenhouse",
+    "identifier": "lumbermens",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/lumbermens/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/lumbermens/jobs/5474346008"
     ]
   },
   {
@@ -30398,6 +30428,7 @@
       "https://www.metacareers.com/profile/job_details/1086151640855627",
       "https://www.metacareers.com/profile/job_details/1088220297540827",
       "https://www.metacareers.com/profile/job_details/1095542206195257",
+      "https://www.metacareers.com/profile/job_details/1095940806376464",
       "https://www.metacareers.com/profile/job_details/1097633679812207",
       "https://www.metacareers.com/profile/job_details/1098246693202644",
       "https://www.metacareers.com/profile/job_details/1101290178951198",
@@ -33731,6 +33762,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineer---AI-Solutions_JR2028393-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineer--SPE_JR2015623",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Performance-Engineer_JR2024413",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-QA-Engineer---AI-Data-Centers_JR2028396",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Verification-Engineer--DOCA_JR2029337",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Verification-Engineer_JR2028809",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/System-Product-Engineer_JR2020798",
@@ -37376,7 +37408,8 @@
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4491829",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501054",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501273",
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849"
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548"
     ]
   },
   {
@@ -39153,6 +39186,7 @@
       "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-PMTS---Cloud-Security---Hyderabad_JR357893",
       "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-PMTS_JR359744",
       "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Support-Engineer-Industry-Cloud-Immediate-Joiner-_JR321330",
+      "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Indianapolis/Provisioning---Entitlements-Systems-Sr-Analyst_JR366792",
       "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Forward-Deployed-Engineer---Turkish_JR366190",
       "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Forward-Deployed-Engineer_JR346377",
       "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Software-Engineering-AMTS_JR363585",
@@ -41762,11 +41796,13 @@
       "https://jobs.spectrum.com/job/charlotte/data-scientist/4673/101277276832",
       "https://jobs.spectrum.com/job/charlotte/web-optimization-analyst/4673/102873825616",
       "https://jobs.spectrum.com/job/englewood/2027-summer-intern-software-engineer/4673/100143764320",
+      "https://jobs.spectrum.com/job/greenwood-village/2027-summer-intern-data-developer/4673/100149371008",
       "https://jobs.spectrum.com/job/greenwood-village/2027-summer-intern-software-engineer/4673/100143758944",
       "https://jobs.spectrum.com/job/greenwood-village/web-optimization-analyst/4673/102873825872",
       "https://jobs.spectrum.com/job/las-vegas/web-optimization-analyst/4673/102873826000",
       "https://jobs.spectrum.com/job/los-angeles/web-optimization-analyst/4673/102873826128",
       "https://jobs.spectrum.com/job/louisville/data-analyst/4673/102180786320",
+      "https://jobs.spectrum.com/job/maryland-heights/2027-summer-intern-software-engineer-p-and-t/4673/100830276992",
       "https://jobs.spectrum.com/job/maryland-heights/2027-summer-intern-software-engineer/4673/100133775792",
       "https://jobs.spectrum.com/job/new-york/data-analyst-yield-and-inventory-strategy/4673/102827999904",
       "https://jobs.spectrum.com/job/new-york/data-scientist/4673/101277276848",
@@ -43955,6 +43991,7 @@
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Richmond-Virginia-USA/System-Development-Specialist--Richmond--VA_R-01356319",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Shaanxi-China/Software-Engineer_R-01371575",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Sichuan-China/System-Engineer_R-01373058",
+      "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Singapore-Singapore/Data-Analyst---Supply-Chain_R-01373781",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Singapore-Singapore/Software-Engineer_R-01356018",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Singapore-Singapore/Software-Test-Engineer_R-01372235",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/So-Paulo-Brazil/AI-Engineer_R-01357884",
@@ -45534,7 +45571,8 @@
       "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5254486007",
       "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5261715007",
       "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5265224007",
-      "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5273017007"
+      "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5273017007",
+      "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5283892007"
     ]
   },
   {
@@ -46127,6 +46165,7 @@
     "domain": "https://jobs.uhsinc.com",
     "page": "https://jobs.uhsinc.com/api/jobs",
     "urls": [
+      "https://jobs.uhsinc.com/jobs/374481?icims=1",
       "https://jobs.uhsinc.com/jobs/381520?icims=1",
       "https://jobs.uhsinc.com/jobs/382487?icims=1",
       "https://jobs.uhsinc.com/jobs/382488?icims=1",
@@ -46339,7 +46378,10 @@
     "identifier": "careers.gov2x.com",
     "domain": "https://careers.gov2x.com",
     "page": "https://careers.gov2x.com/api/jobs",
-    "urls": []
+    "urls": [
+      "https://careers.gov2x.com/jobs/63948?icims=1&lang=en-us",
+      "https://careers.gov2x.com/jobs/63949?icims=1&lang=en-us"
+    ]
   },
   {
     "name": "valeo",
@@ -47848,6 +47890,20 @@
     "page": "https://api.lever.co/v0/postings/weride?mode=json",
     "urls": [
       "https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b/apply"
+    ]
+  },
+  {
+    "name": "westernalliancebank",
+    "ats": "workday",
+    "identifier": "westernalliancebank-wab",
+    "domain": "https://westernalliancebank.wd5.myworkdayjobs.com/WAB",
+    "page": "https://westernalliancebank.wd5.myworkdayjobs.com/wday/cxs/westernalliancebank/WAB/jobs",
+    "urls": [
+      "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Columbus-OH/Summer-2027-Internship---Columbus--OH---Platform-Engineering_R14024",
+      "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019",
+      "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14020",
+      "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14021",
+      "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14023"
     ]
   },
   {
