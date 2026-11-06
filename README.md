@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,246 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,247 opportunities
 
 ## The List 🚴‍♂️
 
@@ -113,6 +113,13 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="420" align="left" valign="top">Junior Software Development Engineer in Test<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Atlanta, GA</td>
       <td width="120" align="left" valign="top"><a href="https://careers-ice.icims.com/jobs/14205/junior-software-development-engineer-in-test/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Intercontinental Exchange</td>
+      <td width="420" align="left" valign="top">Junior Software Development Engineer in Test</td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.ice.com/jobs/14205?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 6</td>
     </tr>
     <tr>
@@ -311,16 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Palm-Bay-Associate,-Software-Engineer-FL-32905/1447664100/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 4</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">ShadowDragon</td>
-      <td width="420" align="left" valign="top">Junior AI/Machine Learning Engineer</td>
-      <td width="180" align="left" valign="top">Remote in USA</td>
-      <td width="120" align="left" valign="top"><a href="https://ats.rippling.com/shadowdragon/jobs/69df1efd-5f05-4a79-9432-30925eb6db3c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 4</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,246 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,247 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-06T16:00:06.290Z</code>
+      🕒 Last updated <code>2026-11-06T16:04:30.437Z</code>
     </span>
   </p>
 </div>

@@ -21,6 +21,13 @@
       <td width="120" align="left" valign="top">Nov 6</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Intercontinental Exchange</td>
+      <td width="420" align="left" valign="top">Junior Software Development Engineer in Test</td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.ice.com/jobs/14205?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Ghr</td>
       <td width="420" align="left" valign="top">Data Scientist I</td>
       <td width="180" align="left" valign="top">Charlotte, NC</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/annarbor/job/Ann-Arbor-MI/Engr--Software-1_2642057"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 13</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer ( Embedded Software/Firmware Development | Embedded Image Processing )</td>
-      <td width="180" align="left" valign="top">Ann Arbor, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/ur/job/Ann-Arbor-MI/Software-Engineer---Embedded-Software-Firmware-Development---Embedded-Image-Processing--_2636711"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 13</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,246 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,247 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-06T16:00:06.290Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-06T16:04:30.437Z</code></sub>
