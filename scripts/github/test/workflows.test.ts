@@ -802,6 +802,8 @@ describe("workflow inventory", () => {
     expect(workflow("jobs.yml")).toContain("UPSTREAM_DATA_PATH: ${{ github.workspace }}/upstream/data");
     expect(workflow("upstream-sync.yml")).toContain("pnpm jobctl upstream");
     expect(workflow("upstream-sync.yml")).toContain("data/upstream/queue.json");
+    expect(workflow("upstream-sync.yml")).toContain("workflow_dispatch:");
+    expect(workflow("upstream-sync.yml")).toContain('cron: "17 * * * *"');
     for (const name of [
       "jobs.yml",
       "batch.yml",
@@ -850,6 +852,35 @@ describe("workflow inventory", () => {
     }
 
     expect(workflow("jobs.yml")).toContain("timeout-minutes: 175");
+
+    const jobsFetch = stepBlocks(workflow("jobs.yml")).find((block) => block.includes("pnpm jobctl scan"));
+    expect(jobsFetch).toContain('git -C "${GITHUB_WORKSPACE}/upstream" rev-parse HEAD');
+    expect(jobsFetch?.indexOf("rev-parse HEAD")).toBeLessThan(jobsFetch?.indexOf("pnpm jobctl scan") ?? -1);
+    expect(jobsFetch?.indexOf("rev-parse HEAD")).toBeLessThan(jobsFetch?.indexOf("pnpm jobctl sync") ?? -1);
+    expect(jobsFetch?.indexOf("pnpm jobctl sync")).toBeLessThan(
+      jobsFetch?.indexOf("git status --porcelain data/") ?? -1
+    );
+    expect(workflow("jobs.yml").match(/uses: actions\/checkout@/g)).toHaveLength(2);
+    const jobsPush = stepBlocks(workflow("jobs.yml")).find((block) =>
+      block.includes("Rebase and push data")
+    );
+    expect(jobsPush).toContain("token: ${{ github.token }}");
+    const jobsPublish = stepBlocks(workflow("jobs.yml")).find((block) =>
+      block.includes("Publish saved data")
+    );
+    expect(jobsPublish).toContain("data_sha: ${{ steps.saved.outputs.data_sha }}");
+
+    const upstreamSync = workflow("upstream-sync.yml");
+    const upstreamApply = stepBlocks(upstreamSync).find((block) =>
+      block.includes("pnpm jobctl upstream")
+    );
+    expect(upstreamApply).toContain('git -C "${GITHUB_WORKSPACE}/upstream" rev-parse HEAD');
+    expect(upstreamApply?.indexOf("rev-parse HEAD")).toBeLessThan(
+      upstreamApply?.indexOf("pnpm jobctl upstream") ?? -1
+    );
+    expect(upstreamApply).not.toContain("steps.public.outputs.sha");
+    expect(upstreamSync).toContain("git ls-remote");
+    expect(upstreamSync.match(/uses: actions\/checkout@/g)).toHaveLength(3);
     expect(workflow("batch.yml")).toContain("timeout-minutes: 120");
     expect(workflow("add-job-from-issue.yml")).toContain("timeout-minutes: 150");
     expect(workflow("publish-data.yml")).toContain("timeout-minutes: 30");

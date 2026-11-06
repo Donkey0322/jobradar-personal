@@ -109,6 +109,7 @@ jobs:
           UPSTREAM_DATA_PATH: ${{ github.workspace }}/upstream/data
         run: |
           set -euo pipefail
+          export UPSTREAM_COMMIT="$(git -C "${GITHUB_WORKSPACE}/upstream" rev-parse HEAD)"
           if [[ "$TASK" == "scan" ]]; then
             if [[ -z "$LOOKBACK" ]]; then
               echo "Scan lookback is missing."

@@ -4,6 +4,8 @@ import { createSyncContext, processJobs } from "../ingest";
 import {
   classifyUnknownJobs,
   loadUpstreamOpportunities,
+  reconcileUpstreamQueue,
+  resolveUpstreamCommit,
   takeUpstreamWork,
 } from "../ingest/upstream";
 import { renderProgress, startProgress } from "../utils/progress";
@@ -79,8 +81,9 @@ async function discoverJobs() {
 export default async function syncDiscover() {
   logger.info({ AI_MODE: process.env.AI_MODE }, "🔍 Discovering jobs...");
 
-  const context = await createSyncContext();
   const upstream = await loadUpstreamOpportunities();
+  await reconcileUpstreamQueue(await resolveUpstreamCommit(), upstream);
+  const context = await createSyncContext();
   const inherited = await takeUpstreamWork(context, upstream);
   const jobs = await discoverJobs();
   await classifyUnknownJobs(jobs, upstream);

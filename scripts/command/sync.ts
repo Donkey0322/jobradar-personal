@@ -6,6 +6,8 @@ import { createSyncContext, processJobs } from "../ingest";
 import {
   classifyUnknownJobs,
   loadUpstreamOpportunities,
+  reconcileUpstreamQueue,
+  resolveUpstreamCommit,
   takeUpstreamWork,
 } from "../ingest/upstream";
 
@@ -23,8 +25,9 @@ const RESOLVE_CONCURRENCY = 10;
 export default async function syncCommunity() {
   logger.info("🔍 Syncing community...");
 
-  const context = await createSyncContext();
   const upstream = await loadUpstreamOpportunities();
+  await reconcileUpstreamQueue(await resolveUpstreamCommit(), upstream);
+  const context = await createSyncContext();
   const inherited = await takeUpstreamWork(context, upstream);
   const companiesByKey = new Map(
     (await store.companies.load()).map((company) => [companyKey(company), company])

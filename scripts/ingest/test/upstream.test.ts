@@ -1,4 +1,5 @@
-import { mkdtemp, rm, writeFile } from "node:fs/promises";
+import { execFileSync } from "node:child_process";
+import { mkdir, mkdtemp, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
@@ -7,7 +8,7 @@ import { JobCategory } from "@/constants/job-category";
 
 import type { JD, Job } from "@/types";
 
-import { loadUpstreamOpportunities } from "../upstream";
+import { loadUpstreamOpportunities, resolveUpstreamCommit } from "../upstream";
 
 import { getJobKey } from "@/modules/ats/job-key";
 import {
@@ -156,5 +157,83 @@ describe("loadUpstreamOpportunities", () => {
     } finally {
       await rm(dir, { recursive: true, force: true });
     }
+  });
+});
+
+function git(cwd: string, args: string[]) {
+  return execFileSync("git", args, {
+    cwd,
+    encoding: "utf8",
+    env: {
+      PATH: process.env.PATH ?? "",
+      HOME: process.env.HOME ?? "",
+      GIT_CONFIG_GLOBAL: "/dev/null",
+      GIT_CONFIG_NOSYSTEM: "1",
+      GIT_AUTHOR_NAME: "Test",
+      GIT_AUTHOR_EMAIL: "test@example.com",
+      GIT_COMMITTER_NAME: "Test",
+      GIT_COMMITTER_EMAIL: "test@example.com",
+    },
+  }).trim();
+}
+
+async function commitRepo(dir: string, file: string) {
+  await mkdir(path.dirname(file), { recursive: true });
+  await writeFile(file, "public\n");
+  git(dir, ["init", "-b", "main"]);
+  git(dir, ["add", path.relative(dir, file)]);
+  git(dir, ["-c", "user.name=Test", "-c", "user.email=test@example.com", "commit", "-m", "snapshot"]);
+  return git(dir, ["rev-parse", "HEAD"]);
+}
+
+describe("resolveUpstreamCommit", () => {
+  const previousData = process.env.UPSTREAM_DATA_PATH;
+  const previousCommit = process.env.UPSTREAM_COMMIT;
+  const previousCwd = process.cwd();
+  const temps: string[] = [];
+
+  afterEach(async () => {
+    process.chdir(previousCwd);
+    if (previousData === undefined) delete process.env.UPSTREAM_DATA_PATH;
+    else process.env.UPSTREAM_DATA_PATH = previousData;
+    if (previousCommit === undefined) delete process.env.UPSTREAM_COMMIT;
+    else process.env.UPSTREAM_COMMIT = previousCommit;
+    await Promise.all(temps.splice(0).map((dir) => rm(dir, { recursive: true, force: true })));
+  });
+
+  it("uses an independent checkout SHA instead of a stale commit or the personal HEAD", async () => {
+    const personal = await mkdtemp(path.join(os.tmpdir(), "jobradar-personal-"));
+    const upstream = await mkdtemp(path.join(os.tmpdir(), "jobradar-upstream-"));
+    temps.push(personal, upstream);
+    const personalSha = await commitRepo(personal, path.join(personal, "README"));
+    const upstreamSha = await commitRepo(upstream, path.join(upstream, "data", "opportunities.ndjson"));
+
+    process.chdir(personal);
+    process.env.UPSTREAM_DATA_PATH = path.join(upstream, "data");
+    process.env.UPSTREAM_COMMIT = "stale-ls-remote";
+
+    const resolved = await resolveUpstreamCommit();
+
+    expect(resolved).toBe(upstreamSha);
+    expect(resolved).not.toBe(personalSha);
+    expect(resolved).not.toBe("stale-ls-remote");
+  });
+
+  it("uses UPSTREAM_COMMIT when the data directory is only a folder in the personal repo", async () => {
+    const personal = await mkdtemp(path.join(os.tmpdir(), "jobradar-personal-"));
+    temps.push(personal);
+    const personalSha = await commitRepo(personal, path.join(personal, "README"));
+    const copied = path.join(personal, "copied-public");
+    await mkdir(copied, { recursive: true });
+    await writeFile(path.join(copied, "opportunities.ndjson"), "{}\n");
+
+    process.chdir(personal);
+    process.env.UPSTREAM_DATA_PATH = copied;
+    process.env.UPSTREAM_COMMIT = "public-sha-from-workflow";
+
+    const resolved = await resolveUpstreamCommit();
+
+    expect(resolved).toBe("public-sha-from-workflow");
+    expect(resolved).not.toBe(personalSha);
   });
 });

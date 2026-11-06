@@ -1,5 +1,7 @@
-import { promises as fs } from "node:fs";
+import { execFile } from "node:child_process";
+import { promises as fs, realpathSync } from "node:fs";
 import path from "node:path";
+import { promisify } from "node:util";
 
 import type { Job } from "@/types";
 
@@ -18,6 +20,8 @@ import {
 import * as store from "@/store";
 import { logger } from "@/utils/logger";
 import { listArchiveParts, loadNdjsonPartitions } from "@/utils/ndjson-archive";
+
+const execFileAsync = promisify(execFile);
 
 export async function enqueueUpstreamWaits(jobs: readonly Job[]): Promise<void> {
   if (jobs.length === 0) return;
@@ -119,13 +123,30 @@ export async function loadUpstreamOpportunities(): Promise<Map<string, Job>> {
   return indexJobs(jobs);
 }
 
-export default async function applyUpstreamQueue() {
-  const commit = process.env.UPSTREAM_COMMIT;
+/**
+ * Public commit this checkout actually contains. A stale `UPSTREAM_COMMIT`
+ * must not win over the upstream checkout HEAD. A data directory copied into
+ * the personal repo is not that checkout, so its HEAD is left unused.
+ */
+export async function resolveUpstreamCommit(): Promise<string> {
+  const dataPath = process.env.UPSTREAM_DATA_PATH;
+
+  if (dataPath) {
+    const sha = await readCheckoutSha(path.resolve(dataPath));
+    if (sha) return sha;
+  }
+
+  const commit = process.env.UPSTREAM_COMMIT?.trim();
 
   if (!commit) {
     throw new Error("UPSTREAM_COMMIT is not set. Pass the public repo commit before syncing.");
   }
 
+  return commit;
+}
+
+export default async function applyUpstreamQueue() {
+  const commit = await resolveUpstreamCommit();
   const queue = await store.upstreamQueue.load();
 
   if (queue.jobs.length === 0) {
@@ -138,12 +159,25 @@ export default async function applyUpstreamQueue() {
     return;
   }
 
-  await reconcileUpstreamQueue(commit);
+  await reconcileUpstreamQueue(commit, await loadUpstreamOpportunities());
 }
 
-export async function reconcileUpstreamQueue(commit: string) {
+export async function reconcileUpstreamQueue(
+  commit: string,
+  upstream: ReadonlyMap<string, Job>
+) {
   const queue = await store.upstreamQueue.load();
-  const upstream = await loadUpstreamOpportunities();
+
+  if (queue.jobs.length === 0) {
+    logger.info("No jobs waiting for a public JD");
+    return;
+  }
+
+  if (queue.commit === commit) {
+    logger.info({ commit }, "Public snapshot already checked");
+    return;
+  }
+
   const { ready, pending, released } = matchUpstreamWaits(queue.jobs, upstream);
 
   const analyzed = ready.flatMap((job) => {
@@ -232,4 +266,36 @@ async function correctOpportunityCountries(
   }
 
   return corrected;
+}
+
+async function readCheckoutSha(dataPath: string): Promise<string | null> {
+  const checkout = await gitText(dataPath, ["rev-parse", "--show-toplevel"]);
+  if (!checkout) return null;
+
+  const personal = await gitText(process.cwd(), ["rev-parse", "--show-toplevel"]);
+  if (personal && samePath(checkout, personal)) return null;
+
+  const sha = await gitText(checkout, ["rev-parse", "HEAD"]);
+  return sha && /^[0-9a-f]{40}$/i.test(sha) ? sha : null;
+}
+
+async function gitText(cwd: string, args: string[]): Promise<string | null> {
+  try {
+    const { stdout } = await execFileAsync("git", ["-C", cwd, ...args], {
+      encoding: "utf8",
+      timeout: 10_000,
+    });
+    const text = stdout.trim();
+    return text || null;
+  } catch {
+    return null;
+  }
+}
+
+function samePath(left: string, right: string): boolean {
+  try {
+    return realpathSync(left) === realpathSync(right);
+  } catch {
+    return path.resolve(left) === path.resolve(right);
+  }
 }

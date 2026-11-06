@@ -127,8 +127,8 @@ jobs:
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
           UPSTREAM_DATA_PATH: ${{ github.workspace }}/upstream/data
-          UPSTREAM_COMMIT: ${{ steps.public.outputs.sha }}
         run: |
+          export UPSTREAM_COMMIT="$(git -C "${GITHUB_WORKSPACE}/upstream" rev-parse HEAD)"
           pnpm jobctl upstream
 
           if [[ -n "$(git status --porcelain data/ 2>/dev/null)" ]]; then

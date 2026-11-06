@@ -73,4 +73,20 @@ describe("addWaitingJob", () => {
       expect.objectContaining({ link: job("1").link, role: "Junior Software Engineer" }),
     ]);
   });
+
+  it("clears the checked snapshot for a new job and keeps it for a repeat", () => {
+    const remembered = { commit: "snapshot-a", jobs: [job("1")] };
+    const repeat = addWaitingJob(remembered, { ...job("1"), role: "Again" });
+
+    expect(repeat.added).toBe(false);
+    expect(repeat.queue).toEqual(remembered);
+    expect(repeat.queue.commit).toBe("snapshot-a");
+
+    const added = addWaitingJob(remembered, job("2"));
+
+    expect(added.added).toBe(true);
+    expect(added.queue.commit).toBeNull();
+    expect(added.queue.jobs.map((waiting) => waiting.link)).toEqual([job("1").link, job("2").link]);
+    expect(remembered.commit).toBe("snapshot-a");
+  });
 });

@@ -29,7 +29,10 @@ export function waitingKeys(queue: UpstreamQueueFile): Set<string> {
   return new Set(queue.jobs.map((job) => getJobKey(job.link)));
 }
 
-/** Add a job once. A second sighting of the same link leaves the queue unchanged. */
+/**
+ * Add a job once. A new row clears the checked public SHA so that snapshot is
+ * compared again. A second sighting of the same link leaves the queue unchanged.
+ */
 export function addWaitingJob(
   queue: UpstreamQueueFile,
   job: Job
@@ -44,6 +47,7 @@ export function addWaitingJob(
     added: true,
     queue: {
       ...queue,
+      commit: null,
       jobs: [
         ...queue.jobs,
         {
