@@ -1,5 +1,5 @@
 {
-  "commit": "ba750ae6ae1f0dcd0a498f37574190f370207f51",
+  "commit": "8341266939550a58b51e7d2596397413d8c6f722",
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -549,30 +549,9 @@
     },
     {
       "company": "Google",
-      "role": "Cloud Engineer, Infrastructure and AI",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/92653452898771654-cloud-engineer-infrastructure-and-ai?sort_by=date&page=1",
-      "location": "Warsaw, Poland; Wrocław, Poland",
-      "country": "USA"
-    },
-    {
-      "company": "Google",
       "role": "UX Engineer, Search Design System",
       "link": "https://www.google.com/about/careers/applications/jobs/results/131539193443558086-ux-engineer-search-design-system?sort_by=date&page=1",
       "location": "Mountain View, CA, USA; New York, NY, USA; +2 more; +1 more",
-      "country": "USA"
-    },
-    {
-      "company": "Google",
-      "role": "Cloud Engineer I, AI/ML, Professional Services, Google Cloud",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/111327627104395974-cloud-engineer-i-aiml-professional-services-google-cloud?sort_by=date&page=6",
-      "location": "Mexico City, CDMX, Mexico",
-      "country": "USA"
-    },
-    {
-      "company": "Halliburton",
-      "role": "Software Engineer (RCoE)",
-      "link": "https://jobs.halliburton.com/job/Oslo-Software-Engineer-%28RCoE%29-03-0167/1427890200/",
-      "location": "Oslo, 03, NO, 0167",
       "country": "USA"
     },
     {
@@ -588,13 +567,6 @@
       "link": "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1448477600/",
       "location": "Newport News, Virginia, United States",
       "country": "Unsure"
-    },
-    {
-      "company": "Intel",
-      "role": "AI Software Engineer - AI Frameworks",
-      "link": "https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/AI-Software-Engineer---AI-Frameworks_JR0288900",
-      "location": "India, Bangalore",
-      "country": "USA"
     },
     {
       "company": "Intercontinental Exchange",
@@ -618,24 +590,10 @@
       "country": "USA"
     },
     {
-      "company": "Labcorp",
-      "role": "Assoc Data Analyst",
-      "link": "https://labcorp.wd1.myworkdayjobs.com/external/job/Bengaluru-India/Assoc-Data-Analyst_2639835",
-      "location": "Bengaluru India",
-      "country": "USA"
-    },
-    {
       "company": "Leidos",
       "role": "Software Developer",
       "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Valparaiso-FL/Software-Developer_R-00196447",
       "location": "Valparaiso, FL",
-      "country": "USA"
-    },
-    {
-      "company": "Medtronic",
-      "role": "IT Developer - Data Engineer",
-      "link": "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Nanakramguda-Hyderabad-India/IT-Developer---Data-Engineer_R68340-1",
-      "location": "Nanakramguda, Hyderabad, India",
       "country": "USA"
     },
     {
