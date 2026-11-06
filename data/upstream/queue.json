@@ -469,6 +469,265 @@
       "link": "https://apply.careers.microsoft.com/careers/job/1970393557047462?domain=microsoft.com&8fold_id=1970393557047462",
       "location": "United States, Multiple Locations, Multiple Locations",
       "country": "USA"
+    },
+    {
+      "company": "Amazon",
+      "role": "Data Center Chief Engineer, ATL89",
+      "link": "https://amazon.jobs/en/jobs/10598572",
+      "location": "US, GA, Covington",
+      "country": "USA"
+    },
+    {
+      "company": "AMD",
+      "role": "PMTS Software Development Engineer",
+      "link": "https://careers.amd.com/jobs/93850?icims=1",
+      "location": "San Jose, California",
+      "country": "USA"
+    },
+    {
+      "company": "AMD",
+      "role": "MTS Software Development Engineer",
+      "link": "https://careers.amd.com/jobs/93845?icims=1",
+      "location": "Santa Clara, California",
+      "country": "USA"
+    },
+    {
+      "company": "Caci",
+      "role": "Junior Boundary Systems Engineer",
+      "link": "https://searchcareers.caci.com/careers/job/1443154411795?domain=caci.com&8fold_id=1443154411795",
+      "location": "Linthicum, MD, US, Fort Meade, MD, US",
+      "country": "USA"
+    },
+    {
+      "company": "Caci",
+      "role": "AI Engineer",
+      "link": "https://searchcareers.caci.com/careers/job/1443154411875?domain=caci.com&8fold_id=1443154411875",
+      "location": "Remote (Any State)",
+      "country": "USA"
+    },
+    {
+      "company": "Caci",
+      "role": "AI Engineer",
+      "link": "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/AI-Engineer_334755",
+      "location": "Remote (Any State)",
+      "country": "USA"
+    },
+    {
+      "company": "Caci",
+      "role": "Junior Boundary Systems Engineer",
+      "link": "https://caci.wd1.myworkdayjobs.com/external/job/Linthicum-MD-US/Junior-Boundary-Systems-Engineer_334745",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Caci",
+      "role": "Systems Engineering & Technical Assistance (SETA) Analyst – UAS/UAV Analysis",
+      "link": "https://caci.wd1.myworkdayjobs.com/external/job/Charlottesville-VA-US/Systems-Engineering---Technical-Assistance--SETA--Analyst---UAS-UAV-Analysis_334742",
+      "location": "Charlottesville, VA, US",
+      "country": "USA"
+    },
+    {
+      "company": "Capgemini",
+      "role": "Data Scientist",
+      "link": "https://careers.capgemini.com/job/Atlanta-Data-Scientist-GA-30301/1445759733/",
+      "location": "Atlanta, US",
+      "country": "USA"
+    },
+    {
+      "company": "Cisco",
+      "role": "Technical Systems Engineer (Hybrid)",
+      "link": "https://careers.cisco.com/global/en/job/2026959?ph_id=2026959",
+      "location": "San Jose, California, United States of America",
+      "country": "USA"
+    },
+    {
+      "company": "Ericsson",
+      "role": "Agent System Engineer",
+      "link": "https://jobs.ericsson.com/careers/job/563121776777756?domain=ericsson.com&8fold_id=563121776777756",
+      "location": "Yokohama,Yokohama,Japan, Madrid,Madrid,Spain",
+      "country": "Unsure"
+    },
+    {
+      "company": "Google",
+      "role": "Cloud Engineer, Infrastructure and AI",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/92653452898771654-cloud-engineer-infrastructure-and-ai?sort_by=date&page=1",
+      "location": "Warsaw, Poland; Wrocław, Poland",
+      "country": "USA"
+    },
+    {
+      "company": "Google",
+      "role": "UX Engineer, Search Design System",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/131539193443558086-ux-engineer-search-design-system?sort_by=date&page=1",
+      "location": "Mountain View, CA, USA; New York, NY, USA; +2 more; +1 more",
+      "country": "USA"
+    },
+    {
+      "company": "Google",
+      "role": "Cloud Engineer I, AI/ML, Professional Services, Google Cloud",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/111327627104395974-cloud-engineer-i-aiml-professional-services-google-cloud?sort_by=date&page=6",
+      "location": "Mexico City, CDMX, Mexico",
+      "country": "USA"
+    },
+    {
+      "company": "Halliburton",
+      "role": "Software Engineer (RCoE)",
+      "link": "https://jobs.halliburton.com/job/Oslo-Software-Engineer-%28RCoE%29-03-0167/1427890200/",
+      "location": "Oslo, 03, NO, 0167",
+      "country": "USA"
+    },
+    {
+      "company": "Horace Mann",
+      "role": "Building Systems Engineer",
+      "link": "https://job-boards.greenhouse.io/horacemannservicecorporation/jobs/6250505004",
+      "location": "Springfield, IL",
+      "country": "USA"
+    },
+    {
+      "company": "Huntington Ingalls",
+      "role": "ENGINEER SOFTWARE 1",
+      "link": "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1448477600/",
+      "location": "Newport News, Virginia, United States",
+      "country": "Unsure"
+    },
+    {
+      "company": "Intel",
+      "role": "AI Software Engineer - AI Frameworks",
+      "link": "https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/AI-Software-Engineer---AI-Frameworks_JR0288900",
+      "location": "India, Bangalore",
+      "country": "USA"
+    },
+    {
+      "company": "Intercontinental Exchange",
+      "role": "Junior Software Development Engineer in Test",
+      "link": "https://careers.ice.com/jobs/14205?icims=1",
+      "location": "Atlanta, Georgia",
+      "country": "USA"
+    },
+    {
+      "company": "L3harris",
+      "role": "Specialist, Software Engineer Engineering Salt Lake City, UT",
+      "link": "https://careers.l3harris.com/job/salt-lake-city/specialist-software-engineer/4832/102933626016",
+      "location": "Salt Lake City, UT",
+      "country": "USA"
+    },
+    {
+      "company": "L3Harris",
+      "role": "RUST Software Developer - Multiple Levels (Minimum $10K Sign-on Bonus)",
+      "link": "https://jobs.l3harris.com/job/Herndon-RUST-Software-Developer-Multiple-Levels-%28Minimum-%2410K-Sign-on-Bonus%29-VA-20171/1408050600/",
+      "location": "Herndon, VA, US, 20171",
+      "country": "USA"
+    },
+    {
+      "company": "Labcorp",
+      "role": "Assoc Data Analyst",
+      "link": "https://labcorp.wd1.myworkdayjobs.com/external/job/Bengaluru-India/Assoc-Data-Analyst_2639835",
+      "location": "Bengaluru India",
+      "country": "USA"
+    },
+    {
+      "company": "Leidos",
+      "role": "Software Developer",
+      "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Valparaiso-FL/Software-Developer_R-00196447",
+      "location": "Valparaiso, FL",
+      "country": "USA"
+    },
+    {
+      "company": "Medtronic",
+      "role": "IT Developer - Data Engineer",
+      "link": "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Nanakramguda-Hyderabad-India/IT-Developer---Data-Engineer_R68340-1",
+      "location": "Nanakramguda, Hyderabad, India",
+      "country": "USA"
+    },
+    {
+      "company": "Meta",
+      "role": "Software Engineer - Traffic Efficiency",
+      "link": "https://www.metacareers.com/profile/job_details/1477630144221735",
+      "location": "Menlo Park, CA",
+      "country": "USA"
+    },
+    {
+      "company": "Meta",
+      "role": "Software Engineer - Traffic Capacity & Performance",
+      "link": "https://www.metacareers.com/profile/job_details/1440766381530344",
+      "location": "Menlo Park, CA",
+      "country": "USA"
+    },
+    {
+      "company": "Nvidia",
+      "role": "Industry Development Specialist, AI Natives",
+      "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Industry-Development-Specialist--AI-Natives_JR2028623",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Nwis",
+      "role": "Systems Engineer - Scrum Master",
+      "link": "https://nwis.wd12.myworkdayjobs.com/nw/job/Sterling-VA/Systems-Engineer---Scrum-Master_JR101893",
+      "location": "Sterling, VA",
+      "country": "USA"
+    },
+    {
+      "company": "Oracle",
+      "role": "Cloud Adoption Engineer — Oracle Government, Defense & Intelligence",
+      "link": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/349185",
+      "location": "Reston, VA, United States",
+      "country": "USA"
+    },
+    {
+      "company": "Parsons",
+      "role": "Spatial Data Scientist - TS/SCI w/ Poly",
+      "link": "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Springfield/Spatial-Data-Scientist---TS-SCI-w--Poly_R188321",
+      "location": "",
+      "country": "Unsure"
+    },
+    {
+      "company": "Salesforce",
+      "role": "System Analyst",
+      "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/System-Analyst_JR367594",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "SimVentions",
+      "role": "Software Developer",
+      "link": "https://simventions.jibeapply.com/jobs/1665?icims=1",
+      "location": "King George, Virginia",
+      "country": "USA"
+    },
+    {
+      "company": "The New York Times",
+      "role": "Analyst, Data and Insights",
+      "link": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751531005",
+      "location": "New York, NY",
+      "country": "USA"
+    },
+    {
+      "company": "Thomsonreuters",
+      "role": "Automation and AI Developer",
+      "link": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Hyderabad-Telangana/Automation-and-AI-Solutions-Lead_JREQ199695",
+      "location": "",
+      "country": "Unsure"
+    },
+    {
+      "company": "Uhaul",
+      "role": "Software Developer",
+      "link": "https://uhaul.wd1.myworkdayjobs.com/uhauljobs/job/Phoenix-Arizona/Software-Developer_R259053",
+      "location": "Phoenix, Arizona",
+      "country": "USA"
+    },
+    {
+      "company": "Ultra",
+      "role": "Systems Engineer 4",
+      "link": "https://ultra.wd3.myworkdayjobs.com/uiccareers/job/Huntsville-USA/Systems-Engineer-4_REQ-12343",
+      "location": "2 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Zeissgroup",
+      "role": "Full Stack Software Engineer",
+      "link": "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Budapest---ZDS/Full-Stack-Software-Engineer_JR_1054614",
+      "location": "2 Locations",
+      "country": "Unsure"
     }
   ]
 }
