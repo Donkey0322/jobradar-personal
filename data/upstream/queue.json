@@ -455,6 +455,55 @@
       "link": "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3",
       "location": "San Jose, CA",
       "country": "USA"
+    },
+    {
+      "company": "Arthrex",
+      "role": "Sr AI & Power Platform Governance Analyst",
+      "link": "https://careers.arthrex.com/NorthAmerica/job/Naples-Sr-AI-&-Power-Platform-Governance-Analyst-FL-34108/1371721457/",
+      "location": "Naples, FL, US, 34108",
+      "country": "USA"
+    },
+    {
+      "company": "Capgemini",
+      "role": "Capgemini Invent, Consultant, Forward Deployed Engineer",
+      "link": "https://careers.capgemini.com/job/Dallas%2C-TX-Capgemini-Invent%2C-Consultant%2C-Forward-Deployed-Engineer-TX-75201/1445796033/",
+      "location": "Dallas, TX, US",
+      "country": "USA"
+    },
+    {
+      "company": "HPE",
+      "role": "Systems Engineer for Large Public Venues (East Coast)",
+      "link": "https://careers.hpe.com/us/en/job/1216109?ph_id=1216109",
+      "location": "All, New York, 00000",
+      "country": "USA"
+    },
+    {
+      "company": "HPE",
+      "role": "Software Engineer for Packet Forwarding (Sunnyvale, California)",
+      "link": "https://careers.hpe.com/us/en/job/1216161?ph_id=1216161",
+      "location": "Sunnyvale, California, 94089",
+      "country": "USA"
+    },
+    {
+      "company": "Hpe",
+      "role": "Systems Engineer for Large Public Venues (East Coast)",
+      "link": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/All-New-York-United-States-of-America/Systems-Engineer-for-Large-Public-Venues--East-Coast-_1216109-2",
+      "location": "9 Locations",
+      "country": "Unsure"
+    },
+    {
+      "company": "Hpe",
+      "role": "Software Engineer for Packet Forwarding (Sunnyvale, California)",
+      "link": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Sunnyvale-California-United-States-of-America/Software-Engineer-for-Packet-Forwarding--Sunnyvale--California-_1216161-2",
+      "location": "Sunnyvale, California, United States of America",
+      "country": "USA"
+    },
+    {
+      "company": "L3harris",
+      "role": "(DoW SkillBridge), Specialist, Systems Engineer - RC-135 Mission Systems Computer Systems Admin Engineering Offutt Air Force Base, Sarpy, NE",
+      "link": "https://careers.l3harris.com/job/offutt-air-force-base/dow-skillbridge-specialist-systems-engineer-rc-135-mission-systems-computer-systems-admin/4832/102920525776",
+      "location": "Offutt Air Force Base, Sarpy, NE",
+      "country": "USA"
     }
   ]
 }
