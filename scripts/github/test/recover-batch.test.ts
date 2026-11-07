@@ -113,9 +113,10 @@ vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 }));
 
+import { routePush } from "@github/scripts/workflow-route.mjs";
+
 import { JobCategory } from "@/constants/job-category";
 
-import { routePush } from "../../../.github/scripts/workflow-route.mjs";
 import { processBatchQueue } from "../../command/batch";
 import { planBatchRecovery } from "../recover-batch";
 
@@ -131,6 +132,8 @@ const ai = CONFIG.ai;
 function gitEnv() {
   const env = { ...process.env };
   delete env.GITHUB_OUTPUT;
+  delete env.GITHUB_STEP_SUMMARY;
+  delete env.JOBRADAR_SUMMARY_DIR;
   delete env.GIT_DIR;
   delete env.GIT_WORK_TREE;
 

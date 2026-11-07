@@ -1,5 +1,6 @@
 import type { AnalyzedBatchJob } from "@/modules/posting/batch";
 
+import { recordStage } from "../github/summary";
 import { persistAnalyzedJobs } from "../ingest";
 
 import {
@@ -12,6 +13,8 @@ import {
   saveInflightBatches,
   submitQueuedJobs,
 } from "@/modules/posting/batch";
+import { BatchFailures } from "@/modules/posting/batch/failures";
+import { PendingResults } from "@/modules/posting/batch/results";
 import { logger } from "@/utils/logger";
 
 export const DEFAULT_SOFT_DEADLINE_MS = 20 * 60 * 1000;
@@ -42,9 +45,32 @@ export async function processBatchQueue(
   }
 
   let collectedCount = 0;
+  let realtimeCount = 0;
+  let replayedCount = 0;
   let submitted = 0;
   let totalCost = 0;
   let notifyCount = 0;
+  let notificationSkipped = 0;
+  let reused = 0;
+  let opportunitiesAdded = 0;
+  let opportunitiesUpdated = 0;
+  let failed = 0;
+  const filterReasons: Record<string, number> = {};
+
+  function addPersist(persisted: Awaited<ReturnType<typeof persistAnalyzedJobs>>) {
+    totalCost += persisted.totalCost;
+    notifyCount += persisted.count;
+    notificationSkipped += persisted.skipped ?? 0;
+    reused += persisted.reused ?? 0;
+    opportunitiesAdded += persisted.opportunitiesAdded ?? 0;
+    opportunitiesUpdated += persisted.opportunitiesUpdated ?? 0;
+
+    for (const [kind, count] of Object.entries(persisted.filterReasons ?? {})) {
+      if (typeof count === "number") {
+        filterReasons[kind] = (filterReasons[kind] ?? 0) + count;
+      }
+    }
+  }
 
   async function collectAndPersist() {
     const collected = await collectInflightBatches();
@@ -55,23 +81,25 @@ export async function processBatchQueue(
     }
 
     collectedCount += collected.analyzed.length;
-    totalCost += persisted.totalCost;
-    notifyCount += persisted.count;
+    failed += collected.failed ?? 0;
+    addPersist(persisted);
     return collected;
   }
 
-  async function persistRealtime(analyzed: AnalyzedBatchJob[]) {
+  async function persistRealtime(analyzed: AnalyzedBatchJob[], source: "realtime" | "replay") {
     if (analyzed.length === 0) {
       return;
     }
 
     const persisted = await persistAnalyzedJobs(analyzed);
     await finishRealtimeJobs(analyzed.map((item) => item.job));
-    totalCost += persisted.totalCost;
-    notifyCount += persisted.count;
+    addPersist(persisted);
+
+    if (source === "realtime") realtimeCount += analyzed.length;
+    else replayedCount += analyzed.length;
   }
 
-  await persistRealtime(await loadRealtimeResults());
+  await persistRealtime(await loadRealtimeResults(), "replay");
   await collectAndPersist();
 
   for (;;) {
@@ -85,8 +113,9 @@ export async function processBatchQueue(
       }
 
       const result = await submitQueuedJobs();
+      failed += result.failed ?? 0;
 
-      await persistRealtime(result.analyzed);
+      await persistRealtime(result.analyzed, "realtime");
 
       if (result.submitted === 0 && result.analyzed.length === 0) {
         break;
@@ -137,6 +166,11 @@ export async function processBatchQueue(
   }
 
   const inflight = await loadInflightBatches();
+  const queued = (await loadBatchQueue()).length;
+  const failures = await BatchFailures.load();
+  const pendingResults = (await PendingResults.load()).list().length;
+  const retrying = failures.list().filter((record) => record.status === "retrying").length;
+  const stopped = failures.failed().length;
 
   logger.info(
     {
@@ -144,7 +178,7 @@ export async function processBatchQueue(
       submitted,
       notified: notifyCount,
       inflight: inflight.length,
-      queued: (await loadBatchQueue()).length,
+      queued,
       cost: totalCost,
     },
     "📦 Batch analysis pass finished"
@@ -152,20 +186,75 @@ export async function processBatchQueue(
 
   return {
     collected: collectedCount,
+    realtime: realtimeCount,
+    replayed: replayedCount,
     submitted,
     notified: notifyCount,
+    notificationSkipped,
+    reused,
+    opportunitiesAdded,
+    opportunitiesUpdated,
+    filterReasons,
+    failed,
     totalCost,
     inflight: inflight.length,
+    queued,
+    retrying,
+    stopped,
+    pendingResults,
   };
 }
 
 export default async function runBatch(
   options: { submitOnly?: boolean; retryFailed?: boolean } = {}
 ) {
-  if (options.retryFailed) {
-    const count = await retryFailedBatchJobs();
-    logger.info({ count }, "📦 Re-queued failed batch jobs");
-  }
+  const mode = options.submitOnly ? "submit" : "collect";
+  const started = Date.now();
 
-  await processBatchQueue(undefined, { wait: !options.submitOnly });
+  try {
+    let requeued: number | undefined;
+    if (options.retryFailed) {
+      requeued = await retryFailedBatchJobs();
+      logger.info({ count: requeued }, "📦 Re-queued failed batch jobs");
+    }
+
+    const result = await processBatchQueue(undefined, { wait: !options.submitOnly });
+    recordStage({
+      stage: "batch",
+      mode,
+      status: result.failed > 0 ? "partial" : "success",
+      submitted: result.submitted,
+      realtime: result.realtime,
+      collected: result.collected,
+      replayed: result.replayed,
+      jobsSaved: result.notified,
+      notificationSkipped: result.notificationSkipped,
+      reused: result.reused,
+      opportunitiesAdded: result.opportunitiesAdded,
+      opportunitiesUpdated: result.opportunitiesUpdated,
+      ...(Object.keys(result.filterReasons).length > 0
+        ? { filterReasons: result.filterReasons }
+        : {}),
+      failed: result.failed,
+      queued: result.queued,
+      inflight: result.inflight,
+      retrying: result.retrying,
+      stopped: result.stopped,
+      pendingResults: result.pendingResults,
+      ...(requeued === undefined ? {} : { requeued }),
+      cost: result.totalCost,
+      durationMs: Date.now() - started,
+      saved: "complete",
+    });
+  } catch (error) {
+    recordStage({
+      stage: "batch",
+      mode,
+      status: "failed",
+      reason: "batch failed",
+      saved: "unknown",
+      durationMs: Date.now() - started,
+    });
+    throw error;
+  }
 }

@@ -52,6 +52,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 175
     steps:
+      - name: Initialize summary
+        shell: bash
+        run: echo "JOBRADAR_SUMMARY_DIR=$RUNNER_TEMP/jobradar-summary" >> "$GITHUB_ENV"
+
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
@@ -146,6 +150,7 @@ jobs:
           else
             git commit -m "chore(community): update new jobs"
           fi
+          COMMIT_LABEL="job data" node .github/scripts/summary.mjs append-commit || echo "::warning::Could not write the run summary. The task result is unchanged."
 
       - name: Rebase and push data
         id: push
@@ -155,6 +160,7 @@ jobs:
           # This commit is published in the next step. The built-in token does not start another workflow.
           token: ${{ github.token }}
           ref: ${{ github.ref_name }}
+          summary_label: job data
 
       - name: Record saved data commit
         id: saved
@@ -193,3 +199,9 @@ jobs:
           token: ${{ github.token }}
           publish_token: ${{ secrets.PAT }}
           ref: ${{ github.ref_name }}
+
+      - name: Write run summary
+        if: ${{ always() && !cancelled() }}
+        env:
+          JOB_STATUS: ${{ job.status }}
+        run: node .github/scripts/summary.mjs render || echo "::warning::Could not write the run summary. The task result is unchanged."
