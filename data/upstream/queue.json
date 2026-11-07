@@ -1,5 +1,5 @@
 {
-  "commit": "0e4ff95477f464c077f3399825357356fa695032",
+  "commit": null,
   "jobs": [
     {
       "company": "The MITRE Corporation",
@@ -468,6 +468,13 @@
       "role": "Software Engineer 0/1",
       "link": "https://apply.workable.com/prosync/j/6ECFBED6E7/apply",
       "location": "Annapolis Junction, MD",
+      "country": "USA"
+    },
+    {
+      "company": "Cisco",
+      "role": "Software Engineer Embedded Systems I",
+      "link": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-I--Full-Time----United-States_2024231-1",
+      "location": "San Jose, CA",
       "country": "USA"
     }
   ]
