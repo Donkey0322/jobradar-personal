@@ -18583,6 +18583,17 @@
     "urls": []
   },
   {
+    "name": "ElevenLabs",
+    "ats": "ashby",
+    "identifier": "ElevenLabs",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/ElevenLabs",
+    "urls": [
+      "https://jobs.ashbyhq.com/ElevenLabs/6a530871-b6c6-4783-ac6b-69cc3b084192",
+      "https://jobs.ashbyhq.com/ElevenLabs/c7d59014-b918-4c15-ae33-79f5c9f2cf9f"
+    ]
+  },
+  {
     "name": "eliseai",
     "ats": "ashby",
     "identifier": "eliseai",

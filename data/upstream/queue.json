@@ -1,51 +1,6 @@
 {
-  "commit": "2ce494048d5b4bbf8e32cfda05f725f6c5c2ac7f",
+  "commit": null,
   "jobs": [
-    {
-      "company": "Accenture",
-      "role": "Databricks Data Engineer",
-      "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ebene/Databricks-Data-Engineer_R00336962",
-      "location": "",
-      "country": "Unsure",
-      "waitedSince": "2026-10-21T13:48:17Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "Netflix",
-      "role": "Data Engineer (L6) - Ads (Signals and Measurement)",
-      "link": "https://explore.jobs.netflix.net/careers/job/790315176866",
-      "location": "Remote, United States",
-      "country": "USA",
-      "waitedSince": "2026-10-23T13:25:41Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "Intermediate AI and Decision Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R116737?ph_id=R116737",
-      "location": "McLean, Virginia, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-10-26T14:15:04Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "Systems Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R117893?ph_id=R117893",
-      "location": "Hanscom Air Force Base, Massachusetts, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-10-26T19:59:12Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "ITW",
-      "role": "Software Developer - ERP Applications",
-      "link": "https://careers.itw.com/us/en/job/JR10828?ph_id=JR10828",
-      "location": "Troy, Ohio, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-10-26T23:52:15Z",
-      "waitedSinceSource": "confirmed"
-    },
     {
       "company": "The MITRE Corporation",
       "role": "Associate Systems Engineer",
@@ -270,6 +225,16 @@
       "country": "USA",
       "waitedSince": "2026-11-07T00:09:00Z",
       "waitedSinceSource": "confirmed"
+    },
+    {
+      "company": "ElevenLabs",
+      "role": "Full-Stack Engineer (Backend Leaning)",
+      "link": "https://jobs.ashbyhq.com/ElevenLabs/c7d59014-b918-4c15-ae33-79f5c9f2cf9f",
+      "location": "New York, NY</br>Boston, MA",
+      "country": "USA",
+      "waitedSince": "2026-11-07T18:26:00.715Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
     }
   ]
 }
