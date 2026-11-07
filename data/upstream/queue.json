@@ -1,42 +1,6 @@
 {
-  "commit": null,
+  "commit": "489c39558a0cab7a38deb15fa93372106322f3e3",
   "jobs": [
-    {
-      "company": "The MITRE Corporation",
-      "role": "Associate Systems Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R117898?ph_id=R117898",
-      "location": "Huntsville, Alabama, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-10-27T14:29:37Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "People Analytics Data Scientist",
-      "link": "https://careers.mitre.org/us/en/job/R117122?ph_id=R117122",
-      "location": "McLean, Virginia, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-10-27T18:17:56Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "Emerson",
-      "role": "Software Engineer",
-      "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013042",
-      "location": "Austin, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-01T02:28:12-06:00",
-      "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "Netflix",
-      "role": "Software Engineer 6 - Ads Signals & Targeting",
-      "link": "https://explore.jobs.netflix.net/careers/job/790313577447",
-      "location": "New York,New York,United States of America",
-      "country": "USA",
-      "waitedSince": "2026-10-28T12:47:16Z",
-      "waitedSinceSource": "confirmed"
-    },
     {
       "company": "Corebridgefinancial",
       "role": "Associate Data Scientist",
@@ -44,7 +8,23 @@
       "location": "NJ-Jersey City",
       "country": "USA",
       "waitedSince": "2026-10-28T15:10:01Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:cfdef5e8-8372-48a7-9d7f-bb3f5d9ea932",
+          "at": "2026-11-07T20:54:30.313Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "Paypal",
@@ -225,16 +205,6 @@
       "country": "USA",
       "waitedSince": "2026-11-07T00:09:00Z",
       "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "ElevenLabs",
-      "role": "Full-Stack Engineer (Backend Leaning)",
-      "link": "https://jobs.ashbyhq.com/ElevenLabs/c7d59014-b918-4c15-ae33-79f5c9f2cf9f",
-      "location": "New York, NY</br>Boston, MA",
-      "country": "USA",
-      "waitedSince": "2026-11-07T18:26:00.715Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
     }
   ]
 }
