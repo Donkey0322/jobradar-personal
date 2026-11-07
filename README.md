@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,278 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,281 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Associate, Software Engineer</td>
+      <td width="180" align="left" valign="top">Richardson, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Richardson-Associate%2C-Software-Engineer-TX-75080/1437500700/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Chewy</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Full Stack, Promotions</td>
+      <td width="180" align="left" valign="top">Boston, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://chewy.wd5.myworkdayjobs.com/External/job/Boston-MA/Software-Engineer-I--Full-Stack--Promotions_R31442"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Newyorklife</td>
       <td width="420" align="left" valign="top">Associate - Full-Stack Software Developer</td>
@@ -304,23 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://bostonscientific.eightfold.ai/careers/job/563602813872886?domain=bostonscientific.com&amp;8fold_id=563602813872886"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Westinghouse Electric Company, LLC</td>
-      <td width="420" align="left" valign="top">Control Systems Engineer</td>
-      <td width="180" align="left" valign="top">Warrendale, PA</td>
-      <td width="120" align="left" valign="top"><a href="http://careers.westinghousenuclear.com/job/Warrendale-Control-Systems-Engineer-OR/1418279600/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="AMD" src="./assets/featured-badges/amd.svg" /></td>
-      <td width="420" align="left" valign="top">Software Development Engineer</td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.amd.com/jobs/93936?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,278 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,281 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-07T16:57:11.834Z</code>
+      🕒 Last updated <code>2026-11-07T18:16:49.517Z</code>
     </span>
   </p>
 </div>
