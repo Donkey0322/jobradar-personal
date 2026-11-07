@@ -857,7 +857,9 @@ describe("workflow inventory", () => {
     expect(workflow("jobs.yml")).toContain("pnpm jobctl scan");
     expect(workflow("jobs.yml")).toContain("pnpm jobctl sync");
     expect(workflow("jobs.yml")).toContain("repository: Donkey0322/JobRadar-AI");
-    expect(workflow("jobs.yml")).toContain("UPSTREAM_DATA_PATH: ${{ github.workspace }}/upstream/data");
+    expect(workflow("jobs.yml")).toContain(
+      "UPSTREAM_DATA_PATH: ${{ github.workspace }}/upstream/data"
+    );
     expect(workflow("upstream-sync.yml")).toContain("pnpm jobctl upstream");
     expect(workflow("upstream-sync.yml")).toContain("data/upstream/queue.json");
     expect(workflow("upstream-sync.yml")).toContain("workflow_dispatch:");
@@ -909,10 +911,16 @@ describe("workflow inventory", () => {
 
     expect(workflow("jobs.yml")).toContain("timeout-minutes: 175");
 
-    const jobsFetch = stepBlocks(workflow("jobs.yml")).find((block) => block.includes("pnpm jobctl scan"));
+    const jobsFetch = stepBlocks(workflow("jobs.yml")).find((block) =>
+      block.includes("pnpm jobctl scan")
+    );
     expect(jobsFetch).toContain('git -C "${GITHUB_WORKSPACE}/upstream" rev-parse HEAD');
-    expect(jobsFetch?.indexOf("rev-parse HEAD")).toBeLessThan(jobsFetch?.indexOf("pnpm jobctl scan") ?? -1);
-    expect(jobsFetch?.indexOf("rev-parse HEAD")).toBeLessThan(jobsFetch?.indexOf("pnpm jobctl sync") ?? -1);
+    expect(jobsFetch?.indexOf("rev-parse HEAD")).toBeLessThan(
+      jobsFetch?.indexOf("pnpm jobctl scan") ?? -1
+    );
+    expect(jobsFetch?.indexOf("rev-parse HEAD")).toBeLessThan(
+      jobsFetch?.indexOf("pnpm jobctl sync") ?? -1
+    );
     expect(jobsFetch?.indexOf("pnpm jobctl sync")).toBeLessThan(
       jobsFetch?.indexOf("git status --porcelain data/") ?? -1
     );
@@ -936,6 +944,9 @@ describe("workflow inventory", () => {
     );
     expect(upstreamApply).not.toContain("steps.public.outputs.sha");
     expect(upstreamSync).toContain("git ls-remote");
+    expect(upstreamSync).toContain("upstream-due.mjs");
+    expect(upstreamSync).toContain("steps.public.outputs.run == 'true'");
+    expect(upstreamSync).not.toContain("steps.public.outputs.changed == 'true'");
     expect(upstreamSync.match(/uses: actions\/checkout@/g)).toHaveLength(3);
     expect(workflow("batch.yml")).toContain("timeout-minutes: 120");
     expect(workflow("add-job-from-issue.yml")).toContain("timeout-minutes: 150");

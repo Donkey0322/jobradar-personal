@@ -58,7 +58,16 @@ notify
 program
   .command("upstream")
   .description("Apply public JDs to jobs waiting in data/upstream/queue.json")
-  .action(async () => {
+  .option(
+    "--retry-failed",
+    "Start another self-analysis round for waits that reached the attempt limit"
+  )
+  .action(async (options: { retryFailed?: boolean }) => {
+    if (options.retryFailed) {
+      const { retryFailedUpstreamWaits } = await import("../ingest/upstream");
+      await retryFailedUpstreamWaits();
+    }
+
     const { default: checkConfig } = await import("./setup/check-config");
     await checkConfig();
 

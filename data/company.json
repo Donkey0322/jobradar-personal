@@ -14665,6 +14665,14 @@
     ]
   },
   {
+    "name": "chewy",
+    "ats": "workday",
+    "identifier": "chewy-external",
+    "domain": "https://chewy.wd5.myworkdayjobs.com/External",
+    "page": "https://chewy.wd5.myworkdayjobs.com/wday/cxs/chewy/External/jobs",
+    "urls": []
+  },
+  {
     "name": "chicagotradingcampus",
     "ats": "greenhouse",
     "identifier": "chicagotradingcampus",

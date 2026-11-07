@@ -190,7 +190,7 @@ describe("parseAIJDResult", () => {
   );
 
   it("does not fill in a year the model left out", () => {
-    for (const season of ["Summer", `${Number.parseInt(SEASONS.summer) + 1} Summer`]) {
+    for (const season of ["Summer", "2025 Summer", `${Number.parseInt(SEASONS.summer) + 1} Summer`]) {
       const parsed = parseAIJDResult(
         JSON.stringify({ ...validResponse, category: "summer intern", season })
       );

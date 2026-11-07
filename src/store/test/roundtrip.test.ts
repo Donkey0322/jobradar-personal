@@ -1,7 +1,9 @@
 import { promises as nodeFs } from "node:fs";
-import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { afterAll, afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+
+import { JobCategory } from "@/constants/job-category";
 
 const paths = await vi.hoisted(async () => {
   const nodeOs = await import("node:os");
@@ -64,7 +66,17 @@ vi.mock("@/utils/logger", () => ({
   logger: { error: vi.fn(), warn: vi.fn(), info: vi.fn() },
 }));
 
-import { batchInflight, batchQueue, companies, errorLog, jobs, opportunities, urls } from "@/store";
+import {
+  batchInflight,
+  batchQueue,
+  companies,
+  errorLog,
+  jobs,
+  opportunities,
+  UPSTREAM_QUEUE_PATH,
+  upstreamQueue,
+  urls,
+} from "@/store";
 import {
   ARCHIVE_PATH,
   BATCH_INFLIGHT_PATH,
@@ -317,7 +329,103 @@ describe("store datasets", () => {
     );
     expect(await readFile(BATCH_INFLIGHT_PATH, "utf8")).toBe(notArray);
   });
+
+  it("treats a missing upstream queue as empty and keeps an old listing", async () => {
+    expect(await upstreamQueue.load()).toEqual({ commit: null, jobs: [] });
+
+    const queued = {
+      commit: null,
+      jobs: [{ ...job(1), country: "USA" as const }],
+    };
+    await upstreamQueue.save(queued);
+    expect(await upstreamQueue.load()).toEqual(queued);
+    expect(await readFile(UPSTREAM_QUEUE_PATH, "utf8")).toBe(`${JSON.stringify(queued, null, 2)}\n`);
+    expect(await queueTemps()).toEqual([]);
+  });
+
+  it("keeps the upstream queue when the temp write or rename fails", async () => {
+    const queued = { commit: "public-1", jobs: [paidWait()] };
+    await upstreamQueue.save(queued);
+    const before = await readFile(UPSTREAM_QUEUE_PATH, "utf8");
+
+    const write = vi
+      .spyOn(nodeFs, "writeFile")
+      .mockRejectedValueOnce(new Error("injected temp write failure"));
+    await expect(upstreamQueue.save({ commit: null, jobs: [] })).rejects.toThrow(
+      "injected temp write failure"
+    );
+    write.mockRestore();
+
+    expect(await readFile(UPSTREAM_QUEUE_PATH, "utf8")).toBe(before);
+    expect(await queueTemps()).toEqual([]);
+
+    const rename = vi
+      .spyOn(nodeFs, "rename")
+      .mockRejectedValueOnce(new Error("injected rename failure"));
+    await expect(upstreamQueue.save({ commit: null, jobs: [] })).rejects.toThrow(
+      "injected rename failure"
+    );
+    rename.mockRestore();
+
+    expect(await readFile(UPSTREAM_QUEUE_PATH, "utf8")).toBe(before);
+    expect(await upstreamQueue.load()).toEqual(queued);
+    expect(await queueTemps()).toEqual([]);
+  });
+
+  it("stops on a damaged upstream queue and leaves the paid pending JD in place", async () => {
+    await upstreamQueue.save({ commit: "public-1", jobs: [paidWait()] });
+    const original = await readFile(UPSTREAM_QUEUE_PATH, "utf8");
+    expect(original).toContain("self:paid");
+    const damaged = original.slice(0, -8);
+    await writeFile(UPSTREAM_QUEUE_PATH, damaged);
+
+    await expect(upstreamQueue.load()).rejects.toThrow(
+      `Upstream queue is not valid JSON: ${UPSTREAM_QUEUE_PATH}`
+    );
+    expect(await readFile(UPSTREAM_QUEUE_PATH, "utf8")).toBe(damaged);
+
+    const illegal = original.replace('"link":', '"nope":');
+    await writeFile(UPSTREAM_QUEUE_PATH, illegal);
+    await expect(upstreamQueue.load()).rejects.toThrow(
+      `Upstream queue jobs[0] is not a valid wait: ${UPSTREAM_QUEUE_PATH}`
+    );
+    expect(await readFile(UPSTREAM_QUEUE_PATH, "utf8")).toBe(illegal);
+
+    const denied = Object.assign(new Error("denied"), { code: "EACCES" });
+    const read = vi.spyOn(nodeFs, "readFile").mockRejectedValueOnce(denied);
+    await expect(upstreamQueue.load()).rejects.toThrow(
+      `Upstream queue could not be read: ${UPSTREAM_QUEUE_PATH}`
+    );
+    read.mockRestore();
+    expect(await readFile(UPSTREAM_QUEUE_PATH, "utf8")).toBe(illegal);
+  });
 });
+
+function paidWait() {
+  return {
+    ...job(1),
+    waitedSince: "2026-01-02T03:04:05.000Z",
+    waitedSinceSource: "confirmed" as const,
+    pendingResult: {
+      jd: {
+        citizenship: null,
+        sponsorship: null,
+        qualifications: ["BS"],
+        country: "USA" as const,
+        location: "Austin, TX, USA",
+        category: JobCategory.ENTRY_LEVEL,
+        season: "None" as const,
+      },
+      cost: 0.42,
+      attemptId: "self:paid",
+    },
+  };
+}
+
+async function queueTemps(): Promise<string[]> {
+  const names = await readdir(path.dirname(UPSTREAM_QUEUE_PATH));
+  return names.filter((name) => name.endsWith(".tmp"));
+}
 
 afterAll(async () => {
   await rm(paths.root, { recursive: true, force: true });

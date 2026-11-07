@@ -8,9 +8,11 @@ import { JobCategory } from "@/constants/job-category";
 
 import type { JD, Job } from "@/types";
 
-import { loadUpstreamOpportunities, resolveUpstreamCommit } from "../upstream";
+import { resolveJob } from "../outcome";
+import { classifyUnknownJobs, loadUpstreamOpportunities, resolveUpstreamCommit } from "../upstream";
 
 import { getJobKey } from "@/modules/ats/job-key";
+import { Posting } from "@/modules/posting";
 import {
   indexJobs,
   isSelfAnalyzedCountry,
@@ -118,6 +120,91 @@ describe("indexJobs", () => {
 
     expect(indexJobs([bare, parsed]).get(getJobKey(bare.link))?.jd).toEqual(jd);
     expect(indexJobs([parsed, bare]).get(getJobKey(bare.link))?.jd).toEqual(jd);
+  });
+
+  it("prefers a later legal JD over an earlier intern season conflict", () => {
+    const conflict = job("1", {
+      country: "USA",
+      jd: {
+        ...jd,
+        category: JobCategory.SUMMER_INTERN,
+        season: "2025 Fall" as JD["season"],
+      },
+    });
+    const past = job("1", {
+      country: "USA",
+      jd: {
+        ...jd,
+        category: JobCategory.SUMMER_INTERN,
+        season: "2025 Summer" as JD["season"],
+      },
+    });
+
+    expect(indexJobs([conflict, past]).get(getJobKey(conflict.link))?.jd).toEqual(past.jd);
+  });
+});
+
+describe("stored public JDs", () => {
+  it("reuses a past intern season, normalizes other seasons, and skips a conflict", () => {
+    const past = job("past", {
+      country: "USA",
+      jd: {
+        ...jd,
+        category: JobCategory.SUMMER_INTERN,
+        season: "2025 Summer" as JD["season"],
+      },
+    });
+    const leveled = job("level", {
+      country: "USA",
+      jd: { ...jd, season: "2025 Summer" as JD["season"] },
+    });
+    const conflict = job("conflict", {
+      country: "USA",
+      jd: {
+        ...jd,
+        category: JobCategory.OFF_SEASON_INTERN,
+        season: "2025 Summer" as JD["season"],
+      },
+    });
+
+    const work = selectUpstreamWork([past, leveled, conflict], new Set());
+
+    expect(work.map((item) => item.link)).toEqual([past.link, leveled.link]);
+    expect(work[0]?.jd?.season).toBe("2025 Summer");
+    expect(work[1]?.jd?.season).toBe("None");
+    expect(leveled.jd?.season).toBe("2025 Summer");
+  });
+
+  it("copies only a legal stored JD onto a listing and resolves that JD without analysis", async () => {
+    const listing = job("copy", { country: "USA", jd: undefined });
+    const past = {
+      ...jd,
+      category: JobCategory.SUMMER_INTERN,
+      season: "2025 Summer" as JD["season"],
+    };
+    const cached = job("copy", { country: "USA", jd: past });
+    const broken = job("broken", {
+      country: "USA",
+      jd: { country: "USA" } as JD,
+    });
+    const brokenListing = job("broken", { country: "USA", jd: undefined });
+
+    await classifyUnknownJobs([listing, brokenListing], indexJobs([cached, broken]));
+
+    expect(listing.jd).toEqual(past);
+    expect(brokenListing.jd).toBeUndefined();
+
+    const outcome = await resolveJob(Posting.from(job("resolve", { country: "USA" })), {
+      keys: new Set(),
+      shouldStop: () => false,
+      upstream: indexJobs([job("resolve", { country: "USA", jd: past })]),
+    });
+
+    expect(outcome.effect === "notify" || outcome.effect === "skip").toBe(true);
+    if (outcome.effect === "notify" || outcome.effect === "skip") {
+      expect(outcome.job.jd).toEqual(past);
+      expect(outcome.cost).toBe(0);
+    }
   });
 });
 

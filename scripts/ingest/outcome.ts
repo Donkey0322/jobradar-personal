@@ -1,7 +1,7 @@
 import type { Posting, PostingAnalysisFailure } from "@/modules/posting";
 import type { Job } from "@/types";
 
-import { awaitsPublicJd, isSelfAnalyzedCountry } from "@/modules/posting/upstream";
+import { awaitsPublicJd, isSelfAnalyzedCountry, legalPublicJd } from "@/modules/posting/upstream";
 import { isAIEnabled } from "@/utils/ai/enabled";
 
 export type SkipKind = "idempotent" | "filter" | "ai-disabled" | "ineligible" | "dashboard";
@@ -155,7 +155,7 @@ export async function resolveJob(job: Posting, gates: ResolveJobGates): Promise<
   }
 
   const cached = gates.upstream?.get(job.key());
-  const parsed = cached?.jd ?? job.jd;
+  const parsed = legalPublicJd({ jd: cached?.jd ?? job.jd });
 
   if (parsed) {
     if (!job.country && cached?.country) job.country = cached.country;
