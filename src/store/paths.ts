@@ -13,3 +13,5 @@ export const BATCH_PATH = path.join(DATA_PATH, "batch");
 export const BATCH_QUEUE_PATH = path.join(BATCH_PATH, "queue.ndjson");
 export const BATCH_INFLIGHT_PATH = path.join(BATCH_PATH, "inflight.json");
 export const UPSTREAM_QUEUE_PATH = path.join(DATA_PATH, "upstream", "queue.json");
+export const BATCH_FAILURES_PATH = path.join(BATCH_PATH, "failures.ndjson");
+export const BATCH_RESULTS_PATH = path.join(BATCH_PATH, "results.ndjson");

@@ -104,6 +104,12 @@ vi.mock("@/store/paths", async () => {
     get UPSTREAM_QUEUE_PATH() {
       return nodePath.join(data(), "upstream", "queue.json");
     },
+    get BATCH_FAILURES_PATH() {
+      return nodePath.join(data(), "batch", "failures.ndjson");
+    },
+    get BATCH_RESULTS_PATH() {
+      return nodePath.join(data(), "batch", "results.ndjson");
+    },
     JOB_ARCHIVE_CHUNK: 1000,
     OPPORTUNITY_ARCHIVE_CHUNK: 5000,
   };
