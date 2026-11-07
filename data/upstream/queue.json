@@ -1,5 +1,5 @@
 {
-  "commit": "489c39558a0cab7a38deb15fa93372106322f3e3",
+  "commit": "7912ff775ef02abfeb483dd0cfb49aa800c2c5fc",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -27,31 +27,29 @@
       "status": "failed"
     },
     {
-      "company": "Paypal",
-      "role": "Software Engineer",
-      "link": "https://paypal.eightfold.ai/careers/job/274923066141?domain=paypal.com&8fold_id=274923066141",
-      "location": "New York City, New York, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-10-28T20:36:48Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "Chief Engineer, Survivable Communications and Networking Systems",
-      "link": "https://careers.mitre.org/us/en/job/R117930?ph_id=R117930",
-      "location": "Bedford, Massachusetts, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-10-29T21:09:01Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
       "company": "Raydar",
       "role": "Founding Software Engineer",
       "link": "https://apply.workable.com/raydar/j/C7935C65FF/apply",
       "location": "NYC",
       "country": "USA",
       "waitedSince": "2026-10-29T23:35:52Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:2d3a6743-9b90-44e2-8b4f-8fa11f8a7a02",
+          "at": "2026-11-07T21:00:48.711Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "Raydar",
@@ -60,7 +58,23 @@
       "location": "SF",
       "country": "USA",
       "waitedSince": "2026-10-29T23:35:52Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:b30a30a2-fe18-4087-a72c-d3ddc2d4ef40",
+          "at": "2026-11-07T21:00:48.711Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "Raydar",
@@ -69,7 +83,23 @@
       "location": "SF",
       "country": "USA",
       "waitedSince": "2026-10-29T23:35:52Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:f65ac4db-21ac-476a-840b-11004df83b03",
+          "at": "2026-11-07T21:00:48.711Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "Raydar",
