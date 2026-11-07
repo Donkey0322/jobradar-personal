@@ -1,5 +1,5 @@
 {
-  "commit": "7912ff775ef02abfeb483dd0cfb49aa800c2c5fc",
+  "commit": "12ddfa1c084d4e7e74ec7c856e8784e7832c3c6d",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -108,7 +108,23 @@
       "location": "SF",
       "country": "USA",
       "waitedSince": "2026-10-29T23:35:52Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:e30ee697-6b73-4989-a788-f2f4c7ce31b0",
+          "at": "2026-11-07T22:15:42.506Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "Raydar",
@@ -117,16 +133,23 @@
       "location": "NYC",
       "country": "USA",
       "waitedSince": "2026-10-29T23:35:52Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "ITW",
-      "role": "Software Engineer",
-      "link": "https://careers.itw.com/us/en/job/JR10913?ph_id=JR10913",
-      "location": "Lake Bluff, Illinois, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-10-30T23:46:52Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:cf053a4c-230e-4b51-8537-1eb68c8bec11",
+          "at": "2026-11-07T22:15:42.506Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "Meta",
@@ -135,7 +158,23 @@
       "location": "New York, NY",
       "country": "USA",
       "waitedSince": "2026-11-01T18:47:17Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:ab1a2f3f-fe30-4d14-9659-7193a7539758",
+          "at": "2026-11-07T22:15:42.506Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "Cai",
@@ -144,7 +183,23 @@
       "location": "IN-CLIENT-STATE",
       "country": "Unsure",
       "waitedSince": "2026-11-02T17:05:05Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:3e56f576-8832-403a-96c0-7b0924c68b7d",
+          "at": "2026-11-07T22:15:42.506Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "The MITRE Corporation",

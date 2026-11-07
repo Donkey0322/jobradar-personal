@@ -35746,6 +35746,7 @@
       "https://careers-peraton.icims.com/jobs/173139/satellite-communications-ground-systems-integration-%26-test-engineer/job",
       "https://careers-peraton.icims.com/jobs/173140/ai-machine-learning-research-scientist-%e2%80%93-undersea-acoustics-%26-physics-based-modeling/job",
       "https://careers-peraton.icims.com/jobs/173166/blue-team-infrastructure-analyst/job",
+      "https://careers-peraton.icims.com/jobs/173171/cybersecurity-engineer---sme/job",
       "https://careers-peraton.icims.com/jobs/173174/cloud-devops-engineer/job",
       "https://careers-peraton.icims.com/jobs/173222/mission-planning-software---cloud-engineering/job",
       "https://careers-peraton.icims.com/jobs/173226/mission-systems-network-engineer/job",
@@ -42968,8 +42969,8 @@
     "name": "sunlife",
     "ats": "workday",
     "identifier": "sunlife-campus",
-    "domain": "https://sunlife.wd3.myworkdayjobs.com/Campus",
-    "page": "https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/Campus/jobs",
+    "domain": "https://sunlife.wd3.myworkdayjobs.com/campus",
+    "page": "https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/campus/jobs",
     "urls": [
       "https://sunlife.wd3.myworkdayjobs.com/Campus/job/Waterloo-Ontario/Student--Associate-DevOps-Engineer--Winter-2027-_JR00127798",
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Data-Analyst--Winter-Summer-Fall-2027-_JR00129284"
@@ -46649,7 +46650,8 @@
     "domain": "https://careers.gov2x.com",
     "page": "https://careers.gov2x.com/api/jobs",
     "urls": [
-      "https://careers.gov2x.com/jobs/63948?icims=1&lang=en-us"
+      "https://careers.gov2x.com/jobs/63948?icims=1&lang=en-us",
+      "https://careers.gov2x.com/jobs/63949?icims=1&lang=en-us"
     ]
   },
   {
