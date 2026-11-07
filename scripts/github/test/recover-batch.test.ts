@@ -179,7 +179,7 @@ function jd(location: string, qualifications: string[] | null = ["Bachelor's deg
     qualifications,
     country: "USA",
     location,
-    category: JobCategory.SUMMER_INTERN,
+    category: JobCategory.ENTRY_LEVEL,
     season: "None",
   };
 }
@@ -187,7 +187,7 @@ function jd(location: string, qualifications: string[] | null = ["Bachelor's deg
 function listing(company: string, id: string): Job {
   return {
     company,
-    role: "Software Engineer Intern",
+    role: "Software Engineer",
     link: `https://job-boards.greenhouse.io/${company.toLowerCase()}/jobs/${id}`,
     location: "Austin, TX",
   };
@@ -852,7 +852,11 @@ describe("batch recovery checkpoint", { timeout: 20_000 }, () => {
 
   it("normalizes a legal past season when rebuilding the only copy of a JD", () => {
     const repo = initRepo();
-    const past = { ...alphaJd, season: "2024 Summer" as JD["season"] };
+    const past = {
+      ...alphaJd,
+      category: JobCategory.SUMMER_INTERN,
+      season: "2024 Summer" as JD["season"],
+    };
     writeBatch(repo.work, {
       "data/jobs.ndjson": "",
       "data/opportunities.ndjson": "",
@@ -936,7 +940,7 @@ describe("batch recovery checkpoint", { timeout: 20_000 }, () => {
     const historical = [1, 2, 3].map((index) => ({
       id: 82000 + index,
       company: "History",
-      role: "Software Engineer Intern",
+      role: "Software Engineer",
       link: `https://job-boards.greenhouse.io/history/jobs/${82000 + index}`,
       location: "Austin, TX",
       jd: jd("History HQ"),
