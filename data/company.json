@@ -352,6 +352,14 @@
     ]
   },
   {
+    "name": "about",
+    "ats": "greenhouse",
+    "identifier": "about",
+    "domain": "https://about.nextdoor.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/about/jobs",
+    "urls": []
+  },
+  {
     "name": "abridge",
     "ats": "ashby",
     "identifier": "abridge",
@@ -1785,6 +1793,7 @@
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/EDA-Software-Engineer_R02982",
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/Endpoint-and-Data-Security-Engineer_R03281",
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/FPGA-IP-Software-Development-Engineer_R03278",
+      "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/Network-Security-Engineer_R03275",
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/Software-Validation-Engineer_R02858",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Shanghai-China/AI-Engineer_R02693",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/AI-Cloud-Data-Engineer_R03371-1"
@@ -3466,6 +3475,7 @@
       "https://amazon.jobs/en/jobs/10597566",
       "https://amazon.jobs/en/jobs/10597573",
       "https://amazon.jobs/en/jobs/10597585",
+      "https://amazon.jobs/en/jobs/10597677",
       "https://amazon.jobs/en/jobs/10597687",
       "https://amazon.jobs/en/jobs/10597749",
       "https://amazon.jobs/en/jobs/10597780",
@@ -3511,6 +3521,11 @@
       "https://amazon.jobs/en/jobs/10599071",
       "https://amazon.jobs/en/jobs/10599085",
       "https://amazon.jobs/en/jobs/10599299",
+      "https://amazon.jobs/en/jobs/10599325",
+      "https://amazon.jobs/en/jobs/10599326",
+      "https://amazon.jobs/en/jobs/10599327",
+      "https://amazon.jobs/en/jobs/10599328",
+      "https://amazon.jobs/en/jobs/10599329",
       "https://amazon.jobs/en/jobs/3062273",
       "https://amazon.jobs/en/jobs/3110595",
       "https://amazon.jobs/en/jobs/3111761/software-engineer-i",
@@ -3968,6 +3983,7 @@
       "https://analogdevices.wd1.myworkdayjobs.com/external/job/Germany-Munich-Otl-Aicher-Strasse/Field-Robotics-Systems-Engineer_R267553",
       "https://analogdevices.wd1.myworkdayjobs.com/external/job/Germany-Munich-Otl-Aicher-Strasse/Staff-Engineer--System-Applications-Engineer_R262714",
       "https://analogdevices.wd1.myworkdayjobs.com/external/job/India-Bangalore-Nova/Engineer--Embedded-Software_R267361",
+      "https://analogdevices.wd1.myworkdayjobs.com/external/job/India-Bangalore-Nova/Engineer--Embedded-Software_R267367",
       "https://analogdevices.wd1.myworkdayjobs.com/external/job/India-Bangalore-Nova/Software-Engineer_R266038",
       "https://analogdevices.wd1.myworkdayjobs.com/external/job/Ireland-Dublin-Glasnevin/Azure-DevOps-Engineer_R268212-1",
       "https://analogdevices.wd1.myworkdayjobs.com/external/job/Ireland-Limerick/Forward-Deployed-Engineer_R264809",
@@ -13296,6 +13312,7 @@
       "https://careers.cisco.com/global/en/job/2028719?ph_id=2028719",
       "https://careers.cisco.com/global/en/job/2028725?ph_id=2028725",
       "https://careers.cisco.com/global/en/job/2028728?ph_id=2028728",
+      "https://careers.cisco.com/global/en/job/2028743?ph_id=2028743",
       "https://careers.cisco.com/global/en/job/2028784?ph_id=2028784",
       "https://careers.cisco.com/global/en/job/2028840?ph_id=2028840",
       "https://careers.cisco.com/global/en/job/2028849?ph_id=2028849",
@@ -14670,7 +14687,9 @@
     "identifier": "chewy-external",
     "domain": "https://chewy.wd5.myworkdayjobs.com/External",
     "page": "https://chewy.wd5.myworkdayjobs.com/wday/cxs/chewy/External/jobs",
-    "urls": []
+    "urls": [
+      "https://chewy.wd5.myworkdayjobs.com/External/job/Boston-MA/Software-Engineer-I--Full-Stack--Promotions_R31442"
+    ]
   },
   {
     "name": "chicagotradingcampus",
@@ -17281,6 +17300,7 @@
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300869",
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300879",
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/301252",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/302373",
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/R287298"
     ]
   },
@@ -23465,6 +23485,7 @@
     "domain": "https://jobs.halliburton.com",
     "page": "https://jobs.halliburton.com/services/rss/job/?locale=en_US",
     "urls": [
+      "https://jobs.halliburton.com/job/Bengaluru-Software-Engineer-KA-560103/1399787300/",
       "https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors",
       "https://jobs.halliburton.com/job/Oslo-Software-Engineer-%28RCoE%29-03-0167/1427890200/"
     ]
@@ -25355,6 +25376,7 @@
     "urls": [
       "https://impulsespace.pinpointhq.com/en/postings/53615b51-6458-4464-894d-f48d8b91711b",
       "https://impulsespace.pinpointhq.com/en/postings/5811788c-fc81-4390-b3c7-7fc226f15129",
+      "https://impulsespace.pinpointhq.com/en/postings/59b09673-de5e-4ffc-a976-8ebdb3bb8d56",
       "https://impulsespace.pinpointhq.com/en/postings/66981a77-8e79-4050-9818-4ed4209c5579?ats=pinpointhq",
       "https://impulsespace.pinpointhq.com/en/postings/8cc9e5d6-5b54-4584-9fd8-658a1b22fd4c",
       "https://impulsespace.pinpointhq.com/en/postings/9b8a4ed3-27c5-4d88-84d9-6b420c85f786",
@@ -25547,17 +25569,21 @@
       "https://idtus.pinpointhq.com/en/postings/3ffe3459-d01a-4ccc-8005-c6d00f2ce6cc",
       "https://idtus.pinpointhq.com/en/postings/54b8d7c2-b726-4114-8f26-e8d8a5d96d2a",
       "https://idtus.pinpointhq.com/en/postings/5f1743ef-c7d6-4a67-9951-60917bb1db46",
+      "https://idtus.pinpointhq.com/en/postings/73bd372e-d73d-460b-a645-4535ef45e517",
       "https://idtus.pinpointhq.com/en/postings/76e6a518-b747-459e-b3c5-221aacb5be1f",
       "https://idtus.pinpointhq.com/en/postings/7f0d1270-7754-4346-9c73-1fe45e086258",
+      "https://idtus.pinpointhq.com/en/postings/882a011a-dd44-487a-a54b-11bb7afef866",
       "https://idtus.pinpointhq.com/en/postings/892f764b-ac12-4918-9250-c636b382ee0b",
       "https://idtus.pinpointhq.com/en/postings/ad705548-ecaf-44a6-b968-2513c9a3df67",
       "https://idtus.pinpointhq.com/en/postings/aff26b09-b170-4ce6-8dbb-a046589c0481",
       "https://idtus.pinpointhq.com/en/postings/b0ef7877-f9fd-4d79-ab02-bc53b9f3f7f4",
+      "https://idtus.pinpointhq.com/en/postings/b542c38e-8f15-4abc-b9c8-302d09b8a21d",
       "https://idtus.pinpointhq.com/en/postings/b97b5659-6968-4e94-9e74-78dd8f1e269c",
       "https://idtus.pinpointhq.com/en/postings/bb42cc49-8e78-4ead-b8a8-ab05622cbfee",
       "https://idtus.pinpointhq.com/en/postings/cd69d5eb-22ff-4906-8039-f55ce9d78b8e",
       "https://idtus.pinpointhq.com/en/postings/e6cc0887-3696-404a-8295-ac95d776dfb8",
-      "https://idtus.pinpointhq.com/en/postings/ed1a2fe2-8ab7-43c1-864a-07eda2bd0bb2"
+      "https://idtus.pinpointhq.com/en/postings/ed1a2fe2-8ab7-43c1-864a-07eda2bd0bb2",
+      "https://idtus.pinpointhq.com/en/postings/fe670886-2819-491e-91ee-1f1ab39eda18"
     ]
   },
   {
@@ -27789,6 +27815,7 @@
     "page": "https://careers.kodak.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://careers.kodak.com/job/Dayton-Software-Engineer-Intern-OH-45420/1364524600/?ats=successfactors",
+      "https://careers.kodak.com/job/USA-IT-SAP-Security-Engineer-CA/1428494600/",
       "https://careers.kodak.com/job/USA-Web-Developer-Intern-CA/1320436300/"
     ]
   },
@@ -27957,6 +27984,7 @@
       "https://careers.l3harris.com/job/forest/associate-systems-engineering/4832/99092768432",
       "https://careers.l3harris.com/job/forest/systems-engineering-intern/4832/100436622816",
       "https://careers.l3harris.com/job/forest/systems-engineering-intern/4832/100436665056",
+      "https://careers.l3harris.com/job/fort-wayne/scientist-systems-engineering-chief-systems-engineer-sign-on-bonus-50k-max-1/4832/102971600480",
       "https://careers.l3harris.com/job/fort-wayne/scientist-systems-engineering-chief-systems-engineer/4832/100157303008",
       "https://careers.l3harris.com/job/fort-wayne/scientist-systems-engineering-detection-algorithm-development/4832/101444637968",
       "https://careers.l3harris.com/job/fort-wayne/specialist-software-engineering/4832/100989141040",
@@ -28169,6 +28197,7 @@
       "https://jobs.l3harris.com/job/Palm-Bay-Intern-D,-Software-Engineer-FL-32905/1422837000/?ats=successfactors",
       "https://jobs.l3harris.com/job/Palm-Bay-Specialist%2C-Software-Engineering-FL-32905/1437070200/",
       "https://jobs.l3harris.com/job/Palm-Bay-Specialist%2C-Systems-Engineer-Networking-FL-32905-4101/1436832300/",
+      "https://jobs.l3harris.com/job/Richardson-Associate%2C-Software-Engineer-TX-75080/1437500700/",
       "https://jobs.l3harris.com/job/Richardson-Intern,-Software-Engineer-TX-75080/1435712100/?ats=successfactors",
       "https://jobs.l3harris.com/job/Rochester-Scientist%2C-Systems-Engineer-%28Innovation-CE%29-NY-14606/1438416400/",
       "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14609/1434927900/?ats=successfactors",
@@ -28203,6 +28232,7 @@
       "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428459800/?ats=successfactors",
       "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428460400/?ats=successfactors",
       "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428460500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Specialist%2C-FRACAS-Systems-Engineer-UT-84116/1438519200/",
       "https://jobs.l3harris.com/job/Salt-Lake-City-Specialist%2C-Software-Engineer-UT-84116/1419773100/",
       "https://jobs.l3harris.com/job/Salt-Lake-City-Specialist%2C-Systems-Engineer-RAMS-UT-84116/1418187900/",
       "https://jobs.l3harris.com/job/Salt-Lake-City-Sr-Associate,-Software-Engineer-UT-84116/1425107000/?ats=successfactors",
@@ -28432,7 +28462,8 @@
     "domain": "https://careers.leggett.com",
     "page": "https://careers.leggett.com/services/rss/job/?locale=en_US",
     "urls": [
-      "https://careers.leggett.com/job/Detroit-Software-Engineer-Intern-MI/1385086400/?ats=successfactors"
+      "https://careers.leggett.com/job/Detroit-Software-Engineer-Intern-MI/1385086400/?ats=successfactors",
+      "https://careers.leggett.com/job/Lenexa-Sr-Software-Engineer-Azure-&-Microsoft-Cloud-KS/1428693700/"
     ]
   },
   {
@@ -30671,6 +30702,7 @@
       "https://www.metacareers.com/profile/job_details/1154573427521292",
       "https://www.metacareers.com/profile/job_details/1154738753397824",
       "https://www.metacareers.com/profile/job_details/1160814043168431",
+      "https://www.metacareers.com/profile/job_details/1161077809777327",
       "https://www.metacareers.com/profile/job_details/1163507972671947",
       "https://www.metacareers.com/profile/job_details/1165549049490227",
       "https://www.metacareers.com/profile/job_details/1168687122556258",
@@ -30796,6 +30828,7 @@
       "https://www.metacareers.com/profile/job_details/1755410732408318",
       "https://www.metacareers.com/profile/job_details/1761926741754475",
       "https://www.metacareers.com/profile/job_details/1765096791303185",
+      "https://www.metacareers.com/profile/job_details/1769429977466758",
       "https://www.metacareers.com/profile/job_details/1779272886591909",
       "https://www.metacareers.com/profile/job_details/1780259309366631",
       "https://www.metacareers.com/profile/job_details/1781398486203764",
@@ -30928,6 +30961,7 @@
       "https://www.metacareers.com/profile/job_details/4385739228344797",
       "https://www.metacareers.com/profile/job_details/4406208926373444",
       "https://www.metacareers.com/profile/job_details/4455569504707135",
+      "https://www.metacareers.com/profile/job_details/4456053234655827",
       "https://www.metacareers.com/profile/job_details/4484682335124635",
       "https://www.metacareers.com/profile/job_details/4502174973433397",
       "https://www.metacareers.com/profile/job_details/4536253699919879",
@@ -31728,7 +31762,9 @@
       "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/San-Jose-CA/CRM-System-Admin-and-Data-Engineer_R-1383",
       "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/San-Jose-CA/Security-Analyst-Intern_R-982-1",
       "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/San-Jose-CA/Software-Engineer--Building-Automation_R-2037",
-      "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/San-Jose-CA/Sr-Reliability-Engineer--Power-Modules-and-AI-Applications_R-1472"
+      "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/San-Jose-CA/Sr-Reliability-Engineer--Power-Modules-and-AI-Applications_R-1472",
+      "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/Taipei---Taiwan/IT-Helpdesk-Engineer--Taipei-_R-1881",
+      "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/Taipei---Taiwan/IT-Helpdesk-Engineer--Taipei-_R-1882"
     ]
   },
   {
@@ -44394,6 +44430,7 @@
     "urls": [
       "https://jobs.thetorocompany.com/job/bloomington/engineer-embedded-software/40062/101052312832",
       "https://jobs.thetorocompany.com/job/bloomington/spatial-data-r-and-d-intern-the-toro-company/40062/100486935632",
+      "https://jobs.thetorocompany.com/job/frederick/cloud-software-development-intern-the-toro-company/40062/102169808400",
       "https://jobs.thetorocompany.com/job/iron-mountain/electrical-software-coop/40062/101258717600",
       "https://jobs.thetorocompany.com/job/perry/hardware-and-software-engineering-intern-ditch-witch/40062/100453828128",
       "https://jobs.thetorocompany.com/job/pune/azure-cloud-platform-engineer/40062/102461168672",
@@ -46507,6 +46544,7 @@
     "domain": "https://jobs.ulalaunch.com",
     "page": "https://jobs.ulalaunch.com/services/rss/job/?locale=en_US",
     "urls": [
+      "https://jobs.ulalaunch.com/job/Cape-Canaveral-Systems-Engineer-Leader-5-FL-32925/1421219300/",
       "https://jobs.ulalaunch.com/job/Centennial-CICD-Infrastructure-Software-Engineer-1-CO-80112/1402696200/?ats=successfactors",
       "https://jobs.ulalaunch.com/job/Centennial-Embedded-Flight-Software-Engineer-1-CO-80112/1423541600/?ats=successfactors",
       "https://jobs.ulalaunch.com/job/Centennial-Embedded-Flight-Software-Engineer-1-CO-80112/1436016400/?ats=successfactors",
