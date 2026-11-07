@@ -1,474 +1,563 @@
 {
-  "commit": "ad8ebab080e8201b7531bc1e94b8760199c72db7",
+  "commit": "4e63d441a5d43123211a2a39eb0d3e7a0f6cb451",
   "jobs": [
-    {
-      "company": "The MITRE Corporation",
-      "role": "Systems Engineering Methods & Innovation Capability Chief Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R117785?ph_id=R117785",
-      "location": "McLean, Virginia, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "Systems of Systems Integration Engineering Capability Chief Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R117784?ph_id=R117784",
-      "location": "McLean, Virginia, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "Qualcomm",
-      "role": "#Software Engineer",
-      "link": "https://qualcomm.eightfold.ai/careers/job/446721477857?domain=qualcomm.com&8fold_id=446721477857",
-      "location": "San Diego, California, United States of America",
-      "country": "USA"
-    },
-    {
-      "company": "Accenture",
-      "role": "AI Software Engineer (GenAI, Virtual Agent, MS Copilot)",
-      "link": "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Assago-Via-del-Mulino-11a/AI-Software-Engineer--GenAI--Virtual-Agent--MS-Copilot-_R00338277-1",
-      "location": "8 Locations",
-      "country": "Unsure"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "IC Full Stack Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R117821?ph_id=R117821",
-      "location": "McLean, Virginia, United States of America",
-      "country": "USA"
-    },
     {
       "company": "The MITRE Corporation",
       "role": "IC Full Stack Engineer",
       "link": "https://careers.mitre.org/us/en/job/R117820?ph_id=R117820",
       "location": "McLean, Virginia, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-16T21:07:05Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "The MITRE Corporation",
       "role": "Intermediate Systems Engineer",
       "link": "https://careers.mitre.org/us/en/job/R117825?ph_id=R117825",
       "location": "Bedford, Massachusetts, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-19T20:38:18Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "The MITRE Corporation",
       "role": "Associate Systems Engineer",
       "link": "https://careers.mitre.org/us/en/job/R117823?ph_id=R117823",
       "location": "Bedford, Massachusetts, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-19T20:38:18Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "The MITRE Corporation",
       "role": "Generative AI Engineer",
       "link": "https://careers.mitre.org/us/en/job/R117818?ph_id=R117818",
       "location": "See Sponsor City, West Virginia, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-19T20:38:18Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Twitch Interactive, Inc.",
       "role": "Software Engineer I",
       "link": "https://amazon.jobs/en/jobs/3111761/software-engineer-i",
       "location": "Irvine, CA</br>San Francisco, CA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-20T18:23:34Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Accenture",
       "role": "Databricks Data Engineer",
       "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ebene/Databricks-Data-Engineer_R00336962",
       "location": "",
-      "country": "Unsure"
+      "country": "Unsure",
+      "waitedSince": "2026-10-21T13:48:17Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Netflix",
       "role": "Data Engineer (L6) - Ads (Signals and Measurement)",
       "link": "https://explore.jobs.netflix.net/careers/job/790315176866",
       "location": "Remote, United States",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-23T13:25:41Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "The MITRE Corporation",
       "role": "Intermediate AI and Decision Engineer",
       "link": "https://careers.mitre.org/us/en/job/R116737?ph_id=R116737",
       "location": "McLean, Virginia, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-26T14:15:04Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "The MITRE Corporation",
       "role": "Systems Engineer",
       "link": "https://careers.mitre.org/us/en/job/R117893?ph_id=R117893",
       "location": "Hanscom Air Force Base, Massachusetts, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-26T19:59:12Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "ITW",
       "role": "Software Developer - ERP Applications",
       "link": "https://careers.itw.com/us/en/job/JR10828?ph_id=JR10828",
       "location": "Troy, Ohio, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-26T23:52:15Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "The MITRE Corporation",
       "role": "Associate Systems Engineer",
       "link": "https://careers.mitre.org/us/en/job/R117898?ph_id=R117898",
       "location": "Huntsville, Alabama, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-27T14:29:37Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "The MITRE Corporation",
       "role": "People Analytics Data Scientist",
       "link": "https://careers.mitre.org/us/en/job/R117122?ph_id=R117122",
       "location": "McLean, Virginia, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-27T18:17:56Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Emerson",
       "role": "Software Engineer",
       "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013042",
       "location": "Austin, TX",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-01T02:28:12-06:00",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Netflix",
       "role": "Software Engineer 6 - Ads Signals & Targeting",
       "link": "https://explore.jobs.netflix.net/careers/job/790313577447",
       "location": "New York,New York,United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-28T12:47:16Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Corebridgefinancial",
       "role": "Associate Data Scientist",
       "link": "https://corebridgefinancial.wd1.myworkdayjobs.com/corebridgefinancial/job/NJ-Jersey-City/Associate-Data-Scientist_JR2601006",
       "location": "NJ-Jersey City",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-28T15:10:01Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Paypal",
       "role": "Software Engineer",
       "link": "https://paypal.eightfold.ai/careers/job/274923066141?domain=paypal.com&8fold_id=274923066141",
       "location": "New York City, New York, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-28T20:36:48Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "The MITRE Corporation",
       "role": "Chief Engineer, Survivable Communications and Networking Systems",
       "link": "https://careers.mitre.org/us/en/job/R117930?ph_id=R117930",
       "location": "Bedford, Massachusetts, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-29T21:09:01Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Raydar",
       "role": "Founding Software Engineer",
       "link": "https://apply.workable.com/raydar/j/C7935C65FF/apply",
       "location": "NYC",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-29T23:35:52Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Raydar",
       "role": "Founding Software Engineer",
       "link": "https://apply.workable.com/raydar/j/29870CA1DE/apply",
       "location": "SF",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-29T23:35:52Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Raydar",
       "role": "Founding Software Engineer",
       "link": "https://apply.workable.com/raydar/j/61ED3CA042/apply",
       "location": "SF",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-29T23:35:52Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Raydar",
       "role": "Founding Software Engineer - AI Agents",
       "link": "https://apply.workable.com/raydar/j/F452EE23A1/apply",
       "location": "SF",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-29T23:35:52Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Raydar",
       "role": "Founding Software Engineer",
       "link": "https://apply.workable.com/raydar/j/85776B356C/apply",
       "location": "NYC",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-29T23:35:52Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "ITW",
       "role": "Software Engineer",
       "link": "https://careers.itw.com/us/en/job/JR10913?ph_id=JR10913",
       "location": "Lake Bluff, Illinois, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-10-30T23:46:52Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Meta",
       "role": "Data Engineer, Analytics",
       "link": "https://www.metacareers.com/jobs/2578176955882259",
       "location": "New York, NY",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-01T18:47:17Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Cai",
       "role": "Data Analyst",
       "link": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/IN-CLIENT-STATE/Data-Analyst_R8887",
       "location": "IN-CLIENT-STATE",
-      "country": "Unsure"
+      "country": "Unsure",
+      "waitedSince": "2026-11-02T17:05:05Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "The MITRE Corporation",
       "role": "Advanced Ground System Engineer",
       "link": "https://careers.mitre.org/us/en/job/R117943?ph_id=R117943",
       "location": "Chantilly, Virginia, United States of America",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-02T23:56:08Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Impulse Space",
       "role": "Test Automation Engineer (Software) (All Levels)",
       "link": "https://impulsespace.pinpointhq.com/en/postings/a381de62-90c2-480d-aba5-9fd5210f22da",
       "location": "Redondo Beach",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Impulse Space",
       "role": "RF Embedded Software Engineer",
       "link": "https://impulsespace.pinpointhq.com/en/postings/5811788c-fc81-4390-b3c7-7fc226f15129",
       "location": "Redondo Beach",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Impulse Space",
       "role": "Embedded Software Engineer (Camera Systems)",
       "link": "https://impulsespace.pinpointhq.com/en/postings/53615b51-6458-4464-894d-f48d8b91711b",
       "location": "Redondo Beach",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Impulse Space",
       "role": "Flight Software Engineer",
       "link": "https://impulsespace.pinpointhq.com/en/postings/f1a97726-7f3d-48b5-a659-722fb549de2c",
       "location": "Boulder County",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Impulse Space",
       "role": "Embedded Software Engineer",
       "link": "https://impulsespace.pinpointhq.com/en/postings/c0221837-8793-4ff0-b8de-de869c3564a3",
       "location": "Redondo Beach",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Impulse Space",
       "role": "Software Infrastructure Engineer",
       "link": "https://impulsespace.pinpointhq.com/en/postings/f9dd5869-8d18-4645-8176-d48a0ba20ffb",
       "location": "Redondo Beach",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Impulse Space",
       "role": "Software Engineer, DevEx & Tools",
       "link": "https://impulsespace.pinpointhq.com/en/postings/d81245f6-a6d4-432f-b301-83be3007cebe",
       "location": "Redondo Beach",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Impulse Space",
       "role": "Embedded Linux Software Engineer",
       "link": "https://impulsespace.pinpointhq.com/en/postings/8cc9e5d6-5b54-4584-9fd8-658a1b22fd4c",
       "location": "Redondo Beach",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Systems Engineer - JobID-0009",
       "link": "https://idtus.pinpointhq.com/en/postings/b97b5659-6968-4e94-9e74-78dd8f1e269c",
       "location": "Arlington, VA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "AI-Native Software Engineer - JobID-0024",
       "link": "https://idtus.pinpointhq.com/en/postings/5f1743ef-c7d6-4a67-9951-60917bb1db46",
       "location": "Arlington, VA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Software Engineer - JobID-0032",
       "link": "https://idtus.pinpointhq.com/en/postings/54b8d7c2-b726-4114-8f26-e8d8a5d96d2a",
       "location": "Arlington, VA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "IT Systems Engineer - JobID-0034",
       "link": "https://idtus.pinpointhq.com/en/postings/b0ef7877-f9fd-4d79-ab02-bc53b9f3f7f4",
       "location": "Arlington, VA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Systems Engineer - JobID-0036",
       "link": "https://idtus.pinpointhq.com/en/postings/2e5dba8e-2428-403b-9a13-9af1e1ddb28d",
       "location": "San Diego, CA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Associate Systems Engineer - JobID-0183",
       "link": "https://idtus.pinpointhq.com/en/postings/3ffe3459-d01a-4ccc-8005-c6d00f2ce6cc",
       "location": "Mount Laurel, NJ",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Associate Software Engineer - JobID-0186",
       "link": "https://idtus.pinpointhq.com/en/postings/7f0d1270-7754-4346-9c73-1fe45e086258",
       "location": "Mount Laurel, NJ",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Software Engineer - JobID-0187",
       "link": "https://idtus.pinpointhq.com/en/postings/ed1a2fe2-8ab7-43c1-864a-07eda2bd0bb2",
       "location": "Mount Laurel, NJ",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "AI Implementation Engineer - JobID-0245",
       "link": "https://idtus.pinpointhq.com/en/postings/76e6a518-b747-459e-b3c5-221aacb5be1f",
       "location": "Arlington, VA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "AI Implementation Engineer - JobID-0245",
       "link": "https://idtus.pinpointhq.com/en/postings/aff26b09-b170-4ce6-8dbb-a046589c0481",
       "location": "Mount Laurel, NJ",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Linux System Developer - JobID-0257",
       "link": "https://idtus.pinpointhq.com/en/postings/892f764b-ac12-4918-9250-c636b382ee0b",
       "location": "Fall River, MA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Tactical Systems Engineer - JobID-0262",
       "link": "https://idtus.pinpointhq.com/en/postings/e6cc0887-3696-404a-8295-ac95d776dfb8",
       "location": "Mount Laurel, NJ",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "SSDS Software Engineer - JobID-0291",
       "link": "https://idtus.pinpointhq.com/en/postings/ad705548-ecaf-44a6-b968-2513c9a3df67",
       "location": "Arlington, VA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Systems Infrastructure Engineer - JobID-0300",
       "link": "https://idtus.pinpointhq.com/en/postings/bb42cc49-8e78-4ead-b8a8-ab05622cbfee",
       "location": "Fall River, MA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Software Test Engineer - JobID-0322",
       "link": "https://idtus.pinpointhq.com/en/postings/cd69d5eb-22ff-4906-8039-f55ce9d78b8e",
       "location": "San Diego, CA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Innovative Defense Technologies",
       "role": "Platform Engineer - JobID-0327",
       "link": "https://idtus.pinpointhq.com/en/postings/1b7cfa64-36f0-45f7-8c53-7889aac425a4",
       "location": "Arlington, VA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Skyworks",
       "role": "Yield Enhancement Engineer - AOI, Process Integration & Data Analytics",
       "link": "https://careers.skyworksinc.com/job/Richardson-Yield-Enhancement-Engineer-AOI%2C-Process-Integration-&-Data-Analytics-TX-75080/1446860400/",
       "location": "Richardson, US, 75080",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Wolverine",
       "role": "C++ Software Engineer",
       "link": "https://wolve.pinpointhq.com/en/postings/856f5215-88c8-4c1b-bd47-5106b33ed37f",
       "location": "Chicago, IL",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Wolverine",
       "role": "Software Engineer – N-Tiered Software Developer",
       "link": "https://wolve.pinpointhq.com/en/postings/ce3f9cb7-4219-4676-8241-5c8b7903d4c6",
       "location": "Chicago, IL",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Wolverine",
       "role": "C++ Software Engineer – WEX",
       "link": "https://wolve.pinpointhq.com/en/postings/c14659a9-52a3-4f09-8ebb-763899dee310",
       "location": "Chicago, IL",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Wolverine",
       "role": "Software Engineer",
       "link": "https://wolve.pinpointhq.com/en/postings/ccc46db1-222a-4254-a731-3dd3225fbbf0",
       "location": "Chicago, IL",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T13:42:27Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "AMAX",
       "role": "Junior System Engineer",
       "link": "https://apply.workable.com/amax-1/j/C8FD3B365F",
       "location": "Fremont, CA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-03T20:36:33Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Oracle",
       "role": "Software Developer 4",
       "link": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/349764",
       "location": "Burlington, MA, United States",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-05T15:30:59Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Seagate Technology",
       "role": "Embedded Software Engineer (Master's Level, Early Career)",
       "link": "https://seagatecareers.com/job/Longmont-Embedded-Software-Engineer-%28Master's-Level%2C-Early-Career%29-CO-80501/1437729300/",
       "location": "Longmont, CO, US",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-05T15:30:59Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Apply.workable.com",
       "role": "New Grad: Design Verification Engineer, AI-Driven",
       "link": "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3",
       "location": "San Jose, CA",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-06T02:32:33Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Jmfamily",
       "role": "Data Analyst I",
       "link": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Data-Analyst-I_JR105210",
       "location": "Florida - Deerfield Beach",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-06T16:50:50Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Renesas Electronics",
       "role": "Customer Data Traceability Engineer ",
       "link": "https://jobs.smartrecruiters.com/RenesasElectronics/744000160274199",
       "location": "Palm Bay, Florida, United States",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-06T18:21:30Z",
+      "waitedSinceSource": "confirmed"
     },
     {
       "company": "Prosync",
       "role": "Software Engineer 0/1",
       "link": "https://apply.workable.com/prosync/j/6ECFBED6E7/apply",
       "location": "Annapolis Junction, MD",
-      "country": "USA"
+      "country": "USA",
+      "waitedSince": "2026-11-07T00:09:00Z",
+      "waitedSinceSource": "confirmed"
     }
   ]
 }
