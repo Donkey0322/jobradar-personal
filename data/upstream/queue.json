@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "8297793108e2b1cb9749f7d5dcfbd44c11449756",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -336,26 +336,6 @@
       "country": "USA",
       "waitedSince": "2026-11-07T00:09:00Z",
       "waitedSinceSource": "confirmed"
-    },
-    {
-      "company": "D3",
-      "role": "New Grad: Backend Engineer",
-      "link": "https://job-boards.greenhouse.io/d3/jobs/4915295008",
-      "location": "Los Angeles, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-08T18:36:43.768Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "D3",
-      "role": "New Grad: Frontend Engineer",
-      "link": "https://job-boards.greenhouse.io/d3/jobs/4915213008",
-      "location": "Los Angeles, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-08T18:36:43.768Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
     }
   ]
 }
