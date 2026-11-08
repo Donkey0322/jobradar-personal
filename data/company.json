@@ -29342,6 +29342,16 @@
     "urls": []
   },
   {
+    "name": "ludorobotics",
+    "ats": "greenhouse",
+    "identifier": "ludorobotics",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/ludorobotics/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/ludorobotics/jobs/8451758002"
+    ]
+  },
+  {
     "name": "lumaai",
     "ats": "ashby",
     "identifier": "lumaai",
@@ -42969,8 +42979,8 @@
     "name": "sunlife",
     "ats": "workday",
     "identifier": "sunlife-campus",
-    "domain": "https://sunlife.wd3.myworkdayjobs.com/campus",
-    "page": "https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/campus/jobs",
+    "domain": "https://sunlife.wd3.myworkdayjobs.com/Campus",
+    "page": "https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/Campus/jobs",
     "urls": [
       "https://sunlife.wd3.myworkdayjobs.com/Campus/job/Waterloo-Ontario/Student--Associate-DevOps-Engineer--Winter-2027-_JR00127798",
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Data-Analyst--Winter-Summer-Fall-2027-_JR00129284"
