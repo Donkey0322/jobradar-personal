@@ -4016,6 +4016,16 @@
     "urls": []
   },
   {
+    "name": "ande",
+    "ats": "ashby",
+    "identifier": "ande",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/ande",
+    "urls": [
+      "https://jobs.ashbyhq.com/ande/8ff8145e-8040-4a7a-a90c-cc1fdc36deb1"
+    ]
+  },
+  {
     "name": "andurilindustries",
     "ats": "greenhouse",
     "identifier": "andurilindustries",
@@ -16776,6 +16786,17 @@
     ]
   },
   {
+    "name": "d3",
+    "ats": "greenhouse",
+    "identifier": "d3",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/d3/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/d3/jobs/4915213008",
+      "https://job-boards.greenhouse.io/d3/jobs/4915295008"
+    ]
+  },
+  {
     "name": "daddario",
     "ats": "icims",
     "identifier": "daddario",
@@ -24885,6 +24906,16 @@
       "https://careers-i3-corps.icims.com/jobs/5383/security-research-engineer/job",
       "https://careers-i3-corps.icims.com/jobs/5417/junior-machine-learning-engineer/job",
       "https://careers-i3-corps.icims.com/jobs/5456/autonomous-systems-project-engineer--launched-effects/job"
+    ]
+  },
+  {
+    "name": "iaziqy.fa.ocs.oraclecloud.com",
+    "ats": "oraclecloud",
+    "identifier": "iaziqy.fa.ocs.oraclecloud.com",
+    "domain": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job",
+    "page": "https://iaziqy.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DUberCareers%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304060"
     ]
   },
   {
@@ -49178,6 +49209,16 @@
     "page": "https://zoll.wd5.myworkdayjobs.com/wday/cxs/zoll/zollmedicalcorp/jobs",
     "urls": [
       "https://zoll.wd5.myworkdayjobs.com/zollmedicalcorp/job/Chelmsford-MA/Associate-Full-Stack-Engineer_R20171"
+    ]
+  },
+  {
+    "name": "zoom",
+    "ats": "workday",
+    "identifier": "zoom-zoom",
+    "domain": "https://zoom.wd5.myworkdayjobs.com/Zoom",
+    "page": "https://zoom.wd5.myworkdayjobs.com/wday/cxs/zoom/Zoom/jobs",
+    "urls": [
+      "https://zoom.wd5.myworkdayjobs.com/Zoom/job/Seattle-WA/AI-Engineer_R19823-1"
     ]
   },
   {
