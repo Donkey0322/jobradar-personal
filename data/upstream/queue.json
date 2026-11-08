@@ -1,5 +1,5 @@
 {
-  "commit": "12ddfa1c084d4e7e74ec7c856e8784e7832c3c6d",
+  "commit": "08af2baa778ad2fa16e06970aee0310fee11cb23",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -202,22 +202,29 @@
       "status": "failed"
     },
     {
-      "company": "The MITRE Corporation",
-      "role": "Advanced Ground System Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R117943?ph_id=R117943",
-      "location": "Chantilly, Virginia, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-02T23:56:08Z",
-      "waitedSinceSource": "confirmed"
-    },
-    {
       "company": "Impulse Space",
       "role": "Embedded Software Engineer (Camera Systems)",
       "link": "https://impulsespace.pinpointhq.com/en/postings/53615b51-6458-4464-894d-f48d8b91711b",
       "location": "Redondo Beach",
       "country": "USA",
       "waitedSince": "2026-11-03T13:42:27Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:21057290-07c5-4843-917f-7bb09f9a9291",
+          "at": "2026-11-08T00:45:35.572Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "Skyworks",
@@ -226,7 +233,23 @@
       "location": "Richardson, US, 75080",
       "country": "USA",
       "waitedSince": "2026-11-03T13:42:27Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:b8e773fd-5e91-49dc-8e7f-818759c0e3e2",
+          "at": "2026-11-08T00:45:35.572Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "AMAX",
@@ -235,7 +258,23 @@
       "location": "Fremont, CA",
       "country": "USA",
       "waitedSince": "2026-11-03T20:36:33Z",
-      "waitedSinceSource": "confirmed"
+      "waitedSinceSource": "confirmed",
+      "attempts": [
+        {
+          "id": "self:4dc59683-a823-4dca-8654-fd5351373eab",
+          "at": "2026-11-08T00:45:35.572Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ],
+      "status": "failed"
     },
     {
       "company": "Oracle",
