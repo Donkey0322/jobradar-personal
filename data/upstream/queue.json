@@ -1,5 +1,5 @@
 {
-  "commit": "e23e3df30b9be4a2bd57ed608fb1678f58c60ad8",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -367,6 +367,56 @@
       "location": "United States-Texas-San Antonio",
       "country": "USA",
       "waitedSince": "2026-11-09T17:32:45.357Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Wolverine Trading",
+      "role": "New Grad: C++ Software Engineer",
+      "link": "https://careers.wolve.com/en/postings/33228344-bcc7-4bcd-b3cb-22b60aaee82c",
+      "location": "Chicago, IL",
+      "country": "USA",
+      "waitedSince": "2026-11-09T23:14:24.673Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Whoop",
+      "role": "Software Engineer I (Backend, Growth)",
+      "link": "https://jobs.ashbyhq.com/whoop/d31312c2-236a-45f1-8da7-61a7ca8d1622",
+      "location": "Boston, MA",
+      "country": "USA",
+      "waitedSince": "2026-11-09T23:14:24.673Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "CSI",
+      "role": "Software Engineer I, C#/.NET 🛂",
+      "link": "https://csiweb.wd1.myworkdayjobs.com/CSI_Careers/job/Paducah-KY-Corporate/Software-Engineer-I---C--NET---Hybrid---Paducah--KY_R-100739",
+      "location": "Paducah, KY</br>Valparaiso, IN",
+      "country": "USA",
+      "waitedSince": "2026-11-09T23:14:24.673Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Adobe",
+      "role": "New Grad 2027: Data Engineer",
+      "link": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Engineer_R173455",
+      "location": "San Jose, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-09T23:14:24.673Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Netholabs",
+      "role": "Junior AI/ML Engineer",
+      "link": "https://jobs.ashbyhq.com/netholabs/a16457f4-63a5-4a75-82d4-04ea2fc4e393/application?embed=true",
+      "location": "SF",
+      "country": "USA",
+      "waitedSince": "2026-11-09T23:14:24.673Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
