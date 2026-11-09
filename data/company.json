@@ -21140,6 +21140,16 @@
     ]
   },
   {
+    "name": "gaig",
+    "ats": "workday",
+    "identifier": "gaig-summit_external",
+    "domain": "https://gaig.wd1.myworkdayjobs.com/summit_external",
+    "page": "https://gaig.wd1.myworkdayjobs.com/wday/cxs/gaig/summit_external/jobs",
+    "urls": [
+      "https://gaig.wd1.myworkdayjobs.com/summit_external/job/Lakeland-FL-USA/Data-Scientist-Intern-2027_R9852"
+    ]
+  },
+  {
     "name": "gallup",
     "ats": "greenhouse",
     "identifier": "gallup",
