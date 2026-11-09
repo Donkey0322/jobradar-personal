@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Notion</td>
+      <td width="420" align="left" valign="top">Software Engineer, Web Infrastructure</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/notion/06c2599d-4dd5-4f97-843f-7194b546f042"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Planview</td>
+      <td width="420" align="left" valign="top">Software Engineer I</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.planview.com/jobs/5149?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Werfen</td>
+      <td width="420" align="left" valign="top">Software Test Engineer I</td>
+      <td width="180" align="left" valign="top">Waukesha, WI</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-werfen.icims.com/jobs/11400/software-test-engineer-i/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="420" align="left" valign="top">Combustion and Emissions Systems Engineer</td>
+      <td width="180" align="left" valign="top">Columbus, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2440700"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">First Citizens Bank</td>
       <td width="420" align="left" valign="top">Data Engineer I - Data Platform (Remote)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Raleigh, NC</td>
@@ -2085,38 +2113,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
-      <td width="420" align="left" valign="top">Robotics - Software Development Engineer</td>
-      <td width="180" align="left" valign="top">North Reading, MA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bbinsurance</td>
-      <td width="420" align="left" valign="top">Software Engineer</td>
-      <td width="180" align="left" valign="top">Olivette, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://bbinsurance.wd1.myworkdayjobs.com/careers/job/Olivette-MO-USA/Software-Engineer_R26_0000003648"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Caci</td>
-      <td width="420" align="left" valign="top">Junior Data Analyst</td>
-      <td width="180" align="left" valign="top">Florham Park, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://caci.wd1.myworkdayjobs.com/external/job/Florham-Park-NJ-US/Junior-Data-Analyst_332671"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Junior Data Analyst</td>
-      <td width="180" align="left" valign="top">Florham Park, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443154027171?domain=caci.com&amp;8fold_id=1443154027171"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 16</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,284 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,288 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-09T17:37:06.008Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-09T18:58:01.631Z</code></sub>

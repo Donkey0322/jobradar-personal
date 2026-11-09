@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,284 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,288 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,34 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Notion</td>
+      <td width="420" align="left" valign="top">Software Engineer, Web Infrastructure</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/notion/06c2599d-4dd5-4f97-843f-7194b546f042"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Planview</td>
+      <td width="420" align="left" valign="top">Software Engineer I</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.planview.com/jobs/5149?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Werfen</td>
+      <td width="420" align="left" valign="top">Software Test Engineer I</td>
+      <td width="180" align="left" valign="top">Waukesha, WI</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-werfen.icims.com/jobs/11400/software-test-engineer-i/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="420" align="left" valign="top">Combustion and Emissions Systems Engineer</td>
+      <td width="180" align="left" valign="top">Columbus, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2440700"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">First Citizens Bank</td>
       <td width="420" align="left" valign="top">Data Engineer I - Data Platform (Remote)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
@@ -290,37 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://career-schwab.icims.com/jobs/129410/jr.-software-developer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cornerstone Building Brands</td>
-      <td width="420" align="left" valign="top">Systems Engineer I</td>
-      <td width="180" align="left" valign="top">Houston, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/CornerstoneBuildingBrandsCareers/3743990016708143"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Intel</td>
-      <td width="420" align="left" valign="top">Microarchitecture and Design Engineer - AI SoC</td>
-      <td width="180" align="left" valign="top">Santa Clara, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Microarchitecture-and-Design-Engineer---AI-SoC_JR0287996"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Intercontinental Exchange</td>
-      <td width="420" align="left" valign="top">Associate Full Stack Developer</td>
-      <td width="180" align="left" valign="top">Jacksonville, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.ice.com/jobs/13532?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Abbott</td>
-      <td width="420" align="left" valign="top">Software Quality Engineer I</td>
-      <td width="180" align="left" valign="top">Sylmar, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---California---Sylmar/Software-Quality-Engineer-I_31165508-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,284 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,288 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-09T17:37:06.008Z</code>
+      🕒 Last updated <code>2026-11-09T18:58:01.631Z</code>
     </span>
   </p>
 </div>
