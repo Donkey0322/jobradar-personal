@@ -1,5 +1,5 @@
 {
-  "commit": "1618f56f2f08c803e22079cc4646cefff2dd6c45",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -352,6 +352,86 @@
       "country": "USA",
       "waitedSince": "2026-11-07T00:09:00Z",
       "waitedSinceSource": "confirmed"
+    },
+    {
+      "company": "Anduril Industries",
+      "role": "Mission Software Engineer",
+      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5289345007?gh_jid=5289345007",
+      "location": "Waltham, Massachusetts, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-09T15:52:18.744Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Bosch Group",
+      "role": "Calibration Engineer for Engine Management System - 2WP (Two Wheeler and Powersports)",
+      "link": "https://jobs.smartrecruiters.com/BoschGroup/744000160647724",
+      "location": "Farmington Hills, MI, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-09T15:52:18.744Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Caci",
+      "role": "Web Developer",
+      "link": "https://searchcareers.caci.com/careers/job/1443154442521?domain=caci.com&8fold_id=1443154442521",
+      "location": "Chantilly, VA, US",
+      "country": "USA",
+      "waitedSince": "2026-11-09T15:52:18.744Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "PNC",
+      "role": "Data Engineer",
+      "link": "https://careers.pnc.com/global/en/job/R240082?ph_id=R240082",
+      "location": "Pittsburgh, Pennsylvania, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-09T15:52:18.745Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Serco NA",
+      "role": "SME Software Engineer \tWright-Patterson AFB 1",
+      "link": "https://careers.serco-na.com/us/en/job/36239?ph_id=36239",
+      "location": "Wright-Patterson AFB, Ohio, US, 45431",
+      "country": "USA",
+      "waitedSince": "2026-11-09T15:52:18.745Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Leonardo DRS, Inc.",
+      "role": "Software Engineer I",
+      "link": "https://careers.leonardodrs.com/job/Menomonee-Falls-Software-Engineer-I-WI-53051/1448959000/",
+      "location": "Menomonee Falls, WI, US, 53051",
+      "country": "USA",
+      "waitedSince": "2026-11-09T15:52:18.745Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Systems Engineer - Early Career",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996476697147?domain=lockheedmartin.com&8fold_id=996476697147",
+      "location": "Fort Worth, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-09T15:52:18.745Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Onehealthineers",
+      "role": "Software Engineer",
+      "link": "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/DWL-T/Software-Engineer_R-31647-1",
+      "location": "DWL T",
+      "country": "Unsure",
+      "waitedSince": "2026-11-09T15:52:18.745Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
     }
   ]
 }
