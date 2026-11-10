@@ -435,6 +435,456 @@
       "waitedSince": "2026-11-10T13:53:55.429Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
+    },
+    {
+      "company": "Ag",
+      "role": "Embedded Software Development Engineer – Entry-level Software developer (m/f)",
+      "link": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Embedded-Software-Development-Engineer---Entry-level-Software-developer--m-f-_JR10453443-1",
+      "location": "Toulouse Area",
+      "country": "Unsure",
+      "waitedSince": "2026-11-10T15:37:57.660Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer",
+      "link": "https://amazon.jobs/en/jobs/10601102",
+      "location": "US, NJ, Newark",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.661Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Astrion",
+      "role": "Systems Engineer, Telemetry",
+      "link": "https://careers.astrion.us/jobs/25438?icims=1",
+      "location": "Redstone Arsenal, Alabama",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.661Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Barrios",
+      "role": "Commercial Destinations Office - Systems Engineer",
+      "link": "https://careers-barrios.icims.com/jobs/2956/commercial-destinations-office---systems-engineer/job",
+      "location": "Unsure",
+      "country": "Unsure",
+      "waitedSince": "2026-11-10T15:37:57.661Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Campbellsoup",
+      "role": "Cloud DevOps Engineer",
+      "link": "https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---NJ---Camden/Cloud-DevOps-Engineer_Req-69137",
+      "location": "USA - NJ - Camden",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.661Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cat",
+      "role": "Forward Deployed Robotics & Systems Engineer",
+      "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Irving-Texas/Forward-Deployed-Robotics---Systems-Engineer_R0000404741",
+      "location": "Irving, Texas",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.661Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Celonis",
+      "role": "Infrastructure Software Engineer",
+      "link": "https://job-boards.greenhouse.io/celonis/jobs/8190831003?gh_jid=8190831003",
+      "location": "Remote, US, Massachusetts",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.661Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Consumers Energy",
+      "role": "Prin Cloud Engineer",
+      "link": "https://careers.consumersenergy.com/job/JACKSON-Prin-Cloud-Engineer-MI/1449386900/",
+      "location": "JACKSON, MI, US",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.662Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "EquipmentShare",
+      "role": "Financial Data Analyst",
+      "link": "https://www.equipmentshare.com/careers/openings/?gh_jid=8371956",
+      "location": "Columbia, MO (Headquarters)",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.662Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Fis",
+      "role": "Mainframe Software Engineer I",
+      "link": "https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-GA-CMH-ONE-RIVERFRONT/Mainframe-Software-Engineer-I_JR0310604-1",
+      "location": "US GA CMH ONE RIVERFRONT",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.664Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Fmr",
+      "role": "Software Engineer",
+      "link": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/Software-Engineer_2137672",
+      "location": "Westlake, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.664Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Garmin International",
+      "role": "Software Engineer - Machine Learning",
+      "link": "https://careers.garmin.com/jobs/20727?icims=1",
+      "location": "Olathe, Kansas",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.665Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Garmin International",
+      "role": "Software Engineer - Garmin Health",
+      "link": "https://careers.garmin.com/jobs/22181?icims=1",
+      "location": "Olathe, Kansas",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.665Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Globusmedical",
+      "role": "Software Engineer",
+      "link": "https://globusmedical.wd5.myworkdayjobs.com/gmed_careers/job/Audubon-PA/Software-Engineer_JR108232",
+      "location": "Audubon, PA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.665Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Globusmedical",
+      "role": "Full Stack Software Engineer",
+      "link": "https://globusmedical.wd5.myworkdayjobs.com/gmed_careers/job/Audubon-PA/Full-Stack-Software-Engineer_JR108198",
+      "location": "Audubon, PA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.665Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Google",
+      "role": "Software Engineer, AI/ML, ML Infrastructure, Search Ads",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/115014381934125766-software-engineer-aiml-ml-infrastructure-search-ads?sort_by=date&page=1",
+      "location": "Mountain View, CA, USA; Pittsburgh, PA, USA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.665Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Google",
+      "role": "SoC DFT Engineer, Cloud",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/116901143887389382-soc-dft-engineer-cloud?sort_by=date&page=1",
+      "location": "Sunnyvale, CA, USA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.666Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Homedepot",
+      "role": "Sr Data Engineer - Assortment and Space Planning",
+      "link": "https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/Sr-Data-Engineer---Assortment-and-Space-Planning_Req196928",
+      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.666Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Icf",
+      "role": "Azure Platform Engineer",
+      "link": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Azure-Platform-Engineer_R2603650",
+      "location": "Reston, VA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.666Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Ignite Digital",
+      "role": "Power Platform/BI Developer",
+      "link": "https://ignite-digital.com/careers/job-listings/?gh_jid=5477503008",
+      "location": "Chesapeake, Virginia, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.666Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "BAE Systems",
+      "role": "Systems Engineer - New Grad (2027)",
+      "link": "https://jobs.baesystems.com/global/en/job/132558BR?ph_id=132558BR",
+      "location": "Cedar Rapids, Iowa, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.667Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "BAE Systems",
+      "role": "Engineer I – Embedded Software",
+      "link": "https://jobs.baesystems.com/global/en/job/132475BR?ph_id=132475BR",
+      "location": "Broomfield, Colorado, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.667Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Keysight Technologies",
+      "role": "R&D Engineer 5, Software",
+      "link": "https://jobs.keysight.com/jobs/55346?icims=1",
+      "location": "Santa Rosa, California",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.667Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Kla",
+      "role": "Data Scientist",
+      "link": "https://kla.wd1.myworkdayjobs.com/annarbor/job/Ann-Arbor-MI/Data-Scientist_2642917",
+      "location": "Ann Arbor, MI",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.668Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3harris",
+      "role": "Specialist, Systems Engineer",
+      "link": "https://careers.l3harris.com/job/waco/specialist-systems-engineer/4832/103118054560",
+      "location": "Waco, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.671Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3harris",
+      "role": "Specialist, Software Engineer",
+      "link": "https://careers.l3harris.com/job/greenville/specialist-software-engineer/4832/103118054480",
+      "location": "Greenville, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.671Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "Shiny App Developer",
+      "link": "https://careers.medpace.com/jobs/12909?icims=1",
+      "location": "Denver, Colorado",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.672Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "Shiny App Developer",
+      "link": "https://careers.medpace.com/jobs/12908?icims=1",
+      "location": "Irving (Dallas), Texas",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.672Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "Shiny App Developer",
+      "link": "https://careers.medpace.com/jobs/12907?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.672Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "Data Engineer (AI) - Cincinnati",
+      "link": "https://careers.medpace.com/jobs/12786?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.673Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "Data Standard Analyst - Biostatistics Team",
+      "link": "https://careers.medpace.com/jobs/11869?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.673Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "AI Scientist",
+      "link": "https://careers.medpace.com/jobs/12097?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.675Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Peraton",
+      "role": "Information Security Systems Engineer (ISSE)",
+      "link": "https://careers-peraton.icims.com/jobs/173384/information-security-systems-engineer-%28isse%29/job",
+      "location": "Unsure",
+      "country": "Unsure",
+      "waitedSince": "2026-11-10T15:37:57.676Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Polaris",
+      "role": "Engineering Process Owner – Systems Engineering",
+      "link": "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Wyoming-MN-USA/Business-Process-Owner---Systems-Engineering_R31852",
+      "location": "Wyoming, MN, USA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.676Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Rtx",
+      "role": "Propeller Systems Engineer (Onsite)",
+      "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-WINDSOR-LOCKS-B1A--1-Hamilton-Rd--BLDG-1A/Propeller-Systems-Engineer--Onsite-_01882789",
+      "location": "US-CT-WINDSOR LOCKS-B1A ~ 1 Hamilton Rd ~ BLDG 1A",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.676Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Rtx",
+      "role": "Software Engineer - DevOps / Infrastructure (Onsite)",
+      "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineer---DevOps---Infrastructure--Onsite-_01887887",
+      "location": "US-VA-STERLING-291 ~ 22640 Davis Dr ~ DAVIS",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.677Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SAIC",
+      "role": "Cloud Platform Engineer",
+      "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618944",
+      "location": "Chantilly, VA, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.677Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SAIC",
+      "role": "Software Engineer",
+      "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618968",
+      "location": "Huntsville, AL, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.677Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SAIC",
+      "role": "Assembly, Integration, & Test (AI&T) Systems Engineer",
+      "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618978",
+      "location": "Chantilly, VA, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.678Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "STR",
+      "role": "Software Developer - Business Applications & Analytics",
+      "link": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4728527006",
+      "location": "Arlington, VA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.678Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "STR",
+      "role": "Software Developer - Business Applications & Analytics",
+      "link": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4728422006",
+      "location": "Woburn, MA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.681Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Truist",
+      "role": "Data Transmission Infrastructure Engineer",
+      "link": "https://truist.wd1.myworkdayjobs.com/Careers/job/Raleigh-NC/Data-Transmission-Infrastructure-Engineer_R0120705",
+      "location": "3 Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-10T15:37:57.682Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Viasat",
+      "role": "Communications Systems Engineer",
+      "link": "https://careers.viasat.com/jobs/6032?icims=1",
+      "location": "Carlsbad, California; Germantown, Maryland; Independence, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.682Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Viasat",
+      "role": "Embedded Software Engineer",
+      "link": "https://careers.viasat.com/jobs/6649?icims=1",
+      "location": "Carlsbad, California; Marlborough, Massachusetts; Linthicum Heights, Maryland; Tampa, Florida",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.683Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Vizient",
+      "role": "Associate Software Engineer (Hybrid)",
+      "link": "https://vizient.wd1.myworkdayjobs.com/vizient_careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer--Hybrid-_35388R",
+      "location": "Irving, TX 75062 Vizient Corporate HQ",
+      "country": "USA",
+      "waitedSince": "2026-11-10T15:37:57.683Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
     }
   ]
 }
