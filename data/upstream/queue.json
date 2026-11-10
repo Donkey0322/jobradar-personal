@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "0e1d18681d1f4b84fa889144f4e270b892406de0",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -393,36 +393,6 @@
       "location": "McLean, Virginia, United States of America",
       "country": "USA",
       "waitedSince": "2026-11-10T01:33:51.059Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "L3Harris",
-      "role": "Associate, Software Engineering",
-      "link": "https://jobs.l3harris.com/job/Anaheim-Associate,-Software-Engineering-CA-92805/1449146200/?ats=successfactors",
-      "location": "Anaheim, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-10T04:39:01.784Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Sur La Table",
-      "role": "Junior Software Engineer",
-      "link": "https://jobs.lever.co/cscgeneration-2/61ba3ce6-b92b-45b4-932d-0c66e5e19185/apply",
-      "location": "Toronto, ON, CanadaRemote in USA",
-      "country": "Canada",
-      "waitedSince": "2026-11-10T04:39:01.784Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Kyndryl",
-      "role": "Early Career Consult Program - Associate Data Engineer",
-      "link": "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylProfessionalCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Data-Engineer_R-66870",
-      "location": "Frisco, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-10T04:39:01.784Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
