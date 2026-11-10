@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "batches/db70mk6mlv177ncffln4h9mdgedrashozvn8",
+    "submittedAt": "2026-11-10T13:54:39.541Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Google",
+        "role": "AI Customer Engineer, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/106309273499116230-ai-customer-engineer-google-cloud?sort_by=date&page=1",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer, Android App Security, Content Abuse",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/107937787658805958-software-engineer-android-app-security-content-abuse?sort_by=date&page=6",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Qualcomm",
+        "role": "System Level Test Engineer",
+        "link": "https://careers.qualcomm.com/careers/job/446722043885?domain=qualcomm.com&8fold_id=446722043885",
+        "location": "Singapore, Central Singapore, Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
