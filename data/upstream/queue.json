@@ -1,5 +1,5 @@
 {
-  "commit": "d2726a14e980f37f04bc04234a8857e7b662877b",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -393,6 +393,46 @@
       "location": "McLean, Virginia, United States of America",
       "country": "USA",
       "waitedSince": "2026-11-10T01:33:51.059Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "The MITRE Corporation",
+      "role": "Associate Software Engineer",
+      "link": "https://careers.mitre.org/us/en/job/R118003?ph_id=R118003",
+      "location": "Bridgeport, West Virginia, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-10T13:53:55.428Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Systems Engineer - E2",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477866487?domain=lockheedmartin.com&8fold_id=996477866487",
+      "location": "Littleton, CO",
+      "country": "USA",
+      "waitedSince": "2026-11-10T13:53:55.429Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "AI Engineer",
+      "link": "https://careers.medpace.com/jobs/12103?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-10T13:53:55.429Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Vertiv",
+      "role": "AI Integration Engineer",
+      "link": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20281109",
+      "location": "Westerville, OH, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-10T13:53:55.429Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
