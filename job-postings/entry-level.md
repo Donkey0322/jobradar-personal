@@ -14,6 +14,76 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Rheem</td>
+      <td width="420" align="left" valign="top">Product Data Analyst I</td>
+      <td width="180" align="left" valign="top">Fort Smith, AR</td>
+      <td width="120" align="left" valign="top"><a href="https://hdde.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4581"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Royal Caribbean Cruises Ltd</td>
+      <td width="420" align="left" valign="top">Analyst, Data Science</td>
+      <td width="180" align="left" valign="top">Miami, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.royalcaribbeangroup.com/job/Miami-Analyst%2C-Data-Science-FL-33132/1449600000/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Statestreet</td>
+      <td width="420" align="left" valign="top">Junior Platform Engineer, Officer</td>
+      <td width="180" align="left" valign="top">Quincy, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Junior-Platform-Engineer--Officer_R-800933"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Unitedhealthgroup</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.unitedhealthgroup.com/job/hartford/associate-software-engineer/34088/96047099136"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Western Digital</td>
+      <td width="420" align="left" valign="top">Software Engineer</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/WesternDigital/744000160973301"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Panasonic</td>
+      <td width="420" align="left" valign="top">Systems Engineer I</td>
+      <td width="180" align="left" valign="top">De Soto, KS</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.na.panasonic.com/jobs/52704?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Insulet</td>
+      <td width="420" align="left" valign="top">Associate Systems Engineer, V&amp;V</td>
+      <td width="180" align="left" valign="top">Acton, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Associate-Systems-Engineer--V-V_REQ-2026-19165"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
+      <td width="420" align="left" valign="top">Electronic Systems Product Engineer</td>
+      <td width="180" align="left" valign="top">Columbus, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2435406"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Americas-cookmedical</td>
+      <td width="420" align="left" valign="top">Software Engineer 1, Full-Stack</td>
+      <td width="180" align="left" valign="top">Bloomington, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://americas-cookmedical.icims.com/jobs/20874/software-engineer-1%2c-full-stack/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Autodesk</td>
+      <td width="420" align="left" valign="top">Software Engineer</td>
+      <td width="180" align="left" valign="top">Novi, MI</td>
+      <td width="120" align="left" valign="top"><a href="https://autodesk.wd1.myworkdayjobs.com/Ext/job/Novi-MI-USA/Software-Engineer_26WD102129-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Morningstar</td>
       <td width="420" align="left" valign="top">Associate Software Engineer</td>
       <td width="180" align="left" valign="top">Chicago, USA</td>
@@ -2043,80 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/intuitive/744000156656129"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Relx</td>
-      <td width="420" align="left" valign="top">Software Management Analyst I</td>
-      <td width="180" align="left" valign="top">Dayton, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://relx.wd3.myworkdayjobs.com/relx/job/Dayton-OH/Software-Management-Analyst-I_R119922-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
-      <td width="420" align="left" valign="top">Structural and Dynamic Systems Engineer - Analytical</td>
-      <td width="180" align="left" valign="top">Seymour, IN</td>
-      <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2433949"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdeb</td>
-      <td width="420" align="left" valign="top">Entry Level Engineer- Systems - Hull Planning Yard</td>
-      <td width="180" align="left" valign="top">Groton, CT</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Mimecast</td>
-      <td width="420" align="left" valign="top">Software Engineer I</td>
-      <td width="180" align="left" valign="top">Minneapolis, MN</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Disney</td>
-      <td width="420" align="left" valign="top">Software Development Engineer in Test I (SDET) Disney Entertainment and ESPN Product &amp; Technology Seattle, Washington Oct. 19, 2026</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Palantir</td>
-      <td width="420" align="left" valign="top">Software Engineer, New Grad - Query Engines</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/palantir/90329118-d9b7-4b96-acdf-13377e3196ac"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Relativity Space</td>
-      <td width="420" align="left" valign="top">Software Development Engineer in Test I</td>
-      <td width="180" align="left" valign="top">Long Beach, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/relativity/jobs/8892460002?gh_jid=8892460002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Electronic Arts</td>
-      <td width="420" align="left" valign="top">Software Engineer 1</td>
-      <td width="180" align="left" valign="top">Orlando, FL</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Applied Materials</td>
-      <td width="420" align="left" valign="top">Software Engineer New Grad</td>
-      <td width="180" align="left" valign="top">Santa Clara, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer--Bachelors-Degree--New-College-Grad--Santa-Clara-_R2630683"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
-      <td width="420" align="left" valign="top">Software Development Engineer, Early Career - 2027 (US)</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10583340"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,313 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,323 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-10T22:28:16.315Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-10T23:32:26.105Z</code></sub>
