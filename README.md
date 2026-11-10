@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,314 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,313 opportunities
 
 ## The List 🚴‍♂️
 
@@ -189,7 +189,7 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="180" align="left" valign="top">Cursor</td>
       <td width="420" align="left" valign="top">Software Engineer, New Grad 2027</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/cursor/164e27cd-289e-4bcd-8aaf-5280e75c5ed6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a href="https://cursor.com/careers/software-engineer-new-grad-2027?ashby_jid=164e27cd-289e-4bcd-8aaf-5280e75c5ed6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 10</td>
     </tr>
     <tr>
@@ -320,7 +320,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,314 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,313 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-10T20:41:13.094Z</code>
+      🕒 Last updated <code>2026-11-10T21:21:27.532Z</code>
     </span>
   </p>
 </div>
