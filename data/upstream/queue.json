@@ -1,5 +1,5 @@
 {
-  "commit": "6ec458f9dc75326e930d30fc40f21a7c9b277faf",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -403,6 +403,96 @@
       "location": "Bridgeport, West Virginia, United States of America",
       "country": "USA",
       "waitedSince": "2026-11-10T13:53:55.428Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Zingage",
+      "role": "New Grad: Software Engineer",
+      "link": "https://jobs.dover.com/zingage/9f37d0af-6191-4322-9b25-4b1242a216db",
+      "location": "New York, NY",
+      "country": "USA",
+      "waitedSince": "2026-11-10T20:40:31.303Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Xperteez Technology",
+      "role": "New Grad: Software Engineer",
+      "link": "https://jobs.dover.com/xperteez-technology/83c0b1f0-eee8-4436-9258-3aa58f59f963",
+      "location": "Remote",
+      "country": "Remote",
+      "waitedSince": "2026-11-10T20:40:31.303Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Natoma",
+      "role": "New Grad: Software Engineer",
+      "link": "https://jobs.dover.com/natoma/3a5f50e6-e2b2-4247-b5de-9ec3fe6b5258",
+      "location": "Boston, MA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T20:40:31.303Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Natoma",
+      "role": "New Grad: Software Engineer",
+      "link": "https://jobs.dover.com/natoma/9a776960-6ee5-4650-9362-70e37ff01af8",
+      "location": "Boston, MA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T20:40:31.303Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Coreintels",
+      "role": "New Grad: Data Analyst",
+      "link": "https://jobs.dover.com/coreintels/e665c74e-d18d-4f3d-b568-ea134804953a",
+      "location": "Remote",
+      "country": "Remote",
+      "waitedSince": "2026-11-10T20:40:31.303Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Aerospace",
+      "role": "Software Engineer I, Web Applications 🇺🇸",
+      "link": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/128040",
+      "location": "Phoenix, AZ",
+      "country": "USA",
+      "waitedSince": "2026-11-10T20:40:31.304Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Abacusinsights",
+      "role": "Associate Data Engineer",
+      "link": "https://boards.greenhouse.io/abacusinsights/jobs/8917380002?gh_jid=8917380002",
+      "location": "Remote",
+      "country": "Remote",
+      "waitedSince": "2026-11-10T20:40:31.304Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Tesla.com",
+      "role": "In Vehicle Test Engineer, Steering, Vehicle Software",
+      "link": "https://www.tesla.com/careers/search/job/255247",
+      "location": "East Liberty, OH",
+      "country": "USA",
+      "waitedSince": "2026-11-10T20:40:31.304Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Qualcomm",
+      "role": "Product Software Engineer",
+      "link": "https://careers.qualcomm.com/careers/job/446715361809",
+      "location": "San Diego, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-10T20:40:31.304Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
