@@ -505,6 +505,16 @@
       "waitedSince": "2026-11-11T16:53:46.817Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
+    },
+    {
+      "company": "BAE Systems",
+      "role": "New Grad 2027: Software Engineer",
+      "link": "https://jobs.baesystems.com/global/en/job/129314BR/Entry-Level-Software-Engineer",
+      "location": "Hudson, NH",
+      "country": "USA",
+      "waitedSince": "2026-11-11T21:01:20.079Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
     }
   ]
 }
