@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,327 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,334 opportunities
 
 ## The List 🚴‍♂️
 
@@ -109,6 +109,48 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Symbotic</td>
+      <td width="420" align="left" valign="top">New Grad- Robotics Software Engineer</td>
+      <td width="180" align="left" valign="top">Wilmington, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Robotics-Software-Engineer_R8496"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Unitedhealthgroup</td>
+      <td width="420" align="left" valign="top">Data Analyst I - UHC COVE Provider Experience - Remote</td>
+      <td width="180" align="left" valign="top">Minnetonka, MN</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.unitedhealthgroup.com/job/minnetonka/data-analyst-i-uhc-cove-provider-experience-remote/34088/103166226304"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Salesforce" src="./assets/featured-badges/salesforce.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineering AMTS (College Grad)</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR368047-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Sharkninja</td>
+      <td width="420" align="left" valign="top">Forward Deployed Engineer - Entry Level</td>
+      <td width="180" align="left" valign="top">Needham, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.sharkninja.com/job/needham/forward-deployed-engineer-entry-level/47204/103162167904"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Associate, Systems Engineering</td>
+      <td width="180" align="left" valign="top">Fort Wayne, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Palm-Bay-Associate%2C-Systems-Engineering-FL-32905/1422796900/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Software Engineer - Early Career</td>
+      <td width="180" align="left" valign="top">Highlands Ranch, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477409431?domain=lockheedmartin.com&amp;8fold_id=996477409431"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Intercontinental Exchange</td>
       <td width="420" align="left" valign="top">Associate Software Developer</td>
       <td width="180" align="left" valign="top">Jacksonville, FL</td>
@@ -120,6 +162,13 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="420" align="left" valign="top">Forward Deployed Engineer - Entry Level</td>
       <td width="180" align="left" valign="top">Needham, MA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4728305006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Allegion</td>
+      <td width="420" align="left" valign="top">Full Stack Software Engineer</td>
+      <td width="180" align="left" valign="top">Carmel, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Full-Stack-Software-Engineer_JR38204"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 11</td>
     </tr>
     <tr>
@@ -269,58 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.netapp.com/job/San-Jose-Entry-Level-Software-Engineer-ANF-%28Azure-NetApp-Files%29-CA-95128/1407688600/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Palantir</td>
-      <td width="420" align="left" valign="top">Software Engineer - Apollo Platform</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/palantir/8f308f3e-43d2-49c9-accd-cc7af0f1565c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer - Apollo Platform</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/palantir/afea07a8-2721-45e6-a9ca-6580f3f9783c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cursor</td>
-      <td width="420" align="left" valign="top">Software Engineer, New Grad 2027</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://cursor.com/careers/software-engineer-new-grad-2027?ashby_jid=164e27cd-289e-4bcd-8aaf-5280e75c5ed6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3Harris</td>
-      <td width="420" align="left" valign="top">Associate, Software Engineering</td>
-      <td width="180" align="left" valign="top">Anaheim, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Anaheim-Associate,-Software-Engineering-CA-92805/1449146200/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="SpaceX" src="./assets/featured-badges/spacex.svg" /></td>
-      <td width="420" align="left" valign="top">Automation &amp; Controls Engineer, Data Center Facilities</td>
-      <td width="180" align="left" valign="top">Southaven, MS</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/xai/jobs/5289470007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">S&amp;C</td>
-      <td width="420" align="left" valign="top">Software Engineer I</td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107444"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Sbasite</td>
-      <td width="420" align="left" valign="top">Cloud Engineer I</td>
-      <td width="180" align="left" valign="top">Boca Raton, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://sbasite.wd5.myworkdayjobs.com/sba_communications_careers/job/Boca-Raton-FL-Corporate-Office/Cloud-Engineer-I_JR102701"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,327 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,334 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-11T16:12:39.038Z</code>
+      🕒 Last updated <code>2026-11-11T16:54:18.389Z</code>
     </span>
   </p>
 </div>
