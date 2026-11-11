@@ -1,5 +1,5 @@
 {
-  "commit": "a3b0529dba612294f2f8f853ee5f9ee1b6c02fb9",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -483,6 +483,16 @@
       "location": "San Diego, California, United States of America, Boulder, Colorado, United States of America",
       "country": "USA",
       "waitedSince": "2026-11-10T22:24:54.930Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Techstra Solutions",
+      "role": "AI Engineer (Master's)",
+      "link": "https://techstrasolutions.applytojob.com/apply/h0W1v7gpzI/AI-Engineer",
+      "location": "Pittsburgh, PA",
+      "country": "USA",
+      "waitedSince": "2026-11-11T00:54:54.023Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
