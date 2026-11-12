@@ -1,5 +1,5 @@
 {
-  "commit": "ec3077f3dd7c47b9a2734b44496b7b7a832c1b62",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -543,6 +543,56 @@
       "location": "United States, Washington, Redmond",
       "country": "USA",
       "waitedSince": "2026-11-12T16:50:23.383Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Spacex",
+      "role": "New Grad 2027: Engineer, Aerospace Software (Starfall)",
+      "link": "https://boards.greenhouse.io/spacex/jobs/8939697002?gh_jid=8939697002",
+      "location": "Hawthorne, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-12T21:15:49.877Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Leidos",
+      "role": "Network and Systems Engineer",
+      "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Network-and-Systems-Engineer_R-00196745",
+      "location": "Huntsville, AL",
+      "country": "USA",
+      "waitedSince": "2026-11-12T21:15:49.877Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apply.workable.com",
+      "role": "New Grad: Frontend Engineer",
+      "link": "https://apply.workable.com/bask-health-1/j/95FB1074E4",
+      "location": "Remote",
+      "country": "Remote",
+      "waitedSince": "2026-11-12T21:15:49.877Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apply.workable.com",
+      "role": "New Grad: Frontend Engineer",
+      "link": "https://apply.workable.com/j/95FB1074E4",
+      "location": "Remote",
+      "country": "Remote",
+      "waitedSince": "2026-11-12T21:15:49.878Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Bask Health",
+      "role": "Frontend Engineer New Grad",
+      "link": "https://apply.workable.com/bask-health-1/j/95FB1074E4/apply",
+      "location": "Remote in USA",
+      "country": "USA",
+      "waitedSince": "2026-11-12T21:15:49.878Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
