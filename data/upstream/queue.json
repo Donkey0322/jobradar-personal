@@ -487,36 +487,6 @@
       "status": "waiting"
     },
     {
-      "company": "Zensar",
-      "role": "Software Engineer, AI Platform Development",
-      "link": "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/153873",
-      "location": "San Jose, CA</br>Ann Arbor, MI",
-      "country": "USA",
-      "waitedSince": "2026-11-12T02:18:11.848Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Zensar",
-      "role": "Software Engineer, AI Platform Development",
-      "link": "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/153874",
-      "location": "San Jose, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-12T02:18:11.848Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Rubrik",
-      "role": "Software Engineer - Virtual Platform",
-      "link": "https://www.rubrik.com/company/careers/departments/job.8351288?gh_jid=8351288",
-      "location": "Palo Alto, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-12T02:18:11.848Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Apply.workable.com",
       "role": "New Grad: Backend Engineer",
       "link": "https://apply.workable.com/bask-health-1/j/472CF47F60",
@@ -557,12 +527,382 @@
       "status": "waiting"
     },
     {
-      "company": "Luxfer MEL Technologies",
-      "role": "Junior Data Engineer",
-      "link": "https://luxfermeltechnologiesuk.applytojob.com/apply/7D3Toqbi0l/Junior-Data-Engineer",
-      "location": "Swinton, Manchester, UK",
-      "country": "UK",
-      "waitedSince": "2026-11-12T02:18:11.849Z",
+      "company": "Aero",
+      "role": "Jr. Data Solutions and Software Engineer",
+      "link": "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/Jr-Data-Solutions-and-Software-Engineer_R017107",
+      "location": "El Segundo, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.846Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "AI Content & Reg Analyst, T&S, Trust and Safety",
+      "link": "https://amazon.jobs/en/jobs/10602950",
+      "location": "US, VA, Herndon",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.846Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Data Center Chief Engineer",
+      "link": "https://amazon.jobs/en/jobs/10602946",
+      "location": "US, AZ, Mesa",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.846Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer, EC2 UltraServer Delivery Team",
+      "link": "https://amazon.jobs/en/jobs/10602900",
+      "location": "US, WA, Seattle",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.846Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer, NetOS Observability",
+      "link": "https://amazon.jobs/en/jobs/10598778",
+      "location": "US, NC, Raleigh",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.846Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "AMD",
+      "role": "Software System Design Engineer",
+      "link": "https://careers.amd.com/jobs/94435?icims=1",
+      "location": "Austin, Texas",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.847Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apple",
+      "role": "Software Development Engineer, Vision Products Software",
+      "link": "https://jobs.apple.com/en-us/details/200694513-3337/software-development-engineer-vision-products-software?team=SFTWR",
+      "location": "Seattle",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.847Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apple",
+      "role": "Systems Software Engineer - Human Interface Devices",
+      "link": "https://jobs.apple.com/en-us/details/200693935-3956/systems-software-engineer-human-interface-devices?team=HRDWR",
+      "location": "Sunnyvale",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.847Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "BMW Group",
+      "role": "FG-AM ERP Software Engineer Specialist (SAP FI/CO Techno Functional)",
+      "link": "https://jobs.bmwgroup.com/job/Greenville-FG-AM-ERP-Software-Engineer-Specialist-%28SAP-FICO-Techno-Functional%29-Sout/1147968801/",
+      "location": "Greenville, South Carolina, US",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.847Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Boeing",
+      "role": "Quality Engineer  - Millennium Space Systems",
+      "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Quality-Engineer----Millennium-Space-Systems_JR2026528552-1",
+      "location": "USA - El Segundo, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.847Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Boeing",
+      "role": "Embedded Software Engineer",
+      "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Long-Beach-CA/Embedded-Software-Engineer_JR2026529493-1",
+      "location": "USA - Long Beach, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.847Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Capgemini",
+      "role": "Software Engineer in Test",
+      "link": "https://careers.capgemini.com/job/Dallas%2C-TX-Software-Engineer-in-Test-TX-75201/1447766233/",
+      "location": "Dallas, TX, US",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.847Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Experian",
+      "role": "Data Scientist, Fraud Risk Detection",
+      "link": "https://jobs.smartrecruiters.com/Experian/744000161186552",
+      "location": "United States, UNITED STATES, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.847Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Experian",
+      "role": "Expert Data Scientist, AI Fraud Applications",
+      "link": "https://jobs.smartrecruiters.com/Experian/744000161185369",
+      "location": "United States, UNITED STATES, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.848Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Gdms",
+      "role": "Systems Engineer - Design & Development",
+      "link": "https://careers-gdms.icims.com/jobs/80283/systems-engineer---design-%26-development/job",
+      "location": "Unsure",
+      "country": "Unsure",
+      "waitedSince": "2026-11-12T03:50:08.848Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Grainger Businesses",
+      "role": "Dojo/Forward Deployed Engineer",
+      "link": "https://jobs.grainger.com/job/LAKE-FOREST-DojoForward-Deployed-Engineer-IL-60045-5203/1449955700/",
+      "location": "LAKE FOREST, IL, US, 60045-5203",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.848Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Jamf",
+      "role": "Associate Software Engineer (Full Stack)",
+      "link": "https://www.jamf.com/about/careers/jobs/?gh_jid=6254227004&gh_jid=6254227004",
+      "location": "US Remote",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.848Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "BAE Systems",
+      "role": "Security Systems Engineer (Remote)",
+      "link": "https://jobs.baesystems.com/global/en/job/131970BR?ph_id=131970BR",
+      "location": "Fort Walton Beach, Florida, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.848Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "BAE Systems",
+      "role": "Laser and EOIR Systems Engineer",
+      "link": "https://jobs.baesystems.com/global/en/job/132753BR?ph_id=132753BR",
+      "location": "Merrimack, New Hampshire, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.848Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3harris",
+      "role": "Scientist, Chief Software Engineering - Embedded Flight Software : Sign-on bonus ($50K max)",
+      "link": "https://careers.l3harris.com/job/wilmington/scientist-chief-software-engineering-embedded-flight-software-sign-on-bonus-50k-max/4832/103186662224",
+      "location": "Wilmington, MA",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.848Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "LLNL",
+      "role": "Computational Automation and Data Science Scientist",
+      "link": "https://jobs.smartrecruiters.com/LLNL/3743990016808996",
+      "location": "Livermore, CA, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.849Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Software Engineer Asc - Early Career",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477471437?domain=lockheedmartin.com&8fold_id=996477471437",
+      "location": "Fort Worth, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.849Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Systems Integration/Test Engineer Associate - E1",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996476692615?domain=lockheedmartin.com&8fold_id=996476692615",
+      "location": "Chelmsford, MA",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.849Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "Junior Data Governance Analyst",
+      "link": "https://careers.medpace.com/jobs/13127?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.849Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "Junior Clinical Data Analyst",
+      "link": "https://careers.medpace.com/jobs/12986?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.849Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "Financial Pricing Systems Analyst",
+      "link": "https://careers.medpace.com/jobs/13078?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.849Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "HR Systems Analyst",
+      "link": "https://careers.medpace.com/jobs/12895?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.849Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Medpace",
+      "role": "Business Systems Analyst - Human Resources",
+      "link": "https://careers.medpace.com/jobs/12213?icims=1",
+      "location": "Cincinnati, Ohio",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.850Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Microsoft",
+      "role": "Cloud & AI Apps Solution Engineer",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557071283?domain=microsoft.com&8fold_id=1970393557071283",
+      "location": "Brazil, São Paulo, São Paulo, Brazil, Multiple Locations, Multiple Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-12T03:50:08.850Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Microsoft",
+      "role": "Cloud & AI Apps Solution Engineer",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557071285?domain=microsoft.com&8fold_id=1970393557071285",
+      "location": "Brazil, São Paulo, São Paulo, Brazil, Multiple Locations, Multiple Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-12T03:50:08.850Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Microsoft",
+      "role": "Cloud & AI Infrastructure Solution Engineer",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557071281?domain=microsoft.com&8fold_id=1970393557071281",
+      "location": "Brazil, São Paulo, São Paulo, Brazil, Multiple Locations, Multiple Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-12T03:50:08.850Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Microsoft",
+      "role": "Cloud & AI Infrastructure Solution Engineer",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557071279?domain=microsoft.com&8fold_id=1970393557071279",
+      "location": "Brazil, São Paulo, São Paulo, Brazil, Multiple Locations, Multiple Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-12T03:50:08.850Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Ngc",
+      "role": "Systems Engineer - Level 4 (AHT)",
+      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Systems-Engineer---Level-4--AHT-_R10260137-1",
+      "location": "United States-California-Redondo Beach",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.851Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Ngc",
+      "role": "Testbed Systems Engineer – Level 6",
+      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Testbed-Systems-Engineer---Level-6_R10260305",
+      "location": "United States-California-Redondo Beach",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.851Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "PACCAR",
+      "role": "Data Engineer",
+      "link": "https://jobs.paccar.com/job/Renton-Data-Engineer-WA-98057/1447799633/",
+      "location": "Renton, WA, US, 98057",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.851Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Premera",
+      "role": "Software Development Engineer IV",
+      "link": "https://premera.wd5.myworkdayjobs.com/premera/job/Telecommuter/Software-Development-Engineer-IV_R28922",
+      "location": "Telecommuter",
+      "country": "Unsure",
+      "waitedSince": "2026-11-12T03:50:08.851Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Rtx",
+      "role": "Associate Software Engineer I – CDS / Engine System Software (Onsite)",
+      "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Associate-Software-Engineer-I---CDS---Engine-System-Software--Onsite-_01884197",
+      "location": "US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.851Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Viasat",
+      "role": "Associate Software Engineer, Early Career",
+      "link": "https://careers.viasat.com/jobs/7147?icims=1",
+      "location": "Carlsbad, California",
+      "country": "USA",
+      "waitedSince": "2026-11-12T03:50:08.851Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
