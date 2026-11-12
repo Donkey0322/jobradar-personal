@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,352 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,353 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">The MITRE Corporation</td>
+      <td width="420" align="left" valign="top">Associate Cloud Developer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">McLean, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.mitre.org/us/en/job/R117424?ph_id=R117424"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Wustl</td>
       <td width="420" align="left" valign="top">Data Analyst (PRN/Remote) - Transplant Nephrology<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
@@ -311,16 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-Processor-Hardware-Software-Integration-Engineer--2027-New-College-Graduate-_JR-2604093"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Techstra Solutions</td>
-      <td width="420" align="left" valign="top">AI Engineer (Master&#39;s)</td>
-      <td width="180" align="left" valign="top">Pittsburgh, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://techstrasolutions.applytojob.com/apply/h0W1v7gpzI/AI-Engineer"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,352 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,353 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-12T16:50:53.086Z</code>
+      🕒 Last updated <code>2026-11-12T20:57:14.614Z</code>
     </span>
   </p>
 </div>
