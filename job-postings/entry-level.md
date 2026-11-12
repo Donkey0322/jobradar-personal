@@ -14,6 +14,62 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Nokia</td>
+      <td width="420" align="left" valign="top">Applied Software R&amp;D Engineer</td>
+      <td width="180" align="left" valign="top">Richardson, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41577"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Adobe" src="../assets/featured-badges/adobe.svg" /></td>
+      <td width="420" align="left" valign="top">2027 University Graduate - Data Scientist</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.adobe.com/us/en/job/R173462?ph_id=R173462"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Citi</td>
+      <td width="420" align="left" valign="top">Apps Dev Intmd Programmer Analyst - Officer</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://citi.wd5.myworkdayjobs.com/2/job/New-York-New-York-United-States/Apps-Dev-Intmd-Programmer-Analyst---Officer_261007476-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Dell</td>
+      <td width="420" align="left" valign="top">Analyst, Data Science</td>
+      <td width="180" align="left" valign="top">Round Rock, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/R271283"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Echo</td>
+      <td width="420" align="left" valign="top">Associate Software Support Engineer</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://echo.wd1.myworkdayjobs.com/Echo_Logistics/job/Chicago-IL/Associate-Software-Support-Engineer_R4840"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ercot</td>
+      <td width="420" align="left" valign="top">System Operator Development Program</td>
+      <td width="180" align="left" valign="top">Taylor, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://ercot.wd1.myworkdayjobs.com/ercot_careers/job/Austin-TX/System-Operator-Development-Program_R2568-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Jamf</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer</td>
+      <td width="180" align="left" valign="top">US Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://www.jamf.com/about/careers/jobs/?gh_jid=6253670004&amp;gh_jid=6253670004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Adobe" src="../assets/featured-badges/adobe.svg" /></td>
+      <td width="420" align="left" valign="top">2027 University Graduate - Data Scientist</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Symbotic</td>
       <td width="420" align="left" valign="top">New Grad- Robotics Software Engineer</td>
       <td width="180" align="left" valign="top">Wilmington, MA</td>
@@ -2057,66 +2113,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Twitch</td>
-      <td width="420" align="left" valign="top">Software Engineer I</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/twitch/jobs/8906750002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Vizient</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer</td>
-      <td width="180" align="left" valign="top">Irving, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://vizient.wd1.myworkdayjobs.com/vizient_careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer_35366R"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Disney</td>
-      <td width="420" align="left" valign="top">Product Software Engineer I Disney Entertainment and ESPN Product &amp; Technology New York, New York Oct. 21, 2026</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Affirm</td>
-      <td width="420" align="left" valign="top">Analyst, Early Career (Full Stack)</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/affirm/jobs/8039471003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Etsy</td>
-      <td width="420" align="left" valign="top">Software Engineer I, Marketplace Makers</td>
-      <td width="180" align="left" valign="top">Brooklyn, NY</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Google" src="../assets/featured-badges/google.svg" /></td>
-      <td width="420" align="left" valign="top">Forward Deployed Engineer, GenAI (Mandarin, English)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/141008036452803270-forward-deployed-engineer-genai-mandarin-english?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
-      <td width="420" align="left" valign="top">Wireless Systems Engineer</td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Akamai</td>
-      <td width="420" align="left" valign="top">Software Engineer</td>
-      <td width="180" align="left" valign="top">Remote</td>
-      <td width="120" align="left" valign="top"><a href="https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4237"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,334 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,342 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-11T22:43:41.872Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-12T02:18:52.766Z</code></sub>

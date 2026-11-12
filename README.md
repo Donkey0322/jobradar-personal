@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--11--11-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--11--12-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,334 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,342 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,62 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Nokia</td>
+      <td width="420" align="left" valign="top">Applied Software R&amp;D Engineer</td>
+      <td width="180" align="left" valign="top">Richardson, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41577"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Adobe" src="./assets/featured-badges/adobe.svg" /></td>
+      <td width="420" align="left" valign="top">2027 University Graduate - Data Scientist</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.adobe.com/us/en/job/R173462?ph_id=R173462"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Citi</td>
+      <td width="420" align="left" valign="top">Apps Dev Intmd Programmer Analyst - Officer</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://citi.wd5.myworkdayjobs.com/2/job/New-York-New-York-United-States/Apps-Dev-Intmd-Programmer-Analyst---Officer_261007476-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Dell</td>
+      <td width="420" align="left" valign="top">Analyst, Data Science</td>
+      <td width="180" align="left" valign="top">Round Rock, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/R271283"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Echo</td>
+      <td width="420" align="left" valign="top">Associate Software Support Engineer</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://echo.wd1.myworkdayjobs.com/Echo_Logistics/job/Chicago-IL/Associate-Software-Support-Engineer_R4840"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ercot</td>
+      <td width="420" align="left" valign="top">System Operator Development Program</td>
+      <td width="180" align="left" valign="top">Taylor, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://ercot.wd1.myworkdayjobs.com/ercot_careers/job/Austin-TX/System-Operator-Development-Program_R2568-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Jamf</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer</td>
+      <td width="180" align="left" valign="top">US Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://www.jamf.com/about/careers/jobs/?gh_jid=6253670004&amp;gh_jid=6253670004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Adobe" src="./assets/featured-badges/adobe.svg" /></td>
+      <td width="420" align="left" valign="top">2027 University Graduate - Data Scientist</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 11</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Symbotic</td>
       <td width="420" align="left" valign="top">New Grad- Robotics Software Engineer</td>
@@ -262,65 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://morningstar.wd5.myworkdayjobs.com/Morningstar/job/Chicago/Associate-Software-Engineer_AP-25460954"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Medpace</td>
-      <td width="420" align="left" valign="top">Shiny App Developer</td>
-      <td width="180" align="left" valign="top">Denver, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12909?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Shiny App Developer</td>
-      <td width="180" align="left" valign="top">Irving, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12908?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Shiny App Developer</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12907?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Data Standard Analyst - Biostatistics Team</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/11869?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Vizient</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer (Hybrid)</td>
-      <td width="180" align="left" valign="top">Irving, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://vizient.wd1.myworkdayjobs.com/vizient_careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer--Hybrid-_35388R"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
-      <td width="420" align="left" valign="top">Software Development Engineer</td>
-      <td width="180" align="left" valign="top">Newark, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10601102"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Reliaquest</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer</td>
-      <td width="180" align="left" valign="top">Tampa, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Tampa-FL/Associate-Software-Engineer_R15047"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">NetApp, Inc.</td>
-      <td width="420" align="left" valign="top">Entry Level Software Engineer - ANF (Azure NetApp Files)</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.netapp.com/job/San-Jose-Entry-Level-Software-Engineer-ANF-%28Azure-NetApp-Files%29-CA-95128/1407688600/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,334 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,342 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-11T22:43:41.872Z</code>
+      🕒 Last updated <code>2026-11-12T02:18:52.766Z</code>
     </span>
   </p>
 </div>
