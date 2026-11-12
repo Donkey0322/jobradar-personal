@@ -5898,6 +5898,7 @@
       "https://jobs.apple.com/en-us/details/200694038-2114/data-platform-infra-site-reliability-engineer?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200694101-0836/ui-frameworks-engineer-swift-platform-experience?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200694108-0836/software-engineer-applied-ml?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200694120-0836/machine-learning-engineer-intelligent-sensing-technology-incubation?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200694130-0836/machine-learning-audio-r-d-engineer?team=MLAI",
       "https://jobs.apple.com/en-us/details/200694131-3401/software-development-engineer-in-test-camera-api?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200694131-7141/software-development-engineer-in-test-camera-api?team=SFTWR",
@@ -5942,7 +5943,8 @@
       "https://jobs.apple.com/en-us/details/200694503-3241/software-development-engineer-in-test-music-creation-apps-m-f-d?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200694513-3337/software-development-engineer-vision-products-software?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200694519-0157/data-scientist-business-process-re-engineering?team=OPMFG",
-      "https://jobs.apple.com/en-us/details/200694530-0836/system-software-developer?team=SFTWR"
+      "https://jobs.apple.com/en-us/details/200694530-0836/system-software-developer?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200694656-3956/machine-learning-researcher-agentic-post-training-for-on-device-models?team=MLAI"
     ]
   },
   {
@@ -9016,7 +9018,8 @@
       "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/Mumbai-Maharashtra/Forward-Deployed-Engineer--Agentic-AI-Solutions-engineer_JR-25115",
       "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/Newark-Delaware/Materials---Systems-Analyst_JR-24784",
       "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/Office---Bangalore-ITBT-Park/Edge-Software---Security-Engineer_JR-24170",
-      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361"
+      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361",
+      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/RMCC-Systems-Engineering-Intern_JR-25363"
     ]
   },
   {
@@ -20074,6 +20077,7 @@
       "https://jobs.ashbyhq.com/Etched/37798f2c-d2d8-4911-bd5a-41b0f6f7c238",
       "https://jobs.ashbyhq.com/Etched/38d0fd18-2ac1-4825-8182-5d235b266ea3",
       "https://jobs.ashbyhq.com/Etched/82622c6f-9b8f-44d1-b8fc-2d4634f5abbf",
+      "https://jobs.ashbyhq.com/Etched/b4ad6323-3d69-4881-a2db-e3967afbae65",
       "https://jobs.ashbyhq.com/Etched/bb2d320e-50d1-4182-a0c8-975ad2015e1c"
     ]
   },
@@ -31960,7 +31964,8 @@
       "https://careers.medpace.com/jobs/13002?icims=1",
       "https://careers.medpace.com/jobs/13028?icims=1",
       "https://careers.medpace.com/jobs/13078?icims=1",
-      "https://careers.medpace.com/jobs/13127?icims=1"
+      "https://careers.medpace.com/jobs/13127?icims=1",
+      "https://careers.medpace.com/jobs/13128?icims=1"
     ]
   },
   {
@@ -36781,6 +36786,7 @@
       "https://jobs.paccar.com/job/Ponta-Grossa-Embedded-Engineer-Software-Application-PR-84072-190/1178862601/",
       "https://jobs.paccar.com/job/Ponta-Grossa-Embedded-Engineer-Software-Tester-PR-84072-190/1178542101/",
       "https://jobs.paccar.com/job/Renton-2027-Winter-Internship-Software-Developer-Intern-WA-98057/1435928733/?ats=successfactors",
+      "https://jobs.paccar.com/job/Renton-Application-Security-Engineer-WA-98057/1437352733/",
       "https://jobs.paccar.com/job/Renton-Data-Engineer-WA-98057/1447799633/",
       "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1256156801/?ats=successfactors",
       "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1389651133/?ats=successfactors",
@@ -42673,6 +42679,9 @@
       "https://jobs.smartrecruiters.com/ServiceNow/744000161035481",
       "https://jobs.smartrecruiters.com/ServiceNow/744000161036601",
       "https://jobs.smartrecruiters.com/ServiceNow/744000161069589",
+      "https://jobs.smartrecruiters.com/ServiceNow/744000161204235",
+      "https://jobs.smartrecruiters.com/ServiceNow/744000161209600",
+      "https://jobs.smartrecruiters.com/ServiceNow/744000161209810",
       "https://jobs.smartrecruiters.com/ServiceNow/744000161214248"
     ]
   },
@@ -43441,6 +43450,8 @@
     "domain": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site",
     "page": "https://snc.wd1.myworkdayjobs.com/wday/cxs/snc/SNC_External_Career_Site/jobs",
     "urls": [
+      "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Dayton-OH/Systems-Engineer-Intern--Summer-2027-_R0030749",
+      "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/Sr-Cybersecurity-Engineer_R0031394",
       "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/OH---Beavercreek/Sr-Systems-Security-Engineer_R0030832",
       "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1",
       "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230",
@@ -48869,8 +48880,10 @@
       "https://careers.unitedhealthgroup.com/job/eden-prairie/cybersecurity-development-program-internship/34088/102882852768",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/data-analyst-remote/34088/103069190592",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/full-stack-software-engineer/34088/103112011440",
+      "https://careers.unitedhealthgroup.com/job/eden-prairie/information-security-engineer/34088/99803687952",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/infrastructure-and-engineering-development-program-internship/34088/102895511648",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/site-reliability-engineer/34088/102612060416",
+      "https://careers.unitedhealthgroup.com/job/eden-prairie/site-reliability-engineer/34088/103184508624",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/sr-ai-ml-engineer-remote/34088/103129614112",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/sr-devops-engineer-remote-if-in-mn-then-hybrid/34088/99700115456",
       "https://careers.unitedhealthgroup.com/job/gurgaon/associate-ai-ml-engineer/34088/102909659648",
