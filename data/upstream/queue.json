@@ -1,5 +1,5 @@
 {
-  "commit": "1fe2c4a141828fa3bb348dec7c0537ce4425f8ff",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -603,6 +603,106 @@
       "location": "Sunnyvale",
       "country": "USA",
       "waitedSince": "2026-11-13T03:26:57.403Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apple",
+      "role": "Software Engineer, Apple Ads",
+      "link": "https://jobs.apple.com/en-us/details/200694842-0836/software-engineer-apple-ads?team=SFTWR",
+      "location": "Cupertino",
+      "country": "USA",
+      "waitedSince": "2026-11-13T06:35:21.954Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apple",
+      "role": "Software Development Engineer, Test Tooling",
+      "link": "https://jobs.apple.com/en-us/details/200693291-0836/software-development-engineer-test-tooling?team=SFTWR",
+      "location": "Cupertino",
+      "country": "USA",
+      "waitedSince": "2026-11-13T06:35:21.954Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Capitalone",
+      "role": "Full-Stack Engineer 4 (Java, Spring Boot, AWS) (Enterprise Platforms Technology)",
+      "link": "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4-java-spring-boot-aws-enterprise-platforms-technology/1732/103239273216",
+      "location": "Plano, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-13T06:35:21.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Capitalone",
+      "role": "Full-Stack Engineer 4 (Java, Python, Cloud) (Enterprise Platforms Technology)",
+      "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-java-python-cloud-enterprise-platforms-technology/1732/103239273072",
+      "location": "McLean, VA",
+      "country": "USA",
+      "waitedSince": "2026-11-13T06:35:21.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Capitalone",
+      "role": "Full-Stack Engineer 4 (Java, Spring Boot, AWS) (Enterprise Platforms Technology)",
+      "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Full-Stack-Engineer-4--Java--Spring-Boot--AWS---Enterprise-Platforms-Technology-_R1005416-2",
+      "location": "Plano, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-13T06:35:21.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Capitalone",
+      "role": "Full-Stack Engineer 4 (Java, Python, Cloud) (Enterprise Platforms Technology)",
+      "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-Stack-Engineer-4--Java--Python--Cloud---Enterprise-Platforms-Technology-_R1005693-1",
+      "location": "McLean, VA",
+      "country": "USA",
+      "waitedSince": "2026-11-13T06:35:21.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Kyndryl",
+      "role": "Mainframe MQ System Programmer",
+      "link": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Bangalore-Karnataka-India/Mainframe-MQ-System-Programmer_R-71870",
+      "location": "4 Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-13T06:35:21.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Thomsonreuters",
+      "role": "Software Engineer",
+      "link": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Bengaluru-Karnataka/Software-Engineer_JREQ204994-1",
+      "location": "",
+      "country": "Unsure",
+      "waitedSince": "2026-11-13T06:35:21.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Westinghouse Electric Company, LLC",
+      "role": "System Planning Engineer",
+      "link": "http://careers.westinghousenuclear.com/WECTEC_Staffing/job/OTHER-System-Planning-Engineer-MA-0/1430403700/",
+      "location": "OTHER, MA, US, 0",
+      "country": "USA",
+      "waitedSince": "2026-11-13T06:35:21.956Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SpaceXSI",
+      "role": "Government Cloud Security Engineer",
+      "link": "https://job-boards.greenhouse.io/xai/jobs/5294116007",
+      "location": "Austin, TX; New York, NY; Palo Alto, CA; Washington, DC",
+      "country": "USA",
+      "waitedSince": "2026-11-13T06:35:21.956Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
