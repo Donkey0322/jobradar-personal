@@ -1,5 +1,5 @@
 {
-  "commit": "e966b87142c08ab8bdd95de27a13a7ecbf9baea3",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -384,7 +384,22 @@
       "country": "USA",
       "waitedSince": "2026-11-10T20:40:31.303Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:df735a3c-5e96-46f2-b918-6ca0412c34fb",
+          "at": "2026-11-13T20:43:52.284Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Xperteez Technology",
@@ -394,7 +409,22 @@
       "country": "Remote",
       "waitedSince": "2026-11-10T20:40:31.303Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:f5da0b25-a4e3-4fd4-9d09-226e66aaf390",
+          "at": "2026-11-13T20:43:52.284Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Natoma",
@@ -404,7 +434,22 @@
       "country": "USA",
       "waitedSince": "2026-11-10T20:40:31.303Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:87fb93b7-e3ac-4a88-b015-eb3129acb7cd",
+          "at": "2026-11-13T20:43:52.284Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Natoma",
@@ -414,7 +459,22 @@
       "country": "USA",
       "waitedSince": "2026-11-10T20:40:31.303Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:303c730f-bf2f-4c67-9566-0ac74ca16c2b",
+          "at": "2026-11-13T20:43:52.284Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Coreintels",
@@ -424,7 +484,22 @@
       "country": "Remote",
       "waitedSince": "2026-11-10T20:40:31.303Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:04fa063b-f473-455e-b39c-027681f6e35c",
+          "at": "2026-11-13T20:43:52.284Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Tesla.com",
@@ -553,6 +628,16 @@
       "location": "Bedford, Massachusetts, United States of America",
       "country": "USA",
       "waitedSince": "2026-11-12T22:46:37.925Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cisco",
+      "role": "Software Engineer Compiler I",
+      "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Austin-Texas-US/Software-Engineer-Compiler-I--Full-Time----United-States_2031593",
+      "location": "Austin, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-13T20:43:56.720Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
