@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--11--12-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--11--13-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,354 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,360 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,48 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Software Engineer Asc - Early Career</td>
+      <td width="180" align="left" valign="top">King of Prussia, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477120212?domain=lockheedmartin.com&amp;8fold_id=996477120212"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Nuro</td>
+      <td width="420" align="left" valign="top">Systems Engineering, New Grad 2027</td>
+      <td width="180" align="left" valign="top">Mountain View, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://nuro.ai/careersitem?gh_jid=8360415"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Signetjewelers</td>
+      <td width="420" align="left" valign="top">AI Platform Engineer I</td>
+      <td width="180" align="left" valign="top">Akron, Ohio</td>
+      <td width="120" align="left" valign="top"><a href="https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Irving-TX/AI-Platform-Engineer-I_REQ_84369"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">HPE</td>
+      <td width="420" align="left" valign="top">Systems/Software Engineer I</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1215821?ph_id=1215821"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hpe</td>
+      <td width="420" align="left" valign="top">Systems/Software Engineer I</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Sunnyvale-California-United-States-of-America/Systems-Software-Engineer-I_1215821-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="./assets/featured-badges/apple.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer, Ad Platforms</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200694769-0836/software-engineer-ad-platforms?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Micron</td>
       <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
@@ -276,51 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.unitedhealthgroup.com/job/minnetonka/data-analyst-i-uhc-cove-provider-experience-remote/34088/103166226304"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Salesforce" src="./assets/featured-badges/salesforce.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineering AMTS (College Grad)</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR368047-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Sharkninja</td>
-      <td width="420" align="left" valign="top">Forward Deployed Engineer - Entry Level</td>
-      <td width="180" align="left" valign="top">Needham, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.sharkninja.com/job/needham/forward-deployed-engineer-entry-level/47204/103162167904"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3Harris</td>
-      <td width="420" align="left" valign="top">Associate, Systems Engineering</td>
-      <td width="180" align="left" valign="top">Fort Wayne, IN</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Palm-Bay-Associate%2C-Systems-Engineering-FL-32905/1422796900/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lockheedmartin</td>
-      <td width="420" align="left" valign="top">Software Engineer - Early Career</td>
-      <td width="180" align="left" valign="top">Highlands Ranch, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477409431?domain=lockheedmartin.com&amp;8fold_id=996477409431"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Intercontinental Exchange</td>
-      <td width="420" align="left" valign="top">Associate Software Developer</td>
-      <td width="180" align="left" valign="top">Jacksonville, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.ice.com/jobs/14039?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">SharkNinja</td>
-      <td width="420" align="left" valign="top">Forward Deployed Engineer - Entry Level</td>
-      <td width="180" align="left" valign="top">Needham, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4728305006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,354 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,360 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-12T22:49:10.441Z</code>
+      🕒 Last updated <code>2026-11-13T01:52:46.073Z</code>
     </span>
   </p>
 </div>

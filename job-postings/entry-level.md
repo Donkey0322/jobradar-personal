@@ -14,6 +14,48 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Software Engineer Asc - Early Career</td>
+      <td width="180" align="left" valign="top">King of Prussia, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477120212?domain=lockheedmartin.com&amp;8fold_id=996477120212"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Nuro</td>
+      <td width="420" align="left" valign="top">Systems Engineering, New Grad 2027</td>
+      <td width="180" align="left" valign="top">Mountain View, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://nuro.ai/careersitem?gh_jid=8360415"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Signetjewelers</td>
+      <td width="420" align="left" valign="top">AI Platform Engineer I</td>
+      <td width="180" align="left" valign="top">Akron, Ohio</td>
+      <td width="120" align="left" valign="top"><a href="https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Irving-TX/AI-Platform-Engineer-I_REQ_84369"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">HPE</td>
+      <td width="420" align="left" valign="top">Systems/Software Engineer I</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1215821?ph_id=1215821"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hpe</td>
+      <td width="420" align="left" valign="top">Systems/Software Engineer I</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Sunnyvale-California-United-States-of-America/Systems-Software-Engineer-I_1215821-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer, Ad Platforms</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200694769-0836/software-engineer-ad-platforms?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Micron</td>
       <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Boise, ID</td>
@@ -2071,52 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Singapore-Singapore/Graduate-Engineer---Embedded-Software_R26-8517"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Wustl</td>
-      <td width="420" align="left" valign="top">Statistical Data Analyst MS (Part-Time) -  Biostatistics</td>
-      <td width="180" align="left" valign="top">St. Louis, MO</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 23</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Stripe" src="../assets/featured-badges/stripe.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer, New Grad</td>
-      <td width="180" align="left" valign="top">Taiwan</td>
-      <td width="120" align="left" valign="top"><a href="https://stripe.com/jobs/search?gh_jid=8202299"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">NRG Energy</td>
-      <td width="420" align="left" valign="top">Data Science Analyst - Agentic AI Developer</td>
-      <td width="180" align="left" valign="top">Houston, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.nrgenergy.com/nrg/job/Houston-Data-Science-Analyst-Agentic-AI-Developer-TX-77010/1441481900/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3Harris Technologies</td>
-      <td width="420" align="left" valign="top">New Grad 2027: Associate Software Engineer</td>
-      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Colorado-Springs-Associate,-Software-Engineer-CO-80916/1441835200/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Brain Co.</td>
-      <td width="420" align="left" valign="top">New Grad 2027: AI Security Engineer</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/brainco/32c4e1c9-ccd1-4dca-a68b-31ad1b868030/application"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">New Grad 2027: AI Platform Engineer</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/brainco/4d39773e-f4c3-49c1-87c3-812a9804fb15/application"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,354 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,360 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-12T22:49:10.441Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-13T01:52:46.073Z</code></sub>
