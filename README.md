@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,364 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,366 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">HPE</td>
+      <td width="420" align="left" valign="top">Project Data and Material Engineer</td>
+      <td width="180" align="left" valign="top">Taipei, Taiwan</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1218514?ph_id=1218514"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hpe</td>
+      <td width="420" align="left" valign="top">Project Data and Material Engineer</td>
+      <td width="180" align="left" valign="top">Taipei, Taiwan</td>
+      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Taipei-Taipei-City-Taiwan/Project-Data-and-Material-Engineer_1218514-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Micron</td>
       <td width="420" align="left" valign="top">New College Grad - Software Engineer</td>
@@ -304,23 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/R271283"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Echo</td>
-      <td width="420" align="left" valign="top">Associate Software Support Engineer</td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://echo.wd1.myworkdayjobs.com/Echo_Logistics/job/Chicago-IL/Associate-Software-Support-Engineer_R4840"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ercot</td>
-      <td width="420" align="left" valign="top">System Operator Development Program</td>
-      <td width="180" align="left" valign="top">Taylor, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://ercot.wd1.myworkdayjobs.com/ercot_careers/job/Austin-TX/System-Operator-Development-Program_R2568-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,364 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,366 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-13T06:35:51.906Z</code>
+      🕒 Last updated <code>2026-11-13T06:41:17.805Z</code>
     </span>
   </p>
 </div>

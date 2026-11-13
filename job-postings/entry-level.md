@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">HPE</td>
+      <td width="420" align="left" valign="top">Project Data and Material Engineer</td>
+      <td width="180" align="left" valign="top">Taipei, Taiwan</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1218514?ph_id=1218514"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hpe</td>
+      <td width="420" align="left" valign="top">Project Data and Material Engineer</td>
+      <td width="180" align="left" valign="top">Taipei, Taiwan</td>
+      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Taipei-Taipei-City-Taiwan/Project-Data-and-Material-Engineer_1218514-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Micron</td>
       <td width="420" align="left" valign="top">New College Grad - Software Engineer</td>
       <td width="180" align="left" valign="top">Boise, ID</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Draftkings</td>
-      <td width="420" align="left" valign="top">Data Science Engineer (December 2026 Grads)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Boston, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://draftkings.wd1.myworkdayjobs.com/campus_career_portal/job/Boston-MA/Data-Science-Engineer--December-2026-and-May-2027-Grads-_JR14959"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 23</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="../assets/featured-badges/databricks.svg" /></td>
-      <td width="420" align="left" valign="top">Associate Forward Deployed Engineer</td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 23</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,364 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,366 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-13T06:35:51.906Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-13T06:41:17.805Z</code></sub>
