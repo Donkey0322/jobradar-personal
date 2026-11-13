@@ -1,5 +1,5 @@
 {
-  "commit": "d23732163efc7ce8fa8b2540d6bdd23e91a2caa6",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -567,52 +567,312 @@
       "status": "waiting"
     },
     {
-      "company": "ZettaSquared",
-      "role": "New Grad 2027: Forward Engineer / AI Developer 🛂",
-      "link": "https://jobs.ashbyhq.com/zetta2/28a44d44-b138-476f-acda-65384f1623dc",
-      "location": "Houston, TX",
+      "company": "AbbVie",
+      "role": "Systems Engineer, SAP Global Trade Compliance",
+      "link": "https://jobs.smartrecruiters.com/AbbVie/3743990016833656",
+      "location": "North Chicago, IL, United States",
       "country": "USA",
-      "waitedSince": "2026-11-13T01:52:13.202Z",
+      "waitedSince": "2026-11-13T03:26:57.400Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     },
     {
-      "company": "RLI",
-      "role": "Associate Software Engineer",
-      "link": "https://wd1.myworkdaysite.com/recruiting/rlicorp/RLI_Corp_Careers/job/Peoria-IL/Associate-Software-Engineer--Net----Peoria--IL-or-Tempe--AZ_R1864",
-      "location": "Peoria, IL</br>Tempe, AZ",
+      "company": "Amazon",
+      "role": "Software Dev Engineer, Antenna Calibration, Amazon Leo",
+      "link": "https://amazon.jobs/en/jobs/10603920",
+      "location": "US, WA, Redmond",
       "country": "USA",
-      "waitedSince": "2026-11-13T01:52:13.203Z",
+      "waitedSince": "2026-11-13T03:26:57.401Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     },
     {
-      "company": "Leidos",
-      "role": "Software Engineer 🇺🇸",
-      "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Tucson-AZ/Software-Engineer_R-00196751",
-      "location": "Tucson, AZ",
+      "company": "Amazon",
+      "role": "Software Development Engineer, (Level 5)",
+      "link": "https://amazon.jobs/en/jobs/10544656",
+      "location": "US, WA, Seattle",
       "country": "USA",
-      "waitedSince": "2026-11-13T01:52:13.203Z",
+      "waitedSince": "2026-11-13T03:26:57.401Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     },
     {
-      "company": "Affirm",
-      "role": "Software Engineer 1 - Backend - Continuous Delivery",
-      "link": "https://job-boards.greenhouse.io/affirm/jobs/8181185003",
-      "location": "Remote in Canada",
-      "country": "Canada",
-      "waitedSince": "2026-11-13T01:52:13.203Z",
+      "company": "Amazon",
+      "role": "Software Development Engineer, Leo Commerce Financial Systems and Data (Bestia, Triton, Lucid)",
+      "link": "https://amazon.jobs/en/jobs/10603880",
+      "location": "US, WA, Redmond",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.401Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     },
     {
-      "company": "Affirm",
-      "role": "Software Engineer 1 - Backend - Continuous Delivery",
-      "link": "https://job-boards.greenhouse.io/affirm/jobs/8181183003",
-      "location": "Remote in USA",
+      "company": "Amazon",
+      "role": "Software Development Engineer, Leo Commerce Financial Systems and Data (Bestia, Triton, Lucid)",
+      "link": "https://amazon.jobs/en/jobs/10603879",
+      "location": "US, WA, Redmond",
       "country": "USA",
-      "waitedSince": "2026-11-13T01:52:13.203Z",
+      "waitedSince": "2026-11-13T03:26:57.402Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apple",
+      "role": "UI Software Engineer - Apple TV",
+      "link": "https://jobs.apple.com/en-us/details/200694832-3543/ui-software-engineer-apple-tv?team=SFTWR",
+      "location": "San Diego",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.402Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apple",
+      "role": "Machine Learning Engineer, Evaluation and Quality, Creativity Apps",
+      "link": "https://jobs.apple.com/en-us/details/200691707-7141/machine-learning-engineer-evaluation-and-quality-creativity-apps?team=SFTWR",
+      "location": "Various Locations within San Diego Metro Area",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.402Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apple",
+      "role": "PHY Systems Engineer",
+      "link": "https://jobs.apple.com/en-us/details/200694578-3543/phy-systems-engineer?team=HRDWR",
+      "location": "San Diego",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.402Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Apple",
+      "role": "PHY Systems Engineer",
+      "link": "https://jobs.apple.com/en-us/details/200694578-3956/phy-systems-engineer?team=HRDWR",
+      "location": "Sunnyvale",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.403Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Arcfield",
+      "role": "Enterprise Data Systems Engineer",
+      "link": "https://careers.arcfield.com/jobs/8924?icims=1",
+      "location": "Chantilly, Virginia",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.403Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Bah",
+      "role": "Augmented Reality Software Engineer",
+      "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Lorton-VA/Augmented-Reality-Software-Engineer_R0253494",
+      "location": "Lorton, VA",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.403Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Bah",
+      "role": "Special Missions Software Engineer",
+      "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fayetteville-NC/Special-Missions-Software-Engineer_R0253467",
+      "location": "Fayetteville, NC",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.404Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Boeing",
+      "role": "Associate Data and Cost Modeling Analyst - Government Estimating",
+      "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Associate-Data-and-Cost-Modeling-Analyst---Government-Estimating_JR2026525776",
+      "location": "USA - Hazelwood, MO",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.404Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cisco",
+      "role": "Security Software Engineering Technical Leader--Cisco Intersight",
+      "link": "https://careers.cisco.com/global/en/job/2027165?ph_id=2027165",
+      "location": "Milpitas, California, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.404Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Circle",
+      "role": "Data Engineer - Risk & Compliance",
+      "link": "https://circle.wd1.myworkdayjobs.com/circle/job/San-Francisco---remote-first-in-US/Data-Engineer---Risk---Compliance_JR101206",
+      "location": "San Francisco - remote first in US",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.404Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Comcast",
+      "role": "Backend Developer",
+      "link": "https://jobs.comcast.com/job/philadelphia/backend-developer/45483/103226787792",
+      "location": "Multiple Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-13T03:26:57.405Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Kinaxis",
+      "role": "Cloud Engineer 1, Site Reliability Engineering (Early Career, Junior level)",
+      "link": "https://careers-kinaxis.icims.com/jobs/35470/cloud-engineer-1%2c-site-reliability-engineering-%28early-career%2c-junior-level%29/job",
+      "location": "Unsure",
+      "country": "Unsure",
+      "waitedSince": "2026-11-13T03:26:57.405Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3harris",
+      "role": "Specialist, Propulsion System/Rocket Test Engineer",
+      "link": "https://careers.l3harris.com/job/orange/specialist-propulsion-system-rocket-test-engineer/4832/94784117744",
+      "location": "Orange, VA",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.405Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Systems Integration/Test Engineer Asc - Early Career",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477564801?domain=lockheedmartin.com&8fold_id=996477564801",
+      "location": "Orlando, FL",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.406Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Meta",
+      "role": "Software Engineer, Container Infrastructure (Technical Leadership)",
+      "link": "https://www.metacareers.com/profile/job_details/1153298343784841",
+      "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.406Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Micron",
+      "role": "Full Stack AI Engineer",
+      "link": "https://micron.eightfold.ai/careers/job/44509981?domain=micron.com&8fold_id=44509981",
+      "location": "Boise, Idaho, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.406Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Micron",
+      "role": "New College Grad - Software Engineer",
+      "link": "https://micron.eightfold.ai/careers/job/44144084?domain=micron.com&8fold_id=44144084",
+      "location": "Boise, Idaho, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.407Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Micron",
+      "role": "Full Stack AI Engineer",
+      "link": "https://micron.eightfold.ai/careers/job/44509996?domain=micron.com&8fold_id=44509996",
+      "location": "Boise, Idaho, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.407Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Ngc",
+      "role": "Cyber Software Engineer - Level 6",
+      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Cyber-Software-Engineer---Level-6_R10260433",
+      "location": "United States-California-Redondo Beach",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.407Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "PACCAR",
+      "role": "Robotics Software Engineer 1",
+      "link": "https://jobs.paccar.com/job/Chillicothe-Robotics-Software-Engineer-1-OH-45601-8829/1419447833/",
+      "location": "Chillicothe, OH, US, 45601-8829",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.408Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Regions",
+      "role": "Software Engineer (Risk Systems - .net Developer)",
+      "link": "https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/Software-Engineer--Risk-Systems---net-Developer-_R106472",
+      "location": "3 Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-13T03:26:57.408Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Revel",
+      "role": "Site Reliability Engineer, Data Platform",
+      "link": "https://jobs.ashbyhq.com/revel/a7801a26-a562-423f-9cc1-6e3f3fa69430",
+      "location": "North America | Los Angeles | San Francisco",
+      "country": "Unsure",
+      "waitedSince": "2026-11-13T03:26:57.408Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Roberthalf",
+      "role": "AI Engineer I",
+      "link": "https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Software-Engineer-II---AI-Engineer--w--skills-in-AI-Data-Privacy--Security---Governance-Specialty-_JR-260829",
+      "location": "SAN RAMON",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.409Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Rtx",
+      "role": "Software Engineer I",
+      "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-I_01888972",
+      "location": "US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.409Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SMX",
+      "role": "Hybrid South Carolina Cloud Engineer – Managed IT Services (5544)",
+      "link": "https://www.smxtech.com/careers/?gh_jid=8202402003",
+      "location": "Columbia, SC",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.410Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Visa",
+      "role": "Software Engineer - Sr Consultant level",
+      "link": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer---Sr-Consultant-level-2_REF080663W",
+      "location": "US - Foster City, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-13T03:26:57.410Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
