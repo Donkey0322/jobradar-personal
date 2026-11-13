@@ -14,6 +14,41 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Westinghouse Electric Company, LLC</td>
+      <td width="420" align="left" valign="top">Fluid Systems Engineer</td>
+      <td width="180" align="left" valign="top">Rock Hill, SC</td>
+      <td width="120" align="left" valign="top"><a href="http://careers.westinghousenuclear.com/job/Rock-Hill-Fluid-Systems-Engineer-SC-29730/1440646100/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Fanniemae</td>
+      <td width="420" align="left" valign="top">Software Engineer - Associate (AWS)</td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://fanniemae.wd1.myworkdayjobs.com/fanniemaecareers/job/Reston-VA/Software-Engineer---Associate--AWS-_JR3005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer - Associate (AWS)</td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://fanniemae.wd1.myworkdayjobs.com/fanniemaecareers/job/Reston-VA/Software-Engineer---Associate--AWS-_JR2983"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Keysight Technologies</td>
+      <td width="420" align="left" valign="top">IT Engineer,Software,Entry</td>
+      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.keysight.com/jobs/56558?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">CMTelematics</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Cloud</td>
+      <td width="180" align="left" valign="top">Cambridge, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/cmt/jobs/8385978"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Software Engineer Compiler I</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
@@ -2078,45 +2113,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 27</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
-      <td width="420" align="left" valign="top">SoC System Level Test Product Development Engineer</td>
-      <td width="180" align="left" valign="top">Cupertino, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200690210-0836/soc-system-level-test-product-development-engineer?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Reply</td>
-      <td width="420" align="left" valign="top">Edge AI/Computer Vision Engineer</td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/reply/790c1fc7-d76c-4603-b879-922e61fc7a90"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Mpc</td>
-      <td width="420" align="left" valign="top">Data Analyst</td>
-      <td width="180" align="left" valign="top">Findlay, OH</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ciena</td>
-      <td width="420" align="left" valign="top">Software Engineer (Security) - New Grad</td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cummins Talent Acquisition</td>
-      <td width="420" align="left" valign="top">Electronic Systems Engineer - Software</td>
-      <td width="180" align="left" valign="top">Columbus, IN</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,376 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,381 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-13T22:37:42.850Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-13T23:41:52.657Z</code></sub>

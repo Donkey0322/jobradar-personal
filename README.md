@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,376 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,381 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,41 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Westinghouse Electric Company, LLC</td>
+      <td width="420" align="left" valign="top">Fluid Systems Engineer</td>
+      <td width="180" align="left" valign="top">Rock Hill, SC</td>
+      <td width="120" align="left" valign="top"><a href="http://careers.westinghousenuclear.com/job/Rock-Hill-Fluid-Systems-Engineer-SC-29730/1440646100/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Fanniemae</td>
+      <td width="420" align="left" valign="top">Software Engineer - Associate (AWS)</td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://fanniemae.wd1.myworkdayjobs.com/fanniemaecareers/job/Reston-VA/Software-Engineer---Associate--AWS-_JR3005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer - Associate (AWS)</td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://fanniemae.wd1.myworkdayjobs.com/fanniemaecareers/job/Reston-VA/Software-Engineer---Associate--AWS-_JR2983"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Keysight Technologies</td>
+      <td width="420" align="left" valign="top">IT Engineer,Software,Entry</td>
+      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.keysight.com/jobs/56558?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">CMTelematics</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Cloud</td>
+      <td width="180" align="left" valign="top">Cambridge, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/cmt/jobs/8385978"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 13</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Software Engineer Compiler I</td>
@@ -283,44 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.mitre.org/us/en/job/R117424?ph_id=R117424"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 12</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Wustl</td>
-      <td width="420" align="left" valign="top">Data Analyst (PRN/Remote) - Transplant Nephrology<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Remote, US</td>
-      <td width="120" align="left" valign="top"><a href="https://wustl.wd1.myworkdayjobs.com/external/job/Remote/Data-Analyst--PRN-Remote----Transplant-Nephrology_JR98521"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 12</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Pru</td>
-      <td width="420" align="left" valign="top">PGIM Real Estate – Analyst/Associate, Data Analytics &amp; Governance<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Newark, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://pru.wd5.myworkdayjobs.com/careers/job/Newark-NJ-USA/PGIM-Real-Estate---Analyst-Associate--Data-Analytics---Governance_R-125266-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 12</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Truist</td>
-      <td width="420" align="left" valign="top">Data Scientist I</td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://truist.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA/Data-Scientist-I_R0119840"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 12</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Medpace</td>
-      <td width="420" align="left" valign="top">Junior Data Governance Analyst</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/13127?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Junior Clinical Data Analyst</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12986?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,376 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,381 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-13T22:37:42.850Z</code>
+      🕒 Last updated <code>2026-11-13T23:41:52.657Z</code>
     </span>
   </p>
 </div>
