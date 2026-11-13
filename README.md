@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,362 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,364 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Micron</td>
+      <td width="420" align="left" valign="top">New College Grad - Software Engineer</td>
+      <td width="180" align="left" valign="top">Boise, ID</td>
+      <td width="120" align="left" valign="top"><a href="https://micron.eightfold.ai/careers/job/44144084?domain=micron.com&amp;8fold_id=44144084"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Roberthalf</td>
+      <td width="420" align="left" valign="top">AI Engineer I</td>
+      <td width="180" align="left" valign="top">San Ramon, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Software-Engineer-II---AI-Engineer--w--skills-in-AI-Data-Privacy--Security---Governance-Specialty-_JR-260829"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">RLI</td>
       <td width="420" align="left" valign="top">Associate Software Engineer</td>
@@ -304,23 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://ercot.wd1.myworkdayjobs.com/ercot_careers/job/Austin-TX/System-Operator-Development-Program_R2568-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Jamf</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer</td>
-      <td width="180" align="left" valign="top">US Remote</td>
-      <td width="120" align="left" valign="top"><a href="https://www.jamf.com/about/careers/jobs/?gh_jid=6253670004&amp;gh_jid=6253670004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Adobe" src="./assets/featured-badges/adobe.svg" /></td>
-      <td width="420" align="left" valign="top">2027 University Graduate - Data Scientist</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,362 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,364 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-13T03:27:29.176Z</code>
+      🕒 Last updated <code>2026-11-13T04:48:42.815Z</code>
     </span>
   </p>
 </div>

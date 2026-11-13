@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Micron</td>
+      <td width="420" align="left" valign="top">New College Grad - Software Engineer</td>
+      <td width="180" align="left" valign="top">Boise, ID</td>
+      <td width="120" align="left" valign="top"><a href="https://micron.eightfold.ai/careers/job/44144084?domain=micron.com&amp;8fold_id=44144084"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Roberthalf</td>
+      <td width="420" align="left" valign="top">AI Engineer I</td>
+      <td width="180" align="left" valign="top">San Ramon, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Software-Engineer-II---AI-Engineer--w--skills-in-AI-Data-Privacy--Security---Governance-Specialty-_JR-260829"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 12</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">RLI</td>
       <td width="420" align="left" valign="top">Associate Software Engineer</td>
       <td width="180" align="left" valign="top">Peoria, IL</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Applied Materials</td>
-      <td width="420" align="left" valign="top">New Grad 2027: Software Engineer</td>
-      <td width="180" align="left" valign="top">Gloucester, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://amat.wd1.myworkdayjobs.com/en-US/external/job/GloucesterMA/XMLNAME-2027-Software-Engineer-New-College-Grad--Bachelor-s----Gloucester--MA_R2625914"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 23</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer (Master&#39;s)</td>
-      <td width="180" align="left" valign="top">Chandler, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://amat.wd1.myworkdayjobs.com/External/job/ChandlerAZ/Software-Engineer--New-College-Grad--Master-s--Chandler--AZ-_R2627911"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 23</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,362 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,364 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-13T03:27:29.176Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-13T04:48:42.815Z</code></sub>
