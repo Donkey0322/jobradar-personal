@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "4ee4bdb523a35b58e316ce376195a9e7189b3752",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -867,36 +867,6 @@
       "role": "Sr Software Engineer, Apple Ads",
       "link": "https://jobs.apple.com/en-us/details/200694621-0836/sr-software-engineer-apple-ads?team=SFTWR",
       "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.012Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Mercor",
-      "role": "Software Engineer, Frontier Data Products",
-      "link": "https://jobs.ashbyhq.com/mercor/ae344099-3fde-4027-bfde-f953db8b4728",
-      "location": "San Francisco",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.012Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Qualcomm",
-      "role": "Data Center Engineering - Post Silicon Power and Performance Engineer",
-      "link": "https://careers.qualcomm.com/careers/job/446721293506?domain=qualcomm.com&8fold_id=446721293506",
-      "location": "Austin, Texas, United States of America, Santa Clara, California, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.012Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Synopsys",
-      "role": "Front-End Design Engineer",
-      "link": "https://careers.synopsys.com/job/hillsboro/front-end-design-engineer/44408/103189170128",
-      "location": "Hillsboro, Oregon",
       "country": "USA",
       "waitedSince": "2026-11-14T06:12:12.012Z",
       "waitedSinceSource": "confirmed",
