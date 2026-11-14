@@ -1,5 +1,5 @@
 {
-  "commit": "4ee4bdb523a35b58e316ce376195a9e7189b3752",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -563,16 +563,6 @@
       ]
     },
     {
-      "company": "The MITRE Corporation",
-      "role": "Associate Software Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R118031?ph_id=R118031",
-      "location": "Bedford, Massachusetts, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-11T16:09:59.856Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Apply.workable.com",
       "role": "New Grad: Backend Engineer",
       "link": "https://apply.workable.com/bask-health-1/j/472CF47F60",
@@ -869,6 +859,16 @@
       "location": "Cupertino",
       "country": "USA",
       "waitedSince": "2026-11-14T06:12:12.012Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Integrated Biosciences",
+      "role": "Software Engineer - Robotics (Master's)",
+      "link": "https://job-boards.greenhouse.io/integratedbiosciencesinc/jobs/4507787009",
+      "location": "Redwood City, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-14T18:55:33.272Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }

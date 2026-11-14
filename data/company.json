@@ -16514,7 +16514,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/claylabs",
     "urls": [
-      "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa/application?embed=true"
+      "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa/application?embed=true",
+      "https://jobs.ashbyhq.com/claylabs/f8d2a754-8ac4-4ba8-9c36-ed56184132a7"
     ]
   },
   {
@@ -20583,6 +20584,7 @@
     "urls": [
       "https://jobs.ericsson.com/careers/job/563121774181800?domain=ericsson.com&8fold_id=563121774181800",
       "https://jobs.ericsson.com/careers/job/563121775140665?domain=ericsson.com&8fold_id=563121775140665",
+      "https://jobs.ericsson.com/careers/job/563121776668074?domain=ericsson.com&8fold_id=563121776668074",
       "https://jobs.ericsson.com/careers/job/563121776777756?domain=ericsson.com&8fold_id=563121776777756",
       "https://jobs.ericsson.com/careers/job/563121776827902?domain=ericsson.com&8fold_id=563121776827902",
       "https://jobs.ericsson.com/careers/job/563121776993233?domain=ericsson.com&8fold_id=563121776993233",
@@ -27655,6 +27657,16 @@
     ]
   },
   {
+    "name": "integratedbiosciencesinc",
+    "ats": "greenhouse",
+    "identifier": "integratedbiosciencesinc",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/integratedbiosciencesinc/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/integratedbiosciencesinc/jobs/4507787009"
+    ]
+  },
+  {
     "name": "Integration Innovation, Inc. (i3)",
     "ats": "icims",
     "identifier": "i3-corps.jibeapply.com",
@@ -33419,6 +33431,7 @@
       "https://www.metacareers.com/profile/job_details/2254903598386697",
       "https://www.metacareers.com/profile/job_details/2282367178830920",
       "https://www.metacareers.com/profile/job_details/2288055238639571",
+      "https://www.metacareers.com/profile/job_details/2296637507735867",
       "https://www.metacareers.com/profile/job_details/2316600655751692",
       "https://www.metacareers.com/profile/job_details/2326448434856529",
       "https://www.metacareers.com/profile/job_details/2329761541160858",
