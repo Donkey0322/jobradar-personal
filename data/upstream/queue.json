@@ -1,5 +1,5 @@
 {
-  "commit": "1e1c5a6ffd7e52b0494ccef849838074d8743e19",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -672,6 +672,16 @@
       "location": "2 Locations",
       "country": "Unsure",
       "waitedSince": "2026-11-13T22:36:42.620Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Empire State Realty Trust",
+      "role": "Applied AI Engineer 1",
+      "link": "https://jobs.lever.co/esrtreit/9ec61f1b-1eeb-44c8-8be2-f25167b83267",
+      "location": "New York, NY",
+      "country": "USA",
+      "waitedSince": "2026-11-14T01:09:19.524Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
