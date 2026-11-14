@@ -3815,8 +3815,10 @@
       "https://amazon.jobs/en/jobs/10605092",
       "https://amazon.jobs/en/jobs/10605095",
       "https://amazon.jobs/en/jobs/10605103",
+      "https://amazon.jobs/en/jobs/10605132",
       "https://amazon.jobs/en/jobs/10605134",
       "https://amazon.jobs/en/jobs/10605135",
+      "https://amazon.jobs/en/jobs/10605141",
       "https://amazon.jobs/en/jobs/10605142",
       "https://amazon.jobs/en/jobs/3087196",
       "https://amazon.jobs/en/jobs/3110595",
@@ -35395,7 +35397,8 @@
     "page": "https://netapp.eightfold.ai/api/apply/v2/jobs?domain=netapp.com",
     "urls": [
       "https://netapp.eightfold.ai/careers/job/45497201",
-      "https://netapp.eightfold.ai/careers/job/45498081"
+      "https://netapp.eightfold.ai/careers/job/45498081",
+      "https://netapp.eightfold.ai/careers/job/45500455?domain=netapp.com&8fold_id=45500455"
     ]
   },
   {
@@ -39461,6 +39464,7 @@
       "https://postman.wd108.myworkdayjobs.com/careers/job/NYC-NY-US/Frontier-AI-Engineer_JR1000136",
       "https://postman.wd108.myworkdayjobs.com/careers/job/NYC-NY-US/Software-Engineer---Fern_JR1000037",
       "https://postman.wd108.myworkdayjobs.com/careers/job/Remote-WA-US/Frontier-AI-Engineer_JR1000135",
+      "https://postman.wd108.myworkdayjobs.com/careers/job/San-Francisco-CA-US/AI-Engineer--Intern_JR1000055",
       "https://postman.wd108.myworkdayjobs.com/careers/job/San-Francisco-CA-US/Applied-AI-Scientist--Small-Language-Model-and-AI-Training_JR1000004-1",
       "https://postman.wd108.myworkdayjobs.com/careers/job/San-Francisco-CA-US/Frontier-AI-Engineering_JR1000057",
       "https://postman.wd108.myworkdayjobs.com/careers/job/San-Francisco-CA-US/Software-Engineer_JR1000035"
@@ -43913,7 +43917,8 @@
       "https://jobs.smartrecruiters.com/ServiceNow/744000161548289",
       "https://jobs.smartrecruiters.com/ServiceNow/744000161548528",
       "https://jobs.smartrecruiters.com/ServiceNow/744000161550869",
-      "https://jobs.smartrecruiters.com/ServiceNow/744000161555959"
+      "https://jobs.smartrecruiters.com/ServiceNow/744000161555959",
+      "https://jobs.smartrecruiters.com/ServiceNow/744000161592679"
     ]
   },
   {
@@ -47266,6 +47271,16 @@
     ]
   },
   {
+    "name": "TensorWave",
+    "ats": "ashby",
+    "identifier": "TensorWave",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/TensorWave",
+    "urls": [
+      "https://jobs.ashbyhq.com/TensorWave/e0ca2ee5-4419-4e7f-b7d6-e90996970809"
+    ]
+  },
+  {
     "name": "tenstorrentuniversity",
     "ats": "greenhouse",
     "identifier": "tenstorrentuniversity",
@@ -49552,7 +49567,8 @@
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Huntsville-Alabama/Software-Engineer_R3001308",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Melbourne-Florida/Computer-Systems-Administrator---Spectrum-Management-Analyst_R3001413",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Redstone-Arsenal-Alabama/Javelin-Sr-Systems-Engineer_R2130226",
-      "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/San-Antonio-Texas/Data-AI-Scientist---Associate-Level_R3001391"
+      "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/San-Antonio-Texas/Data-AI-Scientist---Associate-Level_R3001391",
+      "https://trinzic.wd115.myworkdayjobs.com/trinzic_careers/job/Sioux-Falls-South-Dakota/Image-Processing-Software-Engineer-Intern_R2130067"
     ]
   },
   {
