@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "2847b2eff3110d6a46b7a89f750437ffaaa1f1c6",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -859,16 +859,6 @@
       "location": "Cupertino",
       "country": "USA",
       "waitedSince": "2026-11-14T06:12:12.012Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Integrated Biosciences",
-      "role": "Software Engineer - Robotics (Master's)",
-      "link": "https://job-boards.greenhouse.io/integratedbiosciencesinc/jobs/4507787009",
-      "location": "Redwood City, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-14T18:55:33.272Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
