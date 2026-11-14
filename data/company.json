@@ -3812,6 +3812,12 @@
       "https://amazon.jobs/en/jobs/10605024",
       "https://amazon.jobs/en/jobs/10605028",
       "https://amazon.jobs/en/jobs/10605040",
+      "https://amazon.jobs/en/jobs/10605092",
+      "https://amazon.jobs/en/jobs/10605095",
+      "https://amazon.jobs/en/jobs/10605103",
+      "https://amazon.jobs/en/jobs/10605134",
+      "https://amazon.jobs/en/jobs/10605135",
+      "https://amazon.jobs/en/jobs/10605142",
       "https://amazon.jobs/en/jobs/3087196",
       "https://amazon.jobs/en/jobs/3110595",
       "https://amazon.jobs/en/jobs/3111761/software-engineer-i",
@@ -4002,6 +4008,7 @@
     "domain": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
     "page": "https://egug.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008913",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011275",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011698",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011745",
@@ -4743,7 +4750,10 @@
       "https://boards.greenhouse.io/andurilindustries/jobs/5293883007?gh_jid=5293883007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5294365007?gh_jid=5294365007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5294371007?gh_jid=5294371007",
-      "https://boards.greenhouse.io/andurilindustries/jobs/5294810007?gh_jid=5294810007"
+      "https://boards.greenhouse.io/andurilindustries/jobs/5294810007?gh_jid=5294810007",
+      "https://boards.greenhouse.io/andurilindustries/jobs/5295265007?gh_jid=5295265007",
+      "https://boards.greenhouse.io/andurilindustries/jobs/5295297007?gh_jid=5295297007",
+      "https://boards.greenhouse.io/andurilindustries/jobs/5295391007?gh_jid=5295391007"
     ]
   },
   {
@@ -8709,6 +8719,7 @@
       "https://jobs.ashbyhq.com/baseten/7cb19a05-8e5b-44cf-b3e7-19949e2eff04",
       "https://jobs.ashbyhq.com/baseten/86331c05-a6b0-4a9f-991d-b46091b696b5",
       "https://jobs.ashbyhq.com/baseten/b13ec426-d09d-4122-8112-cf25adbd7d60",
+      "https://jobs.ashbyhq.com/baseten/bbf1b1a9-c90e-438d-8e5c-2bac67cc8df0",
       "https://jobs.ashbyhq.com/baseten/d7e9ee32-dee8-459f-9d8a-538d65df51ae",
       "https://jobs.ashbyhq.com/baseten/db6477fc-111a-4340-bf00-525fe023e6f3",
       "https://jobs.ashbyhq.com/baseten/e71e97a8-6367-4050-b6a9-42ce62ec78f1",
@@ -9181,7 +9192,8 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/blacksky/jobs",
     "urls": [
-      "https://boards.greenhouse.io/blacksky/jobs/8652888002?gh_jid=8652888002"
+      "https://boards.greenhouse.io/blacksky/jobs/8652888002?gh_jid=8652888002",
+      "https://boards.greenhouse.io/blacksky/jobs/8930164002?gh_jid=8930164002"
     ]
   },
   {
@@ -9382,6 +9394,7 @@
     "urls": [
       "https://bmo.wd3.myworkdayjobs.com/external/job/Calgary-AB-CAN/GenAI-Software-Developer_R260018524",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Chicago-IL-USA/Data-Analyst_R260027161",
+      "https://bmo.wd3.myworkdayjobs.com/external/job/Irving-TX-USA/Software-Developer----AI---Java---Python--AWS-_R260030751-1",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Mississauga-ON-CAN/Software-Developer----Automations--AI--Dev-Ops-_R260022970",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/AI-Developer_R260029742-1",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/AI-Process-re-engineer--Capital-Markets-Product-Control_R260024465-1",
@@ -11867,7 +11880,9 @@
       "https://searchcareers.caci.com/careers/job/1443154509528?domain=caci.com&8fold_id=1443154509528",
       "https://searchcareers.caci.com/careers/job/1443154516643?domain=caci.com&8fold_id=1443154516643",
       "https://searchcareers.caci.com/careers/job/1443154525865?domain=caci.com&8fold_id=1443154525865",
+      "https://searchcareers.caci.com/careers/job/1443154529210?domain=caci.com&8fold_id=1443154529210",
       "https://searchcareers.caci.com/careers/job/1443154530252?domain=caci.com&8fold_id=1443154530252",
+      "https://searchcareers.caci.com/careers/job/1443154530253?domain=caci.com&8fold_id=1443154530253",
       "https://searchcareers.caci.com/careers/job/1443154530475?domain=caci.com&8fold_id=1443154530475"
     ]
   },
@@ -18334,6 +18349,8 @@
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8847738002",
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8847747002",
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8878946002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8921476002",
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8927179002",
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8929894002",
@@ -23222,7 +23239,8 @@
       "https://careers-gdms.icims.com/jobs/80748/advanced-software-engineer/job",
       "https://careers-gdms.icims.com/jobs/80749/advanced-software-engineer/job",
       "https://careers-gdms.icims.com/jobs/80750/sr-advanced-software-engineer/job",
-      "https://careers-gdms.icims.com/jobs/80844/systems-engineer-%e2%80%93-technology-refresh-%26-modernization/job"
+      "https://careers-gdms.icims.com/jobs/80844/systems-engineer-%e2%80%93-technology-refresh-%26-modernization/job",
+      "https://careers-gdms.icims.com/jobs/81306/nc3-software-engineer/job"
     ]
   },
   {
@@ -32350,6 +32368,7 @@
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Business-Systems-Analyst_JR26100308",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Business-Systems-Analyst_JR26100673-1",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Data-Scientist_JR26061646-1",
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Full-Stack-Data-Engineer_JR26110170",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Full-Stack-Software-Engineer_JR26081782-1",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Full-Stack-Software-Engineer_JR26091896",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Full-Stack-Software-Engineer_JR26101403-1",
@@ -35369,6 +35388,17 @@
     ]
   },
   {
+    "name": "netapp",
+    "ats": "eightfold",
+    "identifier": "netapp",
+    "domain": "netapp.com",
+    "page": "https://netapp.eightfold.ai/api/apply/v2/jobs?domain=netapp.com",
+    "urls": [
+      "https://netapp.eightfold.ai/careers/job/45497201",
+      "https://netapp.eightfold.ai/careers/job/45498081"
+    ]
+  },
+  {
     "name": "NetApp, Inc.",
     "ats": "successfactors",
     "identifier": "jobs.netapp.com",
@@ -35783,6 +35813,7 @@
       "https://jobs.nexteraenergy.com/job/Juno-Beach-Prin-Software-Development-Eng-FL-33408/1437258800/",
       "https://jobs.nexteraenergy.com/job/Juno-Beach-Software-Engineering-Intern-Measurement-and-Control-FL-33408/1332910400/?ats=successfactors",
       "https://jobs.nexteraenergy.com/job/Juno-Beach-Sr-Data-Scientist-FL-33408/1448113900/",
+      "https://jobs.nexteraenergy.com/job/Juno-Beach-Summer-Intern-Technical-FL-33408/1450749000/?ats=successfactors",
       "https://jobs.nexteraenergy.com/job/Miami-IT-Business-Systems-Analyst-FL-33134/1448073400/",
       "https://jobs.nexteraenergy.com/job/St_-Paul-Cybersecurity-Analyst-MN-55107/1437253100/",
       "https://jobs.nexteraenergy.com/job/St_-Paul-Sr-Software-Development-Eng-MN-55107/1448657600/",
@@ -36225,7 +36256,8 @@
       "https://job-boards.greenhouse.io/nisc/jobs/8300544",
       "https://job-boards.greenhouse.io/nisc/jobs/8300603",
       "https://job-boards.greenhouse.io/nisc/jobs/8300670",
-      "https://job-boards.greenhouse.io/nisc/jobs/8301304"
+      "https://job-boards.greenhouse.io/nisc/jobs/8301304",
+      "https://job-boards.greenhouse.io/nisc/jobs/8386844"
     ]
   },
   {
@@ -37861,7 +37893,8 @@
       "https://careers.pnnl.gov/jobs/12900?icims=1",
       "https://careers.pnnl.gov/jobs/13295?icims=1",
       "https://careers.pnnl.gov/jobs/13333?icims=1",
-      "https://careers.pnnl.gov/jobs/13400?icims=1"
+      "https://careers.pnnl.gov/jobs/13400?icims=1",
+      "https://careers.pnnl.gov/jobs/13511?icims=1"
     ]
   },
   {
@@ -38158,7 +38191,8 @@
     "page": "https://careers.na.panasonic.com/api/jobs",
     "urls": [
       "https://careers.na.panasonic.com/jobs/44867?icims=1",
-      "https://careers.na.panasonic.com/jobs/52704?icims=1"
+      "https://careers.na.panasonic.com/jobs/52704?icims=1",
+      "https://careers.na.panasonic.com/jobs/52744?icims=1"
     ]
   },
   {
@@ -41275,6 +41309,7 @@
       "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/Singapore-Singapore/Software-Engineer--Devices_JR_055245",
       "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/Sydney-NSW-Australia/Embedded-Software-Engineer--C-----Medical-Devices-_JR_054999",
       "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/Sydney-NSW-Australia/Embedded-Software-Engineer_JR_053435-1",
+      "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/Sydney-NSW-Australia/Software-Engineer--Embedded_JR_055041",
       "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/Sydney-NSW-Australia/Software-Engineer_JR_052271-1",
       "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/Sydney-NSW-Australia/Systems-Engineer--12-month-contrat-_JR_054457",
       "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/US-Field-Non-Sales-Remote-Workforce/Engineer--Software-Engineering_JR_054680"
@@ -49246,7 +49281,8 @@
       "https://job-boards.greenhouse.io/trace3/jobs/8304333",
       "https://job-boards.greenhouse.io/trace3/jobs/8338241",
       "https://job-boards.greenhouse.io/trace3/jobs/8346702",
-      "https://job-boards.greenhouse.io/trace3/jobs/8346776"
+      "https://job-boards.greenhouse.io/trace3/jobs/8346776",
+      "https://job-boards.greenhouse.io/trace3/jobs/8386882"
     ]
   },
   {
@@ -49543,7 +49579,8 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/triumph-arcade",
     "urls": [
       "https://jobs.ashbyhq.com/triumph-arcade/636256cc-b822-4ec6-963e-ead38ad49366",
-      "https://jobs.ashbyhq.com/triumph-arcade/714a3b99-8a7d-4f0a-9944-d2d0cbb8bbca"
+      "https://jobs.ashbyhq.com/triumph-arcade/714a3b99-8a7d-4f0a-9944-d2d0cbb8bbca",
+      "https://jobs.ashbyhq.com/triumph-arcade/8863c7e0-60a5-4775-b15b-d0e46329a230"
     ]
   },
   {
@@ -49813,7 +49850,8 @@
       "https://job-boards.greenhouse.io/twitch/jobs/8929545002",
       "https://job-boards.greenhouse.io/twitch/jobs/8931343002",
       "https://job-boards.greenhouse.io/twitch/jobs/8931345002",
-      "https://job-boards.greenhouse.io/twitch/jobs/8934067002"
+      "https://job-boards.greenhouse.io/twitch/jobs/8934067002",
+      "https://job-boards.greenhouse.io/twitch/jobs/8943553002"
     ]
   },
   {
@@ -52799,6 +52837,16 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/xantium/jobs",
     "urls": []
+  },
+  {
+    "name": "xboxgaming",
+    "ats": "workday",
+    "identifier": "xboxgaming-external",
+    "domain": "https://xboxgaming.wd1.myworkdayjobs.com/External",
+    "page": "https://xboxgaming.wd1.myworkdayjobs.com/wday/cxs/xboxgaming/External/jobs",
+    "urls": [
+      "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Middleton/Activision-2027-Summer-Internships---Game-Systems-Engineering_R028106"
+    ]
   },
   {
     "name": "xcelenergy",
