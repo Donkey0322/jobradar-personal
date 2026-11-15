@@ -1,5 +1,5 @@
 {
-  "commit": "8b0be12c07efb4e7af57696f928b6ef3a07ebc63",
+  "commit": "a4b163e1987d8bded1eb6f65e87c7e650950fc16",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -695,7 +695,7 @@
       "country": "USA",
       "waitedSince": "2026-11-12T16:50:23.383Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:4b6b2672-992a-4739-ac4b-364d59756631",
@@ -714,6 +714,15 @@
             "stage": "ai",
             "reason": "invalid"
           }
+        },
+        {
+          "id": "self:5a8500b5-d445-44e5-b788-6779c96f250f",
+          "at": "2026-11-15T22:55:39.463Z",
+          "round": 0,
+          "failure": {
+            "stage": "ai",
+            "reason": "invalid"
+          }
         }
       ]
     },
@@ -725,7 +734,22 @@
       "country": "Remote",
       "waitedSince": "2026-11-12T21:15:49.877Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:dd2a1d6f-611d-4a4d-8be9-d4cca314e6d1",
+          "at": "2026-11-15T22:55:39.463Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Apply.workable.com",
@@ -735,7 +759,22 @@
       "country": "Remote",
       "waitedSince": "2026-11-12T21:15:49.878Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:337ac160-bc80-4df7-9f12-1bcabfe6def5",
+          "at": "2026-11-15T22:55:39.463Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Bask Health",
@@ -745,17 +784,22 @@
       "country": "USA",
       "waitedSince": "2026-11-12T21:15:49.878Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "Intermediate Communications Systems Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R118046?ph_id=R118046",
-      "location": "Bedford, Massachusetts, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-12T22:46:37.925Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:f67e21a1-4157-4676-809e-6b299c989750",
+          "at": "2026-11-15T22:55:39.463Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Lnw",
