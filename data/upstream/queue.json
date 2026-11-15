@@ -695,7 +695,18 @@
       "country": "USA",
       "waitedSince": "2026-11-12T16:50:23.383Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:4b6b2672-992a-4739-ac4b-364d59756631",
+          "at": "2026-11-15T17:49:04.038Z",
+          "round": 0,
+          "failure": {
+            "stage": "ai",
+            "reason": "invalid"
+          }
+        }
+      ]
     },
     {
       "company": "Apply.workable.com",
