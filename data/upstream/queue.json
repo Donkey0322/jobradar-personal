@@ -705,6 +705,15 @@
             "stage": "ai",
             "reason": "invalid"
           }
+        },
+        {
+          "id": "self:abb02602-0c11-4585-a3c6-74948c6b063f",
+          "at": "2026-11-15T19:30:43.796Z",
+          "round": 0,
+          "failure": {
+            "stage": "ai",
+            "reason": "invalid"
+          }
         }
       ]
     },
