@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,385 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,295 opportunities
 
 ## The List 🚴‍♂️
 
@@ -320,7 +320,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,385 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,295 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-15T02:18:36.273Z</code>
+      🕒 Last updated <code>2026-11-15T04:40:04.587Z</code>
     </span>
   </p>
 </div>
