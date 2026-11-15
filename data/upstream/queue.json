@@ -670,7 +670,22 @@
       "country": "USA",
       "waitedSince": "2026-11-12T03:50:08.847Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:44bfaf7e-27a2-4d27-b1ae-d0bbb41af132",
+          "at": "2026-11-15T04:39:30.888Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Microsoft",

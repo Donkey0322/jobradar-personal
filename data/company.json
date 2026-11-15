@@ -31832,8 +31832,8 @@
     "name": "manulife",
     "ats": "workday",
     "identifier": "manulife-mfcjh_adminjobs",
-    "domain": "https://manulife.wd3.myworkdayjobs.com/MFCJH_adminJobs",
-    "page": "https://manulife.wd3.myworkdayjobs.com/wday/cxs/manulife/MFCJH_adminJobs/jobs",
+    "domain": "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs",
+    "page": "https://manulife.wd3.myworkdayjobs.com/wday/cxs/manulife/mfcjh_adminjobs/jobs",
     "urls": [
       "https://manulife.wd3.myworkdayjobs.com/MFCJH_adminJobs/job/Boston-Massachusetts/Spring-Co-op-2027---Software-Engineering-Intern_JR26110405",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/Boston-Massachusetts/Associate-Full--Stack-Software-Engineer_JR26030584-3",
@@ -33733,7 +33733,7 @@
     "ats": "eightfold",
     "identifier": "mlp",
     "domain": "mlp.com",
-    "page": "https://career.mlp.com/api/pcsx/search?domain=mlp.com",
+    "page": "https://career.mlp.com/api/apply/v2/jobs?domain=mlp.com",
     "urls": [
       "https://career.mlp.com/careers/job/755957778821",
       "https://career.mlp.com/careers/job/755957778848",
@@ -34948,7 +34948,7 @@
     "ats": "eightfold",
     "identifier": "netapp",
     "domain": "netapp.com",
-    "page": "https://netapp.eightfold.ai/api/pcsx/search?domain=netapp.com",
+    "page": "https://netapp.eightfold.ai/api/apply/v2/jobs?domain=netapp.com",
     "urls": [
       "https://netapp.eightfold.ai/careers/job/45497201",
       "https://netapp.eightfold.ai/careers/job/45498081",
@@ -35300,7 +35300,7 @@
     "ats": "eightfold",
     "identifier": "newyorklife",
     "domain": "newyorklife.com",
-    "page": "https://careers.newyorklife.com/api/pcsx/search?domain=newyorklife.com",
+    "page": "https://careers.newyorklife.com/api/apply/v2/jobs?domain=newyorklife.com",
     "urls": [
       "https://careers.newyorklife.com/careers/job/45404606?domain=newyorklife.com&8fold_id=45404606",
       "https://careers.newyorklife.com/careers?location=New+York%2C+New+York%2C+US&pid=30591072&domain=newyorklife.com&sort_by=relevance",
