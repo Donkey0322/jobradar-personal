@@ -570,7 +570,22 @@
       "country": "Remote",
       "waitedSince": "2026-11-12T02:18:11.848Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:a935742f-31bd-45f3-8482-e0ae5761c097",
+          "at": "2026-11-15T02:18:29.990Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Apply.workable.com",
@@ -580,7 +595,22 @@
       "country": "Remote",
       "waitedSince": "2026-11-12T02:18:11.848Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:3531ab9f-2952-4557-952b-fc6cbed6b5f7",
+          "at": "2026-11-15T02:18:29.990Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Bask Health",
@@ -590,7 +620,22 @@
       "country": "USA",
       "waitedSince": "2026-11-12T02:18:11.849Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:79bca4a4-f101-4410-a2e5-04da724e7f76",
+          "at": "2026-11-15T02:18:29.990Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Bask Health",
@@ -600,7 +645,22 @@
       "country": "USA",
       "waitedSince": "2026-11-12T02:18:11.849Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:a3a94e07-6a03-440c-bc9d-5e7d439e5753",
+          "at": "2026-11-15T02:18:29.990Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "BMW Group",
