@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,295 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,298 opportunities
 
 ## The List 🚴‍♂️
 
@@ -109,10 +109,31 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Software Engineer - Early Career</td>
+      <td width="180" align="left" valign="top">Highlands Ranch, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477644034?domain=lockheedmartin.com&amp;8fold_id=996477644034"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Americas-cookmedical</td>
       <td width="420" align="left" valign="top">Software Engineer 1, Full-Stack<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Bloomington, IN</td>
       <td width="120" align="left" valign="top"><a href="https://americas-cookmedical.icims.com/jobs/20874/software-engineer-1%2c-full-stack/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">HPE</td>
+      <td width="420" align="left" valign="top">HPC &amp; AI Performance Engineer</td>
+      <td width="180" align="left" valign="top">Bloomington, MN</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1206826?ph_id=1206826"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Computer Task Group</td>
+      <td width="420" align="left" valign="top">Software Engineer I</td>
+      <td width="180" align="left" valign="top">Buffalo, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.ctg.com/jobs/18333?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 16</td>
     </tr>
     <tr>
@@ -297,30 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://wd1.myworkdaysite.com/recruiting/rlicorp/RLI_Corp_Careers/job/Peoria-IL/Associate-Software-Engineer--Net----Peoria--IL-or-Tempe--AZ_R1864"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 12</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Affirm</td>
-      <td width="420" align="left" valign="top">Software Engineer 1 - Backend - Continuous Delivery</td>
-      <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/affirm/jobs/8181183003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 12</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lockheedmartin</td>
-      <td width="420" align="left" valign="top">Software Engineer Asc - Early Career</td>
-      <td width="180" align="left" valign="top">King of Prussia, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477120212?domain=lockheedmartin.com&amp;8fold_id=996477120212"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 12</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Nuro</td>
-      <td width="420" align="left" valign="top">Systems Engineering, New Grad 2027</td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://nuro.ai/careersitem?gh_jid=8360415"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 12</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,295 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,298 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-16T17:05:08.281Z</code>
+      🕒 Last updated <code>2026-11-16T22:17:04.130Z</code>
     </span>
   </p>
 </div>

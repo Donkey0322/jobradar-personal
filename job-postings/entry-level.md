@@ -14,10 +14,31 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Software Engineer - Early Career</td>
+      <td width="180" align="left" valign="top">Highlands Ranch, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477644034?domain=lockheedmartin.com&amp;8fold_id=996477644034"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Americas-cookmedical</td>
       <td width="420" align="left" valign="top">Software Engineer 1, Full-Stack<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Bloomington, IN</td>
       <td width="120" align="left" valign="top"><a href="https://americas-cookmedical.icims.com/jobs/20874/software-engineer-1%2c-full-stack/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">HPE</td>
+      <td width="420" align="left" valign="top">HPC &amp; AI Performance Engineer</td>
+      <td width="180" align="left" valign="top">Bloomington, MN</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1206826?ph_id=1206826"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Computer Task Group</td>
+      <td width="420" align="left" valign="top">Software Engineer I</td>
+      <td width="180" align="left" valign="top">Buffalo, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.ctg.com/jobs/18333?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 16</td>
     </tr>
     <tr>
@@ -2092,31 +2113,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 27</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="../assets/featured-badges/databricks.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer - New Grad (2027 Start)</td>
-      <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=6865698002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
-      <td width="420" align="left" valign="top">Software Development Engineer FTE, AWS Builder Center Event - 2027 (US)</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rilla</td>
-      <td width="420" align="left" valign="top">New Grad: Software Engineer</td>
-      <td width="180" align="left" valign="top">Brooklyn, New York</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,295 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,298 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-16T17:05:08.281Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-16T22:17:04.130Z</code></sub>
