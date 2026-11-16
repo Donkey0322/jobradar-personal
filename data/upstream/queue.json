@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "cb33db050105f49688fd1cee129e6861a37e4415",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -998,16 +998,6 @@
       "location": "Cupertino",
       "country": "USA",
       "waitedSince": "2026-11-14T06:12:12.012Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Spacex",
-      "role": "Full Stack Software Engineer (Starlink)",
-      "link": "https://boards.greenhouse.io/spacex/jobs/8943586002?gh_jid=8943586002",
-      "location": "Palo Alto, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-15T23:30:30.299Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
