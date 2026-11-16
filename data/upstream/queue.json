@@ -1,5 +1,5 @@
 {
-  "commit": "8880a0d9bd5eb3df768e30c5b049f120ad2d5684",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -998,6 +998,626 @@
       "location": "Cupertino",
       "country": "USA",
       "waitedSince": "2026-11-14T06:12:12.012Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer, AWS Agentic AI",
+      "link": "https://amazon.jobs/en/jobs/10588677",
+      "location": "US, WA, Bellevue",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.267Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer, Trainium Systems",
+      "link": "https://amazon.jobs/en/jobs/10606081",
+      "location": "US, CA, Cupertino",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.267Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer, AWS Vulnerability Management (AVM)",
+      "link": "https://amazon.jobs/en/jobs/10533656",
+      "location": "US, TX, Austin",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.267Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer, AWS Vulnerability Management (AVM)",
+      "link": "https://amazon.jobs/en/jobs/10503995",
+      "location": "US, TX, Austin",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.267Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Machine Learning Engineer, CreativeFlux, AI Studios",
+      "link": "https://amazon.jobs/en/jobs/10605453",
+      "location": "US, NY, New York",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.268Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer, Live and Linear Catalog",
+      "link": "https://amazon.jobs/en/jobs/10605448",
+      "location": "US, WA, Seattle",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.268Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Anduril Industries",
+      "role": "Chief Engineer, Intelligence Systems",
+      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5294564007?gh_jid=5294564007",
+      "location": "Reston, Virginia, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.268Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Anduril Industries",
+      "role": "Mission Software Engineer",
+      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5296197007?gh_jid=5296197007",
+      "location": "Waltham, Massachusetts, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.268Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Anduril Industries",
+      "role": "Platform Engineer",
+      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5295936007?gh_jid=5295936007",
+      "location": "Washington, District of Columbia, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.269Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Anduril Industries",
+      "role": "Platform Engineer",
+      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5295246007?gh_jid=5295246007",
+      "location": "Costa Mesa, California, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.269Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Arcfield",
+      "role": "SIGINT Mission Systems Engineer",
+      "link": "https://careers.arcfield.com/jobs/8934?icims=1",
+      "location": "Chantilly, Virginia",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.269Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Arcfield",
+      "role": "Systems Engineer IV",
+      "link": "https://careers.arcfield.com/jobs/8398?icims=1",
+      "location": "Chantilly, Virginia",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.270Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Avathon",
+      "role": "Forward Deployed Engineering – Data Scientist",
+      "link": "https://avathon.com/company/careers-job-listing/?gh_jid=4754539005",
+      "location": "Pleasanton, California, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.270Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Base-power",
+      "role": "Software Engineer, Systems Integration",
+      "link": "https://jobs.ashbyhq.com/base-power/d5346efc-51b9-44f8-89f6-41f6178825c9",
+      "location": "Austin, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.270Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Berkley",
+      "role": "Software Development Engineer",
+      "link": "https://careers-berkley.icims.com/jobs/15313/software-development-engineer/job",
+      "location": "Unsure",
+      "country": "Unsure",
+      "waitedSince": "2026-11-16T17:01:33.270Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Caci",
+      "role": "Cloud Engineer",
+      "link": "https://searchcareers.caci.com/careers/job/1443154566137?domain=caci.com&8fold_id=1443154566137",
+      "location": "St. Louis, MO, US",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.271Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Caci",
+      "role": "Front-end Software Developer",
+      "link": "https://searchcareers.caci.com/careers/job/1443154566451?domain=caci.com&8fold_id=1443154566451",
+      "location": "Denver, CO, US",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.271Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cisco",
+      "role": "Data Analyst, Product Adoption & Insights",
+      "link": "https://careers.cisco.com/global/en/job/2029359?ph_id=2029359",
+      "location": "San Francisco, California, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.271Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cisco",
+      "role": "Software Engineer",
+      "link": "https://careers.cisco.com/global/en/job/2028825?ph_id=2028825",
+      "location": "Milpitas, California, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.271Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cisco",
+      "role": "Software Engineer",
+      "link": "https://careers.cisco.com/global/en/job/2028744?ph_id=2028744",
+      "location": "Milpitas, California, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.272Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "HPE",
+      "role": "HPC & AI Performance Engineer",
+      "link": "https://careers.hpe.com/us/en/job/1206826?ph_id=1206826",
+      "location": "San Jose, California, N/A",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.272Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cirrus",
+      "role": "AI Platform Engineer",
+      "link": "https://jobs.eu.lever.co/cirrus/29d39dda-5b26-4b06-afc8-34f139a8f35c",
+      "location": "Austin, Texas",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.272Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Clarity Innovations",
+      "role": "Chief Engineer; Data Engineering",
+      "link": "https://job-boards.greenhouse.io/clarityinnovates/jobs/5289389007",
+      "location": "Herndon Virginia; Columbia Maryland ",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.273Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Computer Task Group",
+      "role": "Software Engineer I",
+      "link": "https://careers.ctg.com/jobs/18334?icims=1",
+      "location": "Buffalo, New York",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.273Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Computer Task Group",
+      "role": "Software Engineer I",
+      "link": "https://careers.ctg.com/jobs/18333?icims=1",
+      "location": "Buffalo, New York",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.273Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Emerson",
+      "role": "Software Developer",
+      "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008546",
+      "location": "Round Rock, TX, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.273Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "First Citizens Bank",
+      "role": "Software Engineer Consultant-Appian (Remote-Raleigh NC, Dallas TX, Phoenix AZ)",
+      "link": "https://firstcitizens.jibeapply.com/jobs/34716?icims=1",
+      "location": "Raleigh, North Carolina; Raleigh, North Carolina",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.274Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "First Citizens Bank",
+      "role": "Pega AI CDH - Software Engineer Consultant- Remote (NC, AZ, FL, TX)",
+      "link": "https://firstcitizens.jibeapply.com/jobs/34510?icims=1",
+      "location": "Raleigh, North Carolina; Raleigh, North Carolina",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.274Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Gdms",
+      "role": "Safety/Surety Systems Engineer",
+      "link": "https://careers-gdms.icims.com/jobs/81373/safety-surety-systems-engineer/job",
+      "location": "Unsure",
+      "country": "Unsure",
+      "waitedSince": "2026-11-16T17:01:33.274Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Goaly",
+      "role": "Founding Forward Deployed Engineer (FDE)",
+      "link": "https://jobs.ashbyhq.com/goaly/ab5ced25-f374-47f4-910e-d9e0bb9f1616",
+      "location": "Palo Alto, CA, USA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.275Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Google",
+      "role": "Quantum Device Design Infrastructure Engineer, Quantum AI",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/140698496817603270-quantum-device-design-infrastructure-engineer-quantum-ai?sort_by=date&page=1",
+      "location": "Goleta, CA, USA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.275Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Google",
+      "role": "Software Engineer, Home and Health Infrastructure, Special Projects",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/143282246063661766-software-engineer-home-and-health-infrastructure-special-projects?sort_by=date&page=5",
+      "location": "Los Angeles, CA, USA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.275Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Google",
+      "role": "Privacy Engineer, Cloud Applied Privacy Engineering Solutions",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/73310700461531846-privacy-engineer-cloud-applied-privacy-engineering-solutions?sort_by=date&page=6",
+      "location": "San Francisco, CA, USA; Sunnyvale, CA, USA; +3 more; +2 more",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.276Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Google",
+      "role": "AI Solution Security Engineer",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/89793616712475334-ai-solution-security-engineer?sort_by=date&page=8",
+      "location": "Chicago, IL, USA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.276Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Google",
+      "role": "Engineering Analyst, AI Answers, Google Search",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/101239257879716550-engineering-analyst-ai-answers-google-search?sort_by=date&page=8",
+      "location": "Seattle, WA, USA; Atlanta, GA, USA; +3 more; +2 more",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.276Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Heartflow",
+      "role": "Software Engineer – Frontend",
+      "link": "https://job-boards.greenhouse.io/heartflowinc/jobs/6262467004",
+      "location": "San Francisco, California",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.277Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "HF Sinclair",
+      "role": "Distributed Controls Systems Monitoring Analyst",
+      "link": "https://careers.hfsinclair.com/job/Dallas-Distributed-Controls-Systems-Monitoring-Analyst-TX-75219/1421772900/",
+      "location": "Dallas, TX, US, 75219",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.277Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "BAE Systems",
+      "role": "Test Engineering - Software Engineer (Hybrid)",
+      "link": "https://jobs.baesystems.com/global/en/job/132673BR?ph_id=132673BR",
+      "location": "Cedar Rapids, Iowa, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.277Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "role": "Engineer/Analyst for ISRT Complex Systems",
+      "link": "https://careers.jhuapl.edu/jobs/60920?icims=1",
+      "location": "Laurel, Maryland",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.278Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "role": "Formal Verification and Software Assurance Engineer",
+      "link": "https://careers.jhuapl.edu/jobs/60870?icims=1",
+      "location": "Laurel, Maryland",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.278Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3harris",
+      "role": "Specialist, System Integration and Test Engineering",
+      "link": "https://careers.l3harris.com/job/palm-bay/specialist-system-integration-and-test-engineering/4832/103296105488",
+      "location": "Palm Bay, Brevard, FL",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.278Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lambda",
+      "role": "Software Engineer - Data Center Tooling",
+      "link": "https://jobs.ashbyhq.com/Lambda/08addfcf-1466-4bea-a72e-07fb5b29fb97",
+      "location": "San Francisco Office (Fremont St)",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.282Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Software Engineer - Early Career",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477644034?domain=lockheedmartin.com&8fold_id=996477644034",
+      "location": "Highlands Ranch, CO, Houston, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.282Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Software Engineer Stf - E4",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996476554987?domain=lockheedmartin.com&8fold_id=996476554987",
+      "location": "Sunnyvale, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.282Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Systems Engineering Field Tech Support Sr - E3",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996476581100?domain=lockheedmartin.com&8fold_id=996476581100",
+      "location": "Las Vegas, NV",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.282Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Data Engineer Stf - E4",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477928324?domain=lockheedmartin.com&8fold_id=996477928324",
+      "location": "Lexington, KY",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.283Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Sr Systems Integration & Test Engineer",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477012851?domain=lockheedmartin.com&8fold_id=996477012851",
+      "location": "Archbald, PA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.283Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Lockheedmartin",
+      "role": "Software Engineer Sr - E3",
+      "link": "https://lockheedmartin.eightfold.ai/careers/job/996476273927?domain=lockheedmartin.com&8fold_id=996476273927",
+      "location": "Sunnyvale, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.283Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Mintive",
+      "role": "Software Engineer",
+      "link": "https://jobs.ashbyhq.com/Mintive/ad7b0ef8-a8f2-4f47-b7f2-01063179d48a",
+      "location": "San Mateo, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.283Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "NetApp, Inc.",
+      "role": "Software Engineer- Systems Architecture (US)",
+      "link": "https://jobs.netapp.com/job/Software-Engineer-Systems-Architecture/1450880300/",
+      "location": "",
+      "country": "Unsure",
+      "waitedSince": "2026-11-16T17:01:33.283Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Netic",
+      "role": "Software Engineer, Product",
+      "link": "https://jobs.ashbyhq.com/netic/2ae2cae2-03cb-4bc7-986a-a93de10f46df",
+      "location": "San Francisco",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.284Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Netic",
+      "role": "Software Engineer, Infrastructure",
+      "link": "https://jobs.ashbyhq.com/netic/178a50d3-f3e8-4031-829f-ce6d6f3ed245",
+      "location": "San Francisco",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.284Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Openai",
+      "role": "Full Stack Software Engineer, Travel",
+      "link": "https://jobs.ashbyhq.com/openai/2320fe69-df26-4d1d-ada6-d1a46c0e68a1",
+      "location": "San Francisco",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.284Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Peraton",
+      "role": "Software Developer",
+      "link": "https://careers-peraton.icims.com/jobs/173674/software-developer/job",
+      "location": "Unsure",
+      "country": "Unsure",
+      "waitedSince": "2026-11-16T17:01:33.284Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Replit",
+      "role": "Software Engineer, Enterprise",
+      "link": "https://jobs.ashbyhq.com/replit/b7f12834-78d2-424d-bf83-0c942815fbf7",
+      "location": "Foster City, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.284Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Saronic",
+      "role": "IT Systems Engineer",
+      "link": "https://jobs.ashbyhq.com/saronic/4b601575-99ba-4a5e-962f-d884bb3a85ac",
+      "location": "Austin, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.285Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "StockX",
+      "role": "Software Engineer (Front End)",
+      "link": "https://job-boards.greenhouse.io/stockx/jobs/8942720002",
+      "location": "Detroit, MI",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.285Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Super Micro Computer",
+      "role": "Service Engineer (Data Center)",
+      "link": "https://jobs.supermicro.com/job/Memphis-Service-Engineer-%28Data-Center%29-Tenn/1403119000/",
+      "location": "Memphis, Tennessee, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.285Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Unitedhealthgroup",
+      "role": "Data Engineer - Remote",
+      "link": "https://careers.unitedhealthgroup.com/job/eden-prairie/data-engineer-remote/34088/103376759296",
+      "location": "Eden Prairie, Minnesota",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.285Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Westinghouse Electric Company, LLC",
+      "role": "Business System Analyst",
+      "link": "http://careers.westinghousenuclear.com/job/OTHER-Business-System-Analyst-MA-0/1412094300/",
+      "location": "OTHER, MA, US, 0",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.285Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "X",
+      "role": "Data Scientist, Bellwether, X",
+      "link": "https://x.company/careers/8944784002?gh_jid=8944784002",
+      "location": "Mountain View, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.286Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SpaceXSI",
+      "role": "Software Engineer, Super Intelligence",
+      "link": "https://job-boards.greenhouse.io/xai/jobs/5295932007",
+      "location": "Palo Alto, CA; Seattle, WA",
+      "country": "USA",
+      "waitedSince": "2026-11-16T17:01:33.286Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
