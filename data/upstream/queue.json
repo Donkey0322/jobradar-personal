@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "95b36c876b61d4e54132b67d2fea84b9cda15101",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -899,56 +899,6 @@
     },
     {
       "company": "Apple",
-      "role": "Performance Modeling Software Engineer, Platform Architecture",
-      "link": "https://jobs.apple.com/en-us/details/200695049-0157/performance-modeling-software-engineer-platform-architecture?team=HRDWR",
-      "location": "Austin",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.008Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Performance Modeling Software Engineer, Platform Architecture",
-      "link": "https://jobs.apple.com/en-us/details/200695049-0836/performance-modeling-software-engineer-platform-architecture?team=HRDWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.008Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Performance Modeling Software Engineer, Platform Architecture",
-      "link": "https://jobs.apple.com/en-us/details/200695049-0505/performance-modeling-software-engineer-platform-architecture?team=HRDWR",
-      "location": "Beaverton",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.009Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Performance Modeling Software Engineer, Platform Architecture",
-      "link": "https://jobs.apple.com/en-us/details/200695049-2907/performance-modeling-software-engineer-platform-architecture?team=HRDWR",
-      "location": "Orlando",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.009Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Prototyping Systems Engineer - Platform Architecture",
-      "link": "https://jobs.apple.com/en-us/details/200695036-0836/prototyping-systems-engineer-platform-architecture?team=HRDWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.009Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
       "role": "Machine Learning Research Engineer, Fitness Intelligence – Watch Software",
       "link": "https://jobs.apple.com/en-us/details/200694963-0836/machine-learning-research-engineer-fitness-intelligence-watch-software?team=SFTWR",
       "location": "Cupertino",
@@ -1184,46 +1134,6 @@
       "location": "2 Locations",
       "country": "Unsure",
       "waitedSince": "2026-11-17T00:49:14.534Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Silna Health",
-      "role": "AI Deployment Analyst",
-      "link": "https://jobs.ashbyhq.com/silnahealth.com/61222b3c-70fd-4e80-8903-468d96070833",
-      "location": "New York, NY",
-      "country": "USA",
-      "waitedSince": "2026-11-17T05:06:09.927Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Crosscountry-consulting",
-      "role": "New Grad 2027: Junior Forward Deployed Software Engineer",
-      "link": "https://jobs.lever.co/crosscountry-consulting/5f8a920b-77ed-4200-b37d-1f5d68c1bc21",
-      "location": "Philadelphia, PA",
-      "country": "USA",
-      "waitedSince": "2026-11-17T05:06:09.927Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Wyetech",
-      "role": "Software Engineer 0 or 1",
-      "link": "https://wyetech.applytojob.com/apply/7d200RlbqP/Software-Engineer-Skill-Level-0-Or-1",
-      "location": "United States",
-      "country": "USA",
-      "waitedSince": "2026-11-17T05:06:09.927Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Laborie Medical Technologies",
-      "role": "Software Engineer 1",
-      "link": "https://jobs.jobvite.com/laborie/job/oQOXAfwV?nl=1&nl=1&fr=false",
-      "location": "Portsmouth, NH",
-      "country": "USA",
-      "waitedSince": "2026-11-17T05:06:09.927Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     },
