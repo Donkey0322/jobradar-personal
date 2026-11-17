@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "batches/x7lworcp05xrb3bs5o7m8wsimojkwkukfm3s",
+    "submittedAt": "2026-11-17T07:50:29.914Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Amazon",
+        "role": "Snr AI Strategist, Generative AI Innovation Center, Quick Deployment Engineering - QDE",
+        "link": "https://amazon.jobs/en/jobs/10606812",
+        "location": "SG, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "AMD",
+        "role": "AI Software Development Engineer",
+        "link": "https://careers.amd.com/jobs/97680?icims=1",
+        "location": "Taipei, Taiwan",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Optiver",
+        "role": "Data Center Engineer",
+        "link": "https://www.optiver.com/join-us/jobs/8591185002/?gh_jid=8591185002",
+        "location": "Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
