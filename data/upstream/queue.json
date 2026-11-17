@@ -1,5 +1,5 @@
 {
-  "commit": "95b36c876b61d4e54132b67d2fea84b9cda15101",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -899,56 +899,6 @@
     },
     {
       "company": "Apple",
-      "role": "Machine Learning Research Engineer, Fitness Intelligence – Watch Software",
-      "link": "https://jobs.apple.com/en-us/details/200694963-0836/machine-learning-research-engineer-fitness-intelligence-watch-software?team=SFTWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.009Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Performance Modeling Software Engineer, Platform Architecture",
-      "link": "https://jobs.apple.com/en-us/details/200695045-0836/performance-modeling-software-engineer-platform-architecture?team=HRDWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.009Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Core Audio Software Engineer",
-      "link": "https://jobs.apple.com/en-us/details/200694125-0836/core-audio-software-engineer?team=SFTWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.009Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Engineer - Distributed Data Systems",
-      "link": "https://jobs.apple.com/en-us/details/200694753-3543/software-engineer-distributed-data-systems?team=SFTWR",
-      "location": "San Diego",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.010Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Development Engineer, Enterprise and Education, CoreOS",
-      "link": "https://jobs.apple.com/en-us/details/200694773-0836/software-development-engineer-enterprise-and-education-coreos?team=SFTWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.010Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
       "role": "AR/VR Applications Engineer - visionOS Spatial Media, Vision Products Software",
       "link": "https://jobs.apple.com/en-us/details/200694936-3956/ar-vr-applications-engineer-visionos-spatial-media-vision-products-software?team=SFTWR",
       "location": "Sunnyvale",
@@ -1144,6 +1094,266 @@
       "location": "St Inigoes, MD",
       "country": "USA",
       "waitedSince": "2026-11-17T05:06:09.928Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer, Gen AI, Connect",
+      "link": "https://amazon.jobs/en/jobs/10562245",
+      "location": "US, WA, Seattle",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.489Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Systems Development Engineer, DC Robotics, Data Center Robotics",
+      "link": "https://amazon.jobs/en/jobs/10606820",
+      "location": "US, WA, Seattle",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.489Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer, NetOS Observability",
+      "link": "https://amazon.jobs/en/jobs/10606779",
+      "location": "US, NC, Raleigh",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.489Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Ambrook",
+      "role": "Software Engineer, Product",
+      "link": "https://jobs.ashbyhq.com/ambrook/4e463062-c104-4349-b7c4-14825f3cc44b",
+      "location": "New York",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.489Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cisco",
+      "role": "Software Engineering Technical Leader – Secure Workload",
+      "link": "https://careers.cisco.com/global/en/job/2031768?ph_id=2031768",
+      "location": "Baton Rouge, Louisiana, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.489Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "HPE",
+      "role": "Cloud Developer",
+      "link": "https://careers.hpe.com/us/en/job/1217322?ph_id=1217322",
+      "location": "Spring, Texas, 77389-1767",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.490Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Clera",
+      "role": "Founding AI Engineer, Agents",
+      "link": "https://jobs.ashbyhq.com/Clera/2a284b73-08ae-4378-a717-646a74c6240f",
+      "location": "San Francisco",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.490Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Clera",
+      "role": "Software Engineer",
+      "link": "https://jobs.ashbyhq.com/Clera/65880e46-4822-449b-87e6-3ca8f93d5784",
+      "location": "San Francisco",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.490Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Clera",
+      "role": "Forward Deployed Engineer",
+      "link": "https://jobs.ashbyhq.com/Clera/75761a3d-6df6-4cbc-ad13-0fa127db9cad",
+      "location": "New York",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.490Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Clera",
+      "role": "Founding Applied AI Engineer",
+      "link": "https://jobs.ashbyhq.com/Clera/321b13c0-4622-4ca3-ba2d-0d696d0f13fc",
+      "location": "San Francisco",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.490Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Clera",
+      "role": "Founding Data Engineer",
+      "link": "https://jobs.ashbyhq.com/Clera/45a0be14-0f13-4efb-8596-011758aac3f7",
+      "location": "San Francisco",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.490Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Clera",
+      "role": "Founding Software Engineer",
+      "link": "https://jobs.ashbyhq.com/Clera/82d78c4d-4efa-4a57-bb7f-caef93bdcedd",
+      "location": "San Francisco",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.491Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Clera",
+      "role": "Founding Full-Stack Engineer",
+      "link": "https://jobs.ashbyhq.com/Clera/ea5b2346-51f4-4fd9-800b-5cda50702070",
+      "location": "New York",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.491Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Keysight Technologies",
+      "role": "Software Engineer–Infiniium Oscilloscope Software Development",
+      "link": "https://jobs.keysight.com/jobs/56642?icims=1",
+      "location": "Colorado Springs, Colorado",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.491Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3harris",
+      "role": "Specialist, Systems Engineering",
+      "link": "https://careers.l3harris.com/job/forest/specialist-systems-engineering/4832/103412645600",
+      "location": "Forest, VA",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.491Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3harris",
+      "role": "Specialist, Systems Engineer - Reliability, Availability, Maintainability, Testability, and Safety",
+      "link": "https://careers.l3harris.com/job/melbourne/specialist-systems-engineer-reliability-availability-maintainability-testability-and-safety/4832/103404848992",
+      "location": "Multiple Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-17T07:49:52.491Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3harris",
+      "role": "Scientist, Systems Engineer",
+      "link": "https://careers.l3harris.com/job/palm-bay/scientist-systems-engineer/4832/103214384400",
+      "location": "Palm Bay, Brevard, FL",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.491Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3Harris",
+      "role": "Specialist, Systems Engineering",
+      "link": "https://jobs.l3harris.com/job/Forest-Specialist%2C-Systems-Engineering-VA-24551/1451214700/",
+      "location": "Forest, VA, US, 24551",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.491Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Paypal",
+      "role": "Sr Software Engineer, Venmo Platform",
+      "link": "https://paypal.eightfold.ai/careers/job/274922260545?domain=paypal.com&8fold_id=274922260545",
+      "location": "San Jose, California, United States of America, Austin, Texas, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.491Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Roberthalf",
+      "role": "Business Systems Analyst IV Customer Engagement AI",
+      "link": "https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Business-Systems-Analyst-IV-Customer-Engagement-AI_JR-262226",
+      "location": "SAN RAMON",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.492Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SAIC",
+      "role": "Chief Systems Engineer",
+      "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2619173",
+      "location": "Chantilly, VA, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.492Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Starfish",
+      "role": "Missile Defense Systems Engineer/Analyst",
+      "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Redstone-Arsenal-AL/Missile-Defense-Systems-Engineer-Analyst_R2196",
+      "location": "Redstone Arsenal, AL",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.492Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Westinghouse Electric Company, LLC",
+      "role": "Supervisor - Cloud Engineering",
+      "link": "http://careers.westinghousenuclear.com/job/Cranberry-Township-Supervisor-Cloud-Engineering-NC/1360658600/",
+      "location": "Cranberry Township, US",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.492Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Wyetech",
+      "role": "Software Engineer 1",
+      "link": "https://wyetech.applytojob.com/apply/40XyR1VlJl",
+      "location": "Annapolis Junction, MD",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.493Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SpaceXSI",
+      "role": "Software Engineer, Ads Serving",
+      "link": "https://job-boards.greenhouse.io/xai/jobs/5297311007",
+      "location": "Palo Alto, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.493Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SpaceXSI",
+      "role": "Software Engineer, Safety",
+      "link": "https://job-boards.greenhouse.io/xai/jobs/5297316007",
+      "location": "Palo Alto, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-17T07:49:52.493Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
