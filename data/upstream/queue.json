@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "fae5bb891e91406b2b8bee5f31b2d2904ab8023b",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -978,26 +978,6 @@
       "status": "waiting"
     },
     {
-      "company": "Jobgether",
-      "role": "New Grad 2027: Software Engineer, Open Source and Linux",
-      "link": "https://jobs.lever.co/jobgether/f4b092a6-63f4-4209-897e-eb386e4aa422",
-      "location": "Remote",
-      "country": "Remote",
-      "waitedSince": "2026-11-17T16:11:23.074Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Kraun Electric",
-      "role": "Junior Software Developer",
-      "link": "https://kraunelectric.bamboohr.com/careers/98/",
-      "location": "St. Catharines, ON, Canada",
-      "country": "Canada",
-      "waitedSince": "2026-11-17T16:11:23.074Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Capitalone",
       "role": "Full-stack Engineer 4",
       "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1005999-2",
@@ -1254,16 +1234,6 @@
       "location": "Plano, TX",
       "country": "USA",
       "waitedSince": "2026-11-17T17:36:53.580Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Recruiting.paylocity.com",
-      "role": "Junior Developer - AI Team",
-      "link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4669574",
-      "location": "Nashville, TN",
-      "country": "USA",
-      "waitedSince": "2026-11-17T21:58:41.213Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
