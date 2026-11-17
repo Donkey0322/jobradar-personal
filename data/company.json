@@ -4753,7 +4753,9 @@
       "https://boards.greenhouse.io/andurilindustries/jobs/5295297007?gh_jid=5295297007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5295391007?gh_jid=5295391007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5295936007?gh_jid=5295936007",
-      "https://boards.greenhouse.io/andurilindustries/jobs/5296197007?gh_jid=5296197007"
+      "https://boards.greenhouse.io/andurilindustries/jobs/5296197007?gh_jid=5296197007",
+      "https://boards.greenhouse.io/andurilindustries/jobs/5296309007?gh_jid=5296309007",
+      "https://boards.greenhouse.io/andurilindustries/jobs/5298280007?gh_jid=5298280007"
     ]
   },
   {
@@ -6390,7 +6392,8 @@
       "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45001",
       "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45415",
       "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45435",
-      "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45598"
+      "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45598",
+      "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45986"
     ]
   },
   {
@@ -6711,6 +6714,16 @@
       "https://www.asana.com/jobs/apply/8264089?gh_jid=8264089",
       "https://www.asana.com/jobs/apply/8275149?gh_jid=8275149",
       "https://www.asana.com/jobs/apply/8370078?gh_jid=8370078"
+    ]
+  },
+  {
+    "name": "Ascend Analytics",
+    "ats": "bamboohr",
+    "identifier": "ascendanalytics",
+    "domain": "https://ascendanalytics.bamboohr.com",
+    "page": "https://ascendanalytics.bamboohr.com/careers/list",
+    "urls": [
+      "https://ascendanalytics.bamboohr.com/careers/42"
     ]
   },
   {
@@ -11025,7 +11038,8 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs",
     "urls": [
-      "https://boards.greenhouse.io/bugcrowd/jobs/8202018?gh_jid=8202018"
+      "https://boards.greenhouse.io/bugcrowd/jobs/8202018?gh_jid=8202018",
+      "https://boards.greenhouse.io/bugcrowd/jobs/8396259?gh_jid=8396259"
     ]
   },
   {
@@ -16532,6 +16546,7 @@
       "https://jobs.ashbyhq.com/Clera/536342d3-f63f-43b3-9d9c-07edbca08574",
       "https://jobs.ashbyhq.com/Clera/539bb8c0-2235-4ebe-afe3-77bf20a2d4b5",
       "https://jobs.ashbyhq.com/Clera/65880e46-4822-449b-87e6-3ca8f93d5784",
+      "https://jobs.ashbyhq.com/Clera/6631e00e-2147-4862-bf98-2f9d4f7fb840",
       "https://jobs.ashbyhq.com/Clera/75761a3d-6df6-4cbc-ad13-0fa127db9cad",
       "https://jobs.ashbyhq.com/Clera/82d78c4d-4efa-4a57-bb7f-caef93bdcedd",
       "https://jobs.ashbyhq.com/Clera/88340b8e-4ff7-4554-b0ca-fc9c17271b97",
@@ -18850,6 +18865,7 @@
       "https://www.disneycareers.com/job/orlando/mgr-software-engineering-enterprise-architecture-disney-experiences/391/102045624880",
       "https://www.disneycareers.com/job/orlando/sr-machine-learning-engineer/391/103243191504",
       "https://www.disneycareers.com/job/orlando/sr-software-engineer/391/102176930448",
+      "https://www.disneycareers.com/job/santa-monica/data-engineering-intern/391/103426473040",
       "https://www.disneycareers.com/job/santa-monica/sr-machine-learning-engineer/391/102596511568"
     ]
   },
@@ -20062,7 +20078,8 @@
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013259",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013416",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013465",
-      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013546"
+      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013546",
+      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013632"
     ]
   },
   {
@@ -22848,6 +22865,7 @@
       "https://careers.garmin.com/jobs/19999?icims=1",
       "https://careers.garmin.com/jobs/20055?icims=1",
       "https://careers.garmin.com/jobs/20080?icims=1",
+      "https://careers.garmin.com/jobs/20081?icims=1",
       "https://careers.garmin.com/jobs/20131?icims=1",
       "https://careers.garmin.com/jobs/20135?icims=1",
       "https://careers.garmin.com/jobs/20165?icims=1",
@@ -24612,6 +24630,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/138680443351245510-customer-solutions-engineer-compute-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/138754875134485190-software-engineer-google-pay-server?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/138838008521466566-site-reliability-engineer-swe-cloud-multiple-openings?sort_by=date&page=2",
+      "https://www.google.com/about/careers/applications/jobs/results/139049023217509062-financial-analyst-technical-infrastructure?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/139205347142181574-software-engineer-geo-computer-vision?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/139608513574773446-junior-cad-engineer-university-graduate-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/139688417146348230-partner-forward-deployed-engineer-genai-google-cloud-japanese-english?sort_by=date&page=1",
@@ -24626,6 +24645,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/140994789699920582-data-center-site-negotiator-acquisition-and-development?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/141008036452803270-forward-deployed-engineer-genai-mandarin-english?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/141077860541440710-research-scientist-gate-measurement-quantum-ai?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/141343429106770630-research-scientist-error-correction-experiments-quantum-ai?sort_by=date&page=7",
       "https://www.google.com/about/careers/applications/jobs/results/141408469944017606-financial-analyst-compute-infrastructure-business?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/141422417045004998-forward-deployed-engineer-genai-google-cloud-korean-english?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/141496697866855110-software-engineer-fleet-analytics-phd-early-career-2026?sort_by=date&page=6",
@@ -24748,6 +24768,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/85959939641483974-software-engineer-expert-intelligence-search?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/86038319841845958-platform-application-engineer-cloud-ai-infrastructure?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/86265688968045254-customer-engineer-security-google-cloud-security?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/86277138008679110-ux-researcher-enterprise-platform-google-ads?sort_by=date&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/86730192633897670-supplier-quality-engineer-thermals-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/86814526464238278-data-center-site-negotiator-acquisition-and-development?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/86866609385153222-security-engineer-infrastructure-detection?sort_by=date&page=2",
@@ -25173,6 +25194,20 @@
       "https://job-boards.greenhouse.io/gusto/jobs/8257482",
       "https://job-boards.greenhouse.io/gusto/jobs/8257486",
       "https://job-boards.greenhouse.io/gusto/jobs/8360497"
+    ]
+  },
+  {
+    "name": "h2o.ai",
+    "ats": "jazzhr",
+    "identifier": "h2oai.applytojob.com",
+    "domain": "https://h2oai.applytojob.com",
+    "page": "https://h2oai.applytojob.com/apply/jobs",
+    "urls": [
+      "https://h2oai.applytojob.com/apply/8EzSCyZJDw",
+      "https://h2oai.applytojob.com/apply/E5OHXf0U55",
+      "https://h2oai.applytojob.com/apply/FQrRrbP34W",
+      "https://h2oai.applytojob.com/apply/QwA3SV58KB",
+      "https://h2oai.applytojob.com/apply/n5X2LVJYN1"
     ]
   },
   {
@@ -25949,6 +25984,17 @@
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Software-Engineer-for-Dependable-Systems--f-m-d-_R1012212-1",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/System-Test-Engineer--w-m-d-_R0148010",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Warszawa-Masovian-Poland/Inynier-ds-Rozwoju-Oprogramowania--Software-Engineer---f-m-x-_R0150471"
+    ]
+  },
+  {
+    "name": "hive",
+    "ats": "lever",
+    "identifier": "hive",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/hive?mode=json",
+    "urls": [
+      "https://jobs.lever.co/hive/4947a174-d218-4c83-be26-89b1e889dc16",
+      "https://jobs.lever.co/hive/818e2024-c973-4cf7-84fd-7b14bd3a24f8"
     ]
   },
   {
@@ -31426,6 +31472,7 @@
     "urls": [
       "https://lockheedmartin.eightfold.ai/careers/job/996476167730?domain=lockheedmartin.com&8fold_id=996476167730",
       "https://lockheedmartin.eightfold.ai/careers/job/996476197711?domain=lockheedmartin.com&8fold_id=996476197711",
+      "https://lockheedmartin.eightfold.ai/careers/job/996476200445?domain=lockheedmartin.com&8fold_id=996476200445",
       "https://lockheedmartin.eightfold.ai/careers/job/996476202393?domain=lockheedmartin.com&8fold_id=996476202393",
       "https://lockheedmartin.eightfold.ai/careers/job/996476202845?domain=lockheedmartin.com&8fold_id=996476202845",
       "https://lockheedmartin.eightfold.ai/careers/job/996476209071?domain=lockheedmartin.com&8fold_id=996476209071",
@@ -31919,6 +31966,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477972427?domain=lockheedmartin.com&8fold_id=996477972427",
       "https://lockheedmartin.eightfold.ai/careers/job/996477984156?domain=lockheedmartin.com&8fold_id=996477984156",
       "https://lockheedmartin.eightfold.ai/careers/job/996477984436?domain=lockheedmartin.com&8fold_id=996477984436",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477987166?domain=lockheedmartin.com&8fold_id=996477987166",
       "https://lockheedmartin.eightfold.ai/careers?location_radius_type=mi&location_distance_km=16&hl=en-US&start=0&pid=996477630433&sort_by=timestamp"
     ]
   },
@@ -36701,6 +36749,7 @@
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/NorthwesternMutual/postings",
     "urls": [
+      "https://jobs.smartrecruiters.com/NorthwesternMutual/743999658679125",
       "https://jobs.smartrecruiters.com/NorthwesternMutual/85751711"
     ]
   },
@@ -37988,7 +38037,9 @@
     "identifier": "osfcareers.org",
     "domain": "https://www.osfcareers.org",
     "page": "https://www.osfcareers.org/api/jobs",
-    "urls": []
+    "urls": [
+      "https://www.osfcareers.org/jobs/111149?icims=1"
+    ]
   },
   {
     "name": "oshkoshcorporation",
@@ -39646,7 +39697,8 @@
       "https://boards.greenhouse.io/point72/jobs/8923153002?gh_jid=8923153002",
       "https://boards.greenhouse.io/point72/jobs/8923409002?gh_jid=8923409002",
       "https://boards.greenhouse.io/point72/jobs/8932968002?gh_jid=8932968002",
-      "https://boards.greenhouse.io/point72/jobs/8932969002?gh_jid=8932969002"
+      "https://boards.greenhouse.io/point72/jobs/8932969002?gh_jid=8932969002",
+      "https://boards.greenhouse.io/point72/jobs/8945315002?gh_jid=8945315002"
     ]
   },
   {
@@ -39910,6 +39962,16 @@
     "domain": "https://prologis.wd5.myworkdayjobs.com/prologis_external_careers",
     "page": "https://prologis.wd5.myworkdayjobs.com/wday/cxs/prologis/prologis_external_careers/jobs",
     "urls": []
+  },
+  {
+    "name": "Promega",
+    "ats": "icims",
+    "identifier": "careers.promega.com",
+    "domain": "https://careers.promega.com",
+    "page": "https://careers.promega.com/api/jobs",
+    "urls": [
+      "https://careers.promega.com/jobs/4373?icims=1"
+    ]
   },
   {
     "name": "proofpoint",
@@ -40724,6 +40786,16 @@
     ]
   },
   {
+    "name": "quo",
+    "ats": "ashby",
+    "identifier": "quo",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/quo",
+    "urls": [
+      "https://jobs.ashbyhq.com/quo/cfc3ade0-d34d-4d11-953e-637d3b88b6e1"
+    ]
+  },
+  {
     "name": "quora",
     "ats": "ashby",
     "identifier": "quora",
@@ -41014,7 +41086,8 @@
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4646257",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4648416",
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4663112"
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4663112",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4669574"
     ]
   },
   {
@@ -43794,6 +43867,17 @@
     ]
   },
   {
+    "name": "selffinancial",
+    "ats": "greenhouse",
+    "identifier": "selffinancial",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/selffinancial/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+      "https://job-boards.greenhouse.io/selffinancial/jobs/6255478004"
+    ]
+  },
+  {
     "name": "selinc",
     "ats": "workday",
     "identifier": "selinc-sel",
@@ -46262,6 +46346,7 @@
     "page": "https://jobs.statefarm.com/api/jobs",
     "urls": [
       "https://jobs.statefarm.com/jobs/46825?icims=1",
+      "https://jobs.statefarm.com/jobs/48526?icims=1",
       "https://jobs.statefarm.com/jobs/50222?icims=1",
       "https://jobs.statefarm.com/jobs/50386?icims=1"
     ]
@@ -47913,6 +47998,17 @@
       "https://thales.wd3.myworkdayjobs.com/careers/job/Vlizy-Villacoublay/Software-Solution-Engineer---F-H_R0331717-1",
       "https://thales.wd3.myworkdayjobs.com/careers/job/Zaventem_EXC/AI-Security-Engineer_R0340447",
       "https://thales.wd3.myworkdayjobs.com/careers/job/Zaventem_EXC/Software-Development-Engineer_R0341111"
+    ]
+  },
+  {
+    "name": "thatch",
+    "ats": "greenhouse",
+    "identifier": "thatch",
+    "domain": "https://thatch.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/thatch/jobs",
+    "urls": [
+      "https://thatch.com/jobs/5113761008?gh_jid=5113761008",
+      "https://thatch.com/jobs/5461158008?gh_jid=5461158008"
     ]
   },
   {
@@ -50859,6 +50955,17 @@
     ]
   },
   {
+    "name": "valiantsolutions",
+    "ats": "icims",
+    "identifier": "valiantsolutions",
+    "domain": "https://careers-valiantsolutions.icims.com",
+    "page": "https://careers-valiantsolutions.icims.com/jobs/search",
+    "urls": [
+      "https://careers-valiantsolutions.icims.com/jobs/7666/cybersecurity-analyst/job",
+      "https://careers-valiantsolutions.icims.com/jobs/7844/associate-software-engineer/job"
+    ]
+  },
+  {
     "name": "valmont",
     "ats": "workday",
     "identifier": "valmont-valmontcareers",
@@ -52408,7 +52515,8 @@
     "page": "https://careers-werfen.icims.com/jobs/search",
     "urls": [
       "https://careers-werfen.icims.com/jobs/10996/r%26d-systems-engineering-co-op/job",
-      "https://careers-werfen.icims.com/jobs/11400/software-test-engineer-i/job"
+      "https://careers-werfen.icims.com/jobs/11400/software-test-engineer-i/job",
+      "https://careers-werfen.icims.com/jobs/11536/product-security-incident-response-team-engineer/job"
     ]
   },
   {
