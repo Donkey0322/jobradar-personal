@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,314 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,316 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Recruiting.paylocity.com</td>
+      <td width="420" align="left" valign="top">Junior Developer - AI Team</td>
+      <td width="180" align="left" valign="top">Nashville, TN</td>
+      <td width="120" align="left" valign="top"><a href="https://recruiting.paylocity.com/Recruiting/Jobs/Details/4669574"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 17</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Promega</td>
       <td width="420" align="left" valign="top">Software Integration Engineer</td>
@@ -134,6 +141,13 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="420" align="left" valign="top">Software Engineer</td>
       <td width="180" align="left" valign="top">Franklin, WI</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/NorthwesternMutual/743999658679125"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 17</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Jobgether</td>
+      <td width="420" align="left" valign="top">New Grad 2027: Software Engineer, Open Source and Linux</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/jobgether/f4b092a6-63f4-4209-897e-eb386e4aa422"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 17</td>
     </tr>
     <tr>
@@ -304,23 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/esrtreit/9ec61f1b-1eeb-44c8-8be2-f25167b83267"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 13</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Westinghouse Electric Company, LLC</td>
-      <td width="420" align="left" valign="top">Fluid Systems Engineer</td>
-      <td width="180" align="left" valign="top">Rock Hill, SC</td>
-      <td width="120" align="left" valign="top"><a href="http://careers.westinghousenuclear.com/job/Rock-Hill-Fluid-Systems-Engineer-SC-29730/1440646100/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Fanniemae</td>
-      <td width="420" align="left" valign="top">Software Engineer - Associate (AWS)</td>
-      <td width="180" align="left" valign="top">Reston, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://fanniemae.wd1.myworkdayjobs.com/fanniemaecareers/job/Reston-VA/Software-Engineer---Associate--AWS-_JR3005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,314 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,316 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-17T21:59:24.652Z</code>
+      🕒 Last updated <code>2026-11-17T23:01:05.883Z</code>
     </span>
   </p>
 </div>
