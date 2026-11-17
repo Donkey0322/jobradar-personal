@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Silna Health</td>
+      <td width="420" align="left" valign="top">AI Deployment Analyst</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/silnahealth.com/61222b3c-70fd-4e80-8903-468d96070833"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Momentum</td>
       <td width="420" align="left" valign="top">2027 Launch Graduate Program: Associate Enterprise Systems Analyst</td>
       <td width="180" align="left" valign="top">Dallas, TX</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Intern_Conversion_ONLY/job/TX---Work-from-home/Software-Development-Engineer--Conversion-_R1077963"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Glean</td>
-      <td width="420" align="left" valign="top">Software Engineer, University Grad</td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,307 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,308 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-17T05:06:45.414Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-17T06:17:59.678Z</code></sub>

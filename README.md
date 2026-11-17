@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,307 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,308 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Silna Health</td>
+      <td width="420" align="left" valign="top">AI Deployment Analyst</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/silnahealth.com/61222b3c-70fd-4e80-8903-468d96070833"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Momentum</td>
       <td width="420" align="left" valign="top">2027 Launch Graduate Program: Associate Enterprise Systems Analyst</td>
@@ -311,16 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2440211"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 13</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Super Micro Computer</td>
-      <td width="420" align="left" valign="top">System Engineer</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.supermicro.com/job/San-Jose-System-Engineer-Cali/1420737200/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,307 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,308 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-17T05:06:45.414Z</code>
+      🕒 Last updated <code>2026-11-17T06:17:59.678Z</code>
     </span>
   </p>
 </div>
