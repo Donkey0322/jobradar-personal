@@ -1,5 +1,5 @@
 {
-  "commit": "a6ab8c108a4da49bb8510ffcbdb4cc65e4e302a0",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -898,36 +898,6 @@
       ]
     },
     {
-      "company": "Apple",
-      "role": "Generative AI Applied Scientist - Services Special Projects",
-      "link": "https://jobs.apple.com/en-us/details/200694831-0836/generative-ai-applied-scientist-services-special-projects?team=SFTWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.011Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Engineer, Infrastructure Applications",
-      "link": "https://jobs.apple.com/en-us/details/200693202-3956/software-engineer-infrastructure-applications?team=SFTWR",
-      "location": "Sunnyvale",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.011Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Sr Software Engineer, Apple Ads",
-      "link": "https://jobs.apple.com/en-us/details/200694621-0836/sr-software-engineer-apple-ads?team=SFTWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-14T06:12:12.012Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Amazon",
       "role": "Software Development Engineer, AWS Agentic AI",
       "link": "https://amazon.jobs/en/jobs/10588677",
@@ -1004,6 +974,36 @@
       "location": "Redstone Arsenal, AL",
       "country": "USA",
       "waitedSince": "2026-11-17T07:49:52.492Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Peraton",
+      "role": "New Grad 2027: Entry-Level Software Engineer - Ignite Innovator Program",
+      "link": "https://careers-peraton.icims.com/jobs/173920/job?mobile=true&needsRedirect=false",
+      "location": "Blacksburg, VA",
+      "country": "USA",
+      "waitedSince": "2026-11-17T16:11:23.074Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Jobgether",
+      "role": "New Grad 2027: Software Engineer, Open Source and Linux",
+      "link": "https://jobs.lever.co/jobgether/f4b092a6-63f4-4209-897e-eb386e4aa422",
+      "location": "Remote",
+      "country": "Remote",
+      "waitedSince": "2026-11-17T16:11:23.074Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Kraun Electric",
+      "role": "Junior Software Developer",
+      "link": "https://kraunelectric.bamboohr.com/careers/98/",
+      "location": "St. Catharines, ON, Canada",
+      "country": "Canada",
+      "waitedSince": "2026-11-17T16:11:23.074Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }

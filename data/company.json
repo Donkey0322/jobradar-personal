@@ -2027,6 +2027,7 @@
       "https://amazon.jobs/en/jobs/10420575",
       "https://amazon.jobs/en/jobs/10421261",
       "https://amazon.jobs/en/jobs/10421792",
+      "https://amazon.jobs/en/jobs/10421819",
       "https://amazon.jobs/en/jobs/10421951",
       "https://amazon.jobs/en/jobs/10425338",
       "https://amazon.jobs/en/jobs/10425605",
@@ -16462,6 +16463,7 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Clera",
     "urls": [
+      "https://jobs.ashbyhq.com/Clera/1f997a2f-7131-4daa-b648-df06cc1d9927",
       "https://jobs.ashbyhq.com/Clera/2a284b73-08ae-4378-a717-646a74c6240f",
       "https://jobs.ashbyhq.com/Clera/321b13c0-4622-4ca3-ba2d-0d696d0f13fc",
       "https://jobs.ashbyhq.com/Clera/42992916-9ca1-48ca-9378-f4a13ea3733d",
@@ -16471,6 +16473,7 @@
       "https://jobs.ashbyhq.com/Clera/65880e46-4822-449b-87e6-3ca8f93d5784",
       "https://jobs.ashbyhq.com/Clera/75761a3d-6df6-4cbc-ad13-0fa127db9cad",
       "https://jobs.ashbyhq.com/Clera/82d78c4d-4efa-4a57-bb7f-caef93bdcedd",
+      "https://jobs.ashbyhq.com/Clera/a16dcef4-2087-4611-89be-0b8ded9d306c",
       "https://jobs.ashbyhq.com/Clera/b10cda7c-f1f2-47c1-a852-85ead2e005a5",
       "https://jobs.ashbyhq.com/Clera/d0ab051b-0db9-4ae3-81e9-baac7a50476a",
       "https://jobs.ashbyhq.com/Clera/ea5b2346-51f4-4fd9-800b-5cda50702070"
@@ -16848,7 +16851,8 @@
       "https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479",
       "https://www.coinbase.com/careers/positions/8304038?gh_jid=8304038",
       "https://www.coinbase.com/careers/positions/8318599?gh_jid=8318599",
-      "https://www.coinbase.com/careers/positions/8319444?gh_jid=8319444"
+      "https://www.coinbase.com/careers/positions/8319444?gh_jid=8319444",
+      "https://www.coinbase.com/careers/positions/8394654?gh_jid=8394654"
     ]
   },
   {
@@ -24749,7 +24753,9 @@
     "identifier": "gorbel-gorbelcareers",
     "domain": "https://gorbel.wd501.myworkdayjobs.com/gorbelcareers",
     "page": "https://gorbel.wd501.myworkdayjobs.com/wday/cxs/gorbel/gorbelcareers/jobs",
-    "urls": []
+    "urls": [
+      "https://gorbel.wd501.myworkdayjobs.com/gorbelcareers/job/USA-New-York-Victor/Data-BI-Analyst-Co-Op_REQ-2026-2266"
+    ]
   },
   {
     "name": "goto",
@@ -28487,6 +28493,16 @@
     ]
   },
   {
+    "name": "jobgether",
+    "ats": "lever",
+    "identifier": "jobgether",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/jobgether?mode=json",
+    "urls": [
+      "https://jobs.lever.co/jobgether/f4b092a6-63f4-4209-897e-eb386e4aa422"
+    ]
+  },
+  {
     "name": "Jobs @ Carmeuse",
     "ats": "oraclecloud",
     "identifier": "ekiz.fa.em2.oraclecloud.com",
@@ -29889,6 +29905,16 @@
     "page": "https://careers.kpmg.ca/api/jobs",
     "urls": [
       "https://careers.kpmg.ca/jobs/34683?icims=1"
+    ]
+  },
+  {
+    "name": "Kraun Electric",
+    "ats": "bamboohr",
+    "identifier": "kraunelectric",
+    "domain": "https://kraunelectric.bamboohr.com",
+    "page": "https://kraunelectric.bamboohr.com/careers/list",
+    "urls": [
+      "https://kraunelectric.bamboohr.com/careers/98/"
     ]
   },
   {
@@ -33120,6 +33146,7 @@
       "https://www.metacareers.com/profile/job_details/1153298343784841",
       "https://www.metacareers.com/profile/job_details/1154573427521292",
       "https://www.metacareers.com/profile/job_details/1154738753397824",
+      "https://www.metacareers.com/profile/job_details/1157475613903880",
       "https://www.metacareers.com/profile/job_details/1160814043168431",
       "https://www.metacareers.com/profile/job_details/1161077809777327",
       "https://www.metacareers.com/profile/job_details/1163507972671947",
@@ -36317,6 +36344,7 @@
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41577",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41600",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41672",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41673",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41680",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41711",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41788",
@@ -38788,7 +38816,8 @@
       "https://careers-peraton.icims.com/jobs/173637/cloud-engineer/job",
       "https://careers-peraton.icims.com/jobs/173645/entry-level-software-engineer---ts-sci-w-poly/job",
       "https://careers-peraton.icims.com/jobs/173664/rmf-isso-cybersecurity-engineer/job",
-      "https://careers-peraton.icims.com/jobs/173674/software-developer/job"
+      "https://careers-peraton.icims.com/jobs/173674/software-developer/job",
+      "https://careers-peraton.icims.com/jobs/173920/job?mobile=true&needsRedirect=false"
     ]
   },
   {
