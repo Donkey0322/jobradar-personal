@@ -15467,6 +15467,16 @@
     ]
   },
   {
+    "name": "CDM Smith",
+    "ats": "icims",
+    "identifier": "careers.cdmsmith.com",
+    "domain": "https://careers.cdmsmith.com",
+    "page": "https://careers.cdmsmith.com/api/jobs",
+    "urls": [
+      "https://careers.cdmsmith.com/jobs/4994?icims=1&lang=en-us"
+    ]
+  },
+  {
     "name": "celonis",
     "ats": "greenhouse",
     "identifier": "celonis",
@@ -17324,7 +17334,8 @@
     "domain": "https://jobs.constellationenergy.com",
     "page": "https://jobs.constellationenergy.com/api/jobs",
     "urls": [
-      "https://jobs.constellationenergy.com/jobs/142558?icims=1"
+      "https://jobs.constellationenergy.com/jobs/142558?icims=1",
+      "https://jobs.constellationenergy.com/jobs/143150?icims=1&lang=en-us"
     ]
   },
   {
@@ -29279,6 +29290,8 @@
     "page": "",
     "urls": [
       "https://jobs.jobvite.com/aarete/job/otGLAfwe?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/compunetix/job/oMdpAfwI?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/gei-consultants/job/ogR5zfwv?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/laborie/job/oQOXAfwV?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/metropolitantransportationauthority/job/oOvWAfwz?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/src-inc/job/o8lHAfwu",
@@ -38230,7 +38243,8 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/349764",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/349974",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350202",
-      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350518"
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350518",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350821"
     ]
   },
   {
@@ -38992,6 +39006,16 @@
       "https://www.pathai.com/careers/8651564002?gh_jid=8651564002",
       "https://www.pathai.com/careers/8696764002?gh_jid=8696764002",
       "https://www.pathai.com/careers/8769657002?gh_jid=8769657002"
+    ]
+  },
+  {
+    "name": "Pathlabs",
+    "ats": "jazzhr",
+    "identifier": "pathlabs.applytojob.com",
+    "domain": "https://pathlabs.applytojob.com",
+    "page": "https://pathlabs.applytojob.com/apply/jobs",
+    "urls": [
+      "https://pathlabs.applytojob.com/apply/qW73dwA0iS/Software-And-AI-Engineering-Intern"
     ]
   },
   {
@@ -41223,6 +41247,16 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/rapdev",
     "urls": []
+  },
+  {
+    "name": "Raptor Maps",
+    "ats": "rippling",
+    "identifier": "raptor-maps-inc",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/raptor-maps-inc/jobs",
+    "urls": [
+      "https://ats.rippling.com/raptor-maps-inc/jobs/be25d98e-262f-42a2-8276-dffbfbbf402a"
+    ]
   },
   {
     "name": "ravl_io",
