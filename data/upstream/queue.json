@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "875549595b8148a8a72b98fb09b895e54f9f9a77",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1088,56 +1088,6 @@
       "status": "waiting"
     },
     {
-      "company": "Agile-defense",
-      "role": "Web Developer - Intermediate",
-      "link": "https://jobs.lever.co/agile-defense/959c51fa-4c5f-486d-8765-c28257b43b76",
-      "location": "Fort Huachuca, AZ",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.078Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Applied Scientist, Amazon Leo Satellite Build Systems",
-      "link": "https://amazon.jobs/en/jobs/10498998",
-      "location": "US, WA, Bellevue",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.078Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Dev Engineer, Amazon AI at Work",
-      "link": "https://amazon.jobs/en/jobs/10604137",
-      "location": "US, WA, Seattle",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.078Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer - Network Observability, Leo Networking Software",
-      "link": "https://amazon.jobs/en/jobs/10600664",
-      "location": "US, WA, Redmond",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.078Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, ROBOTICS -  2027",
-      "link": "https://amazon.jobs/en/jobs/10607764",
-      "location": "US, TX, Austin",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.079Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Becu",
       "role": "Sr Enterprise Data & Business Intelligence Analyst",
       "link": "https://becu.wd1.myworkdayjobs.com/external/job/Remote-WA/Sr-Enterprise-Data---Business-Intelligence-Analyst_R-13987",
@@ -1148,182 +1098,12 @@
       "status": "waiting"
     },
     {
-      "company": "Benchling",
-      "role": "Data Engineer",
-      "link": "https://jobs.ashbyhq.com/benchling/c97e5668-29ee-4810-b7cc-35331ac123f5",
-      "location": "San Francisco, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.079Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "HPE",
-      "role": "Business Systems & Data Engineer",
-      "link": "https://careers.hpe.com/us/en/job/1214711?ph_id=1214711",
-      "location": "Chippewa Falls, Wisconsin, 54729",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.079Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "HPE",
-      "role": "Data Center Facilities Engineer, (Clearance Required TS/SCI with Poly) Manassas, VA Onsite",
-      "link": "https://careers.hpe.com/us/en/job/1218284?ph_id=1218284",
-      "location": "All, Virginia, 00000",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.079Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Clera",
-      "role": "Founding Data Engineer",
-      "link": "https://jobs.ashbyhq.com/Clera/96eb46ad-eb7a-4540-afc8-7397d946019f",
-      "location": "San Francisco",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.079Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Clera",
-      "role": "Founding Engineer, AI Agents",
-      "link": "https://jobs.ashbyhq.com/Clera/4010a3ad-11d1-4927-b2be-2dd1c4f6ad77",
-      "location": "San Francisco",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.080Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Jj",
       "role": "Sr Financial Analyst, SC Systems",
       "link": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raynham-Massachusetts-United-States-of-America/Sr-Financial-Analyst--SC-Systems_R-106869-1",
       "location": "5 Locations",
       "country": "Unsure",
       "waitedSince": "2026-11-18T07:17:11.080Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "AI Software Engineer",
-      "link": "https://jobs.lever.co/jobgether/a66ccd3d-484d-454e-be89-ab587243010a",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.080Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Cloud and DevOps Engineer",
-      "link": "https://jobs.lever.co/jobgether/3e2d051e-4adc-416b-8f8f-aeb7da090178",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.080Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Data Management Specialist - Data Engineer",
-      "link": "https://jobs.lever.co/jobgether/56f9c3db-261f-4a65-b899-08010f62ac3e",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.081Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Software Engineer, R&D - IntelliScript",
-      "link": "https://jobs.lever.co/jobgether/4a41391b-d46c-4831-b8ba-edc37c3b65a6",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.081Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Sr Software Engineer I",
-      "link": "https://jobs.lever.co/jobgether/d1c00037-fcc6-421e-86ef-e4c8866b0a42",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.081Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Sr Software Engineer, Fire TV",
-      "link": "https://jobs.lever.co/jobgether/ea353e26-0e92-4a6c-af2b-e9d341e52e01",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.082Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "BAE Systems",
-      "role": "System Engineer – EOIR Algorithm Engineer",
-      "link": "https://jobs.baesystems.com/global/en/job/132853BR?ph_id=132853BR",
-      "location": "Merrimack, New Hampshire, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.082Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "BAE Systems",
-      "role": "Systems Engineer - EOIR Algorithm Engineer",
-      "link": "https://jobs.baesystems.com/global/en/job/132851BR?ph_id=132851BR",
-      "location": "Merrimack, New Hampshire, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.082Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "BAE Systems",
-      "role": "System Engineer – EOIR Algorithm Engineer",
-      "link": "https://jobs.baesystems.com/global/en/job/132863BR?ph_id=132863BR",
-      "location": "Merrimack, New Hampshire, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.083Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "L3harris",
-      "role": "Associate, Systems Engineering",
-      "link": "https://careers.l3harris.com/job/colorado-springs/associate-systems-engineering/4832/103448102608",
-      "location": "Colorado Springs, CO",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.083Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Mitsubishi Heavy Industries, Ltd.",
-      "role": "Industrial Engineering Systems Integration Specialist",
-      "link": "https://mhicareers.com/PrimetalsTechnologies/job/Sutton-Industrial-Engineering-Systems-Integration-Specialist-MA-01590/1449607933/",
-      "location": "Sutton, MA, US, 01590",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.083Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Netflix",
-      "role": "Full-stack Engineer 4, User Data & Consent Experiences",
-      "link": "https://explore.jobs.netflix.net/careers/job/790319561012",
-      "location": "Remote, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-18T07:17:11.084Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     },
