@@ -1048,36 +1048,6 @@
       "status": "waiting"
     },
     {
-      "company": "Netflix",
-      "role": "Software Engineer 5 - Search & Voice Systems",
-      "link": "https://explore.jobs.netflix.net/careers/job/790319560051",
-      "location": "Remote, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-18T00:42:51.955Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "SpaceX",
-      "role": "IT Systems Engineer, Requirements and Interfaces - Mission Systems",
-      "link": "https://boards.greenhouse.io/spacex/jobs/8948601002?gh_jid=8948601002",
-      "location": "Cape Canaveral, FL",
-      "country": "USA",
-      "waitedSince": "2026-11-18T00:42:51.955Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "SpaceX",
-      "role": "Software Engineer (Starship)",
-      "link": "https://boards.greenhouse.io/spacex/jobs/8949363002?gh_jid=8949363002",
-      "location": "Bastrop, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-18T00:42:51.955Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Starfish",
       "role": "Systems Engineer/Analyst (Air & Missile Defense)",
       "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Systems-Engineer-Analyst--Air---Missile-Defense-_R2208-1",
@@ -1114,6 +1084,46 @@
       "location": "Moffett Field, California",
       "country": "USA",
       "waitedSince": "2026-11-18T00:56:54.766Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Mirantis",
+      "role": "New Grad: Software Engineer - Backend - Go",
+      "link": "https://jobs.smartrecruiters.com/Mirantis/744000162186029",
+      "location": "Raleigh, NC",
+      "country": "USA",
+      "waitedSince": "2026-11-18T03:20:57.088Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Wyetech",
+      "role": "Cloud Software Engineer 1",
+      "link": "https://wyetech.applytojob.com/apply/vH1nr4O9nO/Cloud-Software-Engineer-1",
+      "location": "Laurel, MD",
+      "country": "USA",
+      "waitedSince": "2026-11-18T03:20:57.089Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Laansu",
+      "role": "Junior Software Developer",
+      "link": "https://laansu.applytojob.com/apply/IiHJSaTASV/Junior-Software-Developer",
+      "location": "Sterling, VA",
+      "country": "USA",
+      "waitedSince": "2026-11-18T03:20:57.089Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "BIS Safety Software",
+      "role": "Junior Data Analyst",
+      "link": "https://jobs.lever.co/bis/ce37713b-9922-4a73-999a-f0b8e544540b/apply",
+      "location": "Sherwood Park, AB, Canada",
+      "country": "Canada",
+      "waitedSince": "2026-11-18T03:20:57.089Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
