@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "81aae6874c217e292436ca6bf93b41d028cf3422",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1084,46 +1084,6 @@
       "location": "Moffett Field, California",
       "country": "USA",
       "waitedSince": "2026-11-18T00:56:54.766Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Mirantis",
-      "role": "New Grad: Software Engineer - Backend - Go",
-      "link": "https://jobs.smartrecruiters.com/Mirantis/744000162186029",
-      "location": "Raleigh, NC",
-      "country": "USA",
-      "waitedSince": "2026-11-18T03:20:57.088Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Wyetech",
-      "role": "Cloud Software Engineer 1",
-      "link": "https://wyetech.applytojob.com/apply/vH1nr4O9nO/Cloud-Software-Engineer-1",
-      "location": "Laurel, MD",
-      "country": "USA",
-      "waitedSince": "2026-11-18T03:20:57.089Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Laansu",
-      "role": "Junior Software Developer",
-      "link": "https://laansu.applytojob.com/apply/IiHJSaTASV/Junior-Software-Developer",
-      "location": "Sterling, VA",
-      "country": "USA",
-      "waitedSince": "2026-11-18T03:20:57.089Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "BIS Safety Software",
-      "role": "Junior Data Analyst",
-      "link": "https://jobs.lever.co/bis/ce37713b-9922-4a73-999a-f0b8e544540b/apply",
-      "location": "Sherwood Park, AB, Canada",
-      "country": "Canada",
-      "waitedSince": "2026-11-18T03:20:57.089Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
