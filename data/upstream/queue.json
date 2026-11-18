@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "88f3941390267cda04e6626e942556f1b387b33d",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1183,26 +1183,6 @@
       "link": "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Spring-Texas-United-States-of-America/AI-Automation-Engineer-Graduate_1213068",
       "location": "Spring, TX",
       "country": "USA",
-      "waitedSince": "2026-11-18T21:40:57.641Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Adyen",
-      "role": "Junior Full-Stack Developer, Docs Experience Engineering Team 🛂",
-      "link": "https://job-boards.greenhouse.io/adyen/jobs/8068230",
-      "location": "Chicago, IL",
-      "country": "USA",
-      "waitedSince": "2026-11-18T21:40:57.641Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Lumenalta",
-      "role": "Full Stack Engineer",
-      "link": "https://lumenalta.com/jobs/full-stack-engineer-storyblok-expert-full-stack-engineer-storyblok-expert-188",
-      "location": "Remote",
-      "country": "Remote",
       "waitedSince": "2026-11-18T21:40:57.641Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
