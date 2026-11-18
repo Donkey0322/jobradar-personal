@@ -1,5 +1,5 @@
 {
-  "commit": "fae5bb891e91406b2b8bee5f31b2d2904ab8023b",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1038,202 +1038,72 @@
       "status": "waiting"
     },
     {
-      "company": "Jobgether",
-      "role": "AI Engineer",
-      "link": "https://jobs.lever.co/jobgether/e9ace1b9-1de8-4993-88f6-03cb19a620e8",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.553Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "AI/ML Engineer, Internal Platforms",
-      "link": "https://jobs.lever.co/jobgether/135e7cc2-a735-412f-8382-ec84ebbc1135",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.558Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Associate Cloud Engineer L1",
-      "link": "https://jobs.lever.co/jobgether/f1b6a65b-f1e0-4ce8-9c26-92731bf054d6",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.558Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Associate Software Engineer",
-      "link": "https://jobs.lever.co/jobgether/f03d7623-1070-43c7-8398-e76ffa3eb3e0",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.559Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Cloud Developer - CLEARED",
-      "link": "https://jobs.lever.co/jobgether/85879f6c-bafc-4c8b-8d60-3a0d5c20be01",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.559Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Data Engineer",
-      "link": "https://jobs.lever.co/jobgether/dac12f33-a21f-414a-940c-581febb53b93",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.560Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Data Scientist, Cashflow Forecasting",
-      "link": "https://jobs.lever.co/jobgether/88dd413c-9147-49b2-9bea-d9465d3d02f5",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.560Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Database Platform Engineer",
-      "link": "https://jobs.lever.co/jobgether/41c2eaaf-fd24-4d0f-9938-9b97d6cb238c",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.560Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "EMR System Analyst",
-      "link": "https://jobs.lever.co/jobgether/cfcbf531-39fa-41f6-9e0f-68bb25da6885",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.561Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Full Stack Product Engineer",
-      "link": "https://jobs.lever.co/jobgether/017460d4-fe2e-4dad-8871-b690226666d5",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.561Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Identity and Access Management (IAM) Systems Engineer",
-      "link": "https://jobs.lever.co/jobgether/822013d7-680c-4023-a699-41beebc20a34",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.562Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Middle Software Engineer - Backend (Platform)",
-      "link": "https://jobs.lever.co/jobgether/adcd4a0d-40f5-4605-97c5-3da1ff811dcd",
-      "location": "Italy",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.562Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Middle Software Engineer - Backend (Platform)",
-      "link": "https://jobs.lever.co/jobgether/fd85e8a4-66d3-4b5d-933c-cc2531dee908",
-      "location": "Brazil",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.562Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "OpenShift Platform Engineer",
-      "link": "https://jobs.lever.co/jobgether/6a1d0ed9-1ef9-44bb-902b-e7b4b3868b11",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.563Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Portfolio Data and Decision Analyst",
-      "link": "https://jobs.lever.co/jobgether/fabe766f-e37f-40c8-8184-713224f7123b",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.563Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Power BI Developer / Data Visualization Analyst",
-      "link": "https://jobs.lever.co/jobgether/98ddf386-39a4-4ae5-b81c-a67e4798741a",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.563Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "SAC UX / Reporting Developer",
-      "link": "https://jobs.lever.co/jobgether/ec0cfdc9-6fbf-4fd3-a87c-db28b799a705",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.564Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Software Engineer, Agents for Good",
-      "link": "https://jobs.lever.co/jobgether/1f41924b-9c06-4b11-999f-1bc211f2544a",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.564Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Space Force - Data Management Engineer",
-      "link": "https://jobs.lever.co/jobgether/23e23532-6750-4d20-af16-dcef351e8120",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-17T17:36:53.565Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Upbound",
       "role": "Data Engineer AI & Data Products",
       "link": "https://upbound.wd501.myworkdayjobs.com/Upbound/job/Plano-TX/Data-Engineer-AI---Data-Products_R-100871",
       "location": "Plano, TX",
       "country": "USA",
       "waitedSince": "2026-11-17T17:36:53.580Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Netflix",
+      "role": "Software Engineer 5 - Search & Voice Systems",
+      "link": "https://explore.jobs.netflix.net/careers/job/790319560051",
+      "location": "Remote, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-18T00:42:51.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SpaceX",
+      "role": "IT Systems Engineer, Requirements and Interfaces - Mission Systems",
+      "link": "https://boards.greenhouse.io/spacex/jobs/8948601002?gh_jid=8948601002",
+      "location": "Cape Canaveral, FL",
+      "country": "USA",
+      "waitedSince": "2026-11-18T00:42:51.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SpaceX",
+      "role": "Software Engineer (Starship)",
+      "link": "https://boards.greenhouse.io/spacex/jobs/8949363002?gh_jid=8949363002",
+      "location": "Bastrop, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-18T00:42:51.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Starfish",
+      "role": "Systems Engineer/Analyst (Air & Missile Defense)",
+      "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Systems-Engineer-Analyst--Air---Missile-Defense-_R2208-1",
+      "location": "Huntsville, AL",
+      "country": "USA",
+      "waitedSince": "2026-11-18T00:42:51.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Starfish",
+      "role": "Junior-Level Modeling & Simulation Software Engineer",
+      "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Junior-Level-Modeling---Simulation-Software-Engineer_R2207",
+      "location": "Huntsville, AL",
+      "country": "USA",
+      "waitedSince": "2026-11-18T00:42:51.955Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Starfish",
+      "role": "Entry-Level Modeling & Simulation Software Engineer",
+      "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Entry-Level-Modeling---Simulation-Software-Engineer_R2206-1",
+      "location": "Huntsville, AL",
+      "country": "USA",
+      "waitedSince": "2026-11-18T00:42:51.956Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }

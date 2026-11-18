@@ -1013,7 +1013,9 @@
       "https://jobs.smartrecruiters.com/AECOM2/744000161439479",
       "https://jobs.smartrecruiters.com/AECOM2/744000161845104",
       "https://jobs.smartrecruiters.com/AECOM2/744000161848280",
-      "https://jobs.smartrecruiters.com/AECOM2/744000162102633"
+      "https://jobs.smartrecruiters.com/AECOM2/744000162102633",
+      "https://jobs.smartrecruiters.com/AECOM2/744000162177918",
+      "https://jobs.smartrecruiters.com/AECOM2/744000162178019"
     ]
   },
   {
@@ -1220,7 +1222,8 @@
       "https://www.8am.com/openings/?gh_jid=4678802006",
       "https://www.8am.com/openings/?gh_jid=4709332006",
       "https://www.8am.com/openings/?gh_jid=4709338006",
-      "https://www.8am.com/openings/?gh_jid=4727934006"
+      "https://www.8am.com/openings/?gh_jid=4727934006",
+      "https://www.8am.com/openings/?gh_jid=4730277006"
     ]
   },
   {
@@ -1254,6 +1257,16 @@
     "urls": [
       "https://careers.aflac.com/job/2026-Summer-Aflac-Corporate-Intern-GA/1320690100/?ats=successfactors",
       "https://careers.aflac.com/job/Software-Engineer-I-GA-31999/1323022100/?ats=successfactors"
+    ]
+  },
+  {
+    "name": "AfterQuery",
+    "ats": "ashby",
+    "identifier": "AfterQuery",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/AfterQuery",
+    "urls": [
+      "https://jobs.ashbyhq.com/AfterQuery/83ca470d-b1f7-41d6-935f-c1f2b8243e4b"
     ]
   },
   {
@@ -1507,7 +1520,8 @@
       "https://careers.airbnb.com/positions/8280222?gh_jid=8280222",
       "https://careers.airbnb.com/positions/8312713?gh_jid=8312713",
       "https://careers.airbnb.com/positions/8386065?gh_jid=8386065",
-      "https://careers.airbnb.com/positions/8386083?gh_jid=8386083"
+      "https://careers.airbnb.com/positions/8386083?gh_jid=8386083",
+      "https://careers.airbnb.com/positions/8397762?gh_jid=8397762"
     ]
   },
   {
@@ -1604,10 +1618,12 @@
       "https://www.akunacapital.com/careers/job/7496411/?gh_jid=7496411",
       "https://www.akunacapital.com/careers/job/7955991/?gh_jid=7955991",
       "https://www.akunacapital.com/careers/job/7974805/?gh_jid=7974805",
+      "https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853",
       "https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856",
       "https://www.akunacapital.com/careers/job/8163512/?gh_jid=8163512",
       "https://www.akunacapital.com/careers/job/8207158/?gh_jid=8207158",
-      "https://www.akunacapital.com/careers/job/8260248/?gh_jid=8260248"
+      "https://www.akunacapital.com/careers/job/8260248/?gh_jid=8260248",
+      "https://www.akunacapital.com/careers/job/8359204/?gh_jid=8359204"
     ]
   },
   {
@@ -1654,7 +1670,8 @@
       "https://alayacare.com/open-positions?gh_jid=8916824002",
       "https://alayacare.com/open-positions?gh_jid=8932540002",
       "https://alayacare.com/open-positions?gh_jid=8936280002",
-      "https://alayacare.com/open-positions?gh_jid=8936311002"
+      "https://alayacare.com/open-positions?gh_jid=8936311002",
+      "https://alayacare.com/open-positions?gh_jid=8948865002"
     ]
   },
   {
@@ -2065,6 +2082,7 @@
       "https://amazon.jobs/en/jobs/10441291",
       "https://amazon.jobs/en/jobs/10441292",
       "https://amazon.jobs/en/jobs/10441311",
+      "https://amazon.jobs/en/jobs/10441528",
       "https://amazon.jobs/en/jobs/10442581",
       "https://amazon.jobs/en/jobs/10443815",
       "https://amazon.jobs/en/jobs/10443895",
@@ -2293,6 +2311,7 @@
       "https://amazon.jobs/en/jobs/10506556",
       "https://amazon.jobs/en/jobs/10506994",
       "https://amazon.jobs/en/jobs/10507071",
+      "https://amazon.jobs/en/jobs/10507073",
       "https://amazon.jobs/en/jobs/10507079",
       "https://amazon.jobs/en/jobs/10507161",
       "https://amazon.jobs/en/jobs/10507163",
@@ -3601,6 +3620,7 @@
       "https://amazon.jobs/en/jobs/10598123",
       "https://amazon.jobs/en/jobs/10598152",
       "https://amazon.jobs/en/jobs/10598162",
+      "https://amazon.jobs/en/jobs/10598167",
       "https://amazon.jobs/en/jobs/10598213",
       "https://amazon.jobs/en/jobs/10598223",
       "https://amazon.jobs/en/jobs/10598285",
@@ -3821,6 +3841,16 @@
       "https://amazon.jobs/en/jobs/10606994",
       "https://amazon.jobs/en/jobs/10607008",
       "https://amazon.jobs/en/jobs/10607165",
+      "https://amazon.jobs/en/jobs/10607206",
+      "https://amazon.jobs/en/jobs/10607210",
+      "https://amazon.jobs/en/jobs/10607218",
+      "https://amazon.jobs/en/jobs/10607252",
+      "https://amazon.jobs/en/jobs/10607515",
+      "https://amazon.jobs/en/jobs/10607536",
+      "https://amazon.jobs/en/jobs/10607548",
+      "https://amazon.jobs/en/jobs/10607646",
+      "https://amazon.jobs/en/jobs/10607712",
+      "https://amazon.jobs/en/jobs/10607713",
       "https://amazon.jobs/en/jobs/3087196",
       "https://amazon.jobs/en/jobs/3110595",
       "https://amazon.jobs/en/jobs/3111761/software-engineer-i",
@@ -3983,7 +4013,8 @@
       "https://careers.amd.com/jobs/97759?icims=1",
       "https://careers.amd.com/jobs/97925?icims=1",
       "https://careers.amd.com/jobs/97944?icims=1",
-      "https://careers.amd.com/jobs/98601?icims=1"
+      "https://careers.amd.com/jobs/98601?icims=1",
+      "https://careers.amd.com/jobs/99727?icims=1"
     ]
   },
   {
@@ -4004,6 +4035,7 @@
     "page": "https://egug.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008913",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010196",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011275",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011698",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011745",
@@ -4701,6 +4733,7 @@
       "https://boards.greenhouse.io/andurilindustries/jobs/5272039007?gh_jid=5272039007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5272481007?gh_jid=5272481007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5273065007?gh_jid=5273065007",
+      "https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5274647007?gh_jid=5274647007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5275224007?gh_jid=5275224007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5275462007?gh_jid=5275462007",
@@ -4756,6 +4789,16 @@
       "https://boards.greenhouse.io/andurilindustries/jobs/5296197007?gh_jid=5296197007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5296309007?gh_jid=5296309007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5298280007?gh_jid=5298280007"
+    ]
+  },
+  {
+    "name": "Angel Host",
+    "ats": "bamboohr",
+    "identifier": "angelhost",
+    "domain": "https://angelhost.bamboohr.com",
+    "page": "https://angelhost.bamboohr.com/careers/list",
+    "urls": [
+      "https://angelhost.bamboohr.com/careers/123/"
     ]
   },
   {
@@ -6779,6 +6822,7 @@
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Leixlip-Ireland/EUV-International-System-Install-Engineer_J-00355646",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Linkou-Taiwan/D-E----Virtual-Compute-Platform-Software-Engineer---Linkou_J-00346615",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Linkou-Taiwan/D-E---YieldStar-C--Software-Engineer---Linkou_J-00354282",
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Linkou-Taiwan/D-E-Field-TW---DUV-Reticle-Handler--RH----Software-Design-Engineer---Linkou--NTF-_J-00358320",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Pyeong-Taek-Korea/Production-Engineer--DUV-Laser-system-_J-00349932",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/AI-Engineer_J-00355214-1",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Cloud-Optimization-Engineer---FinOps_J-00353399",
@@ -7074,7 +7118,9 @@
       "https://job-boards.greenhouse.io/atoms/jobs/8620295002",
       "https://job-boards.greenhouse.io/atoms/jobs/8692343002",
       "https://job-boards.greenhouse.io/atoms/jobs/8899477002",
-      "https://job-boards.greenhouse.io/atoms/jobs/8899479002"
+      "https://job-boards.greenhouse.io/atoms/jobs/8899479002",
+      "https://job-boards.greenhouse.io/atoms/jobs/8924635002",
+      "https://job-boards.greenhouse.io/atoms/jobs/8948841002"
     ]
   },
   {
@@ -8660,7 +8706,8 @@
       "https://careers-barrios.icims.com/jobs/2953/test-system-safety-engineer/job",
       "https://careers-barrios.icims.com/jobs/2954/test-system-safety-engineer/job",
       "https://careers-barrios.icims.com/jobs/2955/test-system-safety-engineer/job",
-      "https://careers-barrios.icims.com/jobs/2956/commercial-destinations-office---systems-engineer/job"
+      "https://careers-barrios.icims.com/jobs/2956/commercial-destinations-office---systems-engineer/job",
+      "https://careers-barrios.icims.com/jobs/2985/thermal-protection-systems-%28tps%29-test-and-development-engineer/job"
     ]
   },
   {
@@ -8858,7 +8905,8 @@
       "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14989",
       "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/15048",
       "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/15059",
-      "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/15154"
+      "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/15154",
+      "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/15168"
     ]
   },
   {
@@ -9017,8 +9065,11 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/benchling",
     "urls": [
       "https://jobs.ashbyhq.com/benchling/263fd507-eb03-4cfa-8297-ce276b729b52",
+      "https://jobs.ashbyhq.com/benchling/6183438d-1ff6-4389-aff9-a0128ff3a407",
+      "https://jobs.ashbyhq.com/benchling/7b1ffaaf-2374-4b09-8495-899cc4847862",
       "https://jobs.ashbyhq.com/benchling/7c32ac1e-3de3-462b-aa17-7618317f0da0",
       "https://jobs.ashbyhq.com/benchling/ba0bcb25-d2e9-4ef6-ada0-dc5f7ea5424e",
+      "https://jobs.ashbyhq.com/benchling/baa78673-4c25-4d61-8888-2eac4c63d8c5",
       "https://jobs.ashbyhq.com/benchling/c1ad7288-ad78-4a0f-8f19-1fcc3f6cf85b"
     ]
   },
@@ -11713,6 +11764,7 @@
       "https://searchcareers.caci.com/careers/job/1443152806550?domain=caci.com&8fold_id=1443152806550",
       "https://searchcareers.caci.com/careers/job/1443152827549?domain=caci.com&8fold_id=1443152827549",
       "https://searchcareers.caci.com/careers/job/1443152876820?domain=caci.com&8fold_id=1443152876820",
+      "https://searchcareers.caci.com/careers/job/1443152943841?domain=caci.com&8fold_id=1443152943841",
       "https://searchcareers.caci.com/careers/job/1443152944490?domain=caci.com&8fold_id=1443152944490",
       "https://searchcareers.caci.com/careers/job/1443152967993?domain=caci.com&8fold_id=1443152967993",
       "https://searchcareers.caci.com/careers/job/1443153070379?domain=caci.com&8fold_id=1443153070379",
@@ -11758,6 +11810,7 @@
       "https://searchcareers.caci.com/careers/job/1443153643083?domain=caci.com&8fold_id=1443153643083",
       "https://searchcareers.caci.com/careers/job/1443153643185?domain=caci.com&8fold_id=1443153643185",
       "https://searchcareers.caci.com/careers/job/1443153655249?domain=caci.com&8fold_id=1443153655249",
+      "https://searchcareers.caci.com/careers/job/1443153657179?domain=caci.com&8fold_id=1443153657179",
       "https://searchcareers.caci.com/careers/job/1443153658780?domain=caci.com&8fold_id=1443153658780",
       "https://searchcareers.caci.com/careers/job/1443153658860?domain=caci.com&8fold_id=1443153658860",
       "https://searchcareers.caci.com/careers/job/1443153674867?domain=caci.com&8fold_id=1443153674867",
@@ -11947,7 +12000,9 @@
       "https://searchcareers.caci.com/careers/job/1443154568453?domain=caci.com&8fold_id=1443154568453",
       "https://searchcareers.caci.com/careers/job/1443154568928?domain=caci.com&8fold_id=1443154568928",
       "https://searchcareers.caci.com/careers/job/1443154583202?domain=caci.com&8fold_id=1443154583202",
-      "https://searchcareers.caci.com/careers/job/1443154585780?domain=caci.com&8fold_id=1443154585780"
+      "https://searchcareers.caci.com/careers/job/1443154585780?domain=caci.com&8fold_id=1443154585780",
+      "https://searchcareers.caci.com/careers/job/1443154587264?domain=caci.com&8fold_id=1443154587264",
+      "https://searchcareers.caci.com/careers/job/1443154589298?domain=caci.com&8fold_id=1443154589298"
     ]
   },
   {
@@ -12829,6 +12884,7 @@
       "https://www.capitalonecareers.com/job/mclean/data-engineer-4/1732/103225753632",
       "https://www.capitalonecareers.com/job/mclean/data-engineer-5/1732/100950229456",
       "https://www.capitalonecareers.com/job/mclean/data-engineer-5/1732/100994301232",
+      "https://www.capitalonecareers.com/job/mclean/data-engineer-5/1732/101284108752",
       "https://www.capitalonecareers.com/job/mclean/data-engineer-5/1732/101308940016",
       "https://www.capitalonecareers.com/job/mclean/data-engineer-5/1732/102914618944",
       "https://www.capitalonecareers.com/job/mclean/front-end-engineer-4-javascript-typescript-angular/1732/101998138208",
@@ -12859,6 +12915,7 @@
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-node-typescript-aws/1732/101102398832",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-nodejs-angularjs-java/1732/101308940400",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-people-tech-genai-and-agentic-systems-langchain-langgraph/1732/100959429632",
+      "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-people-tech-genai-and-agentic-systems-langchain-langgraph/1732/103442068560",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-pyspark/1732/101404679280",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-python-aws-network-automation/1732/101019112896",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-python-aws/1732/100994299072",
@@ -12934,6 +12991,8 @@
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/103090513296",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/103090513424",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/103387883312",
+      "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/103431123264",
+      "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/103431124464",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5-card-tech/1732/101575694016",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5-cyber/1732/101308940176",
       "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5-enterprise-platforms-technology-meg/1732/101954708560",
@@ -13041,6 +13100,8 @@
       "https://www.capitalonecareers.com/job/new-york/machine-learning-engineer-5/1732/101053670336",
       "https://www.capitalonecareers.com/job/new-york/mobile-engineer-4-android/1732/103359321344",
       "https://www.capitalonecareers.com/job/new-york/mobile-engineer-4/1732/103123042544",
+      "https://www.capitalonecareers.com/job/plano/data-engineer-4-auto-data-platforms/1732/103432226464",
+      "https://www.capitalonecareers.com/job/plano/data-engineer-4-real-time-data-platform/1732/103432226416",
       "https://www.capitalonecareers.com/job/plano/data-engineer-4/1732/103271010256",
       "https://www.capitalonecareers.com/job/plano/data-engineer-5-insights-platform/1732/101758347760",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4-cloud-native-microservices-and-aws-enterprise-platforms-technology/1732/101136128128",
@@ -13068,6 +13129,7 @@
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4/1732/102903951280",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4/1732/102917965328",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4/1732/102946843584",
+      "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4/1732/103431123184",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-5/1732/101362213360",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-5/1732/102946843680",
       "https://www.capitalonecareers.com/job/plano/full-stack-engineer-5/1732/103090513360",
@@ -13088,7 +13150,10 @@
       "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/102644421232",
       "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/102958152400",
       "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/103260161168",
+      "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/103431123328",
+      "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/103431123552",
       "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-5-global-workforce-services-ai-automation/1732/102167797440",
+      "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-5-java-aws/1732/103442069792",
       "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-5/1732/101575693728",
       "https://www.capitalonecareers.com/job/richmond/full-stack-software-engineer-4-bank-technology/1732/103389099696",
       "https://www.capitalonecareers.com/job/richmond/full-stack-software-engineer-4-go-python-java-aws/1732/101629590720",
@@ -13139,6 +13204,7 @@
       "https://www.capitalonecareers.com/job/san-jose/machine-learning-engineer-4-machine-learning-foundations-mlx/1732/102350014944",
       "https://www.capitalonecareers.com/job/wilmington/data-engineer-4/1732/101912134768",
       "https://www.capitalonecareers.com/job/wilmington/data-engineer-5/1732/101318746032",
+      "https://www.capitalonecareers.com/job/wilmington/full-stack-engineer-4/1732/103431123936",
       "https://www.capitalonecareers.com/job/wilmington/mobile-engineer-4/1732/101107273440"
     ]
   },
@@ -14165,6 +14231,7 @@
       "https://careers.cisco.com/global/en/job/2026659?ph_id=2026659",
       "https://careers.cisco.com/global/en/job/2026661?ph_id=2026661",
       "https://careers.cisco.com/global/en/job/2026672?ph_id=2026672",
+      "https://careers.cisco.com/global/en/job/2026751?ph_id=2026751",
       "https://careers.cisco.com/global/en/job/2026767?ph_id=2026767",
       "https://careers.cisco.com/global/en/job/2026789?ph_id=2026789",
       "https://careers.cisco.com/global/en/job/2026814?ph_id=2026814",
@@ -14213,6 +14280,7 @@
       "https://careers.cisco.com/global/en/job/2027910?ph_id=2027910",
       "https://careers.cisco.com/global/en/job/2027931?ph_id=2027931",
       "https://careers.cisco.com/global/en/job/2027972?ph_id=2027972",
+      "https://careers.cisco.com/global/en/job/2027974?ph_id=2027974",
       "https://careers.cisco.com/global/en/job/2028006?ph_id=2028006",
       "https://careers.cisco.com/global/en/job/2028048?ph_id=2028048",
       "https://careers.cisco.com/global/en/job/2028056?ph_id=2028056",
@@ -14248,6 +14316,7 @@
       "https://careers.cisco.com/global/en/job/2028825?ph_id=2028825",
       "https://careers.cisco.com/global/en/job/2028849?ph_id=2028849",
       "https://careers.cisco.com/global/en/job/2028885?ph_id=2028885",
+      "https://careers.cisco.com/global/en/job/2028912?ph_id=2028912",
       "https://careers.cisco.com/global/en/job/2028918?ph_id=2028918",
       "https://careers.cisco.com/global/en/job/2028919?ph_id=2028919",
       "https://careers.cisco.com/global/en/job/2028921?ph_id=2028921",
@@ -14280,6 +14349,7 @@
       "https://careers.cisco.com/global/en/job/2029319?ph_id=2029319",
       "https://careers.cisco.com/global/en/job/2029331?ph_id=2029331",
       "https://careers.cisco.com/global/en/job/2029359?ph_id=2029359",
+      "https://careers.cisco.com/global/en/job/2029398?ph_id=2029398",
       "https://careers.cisco.com/global/en/job/2029412?ph_id=2029412",
       "https://careers.cisco.com/global/en/job/2029414?ph_id=2029414",
       "https://careers.cisco.com/global/en/job/2029558?ph_id=2029558",
@@ -14317,12 +14387,14 @@
       "https://careers.cisco.com/global/en/job/2031064?ph_id=2031064",
       "https://careers.cisco.com/global/en/job/2031068?ph_id=2031068",
       "https://careers.cisco.com/global/en/job/2031073?ph_id=2031073",
+      "https://careers.cisco.com/global/en/job/2031561?ph_id=2031561",
       "https://careers.cisco.com/global/en/job/2031593?ph_id=2031593",
       "https://careers.cisco.com/global/en/job/2031703?ph_id=2031703",
       "https://careers.cisco.com/global/en/job/2031707?ph_id=2031707",
       "https://careers.cisco.com/global/en/job/2031713?ph_id=2031713",
       "https://careers.cisco.com/global/en/job/2031768?ph_id=2031768",
-      "https://careers.cisco.com/global/en/job/2032114?ph_id=2032114"
+      "https://careers.cisco.com/global/en/job/2032114?ph_id=2032114",
+      "https://careers.cisco.com/global/en/job/2032304?ph_id=2032304"
     ]
   },
   {
@@ -14361,6 +14433,16 @@
     "page": "https://careers.freddiemac.com",
     "urls": [
       "https://careers.freddiemac.com/us/en/job/JR17779?ph_id=JR17779"
+    ]
+  },
+  {
+    "name": "careers.garmin.com",
+    "ats": "none",
+    "identifier": "careers.garmin.com",
+    "domain": "https://careers.garmin.com",
+    "page": "",
+    "urls": [
+      "https://careers.garmin.com/jobs/20081"
     ]
   },
   {
@@ -14454,6 +14536,7 @@
       "https://careers.hpe.com/us/en/job/1212936?ph_id=1212936",
       "https://careers.hpe.com/us/en/job/1212980?ph_id=1212980",
       "https://careers.hpe.com/us/en/job/1213032?ph_id=1213032",
+      "https://careers.hpe.com/us/en/job/1213068?ph_id=1213068",
       "https://careers.hpe.com/us/en/job/1213202?ph_id=1213202",
       "https://careers.hpe.com/us/en/job/1213397?ph_id=1213397",
       "https://careers.hpe.com/us/en/job/1213401?ph_id=1213401",
@@ -14497,6 +14580,7 @@
       "https://careers.hpe.com/us/en/job/1214746?ph_id=1214746",
       "https://careers.hpe.com/us/en/job/1214769?ph_id=1214769",
       "https://careers.hpe.com/us/en/job/1214779?ph_id=1214779",
+      "https://careers.hpe.com/us/en/job/1214800?ph_id=1214800",
       "https://careers.hpe.com/us/en/job/1214810?ph_id=1214810",
       "https://careers.hpe.com/us/en/job/1214811?ph_id=1214811",
       "https://careers.hpe.com/us/en/job/1214828?ph_id=1214828",
@@ -14509,6 +14593,7 @@
       "https://careers.hpe.com/us/en/job/1215461?ph_id=1215461",
       "https://careers.hpe.com/us/en/job/1215468?ph_id=1215468",
       "https://careers.hpe.com/us/en/job/1215473?ph_id=1215473",
+      "https://careers.hpe.com/us/en/job/1215479?ph_id=1215479",
       "https://careers.hpe.com/us/en/job/1215497?ph_id=1215497",
       "https://careers.hpe.com/us/en/job/1215505?ph_id=1215505",
       "https://careers.hpe.com/us/en/job/1215526?ph_id=1215526",
@@ -14531,6 +14616,7 @@
       "https://careers.hpe.com/us/en/job/1216116?ph_id=1216116",
       "https://careers.hpe.com/us/en/job/1216130?ph_id=1216130",
       "https://careers.hpe.com/us/en/job/1216161?ph_id=1216161",
+      "https://careers.hpe.com/us/en/job/1216166?ph_id=1216166",
       "https://careers.hpe.com/us/en/job/1216229?ph_id=1216229",
       "https://careers.hpe.com/us/en/job/1216235?ph_id=1216235",
       "https://careers.hpe.com/us/en/job/1216236?ph_id=1216236",
@@ -14838,6 +14924,7 @@
     "page": "https://careers.publicisgroupe.com/api/jobs",
     "urls": [
       "https://careers.publicisgroupe.com/jobs/166907?icims=1",
+      "https://careers.publicisgroupe.com/jobs/178132?icims=1",
       "https://careers.publicisgroupe.com/jobs/180183?icims=1",
       "https://careers.publicisgroupe.com/jobs/181068?icims=1",
       "https://careers.publicisgroupe.com/jobs/181075?icims=1",
@@ -14937,7 +15024,8 @@
       "https://careers.tranetechnologies.com/global/en/job/JR-19249?ph_id=JR-19249",
       "https://careers.tranetechnologies.com/global/en/job/JR-19274?ph_id=JR-19274",
       "https://careers.tranetechnologies.com/global/en/job/JR-19467?ph_id=JR-19467",
-      "https://careers.tranetechnologies.com/global/en/job/JR-19636?ph_id=JR-19636"
+      "https://careers.tranetechnologies.com/global/en/job/JR-19636?ph_id=JR-19636",
+      "https://careers.tranetechnologies.com/global/en/job/JR-4074?ph_id=JR-4074"
     ]
   },
   {
@@ -14986,7 +15074,8 @@
       "https://careers.usbank.com/global/en/job/2026-0035249?ph_id=2026-0035249",
       "https://careers.usbank.com/global/en/job/2026-0035298?ph_id=2026-0035298",
       "https://careers.usbank.com/global/en/job/2026-0035343?ph_id=2026-0035343",
-      "https://careers.usbank.com/global/en/job/2026-0035352?ph_id=2026-0035352"
+      "https://careers.usbank.com/global/en/job/2026-0035352?ph_id=2026-0035352",
+      "https://careers.usbank.com/global/en/job/2026-0035773?ph_id=2026-0035773"
     ]
   },
   {
@@ -15020,7 +15109,8 @@
       "https://careers.zimmerbiomet.com/us/en/job/11249?ph_id=11249",
       "https://careers.zimmerbiomet.com/us/en/job/13309",
       "https://careers.zimmerbiomet.com/us/en/job/13322?ph_id=13322",
-      "https://careers.zimmerbiomet.com/us/en/job/13595?ph_id=13595"
+      "https://careers.zimmerbiomet.com/us/en/job/13595?ph_id=13595",
+      "https://careers.zimmerbiomet.com/us/en/job/13669?ph_id=13669"
     ]
   },
   {
@@ -15730,7 +15820,8 @@
     "urls": [
       "https://jobs.ashbyhq.com/checkout.com/31043330-96b2-4c9b-91f7-0d53e12afa11",
       "https://jobs.ashbyhq.com/checkout.com/93224ea4-50b2-45b6-b4dc-d878e3f15452",
-      "https://jobs.ashbyhq.com/checkout.com/b5fb3c66-d4cb-4f8f-a363-d59c7f4264fb"
+      "https://jobs.ashbyhq.com/checkout.com/b5fb3c66-d4cb-4f8f-a363-d59c7f4264fb",
+      "https://jobs.ashbyhq.com/checkout.com/fd0ba561-c730-40d2-95b1-c268935171db"
     ]
   },
   {
@@ -16135,6 +16226,7 @@
       "https://jobs.citi.com/job/city-of-taguig/reference-data-services-junior-analyst-transformation-emea-shift/287/103245967520",
       "https://jobs.citi.com/job/city-of-taguig/settlements-reference-data-services-junior-analyst-apac-shift-6-months-fixed-contract/287/102455456288",
       "https://jobs.citi.com/job/ciudad-de-mexico/apps-dev-analyst/287/103221844336",
+      "https://jobs.citi.com/job/ciudad-de-mexico/banamex-apps-dev-intmd-programmer-analyst-c11-ciudad-de-mexico/287/103438282288",
       "https://jobs.citi.com/job/ciudad-de-mexico/data-analyst/287/103221844592",
       "https://jobs.citi.com/job/dublin/data-engineer-officer/287/103214426512",
       "https://jobs.citi.com/job/dublin/snowflake-data-engineer/287/102940377232",
@@ -16157,6 +16249,7 @@
       "https://jobs.citi.com/job/mississauga/apps-dev-intmd-programmer-analyst/287/102646132768",
       "https://jobs.citi.com/job/mississauga/apps-support-intmd-analyst-officer/287/102960385280",
       "https://jobs.citi.com/job/mississauga/avp-full-stack-java-angular-developer/287/102161056064",
+      "https://jobs.citi.com/job/mississauga/big-data-engineer-avp/287/103438292960",
       "https://jobs.citi.com/job/mississauga/software-engineer-design-systems-and-ai-tooling/287/103130033440",
       "https://jobs.citi.com/job/new-castle/devops-engineer/287/102161083568",
       "https://jobs.citi.com/job/new-york/software-engineer-java-python-avp/287/102552849072",
@@ -16193,9 +16286,14 @@
       "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11-tampa/287/103123084912",
       "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11-tampa/287/103123085568",
       "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11-tampa/287/103123087664",
+      "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11-tampa/287/103431165520",
+      "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11-tampa/287/103431165600",
       "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11/287/102602560176",
       "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-officer/287/102584403024",
+      "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-officer/287/103438293824",
       "https://jobs.citi.com/job/tampa/artificial-intelligence-ai-offensive-security-analyst/287/103394939952",
+      "https://jobs.citi.com/job/tampa/avp-ai-software-engineer/287/103431161904",
+      "https://jobs.citi.com/job/tampa/avp-full-stack-software-engineer/287/103431160944",
       "https://jobs.citi.com/job/tampa/java-backend-developer/287/102854212816",
       "https://jobs.citi.com/job/tampa/security-and-derivatives-associate-analyst/287/103214415520",
       "https://jobs.citi.com/job/tampa/security-and-derivatives-intermediate-associate-analyst/287/102161064592",
@@ -16577,7 +16675,9 @@
     "identifier": "clever",
     "domain": "https://www.clever.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/clever/jobs",
-    "urls": []
+    "urls": [
+      "https://www.clever.com/about/careers?gh_jid=8392881"
+    ]
   },
   {
     "name": "cliftonlarsonallen",
@@ -16766,6 +16866,7 @@
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-1",
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cybersecurity-Engineer-Intern--Spring-2027-_2025347",
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cybersecurity-Engineer_2025155-2",
+      "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Data-Engineer---Kenneth-C-Griffin-School-of-Computer-Science---MLD_2025363",
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-1",
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Machine-Learning-Engineer_2025249"
     ]
@@ -17011,6 +17112,7 @@
       "https://jobs.comcast.com/job/englewood/software-engineer-c-python-golang-or-java-onsite-4-days-englewood-co-freewheel/45483/100347656096",
       "https://jobs.comcast.com/job/irvine/machine-learning-engineer-xumo/45483/101650291760",
       "https://jobs.comcast.com/job/pennsylvania/comcast-cybersecurity-cyber-incident-response-triage-analyst/45483/103390058016",
+      "https://jobs.comcast.com/job/philadelphia/android-engineer/45483/98499532416",
       "https://jobs.comcast.com/job/philadelphia/backend-developer/45483/103226787792",
       "https://jobs.comcast.com/job/philadelphia/data-scientist/45483/103262334688",
       "https://jobs.comcast.com/job/philadelphia/dns-platform-and-devops-engineer/45483/103267319536",
@@ -17127,7 +17229,8 @@
       "https://careers.ctg.com/jobs/18142?icims=1",
       "https://careers.ctg.com/jobs/18333?icims=1",
       "https://careers.ctg.com/jobs/18334?icims=1",
-      "https://careers.ctg.com/jobs/18532?icims=1"
+      "https://careers.ctg.com/jobs/18532?icims=1",
+      "https://careers.ctg.com/jobs/18566?icims=1"
     ]
   },
   {
@@ -17489,6 +17592,7 @@
     "page": "https://careers-cotiviti.icims.com/jobs/search",
     "urls": [
       "https://careers-cotiviti.icims.com/jobs/20183/intern---gen-ai-research-engineer-%28hiring-now%21%29/job",
+      "https://careers-cotiviti.icims.com/jobs/20900/data-engineer/job",
       "https://careers-cotiviti.icims.com/jobs/21664/systems-engineer---weekend/job"
     ]
   },
@@ -17748,6 +17852,7 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Crusoe",
     "urls": [
+      "https://jobs.ashbyhq.com/Crusoe/07a8a6a9-975e-471c-ac31-b5aaa97f9af5",
       "https://jobs.ashbyhq.com/Crusoe/40033c38-88a2-4d77-b172-2f9d9d29ffbe",
       "https://jobs.ashbyhq.com/Crusoe/91475b33-9f0e-4594-a425-cde5c5335cde",
       "https://jobs.ashbyhq.com/Crusoe/ef99c43f-8aef-495c-84e7-36663cd73369",
@@ -17824,7 +17929,10 @@
       "https://job-boards.greenhouse.io/cssmerge/jobs/8899481002",
       "https://job-boards.greenhouse.io/cssmerge/jobs/8922802002",
       "https://job-boards.greenhouse.io/cssmerge/jobs/8929426002",
-      "https://job-boards.greenhouse.io/cssmerge/jobs/8938600002"
+      "https://job-boards.greenhouse.io/cssmerge/jobs/8938600002",
+      "https://job-boards.greenhouse.io/cssmerge/jobs/8948543002",
+      "https://job-boards.greenhouse.io/cssmerge/jobs/8948819002",
+      "https://job-boards.greenhouse.io/cssmerge/jobs/8948844002"
     ]
   },
   {
@@ -17876,6 +17984,7 @@
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2434259",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2434540",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2434615",
+      "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2434616",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2434736",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2434745",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2434967",
@@ -17938,6 +18047,7 @@
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441193",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441197",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441368",
+      "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441407",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441677"
     ]
   },
@@ -18857,11 +18967,13 @@
       "https://www.disneycareers.com/job/bengaluru/sr-product-software-engineer-i/391/102455623936",
       "https://www.disneycareers.com/job/celebration/mgr-software-engineering/391/102661458384",
       "https://www.disneycareers.com/job/glendale/product-and-technology-software-engineering-intern-summer-2027/391/102343795584",
+      "https://www.disneycareers.com/job/glendale/sr-mgr-software-engineering/391/103435650128",
       "https://www.disneycareers.com/job/glendale/sr-product-software-engineer/391/102614604624",
       "https://www.disneycareers.com/job/new-york/data-engineering-intern-summer-2027/391/103401406288",
       "https://www.disneycareers.com/job/new-york/sr-machine-learning-engineer/391/102163334928",
       "https://www.disneycareers.com/job/new-york/sr-mgr-product-software-engineering/391/102553267520",
       "https://www.disneycareers.com/job/new-york/sr-product-software-engineer-full-stack/391/102907337936",
+      "https://www.disneycareers.com/job/new-york/sr-software-engineer-ai-and-observability/391/103431216976",
       "https://www.disneycareers.com/job/orlando/mgr-software-engineering-enterprise-architecture-disney-experiences/391/102045624880",
       "https://www.disneycareers.com/job/orlando/sr-machine-learning-engineer/391/103243191504",
       "https://www.disneycareers.com/job/orlando/sr-software-engineer/391/102176930448",
@@ -20116,7 +20228,9 @@
     "urls": [
       "https://careers-empowerai.icims.com/jobs/9112/cloud-engineer/job",
       "https://careers-empowerai.icims.com/jobs/9547/software-license---hardware-warranty-analyst/job",
-      "https://careers-empowerai.icims.com/jobs/9695/systems-engineer/job"
+      "https://careers-empowerai.icims.com/jobs/9695/systems-engineer/job",
+      "https://careers-empowerai.icims.com/jobs/9807/ai---ml-engineer/job",
+      "https://careers-empowerai.icims.com/jobs/9808/site-reliability-engineer/job"
     ]
   },
   {
@@ -20606,7 +20720,8 @@
       "https://jobs.ericsson.com/careers/job/563121777568012?domain=ericsson.com&8fold_id=563121777568012",
       "https://jobs.ericsson.com/careers/job/563121777586028?domain=ericsson.com&8fold_id=563121777586028",
       "https://jobs.ericsson.com/careers/job/563121777586516?domain=ericsson.com&8fold_id=563121777586516",
-      "https://jobs.ericsson.com/careers/job/563121777602729?domain=ericsson.com&8fold_id=563121777602729"
+      "https://jobs.ericsson.com/careers/job/563121777602729?domain=ericsson.com&8fold_id=563121777602729",
+      "https://jobs.ericsson.com/careers/job/563121777618965?domain=ericsson.com&8fold_id=563121777618965"
     ]
   },
   {
@@ -20983,6 +21098,7 @@
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18344",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18393",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18421",
+      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18552",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18643",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18798",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18913",
@@ -21697,7 +21813,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/fieldguide",
     "urls": [
-      "https://jobs.ashbyhq.com/fieldguide/67ddadf0-19de-418c-9d85-28d562b5042d"
+      "https://jobs.ashbyhq.com/fieldguide/67ddadf0-19de-418c-9d85-28d562b5042d",
+      "https://jobs.ashbyhq.com/fieldguide/eb8b637c-d9cd-4b98-99e4-ea5113701473"
     ]
   },
   {
@@ -22256,6 +22373,7 @@
     "page": "https://fnbcorp.wd501.myworkdayjobs.com/wday/cxs/fnbcorp/FNBCORP/jobs",
     "urls": [
       "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Data-Analytics-Engineer-1---Pittsburgh-or-Hermitage--PA_2026-02664",
+      "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Data-Scientist_2026-02759",
       "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Retail-Channel-Optimization---GIS-Data-Analyst_2026-02280-1"
     ]
   },
@@ -22921,6 +23039,7 @@
     "urls": [
       "https://careers-gdeb.icims.com/jobs/21033/engineer---systems/job",
       "https://careers-gdeb.icims.com/jobs/21251/sonar-systems-engineer/job",
+      "https://careers-gdeb.icims.com/jobs/21261/engineering-supervisor---systems/job",
       "https://careers-gdeb.icims.com/jobs/23756/electrical-systems-embedded-software-engineer/job"
     ]
   },
@@ -23219,6 +23338,7 @@
       "https://careers-gdms.icims.com/jobs/80419/advanced-systems-engineer/job",
       "https://careers-gdms.icims.com/jobs/80422/advanced-software-engineer/job",
       "https://careers-gdms.icims.com/jobs/80424/software-engineer/job",
+      "https://careers-gdms.icims.com/jobs/80481/systems-engineer/job",
       "https://careers-gdms.icims.com/jobs/80547/embedded-software-engineer-%28on-site%29/job",
       "https://careers-gdms.icims.com/jobs/80580/platform-services-software-engineer-%e2%80%93-entry-level-sign-on-%26-referral-bonus/job",
       "https://careers-gdms.icims.com/jobs/80617/systems-engineer---hoh-fellows-%7c-spouseworks-fellows-%7c-skillbridge-candidates-only/job",
@@ -23236,7 +23356,8 @@
       "https://careers-gdms.icims.com/jobs/81373/safety-surety-systems-engineer/job",
       "https://careers-gdms.icims.com/jobs/81506/systems-engineering-technical-supervisor/job",
       "https://careers-gdms.icims.com/jobs/81868/ai-software-engineer%2c-applications-and-agents/job",
-      "https://careers-gdms.icims.com/jobs/82164/systems-engineer---strategic-weapons-control/job"
+      "https://careers-gdms.icims.com/jobs/82164/systems-engineer---strategic-weapons-control/job",
+      "https://careers-gdms.icims.com/jobs/82198/systems-engineer/job"
     ]
   },
   {
@@ -24234,6 +24355,7 @@
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260818",
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260821",
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260831",
+      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260943",
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260957",
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261017",
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261051",
@@ -24242,7 +24364,8 @@
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261118",
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261197",
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261245",
-      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261292"
+      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261292",
+      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261312"
     ]
   },
   {
@@ -24460,6 +24583,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/112518690523488966-software-developer-intern-phd-summer-2027?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/112573721671017158-customer-engineer-platform-fsi-google-cloud?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/112620530372092614-forward-deployed-engineer-genai-youtube?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/112627947780612806-business-data-scientist-gup-analytics?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/112836257989436102-research-scientist-ai-safety-and-alignment-deepmind?sort_by=date&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/112907651083313862-practice-customer-engineer-data-management-north-america-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/113194397327073990-customer-engineer-ai-google-cloud-english-korean?sort_by=date&page=3",
@@ -25207,7 +25331,8 @@
       "https://h2oai.applytojob.com/apply/E5OHXf0U55",
       "https://h2oai.applytojob.com/apply/FQrRrbP34W",
       "https://h2oai.applytojob.com/apply/QwA3SV58KB",
-      "https://h2oai.applytojob.com/apply/n5X2LVJYN1"
+      "https://h2oai.applytojob.com/apply/n5X2LVJYN1",
+      "https://h2oai.applytojob.com/apply/nMZqHP5kFT"
     ]
   },
   {
@@ -25571,7 +25696,8 @@
       "https://job-boards.greenhouse.io/hearst/jobs/4475951009",
       "https://job-boards.greenhouse.io/hearst/jobs/4478841009",
       "https://job-boards.greenhouse.io/hearst/jobs/4480343009",
-      "https://job-boards.greenhouse.io/hearst/jobs/4504175009"
+      "https://job-boards.greenhouse.io/hearst/jobs/4504175009",
+      "https://job-boards.greenhouse.io/hearst/jobs/4509032009"
     ]
   },
   {
@@ -25681,7 +25807,8 @@
       "https://helsing.ai/jobs/5027572101?gh_jid=5027572101",
       "https://helsing.ai/jobs/5028719101?gh_jid=5028719101",
       "https://helsing.ai/jobs/5028731101?gh_jid=5028731101",
-      "https://helsing.ai/jobs/5028848101?gh_jid=5028848101"
+      "https://helsing.ai/jobs/5028848101?gh_jid=5028848101",
+      "https://helsing.ai/jobs/5028875101?gh_jid=5028875101"
     ]
   },
   {
@@ -25699,7 +25826,8 @@
     "domain": "https://careers-here.icims.com",
     "page": "https://careers-here.icims.com/jobs/search",
     "urls": [
-      "https://careers-here.icims.com/jobs/83460/ai-ml-engineer/job"
+      "https://careers-here.icims.com/jobs/83460/ai-ml-engineer/job",
+      "https://careers-here.icims.com/jobs/85071/data-scientist/job"
     ]
   },
   {
@@ -26914,10 +27042,12 @@
     "urls": [
       "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/147707",
       "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/153378",
+      "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303492",
       "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304060",
       "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304216",
       "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304217",
-      "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304218"
+      "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304218",
+      "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304226"
     ]
   },
   {
@@ -27186,6 +27316,7 @@
     "urls": [
       "https://jobs.ashbyhq.com/illumio/24023d23-b5ee-4caa-b840-561504ef366e",
       "https://jobs.ashbyhq.com/illumio/2bcba5c3-c6e7-407c-92b2-73027594789e",
+      "https://jobs.ashbyhq.com/illumio/8013747a-938c-41ef-9d5b-7b6188ae0b5c",
       "https://jobs.ashbyhq.com/illumio/823ff2f2-481c-4fc4-a813-a6434b71a1b8",
       "https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d"
     ]
@@ -27941,6 +28072,7 @@
       "https://careers.ice.com/jobs/13796?icims=1",
       "https://careers.ice.com/jobs/13899?icims=1",
       "https://careers.ice.com/jobs/14012?icims=1",
+      "https://careers.ice.com/jobs/14039?icims=1",
       "https://careers.ice.com/jobs/14205?icims=1"
     ]
   },
@@ -28677,6 +28809,8 @@
       "https://jobs.lever.co/jobgether/0dda502d-1b20-40ba-bafa-32cc5b9e7393",
       "https://jobs.lever.co/jobgether/135e7cc2-a735-412f-8382-ec84ebbc1135",
       "https://jobs.lever.co/jobgether/13d06b3f-7a5d-479a-bd6b-1674448e95e7",
+      "https://jobs.lever.co/jobgether/14040680-3949-47cf-b666-01b3ec6f2f3b",
+      "https://jobs.lever.co/jobgether/14392006-a041-4d52-a5fa-236149b99477",
       "https://jobs.lever.co/jobgether/14571f47-6302-4b00-9b98-69b94a742dfb",
       "https://jobs.lever.co/jobgether/1801641e-8b06-4361-b3ea-874a5608840c",
       "https://jobs.lever.co/jobgether/1b8a4add-d1b2-4189-9b30-8028afb9536b",
@@ -28689,6 +28823,7 @@
       "https://jobs.lever.co/jobgether/2ff3bfda-3acd-408e-86c8-c463fe721324",
       "https://jobs.lever.co/jobgether/328e186d-dd12-4b51-9962-85645a0f4656",
       "https://jobs.lever.co/jobgether/341ada52-ffa7-45e8-b42e-b19d960de05c",
+      "https://jobs.lever.co/jobgether/351751a9-0f56-437e-8e63-a56f162dec72",
       "https://jobs.lever.co/jobgether/41c2eaaf-fd24-4d0f-9938-9b97d6cb238c",
       "https://jobs.lever.co/jobgether/440fe220-84d5-4fa0-b23a-5d2df7e50d4a",
       "https://jobs.lever.co/jobgether/48370db9-a648-4663-bcab-5805ac7f303f",
@@ -28734,6 +28869,7 @@
       "https://jobs.lever.co/jobgether/9a62b87a-9c62-408b-b4df-1e98a36c096c",
       "https://jobs.lever.co/jobgether/9eb24800-9aaf-43b3-ba7d-6ae286da8fe8",
       "https://jobs.lever.co/jobgether/a3007fcd-5c30-4b96-b02c-bacf60e9fd2a",
+      "https://jobs.lever.co/jobgether/a4824d48-5f1c-49a6-9780-2dde57e359cc",
       "https://jobs.lever.co/jobgether/ad5608f2-e411-41d9-ad96-ffbf57a4e27e",
       "https://jobs.lever.co/jobgether/adcd4a0d-40f5-4605-97c5-3da1ff811dcd",
       "https://jobs.lever.co/jobgether/aea321dd-380f-4222-bc85-73d41f29e31c",
@@ -28742,12 +28878,14 @@
       "https://jobs.lever.co/jobgether/b5b20ddd-ad90-4801-bf5f-1a7ccf640d4a",
       "https://jobs.lever.co/jobgether/b6270ab5-15a0-40d6-a28b-df151866b326",
       "https://jobs.lever.co/jobgether/b8862697-6263-4e97-a6ef-3fd28ddbad60",
+      "https://jobs.lever.co/jobgether/b8941cce-1efd-4929-92f4-ad17507a0b58",
       "https://jobs.lever.co/jobgether/b8fbd54a-9581-4315-9639-4eac8f9fad99",
       "https://jobs.lever.co/jobgether/bbd011d9-382f-4f14-a2ee-0516f4ac407a",
       "https://jobs.lever.co/jobgether/beb9f009-c8fb-4d83-9e85-6273da968d49",
       "https://jobs.lever.co/jobgether/c08eee00-dbd7-4bff-830b-0516e7cca0da",
       "https://jobs.lever.co/jobgether/c2c1a208-7c22-4579-a3b4-5d267eefea85",
       "https://jobs.lever.co/jobgether/c3be0ac6-5a01-4152-82ef-9b256c07397c",
+      "https://jobs.lever.co/jobgether/c6061570-2bc9-42bc-8daa-92407abafe68",
       "https://jobs.lever.co/jobgether/cb576780-0dfd-4a96-9634-7edee3fcde8c",
       "https://jobs.lever.co/jobgether/cfcbf531-39fa-41f6-9e0f-68bb25da6885",
       "https://jobs.lever.co/jobgether/d2e1b7ed-a7a5-49a9-a6e4-b18e90bdba77",
@@ -28983,6 +29121,8 @@
       "https://jobs.baesystems.com/global/en/job/132370BR?ph_id=132370BR",
       "https://jobs.baesystems.com/global/en/job/132383BR?ph_id=132383BR",
       "https://jobs.baesystems.com/global/en/job/132386BR?ph_id=132386BR",
+      "https://jobs.baesystems.com/global/en/job/132388BR?ph_id=132388BR",
+      "https://jobs.baesystems.com/global/en/job/132393BR?ph_id=132393BR",
       "https://jobs.baesystems.com/global/en/job/132394BR?ph_id=132394BR",
       "https://jobs.baesystems.com/global/en/job/132448BR?ph_id=132448BR",
       "https://jobs.baesystems.com/global/en/job/132449BR?ph_id=132449BR",
@@ -28992,6 +29132,7 @@
       "https://jobs.baesystems.com/global/en/job/132559BR?ph_id=132559BR",
       "https://jobs.baesystems.com/global/en/job/132570BR?ph_id=132570BR",
       "https://jobs.baesystems.com/global/en/job/132592BR?ph_id=132592BR",
+      "https://jobs.baesystems.com/global/en/job/132599BR?ph_id=132599BR",
       "https://jobs.baesystems.com/global/en/job/132608BR?ph_id=132608BR",
       "https://jobs.baesystems.com/global/en/job/132632BR?ph_id=132632BR",
       "https://jobs.baesystems.com/global/en/job/132673BR?ph_id=132673BR",
@@ -29011,6 +29152,7 @@
       "https://jobs.baesystems.com/global/en/job/132933BR?ph_id=132933BR",
       "https://jobs.baesystems.com/global/en/job/132949BR?ph_id=132949BR",
       "https://jobs.baesystems.com/global/en/job/132955BR?ph_id=132955BR",
+      "https://jobs.baesystems.com/global/en/job/132969BR?ph_id=132969BR",
       "https://jobs.baesystems.com/global/en/job/132975BR?ph_id=132975BR"
     ]
   },
@@ -29224,7 +29366,8 @@
       "https://johndeere.eightfold.ai/careers/job/137484335625?domain=johndeere.com&8fold_id=137484335625",
       "https://johndeere.eightfold.ai/careers/job/137484385559?domain=johndeere.com&8fold_id=137484385559",
       "https://johndeere.eightfold.ai/careers/job/137484403529?domain=johndeere.com&8fold_id=137484403529",
-      "https://johndeere.eightfold.ai/careers/job/137484432968?domain=johndeere.com&8fold_id=137484432968"
+      "https://johndeere.eightfold.ai/careers/job/137484432968?domain=johndeere.com&8fold_id=137484432968",
+      "https://johndeere.eightfold.ai/careers/job/137484510887?domain=johndeere.com&8fold_id=137484510887"
     ]
   },
   {
@@ -29874,7 +30017,8 @@
       "https://careers-kinaxis.icims.com/jobs/35465/intern-ai%26ml-researcher/job",
       "https://careers-kinaxis.icims.com/jobs/35470/cloud-engineer-1%2c-site-reliability-engineering-%28early-career%2c-junior-level%29/job",
       "https://careers-kinaxis.icims.com/jobs/35552/python-backend-developer/job",
-      "https://careers-kinaxis.icims.com/jobs/35590/forward-deployed-engineer/job"
+      "https://careers-kinaxis.icims.com/jobs/35590/forward-deployed-engineer/job",
+      "https://careers-kinaxis.icims.com/jobs/35781/ai-solutions-engineer%2c-professional-services/job"
     ]
   },
   {
@@ -29932,7 +30076,8 @@
       "https://jobs.smartrecruiters.com/Kioxia/744000113744318",
       "https://jobs.smartrecruiters.com/Kioxia/744000150413649",
       "https://jobs.smartrecruiters.com/Kioxia/744000150761320",
-      "https://jobs.smartrecruiters.com/Kioxia/744000151102382"
+      "https://jobs.smartrecruiters.com/Kioxia/744000151102382",
+      "https://jobs.smartrecruiters.com/Kioxia/744000162174521"
     ]
   },
   {
@@ -30106,7 +30251,8 @@
       "https://job-boards.greenhouse.io/kodiak/jobs/4312761009",
       "https://job-boards.greenhouse.io/kodiak/jobs/4320932009",
       "https://job-boards.greenhouse.io/kodiak/jobs/4396622009",
-      "https://job-boards.greenhouse.io/kodiak/jobs/4405441009"
+      "https://job-boards.greenhouse.io/kodiak/jobs/4405441009",
+      "https://job-boards.greenhouse.io/kodiak/jobs/4511215009"
     ]
   },
   {
@@ -30345,6 +30491,7 @@
       "https://careers.l3harris.com/job/mirabel/avionics-systems-engineering-associate/4832/103382842336",
       "https://careers.l3harris.com/job/montreal/integration-and-test-software-engineer/4832/101061116288",
       "https://careers.l3harris.com/job/montreal/software-engineer/4832/100345950672",
+      "https://careers.l3harris.com/job/montreal/spec-software-engineering/4832/103431129280",
       "https://careers.l3harris.com/job/montreal/specialist-software-engineering/4832/103083413344",
       "https://careers.l3harris.com/job/montreal/systems-engineer/4832/103382832160",
       "https://careers.l3harris.com/job/nashville/intern-software-engineer/4832/102854131504",
@@ -30436,6 +30583,8 @@
       "https://careers.l3harris.com/job/springfield/specialist-systems-engineering-space-intelligence-analyst/4832/103096576944",
       "https://careers.l3harris.com/job/state-college/specialist-systems-engineering/4832/98544143568",
       "https://careers.l3harris.com/job/united-states/it-global-trade-systems-analyst/4832/100786699136",
+      "https://careers.l3harris.com/job/waco/associate-systems-integration-and-test-engineering/4832/103431129184",
+      "https://careers.l3harris.com/job/waco/associate-systems-integration-and-test-engineering/4832/103431129200",
       "https://careers.l3harris.com/job/waco/scientist-system-safety-engineer/4832/103168659744",
       "https://careers.l3harris.com/job/waco/specialist-systems-engineer/4832/102258067392",
       "https://careers.l3harris.com/job/waco/specialist-systems-engineer/4832/103118054560",
@@ -30444,11 +30593,13 @@
       "https://careers.l3harris.com/job/waterdown/fpga-software-tool-developer-co-op-waterdown-can/4832/100667892544",
       "https://careers.l3harris.com/job/waterdown/software-engineering-co-op-waterdown-can/4832/100667892672",
       "https://careers.l3harris.com/job/waterdown/software-engineering-co-op-waterdown-can/4832/100989141008",
+      "https://careers.l3harris.com/job/waterdown/specialist-systems-engineering/4832/103431129344",
       "https://careers.l3harris.com/job/waterdown/systems-engineering-r-and-a-co-op-waterdown-can/4832/101356263312",
       "https://careers.l3harris.com/job/waterdown/test-engineering-software-designer/4832/102510259808",
       "https://careers.l3harris.com/job/west-palm-beach/associate-systems-engineer/4832/101700224080",
       "https://careers.l3harris.com/job/west-palm-beach/specialist-systems-engineer-hypersonic-propulsion/4832/100730290896",
       "https://careers.l3harris.com/job/wilmington/scientist-chief-software-engineering-embedded-flight-software-sign-on-bonus-50k-max/4832/103186662224",
+      "https://careers.l3harris.com/job/wilmington/sr-specialist-systems-engineer-space-systems-sign-on-bonus-20k-max/4832/103431129328",
       "https://careers.l3harris.com/job/yorba-linda/specialist-software-engineer-application-infrastructure-and-embedded-systems/4832/102173096144",
       "https://careers.l3harris.com/job/yorba-linda/specialist-software-engineering-real-time-embedded-gps/4832/102557684752",
       "https://careers.l3harris.com/job/yorba-linda/specialist-systems-engineer-software-defined-radio/4832/100769332640",
@@ -31154,7 +31305,8 @@
       "https://jobs.smartrecruiters.com/LinkedIn3/744000158542329",
       "https://jobs.smartrecruiters.com/LinkedIn3/744000159509679",
       "https://jobs.smartrecruiters.com/LinkedIn3/744000161375119",
-      "https://jobs.smartrecruiters.com/LinkedIn3/744000161930950"
+      "https://jobs.smartrecruiters.com/LinkedIn3/744000161930950",
+      "https://jobs.smartrecruiters.com/LinkedIn3/744000162178160"
     ]
   },
   {
@@ -31386,7 +31538,9 @@
       "https://jobs.smartrecruiters.com/LLNL/3743990016770976",
       "https://jobs.smartrecruiters.com/LLNL/3743990016793416",
       "https://jobs.smartrecruiters.com/LLNL/3743990016808996",
-      "https://jobs.smartrecruiters.com/LLNL/3743990016890226"
+      "https://jobs.smartrecruiters.com/LLNL/3743990016890226",
+      "https://jobs.smartrecruiters.com/LLNL/3743990016914726",
+      "https://jobs.smartrecruiters.com/LLNL/3743990016921256"
     ]
   },
   {
@@ -31479,6 +31633,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996476210049?domain=lockheedmartin.com&8fold_id=996476210049",
       "https://lockheedmartin.eightfold.ai/careers/job/996476225595?domain=lockheedmartin.com&8fold_id=996476225595",
       "https://lockheedmartin.eightfold.ai/careers/job/996476227019?domain=lockheedmartin.com&8fold_id=996476227019",
+      "https://lockheedmartin.eightfold.ai/careers/job/996476227768?domain=lockheedmartin.com&8fold_id=996476227768",
       "https://lockheedmartin.eightfold.ai/careers/job/996476230818?domain=lockheedmartin.com&8fold_id=996476230818",
       "https://lockheedmartin.eightfold.ai/careers/job/996476239047?domain=lockheedmartin.com&8fold_id=996476239047",
       "https://lockheedmartin.eightfold.ai/careers/job/996476273927?domain=lockheedmartin.com&8fold_id=996476273927",
@@ -31489,11 +31644,14 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996476547934?domain=lockheedmartin.com&8fold_id=996476547934",
       "https://lockheedmartin.eightfold.ai/careers/job/996476554987?domain=lockheedmartin.com&8fold_id=996476554987",
       "https://lockheedmartin.eightfold.ai/careers/job/996476581100?domain=lockheedmartin.com&8fold_id=996476581100",
+      "https://lockheedmartin.eightfold.ai/careers/job/996476686607?domain=lockheedmartin.com&8fold_id=996476686607",
       "https://lockheedmartin.eightfold.ai/careers/job/996476692615?domain=lockheedmartin.com&8fold_id=996476692615",
       "https://lockheedmartin.eightfold.ai/careers/job/996476697147?domain=lockheedmartin.com&8fold_id=996476697147",
       "https://lockheedmartin.eightfold.ai/careers/job/996476697836?domain=lockheedmartin.com&8fold_id=996476697836",
+      "https://lockheedmartin.eightfold.ai/careers/job/996476698515?domain=lockheedmartin.com&8fold_id=996476698515",
       "https://lockheedmartin.eightfold.ai/careers/job/996476698741?domain=lockheedmartin.com&8fold_id=996476698741",
       "https://lockheedmartin.eightfold.ai/careers/job/996476704238?domain=lockheedmartin.com&8fold_id=996476704238",
+      "https://lockheedmartin.eightfold.ai/careers/job/996476750902?domain=lockheedmartin.com&8fold_id=996476750902",
       "https://lockheedmartin.eightfold.ai/careers/job/996476762433?domain=lockheedmartin.com&8fold_id=996476762433",
       "https://lockheedmartin.eightfold.ai/careers/job/996476763591?domain=lockheedmartin.com&8fold_id=996476763591",
       "https://lockheedmartin.eightfold.ai/careers/job/996476764265?domain=lockheedmartin.com&8fold_id=996476764265",
@@ -31533,6 +31691,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477221353?domain=lockheedmartin.com&8fold_id=996477221353",
       "https://lockheedmartin.eightfold.ai/careers/job/996477240661?domain=lockheedmartin.com&8fold_id=996477240661",
       "https://lockheedmartin.eightfold.ai/careers/job/996477241364?domain=lockheedmartin.com&8fold_id=996477241364",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477262749?domain=lockheedmartin.com&8fold_id=996477262749",
       "https://lockheedmartin.eightfold.ai/careers/job/996477263769?domain=lockheedmartin.com&8fold_id=996477263769",
       "https://lockheedmartin.eightfold.ai/careers/job/996477264828?domain=lockheedmartin.com&8fold_id=996477264828",
       "https://lockheedmartin.eightfold.ai/careers/job/996477266359?domain=lockheedmartin.com&8fold_id=996477266359",
@@ -31570,6 +31729,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477409290?domain=lockheedmartin.com&8fold_id=996477409290",
       "https://lockheedmartin.eightfold.ai/careers/job/996477409431?domain=lockheedmartin.com&8fold_id=996477409431",
       "https://lockheedmartin.eightfold.ai/careers/job/996477409534?domain=lockheedmartin.com&8fold_id=996477409534",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477409959?domain=lockheedmartin.com&8fold_id=996477409959",
       "https://lockheedmartin.eightfold.ai/careers/job/996477410071?domain=lockheedmartin.com&8fold_id=996477410071",
       "https://lockheedmartin.eightfold.ai/careers/job/996477411515?domain=lockheedmartin.com&8fold_id=996477411515",
       "https://lockheedmartin.eightfold.ai/careers/job/996477411673?domain=lockheedmartin.com&8fold_id=996477411673",
@@ -31593,6 +31753,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477458766?domain=lockheedmartin.com&8fold_id=996477458766",
       "https://lockheedmartin.eightfold.ai/careers/job/996477458975?domain=lockheedmartin.com&8fold_id=996477458975",
       "https://lockheedmartin.eightfold.ai/careers/job/996477459008?domain=lockheedmartin.com&8fold_id=996477459008",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477460138?domain=lockheedmartin.com&8fold_id=996477460138",
       "https://lockheedmartin.eightfold.ai/careers/job/996477460211?domain=lockheedmartin.com&8fold_id=996477460211",
       "https://lockheedmartin.eightfold.ai/careers/job/996477460329?domain=lockheedmartin.com&8fold_id=996477460329",
       "https://lockheedmartin.eightfold.ai/careers/job/996477460971?domain=lockheedmartin.com&8fold_id=996477460971",
@@ -31648,6 +31809,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477565019?domain=lockheedmartin.com&8fold_id=996477565019",
       "https://lockheedmartin.eightfold.ai/careers/job/996477565181?domain=lockheedmartin.com&8fold_id=996477565181",
       "https://lockheedmartin.eightfold.ai/careers/job/996477565312?domain=lockheedmartin.com&8fold_id=996477565312",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477568037?domain=lockheedmartin.com&8fold_id=996477568037",
       "https://lockheedmartin.eightfold.ai/careers/job/996477568521?domain=lockheedmartin.com&8fold_id=996477568521",
       "https://lockheedmartin.eightfold.ai/careers/job/996477569174?domain=lockheedmartin.com&8fold_id=996477569174",
       "https://lockheedmartin.eightfold.ai/careers/job/996477569320?domain=lockheedmartin.com&8fold_id=996477569320",
@@ -31661,6 +31823,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477594494?domain=lockheedmartin.com&8fold_id=996477594494",
       "https://lockheedmartin.eightfold.ai/careers/job/996477595000?domain=lockheedmartin.com&8fold_id=996477595000",
       "https://lockheedmartin.eightfold.ai/careers/job/996477595544?domain=lockheedmartin.com&8fold_id=996477595544",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477607827?domain=lockheedmartin.com&8fold_id=996477607827",
       "https://lockheedmartin.eightfold.ai/careers/job/996477611220?domain=lockheedmartin.com&8fold_id=996477611220",
       "https://lockheedmartin.eightfold.ai/careers/job/996477613578?domain=lockheedmartin.com&8fold_id=996477613578",
       "https://lockheedmartin.eightfold.ai/careers/job/996477613620?domain=lockheedmartin.com&8fold_id=996477613620",
@@ -31906,6 +32069,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477854014?domain=lockheedmartin.com&8fold_id=996477854014",
       "https://lockheedmartin.eightfold.ai/careers/job/996477854309?domain=lockheedmartin.com&8fold_id=996477854309",
       "https://lockheedmartin.eightfold.ai/careers/job/996477854704?domain=lockheedmartin.com&8fold_id=996477854704",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477854786?domain=lockheedmartin.com&8fold_id=996477854786",
       "https://lockheedmartin.eightfold.ai/careers/job/996477854794?domain=lockheedmartin.com&8fold_id=996477854794",
       "https://lockheedmartin.eightfold.ai/careers/job/996477866368?domain=lockheedmartin.com&8fold_id=996477866368",
       "https://lockheedmartin.eightfold.ai/careers/job/996477866487?domain=lockheedmartin.com&8fold_id=996477866487",
@@ -31921,7 +32085,9 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477870649?domain=lockheedmartin.com&8fold_id=996477870649",
       "https://lockheedmartin.eightfold.ai/careers/job/996477873674?domain=lockheedmartin.com&8fold_id=996477873674",
       "https://lockheedmartin.eightfold.ai/careers/job/996477873837?domain=lockheedmartin.com&8fold_id=996477873837",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477873839?domain=lockheedmartin.com&8fold_id=996477873839",
       "https://lockheedmartin.eightfold.ai/careers/job/996477873891?domain=lockheedmartin.com&8fold_id=996477873891",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477874268?domain=lockheedmartin.com&8fold_id=996477874268",
       "https://lockheedmartin.eightfold.ai/careers/job/996477874298?domain=lockheedmartin.com&8fold_id=996477874298",
       "https://lockheedmartin.eightfold.ai/careers/job/996477874564?domain=lockheedmartin.com&8fold_id=996477874564",
       "https://lockheedmartin.eightfold.ai/careers/job/996477874602?domain=lockheedmartin.com&8fold_id=996477874602",
@@ -31949,21 +32115,28 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477893708?domain=lockheedmartin.com&8fold_id=996477893708",
       "https://lockheedmartin.eightfold.ai/careers/job/996477898017?domain=lockheedmartin.com&8fold_id=996477898017",
       "https://lockheedmartin.eightfold.ai/careers/job/996477906119?domain=lockheedmartin.com&8fold_id=996477906119",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477907091?domain=lockheedmartin.com&8fold_id=996477907091",
       "https://lockheedmartin.eightfold.ai/careers/job/996477907244?domain=lockheedmartin.com&8fold_id=996477907244",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477909842?domain=lockheedmartin.com&8fold_id=996477909842",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477911940?domain=lockheedmartin.com&8fold_id=996477911940",
       "https://lockheedmartin.eightfold.ai/careers/job/996477912157?domain=lockheedmartin.com&8fold_id=996477912157",
       "https://lockheedmartin.eightfold.ai/careers/job/996477913195?domain=lockheedmartin.com&8fold_id=996477913195",
       "https://lockheedmartin.eightfold.ai/careers/job/996477913483?domain=lockheedmartin.com&8fold_id=996477913483",
       "https://lockheedmartin.eightfold.ai/careers/job/996477928324?domain=lockheedmartin.com&8fold_id=996477928324",
       "https://lockheedmartin.eightfold.ai/careers/job/996477930835?domain=lockheedmartin.com&8fold_id=996477930835",
       "https://lockheedmartin.eightfold.ai/careers/job/996477932952?domain=lockheedmartin.com&8fold_id=996477932952",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477933490?domain=lockheedmartin.com&8fold_id=996477933490",
       "https://lockheedmartin.eightfold.ai/careers/job/996477933721?domain=lockheedmartin.com&8fold_id=996477933721",
       "https://lockheedmartin.eightfold.ai/careers/job/996477936958?domain=lockheedmartin.com&8fold_id=996477936958",
       "https://lockheedmartin.eightfold.ai/careers/job/996477946549?domain=lockheedmartin.com&8fold_id=996477946549",
       "https://lockheedmartin.eightfold.ai/careers/job/996477962093?domain=lockheedmartin.com&8fold_id=996477962093",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477967658?domain=lockheedmartin.com&8fold_id=996477967658",
       "https://lockheedmartin.eightfold.ai/careers/job/996477968690?domain=lockheedmartin.com&8fold_id=996477968690",
       "https://lockheedmartin.eightfold.ai/careers/job/996477969048?domain=lockheedmartin.com&8fold_id=996477969048",
       "https://lockheedmartin.eightfold.ai/careers/job/996477971167?domain=lockheedmartin.com&8fold_id=996477971167",
       "https://lockheedmartin.eightfold.ai/careers/job/996477972427?domain=lockheedmartin.com&8fold_id=996477972427",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477972623?domain=lockheedmartin.com&8fold_id=996477972623",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477981632?domain=lockheedmartin.com&8fold_id=996477981632",
       "https://lockheedmartin.eightfold.ai/careers/job/996477984156?domain=lockheedmartin.com&8fold_id=996477984156",
       "https://lockheedmartin.eightfold.ai/careers/job/996477984436?domain=lockheedmartin.com&8fold_id=996477984436",
       "https://lockheedmartin.eightfold.ai/careers/job/996477987166?domain=lockheedmartin.com&8fold_id=996477987166",
@@ -32285,6 +32458,7 @@
       "https://app.careerpuck.com/job-board/lyft/job/8772594002?gh_jid=8772594002",
       "https://app.careerpuck.com/job-board/lyft/job/8772602002?gh_jid=8772602002",
       "https://app.careerpuck.com/job-board/lyft/job/8783345002?gh_jid=8783345002",
+      "https://app.careerpuck.com/job-board/lyft/job/8790623002?gh_jid=8790623002",
       "https://app.careerpuck.com/job-board/lyft/job/8790686002?gh_jid=8790686002",
       "https://app.careerpuck.com/job-board/lyft/job/8796054002?gh_jid=8796054002",
       "https://app.careerpuck.com/job-board/lyft/job/8797376002?gh_jid=8797376002",
@@ -32338,6 +32512,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/machindustries/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/machindustries/jobs/4385342009",
+      "https://job-boards.greenhouse.io/machindustries/jobs/4385411009",
+      "https://job-boards.greenhouse.io/machindustries/jobs/4385550009",
       "https://job-boards.greenhouse.io/machindustries/jobs/4387900009",
       "https://job-boards.greenhouse.io/machindustries/jobs/4390274009",
       "https://job-boards.greenhouse.io/machindustries/jobs/4401995009",
@@ -33287,7 +33463,8 @@
     "domain": "https://menasha.wd12.myworkdayjobs.com/menashacorp",
     "page": "https://menasha.wd12.myworkdayjobs.com/wday/cxs/menasha/menashacorp/jobs",
     "urls": [
-      "https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Oconomowoc-Wisconsin/Master-Data-Analyst_R16353"
+      "https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Oconomowoc-Wisconsin/Master-Data-Analyst_R16353",
+      "https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Oconomowoc-Wisconsin/Master-Data-Analyst_R16842"
     ]
   },
   {
@@ -34355,6 +34532,7 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/minitab/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/minitab/jobs/8200698003",
       "https://job-boards.greenhouse.io/minitab/jobs/8200708003",
       "https://job-boards.greenhouse.io/minitab/jobs/8203700003"
     ]
@@ -34387,6 +34565,7 @@
     "page": "https://careers.ll.mit.edu/services/rss/job/?locale=en_US",
     "urls": [
       "https://careers.ll.mit.edu/job/Ft-Meade-Cyber-Systems-Exploitation-Researcher-%28-Fort-Meade%2C-MD%29-MD-20755/1449113100/",
+      "https://careers.ll.mit.edu/job/Lexington-AI-ResearcherPrototyping-Engineer-MA-02420/1451559500/",
       "https://careers.ll.mit.edu/job/Lexington-AI-and-Data-Science-Solution-Engineer-MA-02420/1451063900/",
       "https://careers.ll.mit.edu/job/Lexington-Cyber-Security-Analyst-MA-02420/1430096100/",
       "https://careers.ll.mit.edu/job/Lexington-Cyber-Systems-Exploitation-Researcher-MA-02420/1449100000/",
@@ -35184,7 +35363,8 @@
       "https://mthree.com/careers/job/?gh_jid=4727078006",
       "https://mthree.com/careers/job/?gh_jid=4727104006",
       "https://mthree.com/careers/job/?gh_jid=4729130006",
-      "https://mthree.com/careers/job/?gh_jid=4729755006"
+      "https://mthree.com/careers/job/?gh_jid=4729755006",
+      "https://mthree.com/careers/job/?gh_jid=4730263006"
     ]
   },
   {
@@ -35521,7 +35701,8 @@
       "https://jobs.smartrecruiters.com/NBCUniversal3/744000160659459",
       "https://jobs.smartrecruiters.com/NBCUniversal3/744000160686477",
       "https://jobs.smartrecruiters.com/NBCUniversal3/744000161150234",
-      "https://jobs.smartrecruiters.com/NBCUniversal3/744000161179529"
+      "https://jobs.smartrecruiters.com/NBCUniversal3/744000161179529",
+      "https://jobs.smartrecruiters.com/NBCUniversal3/744000162180744"
     ]
   },
   {
@@ -35680,6 +35861,7 @@
     "domain": "https://jobdetails.nestle.com",
     "page": "https://jobdetails.nestle.com/services/rss/job/?locale=en_US",
     "urls": [
+      "https://jobdetails.nestle.com/job/Nestl%C3%A9-Purina-PetCare-Project-Engineer-Automation-Systems-%28Greenfield-Project%29-Mantova-46100/1448794433/",
       "https://jobdetails.nestle.com/job/New-York-Nespresso-Web-Development-Intern-(AI-Engineering)-NY-10001/1269204701/?ats=successfactors",
       "https://jobdetails.nestle.com/job/North-York-Applications-Web-Developer-Intern-ON/1258794601/?ats=successfactors"
     ]
@@ -35931,6 +36113,7 @@
       "https://explore.jobs.netflix.net/careers/job/790319328210",
       "https://explore.jobs.netflix.net/careers/job/790319386317",
       "https://explore.jobs.netflix.net/careers/job/790319479902",
+      "https://explore.jobs.netflix.net/careers/job/790319560051",
       "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5"
     ]
   },
@@ -36538,6 +36721,11 @@
     "domain": "https://careers.nintendo.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/nintendo/jobs",
     "urls": [
+      "https://careers.nintendo.com/?gh_jid=4101334009",
+      "https://careers.nintendo.com/?gh_jid=4251061009",
+      "https://careers.nintendo.com/?gh_jid=4299949009",
+      "https://careers.nintendo.com/?gh_jid=4341082009",
+      "https://careers.nintendo.com/?gh_jid=4372950009",
       "https://careers.nintendo.com/?gh_jid=4475136009"
     ]
   },
@@ -36594,7 +36782,8 @@
       "https://careers.noblis.org/jobs/28110?icims=1",
       "https://careers.noblis.org/jobs/28122?icims=1",
       "https://careers.noblis.org/jobs/28133?icims=1",
-      "https://careers.noblis.org/jobs/28136?icims=1"
+      "https://careers.noblis.org/jobs/28136?icims=1",
+      "https://careers.noblis.org/jobs/28214?icims=1"
     ]
   },
   {
@@ -37529,6 +37718,7 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/okx/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/okx/jobs/7552740003",
       "https://job-boards.greenhouse.io/okx/jobs/7601723003",
       "https://job-boards.greenhouse.io/okx/jobs/7767872003",
       "https://job-boards.greenhouse.io/okx/jobs/7777043003",
@@ -37769,6 +37959,7 @@
       "https://jobs.ashbyhq.com/openai/5ed99d32-eed1-4679-b7b4-037de073e57c",
       "https://jobs.ashbyhq.com/openai/5f6685ad-2fba-4e60-8982-fa142b33e194",
       "https://jobs.ashbyhq.com/openai/60573bf4-13ad-4933-aba7-729f428e9f69",
+      "https://jobs.ashbyhq.com/openai/60f8bcbc-3ca5-42f4-a73b-e864a6340a16",
       "https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8",
       "https://jobs.ashbyhq.com/openai/6668417f-6878-4244-940f-9a99ae4ebcb0",
       "https://jobs.ashbyhq.com/openai/6a7cedbd-0a7c-4f3e-8389-55357ad444b3",
@@ -37779,6 +37970,7 @@
       "https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01",
       "https://jobs.ashbyhq.com/openai/71838fdf-4476-490c-81b6-4bf0746f6774",
       "https://jobs.ashbyhq.com/openai/7243bdb7-7f75-4dff-a10f-18bd7296f632",
+      "https://jobs.ashbyhq.com/openai/7447dd43-9bf5-445f-bb8c-ba57756c8d04",
       "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
       "https://jobs.ashbyhq.com/openai/7613aca3-9dd8-41cd-b114-06ef4de967a9",
       "https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64",
@@ -38172,6 +38364,7 @@
       "https://jobs.paccar.com/job/Chillicothe-Data-Engineering-Intern-OH-45601-8829/1456138333/",
       "https://jobs.paccar.com/job/Chillicothe-Robotics-Software-Engineer-1-OH-45601-8829/1419447833/",
       "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Data-Engineer-TX-76205-7864/1454360033/",
+      "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Data-Scientist-TX-76205-7864/1458178433/",
       "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Design-Engineer-Autonomous-Vehicle-Platform-TX-76205-7864/1453611233/",
       "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Engineering-Systems-TX-76205-7864/1456235133/",
       "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Software-Developer-TX-76205-7864/1453615433/?ats=successfactors",
@@ -38332,6 +38525,7 @@
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Requirements-Management-and-System-Engineer_R0170508",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Requirements-Management-and-System-Engineer_R0171004",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Systems-Engineer_R0169171",
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Tullahoma/Software-Programmer-Intern_R0169775",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Cybersecurity-Space-Systems-Engineer_R0173799",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Cybersecurity-Space-Systems-Engineer_R0173800",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/IVA-Spacesuit-Systems-Engineer_R0171936-12",
@@ -38517,6 +38711,7 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/PAR%20Technology",
     "urls": [
       "https://jobs.ashbyhq.com/PAR%20Technology/16201e0e-82f0-4491-b10d-3107107e0c89",
+      "https://jobs.ashbyhq.com/PAR%20Technology/4c0ba297-a1fb-4584-bbaa-19f18681f5a0",
       "https://jobs.ashbyhq.com/PAR%20Technology/79feb267-7ce4-4d52-ba73-8652c1ed2595",
       "https://jobs.ashbyhq.com/PAR%20Technology/cec2db23-b91d-42a6-9b8f-043c773faf56"
     ]
@@ -38866,6 +39061,7 @@
       "https://paypal.eightfold.ai/careers/job/274923348283?domain=paypal.com&8fold_id=274923348283",
       "https://paypal.eightfold.ai/careers/job/274923363863?domain=paypal.com&8fold_id=274923363863",
       "https://paypal.eightfold.ai/careers/job/274923364057?domain=paypal.com&8fold_id=274923364057",
+      "https://paypal.eightfold.ai/careers/job/274923465515?domain=paypal.com&8fold_id=274923465515",
       "https://paypal.eightfold.ai/careers/job/274923477815?domain=paypal.com&8fold_id=274923477815"
     ]
   },
@@ -40152,6 +40348,7 @@
     "page": "https://publicisgroupe.jibeapply.com/api/jobs",
     "urls": [
       "https://publicisgroupe.jibeapply.com/jobs/166907?icims=1",
+      "https://publicisgroupe.jibeapply.com/jobs/178132?icims=1",
       "https://publicisgroupe.jibeapply.com/jobs/180183?icims=1",
       "https://publicisgroupe.jibeapply.com/jobs/181068?icims=1",
       "https://publicisgroupe.jibeapply.com/jobs/181075?icims=1",
@@ -40375,6 +40572,7 @@
       "https://careers.qualcomm.com/careers/job/446721299731?domain=qualcomm.com&8fold_id=446721299731",
       "https://careers.qualcomm.com/careers/job/446721332822?domain=qualcomm.com&8fold_id=446721332822",
       "https://careers.qualcomm.com/careers/job/446721430478?domain=qualcomm.com&8fold_id=446721430478",
+      "https://careers.qualcomm.com/careers/job/446721491121?domain=qualcomm.com&8fold_id=446721491121",
       "https://careers.qualcomm.com/careers/job/446721614073?domain=qualcomm.com&8fold_id=446721614073",
       "https://careers.qualcomm.com/careers/job/446721807858?domain=qualcomm.com&8fold_id=446721807858",
       "https://careers.qualcomm.com/careers/job/446721807877?domain=qualcomm.com&8fold_id=446721807877",
@@ -40399,6 +40597,8 @@
       "https://careers.qualcomm.com/careers/job/446722070494?domain=qualcomm.com&8fold_id=446722070494",
       "https://careers.qualcomm.com/careers/job/446722080106?domain=qualcomm.com&8fold_id=446722080106",
       "https://careers.qualcomm.com/careers/job/446722110009?domain=qualcomm.com&8fold_id=446722110009",
+      "https://careers.qualcomm.com/careers/job/446722119778?domain=qualcomm.com&8fold_id=446722119778",
+      "https://careers.qualcomm.com/careers/job/446722177119?domain=qualcomm.com&8fold_id=446722177119",
       "https://careers.qualcomm.com/careers?query=software&start=0&pid=446716309588&sort_by=relevance",
       "https://qualcomm.eightfold.ai/careers/job/446704270279?domain=qualcomm.com&8fold_id=446704270279",
       "https://qualcomm.eightfold.ai/careers/job/446714958588?domain=qualcomm.com&8fold_id=446714958588",
@@ -40966,6 +41166,7 @@
     "urls": [
       "https://jobs.ashbyhq.com/ramp/09360e92-fc95-4ba6-9611-dfefd60b13ce",
       "https://jobs.ashbyhq.com/ramp/2888b101-b1da-4e53-a02e-1bb9b1b5a951",
+      "https://jobs.ashbyhq.com/ramp/3cfbf693-58e3-423f-87a8-a93dbd0839b0",
       "https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138",
       "https://jobs.ashbyhq.com/ramp/6310f1b3-1ae2-476c-b4ce-affe530ede26",
       "https://jobs.ashbyhq.com/ramp/6511d68f-b65d-4499-962f-7e2f75eabe3f",
@@ -41343,7 +41544,8 @@
       "https://boards.greenhouse.io/relativity/jobs/8834005002?gh_jid=8834005002",
       "https://boards.greenhouse.io/relativity/jobs/8861994002?gh_jid=8861994002",
       "https://boards.greenhouse.io/relativity/jobs/8892460002?gh_jid=8892460002",
-      "https://boards.greenhouse.io/relativity/jobs/8924159002?gh_jid=8924159002"
+      "https://boards.greenhouse.io/relativity/jobs/8924159002?gh_jid=8924159002",
+      "https://boards.greenhouse.io/relativity/jobs/8949325002?gh_jid=8949325002"
     ]
   },
   {
@@ -41371,7 +41573,9 @@
     "identifier": "careers.reliance.com",
     "domain": "https://careers.reliance.com",
     "page": "https://careers.reliance.com/api/jobs",
-    "urls": []
+    "urls": [
+      "https://careers.reliance.com/jobs/4244?icims=1"
+    ]
   },
   {
     "name": "reliaquest",
@@ -41595,7 +41799,8 @@
     "urls": [
       "https://jobs.ashbyhq.com/replit/9a56d0ac-db44-4dc1-b960-2364557bf4c8",
       "https://jobs.ashbyhq.com/replit/b7f12834-78d2-424d-bf83-0c942815fbf7",
-      "https://jobs.ashbyhq.com/replit/de941de4-b0f2-4de8-a018-af667c67f33e"
+      "https://jobs.ashbyhq.com/replit/de941de4-b0f2-4de8-a018-af667c67f33e",
+      "https://jobs.ashbyhq.com/replit/f32821e3-8b65-4565-b12f-3a2f3e399fb9"
     ]
   },
   {
@@ -41695,7 +41900,9 @@
     "identifier": "retell-ai",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/retell-ai",
-    "urls": []
+    "urls": [
+      "https://jobs.ashbyhq.com/retell-ai/1b10f02d-d474-4a67-85f4-8697a39a4e38"
+    ]
   },
   {
     "name": "revel",
@@ -41925,7 +42132,9 @@
     "identifier": "careers.rivian.com",
     "domain": "https://careers.rivian.com",
     "page": "https://careers.rivian.com/api/jobs",
-    "urls": []
+    "urls": [
+      "https://careers.rivian.com/jobs/36328?icims=1"
+    ]
   },
   {
     "name": "rivianvw.tech",
@@ -42044,7 +42253,8 @@
       "https://careers.roblox.com/jobs/8304210?gh_jid=8304210",
       "https://careers.roblox.com/jobs/8325759?gh_jid=8325759",
       "https://careers.roblox.com/jobs/8356764?gh_jid=8356764",
-      "https://careers.roblox.com/jobs/8384186?gh_jid=8384186"
+      "https://careers.roblox.com/jobs/8384186?gh_jid=8384186",
+      "https://careers.roblox.com/jobs/8386848?gh_jid=8386848"
     ]
   },
   {
@@ -43487,6 +43697,7 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/saronic",
     "urls": [
+      "https://jobs.ashbyhq.com/saronic/1eb72659-5b57-4f31-97e2-82fa04b0bfdf",
       "https://jobs.ashbyhq.com/saronic/3047298d-a9a7-45bc-9a5d-bfe9a8f1e40b",
       "https://jobs.ashbyhq.com/saronic/4b601575-99ba-4a5e-962f-d884bb3a85ac",
       "https://jobs.ashbyhq.com/saronic/4bd52e96-1903-4d2a-8e04-0e4d8851059e",
@@ -43709,6 +43920,7 @@
       "https://www.schwabjobs.com/job/southlake/etl-developer-data-engineer/33727/95734216864",
       "https://www.schwabjobs.com/job/southlake/java-software-engineer/33727/97762271888",
       "https://www.schwabjobs.com/job/southlake/junior-full-stack-net-developer/33727/103129674256",
+      "https://www.schwabjobs.com/job/southlake/machine-learning-ops-data-engineer/33727/98187448448",
       "https://www.schwabjobs.com/job/southlake/production-support-data-engineer/33727/102659321504",
       "https://www.schwabjobs.com/job/southlake/site-reliability-engineer/33727/100685602720",
       "https://www.schwabjobs.com/job/southlake/software-developer/33727/100363971072",
@@ -43743,6 +43955,7 @@
       "https://careers-scires.icims.com/jobs/11678/data-analyst/job",
       "https://careers-scires.icims.com/jobs/11726/full-stack-developer/job",
       "https://careers-scires.icims.com/jobs/11737/ai-ml-developer/job",
+      "https://careers-scires.icims.com/jobs/11742/systems-analyst-iv/job",
       "https://careers-scires.icims.com/jobs/11748/security-engineer/job",
       "https://careers-scires.icims.com/jobs/11750/systems-engineer/job",
       "https://careers-scires.icims.com/jobs/11761/jtt-systems-engineer/job",
@@ -43852,6 +44065,16 @@
     "page": "https://ekaw.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
       "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/171684"
+    ]
+  },
+  {
+    "name": "Sedaro",
+    "ats": "bamboohr",
+    "identifier": "sedarotech",
+    "domain": "https://sedarotech.bamboohr.com",
+    "page": "https://sedarotech.bamboohr.com/careers/list",
+    "urls": [
+      "https://sedarotech.bamboohr.com/careers/97"
     ]
   },
   {
@@ -44258,7 +44481,8 @@
       "https://jobs.smartrecruiters.com/ServiceNow/744000161877120",
       "https://jobs.smartrecruiters.com/ServiceNow/744000161881425",
       "https://jobs.smartrecruiters.com/ServiceNow/744000161936020",
-      "https://jobs.smartrecruiters.com/ServiceNow/744000161936128"
+      "https://jobs.smartrecruiters.com/ServiceNow/744000161936128",
+      "https://jobs.smartrecruiters.com/ServiceNow/744000162190099"
     ]
   },
   {
@@ -44369,6 +44593,7 @@
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2624433",
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2627162",
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2627341",
+      "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2628537",
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2628930"
     ]
   },
@@ -45154,6 +45379,7 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/socure",
     "urls": [
       "https://jobs.ashbyhq.com/socure/5337e747-bc84-4c2d-8f5e-042cf64bc80e",
+      "https://jobs.ashbyhq.com/socure/58799c04-b242-4af6-9f19-91c680caecd4",
       "https://jobs.ashbyhq.com/socure/6c551fe0-67db-438a-a600-f2a2230a6cf0",
       "https://jobs.ashbyhq.com/socure/e0da1919-2b9d-4b07-820b-4daa0f8f3309"
     ]
@@ -45231,7 +45457,8 @@
       "https://jobs.smartrecruiters.com/Solidigm/744000153863409",
       "https://jobs.smartrecruiters.com/Solidigm/744000153863749",
       "https://jobs.smartrecruiters.com/Solidigm/744000158314889",
-      "https://jobs.smartrecruiters.com/Solidigm/744000161731019"
+      "https://jobs.smartrecruiters.com/Solidigm/744000161731019",
+      "https://jobs.smartrecruiters.com/Solidigm/744000162154319"
     ]
   },
   {
@@ -45794,7 +46021,9 @@
       "https://boards.greenhouse.io/spacex/jobs/8942436002?gh_jid=8942436002",
       "https://boards.greenhouse.io/spacex/jobs/8943586002?gh_jid=8943586002",
       "https://boards.greenhouse.io/spacex/jobs/8943817002?gh_jid=8943817002",
-      "https://boards.greenhouse.io/spacex/jobs/8944232002?gh_jid=8944232002"
+      "https://boards.greenhouse.io/spacex/jobs/8944232002?gh_jid=8944232002",
+      "https://boards.greenhouse.io/spacex/jobs/8948601002?gh_jid=8948601002",
+      "https://boards.greenhouse.io/spacex/jobs/8949363002?gh_jid=8949363002"
     ]
   },
   {
@@ -46104,6 +46333,7 @@
     "domain": "https://careers-sri.icims.com",
     "page": "https://careers-sri.icims.com/jobs/search",
     "urls": [
+      "https://careers-sri.icims.com/jobs/6540/drexel-university-co-op%3a-software-engineering/job",
       "https://careers-sri.icims.com/jobs/6541/drexel-university-co-op%3a-software-engineering-full-stack-development/job",
       "https://careers-sri.icims.com/jobs/6542/drexel-university-co-op%3a-embedded-software-engineering/job"
     ]
@@ -46275,12 +46505,14 @@
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Cloud---DevSecOps-Engineer_R1963",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Cloud-Simulation-Integration-Engineer_R1964",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Data-Analyst-Optics-Engineer_R1487",
+      "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Entry-Level-Modeling---Simulation-Software-Engineer_R2206-1",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Entry-Level-Systems-Test-Engineer_R2032",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Entry-Level-Systems-Test-Engineer_R2137",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Full-Stack-Engineer_R1172",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/IFPC-IV-V-Software-System-Analyst_R2178",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Jr-Software-Analyst_R2150",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Junior-Level-Modeling---Simulation-Software-Engineer_R1581",
+      "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Junior-Level-Modeling---Simulation-Software-Engineer_R2207",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Junior-Modeling-and-Simulation--M-S--Software-Developer_R2086",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Mid-Level-Lead-Systems-Engineer-Analyst_R1433",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Missile-Defense-System-Mission-Engineer-Analyst_R1653",
@@ -46295,6 +46527,7 @@
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Software-Developer_R2149",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Software-Systems-Engineer_R2044",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Software-Test-Engineer_R1649",
+      "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Systems-Engineer-Analyst--Air---Missile-Defense-_R2208-1",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Systems-Engineer-Analyst_R1185",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Systems-Engineer-Analyst_R2159",
       "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Tracking--Filtering--EO-IR-Data-Analyst_R1486",
@@ -46348,7 +46581,8 @@
       "https://jobs.statefarm.com/jobs/46825?icims=1",
       "https://jobs.statefarm.com/jobs/48526?icims=1",
       "https://jobs.statefarm.com/jobs/50222?icims=1",
-      "https://jobs.statefarm.com/jobs/50386?icims=1"
+      "https://jobs.statefarm.com/jobs/50386?icims=1",
+      "https://jobs.statefarm.com/jobs/50979?icims=1"
     ]
   },
   {
@@ -46470,7 +46704,9 @@
     "identifier": "steeldynamics",
     "domain": "https://careers-steeldynamics.icims.com",
     "page": "https://careers-steeldynamics.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-steeldynamics.icims.com/jobs/8717/information-security-software-developer/job"
+    ]
   },
   {
     "name": "steerbridge",
@@ -47284,7 +47520,8 @@
       "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4726525006",
       "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4728298006",
       "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4728422006",
-      "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4728527006"
+      "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4728527006",
+      "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4730198006"
     ]
   },
   {
@@ -47720,6 +47957,7 @@
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25011536",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25013866",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25015894",
+      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016343",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016562",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016594",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016694",
@@ -47761,9 +47999,11 @@
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019732",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019748",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019880",
+      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020113",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020201",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020271",
-      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020282"
+      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020282",
+      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020324"
     ]
   },
   {
@@ -48381,7 +48621,13 @@
     "identifier": "thetradedesk",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/thetradedesk/jobs",
-    "urls": []
+    "urls": [
+      "https://job-boards.greenhouse.io/thetradedesk/jobs/5073512007",
+      "https://job-boards.greenhouse.io/thetradedesk/jobs/5294149007",
+      "https://job-boards.greenhouse.io/thetradedesk/jobs/5297148007",
+      "https://job-boards.greenhouse.io/thetradedesk/jobs/5297279007",
+      "https://job-boards.greenhouse.io/thetradedesk/jobs/5297281007"
+    ]
   },
   {
     "name": "thgrp",
@@ -49899,6 +50145,7 @@
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Beavercreek-Ohio/Systems-Engineer-III---Test-and-Integration-Lab-Support_R2128734",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Beavercreek-Township-Ohio/Software-Developer---Full-Stack-Engineer-NSIC_R3001075",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Chantilly-Virginia/Associate-Instructional-Systems-Designer--ISD----Learning---Development-Specialist_R3001279",
+      "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Chantilly-Virginia/Data-Engineer--SETA-_R3001616",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Chantilly-Virginia/Data-Scientist_R3001278",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Chantilly-Virginia/Defense---Intel--D-I----Software-Engineering-Internship_R3001235",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Chantilly-Virginia/Defense---Intel--D-I----Systems-Engineering-Internship_R3001236",
@@ -49918,7 +50165,10 @@
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Colorado-Springs-Colorado/DevOps-Engineer_R2130449",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Colorado-Springs-Colorado/Manpower-and-Systems-Analyst_R2130586",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Colorado-Springs-Colorado/Mid-Astro-Software-Engineer_R2130529",
+      "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Colorado-Springs-Colorado/Mid-Software-Engineer_R2128892",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Colorado-Springs-Colorado/Systems-Engineer---Program-Liaison_R3001519",
+      "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/El-Segundo-California/Cyber-Security-Engineer_R3001619",
+      "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/El-Segundo-California/Cyber-System-Security-Engineer--CSSE-_R3001624",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/El-Segundo-California/Enterprise-Crypto-Security-Engineer_R3001548",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/El-Segundo-California/NS4R-Software-Developer_R3001007",
       "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Huntsville-Alabama/Software-Engineer_R3001308",
@@ -50228,7 +50478,8 @@
       "https://job-boards.greenhouse.io/twitch/jobs/8931343002",
       "https://job-boards.greenhouse.io/twitch/jobs/8931345002",
       "https://job-boards.greenhouse.io/twitch/jobs/8934067002",
-      "https://job-boards.greenhouse.io/twitch/jobs/8943553002"
+      "https://job-boards.greenhouse.io/twitch/jobs/8943553002",
+      "https://job-boards.greenhouse.io/twitch/jobs/8949388002"
     ]
   },
   {
@@ -50606,11 +50857,13 @@
       "https://careers.unitedhealthgroup.com/job/eden-prairie/advisory-services-consultant-consultant-development-program-ai-ml-engineering-track-multiple-locati/34088/103077726784",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/ai-governance-data-scientist-remote/34088/100183402400",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/associate-ai-ml-engineer/34088/103257639616",
+      "https://careers.unitedhealthgroup.com/job/eden-prairie/associate-business-systems-analyst/34088/103014420176",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/cybersecurity-development-program-associate/34088/102882852704",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/cybersecurity-development-program-internship/34088/102882852768",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/data-analyst-optum-insight-remote/34088/103402591760",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/data-engineer-remote/34088/103376759296",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/dir-software-engineering-remote/34088/103211516368",
+      "https://careers.unitedhealthgroup.com/job/eden-prairie/forward-deployed-engineer-google-cloud-platform-gcp-remote/34088/103442334400",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/full-stack-software-engineer/34088/103112011440",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/full-stack-software-engineer/34088/103429070320",
       "https://careers.unitedhealthgroup.com/job/eden-prairie/information-security-engineer/34088/99803687952",
@@ -50633,11 +50886,13 @@
       "https://careers.unitedhealthgroup.com/job/minnetonka/associate-ai-ml-engineer/34088/101316245472",
       "https://careers.unitedhealthgroup.com/job/noida/advisory-services-data-analyst-sql-python/34088/103402589984",
       "https://careers.unitedhealthgroup.com/job/noida/ai-ml-engineer/34088/103229769312",
+      "https://careers.unitedhealthgroup.com/job/noida/associate-ai-or-ml-engineer/34088/103445991232",
       "https://careers.unitedhealthgroup.com/job/noida/software-engineer-azure-devops-engineer/34088/103184509296",
       "https://careers.unitedhealthgroup.com/job/phoenix/sr-data-scientist-remote/34088/103216187904",
       "https://careers.unitedhealthgroup.com/job/pune/ai-or-ml-engineer/34088/103359671488",
       "https://careers.unitedhealthgroup.com/job/richardson/c-net-developer-api-backend/34088/103394497264",
       "https://careers.unitedhealthgroup.com/job/tempe/sr-ai-ml-engineer-remote-nationwide-or-office-based-in-mn-dc/34088/101133711504",
+      "https://careers.unitedhealthgroup.com/job/united-states/forward-deployed-engineer-fde-remote/34088/96560793472",
       "https://careers.unitedhealthgroup.com/job/united-states/forward-deployed-engineer-fde-remote/34088/98230642896"
     ]
   },
@@ -51648,6 +51903,8 @@
       "https://careers.viasat.com/jobs/7993?icims=1",
       "https://careers.viasat.com/jobs/7994?icims=1",
       "https://careers.viasat.com/jobs/8691?icims=1",
+      "https://careers.viasat.com/jobs/9057?icims=1",
+      "https://careers.viasat.com/jobs/9092?icims=1",
       "https://careers.viasat.com/jobs/9521?icims=1"
     ]
   },
@@ -51689,7 +51946,10 @@
     "identifier": "virtru",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/virtru/jobs",
-    "urls": []
+    "urls": [
+      "https://job-boards.greenhouse.io/virtru/jobs/4754785005",
+      "https://job-boards.greenhouse.io/virtru/jobs/4754807005"
+    ]
   },
   {
     "name": "virtu",
@@ -52173,7 +52433,8 @@
       "https://jobs.smartrecruiters.com/Wabtec/3743990016866066",
       "https://jobs.smartrecruiters.com/Wabtec/3743990016895925",
       "https://jobs.smartrecruiters.com/Wabtec/3743990016901727",
-      "https://jobs.smartrecruiters.com/Wabtec/3743990016901826"
+      "https://jobs.smartrecruiters.com/Wabtec/3743990016901826",
+      "https://jobs.smartrecruiters.com/Wabtec/3743990016915850"
     ]
   },
   {
@@ -53063,6 +53324,7 @@
       "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606958",
       "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606959",
       "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202607088",
+      "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202607174",
       "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202607277"
     ]
   },
@@ -53096,7 +53358,11 @@
       "https://wyetech.applytojob.com/apply/40XyR1VlJl",
       "https://wyetech.applytojob.com/apply/7d200RlbqP/Software-Engineer-Skill-Level-0-Or-1",
       "https://wyetech.applytojob.com/apply/9N1fCIgQkv",
-      "https://wyetech.applytojob.com/apply/JZaqCVsoYm"
+      "https://wyetech.applytojob.com/apply/DxnQKsprHn",
+      "https://wyetech.applytojob.com/apply/JZaqCVsoYm",
+      "https://wyetech.applytojob.com/apply/QpdfIhgi64",
+      "https://wyetech.applytojob.com/apply/YEDGRpI7Z3",
+      "https://wyetech.applytojob.com/apply/imyEU6hQQb"
     ]
   },
   {
@@ -53303,6 +53569,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/xometry/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/xometry/jobs/5287085007"
+    ]
+  },
+  {
+    "name": "Xradar",
+    "ats": "bamboohr",
+    "identifier": "xradar",
+    "domain": "https://xradar.bamboohr.com",
+    "page": "https://xradar.bamboohr.com/careers/list",
+    "urls": [
+      "https://xradar.bamboohr.com/careers/203/"
     ]
   },
   {
