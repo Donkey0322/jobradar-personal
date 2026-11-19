@@ -1,5 +1,5 @@
 {
-  "commit": "b83f53cf5b9dafa6415da9bd4983397e951e1c97",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1424,6 +1424,26 @@
       "location": "2 Locations",
       "country": "Unsure",
       "waitedSince": "2026-11-19T07:16:03.415Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Hpe Simplivity",
+      "role": "Linux Software Engineer",
+      "link": "https://careers.hpe.com/us/en/job/1217876",
+      "location": "Roseville, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-19T15:08:27.422Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Caci",
+      "role": "Flight Software Development Engineer, NASA Space Reactor – 1 Freedom 🇺🇸",
+      "link": "https://caci.wd1.myworkdayjobs.com/External/job/Houston-TX-US/Early-Career-NASA-Space-Reactor---1-Freedom-Flight-Software-Development-Engineer_335249",
+      "location": "Houston, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-19T15:08:27.422Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
