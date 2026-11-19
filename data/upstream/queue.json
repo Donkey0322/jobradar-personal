@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "66e0c923aec9d2667d8afcfa868b7d316cd45d54",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1418,26 +1418,6 @@
       "status": "waiting"
     },
     {
-      "company": "Hpe Simplivity",
-      "role": "Linux Software Engineer",
-      "link": "https://careers.hpe.com/us/en/job/1217876",
-      "location": "Roseville, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-19T15:08:27.422Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Caci",
-      "role": "Flight Software Development Engineer, NASA Space Reactor – 1 Freedom 🇺🇸",
-      "link": "https://caci.wd1.myworkdayjobs.com/External/job/Houston-TX-US/Early-Career-NASA-Space-Reactor---1-Freedom-Flight-Software-Development-Engineer_335249",
-      "location": "Houston, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-19T15:08:27.422Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Lockheedmartin",
       "role": "Software Engineer - E2",
       "link": "https://lockheedmartin.eightfold.ai/careers/job/996477914520?domain=lockheedmartin.com&8fold_id=996477914520",
@@ -1494,26 +1474,6 @@
       "location": "Austin, TX",
       "country": "USA",
       "waitedSince": "2026-11-19T21:56:46.989Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Bitdeer",
-      "role": "New Grad 2027: AI Engineering",
-      "link": "https://bitdeer.breezy.hr/p/826249d5dbdc-2027-us-ai-engineering-new-college-graduate",
-      "location": "San Jose, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-19T21:56:46.990Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Post-Silicon Systems Validation Engineer I, Annapurna Labs",
-      "link": "https://www.amazon.jobs/en/jobs/10502826/post-silicon-systems-validation-engineer-i-annapurna-labs",
-      "location": "Austin, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-19T21:56:46.990Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
