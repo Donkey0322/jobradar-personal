@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "name": "batches/hpfggxjcu88w80rtr9vsmzcl6wc06myehwts",
+    "submittedAt": "2026-11-19T17:23:49.029Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "DRW",
+        "role": "Systems Support Engineer (UAT & Development)",
+        "link": "https://job-boards.greenhouse.io/drweng/jobs/8401702",
+        "location": "Singapore ",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "AI Outcome Customer Engineer, Google Cloud (Bahasa Indonesia)",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/124693610426704582-ai-outcome-customer-engineer-google-cloud-bahasa-indonesia?sort_by=date&page=1",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "AI Outcome Customer Engineer",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/127719054109483718-ai-outcome-customer-engineer?sort_by=date&page=1",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "SoC Product Engineer, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/117688209529283270-soc-product-engineer-google-cloud?sort_by=date&page=4",
+        "location": "Zhubei, Zhubei City, Hsinchu County, Taiwan; Taipei, Taiwan",
+        "country": "Taiwan"
+      }
+    ]
+  }
+]
