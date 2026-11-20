@@ -1188,6 +1188,8 @@
     "domain": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job",
     "page": "https://icfcjb.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_4001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
+      "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/120265",
+      "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/120524",
       "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/126864",
       "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/126929",
       "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/127277",
@@ -10009,7 +10011,8 @@
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Design-and-Analysis-Engineer--Electronic-Sys-Design---Analy-_JR2026498108-1",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Systems-Engineer---Requirements--Integration---Verification_JR2026519748-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Colorado-Springs-CO/Associate-Systems-Engineer_JR2026498654-1",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Huntsville-AL/Associate-Systems-Engineer_JR2026498638-1"
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Huntsville-AL/Associate-Systems-Engineer_JR2026498638-1",
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tinker-AFB-OK/Entry-Level-Software-Engineer-Test---Verification_JR2026523081"
     ]
   },
   {
@@ -12752,6 +12755,16 @@
     "domain": "https://cadence.wd1.myworkdayjobs.com/university_talent_intern",
     "page": "https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/university_talent_intern/jobs",
     "urls": []
+  },
+  {
+    "name": "cadence",
+    "ats": "workday",
+    "identifier": "cadence-university_talent_ncg",
+    "domain": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG",
+    "page": "https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/University_Talent_NCG/jobs",
+    "urls": [
+      "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/SAN-JOSE/Software-Engineering--Verification-IP-Team--Recent-Grad-2026-_R55884"
+    ]
   },
   {
     "name": "cadent",
@@ -15701,7 +15714,8 @@
       "https://job-boards.greenhouse.io/cartesiansystems/jobs/4396836009",
       "https://job-boards.greenhouse.io/cartesiansystems/jobs/4408204009",
       "https://job-boards.greenhouse.io/cartesiansystems/jobs/4411549009",
-      "https://job-boards.greenhouse.io/cartesiansystems/jobs/4454342009"
+      "https://job-boards.greenhouse.io/cartesiansystems/jobs/4454342009",
+      "https://job-boards.greenhouse.io/cartesiansystems/jobs/4516933009"
     ]
   },
   {
@@ -27331,7 +27345,8 @@
     "domain": "https://hpe.wd5.myworkdayjobs.com/acjobsite",
     "page": "https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/acjobsite/jobs",
     "urls": [
-      "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Spring-Texas-United-States-of-America/AI-Automation-Engineer-Graduate_1213068"
+      "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Spring-Texas-United-States-of-America/AI-Automation-Engineer-Graduate_1213068",
+      "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Sunnyvale-California-United-States-of-America/Systems---Software-Engineer-I-Graduate_1214972"
     ]
   },
   {
@@ -31609,6 +31624,7 @@
       "https://jobs.l3harris.com/job/Farnborough-Software-Engineering-Intern-(Sept-2026)-HAM-GU14-6FF/1334006800/?ats=successfactors",
       "https://jobs.l3harris.com/job/Forest-Associate%2C-Systems-Engineering-VA-24551/1418444300/",
       "https://jobs.l3harris.com/job/Forest-Specialist%2C-Systems-Engineering-VA-24551/1451214700/",
+      "https://jobs.l3harris.com/job/Fort-Wayne-Associate,-Embedded-Software-Engineer-IN-46818/1452529800/?ats=successfactors",
       "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837600/?ats=successfactors",
       "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837800/?ats=successfactors",
       "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422838400/?ats=successfactors",
@@ -33281,6 +33297,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/lodestarspace/jobs",
     "urls": [
       "https://job-boards.eu.greenhouse.io/lodestarspace/jobs/4987198101"
+    ]
+  },
+  {
+    "name": "logan-a-c-heat-services-b29ac6f9712d.breezy.hr",
+    "ats": "none",
+    "identifier": "logan-a-c-heat-services-b29ac6f9712d.breezy.hr",
+    "domain": "https://logan-a-c-heat-services-b29ac6f9712d.breezy.hr",
+    "page": "",
+    "urls": [
+      "https://logan-a-c-heat-services-b29ac6f9712d.breezy.hr/p/dcaae58041cb-junior-business-systems-automation-developer"
     ]
   },
   {
@@ -35049,6 +35075,7 @@
       "https://www.metacareers.com/profile/job_details/3714236338724745",
       "https://www.metacareers.com/profile/job_details/3945997555696610",
       "https://www.metacareers.com/profile/job_details/4043567932553615",
+      "https://www.metacareers.com/profile/job_details/4110138665949300",
       "https://www.metacareers.com/profile/job_details/4173593806295761",
       "https://www.metacareers.com/profile/job_details/4263630903853943",
       "https://www.metacareers.com/profile/job_details/4322884088022032",
@@ -38668,6 +38695,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--World-Model-Systems-Engineering---Autonomous-Vehicles_JR2020021",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-DevOps-Engineer--Networking_JR2025882",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DL-Kernel-Libraries---New-College-Grad-2027_JR2027337",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Data-Systems_JR2028978",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--ML-Performance_JR2028979",
@@ -39364,6 +39392,7 @@
       "https://www.optiver.com/join-us/jobs/8313501002/?gh_jid=8313501002",
       "https://www.optiver.com/join-us/jobs/8375042002/?gh_jid=8375042002",
       "https://www.optiver.com/join-us/jobs/8386967002/?gh_jid=8386967002",
+      "https://www.optiver.com/join-us/jobs/8405271002/?gh_jid=8405271002",
       "https://www.optiver.com/join-us/jobs/8450243002/?gh_jid=8450243002",
       "https://www.optiver.com/join-us/jobs/8452858002/?gh_jid=8452858002",
       "https://www.optiver.com/join-us/jobs/8482419002/?gh_jid=8482419002",
@@ -39482,7 +39511,8 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350678",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350692",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350821",
-      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/351046"
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/351046",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobearch/job/350824"
     ]
   },
   {
@@ -42515,7 +42545,8 @@
       "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11167",
       "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11168",
       "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11231",
-      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11266"
+      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11266",
+      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11324"
     ]
   },
   {

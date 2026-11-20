@@ -1,5 +1,5 @@
 {
-  "commit": "b6e51e8bcdcb5d3cccf025d93a3592b8cfd663bb",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1183,6 +1183,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:923a24c3-d543-4b8a-b8d1-6a556a153810",
+          "at": "2026-11-20T21:38:47.647Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1199,6 +1211,18 @@
         {
           "id": "self:ea199329-e46b-41cb-89f7-309d8878a069",
           "at": "2026-11-20T21:14:25.684Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:47d6004d-ddf9-41e8-bd35-9ff1e0517a9f",
+          "at": "2026-11-20T21:38:47.647Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -1231,6 +1255,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:ab5f6af4-e34a-4e78-a2d2-a9fd93e5833f",
+          "at": "2026-11-20T21:38:47.647Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1255,6 +1291,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:943ddb87-f415-4d8d-85ce-652206cbe128",
+          "at": "2026-11-20T21:38:47.647Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1271,6 +1319,18 @@
         {
           "id": "self:c19e8438-9da3-408f-8030-6d11e19e36de",
           "at": "2026-11-20T21:14:25.684Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:28caa440-5bf9-49a0-9d3c-3e3ba7ebea85",
+          "at": "2026-11-20T21:38:47.647Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -1839,6 +1899,86 @@
       "location": "Redmond, WA",
       "country": "USA",
       "waitedSince": "2026-11-20T16:58:04.303Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Oracle",
+      "role": "New Grad 2027: Software Engineer, Oracle Cloud Infrastructure (OCI)",
+      "link": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobearch/job/350824",
+      "location": "Nashville, TN",
+      "country": "USA",
+      "waitedSince": "2026-11-20T21:38:53.007Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Nvidia",
+      "role": "New Grad 2027: Software Engineer, DL Kernel Libraries",
+      "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DL-Kernel-Libraries---New-College-Grad-2027_JR2027337",
+      "location": "Santa Clara, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-20T21:38:53.007Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Logan A/C & Heat Services",
+      "role": "Junior Business Systems & Automation Developer",
+      "link": "https://logan-a-c-heat-services-b29ac6f9712d.breezy.hr/p/dcaae58041cb-junior-business-systems-automation-developer",
+      "location": "Vandalia, OH",
+      "country": "USA",
+      "waitedSince": "2026-11-20T21:38:53.008Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3Harris",
+      "role": "Associate, Embedded Software Engineer",
+      "link": "https://jobs.l3harris.com/job/Fort-Wayne-Associate,-Embedded-Software-Engineer-IN-46818/1452529800/?ats=successfactors",
+      "location": "Fort Wayne, IN",
+      "country": "USA",
+      "waitedSince": "2026-11-20T21:38:53.008Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Hpe",
+      "role": "Systems / Software Engineer I",
+      "link": "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Sunnyvale-California-United-States-of-America/Systems---Software-Engineer-I-Graduate_1214972",
+      "location": "Sunnyvale, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-20T21:38:53.008Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Aerospace",
+      "role": "New Grad 2027: Software Engineering 🛂",
+      "link": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/120524",
+      "location": "Remote",
+      "country": "Remote",
+      "waitedSince": "2026-11-20T21:38:53.009Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Aerospace",
+      "role": "New Grad 2027: Software Engineer 🇺🇸",
+      "link": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/120265",
+      "location": "Remote",
+      "country": "USA",
+      "waitedSince": "2026-11-20T21:38:53.009Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cadence Design Systems",
+      "role": "Software Engineering, Verification IP Team",
+      "link": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/SAN-JOSE/Software-Engineering--Verification-IP-Team--Recent-Grad-2026-_R55884",
+      "location": "San Jose, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-20T21:38:53.009Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
