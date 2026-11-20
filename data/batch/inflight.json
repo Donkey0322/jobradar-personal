@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "batches/ubekoze9jgy0vi3lhnysn0mzypay2e95pgrd",
+    "submittedAt": "2026-11-20T16:07:35.471Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Google",
+        "role": "AI Customer Engineer, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/90361634727305926-ai-customer-engineer-google-cloud?sort_by=date&page=4",
+        "location": "Taipei, Taiwan",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Paypal",
+        "role": "Software Engineer",
+        "link": "https://paypal.eightfold.ai/careers/job/274923492592?domain=paypal.com&8fold_id=274923492592",
+        "location": "Central Singapore, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Veeva",
+        "role": "Data Analyst - OpenData Commercial - Asia Pacific",
+        "link": "https://jobs.lever.co/veeva/873c7161-8ff9-413d-abb4-25a79cb1fa9f",
+        "location": "Singapore - Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
