@@ -1,5 +1,5 @@
 {
-  "commit": "f04868a154d6ebc2185709d70dcbccc4b64e8248",
+  "commit": "83b6547ca560efc19f4c7a6548ee9e6d32dbc0eb",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -905,7 +905,7 @@
       "country": "USA",
       "waitedSince": "2026-11-17T00:49:14.489Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:45056956-da72-4e2f-9251-c76268fdfb89",
@@ -930,6 +930,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:cd3883cf-2160-4fff-a68d-29da94b41c0d",
+          "at": "2026-11-20T05:28:49.625Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -941,7 +953,7 @@
       "country": "USA",
       "waitedSince": "2026-11-17T00:49:14.489Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:9e28c5d6-03d0-4d1f-a5cf-714e7a2758c8",
@@ -966,6 +978,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:8bb05e4e-64f0-4c97-a071-16dc4ea5f38c",
+          "at": "2026-11-20T05:28:49.625Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -977,7 +1001,7 @@
       "country": "USA",
       "waitedSince": "2026-11-17T00:49:14.523Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:9c35c779-303f-4d80-8708-b666a8befad1",
@@ -1002,6 +1026,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:4329c82f-e837-4b87-9c33-2f8f183eb5fb",
+          "at": "2026-11-20T05:28:49.625Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1013,7 +1049,7 @@
       "country": "USA",
       "waitedSince": "2026-11-17T00:49:14.523Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:16f04687-9d2d-423c-a45e-01a0320bba2a",
@@ -1038,6 +1074,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:747c8140-4de1-4249-bcb3-547c9e8bee3c",
+          "at": "2026-11-20T05:28:49.625Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1049,7 +1097,22 @@
       "country": "USA",
       "waitedSince": "2026-11-17T05:06:09.928Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:f6a8a1fa-7ccc-4c34-ab3a-979b887442fb",
+          "at": "2026-11-20T05:28:49.625Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Roberthalf",
