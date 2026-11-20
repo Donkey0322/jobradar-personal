@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "f04868a154d6ebc2185709d70dcbccc4b64e8248",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -918,6 +918,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:5dd23e9e-67a8-4a59-a65b-d688f772118e",
+          "at": "2026-11-20T03:26:38.757Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -934,6 +946,18 @@
         {
           "id": "self:9e28c5d6-03d0-4d1f-a5cf-714e7a2758c8",
           "at": "2026-11-20T02:48:12.634Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:a34d6ca4-2126-436e-a1b0-47e1f2293e41",
+          "at": "2026-11-20T03:26:38.757Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -966,6 +990,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:4bc134f6-9025-476f-a99c-ccc55933f612",
+          "at": "2026-11-20T03:26:38.757Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -982,6 +1018,18 @@
         {
           "id": "self:16f04687-9d2d-423c-a45e-01a0320bba2a",
           "at": "2026-11-20T02:48:12.634Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:1c49ff11-8ae1-4027-bd33-5e1a12e2ad30",
+          "at": "2026-11-20T03:26:38.757Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -1639,16 +1687,6 @@
       "link": "https://apply.workable.com/neurohire-dot-a-i/j/59974A3466",
       "location": "Remote",
       "country": "Remote",
-      "waitedSince": "2026-11-20T02:48:17.658Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Koch.avature.net",
-      "role": "Software Engineer - AI Agents",
-      "link": "https://koch.avature.net/en_US/careers/JobDetail/197657",
-      "location": "Fremont, CA",
-      "country": "USA",
       "waitedSince": "2026-11-20T02:48:17.658Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
