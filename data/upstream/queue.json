@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "b6e51e8bcdcb5d3cccf025d93a3592b8cfd663bb",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1170,7 +1170,21 @@
       "country": "USA",
       "waitedSince": "2026-11-17T17:36:53.544Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:62235166-6585-418a-844a-52b354230f1a",
+          "at": "2026-11-20T21:14:25.684Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Capitalone",
@@ -1180,7 +1194,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-17T17:36:53.545Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:ea199329-e46b-41cb-89f7-309d8878a069",
+          "at": "2026-11-20T21:14:25.684Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Capitalone",
@@ -1190,7 +1218,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-17T17:36:53.545Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:de067eeb-ecd7-445b-a8de-2f60979734ed",
+          "at": "2026-11-20T21:14:25.684Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Capitalone",
@@ -1200,7 +1242,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-17T17:36:53.545Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:1304c2f9-b1c8-4671-bbd0-bad40eee745b",
+          "at": "2026-11-20T21:14:25.684Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Capitalone",
@@ -1210,7 +1266,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-17T17:36:53.546Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:c19e8438-9da3-408f-8030-6d11e19e36de",
+          "at": "2026-11-20T21:14:25.684Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Capitalone",
@@ -1763,162 +1833,12 @@
       "status": "waiting"
     },
     {
-      "company": "Amazon",
-      "role": "Data Engineer I",
-      "link": "https://amazon.jobs/en/jobs/10610327",
-      "location": "US, WA, Bellevue",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.297Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Career-schwab",
-      "role": "Software Engineer in Test (SDET)",
-      "link": "https://career-schwab.icims.com/jobs/130173/software-engineer-in-test-%28sdet%29/job",
-      "location": "Unsure",
-      "country": "Unsure",
-      "waitedSince": "2026-11-20T16:58:04.298Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Everwatch-everwatchsolutions",
-      "role": "Systems Analyst",
-      "link": "https://everwatch-everwatchsolutions.icims.com/jobs/3867/systems-analyst/job",
-      "location": "Unsure",
-      "country": "Unsure",
-      "waitedSince": "2026-11-20T16:58:04.298Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Lockheedmartin",
-      "role": "Systems Integration/Test Engineer - E2",
-      "link": "https://lockheedmartin.eightfold.ai/careers/job/996478011424?domain=lockheedmartin.com&8fold_id=996478011424",
-      "location": "Grand Prairie, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.299Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Lockheedmartin",
-      "role": "Systems Integration/Test Engineer Sr - E3",
-      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477888526?domain=lockheedmartin.com&8fold_id=996477888526",
-      "location": "Grand Prairie, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.299Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Lockheedmartin",
-      "role": "Systems Integration/Test Engineering Supervisor",
-      "link": "https://lockheedmartin.eightfold.ai/careers/job/996478036945?domain=lockheedmartin.com&8fold_id=996478036945",
-      "location": "Littleton, CO",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.299Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Optiver",
-      "role": "Software Engineer - C++",
-      "link": "https://www.optiver.com/join-us/jobs/8521364002/?gh_jid=8521364002",
-      "location": "New York, New York",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.300Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Optiver",
-      "role": "Software Engineer - Equities/ETFs",
-      "link": "https://www.optiver.com/join-us/jobs/8521354002/?gh_jid=8521354002",
-      "location": "New York, New York",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.300Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Optiver",
-      "role": "Software Engineer - Research Platform",
-      "link": "https://www.optiver.com/join-us/jobs/8142708002/?gh_jid=8142708002",
-      "location": "Austin, Texas, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.301Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Optiver",
-      "role": "Software Engineer - Research Platform",
-      "link": "https://www.optiver.com/join-us/jobs/8386967002/?gh_jid=8386967002",
-      "location": "Chicago, Illinois, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.301Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Optiver",
-      "role": "Software Engineer - Trading Strategies",
-      "link": "https://www.optiver.com/join-us/jobs/8576683002/?gh_jid=8576683002",
-      "location": "Chicago, Illinois, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.301Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Peraton",
-      "role": "Cobol Software Developer",
-      "link": "https://careers-peraton.icims.com/jobs/176617/cobol-software-developer/job",
-      "location": "Unsure",
-      "country": "Unsure",
-      "waitedSince": "2026-11-20T16:58:04.302Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "SAIC",
-      "role": "Systems Engineer",
-      "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618416",
-      "location": "Remote Work, IN, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.302Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Schwab",
-      "role": "Software Engineer in Test (SDET)",
-      "link": "https://www.schwabjobs.com/job/southlake/software-engineer-in-test-sdet/33727/103563783248",
-      "location": "Southlake, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.303Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "SpaceX",
       "role": "GNC Engineer, Satellite Power Systems (Starlink)",
       "link": "https://boards.greenhouse.io/spacex/jobs/8950343002?gh_jid=8950343002",
       "location": "Redmond, WA",
       "country": "USA",
       "waitedSince": "2026-11-20T16:58:04.303Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "United Launch Alliance",
-      "role": "Systems Test Engineer 1",
-      "link": "https://jobs.ulalaunch.com/job/Decatur-Systems-Test-Engineer-1-AL-35601/1452612600/",
-      "location": "Decatur, AL, US, 35601",
-      "country": "USA",
-      "waitedSince": "2026-11-20T16:58:04.304Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
