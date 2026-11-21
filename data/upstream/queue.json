@@ -1375,6 +1375,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:9585b4df-ff85-40f9-bf4b-a0fdd3b1f04a",
+          "at": "2026-11-21T18:06:32.519Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1391,6 +1403,18 @@
         {
           "id": "self:495fea9b-faf4-4f91-9099-ad034df3995c",
           "at": "2026-11-21T11:17:12.541Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:b6e1a7c2-4377-4109-8079-cf5af37bd400",
+          "at": "2026-11-21T18:06:32.519Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -1423,6 +1447,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:626def94-2984-4c87-a368-aaca008f784a",
+          "at": "2026-11-21T18:06:32.519Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1434,7 +1470,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-18T17:14:02.437Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:304c583d-b61f-497f-b262-aeface76c431",
+          "at": "2026-11-21T18:06:32.519Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Labcorp",
@@ -1444,7 +1494,21 @@
       "country": "USA",
       "waitedSince": "2026-11-18T17:14:02.440Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:0bb0c6ea-0ef3-41a2-be95-a5548283e88b",
+          "at": "2026-11-21T18:06:32.519Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Labcorp",
