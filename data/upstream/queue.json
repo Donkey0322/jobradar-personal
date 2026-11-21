@@ -1,5 +1,5 @@
 {
-  "commit": "8a2dcb76c2cc00c5d2e6ebdd4c0e7df46918c4e1",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1921,6 +1921,56 @@
       "location": "IND07",
       "country": "Unsure",
       "waitedSince": "2026-11-21T03:56:53.123Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Ace",
+      "role": "Data Scientist 1",
+      "link": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640459-1",
+      "location": "Coppell, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-21T06:58:52.759Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "AMD",
+      "role": "Systems Power Design Engineer",
+      "link": "https://careers.amd.com/jobs/101944?icims=1",
+      "location": "Austin, Texas",
+      "country": "USA",
+      "waitedSince": "2026-11-21T06:58:52.759Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cisco",
+      "role": "Software Engineer – India ComSec (NCCS)",
+      "link": "https://careers.cisco.com/global/en/job/2029693?ph_id=2029693",
+      "location": "Research Triangle Park, North Carolina, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-21T06:58:52.760Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cisco",
+      "role": "Network Systems Engineer",
+      "link": "https://careers.cisco.com/global/en/job/2029624?ph_id=2029624",
+      "location": "Rancho Cordova, California, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-21T06:58:52.760Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Cisco",
+      "role": "Software Engineer – India ComSec (NCCS) Hybrid",
+      "link": "https://careers.cisco.com/global/en/job/2029692?ph_id=2029692",
+      "location": "Research Triangle Park, North Carolina, United States of America",
+      "country": "USA",
+      "waitedSince": "2026-11-21T06:58:52.760Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
