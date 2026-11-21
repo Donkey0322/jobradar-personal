@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Singapore%20%C2%B7%20Taiwan-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--11--20-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--11--21-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,371 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,377 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,48 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Zscaler</td>
+      <td width="420" align="left" valign="top">Software Development Engineer</td>
+      <td width="180" align="left" valign="top">Santa Clara, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/zscaler/jobs/5283494007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Garmin International</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Salem, OR</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/21486?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Engineering Leadership Development Program - Software Engineer (Various Locations)</td>
+      <td width="180" align="left" valign="top">Melbourne, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Melbourne-Engineering-Leadership-Development-Program-Software-Engineer-%28Various-Locations%29-FL-32919/1426639500/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Mercuryinsurance</td>
+      <td width="420" align="left" valign="top">AI Engineer I</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-mercuryinsurance.icims.com/jobs/7485/ai-engineer-i/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="./assets/featured-badges/meta.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer</td>
+      <td width="180" align="left" valign="top">Bellevue, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1124937540046351"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Front-End Engineer – 2027 (US)</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10610793"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Logan A/C &amp; Heat Services</td>
       <td width="420" align="left" valign="top">Junior Business Systems &amp; Automation Developer</td>
@@ -276,51 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.formlabs.com/job/8402093/apply/?gh_jid=8402093"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Hpe Simplivity</td>
-      <td width="420" align="left" valign="top">Linux Software Engineer</td>
-      <td width="180" align="left" valign="top">Roseville, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1217876"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Mitsubishi Heavy Industries, Ltd.</td>
-      <td width="420" align="left" valign="top">Engineer I, Control Systems</td>
-      <td width="180" align="left" valign="top">Lake Mary, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://mhicareers.com/job/Lake-Mary-Engineer-I%2C-Control-Systems-FL-32746/1450003333/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 18</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Commure</td>
-      <td width="420" align="left" valign="top">Forward Deployed Engineer</td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Commure/faeeff7f-b1f9-4db2-93ff-99da570f85b0"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 18</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Netapp</td>
-      <td width="420" align="left" valign="top">NetApp Emerging Talent - Entry Level Software Engineer (Systems)</td>
-      <td width="180" align="left" valign="top">RTP, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://netapp.eightfold.ai/careers/job/45578212?domain=netapp.com&amp;8fold_id=45578212"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 18</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">NetApp Emerging Talent - Software Engineer (Cloud)</td>
-      <td width="180" align="left" valign="top">RTP, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://netapp.eightfold.ai/careers/job/45577129?domain=netapp.com&amp;8fold_id=45577129"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 18</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">NetApp Emerging Talent - Entry Level Software Engineer (Cloud)</td>
-      <td width="180" align="left" valign="top">RTP, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://netapp.eightfold.ai/careers/job/45577128?domain=netapp.com&amp;8fold_id=45577128"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 18</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,371 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,377 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-20T23:06:02.105Z</code>
+      🕒 Last updated <code>2026-11-21T02:28:15.860Z</code>
     </span>
   </p>
 </div>

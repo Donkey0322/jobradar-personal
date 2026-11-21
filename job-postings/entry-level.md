@@ -14,6 +14,48 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Zscaler</td>
+      <td width="420" align="left" valign="top">Software Development Engineer</td>
+      <td width="180" align="left" valign="top">Santa Clara, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/zscaler/jobs/5283494007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Garmin International</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Salem, OR</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/21486?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Engineering Leadership Development Program - Software Engineer (Various Locations)</td>
+      <td width="180" align="left" valign="top">Melbourne, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Melbourne-Engineering-Leadership-Development-Program-Software-Engineer-%28Various-Locations%29-FL-32919/1426639500/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Mercuryinsurance</td>
+      <td width="420" align="left" valign="top">AI Engineer I</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-mercuryinsurance.icims.com/jobs/7485/ai-engineer-i/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer</td>
+      <td width="180" align="left" valign="top">Bellevue, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1124937540046351"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Front-End Engineer – 2027 (US)</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10610793"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Logan A/C &amp; Heat Services</td>
       <td width="420" align="left" valign="top">Junior Business Systems &amp; Automation Developer</td>
       <td width="180" align="left" valign="top">Vandalia, OH</td>
@@ -2071,52 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers.trccompanies.com/jobs/27382?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">BCG</td>
-      <td width="420" align="left" valign="top">Forward Deployed AI Scientist (For 2027 intake)</td>
-      <td width="180" align="left" valign="top">Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.bcg.com/global/en/job/59185?ph_id=59185"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Medpace</td>
-      <td width="420" align="left" valign="top">Junior Software Engineer</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12385?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Junior Data Engineer</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12454?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3Harris</td>
-      <td width="420" align="left" valign="top">Associate, Software Engineering</td>
-      <td width="180" align="left" valign="top">Waco, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Waco-Associate%2C-Software-Engineering-TX-76705/1422532000/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Associate, Software Engineering</td>
-      <td width="180" align="left" valign="top">Clifton, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Clifton-Associate%2C-Software-Engineering-NJ-07014/1428597700/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Micron</td>
-      <td width="420" align="left" valign="top">New College Grad: Engineer, Edge Systems Architecture</td>
-      <td width="180" align="left" valign="top">Boise, ID</td>
-      <td width="120" align="left" valign="top"><a href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/New-College-Grad--Engineer--Edge-Systems-Architecture_JR116433"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,371 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,377 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-20T23:06:02.105Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-21T02:28:15.860Z</code></sub>
