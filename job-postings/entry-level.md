@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Affirm</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Backend (Streaming Infra)</td>
+      <td width="180" align="left" valign="top">Remote US</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/affirm/jobs/8201469003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rivian</td>
+      <td width="420" align="left" valign="top">Early Career - Vehicle Features &amp; Systems Engineer</td>
+      <td width="180" align="left" valign="top">Irvine, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.rivian.com/jobs/37510?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Vertex Service Partners</td>
       <td width="420" align="left" valign="top">Junior AI Engineer</td>
       <td width="180" align="left" valign="top">Charlotte, NC</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://brivo.pinpointhq.com/en/postings/957a3cac-4cbe-43cc-93eb-3d16bceb1904"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Wolverine</td>
-      <td width="420" align="left" valign="top">Software Engineer – N-Tiered Software Developer</td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://wolve.pinpointhq.com/en/postings/ce3f9cb7-4219-4676-8241-5c8b7903d4c6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Medpace</td>
-      <td width="420" align="left" valign="top">Business Intelligence Analyst - Data Engineering</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/12564?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,378 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,380 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-21T03:57:10.875Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-21T05:22:23.966Z</code></sub>

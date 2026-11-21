@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,378 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,380 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Affirm</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Backend (Streaming Infra)</td>
+      <td width="180" align="left" valign="top">Remote US</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/affirm/jobs/8201469003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rivian</td>
+      <td width="420" align="left" valign="top">Early Career - Vehicle Features &amp; Systems Engineer</td>
+      <td width="180" align="left" valign="top">Irvine, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.rivian.com/jobs/37510?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Vertex Service Partners</td>
       <td width="420" align="left" valign="top">Junior AI Engineer</td>
@@ -304,23 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10502826/post-silicon-systems-validation-engineer-i-annapurna-labs"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Everpure</td>
-      <td width="420" align="left" valign="top">Associate Systems Engineer</td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/purestorage/jobs/8393948"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">NextEra Energy</td>
-      <td width="420" align="left" valign="top">Associate Programmer Analyst - QA/Cloud</td>
-      <td width="180" align="left" valign="top">Palm Beach Gardens, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.nexteraenergy.com/job/Palm-Beach-Gardens-Associate-Programmer-Analyst-QACloud-FL-33410/1452169900/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,378 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,380 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-21T03:57:10.875Z</code>
+      🕒 Last updated <code>2026-11-21T05:22:23.966Z</code>
     </span>
   </p>
 </div>
