@@ -1,5 +1,5 @@
 {
-  "commit": "05bccbbb311c26d3d5a8a9e6dc0dcfeef0aa3393",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1231,6 +1231,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:ce50d7ce-f59e-468e-bfe4-a306a752ae49",
+          "at": "2026-11-21T02:49:46.663Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1247,6 +1259,18 @@
         {
           "id": "self:fa76cdc3-589f-4619-99ff-be4432d6316e",
           "at": "2026-11-21T02:24:26.400Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:0ef97b48-8a68-4b57-830d-a304416a6905",
+          "at": "2026-11-21T02:49:46.663Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -1279,18 +1303,20 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:a7d8f11c-3077-4b7e-a082-91297bb4365b",
+          "at": "2026-11-21T02:49:46.663Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
-    },
-    {
-      "company": "Trinzic",
-      "role": "VIPER Navigation Systems Engineer",
-      "link": "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Moffett-Field-California/VIPER-Navigation-Systems-Engineer_R3001571",
-      "location": "Moffett Field, California",
-      "country": "USA",
-      "waitedSince": "2026-11-18T00:56:54.766Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
     },
     {
       "company": "Becu",
@@ -1849,6 +1875,26 @@
       "location": "Plano, Texas",
       "country": "USA",
       "waitedSince": "2026-11-20T23:05:29.024Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Recruiting.ultipro.com",
+      "role": "Engineer Software/Controls - Rotation",
+      "link": "https://recruiting.ultipro.com/WIL1006WI/JobBoard/b5d9d0d6-a149-4636-95d5-8dfede315cab/OpportunityDetail?opportunityId=12e9e7e7-6a68-4e25-b4ca-f8da4542e4d0",
+      "location": "Pontiac, MI",
+      "country": "USA",
+      "waitedSince": "2026-11-21T02:49:54.392Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Vertex Service Partners",
+      "role": "Junior AI Engineer",
+      "link": "https://job-boards.greenhouse.io/vertexservicepartners/jobs/4517555009",
+      "location": "Charlotte, NC",
+      "country": "USA",
+      "waitedSince": "2026-11-21T02:49:54.393Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
