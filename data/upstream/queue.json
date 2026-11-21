@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "667e561b5ffa8ab045fd54c8babf088f1971bf56",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1506,7 +1506,7 @@
       "country": "Unsure",
       "waitedSince": "2026-11-18T17:14:02.437Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:304c583d-b61f-497f-b262-aeface76c431",
@@ -1531,6 +1531,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:4b88aeeb-8a75-4d2c-9325-b041ca516ce5",
+          "at": "2026-11-21T23:26:03.416Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1542,7 +1554,7 @@
       "country": "USA",
       "waitedSince": "2026-11-18T17:14:02.440Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:0bb0c6ea-0ef3-41a2-be95-a5548283e88b",
@@ -1567,6 +1579,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:287bcc7b-ff0a-4b5e-8fdc-1965788d17d2",
+          "at": "2026-11-21T23:26:03.416Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1578,7 +1602,21 @@
       "country": "USA",
       "waitedSince": "2026-11-18T17:14:02.440Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:fde6d610-9762-4beb-917d-67dcd0be2257",
+          "at": "2026-11-21T23:26:03.416Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Rtx",
@@ -1588,7 +1626,21 @@
       "country": "USA",
       "waitedSince": "2026-11-18T21:40:57.641Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:3be4a6ec-71fd-4fac-8b80-fa579243b975",
+          "at": "2026-11-21T23:26:03.416Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "HPE",
@@ -1598,7 +1650,21 @@
       "country": "USA",
       "waitedSince": "2026-11-18T21:40:57.641Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:56e27bf4-235c-4b7a-bdf6-d96b17ff4867",
+          "at": "2026-11-21T23:26:03.416Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Apple",
@@ -2097,16 +2163,6 @@
       "location": "Coppell, TX",
       "country": "USA",
       "waitedSince": "2026-11-21T06:58:52.759Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Secureframe",
-      "role": "New Grad 2027: Software Engineer",
-      "link": "https://jobs.ashbyhq.com/secureframe/ab69f040-9b87-4420-9150-edc6e4f54cfb",
-      "location": "New York, NY",
-      "country": "USA",
-      "waitedSince": "2026-11-21T20:19:57.136Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
