@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "d8b0c24db4d5a5c445ae4d3194b9b4ad71e5b765",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1362,7 +1362,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-18T07:17:11.079Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:6c81fd37-66b6-4d49-9b3b-b5bc0163ad48",
+          "at": "2026-11-21T11:17:12.541Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Jj",
@@ -1372,7 +1386,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-18T07:17:11.080Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:495fea9b-faf4-4f91-9099-ad034df3995c",
+          "at": "2026-11-21T11:17:12.541Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Texascapitalbank",
@@ -1382,7 +1410,21 @@
       "country": "USA",
       "waitedSince": "2026-11-18T07:17:11.084Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:11ae2f66-ac9e-4932-b539-87bb5d9b448d",
+          "at": "2026-11-21T11:17:12.541Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Imh",
@@ -1931,46 +1973,6 @@
       "location": "Coppell, TX",
       "country": "USA",
       "waitedSince": "2026-11-21T06:58:52.759Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "AMD",
-      "role": "Systems Power Design Engineer",
-      "link": "https://careers.amd.com/jobs/101944?icims=1",
-      "location": "Austin, Texas",
-      "country": "USA",
-      "waitedSince": "2026-11-21T06:58:52.759Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Cisco",
-      "role": "Software Engineer – India ComSec (NCCS)",
-      "link": "https://careers.cisco.com/global/en/job/2029693?ph_id=2029693",
-      "location": "Research Triangle Park, North Carolina, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-21T06:58:52.760Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Cisco",
-      "role": "Network Systems Engineer",
-      "link": "https://careers.cisco.com/global/en/job/2029624?ph_id=2029624",
-      "location": "Rancho Cordova, California, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-21T06:58:52.760Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Cisco",
-      "role": "Software Engineer – India ComSec (NCCS) Hybrid",
-      "link": "https://careers.cisco.com/global/en/job/2029692?ph_id=2029692",
-      "location": "Research Triangle Park, North Carolina, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-21T06:58:52.760Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
