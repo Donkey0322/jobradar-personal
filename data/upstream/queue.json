@@ -1,5 +1,5 @@
 {
-  "commit": "26a43321d83fb921069b051fa0f8aadada7c76b9",
+  "commit": "717acf017a8833868d3e982c825e131782be418d",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1764,40 +1764,6 @@
       ]
     },
     {
-      "company": "Leidos",
-      "role": "UI/UX Web Developer",
-      "link": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/UI-UX-Web-Developer_R-00197209",
-      "location": "2 Locations",
-      "country": "Unsure",
-      "waitedSince": "2026-11-19T00:19:17.371Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting",
-      "attempts": [
-        {
-          "id": "self:349bf34a-e6c6-48bc-abf2-1f0282555094",
-          "at": "2026-11-22T20:32:15.558Z",
-          "round": 0,
-          "failure": {
-            "stage": "fetch",
-            "error": {
-              "code": 429,
-              "desc": "Too Many Requests"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "company": "Vst",
-      "role": "Data Scientist",
-      "link": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
-      "location": "Irving, Texas",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.395Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Apply.workable.com",
       "role": "AI Agent R&D Trainee - Full-Stack Engineer",
       "link": "https://apply.workable.com/cwill-us/j/1BC6285A3C",
@@ -1805,17 +1771,22 @@
       "country": "USA",
       "waitedSince": "2026-11-19T02:54:10.880Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Capitalone",
-      "role": "Full-stack Engineer 4 (Typescript, Vue, AWS)",
-      "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Typescript--Vue--AWS-_R1006117-1",
-      "location": "McLean, VA",
-      "country": "USA",
-      "waitedSince": "2026-11-19T07:16:03.413Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:55558328-2511-4ee9-a176-ff61f43ec7bb",
+          "at": "2026-11-22T21:52:55.312Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Capitalone",
@@ -1825,7 +1796,22 @@
       "country": "USA",
       "waitedSince": "2026-11-19T07:16:03.413Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:adeb3630-c452-44f1-88b7-4238173dff06",
+          "at": "2026-11-22T21:52:55.312Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Capitalone",
