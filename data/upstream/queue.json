@@ -1765,56 +1765,6 @@
     },
     {
       "company": "Apple",
-      "role": "PHY Systems Engineer",
-      "link": "https://jobs.apple.com/en-us/details/200695522-3543/phy-systems-engineer?team=HRDWR",
-      "location": "San Diego",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.346Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Machine Learning Systems Engineer",
-      "link": "https://jobs.apple.com/en-us/details/200694562-0836/machine-learning-systems-engineer?team=MLAI",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.347Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Engineer - Frameworks - Video Applications",
-      "link": "https://jobs.apple.com/en-us/details/200695239-0365/software-engineer-frameworks-video-applications?team=SFTWR",
-      "location": "Boulder",
-      "country": "Unsure",
-      "waitedSince": "2026-11-19T00:19:17.347Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Engineer - Frameworks - Video Applications",
-      "link": "https://jobs.apple.com/en-us/details/200695239-0670/software-engineer-frameworks-video-applications?team=SFTWR",
-      "location": "Culver City",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.348Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Engineer - Frameworks - Video Applications",
-      "link": "https://jobs.apple.com/en-us/details/200695239-3337/software-engineer-frameworks-video-applications?team=SFTWR",
-      "location": "Seattle",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.348Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
       "role": "Software Engineer - Frameworks - Video Applications",
       "link": "https://jobs.apple.com/en-us/details/200695239-3543/software-engineer-frameworks-video-applications?team=SFTWR",
       "location": "San Diego",
