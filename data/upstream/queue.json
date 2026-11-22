@@ -1740,53 +1740,28 @@
     },
     {
       "company": "Apple",
-      "role": "Graphics Software Engineer",
-      "link": "https://jobs.apple.com/en-us/details/200695611-0157/graphics-software-engineer?team=HRDWR",
-      "location": "Austin",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.345Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
       "role": "Software Engineer, App Store Frameworks",
       "link": "https://jobs.apple.com/en-us/details/200674464-0836/software-engineer-app-store-frameworks?team=SFTWR",
       "location": "Cupertino",
       "country": "USA",
       "waitedSince": "2026-11-19T00:19:17.345Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Engineer, Full Stack and Cloud",
-      "link": "https://jobs.apple.com/en-us/details/200695576-0836/software-engineer-full-stack-and-cloud?team=HRDWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.345Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "ISE, Incubation - Software Development Engineer - Proactive",
-      "link": "https://jobs.apple.com/en-us/details/200695596-3401/ise-incubation-software-development-engineer-proactive?team=SFTWR",
-      "location": "Various Locations within San Francisco Bay Area",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.346Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "PHY Systems Engineer",
-      "link": "https://jobs.apple.com/en-us/details/200695522-3956/phy-systems-engineer?team=HRDWR",
-      "location": "Sunnyvale",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.346Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:019c1c28-55bf-4041-a3f2-e365578a06ae",
+          "at": "2026-11-22T06:59:49.351Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Apple",
