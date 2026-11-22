@@ -1764,46 +1764,6 @@
       ]
     },
     {
-      "company": "Apple",
-      "role": "Software Engineer - Frameworks - Video Applications",
-      "link": "https://jobs.apple.com/en-us/details/200695239-3543/software-engineer-frameworks-video-applications?team=SFTWR",
-      "location": "San Diego",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.348Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Engineer - Frameworks - Video Applications",
-      "link": "https://jobs.apple.com/en-us/details/200695239-0836/software-engineer-frameworks-video-applications?team=SFTWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.349Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Swift Software Engineer, Productivity Apps",
-      "link": "https://jobs.apple.com/en-us/details/200694166-2926/swift-software-engineer-productivity-apps?team=SFTWR",
-      "location": "Pittsburgh",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.349Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Swift Software Engineer, Productivity Apps",
-      "link": "https://jobs.apple.com/en-us/details/200694166-0836/swift-software-engineer-productivity-apps?team=SFTWR",
-      "location": "Cupertino",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.349Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Leidos",
       "role": "UI/UX Web Developer",
       "link": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/UI-UX-Web-Developer_R-00197209",
@@ -1811,7 +1771,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-19T00:19:17.371Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:349bf34a-e6c6-48bc-abf2-1f0282555094",
+          "at": "2026-11-22T20:32:15.558Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Vst",
