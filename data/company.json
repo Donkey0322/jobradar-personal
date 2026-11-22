@@ -25987,6 +25987,16 @@
     ]
   },
   {
+    "name": "Gradient MSP",
+    "ats": "bamboohr",
+    "identifier": "gradientmsp",
+    "domain": "https://gradientmsp.bamboohr.com",
+    "page": "https://gradientmsp.bamboohr.com/careers/list",
+    "urls": [
+      "https://gradientmsp.bamboohr.com/careers/72/"
+    ]
+  },
+  {
     "name": "Grainger Businesses",
     "ats": "successfactors",
     "identifier": "jobs.grainger.com",
@@ -37386,6 +37396,16 @@
       "https://boards.greenhouse.io/neo4j/jobs/4722193006?gh_jid=4722193006",
       "https://boards.greenhouse.io/neo4j/jobs/4727060006?gh_jid=4727060006",
       "https://boards.greenhouse.io/neo4j/jobs/4727062006?gh_jid=4727062006"
+    ]
+  },
+  {
+    "name": "nerostechnologies",
+    "ats": "greenhouse",
+    "identifier": "nerostechnologies",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/nerostechnologies/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/nerostechnologies/jobs/5278981007"
     ]
   },
   {

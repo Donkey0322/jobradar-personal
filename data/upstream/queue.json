@@ -1,5 +1,5 @@
 {
-  "commit": "667e561b5ffa8ab045fd54c8babf088f1971bf56",
+  "commit": "26a43321d83fb921069b051fa0f8aadada7c76b9",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1602,7 +1602,7 @@
       "country": "USA",
       "waitedSince": "2026-11-18T17:14:02.440Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:fde6d610-9762-4beb-917d-67dcd0be2257",
@@ -1627,6 +1627,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:0272b33e-fef7-49b0-9846-cb9191bccc25",
+          "at": "2026-11-22T04:47:25.359Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1638,7 +1650,7 @@
       "country": "USA",
       "waitedSince": "2026-11-18T21:40:57.641Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:3be4a6ec-71fd-4fac-8b80-fa579243b975",
@@ -1663,6 +1675,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:d3ba0d62-915d-493d-8e31-e0b77c8aca32",
+          "at": "2026-11-22T04:47:25.359Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1674,7 +1698,7 @@
       "country": "USA",
       "waitedSince": "2026-11-18T21:40:57.641Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:56e27bf4-235c-4b7a-bdf6-d96b17ff4867",
@@ -1699,28 +1723,20 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:4ccdf0a7-c523-4a4d-9cea-71a448e105f4",
+          "at": "2026-11-22T04:47:25.359Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
-    },
-    {
-      "company": "Apple",
-      "role": "Graphics Software Engineer",
-      "link": "https://jobs.apple.com/en-us/details/200695771-0157/graphics-software-engineer?team=HRDWR",
-      "location": "Austin",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.344Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Graphics Software Engineer",
-      "link": "https://jobs.apple.com/en-us/details/200695736-0157/graphics-software-engineer?team=HRDWR",
-      "location": "Austin",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.344Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
     },
     {
       "company": "Apple",
