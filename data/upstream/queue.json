@@ -1615,6 +1615,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:13c3384d-d045-4f95-b78d-4f9e6f23fb8b",
+          "at": "2026-11-22T00:27:56.180Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1631,6 +1643,18 @@
         {
           "id": "self:3be4a6ec-71fd-4fac-8b80-fa579243b975",
           "at": "2026-11-21T23:26:03.416Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:5436487e-5431-4603-8cab-b0a7b6839ca4",
+          "at": "2026-11-22T00:27:56.180Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -1663,28 +1687,20 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:fd4b6475-33b1-471f-ad40-5f83edfbbdae",
+          "at": "2026-11-22T00:27:56.180Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
-    },
-    {
-      "company": "Apple",
-      "role": "Audio Software Engineer, Vision Products Software",
-      "link": "https://jobs.apple.com/en-us/details/200695564-0365/audio-software-engineer-vision-products-software?team=SFTWR",
-      "location": "Boulder",
-      "country": "Unsure",
-      "waitedSince": "2026-11-19T00:19:17.343Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "Software Engineer (HANA), AI & Data Platforms (AiDP)",
-      "link": "https://jobs.apple.com/en-us/details/200695064-3956/software-engineer-hana-ai-data-platforms-aidp?team=SFTWR",
-      "location": "Sunnyvale",
-      "country": "USA",
-      "waitedSince": "2026-11-19T00:19:17.344Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
     },
     {
       "company": "Apple",
