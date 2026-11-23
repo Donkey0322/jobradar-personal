@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "c3816ea6d9a90f8f8447025aa10e64c32a3c43c5",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1834,6 +1834,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:f0827cdb-0b52-4440-9c9f-803d7393fc86",
+          "at": "2026-11-23T02:52:53.445Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1850,6 +1862,18 @@
         {
           "id": "self:f0c3b4b4-81c1-45eb-8647-53d2273d348d",
           "at": "2026-11-23T01:07:22.241Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:edb6c888-0570-4d28-a2eb-06727df8d1bb",
+          "at": "2026-11-23T02:52:53.445Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -1882,6 +1906,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:89fe3b9a-2a1c-4c19-a466-16c927ec9097",
+          "at": "2026-11-23T02:52:53.445Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1893,17 +1929,21 @@
       "country": "USA",
       "waitedSince": "2026-11-19T21:56:46.989Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "role": "Associate Systems Engineer",
-      "link": "https://careers.mitre.org/us/en/job/R118084?ph_id=R118084",
-      "location": "Bedford, Massachusetts, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-20T00:36:32.047Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:f791b05d-c370-4207-8b91-323119573763",
+          "at": "2026-11-23T02:52:53.445Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Micron",
@@ -2102,26 +2142,6 @@
       "location": "Coppell, TX",
       "country": "USA",
       "waitedSince": "2026-11-21T06:58:52.759Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "RoadRunner",
-      "role": "New Grad: Forward Deployed Engineer",
-      "link": "https://jobs.ashbyhq.com/Roadrunner/c82b1987-bb02-4420-8fa2-b79075b04480",
-      "location": "San Francisco, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-23T01:07:29.839Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Calyx Containers",
-      "role": "Junior Software Developer - Print & Packaging",
-      "link": "https://calyxcontainers.applytojob.com/apply/HHSphZTCc2/Junior-Software-Developer-Print-Packaging",
-      "location": "West Valley City, UT",
-      "country": "USA",
-      "waitedSince": "2026-11-23T01:07:29.840Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
