@@ -1821,7 +1821,7 @@
       "country": "Unsure",
       "waitedSince": "2026-11-19T07:16:03.414Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:148fa508-0af0-4a05-90d7-8194073655b8",
@@ -1846,34 +1846,10 @@
               "desc": "Too Many Requests"
             }
           }
-        }
-      ]
-    },
-    {
-      "company": "Capitalone",
-      "role": "Full-stack Engineer 5",
-      "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Wilmington-DE/Full-stack-Engineer-5_R1005206-1",
-      "location": "2 Locations",
-      "country": "Unsure",
-      "waitedSince": "2026-11-19T07:16:03.415Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting",
-      "attempts": [
-        {
-          "id": "self:f0c3b4b4-81c1-45eb-8647-53d2273d348d",
-          "at": "2026-11-23T01:07:22.241Z",
-          "round": 0,
-          "failure": {
-            "stage": "fetch",
-            "error": {
-              "code": 429,
-              "desc": "Too Many Requests"
-            }
-          }
         },
         {
-          "id": "self:edb6c888-0570-4d28-a2eb-06727df8d1bb",
-          "at": "2026-11-23T02:52:53.445Z",
+          "id": "self:42eb552f-0398-410d-ba11-ffbfbe242632",
+          "at": "2026-11-23T05:26:17.837Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -1884,76 +1860,6 @@
           }
         }
       ]
-    },
-    {
-      "company": "Thrivent",
-      "role": "Associate Investment Data Integrity Analyst",
-      "link": "https://thrivent.wd5.myworkdayjobs.com/external/job/MN---Minneapolis/Associate-Investment-Data-Integrity-Analyst_REQ-49083",
-      "location": "MN - Minneapolis",
-      "country": "USA",
-      "waitedSince": "2026-11-19T17:22:55.732Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting",
-      "attempts": [
-        {
-          "id": "self:b479bce0-aaaa-4af4-8e84-3a2579819917",
-          "at": "2026-11-23T01:07:22.241Z",
-          "round": 0,
-          "failure": {
-            "stage": "fetch",
-            "error": {
-              "code": 429,
-              "desc": "Too Many Requests"
-            }
-          }
-        },
-        {
-          "id": "self:89fe3b9a-2a1c-4c19-a466-16c927ec9097",
-          "at": "2026-11-23T02:52:53.445Z",
-          "round": 0,
-          "failure": {
-            "stage": "fetch",
-            "error": {
-              "code": 429,
-              "desc": "Too Many Requests"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "company": "Globalfoundries",
-      "role": "New Grad 2027: Analyst, Data Systems and Automation",
-      "link": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Analyst--Data-Systems-and-Automation--2027-New-College-Graduate--_JR-2604458",
-      "location": "Austin, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-19T21:56:46.989Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting",
-      "attempts": [
-        {
-          "id": "self:f791b05d-c370-4207-8b91-323119573763",
-          "at": "2026-11-23T02:52:53.445Z",
-          "round": 0,
-          "failure": {
-            "stage": "fetch",
-            "error": {
-              "code": 429,
-              "desc": "Too Many Requests"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "company": "Micron",
-      "role": "TD Planning Data Engineer",
-      "link": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/TD-Planning-Data-Engineer_JR118164",
-      "location": "Boise, ID - Main Site",
-      "country": "USA",
-      "waitedSince": "2026-11-20T00:36:32.081Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
     },
     {
       "company": "Micron",
