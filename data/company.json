@@ -1613,6 +1613,16 @@
     ]
   },
   {
+    "name": "AJBell1",
+    "ats": "smartrecruiters",
+    "identifier": "AJBell1",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/AJBell1/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/AJBell1/744000163169494"
+    ]
+  },
+  {
     "name": "Akamai",
     "ats": "oraclecloud",
     "identifier": "fa-extu-saasfaprod1.fa.ocs.oraclecloud.com",
@@ -9454,6 +9464,7 @@
       "https://jobs.ashbyhq.com/benchling/6183438d-1ff6-4389-aff9-a0128ff3a407",
       "https://jobs.ashbyhq.com/benchling/7b1ffaaf-2374-4b09-8495-899cc4847862",
       "https://jobs.ashbyhq.com/benchling/7c32ac1e-3de3-462b-aa17-7618317f0da0",
+      "https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099",
       "https://jobs.ashbyhq.com/benchling/ba0bcb25-d2e9-4ef6-ada0-dc5f7ea5424e",
       "https://jobs.ashbyhq.com/benchling/baa78673-4c25-4d61-8888-2eac4c63d8c5",
       "https://jobs.ashbyhq.com/benchling/c1ad7288-ad78-4a0f-8f19-1fcc3f6cf85b",
@@ -22853,6 +22864,16 @@
     ]
   },
   {
+    "name": "first-resonance",
+    "ats": "ashby",
+    "identifier": "first-resonance",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/first-resonance",
+    "urls": [
+      "https://jobs.ashbyhq.com/first-resonance/0c88b508-432d-442d-aa5f-486e08aaf5a7/application?embed=true"
+    ]
+  },
+  {
     "name": "firstam",
     "ats": "workday",
     "identifier": "firstam-firstamericancareers",
@@ -32004,6 +32025,7 @@
       "https://jobs.l3harris.com/job/West-Palm-Beach-Specialist%2C-Systems-Engineer-Modeling-Simulation-and-Controls-Control-Logic-Design-FL-33478/1429777400/",
       "https://jobs.l3harris.com/job/Wilmington-Intern,-Software-Engineer-MA-01887/1425515000/?ats=successfactors",
       "https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Yorba-Linda-Associate,-Software-Engineering-CA-92887/1452910400/?ats=successfactors",
       "https://jobs.l3harris.com/job/Yorba-Linda-Specialist%2C-Systems-Engineering-CA-92887/1437408000/"
     ]
   },
@@ -38073,6 +38095,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Configuration-Analyst--SCM----Level-4_R10257122",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Signal-Processing-Engineer_R10249040",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Associate-Software-Engineer---Pathways---Colorado-Springs_R10260174",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Associate-Software-Engineer---Software-Engineer---Colorado-Springs-CO_R10261637",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Associate-Systems-Engineer---Pathways---Colorado-Springs_R10260203",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256259",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803",
@@ -42636,6 +42659,16 @@
       "https://jobs.eu.lever.co/quantinuum/20c67089-0a45-4e47-aaaf-c3e7e763d9c6",
       "https://jobs.eu.lever.co/quantinuum/43102ff8-2cb9-44f3-8dc9-9dc4463a8830",
       "https://jobs.eu.lever.co/quantinuum/87a3dfbc-bad4-4ebe-b9e8-9baf6b5da542"
+    ]
+  },
+  {
+    "name": "quantiq",
+    "ats": "greenhouse",
+    "identifier": "quantiq",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/quantiq/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/quantiq/jobs/4280650009"
     ]
   },
   {
@@ -53015,7 +53048,8 @@
     "page": "https://us-erac.icims.com/jobs/search",
     "urls": [
       "https://us-erac.icims.com/jobs/566721/job?mobile=true&needsRedirect=false",
-      "https://us-erac.icims.com/jobs/567651/job?mobile=true&needsRedirect=false"
+      "https://us-erac.icims.com/jobs/567651/job?mobile=true&needsRedirect=false",
+      "https://us-erac.icims.com/jobs/595973/job?mobile=true&needsRedirect=false"
     ]
   },
   {

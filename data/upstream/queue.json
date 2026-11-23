@@ -1,5 +1,5 @@
 {
-  "commit": "c3816ea6d9a90f8f8447025aa10e64c32a3c43c5",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1882,6 +1882,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:cd6baa6e-203f-439a-bd55-c1f6caa1c767",
+          "at": "2026-11-23T16:27:13.287Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1931,6 +1943,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:5b910f7b-9d0d-47bd-89ac-99733505120f",
+          "at": "2026-11-23T16:27:13.287Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -1942,7 +1966,21 @@
       "country": "USA",
       "waitedSince": "2026-11-20T07:04:48.128Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:191ac6ef-0d33-4b2e-b89c-6a2d13ecaeab",
+          "at": "2026-11-23T16:27:13.287Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Trinzic",
@@ -1952,7 +1990,21 @@
       "country": "USA",
       "waitedSince": "2026-11-20T07:04:48.134Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:b74e1bb1-f1ce-4da4-be2c-fe5b2f123429",
+          "at": "2026-11-23T16:27:13.287Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Trinzic",
@@ -1962,7 +2014,21 @@
       "country": "USA",
       "waitedSince": "2026-11-20T07:04:48.136Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:cffa3e84-799b-495c-b402-47fb1ea42d46",
+          "at": "2026-11-23T16:27:13.287Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Trinzic",
@@ -2071,6 +2137,46 @@
       "location": "Coppell, TX",
       "country": "USA",
       "waitedSince": "2026-11-21T06:58:52.759Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Quantiq",
+      "role": "New Grad: Software Developer",
+      "link": "https://job-boards.greenhouse.io/quantiq/jobs/4280650009",
+      "location": "Austin, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-23T16:27:16.881Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Ngc",
+      "role": "New Grad 2027: Associate Software Engineer / Software Engineer 🇺🇸",
+      "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Associate-Software-Engineer---Software-Engineer---Colorado-Springs-CO_R10261637",
+      "location": "Colorado Springs, CO",
+      "country": "USA",
+      "waitedSince": "2026-11-23T16:27:16.881Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "L3Harris",
+      "role": "Associate, Software Engineering 🇺🇸",
+      "link": "https://jobs.l3harris.com/job/Yorba-Linda-Associate,-Software-Engineering-CA-92887/1452910400/?ats=successfactors",
+      "location": "Yorba Linda, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-23T16:27:16.882Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Us-erac",
+      "role": "Data Scientist 1 (Master's)",
+      "link": "https://us-erac.icims.com/jobs/595973/job?mobile=true&needsRedirect=false",
+      "location": "St. Louis, MO",
+      "country": "USA",
+      "waitedSince": "2026-11-23T16:27:16.882Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
