@@ -1,5 +1,5 @@
 {
-  "commit": "717acf017a8833868d3e982c825e131782be418d",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -1821,17 +1821,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-19T07:16:03.414Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Capitalone",
-      "role": "Full-stack Engineer 4",
-      "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1005931-1",
-      "location": "3 Locations",
-      "country": "Unsure",
-      "waitedSince": "2026-11-19T07:16:03.414Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:148fa508-0af0-4a05-90d7-8194073655b8",
+          "at": "2026-11-23T01:07:22.241Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Capitalone",
@@ -1841,17 +1845,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-19T07:16:03.415Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Super Micro Computer",
-      "role": "Data Center Thermal Engineer",
-      "link": "https://jobs.supermicro.com/job/San-Jose-Data-Center-Thermal-Engineer-Cali/1422708700/",
-      "location": "San Jose, California, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-19T17:22:55.731Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:f0c3b4b4-81c1-45eb-8647-53d2273d348d",
+          "at": "2026-11-23T01:07:22.241Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Thrivent",
@@ -1861,7 +1869,21 @@
       "country": "USA",
       "waitedSince": "2026-11-19T17:22:55.732Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:b479bce0-aaaa-4af4-8e84-3a2579819917",
+          "at": "2026-11-23T01:07:22.241Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Globalfoundries",
@@ -2080,6 +2102,26 @@
       "location": "Coppell, TX",
       "country": "USA",
       "waitedSince": "2026-11-21T06:58:52.759Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "RoadRunner",
+      "role": "New Grad: Forward Deployed Engineer",
+      "link": "https://jobs.ashbyhq.com/Roadrunner/c82b1987-bb02-4420-8fa2-b79075b04480",
+      "location": "San Francisco, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-23T01:07:29.839Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Calyx Containers",
+      "role": "Junior Software Developer - Print & Packaging",
+      "link": "https://calyxcontainers.applytojob.com/apply/HHSphZTCc2/Junior-Software-Developer-Print-Packaging",
+      "location": "West Valley City, UT",
+      "country": "USA",
+      "waitedSince": "2026-11-23T01:07:29.840Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
