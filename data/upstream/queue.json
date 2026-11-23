@@ -1869,7 +1869,21 @@
       "country": "USA",
       "waitedSince": "2026-11-20T00:36:32.082Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:648a8c1d-3a33-4074-8a86-4d0f5ad6cda3",
+          "at": "2026-11-23T12:59:41.263Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Apply.workable.com",
@@ -1879,17 +1893,22 @@
       "country": "Remote",
       "waitedSince": "2026-11-20T02:48:17.658Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Athenahealth",
-      "role": "Salesforce AI Engineer- Agentforce",
-      "link": "https://athenahealth.wd1.myworkdayjobs.com/external/job/Remote---MA/Salesforce-AI-Engineer--Agentforce_R15682",
-      "location": "2 Locations",
-      "country": "Unsure",
-      "waitedSince": "2026-11-20T07:04:48.116Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:97738825-b75f-40bd-85cb-83293a08a513",
+          "at": "2026-11-23T12:59:41.263Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Leidos",
@@ -1899,17 +1918,21 @@
       "country": "USA",
       "waitedSince": "2026-11-20T07:04:48.127Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Leidos",
-      "role": "DevOps Software Engineer",
-      "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/DevOps-Software-Engineer_R-00197364",
-      "location": "Bethesda, MD",
-      "country": "USA",
-      "waitedSince": "2026-11-20T07:04:48.127Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:8651fd3a-be62-44c8-9d65-3465c6b3ac2b",
+          "at": "2026-11-23T12:59:41.263Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Leidos",
