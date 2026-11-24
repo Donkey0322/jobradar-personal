@@ -1,5 +1,5 @@
 {
-  "commit": "b97a805c30b2b68d76aea086858ecdc052508c5f",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2003,6 +2003,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:7b5eaedd-bb30-48ad-96dd-a0333859a953",
+          "at": "2026-11-24T01:26:15.484Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2027,6 +2039,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:0d8c206b-b9f1-4e7d-bbc5-179a94fefb43",
+          "at": "2026-11-24T01:26:15.484Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2038,7 +2062,21 @@
       "country": "USA",
       "waitedSince": "2026-11-20T21:38:53.009Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:2628076c-6683-4167-9aae-795105ff31c3",
+          "at": "2026-11-24T01:26:15.484Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Cat",
@@ -2048,7 +2086,21 @@
       "country": "USA",
       "waitedSince": "2026-11-20T23:05:28.994Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:d18b9162-34e4-46ba-973a-e486969a957a",
+          "at": "2026-11-24T01:26:15.484Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Regions",
@@ -2058,7 +2110,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-20T23:05:29.020Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:ec1456d3-bee8-4258-a02b-2b56c53238b6",
+          "at": "2026-11-24T01:26:15.484Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Toyota",
@@ -2217,6 +2283,26 @@
       "location": "Maryland",
       "country": "USA",
       "waitedSince": "2026-11-23T19:15:43.141Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Recruiting2.ultipro.com",
+      "role": "Software Engineer",
+      "link": "https://recruiting2.ultipro.com/sor1001sore/JobBoard/1fe5e40e-4e0c-4b11-86e3-9a8e1f396263/OpportunityDetail?opportunityId=06b49418-36cf-4c00-9ff1-e3e181278d25",
+      "location": "Salt Lake City, UT",
+      "country": "USA",
+      "waitedSince": "2026-11-24T01:26:19.756Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Koddi",
+      "role": "Associate Software Engineer",
+      "link": "https://job-boards.greenhouse.io/koddi/jobs/8944769002",
+      "location": "Fort Worth, TX",
+      "country": "USA",
+      "waitedSince": "2026-11-24T01:26:19.756Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
