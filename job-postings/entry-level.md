@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Wurl</td>
+      <td width="420" align="left" valign="top">Software Engineer I - Remote</td>
+      <td width="180" align="left" valign="top">Remote - United States</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/wurljobs/jobs/4731759006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Software Engineer Asc - E1</td>
+      <td width="180" align="left" valign="top">Aguadilla, PR</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996478006248?domain=lockheedmartin.com&amp;8fold_id=996478006248"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Associate - Early Career</td>
+      <td width="180" align="left" valign="top">King of Prussia, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477429290?domain=lockheedmartin.com&amp;8fold_id=996477429290"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">The MITRE Corporation</td>
+      <td width="420" align="left" valign="top">Associate Data Engineer</td>
+      <td width="180" align="left" valign="top">McLean, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.mitre.org/us/en/job/R118112?ph_id=R118112"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">SambaNova Systems</td>
       <td width="420" align="left" valign="top">New Grad: AI Performance Engineer</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
@@ -2085,38 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/3183020"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 4</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3Harris</td>
-      <td width="420" align="left" valign="top">Associate, Systems Engineering</td>
-      <td width="180" align="left" valign="top">Forest, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Forest-Associate%2C-Systems-Engineering-VA-24551/1418444300/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 4</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Computer Task Group</td>
-      <td width="420" align="left" valign="top">Junior Full Stack Developer</td>
-      <td width="180" align="left" valign="top">Remote</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.ctg.com/jobs/17921?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 4</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Nooks</td>
-      <td width="420" align="left" valign="top">Software Engineer</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/nooks/6cdc7c9c-d782-415c-91c5-12bdcc31a7b0"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Shield</td>
-      <td width="420" align="left" valign="top">Engineer I, Software Integration - New Grad - 6214</td>
-      <td width="180" align="left" valign="top">Washington, D.C.</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/shield/bffebf59-65b7-4f4f-805e-a9cdf0d2b252"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,402 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,406 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-24T19:31:12.542Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-24T21:21:24.261Z</code></sub>
