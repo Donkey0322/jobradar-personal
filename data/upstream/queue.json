@@ -1,5 +1,5 @@
 {
-  "commit": "e8efa894bcf5f219a817ff239514d1a27adbfe85",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2457,6 +2457,36 @@
       "location": "Remote - U.S.",
       "country": "USA",
       "waitedSince": "2026-11-24T19:30:37.663Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Rtx",
+      "role": "Software Engineer I 🇺🇸",
+      "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-NY-BINGHAMTON-288--31-Lewis-Rd--LEWIS/Software-Engineer-I--E2DNY-P1-1-_01888023",
+      "location": "Binghamton, NY",
+      "country": "USA",
+      "waitedSince": "2026-11-24T23:20:37.294Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Visa",
+      "role": "Software Engineer, Agentic Developer",
+      "link": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Agentic-Developer_REF090196W",
+      "location": "Denver, CO",
+      "country": "USA",
+      "waitedSince": "2026-11-24T23:20:37.294Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Serko",
+      "role": "Software Engineer 1",
+      "link": "https://apply.workable.com/serko-ltd/j/2BD3D4F4DE/apply",
+      "location": "Seattle, WA",
+      "country": "USA",
+      "waitedSince": "2026-11-24T23:20:37.294Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
