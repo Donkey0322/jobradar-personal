@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "batches/vik7hrfczxregqdof55eu869k73xr0acdxmv",
+    "submittedAt": "2026-11-24T04:47:27.539Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Amazon",
+        "role": "Structural Engineer, Data Centre Engineering",
+        "link": "https://amazon.jobs/en/jobs/10612133",
+        "location": "SG, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Dell",
+        "role": "Presales Systems Engineer",
+        "link": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300141",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Dell",
+        "role": "Systems Engineer",
+        "link": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/302717",
+        "location": "Taipei City, Taiwan",
+        "country": "Taiwan"
+      }
+    ]
+  }
+]
