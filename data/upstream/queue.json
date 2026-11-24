@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "3b7688971b0ae8cf7078b6fb1d26072108f57d28",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2223,18 +2223,18 @@
       ]
     },
     {
-      "company": "Toyota",
-      "role": "Software Engineer",
-      "link": "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer_10340846",
-      "location": "Plano, Texas",
+      "company": "Ace",
+      "role": "Data Scientist 1",
+      "link": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640459-1",
+      "location": "Coppell, TX",
       "country": "USA",
-      "waitedSince": "2026-11-20T23:05:29.023Z",
+      "waitedSince": "2026-11-21T06:58:52.759Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting",
       "attempts": [
         {
-          "id": "self:f4046450-9935-43a5-8f07-0d549ed38344",
-          "at": "2026-11-24T09:45:06.412Z",
+          "id": "self:fdb4800c-383f-493f-b3cd-a32a781f2dea",
+          "at": "2026-11-24T11:03:03.203Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -2245,26 +2245,6 @@
           }
         }
       ]
-    },
-    {
-      "company": "Cardinalhealth",
-      "role": "Data Engineer",
-      "link": "https://cardinalhealth.wd1.myworkdayjobs.com/ext/job/IND07/Data-Engineer_20191051",
-      "location": "IND07",
-      "country": "Unsure",
-      "waitedSince": "2026-11-21T03:56:53.123Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Ace",
-      "role": "Data Scientist 1",
-      "link": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640459-1",
-      "location": "Coppell, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-21T06:58:52.759Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
     },
     {
       "company": "Ngc",
@@ -2393,156 +2373,6 @@
       "location": "Centennial, CO",
       "country": "USA",
       "waitedSince": "2026-11-24T04:46:49.758Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, Leo AI Foundations",
-      "link": "https://amazon.jobs/en/jobs/10427349",
-      "location": "US, WA, Redmond",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.945Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Apple",
-      "role": "AR/VR Software Engineer, Siri and Visual Intelligence - Vision Products Software",
-      "link": "https://jobs.apple.com/en-us/details/200696384-3956/ar-vr-software-engineer-siri-and-visual-intelligence-vision-products-software?team=MLAI",
-      "location": "Sunnyvale",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.946Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Astranis",
-      "role": "Hardware/Production Test Software Engineer",
-      "link": "https://job-boards.greenhouse.io/astranis/jobs/4731856006",
-      "location": "San Francisco, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.946Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Belden Inc",
-      "role": "Sr Power Platform Developer - Hybrid (Richmond, IN)",
-      "link": "https://careers.belden.com/job/Richmond-Sr-Power-Platform-Developer-Hybrid-%28Richmond%2C-IN%29-IN-47374/1443657600/",
-      "location": "Richmond, IN, US, 47374",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.947Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Belden Inc",
-      "role": "SAP Data Migration Engineer - Syniti (US Remote)",
-      "link": "https://careers.belden.com/job/Carmel-SAP-Data-Migration-Engineer-Syniti-%28US-Remote%29-IN-46032/1443672800/",
-      "location": "Carmel, IN, US, 46032",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.947Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "ICF",
-      "role": "Cyber Security Engineer, Software Solutions",
-      "link": "https://careers.icf.com/us/en/job/R2603939?ph_id=R2603939",
-      "location": "Washington, District of Columbia, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.948Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Google",
-      "role": "Software Engineer, Search Ads Auction Infrastructure",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/129464451509166790-software-engineer-search-ads-auction-infrastructure?sort_by=date&page=2",
-      "location": "Mountain View, CA, USA",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.949Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Google",
-      "role": "Silicon Validation Engineer, Google Cloud",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/111801896720573126-silicon-validation-engineer-google-cloud?sort_by=date&page=2",
-      "location": "Sunnyvale, CA, USA",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.949Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Advisor Data Analyst",
-      "link": "https://jobs.lever.co/jobgether/339181c1-2d10-4eae-a4a2-816788ba9347",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.950Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Azure Cloud Engineer",
-      "link": "https://jobs.lever.co/jobgether/f04ae17b-10f5-45f5-870d-ed5006d6d97e",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.951Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Forensic Regulatory Data Analyst",
-      "link": "https://jobs.lever.co/jobgether/0e472b95-90d0-451f-8a50-031bab408367",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.951Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "L3Harris",
-      "role": "Associate, Systems Engineer",
-      "link": "https://jobs.l3harris.com/job/Palm-Bay-Associate%2C-Systems-Engineer-FL-32905/1422832200/",
-      "location": "Palm Bay, FL, US, 32905",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.952Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Lockheedmartin",
-      "role": "Data Engineer Sr - Product Lifecycle Enablement",
-      "link": "https://lockheedmartin.eightfold.ai/careers/job/996477662272?domain=lockheedmartin.com&8fold_id=996477662272",
-      "location": "Fort Worth, TX, King of Prussia, PA, Sunnyvale, CA, Orlando, FL, Littleton, CO, Moorestown, NJ, Bethesda, MD",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.952Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Lockheedmartin",
-      "role": "Systems Engineer Prin - E6",
-      "link": "https://lockheedmartin.eightfold.ai/careers/job/996478132935?domain=lockheedmartin.com&8fold_id=996478132935",
-      "location": "Fort Worth, TX",
-      "country": "USA",
-      "waitedSince": "2026-11-24T09:46:19.953Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Super Micro Computer",
-      "role": "Software Engineer - System Validation (Netherlands - ’s-Hertogenbosch)",
-      "link": "https://jobs.supermicro.com/job/Netherlands-%E2%80%99s-Hertogenbosch-Software-Engineer-System-Validation/1443768000/",
-      "location": "",
-      "country": "Unsure",
-      "waitedSince": "2026-11-24T09:46:19.953Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
