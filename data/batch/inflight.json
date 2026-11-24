@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "name": "batches/zu47fixtokn8r9wv9km69gunv3sj4v5ffozw",
+    "submittedAt": "2026-11-24T09:47:03.849Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Apple",
+        "role": "APAC Data Scientist, Ad Platforms",
+        "link": "https://jobs.apple.com/en-us/details/200696593-3278/apac-data-scientist-ad-platforms?team=SFTWR",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Micron",
+        "role": "Metrology Data Platform Engineer",
+        "link": "https://micron.eightfold.ai/careers/job/45295324?domain=micron.com&8fold_id=45295324",
+        "location": "Miaoli County, Miaoli County, Taiwan",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Micron",
+        "role": "Metrology Data Platform Engineer",
+        "link": "https://micron.eightfold.ai/careers/job/45295349?domain=micron.com&8fold_id=45295349",
+        "location": "Miaoli County, Miaoli County, Taiwan",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Oracle",
+        "role": "Software Developer 4",
+        "link": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/351107",
+        "location": "Taiwan, Province of China",
+        "country": "Taiwan"
+      },
+      {
+        "company": "Super Micro Computer",
+        "role": "Software QA Engineer(TC29813)",
+        "link": "https://jobs.supermicro.com/job/Bade-Software-QA-Engineer%28TC29813%29-Taiw/1414934500/",
+        "location": "Bade, Taiwan, TW",
+        "country": "Taiwan"
+      }
+    ]
+  }
+]
