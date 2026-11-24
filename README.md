@@ -89,7 +89,7 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [Entry Level](./job-postings/entry-level.md) — 1,399 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,402 opportunities
 
 ## The List 🚴‍♂️
 
@@ -108,6 +108,27 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">SambaNova Systems</td>
+      <td width="420" align="left" valign="top">New Grad: AI Performance Engineer</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://sambanova.ai/sambanova-available-positions/?gh_jid=6224936004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">JP Morgan Chase</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - Multiple Teams</td>
+      <td width="180" align="left" valign="top">Newark, DE</td>
+      <td width="120" align="left" valign="top"><a href="https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210803021"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Garmin</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Chandler, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/19953?icims=1&amp;lang=en-us"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Micron</td>
       <td width="420" align="left" valign="top">Metrology Data Platform Engineer</td>
@@ -297,30 +318,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Fort-Wayne-Associate,-Embedded-Software-Engineer-IN-46818/1452529800/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Westinghouse Electric Company, LLC</td>
-      <td width="420" align="left" valign="top">Fluid Systems Engineer</td>
-      <td width="180" align="left" valign="top">Cranberry Township, PA</td>
-      <td width="120" align="left" valign="top"><a href="http://careers.westinghousenuclear.com/job/Cranberry-Township-Fluid-Systems-Engineer-NC/1422937200/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Qualcomm</td>
-      <td width="420" align="left" valign="top">DSP Applications Software Engineer</td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.qualcomm.com/careers/job/446722230518?domain=qualcomm.com&amp;8fold_id=446722230518"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">HPE</td>
-      <td width="420" align="left" valign="top">Customer Systems Engineer Graduate</td>
-      <td width="180" align="left" valign="top">Roseville, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1213080?ph_id=1213080"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,399 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,402 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -339,7 +339,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-24T11:05:11.972Z</code>
+      🕒 Last updated <code>2026-11-24T19:31:12.542Z</code>
     </span>
   </p>
 </div>

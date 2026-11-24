@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">SambaNova Systems</td>
+      <td width="420" align="left" valign="top">New Grad: AI Performance Engineer</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://sambanova.ai/sambanova-available-positions/?gh_jid=6224936004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">JP Morgan Chase</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - Multiple Teams</td>
+      <td width="180" align="left" valign="top">Newark, DE</td>
+      <td width="120" align="left" valign="top"><a href="https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210803021"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Garmin</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Chandler, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/19953?icims=1&amp;lang=en-us"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Micron</td>
       <td width="420" align="left" valign="top">Metrology Data Platform Engineer</td>
       <td width="180" align="left" valign="top">Miaoli County, Miaoli County</td>
@@ -2092,31 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/shield/bffebf59-65b7-4f4f-805e-a9cdf0d2b252"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">LinkedIn</td>
-      <td width="420" align="left" valign="top">Data Scientist</td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LinkedIn3/744000159509679"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Paypal</td>
-      <td width="420" align="left" valign="top">Data Scientist</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://paypal.eightfold.ai/careers/job/274922421821?domain=paypal.com&amp;8fold_id=274922421821"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">ServiceNow</td>
-      <td width="420" align="left" valign="top">Software Engineer, Agent Eval Platform</td>
-      <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/ServiceNow/744000159509479"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,399 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,402 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-24T11:05:11.972Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-24T19:31:12.542Z</code></sub>
