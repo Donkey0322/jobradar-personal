@@ -378,6 +378,16 @@
     ]
   },
   {
+    "name": "abnormalsecurity",
+    "ats": "greenhouse",
+    "identifier": "abnormalsecurity",
+    "domain": "https://abnormal.ai",
+    "page": "https://boards-api.greenhouse.io/v1/boards/abnormalsecurity/jobs",
+    "urls": [
+      "https://abnormal.ai/careers/jobs/8016918003?gh_jid=8016918003"
+    ]
+  },
+  {
     "name": "about",
     "ats": "greenhouse",
     "identifier": "about",
@@ -4275,6 +4285,8 @@
       "https://careers.amd.com/jobs/100021?icims=1",
       "https://careers.amd.com/jobs/101937?icims=1",
       "https://careers.amd.com/jobs/101944?icims=1",
+      "https://careers.amd.com/jobs/103655?icims=1",
+      "https://careers.amd.com/jobs/103673?icims=1",
       "https://careers.amd.com/jobs/86587?icims=1",
       "https://careers.amd.com/jobs/88589?icims=1",
       "https://careers.amd.com/jobs/89499?icims=1",
@@ -5342,6 +5354,7 @@
       "https://jobs.ashbyhq.com/apex-technology-inc/1f217a8b-1137-4d72-ae2d-27cd522ef964",
       "https://jobs.ashbyhq.com/apex-technology-inc/2268adcb-a0f6-4e12-a206-8f99e048486d",
       "https://jobs.ashbyhq.com/apex-technology-inc/2d5ad921-241f-4e7a-b9ff-9d01763da88c",
+      "https://jobs.ashbyhq.com/apex-technology-inc/3ce65300-2818-4601-9ee4-34a3c012d915",
       "https://jobs.ashbyhq.com/apex-technology-inc/3fcb723d-da79-4b36-847b-541d613b19d5",
       "https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda",
       "https://jobs.ashbyhq.com/apex-technology-inc/427328cd-63e9-4086-bee9-98c866a5c215",
@@ -5349,6 +5362,7 @@
       "https://jobs.ashbyhq.com/apex-technology-inc/4cabd6f4-8b6e-48cc-9554-5943c1df04bb",
       "https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344",
       "https://jobs.ashbyhq.com/apex-technology-inc/6ca52ae8-0271-4441-9e10-bf1d4d204fd1",
+      "https://jobs.ashbyhq.com/apex-technology-inc/744ea544-2601-4e58-8fac-94ea300653e3",
       "https://jobs.ashbyhq.com/apex-technology-inc/880d33b6-275c-498b-991c-3979105fceae",
       "https://jobs.ashbyhq.com/apex-technology-inc/8baf633d-8e83-4ef1-9d3c-0f52fd1b6540",
       "https://jobs.ashbyhq.com/apex-technology-inc/a78c2ffd-bbaf-4884-b5a1-09631798f655",
@@ -7150,6 +7164,7 @@
       "https://careers.arm.com/job/cambridge/software-performance-engineer/33099/96947922864",
       "https://careers.arm.com/job/galway/graduate-ml-software-engineer/33099/102806620832",
       "https://careers.arm.com/job/lund/ai-software-engineer-executorch/33099/100031426432",
+      "https://careers.arm.com/job/lund/compiler-engineer-machine-learning/33099/94847322016",
       "https://careers.arm.com/job/lund/graduate-ml-software-engineer/33099/102539110752",
       "https://careers.arm.com/job/lund/graduate-software-engineer-system-test-graphics/33099/102639183872",
       "https://careers.arm.com/job/lund/machine-learning-software-engineer/33099/100378769232",
@@ -15936,7 +15951,10 @@
       "https://careers.serco-na.com/us/en/job/36239?ph_id=36239",
       "https://careers.serco-na.com/us/en/job/36329?ph_id=36329",
       "https://careers.serco-na.com/us/en/job/36331?ph_id=36331",
-      "https://careers.serco-na.com/us/en/job/36483?ph_id=36483"
+      "https://careers.serco-na.com/us/en/job/36481?ph_id=36481",
+      "https://careers.serco-na.com/us/en/job/36483?ph_id=36483",
+      "https://careers.serco-na.com/us/en/job/36594?ph_id=36594",
+      "https://careers.serco-na.com/us/en/job/36595?ph_id=36595"
     ]
   },
   {
@@ -17765,6 +17783,7 @@
       "https://jobs.ashbyhq.com/Clera/9bbe0676-9bfe-4891-93cb-b62b2c963477",
       "https://jobs.ashbyhq.com/Clera/9fa390e2-f70e-45a1-8499-d2ba1497dd4b",
       "https://jobs.ashbyhq.com/Clera/a16dcef4-2087-4611-89be-0b8ded9d306c",
+      "https://jobs.ashbyhq.com/Clera/a3d52889-1c3b-4913-86a9-37381ba464e7",
       "https://jobs.ashbyhq.com/Clera/a3d89de4-55c4-47f2-89d8-2daadfc4cb65",
       "https://jobs.ashbyhq.com/Clera/a85e66e9-d00e-48b5-8d14-5968111bc748",
       "https://jobs.ashbyhq.com/Clera/a8a8723a-d74d-43fa-9260-db44efdc3350",
@@ -17774,11 +17793,14 @@
       "https://jobs.ashbyhq.com/Clera/b8448dfd-331b-48b0-a5c6-7c7e04044b1f",
       "https://jobs.ashbyhq.com/Clera/c0517878-58a9-41e0-83c6-f1d41fbf4e37",
       "https://jobs.ashbyhq.com/Clera/c0cbaf43-1dfa-425f-b085-84d3911e3b2f",
+      "https://jobs.ashbyhq.com/Clera/c15663b0-8b46-485e-9ee2-0c5d8a04c0b2",
       "https://jobs.ashbyhq.com/Clera/c26fd722-13a7-4c2a-bad5-5dcc93dd1804",
       "https://jobs.ashbyhq.com/Clera/c8c50e46-229c-4563-b9a9-1d4713f777c5",
       "https://jobs.ashbyhq.com/Clera/cd456e6a-41d9-48c6-bcf7-f4605937defa",
       "https://jobs.ashbyhq.com/Clera/d0ab051b-0db9-4ae3-81e9-baac7a50476a",
       "https://jobs.ashbyhq.com/Clera/d9f72b36-762c-4967-8c66-b1a09b11e400",
+      "https://jobs.ashbyhq.com/Clera/da39db6c-323b-487d-80bb-655eefd22d77",
+      "https://jobs.ashbyhq.com/Clera/df58d473-b3d5-43c2-aaac-dd5ebe3d79f3",
       "https://jobs.ashbyhq.com/Clera/e10ecb2e-5055-4bcf-a7bc-ff06203fe411",
       "https://jobs.ashbyhq.com/Clera/e2c5a274-47cc-414a-862e-33a2e8ab91b4",
       "https://jobs.ashbyhq.com/Clera/e6d1175f-f837-4492-a6c0-495d7298b680",
@@ -18299,6 +18321,7 @@
     "urls": [
       "https://jobs.commscope.com/job/Catawba-Intern,-IMS-Software-Engineering-Nort/1347995900/?ats=successfactors",
       "https://jobs.commscope.com/job/Catawba-Intern-Field-Application-Engineering-Nort/1352606600/?ats=successfactors",
+      "https://jobs.commscope.com/job/Charlotte-Sr-Detection-and-Response-Engineer%2C-Information-Security-Nort/1444042600/",
       "https://jobs.commscope.com/job/Claremont-Financial-System-Analyst-Nort/1448168400/",
       "https://jobs.commscope.com/job/Goa-Application-developer-AI%2C-CRM-Goa/1450080100/",
       "https://jobs.commscope.com/job/Jakarta-Engineer%2C-Systems-Datacenter-DKI/1426727700/",
@@ -19575,7 +19598,9 @@
     "identifier": "dandy",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/dandy",
-    "urls": []
+    "urls": [
+      "https://jobs.ashbyhq.com/dandy/d43558e9-8e51-4980-b00d-39275063f099"
+    ]
   },
   {
     "name": "darkwolfsolutions",
@@ -22856,7 +22881,8 @@
     "domain": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/jobs/job",
     "page": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCSXCareers%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
-      "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/jobs/job/54622"
+      "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/jobs/job/54622",
+      "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/jobs/job/54831"
     ]
   },
   {
@@ -22905,6 +22931,7 @@
       "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77048",
       "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77076",
       "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77133",
+      "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77145",
       "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77381"
     ]
   },
@@ -29911,7 +29938,8 @@
       "https://jobs.smartrecruiters.com/intuitive/744000162832659",
       "https://jobs.smartrecruiters.com/intuitive/744000163330078",
       "https://jobs.smartrecruiters.com/intuitive/744000163503569",
-      "https://jobs.smartrecruiters.com/intuitive/744000163505402"
+      "https://jobs.smartrecruiters.com/intuitive/744000163505402",
+      "https://jobs.smartrecruiters.com/intuitive/744000163734433"
     ]
   },
   {
@@ -33306,6 +33334,7 @@
       "https://job-boards.greenhouse.io/lilasciences/jobs/4462594009",
       "https://job-boards.greenhouse.io/lilasciences/jobs/4472540009",
       "https://job-boards.greenhouse.io/lilasciences/jobs/4472554009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4477299009",
       "https://job-boards.greenhouse.io/lilasciences/jobs/4477308009"
     ]
   },
@@ -34408,6 +34437,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996478005352?domain=lockheedmartin.com&8fold_id=996478005352",
       "https://lockheedmartin.eightfold.ai/careers/job/996478006248?domain=lockheedmartin.com&8fold_id=996478006248",
       "https://lockheedmartin.eightfold.ai/careers/job/996478006403?domain=lockheedmartin.com&8fold_id=996478006403",
+      "https://lockheedmartin.eightfold.ai/careers/job/996478006526?domain=lockheedmartin.com&8fold_id=996478006526",
       "https://lockheedmartin.eightfold.ai/careers/job/996478008391?domain=lockheedmartin.com&8fold_id=996478008391",
       "https://lockheedmartin.eightfold.ai/careers/job/996478008765?domain=lockheedmartin.com&8fold_id=996478008765",
       "https://lockheedmartin.eightfold.ai/careers/job/996478009591?domain=lockheedmartin.com&8fold_id=996478009591",
@@ -38442,7 +38472,8 @@
       "https://netapp.eightfold.ai/careers/job/45578212?domain=netapp.com&8fold_id=45578212",
       "https://netapp.eightfold.ai/careers/job/45578213?domain=netapp.com&8fold_id=45578213",
       "https://netapp.eightfold.ai/careers/job/45644110?domain=netapp.com&8fold_id=45644110",
-      "https://netapp.eightfold.ai/careers/job/45647767?domain=netapp.com&8fold_id=45647767"
+      "https://netapp.eightfold.ai/careers/job/45647767?domain=netapp.com&8fold_id=45647767",
+      "https://netapp.eightfold.ai/careers/job/45752497?domain=netapp.com&8fold_id=45752497"
     ]
   },
   {
@@ -38503,7 +38534,8 @@
       "https://jobs.netapp.com/job/Software-Engineer-Systems-Architecture/1450880300/",
       "https://jobs.netapp.com/job/Software-Engineer/1429907900/",
       "https://jobs.netapp.com/job/Sustainability-Data-Analyst/1439491800/",
-      "https://jobs.netapp.com/job/Tel-Aviv-Junior-UI-Engineer/1453595000/"
+      "https://jobs.netapp.com/job/Tel-Aviv-Junior-UI-Engineer/1453595000/",
+      "https://jobs.netapp.com/job/Wichita-Software-Engineer-Intern-KS-67208/1453763400/"
     ]
   },
   {
@@ -42104,6 +42136,7 @@
       "https://careers-peraton.icims.com/jobs/177475/software-test-engineer/job",
       "https://careers-peraton.icims.com/jobs/177609/software-engineer/job",
       "https://careers-peraton.icims.com/jobs/177673/systems-engineer/job",
+      "https://careers-peraton.icims.com/jobs/178136/cybersecurity-research-engineer---re-vr/job",
       "https://careers-peraton.icims.com/jobs/178214/redhat-cloud-engineer-%28jr%29/job"
     ]
   },
@@ -42471,6 +42504,7 @@
     "domain": "https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers",
     "page": "https://pipersandler.wd501.myworkdayjobs.com/wday/cxs/pipersandler/Piper_Sandler_Careers/jobs",
     "urls": [
+      "https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Minneapolis-MN---HQ/DevOps-Engineer_R-100810",
       "https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Minneapolis-MN---HQ/XMLNAME-2027-Summer-Internship-Program---Data-Engineering_R-100805",
       "https://pipersandler.wd501.myworkdayjobs.com/piper_sandler_careers/job/Houston-4-TX-Main-Street/XMLNAME-2028-Campus-Recruiting---Investment-Banking-Summer-Analyst---Energy--Power---Infrastructure_R-100745",
       "https://pipersandler.wd501.myworkdayjobs.com/piper_sandler_careers/job/Minneapolis-MN---HQ/Core-Infrastructure-Engineer---Professional_R-100749"
@@ -43831,7 +43865,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/quo",
     "urls": [
-      "https://jobs.ashbyhq.com/quo/cfc3ade0-d34d-4d11-953e-637d3b88b6e1"
+      "https://jobs.ashbyhq.com/quo/cfc3ade0-d34d-4d11-953e-637d3b88b6e1",
+      "https://jobs.ashbyhq.com/quo/e9557ae5-de39-4a4c-b338-4ad500e7181d"
     ]
   },
   {
@@ -46472,7 +46507,11 @@
       "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224936004",
       "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224938004",
       "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224940004",
-      "https://sambanova.ai/sambanova-available-positions/?gh_jid=6240725004"
+      "https://sambanova.ai/sambanova-available-positions/?gh_jid=6240725004",
+      "https://sambanova.ai/sambanova-available-positions/?gh_jid=6271183004",
+      "https://sambanova.ai/sambanova-available-positions/?gh_jid=6271289004",
+      "https://sambanova.ai/sambanova-available-positions/?gh_jid=6271352004",
+      "https://sambanova.ai/sambanova-available-positions/?gh_jid=6271395004"
     ]
   },
   {
@@ -53054,6 +53093,8 @@
       "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Site-Reliability-Engineer---Platforms_10325078",
       "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Snowflake---Analytics-Platform-Engineer_10331617",
       "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer--Early-Career-Professional-_10325071",
+      "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer_10325070",
+      "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer_10332851",
       "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer_10338652",
       "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer_10340846",
       "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/SrOracle-EPM-Cloud-Planning-Engineer_10332391",
@@ -53429,6 +53470,7 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/triumph-arcade",
     "urls": [
+      "https://jobs.ashbyhq.com/triumph-arcade/1f08553b-3e9b-4c31-afa0-960edf7e5d4c",
       "https://jobs.ashbyhq.com/triumph-arcade/636256cc-b822-4ec6-963e-ead38ad49366",
       "https://jobs.ashbyhq.com/triumph-arcade/714a3b99-8a7d-4f0a-9944-d2d0cbb8bbca",
       "https://jobs.ashbyhq.com/triumph-arcade/8863c7e0-60a5-4775-b15b-d0e46329a230"
@@ -55223,6 +55265,7 @@
       "https://careers.viasat.com/jobs/6732?icims=1",
       "https://careers.viasat.com/jobs/6782?icims=1",
       "https://careers.viasat.com/jobs/6797?icims=1",
+      "https://careers.viasat.com/jobs/6812?icims=1",
       "https://careers.viasat.com/jobs/6864?icims=1",
       "https://careers.viasat.com/jobs/6997?icims=1",
       "https://careers.viasat.com/jobs/7077?icims=1",
@@ -55793,7 +55836,8 @@
       "https://jobs.smartrecruiters.com/Wabtec/3743990016973676",
       "https://jobs.smartrecruiters.com/Wabtec/3743990016990976",
       "https://jobs.smartrecruiters.com/Wabtec/3743990016992457",
-      "https://jobs.smartrecruiters.com/Wabtec/3743990017046456"
+      "https://jobs.smartrecruiters.com/Wabtec/3743990017046456",
+      "https://jobs.smartrecruiters.com/Wabtec/3743990017091891"
     ]
   },
   {
@@ -57044,6 +57088,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/xometry/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/xometry/jobs/5287085007"
+    ]
+  },
+  {
+    "name": "xpengmotors",
+    "ats": "greenhouse",
+    "identifier": "xpengmotors",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/xpengmotors/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/xpengmotors/jobs/8962912002"
     ]
   },
   {
