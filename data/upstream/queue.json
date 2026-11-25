@@ -1,5 +1,5 @@
 {
-  "commit": "645bcb909f320ba6790fb481ab05c459f78198d3",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2497,6 +2497,16 @@
       "location": "Dallas, TX",
       "country": "USA",
       "waitedSince": "2026-11-25T03:32:05.020Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Prolucid Technologies",
+      "role": "Junior Software Engineer",
+      "link": "https://apply.workable.com/prolucid-technologies/j/DBA98070BB/apply",
+      "location": "Mississauga, ON, Canada",
+      "country": "Canada",
+      "waitedSince": "2026-11-25T05:30:35.086Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
