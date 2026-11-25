@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "27bef47c2470b83167b19ae61f15cde8bcb41327",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2507,56 +2507,6 @@
       "location": "Mississauga, ON, Canada",
       "country": "Canada",
       "waitedSince": "2026-11-25T05:30:35.086Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, AWS Route 53, AWS Route 53 Frontier Resolver",
-      "link": "https://amazon.jobs/en/jobs/10598228",
-      "location": "US, WA, Seattle",
-      "country": "USA",
-      "waitedSince": "2026-11-25T08:21:18.320Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, Route 53",
-      "link": "https://amazon.jobs/en/jobs/10520050",
-      "location": "US, VA, Herndon",
-      "country": "USA",
-      "waitedSince": "2026-11-25T08:21:18.320Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer , Amazon Leo e-commerce",
-      "link": "https://amazon.jobs/en/jobs/10613731",
-      "location": "US, WA, Redmond",
-      "country": "USA",
-      "waitedSince": "2026-11-25T08:21:18.321Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, Amazon Leo - Payload Dataplane Team",
-      "link": "https://amazon.jobs/en/jobs/10610421",
-      "location": "US, CA, San Diego",
-      "country": "USA",
-      "waitedSince": "2026-11-25T08:21:18.321Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Westinghouse Electric Company, LLC",
-      "role": "Power System Planning Engineer",
-      "link": "http://careers.westinghousenuclear.com/WECTEC_Staffing/job/OTHER-Power-System-Planning-Engineer-MA-0/1424680100/",
-      "location": "OTHER, MA, US, 0",
-      "country": "USA",
-      "waitedSince": "2026-11-25T08:21:18.321Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
