@@ -2339,6 +2339,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:556f0636-01e8-4b48-b3db-6c1da2609fba",
+          "at": "2026-11-26T22:43:05.646Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2369,57 +2381,28 @@
     },
     {
       "company": "Starfish",
-      "role": "Systems Engineer",
-      "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Eglin-AFB-FL/Systems-Engineer_R2219",
-      "location": "Eglin AFB, FL",
-      "country": "USA",
-      "waitedSince": "2026-11-23T19:15:43.138Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting",
-      "attempts": [
-        {
-          "id": "self:362c4238-c438-4e86-b47c-55bec90c55ae",
-          "at": "2026-11-26T19:42:30.979Z",
-          "round": 0,
-          "failure": {
-            "stage": "fetch",
-            "error": {
-              "code": 429,
-              "desc": "Too Many Requests"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "company": "Starfish",
-      "role": "Software Engineer",
-      "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Redstone-Arsenal-AL/Software-Engineer_R2223",
-      "location": "Redstone Arsenal, AL",
-      "country": "USA",
-      "waitedSince": "2026-11-23T19:15:43.138Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Starfish",
       "role": "Software Engineer Framework Specialist",
       "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Eglin-AFB-FL/Software-Engineer-Framework-Specialist_R2220",
       "location": "Eglin AFB, FL",
       "country": "USA",
       "waitedSince": "2026-11-23T19:15:43.139Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Starfish",
-      "role": "Systems Engineer/Analyst",
-      "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/Systems-Engineer-Analyst_R2216",
-      "location": "Huntsville, AL",
-      "country": "USA",
-      "waitedSince": "2026-11-23T19:15:43.139Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:e0b11c60-22c8-4ae4-99bc-3c8b1b93ae53",
+          "at": "2026-11-26T22:43:05.646Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Trinzic",
