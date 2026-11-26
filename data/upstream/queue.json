@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "cbdd71c04641b3ad67cec700ad73e4453513372e",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2591,152 +2591,12 @@
       "status": "waiting"
     },
     {
-      "company": "Spscommerce",
-      "role": "Associate Software Engineer I",
-      "link": "https://spscommerce.wd108.myworkdayjobs.com/SPS/job/Philippines-Remote/Associate-Software-Engineer-I_R-001573",
-      "location": "Philippines Remote",
-      "country": "USA",
-      "waitedSince": "2026-11-26T02:10:02.671Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Mantech.avature.net",
       "role": "Junior Data Analyst 🇺🇸",
       "link": "https://mantech.avature.net/en_US/careers/JobDetail/67285",
       "location": "Ashburn, VA",
       "country": "USA",
       "waitedSince": "2026-11-26T04:38:13.784Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Aerospace Systems Development Service Engineer, Prime Air",
-      "link": "https://amazon.jobs/en/jobs/10615136",
-      "location": "US, WA, Seattle",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.645Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, US ADC Security",
-      "link": "https://amazon.jobs/en/jobs/10615132",
-      "location": "US, VA, Herndon",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.646Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, US ADC Security",
-      "link": "https://amazon.jobs/en/jobs/10615130",
-      "location": "US, VA, Herndon",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.646Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Capgemini",
-      "role": "Data Engineer - SQL/PLSQL & Java",
-      "link": "https://careers.capgemini.com/job/Dallas%2C-TX-Data-Engineer-SQLPLSQL-&-Java-TX-75201/1452193133/",
-      "location": "Dallas, TX, US",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.646Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Cisco",
-      "role": "Software Engineer",
-      "link": "https://careers.cisco.com/global/en/job/2030715?ph_id=2030715",
-      "location": "Research Triangle Park, North Carolina, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.647Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Cisco",
-      "role": "Software Engineer",
-      "link": "https://careers.cisco.com/global/en/job/2030720?ph_id=2030720",
-      "location": "Research Triangle Park, North Carolina, United States of America",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.647Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Citi",
-      "role": "Full Stack Developer",
-      "link": "https://jobs.citi.com/job/irving/full-stack-developer/287/103780634560",
-      "location": "Irving, Texas, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.648Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Google",
-      "role": "Application Modernization Engineer, Professional Services, Google Cloud",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/120262621516440262-application-modernization-engineer-professional-services-google-cloud?sort_by=date&page=1",
-      "location": "Austin, TX, USA; Boulder, CO, USA; +3 more; +2 more",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.648Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Lmi",
-      "role": "Power Platform Developer - Clearance Required",
-      "link": "https://careers-lmi.icims.com/jobs/15183/power-platform-developer---clearance-required/job",
-      "location": "Unsure",
-      "country": "Unsure",
-      "waitedSince": "2026-11-26T08:07:21.649Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Netflix",
-      "role": "Software Engineer 5 - TV (Ads)",
-      "link": "https://explore.jobs.netflix.net/careers/job/790319354933",
-      "location": "Remote, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.650Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "PACCAR",
-      "role": "Embedded Application Software Engineer",
-      "link": "https://jobs.paccar.com/job/Kirkland-Embedded-Application-Software-Engineer-WA-98033/1452304033/",
-      "location": "Kirkland, WA, US, 98033",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.650Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "SAIC",
-      "role": "Model Based Systems Engineer",
-      "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2619528",
-      "location": "San Diego, CA, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.651Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Scout-ai",
-      "role": "Full Stack Software Engineer",
-      "link": "https://jobs.ashbyhq.com/scout-ai/e0557d08-8678-40b6-b5b2-d24f9028b629",
-      "location": "Sunnyvale, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-26T08:07:21.651Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
