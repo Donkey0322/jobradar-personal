@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "d688dd0fd3c510ec23b50a16314fbf3c31e6ee2a",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2601,72 +2601,12 @@
       "status": "waiting"
     },
     {
-      "company": "Parallel Web Systems",
-      "role": "Software Engineer - Developer Experience",
-      "link": "https://jobs.ashbyhq.com/parallel/8b4ff118-444c-425a-b33b-f38d8338d87c",
-      "location": "Palo Alto, CA</br>San Francisco, CA</br>New York, NY",
-      "country": "USA",
-      "waitedSince": "2026-11-26T04:38:13.783Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
       "company": "Mantech.avature.net",
       "role": "Junior Data Analyst 🇺🇸",
       "link": "https://mantech.avature.net/en_US/careers/JobDetail/67285",
       "location": "Ashburn, VA",
       "country": "USA",
       "waitedSince": "2026-11-26T04:38:13.784Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "CodeRabbit",
-      "role": "New Grad: Software Engineer",
-      "link": "https://jobs.ashbyhq.com/coderabbit/50e51501-4421-496f-95ea-c793aed3bd51",
-      "location": "San Francisco, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-26T04:38:13.784Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Scout AI",
-      "role": "Software Engineer New Grad - Core Systems",
-      "link": "https://jobs.ashbyhq.com/scout-ai/7da1991b-f264-4465-8747-8cc5421a9897/application?embed=true",
-      "location": "Sunnyvale, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-26T04:38:13.785Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "WELLSTAR Technologies",
-      "role": "Junior Software Developer",
-      "link": "https://wellhealthtechnologiescorp.applytojob.com/apply/URnVV0S4yQ/Junior-Software-Developer",
-      "location": "Remote in Canada",
-      "country": "Canada",
-      "waitedSince": "2026-11-26T04:38:13.785Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "WELLSTAR Technologies",
-      "role": "Junior Software Developer",
-      "link": "https://wellhealthtechnologiescorp.applytojob.com/apply/5kq5CE1n76/Junior-Software-Developer",
-      "location": "Remote in Canada",
-      "country": "Canada",
-      "waitedSince": "2026-11-26T04:38:13.785Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Scout AI",
-      "role": "AI Engineer New Grad - AI/ML and Agent Harnessing",
-      "link": "https://jobs.ashbyhq.com/scout-ai/ad3dd69f-f568-4a7c-abbf-280424bc63ed/application?embed=true",
-      "location": "Sunnyvale, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-26T04:38:13.786Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }

@@ -8165,6 +8165,17 @@
     ]
   },
   {
+    "name": "ayosemi",
+    "ats": "ashby",
+    "identifier": "ayosemi",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/ayosemi",
+    "urls": [
+      "https://jobs.ashbyhq.com/ayosemi/25ce1f36-356a-4a0e-95e0-24c3babb34ff",
+      "https://jobs.ashbyhq.com/ayosemi/cc1d3968-2b15-4442-828c-7950077c3a8a"
+    ]
+  },
+  {
     "name": "babelstreet",
     "ats": "greenhouse",
     "identifier": "babelstreet",
@@ -52994,7 +53005,8 @@
       "https://lifeattiktok.com/search/7706439145591392517",
       "https://lifeattiktok.com/search/7706481808216688901",
       "https://lifeattiktok.com/search/7706693387932633397",
-      "https://lifeattiktok.com/search/7708750900450134325"
+      "https://lifeattiktok.com/search/7708750900450134325",
+      "https://lifeattiktok.com/search/7712192759532357893"
     ]
   },
   {
@@ -54942,6 +54954,7 @@
       "https://jobs.lever.co/veeva/0d88dc70-1023-4ee5-a7fe-67eb0b5cb848",
       "https://jobs.lever.co/veeva/35dd31bf-c0ee-4366-b9c9-88a9f41e4cf5",
       "https://jobs.lever.co/veeva/47279623-8cbf-42f9-8f41-461c25af2edf",
+      "https://jobs.lever.co/veeva/4738ae75-9f7b-4082-b129-69fb82f6d7b2",
       "https://jobs.lever.co/veeva/4c553771-00ae-474d-b69e-670ee67fec7d",
       "https://jobs.lever.co/veeva/58edfcf2-acbf-4646-8976-a05fe29b4be5",
       "https://jobs.lever.co/veeva/607ae6ec-ab7e-4a16-931e-3c3a8d075ec7",
@@ -54956,6 +54969,7 @@
       "https://jobs.lever.co/veeva/dc31cd5c-0aa5-45a5-9cc2-fd4179f47b40",
       "https://jobs.lever.co/veeva/e38ab928-18d3-4907-901e-e3dc889aab1c",
       "https://jobs.lever.co/veeva/ee3ae875-5db1-49b3-ae64-0fbac944d2a3",
+      "https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7",
       "https://jobs.lever.co/veeva/fc5343d1-f637-4729-9ecb-aeb963619e01",
       "https://jobs.lever.co/veeva/fecaef42-b5c1-4fb2-b819-058171174ed1"
     ]
