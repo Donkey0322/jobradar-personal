@@ -1,5 +1,5 @@
 {
-  "commit": "fc38bca29feb4854b105922030e8fc767fa84879",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2291,6 +2291,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:5d11c277-78e2-4a79-a9c8-78468de87051",
+          "at": "2026-11-26T18:22:35.309Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2611,6 +2623,76 @@
       "location": "Ashburn, VA",
       "country": "USA",
       "waitedSince": "2026-11-26T04:38:13.784Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer - Military Veterans",
+      "link": "https://amazon.jobs/en/jobs/3179205",
+      "location": "US, WA, Seattle",
+      "country": "USA",
+      "waitedSince": "2026-11-26T18:24:03.014Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "DEPT®",
+      "role": "AI Engineer",
+      "link": "https://job-boards.greenhouse.io/dept/jobs/8232711",
+      "location": "Budapest, Zagreb, Split, Skopje",
+      "country": "Unsure",
+      "waitedSince": "2026-11-26T18:24:03.014Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "DEPT®",
+      "role": "Data Engineer",
+      "link": "https://job-boards.greenhouse.io/dept/jobs/8211066",
+      "location": "Budapest, Zagreb",
+      "country": "Unsure",
+      "waitedSince": "2026-11-26T18:24:03.014Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Ipipeline",
+      "role": "Software Development Engineer",
+      "link": "https://careers-ipipeline.icims.com/jobs/1738/software-development-engineer/job",
+      "location": "Unsure",
+      "country": "Unsure",
+      "waitedSince": "2026-11-26T18:24:03.014Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Jobgether",
+      "role": "Full Stack Web & eCommerce Engineer",
+      "link": "https://jobs.lever.co/jobgether/91f5a1f0-3173-4564-aec1-16ae06d324ce",
+      "location": "US",
+      "country": "USA",
+      "waitedSince": "2026-11-26T18:24:03.015Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Leonardo DRS, Inc.",
+      "role": "UAV Systems Engineer - Guidance Navigation & Controls",
+      "link": "https://careers.leonardodrs.com/job/Germantown-UAV-Systems-Engineer-Guidance-Navigation-&-Controls-MD-20876/1434747300/",
+      "location": "Germantown, MD, US, 20876",
+      "country": "USA",
+      "waitedSince": "2026-11-26T18:24:03.015Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Super Micro Computer",
+      "role": "System Validation Engineer",
+      "link": "https://jobs.supermicro.com/job/San-Jose-System-Validation-Engineer-Cali/1425155800/",
+      "location": "San Jose, California, United States",
+      "country": "USA",
+      "waitedSince": "2026-11-26T18:24:03.015Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
