@@ -18183,7 +18183,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/coderabbit",
     "urls": [
-      "https://jobs.ashbyhq.com/coderabbit/50e51501-4421-496f-95ea-c793aed3bd51"
+      "https://jobs.ashbyhq.com/coderabbit/50e51501-4421-496f-95ea-c793aed3bd51",
+      "https://jobs.ashbyhq.com/coderabbit/c30ab34a-98f3-4c41-b4ba-179bdbab32c9"
     ]
   },
   {
@@ -20089,6 +20090,16 @@
     "domain": "https://deluxe.wd5.myworkdayjobs.com/usa_can",
     "page": "https://deluxe.wd5.myworkdayjobs.com/wday/cxs/deluxe/usa_can/jobs",
     "urls": []
+  },
+  {
+    "name": "dept",
+    "ats": "greenhouse",
+    "identifier": "dept",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/dept/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/dept/jobs/8414501"
+    ]
   },
   {
     "name": "deshaw.com",
@@ -28326,7 +28337,8 @@
     "page": "https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/acjobsite/jobs",
     "urls": [
       "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Spring-Texas-United-States-of-America/AI-Automation-Engineer-Graduate_1213068",
-      "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Sunnyvale-California-United-States-of-America/Systems---Software-Engineer-I-Graduate_1214972"
+      "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Sunnyvale-California-United-States-of-America/Systems---Software-Engineer-I-Graduate_1214972",
+      "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Taipei-Taipei-City-Taiwan/Software-Engineer---AI-Agents---Automation_1213886"
     ]
   },
   {

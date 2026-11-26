@@ -1,5 +1,5 @@
 {
-  "commit": "cbdd71c04641b3ad67cec700ad73e4453513372e",
+  "commit": "fc38bca29feb4854b105922030e8fc767fa84879",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2278,7 +2278,21 @@
       "country": "USA",
       "waitedSince": "2026-11-23T16:27:16.881Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:0ebaed8d-0254-4029-bd30-14476fc04d5e",
+          "at": "2026-11-26T17:17:02.176Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Kbr",
