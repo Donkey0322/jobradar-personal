@@ -9738,7 +9738,9 @@
     "identifier": "BestEgg",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/BestEgg?mode=json",
-    "urls": []
+    "urls": [
+      "https://jobs.lever.co/BestEgg/c29a9c21-d939-4a5a-82fd-4b1440d71392"
+    ]
   },
   {
     "name": "BEUMERGroup1",
@@ -15074,6 +15076,7 @@
       "https://careers.cisco.com/global/en/job/2025804?ph_id=2025804",
       "https://careers.cisco.com/global/en/job/2025805?ph_id=2025805",
       "https://careers.cisco.com/global/en/job/2025844?ph_id=2025844",
+      "https://careers.cisco.com/global/en/job/2025885?ph_id=2025885",
       "https://careers.cisco.com/global/en/job/2025905?ph_id=2025905",
       "https://careers.cisco.com/global/en/job/2025941?ph_id=2025941",
       "https://careers.cisco.com/global/en/job/2025972?ph_id=2025972",
@@ -16518,6 +16521,7 @@
     "domain": "https://careers.celestica.com",
     "page": "https://careers.celestica.com/services/rss/job/?locale=en_US",
     "urls": [
+      "https://careers.celestica.com/job/Richardson-Security-Analyst-1-1-TX-75080/1451914133/",
       "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-AI-Development-ON/1460691233",
       "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-Data-Analytics-ON/1460684533"
     ]
@@ -18146,6 +18150,16 @@
     "page": "https://api.smartrecruiters.com/v1/companies/Codeage/postings",
     "urls": [
       "https://jobs.smartrecruiters.com/Codeage/743999669081604"
+    ]
+  },
+  {
+    "name": "coderabbit",
+    "ats": "ashby",
+    "identifier": "coderabbit",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/coderabbit",
+    "urls": [
+      "https://jobs.ashbyhq.com/coderabbit/50e51501-4421-496f-95ea-c793aed3bd51"
     ]
   },
   {
@@ -27545,7 +27559,8 @@
       "https://job-boards.greenhouse.io/heygen/jobs/4172070007",
       "https://job-boards.greenhouse.io/heygen/jobs/4172075007",
       "https://job-boards.greenhouse.io/heygen/jobs/4352234007",
-      "https://job-boards.greenhouse.io/heygen/jobs/4540716007"
+      "https://job-boards.greenhouse.io/heygen/jobs/4540716007",
+      "https://job-boards.greenhouse.io/heygen/jobs/5309835007"
     ]
   },
   {
@@ -30247,6 +30262,7 @@
     "urls": [
       "https://www.ixl.com/company/jobs?gh_jid=8862043002",
       "https://www.ixl.com/company/jobs?gh_jid=8862049002",
+      "https://www.ixl.com/company/jobs?gh_jid=8963039002",
       "https://www.ixl.com/company/jobs?gh_jid=8963047002",
       "https://www.ixl.com/company/jobs?gh_jid=8963067002"
     ]
@@ -31171,7 +31187,8 @@
       "https://jobs.baesystems.com/global/en/job/133324BR?ph_id=133324BR",
       "https://jobs.baesystems.com/global/en/job/133360BR?ph_id=133360BR",
       "https://jobs.baesystems.com/global/en/job/133376BR?ph_id=133376BR",
-      "https://jobs.baesystems.com/global/en/job/133377BR?ph_id=133377BR"
+      "https://jobs.baesystems.com/global/en/job/133377BR?ph_id=133377BR",
+      "https://jobs.baesystems.com/global/en/job/133380BR?ph_id=133380BR"
     ]
   },
   {
@@ -35157,7 +35174,8 @@
     "domain": "https://mantech.avature.net",
     "page": "",
     "urls": [
-      "https://mantech.avature.net/en_US/careers/JobDetail/67115"
+      "https://mantech.avature.net/en_US/careers/JobDetail/67115",
+      "https://mantech.avature.net/en_US/careers/JobDetail/67285"
     ]
   },
   {
@@ -36235,6 +36253,7 @@
       "https://www.metacareers.com/profile/job_details/1612001497395375",
       "https://www.metacareers.com/profile/job_details/1612676913871919",
       "https://www.metacareers.com/profile/job_details/1612727887131849",
+      "https://www.metacareers.com/profile/job_details/1613613680079904",
       "https://www.metacareers.com/profile/job_details/1613643980303295",
       "https://www.metacareers.com/profile/job_details/1617184846179840",
       "https://www.metacareers.com/profile/job_details/1618611489618646",
@@ -36499,6 +36518,7 @@
       "https://www.metacareers.com/profile/job_details/989949360104790",
       "https://www.metacareers.com/profile/job_details/990953733995858",
       "https://www.metacareers.com/profile/job_details/991877626535287",
+      "https://www.metacareers.com/profile/job_details/992384923485156",
       "https://www.metacareers.com/profile/job_details/996030293506644",
       "https://www.metacareers.com/profile/job_details/998357492128826"
     ]
@@ -41539,6 +41559,16 @@
   },
   {
     "name": "parallel",
+    "ats": "ashby",
+    "identifier": "parallel",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/parallel",
+    "urls": [
+      "https://jobs.ashbyhq.com/parallel/8b4ff118-444c-425a-b33b-f38d8338d87c"
+    ]
+  },
+  {
+    "name": "parallel",
     "ats": "greenhouse",
     "identifier": "parallel",
     "domain": "https://boards.greenhouse.io",
@@ -42211,6 +42241,7 @@
       "https://careers-peraton.icims.com/jobs/177673/systems-engineer/job",
       "https://careers-peraton.icims.com/jobs/178135/junior-level-test-systems-engineer/job",
       "https://careers-peraton.icims.com/jobs/178136/cybersecurity-research-engineer---re-vr/job",
+      "https://careers-peraton.icims.com/jobs/178138/cybersecurity-research-engineer---re-vr/job",
       "https://careers-peraton.icims.com/jobs/178202/quantum-systems-engineer/job",
       "https://careers-peraton.icims.com/jobs/178204/quantum-systems-engineer/job",
       "https://careers-peraton.icims.com/jobs/178209/sitec---systems-engineer---camp-h.m.-smith%2c-hi/job",
@@ -47125,6 +47156,17 @@
     ]
   },
   {
+    "name": "scout-ai",
+    "ats": "ashby",
+    "identifier": "scout-ai",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/scout-ai",
+    "urls": [
+      "https://jobs.ashbyhq.com/scout-ai/7da1991b-f264-4465-8747-8cc5421a9897/application?embed=true",
+      "https://jobs.ashbyhq.com/scout-ai/ad3dd69f-f568-4a7c-abbf-280424bc63ed/application?embed=true"
+    ]
+  },
+  {
     "name": "scoutspace",
     "ats": "greenhouse",
     "identifier": "scoutspace",
@@ -48216,6 +48258,7 @@
       "https://jobs.ashbyhq.com/skydio/2c431bf5-16ad-4ae2-84e6-6e8e3f73c2b2",
       "https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a",
       "https://jobs.ashbyhq.com/skydio/50c27762-20cb-4ca7-83e4-50e2720d8538",
+      "https://jobs.ashbyhq.com/skydio/60a46f73-4cde-4a78-b39e-650c31b3ff57",
       "https://jobs.ashbyhq.com/skydio/79fdda46-4ff5-42c7-b208-55f2084cdb8c/application?embed=true",
       "https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd",
       "https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52",
@@ -49689,6 +49732,7 @@
     "domain": "https://careers.staples.com",
     "page": "https://careers.staples.com/en/search-jobs/resultspost",
     "urls": [
+      "https://careers.staples.com/en/job/austin/full-stack-software-engineer-intern/44412/103788075968",
       "https://careers.staples.com/en/job/framingham/digital-experimentation-analyst/44412/102370987120",
       "https://careers.staples.com/en/job/framingham/microsoft-identity-and-directory-services-engineer/44412/102293090544",
       "https://careers.staples.com/en/job/framingham/software-engineer-intern-marketplace-platform/44412/102779920384",
@@ -50501,6 +50545,7 @@
       "https://jobs.supermicro.com/job/San-Jose-Data-Center-Thermal-Engineer-Cali/1422708700/",
       "https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/?ats=successfactors",
       "https://jobs.supermicro.com/job/San-Jose-Information-Security-Engineer-Cali/1420676300/",
+      "https://jobs.supermicro.com/job/San-Jose-Information-Security-Engineer-Cali/1443918100/",
       "https://jobs.supermicro.com/job/San-Jose-Network-Systems-Engineer-Cali/1432768500/",
       "https://jobs.supermicro.com/job/San-Jose-Software-Engineer-Cali/1335499600/",
       "https://jobs.supermicro.com/job/San-Jose-Software-Engineer-Cali/1430200500/",
@@ -54670,6 +54715,7 @@
     "domain": "https://careers-valiantsolutions.icims.com",
     "page": "https://careers-valiantsolutions.icims.com/jobs/search",
     "urls": [
+      "https://careers-valiantsolutions.icims.com/jobs/7494/cybersecurity-%26-reporting-analyst/job",
       "https://careers-valiantsolutions.icims.com/jobs/7666/cybersecurity-analyst/job",
       "https://careers-valiantsolutions.icims.com/jobs/7844/associate-software-engineer/job",
       "https://careers-valiantsolutions.icims.com/jobs/7975/cybersecurity-engineer/job"
@@ -56299,6 +56345,17 @@
       "https://wellsky.wd1.myworkdayjobs.com/wellskycareers/job/Overland-Park-KS/Red-Team---Sr-Security-Engineer_JR5095-1",
       "https://wellsky.wd1.myworkdayjobs.com/wellskycareers/job/Overland-Park-KS/Software-Engineer_JR5077",
       "https://wellsky.wd1.myworkdayjobs.com/wellskycareers/job/Overland-Park-KS/Sr-Software-Engineer---Remote_JR5258"
+    ]
+  },
+  {
+    "name": "WELLSTAR",
+    "ats": "jazzhr",
+    "identifier": "wellhealthtechnologiescorp.applytojob.com",
+    "domain": "https://wellhealthtechnologiescorp.applytojob.com",
+    "page": "https://wellhealthtechnologiescorp.applytojob.com/apply/jobs",
+    "urls": [
+      "https://wellhealthtechnologiescorp.applytojob.com/apply/5kq5CE1n76/Junior-Software-Developer",
+      "https://wellhealthtechnologiescorp.applytojob.com/apply/URnVV0S4yQ/Junior-Software-Developer"
     ]
   },
   {
