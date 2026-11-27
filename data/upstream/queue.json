@@ -1,5 +1,5 @@
 {
-  "commit": "e049478209d621704616198dd3eecfbe87999d2d",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2797,6 +2797,16 @@
       "location": "San Jose, CA, US, 95128",
       "country": "USA",
       "waitedSince": "2026-11-27T08:16:26.574Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Tesco",
+      "role": "Software Development Engineer 1",
+      "link": "https://tesco.avature.net/en_GB/careers/JobDetail/218753",
+      "location": "United Kingdom",
+      "country": "UK",
+      "waitedSince": "2026-11-27T16:58:09.054Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }

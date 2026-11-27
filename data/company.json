@@ -32938,6 +32938,7 @@
       "https://jobs.l3harris.com/job/Herndon-Software-Engineer-Intern-VA-20171/1413343400/?ats=successfactors",
       "https://jobs.l3harris.com/job/Huntsville-Specialist%2C-Systems-Engineer-AL-35806/1439336500/",
       "https://jobs.l3harris.com/job/Londonderry-Specialist%2C-Manufacturing-Engineering-%28software%29-NH-03053/1437492200/",
+      "https://jobs.l3harris.com/job/Londonderry-Specialist%2C-Software-Engineer-LabVIEW-NH-03053/1435229100/",
       "https://jobs.l3harris.com/job/Lynchburg-Software-Engineer-Intern-VA-24501-6952/1428447300/?ats=successfactors",
       "https://jobs.l3harris.com/job/Lynchburg-Software-Engineer-Intern-VA-24501-6952/1428447700/?ats=successfactors",
       "https://jobs.l3harris.com/job/Melbourne-Associate,-Software-Engineer-1-FL-32934/1422829700/?ats=successfactors",
@@ -33017,6 +33018,7 @@
       "https://jobs.l3harris.com/job/Salt-Lake-City-Sr-Associate,-Software-Engineer-UT-84116/1429205900/?ats=successfactors",
       "https://jobs.l3harris.com/job/Salt-Lake-City-Systems-Engineering-Intern-UT-84116/1438190600/",
       "https://jobs.l3harris.com/job/San-Diego-Software-Engineering-Intern-CA-92123/1428452400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/San-Diego-Specialist%2C-Software-Engineering-CA-92123/1445041100/",
       "https://jobs.l3harris.com/job/State-College-Specialist%2C-Systems-Engineering-PA-16803/1414386700/",
       "https://jobs.l3harris.com/job/Sunrise-Software-Engineer-Intern-FL-33323/1428446900/?ats=successfactors",
       "https://jobs.l3harris.com/job/Sunrise-Software-Engineering-Intern-FL-33323/1435085400/?ats=successfactors",
@@ -51477,6 +51479,16 @@
       "https://jobs.ashbyhq.com/terranova/a8e5a8d2-4af3-4736-b66e-e0804447f7a0/application?embed=true",
       "https://jobs.ashbyhq.com/terranova/ab65c694-e140-4efe-b7f7-abca43e48ba7",
       "https://jobs.ashbyhq.com/terranova/b6ce03c4-07b6-45e1-94e9-24b3ec17d942"
+    ]
+  },
+  {
+    "name": "tesco.avature.net",
+    "ats": "none",
+    "identifier": "tesco.avature.net",
+    "domain": "https://tesco.avature.net",
+    "page": "",
+    "urls": [
+      "https://tesco.avature.net/en_GB/careers/JobDetail/218753"
     ]
   },
   {
