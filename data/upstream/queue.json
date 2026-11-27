@@ -1,5 +1,5 @@
 {
-  "commit": "d22b9f09ab2a05982df7a33a2b0fae7d1cf8f049",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2326,7 +2326,7 @@
       "country": "Unsure",
       "waitedSince": "2026-11-23T19:15:43.122Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:e1d07d52-90d5-4ce4-ab29-1db026f4b8d9",
@@ -2343,6 +2343,18 @@
         {
           "id": "self:556f0636-01e8-4b48-b3db-6c1da2609fba",
           "at": "2026-11-26T22:43:05.646Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:0dae5e3f-032c-4973-862a-dafdb44f3aa8",
+          "at": "2026-11-27T02:08:42.398Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -2412,7 +2424,21 @@
       "country": "USA",
       "waitedSince": "2026-11-23T19:15:43.141Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:99afc8b3-e58b-421a-ad67-2fbe8eca34fa",
+          "at": "2026-11-27T02:08:42.398Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Generalmotors",
@@ -2651,6 +2677,76 @@
       "location": "Ashburn, VA",
       "country": "USA",
       "waitedSince": "2026-11-26T04:38:13.784Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer - AWS Identity & Access Management, AWS Identity",
+      "link": "https://amazon.jobs/en/jobs/10438698",
+      "location": "US, WA, Seattle",
+      "country": "USA",
+      "waitedSince": "2026-11-27T02:09:56.432Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Meta",
+      "role": "Software Engineer, Endpoint Networking (Technical Leadership)",
+      "link": "https://www.metacareers.com/profile/job_details/1603944021501959",
+      "location": "Bellevue, WA, Menlo Park, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-27T02:09:56.432Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "PACCAR",
+      "role": "Vehicle Calibration Engineer - Software Integration",
+      "link": "https://jobs.paccar.com/job/Mount-Vernon-Vehicle-Calibration-Engineer-Software-Integration-WA-98273-9671/1452619933/",
+      "location": "Mount Vernon, WA, US, 98273-9671",
+      "country": "USA",
+      "waitedSince": "2026-11-27T02:09:56.432Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "SoFi",
+      "role": "Data Scientist",
+      "link": "https://sofi.com/careers/job/8197871003?gh_jid=8197871003",
+      "location": "Cottonwood Heights, Utah, United States, Jacksonville - FL",
+      "country": "USA",
+      "waitedSince": "2026-11-27T02:09:56.433Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Verizon",
+      "role": "Sr Engr Cslt-AI/ML Engineering",
+      "link": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Chennai-India/Sr-Engr-Cslt-AI-ML-Engineering_R-1104124",
+      "location": "2 Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-27T02:09:56.433Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Verizon",
+      "role": "Princ Engr-AI Science",
+      "link": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Chennai-India/Princ-Engr-AI-Science_R-1104263",
+      "location": "2 Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-27T02:09:56.434Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Verizon",
+      "role": "Sr Engr Cslt-Data Science",
+      "link": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Chennai-India/Sr-Engr-Cslt-Data-Science_R-1104368",
+      "location": "2 Locations",
+      "country": "Unsure",
+      "waitedSince": "2026-11-27T02:09:56.434Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
