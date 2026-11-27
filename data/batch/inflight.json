@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "batches/klmlha4ms0x6pqkq7np0cwb57wtwg9xao8fl",
+    "submittedAt": "2026-11-27T18:09:39.271Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Clera",
+        "role": "Full-Stack Software Engineer, Design",
+        "link": "https://jobs.ashbyhq.com/Clera/923297b2-36b8-4901-9f85-066b80f702f7",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer lll, Android Velocity and Quality AI Agents",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/106571399648158406-software-engineer-lll-android-velocity-and-quality-ai-agents?sort_by=date&page=1",
+        "location": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Super Micro Computer",
+        "role": "Software QA Engineer(TC29814)",
+        "link": "https://jobs.supermicro.com/job/Bade-Software-QA-Engineer%28TC29814%29-Taiw/1415541300/",
+        "location": "Bade, Taiwan, TW",
+        "country": "Taiwan"
+      }
+    ]
+  }
+]
