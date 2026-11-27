@@ -7695,6 +7695,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/atoms/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/atoms/jobs/8356071002",
+      "https://job-boards.greenhouse.io/atoms/jobs/8356100002",
       "https://job-boards.greenhouse.io/atoms/jobs/8558410002",
       "https://job-boards.greenhouse.io/atoms/jobs/8567713002",
       "https://job-boards.greenhouse.io/atoms/jobs/8584382002",
@@ -19287,7 +19288,8 @@
       "https://job-boards.greenhouse.io/cssmerge/jobs/8938600002",
       "https://job-boards.greenhouse.io/cssmerge/jobs/8948543002",
       "https://job-boards.greenhouse.io/cssmerge/jobs/8948819002",
-      "https://job-boards.greenhouse.io/cssmerge/jobs/8948844002"
+      "https://job-boards.greenhouse.io/cssmerge/jobs/8948844002",
+      "https://job-boards.greenhouse.io/cssmerge/jobs/8963704002"
     ]
   },
   {
@@ -20108,6 +20110,7 @@
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/302184",
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/302373",
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/302717",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/D11246",
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/D12110",
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/R271283",
       "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/R287298"
@@ -36787,7 +36790,8 @@
       "https://micron.eightfold.ai/careers/job/45640924?domain=micron.com&8fold_id=45640924",
       "https://micron.eightfold.ai/careers/job/45749815?domain=micron.com&8fold_id=45749815",
       "https://micron.eightfold.ai/careers/job/45750303?domain=micron.com&8fold_id=45750303",
-      "https://micron.eightfold.ai/careers/job/45750319?domain=micron.com&8fold_id=45750319"
+      "https://micron.eightfold.ai/careers/job/45750319?domain=micron.com&8fold_id=45750319",
+      "https://micron.eightfold.ai/careers/job/45769054?domain=micron.com&8fold_id=45769054"
     ]
   },
   {
@@ -41145,6 +41149,16 @@
       "https://careers-origamirisk.icims.com/jobs/4602/site-reliability-engineer/job",
       "https://careers-origamirisk.icims.com/jobs/4659/devops-engineer%2c-platform/job",
       "https://careers-origamirisk.icims.com/jobs/4680/software-development-engineer-in-test/job"
+    ]
+  },
+  {
+    "name": "Orion Digital",
+    "ats": "jazzhr",
+    "identifier": "mogo.applytojob.com",
+    "domain": "https://mogo.applytojob.com",
+    "page": "https://mogo.applytojob.com/apply/jobs",
+    "urls": [
+      "https://mogo.applytojob.com/apply/yLhCvCiypq/Junior-Full-Stack-AI-Engineer"
     ]
   },
   {
@@ -50904,6 +50918,16 @@
     "page": "https://synchronyfinancial.wd5.myworkdayjobs.com/wday/cxs/synchronyfinancial/University/jobs",
     "urls": [
       "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/BLP-Intern---Technology_2601695-1"
+    ]
+  },
+  {
+    "name": "Synectic Solutions Inc",
+    "ats": "jazzhr",
+    "identifier": "synecsolu.applytojob.com",
+    "domain": "https://synecsolu.applytojob.com",
+    "page": "https://synecsolu.applytojob.com/apply/jobs",
+    "urls": [
+      "https://synecsolu.applytojob.com/apply/kQT1OASGDG/Software-Engineer-I"
     ]
   },
   {
