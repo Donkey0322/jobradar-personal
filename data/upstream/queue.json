@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "e049478209d621704616198dd3eecfbe87999d2d",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2424,7 +2424,7 @@
       "country": "Unsure",
       "waitedSince": "2026-11-24T04:46:49.727Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:bac766f8-5b60-45ec-9a59-02fa99cb55d0",
@@ -2449,6 +2449,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:6b7c5596-d45e-4ada-861a-06c5d8bef7ef",
+          "at": "2026-11-27T12:36:38.871Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2460,7 +2472,7 @@
       "country": "Unsure",
       "waitedSince": "2026-11-24T04:46:49.757Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:08f2ebb8-dfa8-45db-8b61-0e5d71b5b378",
@@ -2485,6 +2497,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:2cfc4264-1d9a-44dc-b87a-29c3dfaddf33",
+          "at": "2026-11-27T12:36:38.871Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2496,7 +2520,7 @@
       "country": "USA",
       "waitedSince": "2026-11-24T04:46:49.758Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:7433c1e8-7f4e-42ff-a206-f9454a98ff0d",
@@ -2513,6 +2537,18 @@
         {
           "id": "self:456836e0-a206-4f3d-8b31-c9c7616631e9",
           "at": "2026-11-27T08:14:58.620Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:a84d7824-a23f-40f5-ae5c-a8c8d5d40031",
+          "at": "2026-11-27T12:36:38.871Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -2751,26 +2787,6 @@
       "location": "2 Locations",
       "country": "Unsure",
       "waitedSince": "2026-11-27T02:09:56.434Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Regulatory Business System Analyst",
-      "link": "https://jobs.lever.co/jobgether/c607a938-e08b-4289-85db-8b161b108f0b",
-      "location": "US",
-      "country": "USA",
-      "waitedSince": "2026-11-27T08:16:26.574Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Jobgether",
-      "role": "Regulatory Business System Analyst - Remote (San Francisco Bay Area)",
-      "link": "https://jobs.lever.co/jobgether/bc25028a-b47a-479b-b709-76991d441a7f",
-      "location": "San Francisco Bay Area",
-      "country": "USA",
-      "waitedSince": "2026-11-27T08:16:26.574Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     },
