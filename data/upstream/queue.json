@@ -1,5 +1,5 @@
 {
-  "commit": "d302f270233b12583eacfa4946f053d0912c82f4",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2437,6 +2437,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:84802c9e-0e79-4fab-8afa-954ae43e6a01",
+          "at": "2026-11-27T08:14:58.620Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2461,6 +2473,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:d7225fe2-5df7-46e5-8ab8-43d5987102b3",
+          "at": "2026-11-27T08:14:58.620Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2477,6 +2501,18 @@
         {
           "id": "self:7433c1e8-7f4e-42ff-a206-f9454a98ff0d",
           "at": "2026-11-27T06:25:00.189Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:456836e0-a206-4f3d-8b31-c9c7616631e9",
+          "at": "2026-11-27T08:14:58.620Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -2715,6 +2751,36 @@
       "location": "2 Locations",
       "country": "Unsure",
       "waitedSince": "2026-11-27T02:09:56.434Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Jobgether",
+      "role": "Regulatory Business System Analyst",
+      "link": "https://jobs.lever.co/jobgether/c607a938-e08b-4289-85db-8b161b108f0b",
+      "location": "US",
+      "country": "USA",
+      "waitedSince": "2026-11-27T08:16:26.574Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Jobgether",
+      "role": "Regulatory Business System Analyst - Remote (San Francisco Bay Area)",
+      "link": "https://jobs.lever.co/jobgether/bc25028a-b47a-479b-b709-76991d441a7f",
+      "location": "San Francisco Bay Area",
+      "country": "USA",
+      "waitedSince": "2026-11-27T08:16:26.574Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "NetApp, Inc.",
+      "role": "Software Engineer - Core Systems and Storage Roles (Multiple Individual Contributor Levels)",
+      "link": "https://jobs.netapp.com/job/San-Jose-Software-Engineer-Core-Systems-and-Storage-Roles-%28Multiple-Individual-Contributor-Levels%29-CA-95128/1371885500/",
+      "location": "San Jose, CA, US, 95128",
+      "country": "USA",
+      "waitedSince": "2026-11-27T08:16:26.574Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
