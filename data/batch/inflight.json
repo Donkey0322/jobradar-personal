@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "name": "batches/hgonbbqck1xo68bkjg9ffmllwfxzdb5ktirm",
+    "submittedAt": "2026-11-27T08:17:05.396Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Careers.publicisgroupe.com",
+        "role": "Data Analyst (Data Transformation)",
+        "link": "https://careers.publicisgroupe.com/jobs/188309?icims=1",
+        "location": "Singapore, Singapore",
+        "country": "Singapore"
+      },
+      {
+        "company": "Publicis Groupe Holdings B.V",
+        "role": "Data Analyst (Data Transformation)",
+        "link": "https://publicisgroupe.jibeapply.com/jobs/188309?icims=1",
+        "location": "Singapore, Singapore",
+        "country": "Singapore"
+      }
+    ]
+  }
+]
