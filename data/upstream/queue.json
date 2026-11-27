@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "4c236fa16cb43c881cb2fed83e5773b96264cf57",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2417,30 +2417,6 @@
       ]
     },
     {
-      "company": "Trinzic",
-      "role": "Information System Security Engineer (ISSE)",
-      "link": "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Maryland/Information-System-Security-Engineer--ISSE-_R2127412",
-      "location": "Maryland",
-      "country": "USA",
-      "waitedSince": "2026-11-23T19:15:43.141Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting",
-      "attempts": [
-        {
-          "id": "self:99afc8b3-e58b-421a-ad67-2fbe8eca34fa",
-          "at": "2026-11-27T02:08:42.398Z",
-          "round": 0,
-          "failure": {
-            "stage": "fetch",
-            "error": {
-              "code": 429,
-              "desc": "Too Many Requests"
-            }
-          }
-        }
-      ]
-    },
-    {
       "company": "Generalmotors",
       "role": "HR Data Engineer",
       "link": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Remote---United-States/HR-Data-Engineer_JR-202624233-2",
@@ -2677,46 +2653,6 @@
       "location": "Ashburn, VA",
       "country": "USA",
       "waitedSince": "2026-11-26T04:38:13.784Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer - AWS Identity & Access Management, AWS Identity",
-      "link": "https://amazon.jobs/en/jobs/10438698",
-      "location": "US, WA, Seattle",
-      "country": "USA",
-      "waitedSince": "2026-11-27T02:09:56.432Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Meta",
-      "role": "Software Engineer, Endpoint Networking (Technical Leadership)",
-      "link": "https://www.metacareers.com/profile/job_details/1603944021501959",
-      "location": "Bellevue, WA, Menlo Park, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-27T02:09:56.432Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "PACCAR",
-      "role": "Vehicle Calibration Engineer - Software Integration",
-      "link": "https://jobs.paccar.com/job/Mount-Vernon-Vehicle-Calibration-Engineer-Software-Integration-WA-98273-9671/1452619933/",
-      "location": "Mount Vernon, WA, US, 98273-9671",
-      "country": "USA",
-      "waitedSince": "2026-11-27T02:09:56.432Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "SoFi",
-      "role": "Data Scientist",
-      "link": "https://sofi.com/careers/job/8197871003?gh_jid=8197871003",
-      "location": "Cottonwood Heights, Utah, United States, Jacksonville - FL",
-      "country": "USA",
-      "waitedSince": "2026-11-27T02:09:56.433Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     },
