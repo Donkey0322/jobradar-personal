@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "d302f270233b12583eacfa4946f053d0912c82f4",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2424,17 +2424,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-24T04:46:49.727Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Microsoft",
-      "role": "Software Engineer-Securing AI",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557073425?domain=microsoft.com&8fold_id=1970393557073425",
-      "location": "United States, Washington, Redmond",
-      "country": "USA",
-      "waitedSince": "2026-11-24T04:46:49.749Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:bac766f8-5b60-45ec-9a59-02fa99cb55d0",
+          "at": "2026-11-27T06:25:00.189Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Sierraspace",
@@ -2444,7 +2448,21 @@
       "country": "Unsure",
       "waitedSince": "2026-11-24T04:46:49.757Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:08f2ebb8-dfa8-45db-8b61-0e5d71b5b378",
+          "at": "2026-11-27T06:25:00.189Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Sierraspace",
@@ -2454,7 +2472,21 @@
       "country": "USA",
       "waitedSince": "2026-11-24T04:46:49.758Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:7433c1e8-7f4e-42ff-a206-f9454a98ff0d",
+          "at": "2026-11-27T06:25:00.189Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "The MITRE Corporation",
@@ -2683,26 +2715,6 @@
       "location": "2 Locations",
       "country": "Unsure",
       "waitedSince": "2026-11-27T02:09:56.434Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Orion Digital",
-      "role": "Junior Full Stack AI Engineer",
-      "link": "https://mogo.applytojob.com/apply/yLhCvCiypq/Junior-Full-Stack-AI-Engineer",
-      "location": "Remote in Canada",
-      "country": "Canada",
-      "waitedSince": "2026-11-27T04:40:17.009Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Synectic Solutions",
-      "role": "Software Engineer 1",
-      "link": "https://synecsolu.applytojob.com/apply/kQT1OASGDG/Software-Engineer-I",
-      "location": "Norco, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-27T04:40:17.009Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
