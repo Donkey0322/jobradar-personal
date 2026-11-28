@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "498473d158e8458963ef6b48eb36712c4b74df55",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2689,7 +2689,7 @@
       "country": "USA",
       "waitedSince": "2026-11-25T03:32:04.994Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:7050b0c7-c001-4079-8876-eb73f78498ed",
@@ -2714,6 +2714,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:c72ea8aa-82b3-40e8-ae32-3977a5efc63a",
+          "at": "2026-11-28T06:00:21.463Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2725,7 +2737,7 @@
       "country": "USA",
       "waitedSince": "2026-11-25T03:32:05.020Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:0f2472cc-18ca-4fbc-aa83-7cf2a3264c7e",
@@ -2750,6 +2762,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:61924936-592c-4d2c-bb73-ed40a064bb43",
+          "at": "2026-11-28T06:00:21.463Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2761,7 +2785,22 @@
       "country": "Canada",
       "waitedSince": "2026-11-25T05:30:35.086Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "failed",
+      "attempts": [
+        {
+          "id": "self:ce71a293-129f-494b-a60a-f8cc8bc81b61",
+          "at": "2026-11-28T06:00:21.463Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 404,
+              "desc": "No data in response",
+              "failure": "closed"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Apply.deloitte.com",
