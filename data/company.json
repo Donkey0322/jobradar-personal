@@ -4220,6 +4220,8 @@
       "https://amazon.jobs/en/jobs/10615936",
       "https://amazon.jobs/en/jobs/10615968",
       "https://amazon.jobs/en/jobs/10615969",
+      "https://amazon.jobs/en/jobs/10615996",
+      "https://amazon.jobs/en/jobs/10616059",
       "https://amazon.jobs/en/jobs/2893777",
       "https://amazon.jobs/en/jobs/3087196",
       "https://amazon.jobs/en/jobs/3110595",
@@ -12812,7 +12814,8 @@
       "https://searchcareers.caci.com/careers/job/1443154748228?domain=caci.com&8fold_id=1443154748228",
       "https://searchcareers.caci.com/careers/job/1443154748251?domain=caci.com&8fold_id=1443154748251",
       "https://searchcareers.caci.com/careers/job/1443154765116?domain=caci.com&8fold_id=1443154765116",
-      "https://searchcareers.caci.com/careers/job/1443154771358?domain=caci.com&8fold_id=1443154771358"
+      "https://searchcareers.caci.com/careers/job/1443154771358?domain=caci.com&8fold_id=1443154771358",
+      "https://searchcareers.caci.com/careers/job/1443154810454?domain=caci.com&8fold_id=1443154810454"
     ]
   },
   {
@@ -16299,12 +16302,14 @@
       "https://careers.cargill.com/en/job/bengaluru/associate-data-engineer/23251/102025554048",
       "https://careers.cargill.com/en/job/bengaluru/associate-professional-software-engineering/23251/102025562464",
       "https://careers.cargill.com/en/job/bengaluru/data-engineer/23251/102004366432",
+      "https://careers.cargill.com/en/job/bengaluru/data-engineer/23251/103875415824",
       "https://careers.cargill.com/en/job/bengaluru/platform-engineer/23251/96288117680",
       "https://careers.cargill.com/en/job/bengaluru/software-engineer-ag-and-trading/23251/102151528944",
       "https://careers.cargill.com/en/job/bengaluru/software-engineer-erp/23251/102499209968",
       "https://careers.cargill.com/en/job/bengaluru/software-engineer-food/23251/100811194816",
       "https://careers.cargill.com/en/job/bengaluru/software-engineer/23251/101602664624",
       "https://careers.cargill.com/en/job/bengaluru/software-engineer/23251/103152142944",
+      "https://careers.cargill.com/en/job/bengaluru/software-engineer/23251/103880351040",
       "https://careers.cargill.com/en/job/campinas/backend-software-engineer-pricefx-sao-paulo/23251/101871176064",
       "https://careers.cargill.com/en/job/campinas/software-engineer-backend-campinas/23251/103704616832",
       "https://careers.cargill.com/en/job/campinas/software-engineer-frontend-campinas/23251/103704616848",
@@ -17447,6 +17452,7 @@
       "https://jobs.citi.com/job/mississauga/avp-full-stack-java-angular-developer/287/102161056064",
       "https://jobs.citi.com/job/mississauga/big-data-application-developer-avp/287/103474324784",
       "https://jobs.citi.com/job/mississauga/big-data-engineer-avp/287/103438292960",
+      "https://jobs.citi.com/job/mississauga/data-engineer/287/102161045232",
       "https://jobs.citi.com/job/mississauga/java-backend-developer/287/103482430944",
       "https://jobs.citi.com/job/mississauga/python-ai-developer/287/103573083376",
       "https://jobs.citi.com/job/mississauga/software-engineer-design-systems-and-ai-tooling/287/103130033440",
@@ -28080,6 +28086,7 @@
     "domain": "https://homedepot.wd5.myworkdayjobs.com/careerdepotcanada",
     "page": "https://homedepot.wd5.myworkdayjobs.com/wday/cxs/homedepot/careerdepotcanada/jobs",
     "urls": [
+      "https://homedepot.wd5.myworkdayjobs.com/CareerDepotCanada/job/CANADA-STORE-SUPPORT-CENTER---7000/Intern--Full-Stack-Software-Developer_Req195012",
       "https://homedepot.wd5.myworkdayjobs.com/careerdepotcanada/job/ASKUITY-OFFICE-TORONTO---2595/Data-Scientist--Askuity-division-_Req191919"
     ]
   },
@@ -31600,9 +31607,11 @@
       "https://johndeere.eightfold.ai/careers/job/137484403529?domain=johndeere.com&8fold_id=137484403529",
       "https://johndeere.eightfold.ai/careers/job/137484432968?domain=johndeere.com&8fold_id=137484432968",
       "https://johndeere.eightfold.ai/careers/job/137484510887?domain=johndeere.com&8fold_id=137484510887",
+      "https://johndeere.eightfold.ai/careers/job/137484524527?domain=johndeere.com&8fold_id=137484524527",
       "https://johndeere.eightfold.ai/careers/job/137484579916?domain=johndeere.com&8fold_id=137484579916",
       "https://johndeere.eightfold.ai/careers/job/137484581340?domain=johndeere.com&8fold_id=137484581340",
-      "https://johndeere.eightfold.ai/careers/job/137484602503?domain=johndeere.com&8fold_id=137484602503"
+      "https://johndeere.eightfold.ai/careers/job/137484602503?domain=johndeere.com&8fold_id=137484602503",
+      "https://johndeere.eightfold.ai/careers/job/137484684243?domain=johndeere.com&8fold_id=137484684243"
     ]
   },
   {
@@ -34131,6 +34140,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477363531?domain=lockheedmartin.com&8fold_id=996477363531",
       "https://lockheedmartin.eightfold.ai/careers/job/996477368688?domain=lockheedmartin.com&8fold_id=996477368688",
       "https://lockheedmartin.eightfold.ai/careers/job/996477373974?domain=lockheedmartin.com&8fold_id=996477373974",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477378595?domain=lockheedmartin.com&8fold_id=996477378595",
       "https://lockheedmartin.eightfold.ai/careers/job/996477378808?domain=lockheedmartin.com&8fold_id=996477378808",
       "https://lockheedmartin.eightfold.ai/careers/job/996477384671?domain=lockheedmartin.com&8fold_id=996477384671",
       "https://lockheedmartin.eightfold.ai/careers/job/996477384815?domain=lockheedmartin.com&8fold_id=996477384815",
@@ -46515,6 +46525,7 @@
     "domain": "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job",
     "page": "https://ejia.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
+      "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107258",
       "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107444"
     ]
   },
@@ -49721,6 +49732,7 @@
       "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/Hyderabad-Telangana/Sr-DevSecOps-Engineer_332474",
       "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/Hyderabad-Telangana/Sr-Platform-Engineer_332498-1",
       "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/IN---CHENNAI-PRESTIGE-POLYGON-BUILDING/Data-Engineer--Data-Platforms_330903-2",
+      "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/IN---HYDERABAD-ORION/Azure-Cloud-Engineer_332459-2",
       "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/MY---PENANG-38-JALAN-SULTAN-AHMAD-SHAH---LOTS-302-701--901/Data-Analyst--Mandarin-Translations_328656-2",
       "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/New-York-NY/Analyst--Security-Technology_332313-1",
       "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/New-York-NY/Machine-Learning-Engineer_330796-2",
@@ -50648,7 +50660,11 @@
       "https://stripe.com/jobs/search?gh_jid=8411988",
       "https://stripe.com/jobs/search?gh_jid=8414532",
       "https://stripe.com/jobs/search?gh_jid=8421000",
-      "https://stripe.com/jobs/search?gh_jid=8421091"
+      "https://stripe.com/jobs/search?gh_jid=8421091",
+      "https://stripe.com/jobs/search?gh_jid=8421367",
+      "https://stripe.com/jobs/search?gh_jid=8421387",
+      "https://stripe.com/jobs/search?gh_jid=8421434",
+      "https://stripe.com/jobs/search?gh_jid=8421452"
     ]
   },
   {
@@ -57369,6 +57385,7 @@
       "https://wyetech.applytojob.com/apply/nTE9DV2arY",
       "https://wyetech.applytojob.com/apply/orUQyoZnAb",
       "https://wyetech.applytojob.com/apply/rpVGsNWeCC",
+      "https://wyetech.applytojob.com/apply/tsmOJ9inQB",
       "https://wyetech.applytojob.com/apply/vH1nr4O9nO/Cloud-Software-Engineer-1",
       "https://wyetech.applytojob.com/apply/wjTM8V0PHd",
       "https://wyetech.applytojob.com/apply/xNlMYRziOa",
