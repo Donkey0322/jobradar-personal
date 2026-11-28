@@ -1,5 +1,5 @@
 {
-  "commit": "498473d158e8458963ef6b48eb36712c4b74df55",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2939,6 +2939,26 @@
       "location": "Santa Clara, CA",
       "country": "USA",
       "waitedSince": "2026-11-28T04:12:23.964Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Amazon",
+      "role": "Data Engineer I, SPIV Data Engineering",
+      "link": "https://amazon.jobs/en/jobs/10616076",
+      "location": "US, WA, Seattle",
+      "country": "USA",
+      "waitedSince": "2026-11-28T07:38:35.293Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "Capgemini",
+      "role": "Forward Deployed Engineer",
+      "link": "https://careers.capgemini.com/job/New-York%2C-NY-Forward-Deployed-Engineer-NY-10001/1453043233/",
+      "location": "New York, NY, US",
+      "country": "USA",
+      "waitedSince": "2026-11-28T07:38:35.293Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
