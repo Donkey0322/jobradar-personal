@@ -1,5 +1,5 @@
 {
-  "commit": "08fc9f641760ea85496895afc705a32d75e74068",
+  "commit": null,
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2568,7 +2568,7 @@
       "country": "USA",
       "waitedSince": "2026-11-24T23:20:37.294Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:9a3e91b6-bc83-4245-ba7d-8592372595e0",
@@ -2593,6 +2593,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:e3c4f480-28f9-4813-9701-44c479e3b480",
+          "at": "2026-11-28T04:12:19.016Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2604,7 +2616,7 @@
       "country": "USA",
       "waitedSince": "2026-11-24T23:20:37.294Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting",
+      "status": "failed",
       "attempts": [
         {
           "id": "self:d8c8ede6-5fbd-4095-8b18-c50731a3d64b",
@@ -2621,6 +2633,18 @@
         {
           "id": "self:35ad9db3-537a-488b-b06d-c6a713a268b7",
           "at": "2026-11-28T03:58:34.909Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:d95488d4-c981-4a6e-ac07-34403ff1f8f1",
+          "at": "2026-11-28T04:12:19.016Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -2678,6 +2702,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:b981b052-84f4-4f39-859d-be980b748d4b",
+          "at": "2026-11-28T04:12:19.016Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2694,6 +2730,18 @@
         {
           "id": "self:0f2472cc-18ca-4fbc-aa83-7cf2a3264c7e",
           "at": "2026-11-28T03:58:34.909Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:b07c04ee-048e-4d34-a0f0-6bf09f1e6334",
+          "at": "2026-11-28T04:12:19.016Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -2842,6 +2890,16 @@
       "location": "United Kingdom",
       "country": "UK",
       "waitedSince": "2026-11-27T16:58:09.054Z",
+      "waitedSinceSource": "confirmed",
+      "status": "waiting"
+    },
+    {
+      "company": "CHEP",
+      "role": "Software Developer - Applications",
+      "link": "https://brambles.wd5.myworkdayjobs.com/en-US/Brambles_Careers/job/Santa-Clara-California-USA/Software-Developer---Applications_JR25540",
+      "location": "Santa Clara, CA",
+      "country": "USA",
+      "waitedSince": "2026-11-28T04:12:23.964Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
