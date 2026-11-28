@@ -1,5 +1,5 @@
 {
-  "commit": null,
+  "commit": "08fc9f641760ea85496895afc705a32d75e74068",
   "jobs": [
     {
       "company": "Corebridgefinancial",
@@ -2581,6 +2581,18 @@
               "desc": "Too Many Requests"
             }
           }
+        },
+        {
+          "id": "self:3123d8f0-a111-4f6a-9894-f003be4d76dd",
+          "at": "2026-11-28T03:58:34.909Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
         }
       ]
     },
@@ -2597,6 +2609,18 @@
         {
           "id": "self:d8c8ede6-5fbd-4095-8b18-c50731a3d64b",
           "at": "2026-11-28T01:25:58.295Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        },
+        {
+          "id": "self:35ad9db3-537a-488b-b06d-c6a713a268b7",
+          "at": "2026-11-28T03:58:34.909Z",
           "round": 0,
           "failure": {
             "stage": "fetch",
@@ -2641,7 +2665,21 @@
       "country": "USA",
       "waitedSince": "2026-11-25T03:32:04.994Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:7050b0c7-c001-4079-8876-eb73f78498ed",
+          "at": "2026-11-28T03:58:34.909Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Westernalliancebank",
@@ -2651,7 +2689,21 @@
       "country": "USA",
       "waitedSince": "2026-11-25T03:32:05.020Z",
       "waitedSinceSource": "confirmed",
-      "status": "waiting"
+      "status": "waiting",
+      "attempts": [
+        {
+          "id": "self:0f2472cc-18ca-4fbc-aa83-7cf2a3264c7e",
+          "at": "2026-11-28T03:58:34.909Z",
+          "round": 0,
+          "failure": {
+            "stage": "fetch",
+            "error": {
+              "code": 429,
+              "desc": "Too Many Requests"
+            }
+          }
+        }
+      ]
     },
     {
       "company": "Prolucid Technologies",
@@ -2790,106 +2842,6 @@
       "location": "United Kingdom",
       "country": "UK",
       "waitedSince": "2026-11-27T16:58:09.054Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Controls Integration Engineer, One MHS | Systems Integration and Flow",
-      "link": "https://amazon.jobs/en/jobs/10616059",
-      "location": "US, OH, Cincinnati",
-      "country": "USA",
-      "waitedSince": "2026-11-28T01:27:09.854Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Amazon",
-      "role": "Software Development Engineer, Amazon Leo - GNC SW",
-      "link": "https://amazon.jobs/en/jobs/10615996",
-      "location": "US, WA, Redmond",
-      "country": "USA",
-      "waitedSince": "2026-11-28T01:27:09.855Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Caci",
-      "role": "Cyber Data Analysis Engineer (Elasticsearch)",
-      "link": "https://searchcareers.caci.com/careers/job/1443154810454?domain=caci.com&8fold_id=1443154810454",
-      "location": "Springfield, VA, US",
-      "country": "USA",
-      "waitedSince": "2026-11-28T01:27:09.855Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "S&C",
-      "role": "Design Engineer (Power System Analysis)",
-      "link": "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107258",
-      "location": "Chicago, IL, United States",
-      "country": "USA",
-      "waitedSince": "2026-11-28T01:27:09.855Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Spgi",
-      "role": "Azure Cloud Engineer",
-      "link": "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/IN---HYDERABAD-ORION/Azure-Cloud-Engineer_332459-2",
-      "location": "4 Locations",
-      "country": "Unsure",
-      "waitedSince": "2026-11-28T01:27:09.855Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Stripe",
-      "role": "Software Engineer",
-      "link": "https://stripe.com/jobs/search?gh_jid=8421434",
-      "location": "South San Francisco, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-28T01:27:09.856Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Stripe",
-      "role": "Software Engineer",
-      "link": "https://stripe.com/jobs/search?gh_jid=8421452",
-      "location": "South San Francisco, CA ",
-      "country": "USA",
-      "waitedSince": "2026-11-28T01:27:09.856Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Stripe",
-      "role": "Software Engineer, Backend",
-      "link": "https://stripe.com/jobs/search?gh_jid=8421387",
-      "location": "South San Francisco, CA",
-      "country": "USA",
-      "waitedSince": "2026-11-28T01:27:09.857Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Stripe",
-      "role": "Software Engineer, Reporting Platform",
-      "link": "https://stripe.com/jobs/search?gh_jid=8421367",
-      "location": "New York, NY",
-      "country": "USA",
-      "waitedSince": "2026-11-28T01:27:09.857Z",
-      "waitedSinceSource": "confirmed",
-      "status": "waiting"
-    },
-    {
-      "company": "Wyetech",
-      "role": "Splunk SWE3 (DA) Software Engineer",
-      "link": "https://wyetech.applytojob.com/apply/tsmOJ9inQB",
-      "location": "Annapolis Junction, MD",
-      "country": "USA",
-      "waitedSince": "2026-11-28T01:27:09.857Z",
       "waitedSinceSource": "confirmed",
       "status": "waiting"
     }
